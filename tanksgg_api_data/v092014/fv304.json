@@ -1,0 +1,659 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 50,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 14
+            }
+        ],
+        "armor_front": 14,
+        "armor_rear": 14,
+        "armor_side": 14,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.384,
+        "camo_moving": 0.128,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.256,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 19000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB77_FV304/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.4,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.01032,
+                "hull_pos_z": 0,
+                "id": 528,
+                "identifier": "Chassis_GB77_FV304",
+                "max_climb_angle": 25,
+                "max_load": 20700,
+                "name": "FV304",
+                "not_in_shop": false,
+                "price": 9000,
+                "repair_health": 60,
+                "repair_price": 1,
+                "rotation_speed": 20,
+                "tank_id": "GB77_FV304",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.3,
+                "tier": 5,
+                "visual_model": "vehicles/british/GB77_FV304/normal/lod0/Chassis.model",
+                "weight": 8000
+            },
+            {
+                "armor": 20,
+                "brake_force": 21000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB77_FV304/collision_client/Chassis.model",
+                "dispersion_movement": 0.38,
+                "dispersion_rotation": 0.38,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.01032,
+                "hull_pos_z": 0,
+                "id": 529,
+                "identifier": "Chassis_GB77_FV304_2",
+                "max_climb_angle": 25,
+                "max_load": 22700,
+                "name": "FV304 Mk. II",
+                "not_in_shop": false,
+                "price": 15000,
+                "repair_health": 70,
+                "repair_price": 1,
+                "rotation_speed": 22,
+                "tank_id": "GB77_FV304",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.1,
+                "tier": 6,
+                "visual_model": "vehicles/british/GB77_FV304/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/british/GB77_FV304/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Prototype light SPG developed by Vickers. Development started in 1947. However, the prototype was not manufactured until 1950. The design of the SPG was already obsolete by this time, and the project was canceled.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 247,
+                "id": 573,
+                "identifier": "Rolls_Royce_Meteorite_V8",
+                "name": "Rolls-Royce Meteorite V8",
+                "not_in_shop": false,
+                "power": 350,
+                "price": 12000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "GB77_FV304",
+                "tier": 5,
+                "weight": 496
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 247,
+                "id": 574,
+                "identifier": "Rolls_Royce_Meteor_M300",
+                "name": "Rolls-Royce Meteor M300",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 15000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "GB77_FV304",
+                "tier": 5,
+                "weight": 744
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 72.4,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 4.8,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB77_FV304/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.66,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.42,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 130,
+                "id": 883,
+                "identifier": "OQF_25pdr_Gun_Mk_II",
+                "max_ammo": 64,
+                "name": "Q.F. 25-Pr. Gun/How.",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 28500,
+                "reload_time": 8.9,
+                "repair_health": 65,
+                "repair_price": 8,
+                "rotation_speed": 30.625,
+                "tier": 4,
+                "turret_id": 461,
+                "visual_model": "vehicles/british/GB77_FV304/normal/lod0/Gun_01.model",
+                "weight": 510,
+                "yaw_left": -14,
+                "yaw_right": 17
+            },
+            {
+                "Shells": null,
+                "aim_time": 4.8,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB77_FV304/collision_client/Gun_02.model",
+                "depression": 1.5,
+                "dispersion": 0.7,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.42,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 150,
+                "id": 884,
+                "identifier": "_4.5inch_SPG_Howitzer",
+                "max_ammo": 64,
+                "name": "Q.F. 4.5-in. Howitzer",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            1.5
+                        ],
+                        [
+                            1,
+                            1.5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 43000,
+                "reload_time": 13.5,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 5,
+                "turret_id": 462,
+                "visual_model": "vehicles/british/GB77_FV304/normal/lod0/Gun_02.model",
+                "weight": 463,
+                "yaw_left": -14,
+                "yaw_right": 17
+            }
+        ],
+        "health": 224,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB77_FV304",
+        "name": "FV304",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 930000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 603,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB77_FV304",
+                "tier": 7,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 604,
+                "identifier": "N19Mk3",
+                "name": "WS No. 19 Mk. III",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "GB77_FV304",
+                "tier": 8,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 605,
+                "identifier": "N22",
+                "name": "WS No. 22",
+                "not_in_shop": false,
+                "price": 25000,
+                "range": 700,
+                "repair_health": 84,
+                "repair_price": 3,
+                "tank_id": "GB77_FV304",
+                "tier": 8,
+                "weight": 40
+            }
+        ],
+        "repair_price": 7,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 87.6,
+                "damage": 280,
+                "explosion_radius": 1.39,
+                "gold_price": 0,
+                "gravity": 160,
+                "gun_id": 883,
+                "icon": "he",
+                "id": "_25pdr_HE_Mk_1D",
+                "min_penetration": 22,
+                "module_damage": 115,
+                "name": "HE Mk. 1D",
+                "penetration": 22,
+                "penetration_loss": 0,
+                "price": 83,
+                "range": 10000,
+                "speed": 410,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 114.3,
+                "damage": 450,
+                "explosion_radius": 2.22,
+                "gold_price": 0,
+                "gravity": 146,
+                "gun_id": 884,
+                "icon": "he",
+                "id": "_4.5inch_HE_Mk_13",
+                "min_penetration": 28,
+                "module_damage": 155,
+                "name": "HE Mk. XIII",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 250,
+                "range": 10000,
+                "speed": 270,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "FV304",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "fv304",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.794778,
+        "turret_pos_z": -0.8595,
+        "turret_slots": [
+            {
+                "id": 367,
+                "pos_x": 0,
+                "pos_y": 0.794778,
+                "pos_z": -0.8595,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "GB77_FV304"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB77_FV304/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.320255,
+                "gun_pos_z": 0.963301,
+                "health": 56,
+                "id": 461,
+                "identifier": "Turret_1_GB77_FV304",
+                "name": "FV304",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 20,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB77_FV304",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 255,
+                "visual_model": "vehicles/british/GB77_FV304/normal/lod0/Turret_01.model",
+                "weight": 100
+            },
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB77_FV304/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.326922,
+                "gun_pos_z": 1.048317,
+                "health": 56,
+                "id": 462,
+                "identifier": "Turret_2_GB77_FV304",
+                "name": "FV304",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 20,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB77_FV304",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 255,
+                "visual_model": "vehicles/british/GB77_FV304/normal/lod0/Turret_02.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB77_FV304_2",
+                "name": "Chassis_GB77_FV304_2",
+                "parent_key": "chassis-Chassis_GB77_FV304",
+                "price": 5000,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_4.5inch_SPG_Howitzer",
+                "name": "_4.5inch_SPG_Howitzer",
+                "parent_key": "gun-OQF_25pdr_Gun_Mk_II",
+                "price": 4100,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB29_Crusader_5inch",
+                "name": "GB29_Crusader_5inch",
+                "parent_key": "gun-_4.5inch_SPG_Howitzer",
+                "price": 64750,
+                "tank_name": "Crusader SP",
+                "tank_price": 1440000,
+                "tank_slug": "crusader-sp",
+                "tank_tier": 7,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Rolls_Royce_Meteor_M300",
+                "name": "Rolls_Royce_Meteor_M300",
+                "parent_key": "engine-Rolls_Royce_Meteorite_V8",
+                "price": 1650,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N19Mk3",
+                "name": "N19Mk3",
+                "parent_key": "radio-N19Mk2",
+                "price": 4000,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N22",
+                "name": "N22",
+                "parent_key": "radio-N19Mk3",
+                "price": 4500,
+                "type": "radio"
+            }
+        ],
+        "version": "v092014",
+        "visual_model": "vehicles/british/GB77_FV304/normal/lod0/Hull.model",
+        "weight": 11056,
+        "xp_factor": 1
+    }
+}

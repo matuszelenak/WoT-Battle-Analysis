@@ -1,0 +1,503 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 45
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 35,
+        "armor_side": 45,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.339,
+        "camo_moving": 0.169,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.226,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G46_T-25/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.82651,
+                "hull_pos_z": 0,
+                "id": 359,
+                "identifier": "Chassis_T-25",
+                "max_climb_angle": 25,
+                "max_load": 23500,
+                "name": "Pz.Kpfw. T 25",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "G46_T-25",
+                "terrain_hard": 1.26,
+                "terrain_medium": 1.49,
+                "terrain_soft": 2.97,
+                "tier": 5,
+                "visual_model": "vehicles/german/G46_T-25/normal/lod0/Chassis.model",
+                "weight": 4000
+            }
+        ],
+        "collision_model": "vehicles/german/G46_T-25/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The vehicle was developed by the \u0160koda company under the Panzer Development Program initiated by the Heer (German Army land forces). The T-25 existed only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 86,
+                "id": 397,
+                "identifier": "Praga_C9",
+                "name": "\u0160koda V12 19.8 liter 450",
+                "not_in_shop": true,
+                "power": 450,
+                "price": 14300,
+                "repair_health": 42,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G46_T-25",
+                "tier": 4,
+                "weight": 510
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G46_T-25/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 618,
+                "identifier": "_75mm_A18KwK",
+                "max_ammo": 60,
+                "name": "7,5 cm \u0160koda A18",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.380783,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            7
+                        ],
+                        [
+                            0.555556,
+                            7
+                        ],
+                        [
+                            0.619218,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 37360,
+                "reload_time": 4.285714,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 323,
+                "visual_model": "vehicles/german/G46_T-25/normal/lod0/Gun_01.model",
+                "weight": 1520,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 488,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G46_T-25",
+        "name": "Pz.Kpfw. T 25",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 405,
+                "identifier": "FuG7A",
+                "name": "FuG 7 Ausf. F",
+                "not_in_shop": true,
+                "price": 8160,
+                "range": 710,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "G46_T-25",
+                "tier": 6,
+                "weight": 70
+            }
+        ],
+        "repair_price": 3.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 618,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39",
+                "min_penetration": 100,
+                "module_damage": 100,
+                "name": "Pzgr 39",
+                "penetration": 116,
+                "penetration_loss": 0,
+                "price": 70,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 618,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40",
+                "min_penetration": 137,
+                "module_damage": 100,
+                "name": "Pzgr 40",
+                "penetration": 167,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1013,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 618,
+                "icon": "he",
+                "id": "_75mm_Sprg.18",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 810,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz. T 25",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pz-t-25",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedSprings_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.922982,
+        "turret_pos_z": 0.661832,
+        "turret_slots": [
+            {
+                "id": 257,
+                "pos_x": 0,
+                "pos_y": 0.922982,
+                "pos_z": 0.661832,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G46_T-25"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 60,
+                "armor_rear": 35,
+                "armor_side": 60,
+                "collision_model": "vehicles/german/G46_T-25/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.384861,
+                "gun_pos_z": 0.861368,
+                "health": 122,
+                "id": 323,
+                "identifier": "Turret_1_T-25",
+                "name": "Pz.Kpfw. T 25",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 22,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "G46_T-25",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/german/G46_T-25/normal/lod0/Turret_01.model",
+                "weight": 3500
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v092012",
+        "visual_model": "vehicles/german/G46_T-25/normal/lod0/Hull.model",
+        "weight": 10000,
+        "xp_factor": 1.5
+    }
+}

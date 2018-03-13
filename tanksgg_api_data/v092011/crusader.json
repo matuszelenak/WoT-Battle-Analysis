@@ -1,0 +1,1445 @@
+{
+    "tank": {
+        "ammo_rack_health": 170,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 40.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 29.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 28.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 32.7
+            }
+        ],
+        "armor_front": 40.2,
+        "armor_rear": 28.3,
+        "armor_side": 0,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.441,
+        "camo_moving": 0.221,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.294,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 17000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.880846,
+                "hull_pos_z": 0,
+                "id": 562,
+                "identifier": "Chassis_GB20_Crusader",
+                "max_climb_angle": 25,
+                "max_load": 19300,
+                "name": "Crusader Mk. I",
+                "not_in_shop": false,
+                "price": 2000,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "GB20_Crusader",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2,
+                "tier": 4,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Chassis.model",
+                "weight": 6200
+            },
+            {
+                "armor": 15,
+                "brake_force": 20000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.880846,
+                "hull_pos_z": 0,
+                "id": 563,
+                "identifier": "Chassis_GB20_Crusader_2",
+                "max_climb_angle": 25,
+                "max_load": 21000,
+                "name": "Crusader Mk. III",
+                "not_in_shop": false,
+                "price": 9500,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "GB20_Crusader",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.8,
+                "tier": 5,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Chassis.model",
+                "weight": 6200
+            }
+        ],
+        "collision_model": "vehicles/british/GB20_Crusader/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "The Crusader was developed by Nuffield Mechanizations Ltd. from 1938 through 1940. More than 5,300 vehicles were mass-produced from 1941 through 1943. They were most extensively used in the North African \u0441ampaign in 1941\u20131942.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 613,
+                "identifier": "Nuffield_liberty_MKIV",
+                "name": "Nuffield Liberty Mk. III",
+                "not_in_shop": false,
+                "power": 395,
+                "price": 11500,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB20_Crusader",
+                "tier": 4,
+                "weight": 383
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 136,
+                "id": 614,
+                "identifier": "Nuffield_liberty_MKV",
+                "name": "Nuffield Liberty Mk. V",
+                "not_in_shop": false,
+                "power": 410,
+                "price": 12500,
+                "repair_health": 67,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB20_Crusader",
+                "tier": 5,
+                "weight": 383
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 44,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Gun_01.model",
+                "depression": 15,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 924,
+                "identifier": "_2pdr_Gun_Mk_X",
+                "max_ammo": 180,
+                "name": "QF 2-pdr Mk. X",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.097222,
+                            10
+                        ],
+                        [
+                            0.160884,
+                            15
+                        ],
+                        [
+                            0.325227,
+                            15
+                        ],
+                        [
+                            0.388889,
+                            1
+                        ],
+                        [
+                            0.611111,
+                            1
+                        ],
+                        [
+                            0.674773,
+                            15
+                        ],
+                        [
+                            0.839116,
+                            15
+                        ],
+                        [
+                            0.902778,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 6000,
+                "reload_time": 2.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 475,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Gun_01.model",
+                "weight": 130,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Gun_02.model",
+                "depression": 15,
+                "dispersion": 0.55,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 925,
+                "identifier": "_76mm_Howitzer_MkI",
+                "max_ammo": 100,
+                "name": "OQF 3-inch Howitzer Mk. I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.097222,
+                            10
+                        ],
+                        [
+                            0.160884,
+                            15
+                        ],
+                        [
+                            0.325227,
+                            15
+                        ],
+                        [
+                            0.388889,
+                            1
+                        ],
+                        [
+                            0.611111,
+                            1
+                        ],
+                        [
+                            0.674773,
+                            15
+                        ],
+                        [
+                            0.839116,
+                            15
+                        ],
+                        [
+                            0.902778,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4.3,
+                "repair_health": 53,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 475,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Gun_02.model",
+                "weight": 116,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Gun_03.model",
+                "depression": 12,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 926,
+                "identifier": "_2pdr_Gun_Mk_X",
+                "max_ammo": 180,
+                "name": "QF 2-pdr Mk. X",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.111111,
+                            7
+                        ],
+                        [
+                            0.174773,
+                            12
+                        ],
+                        [
+                            0.325227,
+                            12
+                        ],
+                        [
+                            0.388889,
+                            1
+                        ],
+                        [
+                            0.611111,
+                            1
+                        ],
+                        [
+                            0.674773,
+                            12
+                        ],
+                        [
+                            0.825227,
+                            12
+                        ],
+                        [
+                            0.888889,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 6000,
+                "reload_time": 2.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 476,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Gun_03.model",
+                "weight": 130,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Gun_04.model",
+                "depression": 12,
+                "dispersion": 0.55,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 927,
+                "identifier": "_76mm_Howitzer_MkI",
+                "max_ammo": 100,
+                "name": "OQF 3-inch Howitzer Mk. I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.111111,
+                            7
+                        ],
+                        [
+                            0.174773,
+                            12
+                        ],
+                        [
+                            0.325227,
+                            12
+                        ],
+                        [
+                            0.388889,
+                            1
+                        ],
+                        [
+                            0.611111,
+                            1
+                        ],
+                        [
+                            0.674773,
+                            12
+                        ],
+                        [
+                            0.825227,
+                            12
+                        ],
+                        [
+                            0.888889,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4,
+                "repair_health": 53,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 476,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Gun_04.model",
+                "weight": 116,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Gun_05.model",
+                "depression": 12,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 94,
+                "id": 928,
+                "identifier": "QF_6_pounder_Mk_III",
+                "max_ammo": 65,
+                "name": "QF 6-pdr Mk. III",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.111111,
+                            7
+                        ],
+                        [
+                            0.174773,
+                            12
+                        ],
+                        [
+                            0.325227,
+                            12
+                        ],
+                        [
+                            0.388889,
+                            1
+                        ],
+                        [
+                            0.611111,
+                            1
+                        ],
+                        [
+                            0.674773,
+                            12
+                        ],
+                        [
+                            0.825227,
+                            12
+                        ],
+                        [
+                            0.888889,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 27000,
+                "reload_time": 2.2,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 476,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Gun_05.model",
+                "weight": 400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Gun_06.model",
+                "depression": 12,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 104,
+                "id": 929,
+                "identifier": "QF_6_pounder_Mk_V",
+                "max_ammo": 65,
+                "name": "QF 6-pdr Gun Mk. V",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.111111,
+                            7
+                        ],
+                        [
+                            0.174773,
+                            12
+                        ],
+                        [
+                            0.325227,
+                            12
+                        ],
+                        [
+                            0.388889,
+                            1
+                        ],
+                        [
+                            0.611111,
+                            1
+                        ],
+                        [
+                            0.674773,
+                            12
+                        ],
+                        [
+                            0.825227,
+                            12
+                        ],
+                        [
+                            0.888889,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 35000,
+                "reload_time": 2.2,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 476,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Gun_06.model",
+                "weight": 450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 328,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB20_Crusader",
+        "name": "Crusader",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 380000,
+        "radios": [
+            {
+                "health": 80,
+                "id": 650,
+                "identifier": "N9",
+                "name": "WS No. 9",
+                "not_in_shop": false,
+                "price": 3600,
+                "range": 375,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "GB20_Crusader",
+                "tier": 5,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 651,
+                "identifier": "N19Mk1",
+                "name": "WS No. 19 Mk. I",
+                "not_in_shop": false,
+                "price": 15000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "GB20_Crusader",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 652,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB20_Crusader",
+                "tier": 7,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 653,
+                "identifier": "N19Mk3",
+                "name": "WS No. 19 Mk. III",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "GB20_Crusader",
+                "tier": 8,
+                "weight": 40
+            }
+        ],
+        "repair_price": 5.66,
+        "reverse_speed": 22,
+        "shells": [
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 924,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.IXBT",
+                "min_penetration": 66,
+                "module_damage": 54,
+                "name": "APCBC Mk. IXBT",
+                "penetration": 78,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 924,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.2",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 2",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 924,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 925,
+                "icon": "he",
+                "id": "_76mm_HE_MkI",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE Mk. I",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 182,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 925,
+                "icon": "hc",
+                "id": "_76mm_HEAT_MkI",
+                "min_penetration": 100,
+                "module_damage": 105,
+                "name": "HEAT Mk. I",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 182,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 926,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.IXBT",
+                "min_penetration": 66,
+                "module_damage": 54,
+                "name": "APCBC Mk. IXBT",
+                "penetration": 78,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 926,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.2",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 2",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 926,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 927,
+                "icon": "he",
+                "id": "_76mm_HE_MkI",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE Mk. I",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 182,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 927,
+                "icon": "hc",
+                "id": "_76mm_HEAT_MkI",
+                "min_penetration": 100,
+                "module_damage": 105,
+                "name": "HEAT Mk. I",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 182,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 928,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 81,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 105,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 928,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 121,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1026,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 928,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 929,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 95,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 892,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 929,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1115,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 929,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 892,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Crusader",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "crusader",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "enhancedSuspension_Christie_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 1e-06,
+        "turret_pos_y": 0.534131,
+        "turret_pos_z": 0.461662,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 39.1,
+                "armor_rear": 24.7,
+                "armor_side": 19.5,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 39.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 39.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 19.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 24.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 24.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.004074,
+                "gun_pos_y": 0.276168,
+                "gun_pos_z": 0.683498,
+                "health": 82,
+                "id": 475,
+                "identifier": "Turret_1_GB20_Crusader",
+                "name": "Crusader Mk. I",
+                "not_in_shop": false,
+                "price": 0,
+                "rotation_speed": 48,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB20_Crusader",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Turret_01.model",
+                "weight": 2953
+            },
+            {
+                "Guns": null,
+                "armor_front": 50.8,
+                "armor_rear": 29.7,
+                "armor_side": 23.5,
+                "collision_model": "vehicles/british/GB20_Crusader/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 23.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 29.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 29.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    }
+                ],
+                "gun_pos_x": -0.004074,
+                "gun_pos_y": 0.307533,
+                "gun_pos_z": 0.682434,
+                "health": 122,
+                "id": 476,
+                "identifier": "Turret_2_GB20_Crusader",
+                "name": "Crusader Mk. III",
+                "not_in_shop": false,
+                "price": 11000,
+                "rotation_speed": 46,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB20_Crusader",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Turret_02.model",
+                "weight": 3390
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB20_Crusader_2",
+                "name": "Chassis_GB20_Crusader_2",
+                "parent_key": "chassis-Chassis_GB20_Crusader",
+                "price": 1900,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_GB20_Crusader",
+                "name": "Turret_2_GB20_Crusader",
+                "parent_key": "turret-Turret_1_GB20_Crusader",
+                "price": 2400,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_76mm_Howitzer_MkI",
+                "name": "_76mm_Howitzer_MkI",
+                "parent_key": "gun-_2pdr_Gun_Mk_X",
+                "price": 2100,
+                "type": "gun"
+            },
+            {
+                "key": "gun-QF_6_pounder_Mk_III",
+                "name": "QF_6_pounder_Mk_III",
+                "parent_key": "turret-Turret_2_GB20_Crusader",
+                "price": 1500,
+                "type": "gun"
+            },
+            {
+                "key": "gun-QF_6_pounder_Mk_V",
+                "name": "QF_6_pounder_Mk_V",
+                "parent_key": "gun-QF_6_pounder_Mk_III",
+                "price": 3700,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB21_Cromwell",
+                "name": "GB21_Cromwell",
+                "parent_key": "gun-QF_6_pounder_Mk_III",
+                "price": 25000,
+                "tank_name": "Cromwell",
+                "tank_price": 900000,
+                "tank_slug": "cromwell",
+                "tank_tier": 6,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Nuffield_liberty_MKV",
+                "name": "Nuffield_liberty_MKV",
+                "parent_key": "engine-Nuffield_liberty_MKIV",
+                "price": 1000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N19Mk1",
+                "name": "N19Mk1",
+                "parent_key": "radio-N9",
+                "price": 1480,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk2",
+                "name": "N19Mk2",
+                "parent_key": "radio-N19Mk1",
+                "price": 3600,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk3",
+                "name": "N19Mk3",
+                "parent_key": "radio-N19Mk2",
+                "price": 4000,
+                "type": "radio"
+            }
+        ],
+        "version": "v092011",
+        "visual_model": "vehicles/british/GB20_Crusader/normal/lod0/Hull.model",
+        "weight": 9040,
+        "xp_factor": 1
+    }
+}

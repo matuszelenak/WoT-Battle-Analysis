@@ -1,0 +1,394 @@
+{
+    "tank": {
+        "ammo_rack_health": 130,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 17
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 17
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 17
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 6
+            }
+        ],
+        "armor_front": 17,
+        "armor_rear": 6,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.395,
+        "camo_moving": 0.198,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.263,
+        "chassis": [
+            {
+                "armor": 6,
+                "brake_force": 34500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A19_T2_lt/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 6
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.745625,
+                "hull_pos_z": 0,
+                "id": 659,
+                "identifier": "T16E2",
+                "max_climb_angle": 25,
+                "max_load": 8300,
+                "name": "T16E2",
+                "not_in_shop": true,
+                "price": 600,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 47,
+                "tank_id": "A19_T2_lt",
+                "terrain_hard": 1.03,
+                "terrain_medium": 1.37,
+                "terrain_soft": 2.29,
+                "tier": 2,
+                "visual_model": "vehicles/american/A19_T2_lt/normal/lod0/Chassis.model",
+                "weight": 1800
+            }
+        ],
+        "collision_model": "vehicles/american/A19_T2_lt/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "The vehicle prototype was designed and built by Rock Island Arsenal in 1933. The chassis and suspension elements of the Vickers Mk. E (Vickers \"6-tonner\") tank were used. Trials of the T2 prototype were successful, but the T2E1 variant was preferred due to its higher terrain crossing capacity.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 736,
+                "identifier": "Continental_R-670-5",
+                "name": "Continental R-670-5",
+                "not_in_shop": true,
+                "power": 265,
+                "price": 8600,
+                "repair_health": 52,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "A19_T2_lt",
+                "tier": 4,
+                "weight": 256
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 72,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 750,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.71,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.1,
+                "clip_size": 15,
+                "collision_model": "vehicles/american/A19_T2_lt/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.5,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.3,
+                "dispersion_rotation": 0.08,
+                "elevation": 21,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 16
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "id": 1162,
+                "identifier": "_20mm_Hispano_Suiza_Birgikt_gun_A",
+                "max_ammo": 1200,
+                "name": "20 mm Hispano-Suiza Birkigt Gun",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -21
+                        ],
+                        [
+                            1,
+                            -21
+                        ]
+                    ]
+                },
+                "price": 2600,
+                "reload_time": 7.66,
+                "repair_health": 25,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 557,
+                "visual_model": "vehicles/american/A19_T2_lt/normal/lod0/Gun_01.model",
+                "weight": 68,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A19_T2_lt",
+        "name": "T2 Light Tank",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 110,
+                "id": 787,
+                "identifier": "SCR_210A",
+                "name": "SCR 210",
+                "not_in_shop": true,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "A19_T2_lt",
+                "tier": 4,
+                "weight": 80
+            }
+        ],
+        "repair_price": 2.1,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 20,
+                "damage": 12,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1162,
+                "icon": "ap",
+                "id": "_20mm_AP",
+                "min_penetration": 15,
+                "module_damage": 27,
+                "name": "AP",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 3,
+                "range": 400,
+                "speed": 770,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 12,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 1162,
+                "icon": "ap_cr",
+                "id": "_20mm_APCR",
+                "min_penetration": 15,
+                "module_damage": 27,
+                "name": "APCR",
+                "penetration": 41,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 963,
+                "type": "ARMOR_PIERCING_CR"
+            }
+        ],
+        "short_name": "T2 Light",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t2-light",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "excluded_from_sandbox"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.793289,
+        "turret_pos_z": -0.09597,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 16,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/american/A19_T2_lt/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.060057,
+                "gun_pos_y": 0.188157,
+                "gun_pos_z": 0.699335,
+                "health": 30,
+                "id": 557,
+                "identifier": "T2D1",
+                "name": "T2D1",
+                "not_in_shop": true,
+                "price": 450,
+                "rotation_speed": 39,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "A19_T2_lt",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 260,
+                "visual_model": "vehicles/american/A19_T2_lt/normal/lod0/Turret_01.model",
+                "weight": 700
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09171ct",
+        "visual_model": "vehicles/american/A19_T2_lt/normal/lod0/Hull.model",
+        "weight": 4500,
+        "xp_factor": 1.5
+    }
+}

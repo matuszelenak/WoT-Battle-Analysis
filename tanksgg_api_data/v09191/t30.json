@@ -1,0 +1,940 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 102
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 76
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 51
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 51
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 38
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 38
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 122
+            }
+        ],
+        "armor_front": 102,
+        "armor_rear": 51,
+        "armor_side": 76,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.242,
+        "camo_moving": 0.097,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.161,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A14_T30/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.12551,
+                "hull_pos_z": 0,
+                "id": 658,
+                "identifier": "T80E3A",
+                "max_climb_angle": 25,
+                "max_load": 64050,
+                "name": "T80E3A",
+                "not_in_shop": false,
+                "price": 42500,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 20,
+                "tank_id": "A14_T30",
+                "terrain_hard": 1.5,
+                "terrain_medium": 1.8,
+                "terrain_soft": 3.6,
+                "tier": 8,
+                "visual_model": "vehicles/american/A14_T30/normal/lod0/Chassis.model",
+                "weight": 10000
+            },
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A14_T30/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.12551,
+                "hull_pos_z": 0,
+                "id": 659,
+                "identifier": "T84E38",
+                "max_climb_angle": 25,
+                "max_load": 69050,
+                "name": "T84E38",
+                "not_in_shop": false,
+                "price": 60000,
+                "repair_health": 175,
+                "repair_price": 5,
+                "rotation_speed": 22,
+                "tank_id": "A14_T30",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.6,
+                "terrain_soft": 3.2,
+                "tier": 9,
+                "visual_model": "vehicles/american/A14_T30/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/american/A14_T30/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Experimental heavy tank. The vehicle was an early version of the T29 with enhanced armament. Two prototypes were built in 1945\u20131947 and underwent trials at the Aberdeen Proving Ground in 1948. Never entered mass production or saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 726,
+                "identifier": "Continental_AV-1790-3",
+                "name": "Continental AV-1790-3",
+                "not_in_shop": false,
+                "power": 800,
+                "price": 59000,
+                "repair_health": 130,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A14_T30",
+                "tier": 8,
+                "weight": 569
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 727,
+                "identifier": "Continental_AV-1790-5",
+                "name": "Continental AV-1790-5",
+                "not_in_shop": false,
+                "power": 860,
+                "price": 100000,
+                "repair_health": 130,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A14_T30",
+                "tier": 10,
+                "weight": 569
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 35,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A14_T30/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.24,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 279
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 180,
+                "id": 1114,
+                "identifier": "_105mm_AT_Gun_T5E1",
+                "max_ammo": 63,
+                "name": "105 mm AT Gun T5E1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            6
+                        ],
+                        [
+                            0.569444,
+                            6
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 118000,
+                "reload_time": 8.2,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 562,
+                "visual_model": "vehicles/american/A14_T30/normal/lod0/Gun_02.model",
+                "weight": 2400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A14_T30/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.24,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 279
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 210,
+                "id": 1115,
+                "identifier": "_120mm_AT_Gun_T53",
+                "max_ammo": 34,
+                "name": "120 mm AT Gun T53",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 250000,
+                "reload_time": 9.7,
+                "repair_health": 105,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 562,
+                "visual_model": "vehicles/american/A14_T30/normal/lod0/Gun_03.model",
+                "weight": 2790,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A14_T30/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.24,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 279
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 230,
+                "id": 1116,
+                "identifier": "_155mm_AT_Gun_T7",
+                "max_ammo": 34,
+                "name": "155 mm AT Gun T7",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 335000,
+                "reload_time": 21,
+                "repair_health": 115,
+                "repair_price": 10,
+                "rotation_speed": 23.625,
+                "tier": 10,
+                "turret_id": 562,
+                "visual_model": "vehicles/american/A14_T30/normal/lod0/Gun_01.model",
+                "weight": 3371,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1320,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A14_T30",
+        "name": "T30",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3550000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 783,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 395,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A14_T30",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 784,
+                "identifier": "SCR_528",
+                "name": "SCR 528",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A14_T30",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 9.585,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1114,
+                "icon": "ap",
+                "id": "_105mm_AP_T32",
+                "min_penetration": 175,
+                "module_damage": 150,
+                "name": "AP T32",
+                "penetration": 198,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1114,
+                "icon": "ap_cr",
+                "id": "_105mm_APCR_T29E3",
+                "min_penetration": 219,
+                "module_damage": 150,
+                "name": "APCR T29E3",
+                "penetration": 245,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 420,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1114,
+                "icon": "he",
+                "id": "_105mm_HE_M11",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "HE M11",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1115,
+                "icon": "ap",
+                "id": "_120mm_AP_T42",
+                "min_penetration": 238,
+                "module_damage": 165,
+                "name": "AP T42",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 1060,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1115,
+                "icon": "ap_cr",
+                "id": "_120mm_APCR_T62",
+                "min_penetration": 255,
+                "module_damage": 165,
+                "name": "APCR T62",
+                "penetration": 297,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 120,
+                "damage": 515,
+                "explosion_radius": 2.42,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1115,
+                "icon": "he",
+                "id": "_120mm_HE-T67",
+                "min_penetration": 60,
+                "module_damage": 165,
+                "name": "HE T67",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 900,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 155,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1116,
+                "icon": "ap",
+                "id": "_155mm_AP_M111",
+                "min_penetration": 258,
+                "module_damage": 210,
+                "name": "AP M111",
+                "penetration": 276,
+                "penetration_loss": 0,
+                "price": 1650,
+                "range": 720,
+                "speed": 870,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 155,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1116,
+                "icon": "ap_cr",
+                "id": "_155mm_AP_M112",
+                "min_penetration": 280,
+                "module_damage": 210,
+                "name": "AP M112",
+                "penetration": 320,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1088,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 155,
+                "damage": 950,
+                "explosion_radius": 3.78,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1116,
+                "icon": "he",
+                "id": "_155mm_HE_M101",
+                "min_penetration": 90,
+                "module_damage": 210,
+                "name": "HE M101",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 1120,
+                "range": 720,
+                "speed": 870,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T30",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t30",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.580489,
+        "turret_pos_z": 0.58254,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 279.4,
+                "armor_rear": 102,
+                "armor_side": 127,
+                "collision_model": "vehicles/american/A14_T30/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 178
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 102
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 178
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 38
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 51
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 38
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 215.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 279.4
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.4954,
+                "gun_pos_z": 1.31448,
+                "health": 330,
+                "id": 562,
+                "identifier": "T30D1",
+                "name": "T30D1",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 18,
+                "rotator_health": 160,
+                "rotator_repair_health": 80,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "A14_T30",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/american/A14_T30/normal/lod0/Turret_01.model",
+                "weight": 14200
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-T84E38",
+                "name": "T84E38",
+                "parent_key": "chassis-T80E3A",
+                "price": 22500,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_120mm_AT_Gun_T53",
+                "name": "_120mm_AT_Gun_T53",
+                "parent_key": "gun-_105mm_AT_Gun_T5E1",
+                "price": 51000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_155mm_AT_Gun_T7",
+                "name": "_155mm_AT_Gun_T7",
+                "parent_key": "gun-_120mm_AT_Gun_T53",
+                "price": 66500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A83_T110E4",
+                "name": "A83_T110E4",
+                "parent_key": "gun-_120mm_AT_Gun_T53",
+                "price": 211000,
+                "tank_name": "T110E4",
+                "tank_price": 6100000,
+                "tank_slug": "t110e4",
+                "tank_tier": 10,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Continental_AV-1790-5",
+                "name": "Continental_AV-1790-5",
+                "parent_key": "engine-Continental_AV-1790-3",
+                "price": 0,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/american/A14_T30/normal/lod0/Hull.model",
+        "weight": 35850,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,828 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 43
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 80,
+        "armor_rear": 45,
+        "armor_side": 60,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.429,
+        "camo_moving": 0.286,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.286,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 31000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R109_T54S/collision_client/Chassis.model",
+                "dispersion_movement": 0.1,
+                "dispersion_rotation": 0.1,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.871112,
+                "hull_pos_z": 0,
+                "id": 784,
+                "identifier": "Chassis_R109_T54S",
+                "max_climb_angle": 25,
+                "max_load": 33000,
+                "name": "T-54 ltwt. version",
+                "not_in_shop": false,
+                "price": 32000,
+                "repair_health": 175,
+                "repair_price": 7.5,
+                "rotation_speed": 48,
+                "tank_id": "R109_T54S",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.4,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R109_T54S/normal/lod0/Chassis.model",
+                "weight": 6900
+            },
+            {
+                "armor": 20,
+                "brake_force": 31000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R109_T54S/collision_client/Chassis.model",
+                "dispersion_movement": 0.08,
+                "dispersion_rotation": 0.08,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.871112,
+                "hull_pos_z": 0,
+                "id": 785,
+                "identifier": "Chassis_R109_T54S_2",
+                "max_climb_angle": 25,
+                "max_load": 34000,
+                "name": "T-54 enhanced ltwt. version",
+                "not_in_shop": false,
+                "price": 62100,
+                "repair_health": 180,
+                "repair_price": 7.5,
+                "rotation_speed": 50,
+                "tank_id": "R109_T54S",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.2,
+                "tier": 9,
+                "visual_model": "vehicles/russian/R109_T54S/normal/lod0/Chassis.model",
+                "weight": 6900
+            }
+        ],
+        "collision_model": "vehicles/russian/R109_T54S/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "A proposed lightweight version of the T-54 medium tank. Development was started in May 1949. Compared to its series-produced predecessor, the tank had better performance and maneuverability. Therefore, the tank was planned to replace the T-54 in accomplishing complicated missions. However, the T-54 tank of 1949 was improved and mass produced, and the lightweight version was canceled while still in the design phase.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 370,
+                "id": 868,
+                "identifier": "V-54",
+                "name": "V-54",
+                "not_in_shop": false,
+                "power": 800,
+                "price": 55000,
+                "repair_health": 185,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "R109_T54S",
+                "tier": 8,
+                "weight": 895
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 370,
+                "id": 869,
+                "identifier": "V-55UM",
+                "name": "V-14M",
+                "not_in_shop": false,
+                "power": 1000,
+                "price": 86600,
+                "repair_health": 185,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "R109_T54S",
+                "tier": 9,
+                "weight": 700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 69,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R109_T54S/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.06,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 130
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 148,
+                "id": 1342,
+                "identifier": "_100mm_D10TM",
+                "max_ammo": 34,
+                "name": "100 mm D-10TM",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.422222,
+                            5
+                        ],
+                        [
+                            0.447222,
+                            4
+                        ],
+                        [
+                            0.552778,
+                            4
+                        ],
+                        [
+                            0.577778,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 98000,
+                "reload_time": 7.5,
+                "repair_health": 74,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 8,
+                "turret_id": 668,
+                "visual_model": "vehicles/russian/R109_T54S/normal/lod0/Gun_01.model",
+                "weight": 2257,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R109_T54S/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.06,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 130
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 164,
+                "id": 1343,
+                "identifier": "_100mm_D10T_obr_45M",
+                "max_ammo": 40,
+                "name": "100 mm D-10TM mod. 1945",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.422222,
+                            5
+                        ],
+                        [
+                            0.447222,
+                            4
+                        ],
+                        [
+                            0.552778,
+                            4
+                        ],
+                        [
+                            0.577778,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 115000,
+                "reload_time": 7.2,
+                "repair_health": 82,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 8,
+                "turret_id": 668,
+                "visual_model": "vehicles/russian/R109_T54S/normal/lod0/Gun_01.model",
+                "weight": 2300,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1040,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R109_T54S",
+        "name": "T-54 ltwt.",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3500000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 918,
+                "identifier": "R113",
+                "name": "R-113",
+                "not_in_shop": false,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R109_T54S",
+                "tier": 10,
+                "weight": 80
+            },
+            {
+                "health": 200,
+                "id": 919,
+                "identifier": "_10RT-26E",
+                "name": "10RT-26",
+                "not_in_shop": false,
+                "price": 56500,
+                "range": 760,
+                "repair_health": 150,
+                "repair_price": 4,
+                "tank_id": "R109_T54S",
+                "tier": 10,
+                "weight": 30
+            }
+        ],
+        "repair_price": 10.5,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1342,
+                "icon": "ap",
+                "id": "_100mm_UBR-412",
+                "min_penetration": 155,
+                "module_damage": 135,
+                "name": "UBR-412",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 895,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1342,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412P",
+                "min_penetration": 208,
+                "module_damage": 135,
+                "name": "UBR-412P",
+                "penetration": 235,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1119,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1342,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "UOF-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 895,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1343,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412PA",
+                "min_penetration": 184,
+                "module_damage": 135,
+                "name": "UBR-412PA",
+                "penetration": 208,
+                "penetration_loss": 0,
+                "price": 396,
+                "range": 720,
+                "speed": 1050,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1343,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412P",
+                "min_penetration": 208,
+                "module_damage": 135,
+                "name": "UBR-412P",
+                "penetration": 235,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1119,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1343,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "UOF-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 895,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-54 ltwt.",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-54-ltwt",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.532817,
+        "turret_pos_z": 0.0224,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 60,
+                "armor_side": 120,
+                "collision_model": "vehicles/russian/R109_T54S/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 113
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 53
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 32
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 91
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 180
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 43
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 135
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 91
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 65
+                    }
+                ],
+                "gun_pos_x": 0.038266,
+                "gun_pos_y": 0.283277,
+                "gun_pos_z": 0.982233,
+                "health": 260,
+                "id": 668,
+                "identifier": "Turret_2_R109_T54S",
+                "name": "T-54 ltwt. version",
+                "not_in_shop": true,
+                "price": 55000,
+                "rotation_speed": 48,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "R109_T54S",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/russian/R109_T54S/normal/lod0/Turret_01.model",
+                "weight": 7353
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_R109_T54S_2",
+                "name": "Chassis_R109_T54S_2",
+                "parent_key": "chassis-Chassis_R109_T54S",
+                "price": 23400,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_100mm_D10T_obr_45M",
+                "name": "_100mm_D10T_obr_45M",
+                "parent_key": "gun-_100mm_D10TM",
+                "price": 18500,
+                "type": "gun"
+            },
+            {
+                "key": "engine-V-55UM",
+                "name": "V-55UM",
+                "parent_key": "engine-V-54",
+                "price": 27600,
+                "type": "engine"
+            },
+            {
+                "key": "vehicle-R132_VNII_100LT",
+                "name": "R132_VNII_100LT",
+                "parent_key": "engine-V-55UM",
+                "price": 279800,
+                "tank_name": "T-100 LT",
+                "tank_price": 6100000,
+                "tank_slug": "t-100-lt",
+                "tank_tier": 10,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-_10RT-26E",
+                "name": "_10RT-26E",
+                "parent_key": "radio-R113",
+                "price": 9200,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919ct",
+        "visual_model": "vehicles/russian/R109_T54S/normal/lod0/Hull.model",
+        "weight": 13055,
+        "xp_factor": 1
+    }
+}

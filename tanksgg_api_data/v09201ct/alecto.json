@@ -1,0 +1,989 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 11
+            }
+        ],
+        "armor_front": 6,
+        "armor_rear": 10,
+        "armor_side": 10,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.704,
+        "camo_moving": 0.282,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.469,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 8000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB57_Alecto/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.063,
+                "hull_pos_z": 0,
+                "id": 580,
+                "identifier": "Chassis_GB57_Alecto",
+                "max_climb_angle": 25,
+                "max_load": 8200,
+                "name": "Alecto Mk. I",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "GB57_Alecto",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.5,
+                "tier": 3,
+                "visual_model": "vehicles/british/GB57_Alecto/normal/lod0/Chassis.model",
+                "weight": 1800
+            },
+            {
+                "armor": 5,
+                "brake_force": 9000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB57_Alecto/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.063,
+                "hull_pos_z": 0,
+                "id": 581,
+                "identifier": "Chassis_GB57_Alecto_2",
+                "max_climb_angle": 25,
+                "max_load": 10200,
+                "name": "Alecto Mk. IV",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "GB57_Alecto",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.3,
+                "tier": 4,
+                "visual_model": "vehicles/british/GB57_Alecto/normal/lod0/Chassis.model",
+                "weight": 1800
+            }
+        ],
+        "collision_model": "vehicles/british/GB57_Alecto/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Tank destroyer, developed from 1944\u20131945 on the basis of the Tetrarch light tank. The project was canceled when WWII ended.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 60,
+                "id": 634,
+                "identifier": "Meadows_HOP",
+                "name": "Meadows H.O.P.",
+                "not_in_shop": false,
+                "power": 162,
+                "price": 4000,
+                "repair_health": 30,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB57_Alecto",
+                "tier": 3,
+                "weight": 362
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 60,
+                "id": 635,
+                "identifier": "Meadows_HOP_OC",
+                "name": "Meadows H.O.P. O.C.",
+                "not_in_shop": false,
+                "power": 180,
+                "price": 4700,
+                "repair_health": 30,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB57_Alecto",
+                "tier": 3,
+                "weight": 362
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 50.5,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB57_Alecto/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 94,
+                "id": 975,
+                "identifier": "QF_6_pounder_Mk_II_AT",
+                "max_ammo": 120,
+                "name": "QF 6-pdr AT Gun Mk. II",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 25000,
+                "reload_time": 2.3,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 489,
+                "visual_model": "vehicles/british/GB57_Alecto/normal/lod0/Gun_02.model",
+                "weight": 400,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB57_Alecto/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.49,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 140,
+                "id": 976,
+                "identifier": "_3.7inch_AT_Howitzer",
+                "max_ammo": 48,
+                "name": "3.7-inch AT Howitzer",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 35000,
+                "reload_time": 7.5,
+                "repair_health": 70,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 489,
+                "visual_model": "vehicles/british/GB57_Alecto/normal/lod0/Gun_03.model",
+                "weight": 393,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB57_Alecto/collision_client/Gun_04.model",
+                "depression": 5,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 104,
+                "id": 977,
+                "identifier": "QF_6_pounder_Mk_IV_AT",
+                "max_ammo": 120,
+                "name": "QF 6-pdr AT Gun Mk. IV",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 27000,
+                "reload_time": 2.3,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 489,
+                "visual_model": "vehicles/british/GB57_Alecto/normal/lod0/Gun_04.model",
+                "weight": 450,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB57_Alecto/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 140,
+                "id": 978,
+                "identifier": "_25pdr_AT_Field_Gun",
+                "max_ammo": 60,
+                "name": "Q.F. 25-Pr. AT Gun/How. Mk. III",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 40000,
+                "reload_time": 5.7,
+                "repair_health": 70,
+                "repair_price": 8,
+                "rotation_speed": 30.625,
+                "tier": 5,
+                "turret_id": 489,
+                "visual_model": "vehicles/british/GB57_Alecto/normal/lod0/Gun_01.model",
+                "weight": 510,
+                "yaw_left": -15,
+                "yaw_right": 15
+            }
+        ],
+        "health": 216,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB57_Alecto",
+        "name": "Alecto",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 130000,
+        "radios": [
+            {
+                "health": 60,
+                "id": 677,
+                "identifier": "N11",
+                "name": "WS No. 11",
+                "not_in_shop": false,
+                "price": 600,
+                "range": 350,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "GB57_Alecto",
+                "tier": 3,
+                "weight": 40
+            },
+            {
+                "health": 80,
+                "id": 678,
+                "identifier": "N9",
+                "name": "WS No. 9",
+                "not_in_shop": false,
+                "price": 3600,
+                "range": 375,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "GB57_Alecto",
+                "tier": 5,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 679,
+                "identifier": "N19Mk1",
+                "name": "WS No. 19 Mk. I",
+                "not_in_shop": false,
+                "price": 15000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "GB57_Alecto",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 680,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB57_Alecto",
+                "tier": 7,
+                "weight": 40
+            }
+        ],
+        "repair_price": 6,
+        "reverse_speed": 16,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 975,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 81,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 105,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 975,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 121,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1026,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 975,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 94,
+                "damage": 370,
+                "explosion_radius": 1.58,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 976,
+                "icon": "he",
+                "id": "_3.7inch_HE_Mk3",
+                "min_penetration": 47,
+                "module_damage": 130,
+                "name": "HE Mk. 3",
+                "penetration": 47,
+                "penetration_loss": 0,
+                "price": 156,
+                "range": 720,
+                "speed": 243,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 94,
+                "damage": 280,
+                "explosion_radius": 0,
+                "gold_price": 14,
+                "gravity": 9.81,
+                "gun_id": 976,
+                "icon": "hc",
+                "id": "_3.7inch_HEAT_Mk1",
+                "min_penetration": 110,
+                "module_damage": 130,
+                "name": "HEAT Mk. 1",
+                "penetration": 110,
+                "penetration_loss": 0.05,
+                "price": 5600,
+                "range": 720,
+                "speed": 243,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 977,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 95,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 892,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 977,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1115,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 977,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 892,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 87.6,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 978,
+                "icon": "ap",
+                "id": "_25pdr_AP_Mk_1T",
+                "min_penetration": 63,
+                "module_damage": 115,
+                "name": "AP-T Mk. 1T",
+                "penetration": 71,
+                "penetration_loss": 0,
+                "price": 83,
+                "range": 720,
+                "speed": 472,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 87.6,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 978,
+                "icon": "ap",
+                "id": "_25pdr_AP_Mk_1T_SC",
+                "min_penetration": 81,
+                "module_damage": 115,
+                "name": "AP-T Mk. 1T S.C.",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 591,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 87.6,
+                "damage": 280,
+                "explosion_radius": 1.39,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 978,
+                "icon": "he",
+                "id": "_25pdr_HE_Mk_1D",
+                "min_penetration": 44,
+                "module_damage": 115,
+                "name": "HE Mk. 1D",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 83,
+                "range": 720,
+                "speed": 472,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Alecto",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "alecto",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0,
+        "turret_pos_y": -0.6155,
+        "turret_pos_z": 0.8193,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB57_Alecto/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.000416,
+                "gun_pos_y": 0.756857,
+                "gun_pos_z": 0.551544,
+                "health": 54,
+                "id": 489,
+                "identifier": "Turret_1_GB57_Alecto",
+                "name": "Alecto",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB57_Alecto",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/british/GB57_Alecto/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB57_Alecto_2",
+                "name": "Chassis_GB57_Alecto_2",
+                "parent_key": "chassis-Chassis_GB57_Alecto",
+                "price": 1100,
+                "type": "chassis"
+            },
+            {
+                "key": "vehicle-GB73_AT2",
+                "name": "GB73_AT2",
+                "parent_key": "chassis-Chassis_GB57_Alecto_2",
+                "price": 13500,
+                "tank_name": "AT 2",
+                "tank_price": 425000,
+                "tank_slug": "at-2",
+                "tank_tier": 5,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-_3.7inch_AT_Howitzer",
+                "name": "_3.7inch_AT_Howitzer",
+                "parent_key": "gun-QF_6_pounder_Mk_II_AT",
+                "price": 2300,
+                "type": "gun"
+            },
+            {
+                "key": "gun-QF_6_pounder_Mk_IV_AT",
+                "name": "QF_6_pounder_Mk_IV_AT",
+                "parent_key": "gun-QF_6_pounder_Mk_II_AT",
+                "price": 2000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_25pdr_AT_Field_Gun",
+                "name": "_25pdr_AT_Field_Gun",
+                "parent_key": "gun-_3.7inch_AT_Howitzer",
+                "price": 3700,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Meadows_HOP_OC",
+                "name": "Meadows_HOP_OC",
+                "parent_key": "engine-Meadows_HOP",
+                "price": 610,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N9",
+                "name": "N9",
+                "parent_key": "radio-N11",
+                "price": 610,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk1",
+                "name": "N19Mk1",
+                "parent_key": "radio-N9",
+                "price": 1480,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk2",
+                "name": "N19Mk2",
+                "parent_key": "radio-N19Mk1",
+                "price": 3600,
+                "type": "radio"
+            }
+        ],
+        "version": "v09201ct",
+        "visual_model": "vehicles/british/GB57_Alecto/normal/lod0/Hull.model",
+        "weight": 5055,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,831 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 15,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.465,
+        "camo_moving": 0.31,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.31,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F16_AMX_13_75/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.897572,
+                "hull_pos_z": 0,
+                "id": 114,
+                "identifier": "Chassis_AMX_13_75_2",
+                "max_climb_angle": 25,
+                "max_load": 14650,
+                "name": "AMX 13 Type 1R",
+                "not_in_shop": false,
+                "price": 7350,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "F16_AMX_13_75",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.6,
+                "tier": 6,
+                "visual_model": "vehicles/french/F16_AMX_13_75/normal/lod0/Chassis.model",
+                "weight": 1500
+            },
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F16_AMX_13_75/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.897572,
+                "hull_pos_z": 0,
+                "id": 115,
+                "identifier": "Chassis_AMX_13_75_3",
+                "max_climb_angle": 25,
+                "max_load": 16350,
+                "name": "AMX 13 Type 2A",
+                "not_in_shop": false,
+                "price": 19540,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "F16_AMX_13_75",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.4,
+                "tier": 7,
+                "visual_model": "vehicles/french/F16_AMX_13_75/normal/lod0/Chassis.model",
+                "weight": 1500
+            }
+        ],
+        "collision_model": "vehicles/french/F16_AMX_13_75/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Maneuverable light tank with an oscillating turret and a 75 mm autoloader gun that could fire up to 10 shots per minute. At that time, the gun on this vehicle had superior penetration compared to the guns of most other medium tanks.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 234,
+                "id": 127,
+                "identifier": "_6F11SRYT",
+                "name": "Baudouin 6F 11 SRY T",
+                "not_in_shop": false,
+                "power": 300,
+                "price": 28000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "diesel",
+                "tank_id": "F16_AMX_13_75",
+                "tier": 6,
+                "weight": 400
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 320,
+                "id": 128,
+                "identifier": "Detroit_Diesel_6V53T",
+                "name": "Detroit Diesel 6V53T",
+                "not_in_shop": false,
+                "power": 400,
+                "price": 44000,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "F16_AMX_13_75",
+                "tier": 8,
+                "weight": 770
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 61,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2,
+                "clip_size": 4,
+                "collision_model": "vehicles/french/F16_AMX_13_75/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 9,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 198,
+                "identifier": "_75mm_SA49_L48",
+                "max_ammo": 44,
+                "name": "75 mm SA49",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.255782,
+                            6
+                        ],
+                        [
+                            0.319444,
+                            8
+                        ],
+                        [
+                            0.680556,
+                            8
+                        ],
+                        [
+                            0.744218,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -9
+                        ],
+                        [
+                            0.255782,
+                            -9
+                        ],
+                        [
+                            0.319444,
+                            -6
+                        ],
+                        [
+                            0.680556,
+                            -6
+                        ],
+                        [
+                            0.744218,
+                            -9
+                        ],
+                        [
+                            1,
+                            -9
+                        ]
+                    ]
+                },
+                "price": 35640,
+                "reload_time": 12,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 102,
+                "visual_model": "vehicles/french/F16_AMX_13_75/normal/lod0/Gun_01.model",
+                "weight": 1520,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2,
+                "clip_size": 4,
+                "collision_model": "vehicles/french/F16_AMX_13_75/collision_client/Gun_02.model",
+                "depression": 6,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 9,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 199,
+                "identifier": "_75mm_SA50",
+                "max_ammo": 36,
+                "name": "75 mm SA50",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -9
+                        ],
+                        [
+                            0.255783,
+                            -9
+                        ],
+                        [
+                            0.319444,
+                            -6
+                        ],
+                        [
+                            0.680556,
+                            -6
+                        ],
+                        [
+                            0.744218,
+                            -9
+                        ],
+                        [
+                            1,
+                            -9
+                        ]
+                    ]
+                },
+                "price": 64200,
+                "reload_time": 14,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 102,
+                "visual_model": "vehicles/french/F16_AMX_13_75/normal/lod0/Gun_02.model",
+                "weight": 1740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 680,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F16_AMX_13_75",
+        "name": "AMX 13 75",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 1345000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 117,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "F16_AMX_13_75",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 118,
+                "identifier": "SCR_528",
+                "name": "SCR 528F",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F16_AMX_13_75",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 8.1,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 198,
+                "icon": "ap",
+                "id": "_75mm_Prf1926",
+                "min_penetration": 98,
+                "module_damage": 100,
+                "name": "Prf. mle. 1926",
+                "penetration": 108,
+                "penetration_loss": 0,
+                "price": 70,
+                "range": 720,
+                "speed": 790,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 198,
+                "icon": "ap_cr",
+                "id": "_75mm_FrtPrf1940",
+                "min_penetration": 122,
+                "module_damage": 100,
+                "name": "Frt.Prf. mle. 1940",
+                "penetration": 148,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 988,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 198,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1915",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1915",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 790,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 199,
+                "icon": "ap",
+                "id": "_75mm_Prf1930",
+                "min_penetration": 128,
+                "module_damage": 100,
+                "name": "Prf. mle. 1930",
+                "penetration": 144,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 199,
+                "icon": "ap_cr",
+                "id": "_75mm_FrtPrf1944",
+                "min_penetration": 179,
+                "module_damage": 100,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 202,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 199,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1924",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1924",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AMX 13 75",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-13-75",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": -0.009645,
+        "turret_pos_y": 0.343469,
+        "turret_pos_z": -0.412976,
+        "turret_slots": [
+            {
+                "id": 75,
+                "pos_x": -0.009645,
+                "pos_y": 0.343469,
+                "pos_z": -0.412976,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "F16_AMX_13_75"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 40,
+                "armor_rear": 20,
+                "armor_side": 20,
+                "collision_model": "vehicles/french/F16_AMX_13_75/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.472063,
+                "gun_pos_z": 0.023228,
+                "health": 170,
+                "id": 102,
+                "identifier": "Turret_1_AMX_13_75",
+                "name": "FL 10 Type C",
+                "not_in_shop": true,
+                "price": 10300,
+                "rotation_speed": 46,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "F16_AMX_13_75",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/french/F16_AMX_13_75/normal/lod0/Turret_01.model",
+                "weight": 2900
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_AMX_13_75_3",
+                "name": "Chassis_AMX_13_75_3",
+                "parent_key": "chassis-Chassis_AMX_13_75_2",
+                "price": 9030,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_SA50",
+                "name": "_75mm_SA50",
+                "parent_key": "gun-_75mm_SA49_L48",
+                "price": 5820,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Detroit_Diesel_6V53T",
+                "name": "Detroit_Diesel_6V53T",
+                "parent_key": "engine-_6F11SRYT",
+                "price": 16200,
+                "type": "engine"
+            },
+            {
+                "key": "vehicle-F87_Batignolles-Chatillon_12t",
+                "name": "F87_Batignolles-Chatillon_12t",
+                "parent_key": "engine-Detroit_Diesel_6V53T",
+                "price": 107000,
+                "tank_name": "B-C 12 t",
+                "tank_price": 2370000,
+                "tank_slug": "b-c-12-t",
+                "tank_tier": 8,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0921ct",
+        "visual_model": "vehicles/french/F16_AMX_13_75/normal/lod0/Hull.model",
+        "weight": 7955,
+        "xp_factor": 1
+    }
+}

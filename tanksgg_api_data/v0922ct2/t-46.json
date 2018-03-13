@@ -1,0 +1,1567 @@
+{
+    "tank": {
+        "ammo_rack_health": 90,
+        "ammo_rack_repair_health": 60,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 22
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 15
+            }
+        ],
+        "armor_front": 15,
+        "armor_rear": 15,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.437,
+        "camo_moving": 0.218,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.291,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 32500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.04227,
+                "hull_pos_z": 0,
+                "id": 1009,
+                "identifier": "T-46-1",
+                "max_climb_angle": 25,
+                "max_load": 17000,
+                "name": "T-46",
+                "not_in_shop": false,
+                "price": 660,
+                "repair_health": 45,
+                "repair_price": 2.5,
+                "rotation_speed": 52,
+                "tank_id": "R22_T-46",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Chassis.model",
+                "weight": 4200
+            },
+            {
+                "armor": 10,
+                "brake_force": 32800,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.04227,
+                "hull_pos_z": 0,
+                "id": 1010,
+                "identifier": "T-46-2",
+                "max_climb_angle": 25,
+                "max_load": 17300,
+                "name": "T-46-1",
+                "not_in_shop": false,
+                "price": 1840,
+                "repair_health": 55,
+                "repair_price": 2.5,
+                "rotation_speed": 55,
+                "tank_id": "R22_T-46",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Chassis.model",
+                "weight": 4200
+            }
+        ],
+        "collision_model": "vehicles/russian/R22_T-46/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            }
+        ],
+        "description": "Developed under the program for improving the maneuverability of the T-26 light tank through redesigning its chassis to a wheeled caterpillar type. The prototype was built in 1935. The vehicle saw service on February 29, 1936 after a series of modifications. At least four vehicles from the experimental batch underwent trials in 1937, but the production was discontinued due to transmission faults and high cost. The manufactured vehicles were used during the Winter War and World War II.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 93,
+                "id": 1106,
+                "identifier": "V-4",
+                "name": "V-4",
+                "not_in_shop": false,
+                "power": 300,
+                "price": 9000,
+                "repair_health": 45,
+                "repair_price": 4,
+                "tags": "diesel",
+                "tank_id": "R22_T-46",
+                "tier": 4,
+                "weight": 540
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 95,
+                "id": 1107,
+                "identifier": "MT-5-1",
+                "name": "MT-5-1",
+                "not_in_shop": false,
+                "power": 350,
+                "price": 10200,
+                "repair_health": 45,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R22_T-46",
+                "tier": 4,
+                "weight": 920
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 58,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 68,
+                "id": 1693,
+                "identifier": "_45mm_20K",
+                "max_ammo": 101,
+                "name": "45 mm 20K",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.40856,
+                            8
+                        ],
+                        [
+                            0.472222,
+                            4
+                        ],
+                        [
+                            0.527778,
+                            4
+                        ],
+                        [
+                            0.59144,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 2530,
+                "reload_time": 2.3,
+                "repair_health": 34,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 864,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Gun_01.model",
+                "weight": 250,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Gun_02.model",
+                "depression": 8,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 1694,
+                "identifier": "_37mm_ZiS-19",
+                "max_ammo": 101,
+                "name": "37 mm ZiS-19",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.40856,
+                            8
+                        ],
+                        [
+                            0.472222,
+                            4
+                        ],
+                        [
+                            0.527778,
+                            4
+                        ],
+                        [
+                            0.59144,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 4250,
+                "reload_time": 2.3,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 3,
+                "turret_id": 864,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Gun_02.model",
+                "weight": 200,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Gun_03.model",
+                "depression": 8,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 68,
+                "id": 1695,
+                "identifier": "_45mm_20K",
+                "max_ammo": 114,
+                "name": "45 mm 20K",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.40856,
+                            8
+                        ],
+                        [
+                            0.472222,
+                            4
+                        ],
+                        [
+                            0.527778,
+                            4
+                        ],
+                        [
+                            0.59144,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 2530,
+                "reload_time": 2.3,
+                "repair_health": 34,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 865,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Gun_03.model",
+                "weight": 250,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 1696,
+                "identifier": "_37mm_ZiS-19",
+                "max_ammo": 114,
+                "name": "37 mm ZiS-19",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.40856,
+                            8
+                        ],
+                        [
+                            0.472222,
+                            4
+                        ],
+                        [
+                            0.527778,
+                            4
+                        ],
+                        [
+                            0.59144,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 4250,
+                "reload_time": 2.3,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 3,
+                "turret_id": 865,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Gun_04.model",
+                "weight": 200,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Gun_07.model",
+                "depression": 8,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 76,
+                "id": 1697,
+                "identifier": "_45mm_VT-42",
+                "max_ammo": 84,
+                "name": "45 mm VT-42",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.40856,
+                            8
+                        ],
+                        [
+                            0.472222,
+                            4
+                        ],
+                        [
+                            0.527778,
+                            4
+                        ],
+                        [
+                            0.59144,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 20540,
+                "reload_time": 2.3,
+                "repair_health": 38,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 865,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Gun_07.model",
+                "weight": 312,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.3529412,
+                "clip_size": 5,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2.2,
+                "dispersion_rotation": 0.14,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 72,
+                "id": 1698,
+                "identifier": "_37mm_automatic_SH-37",
+                "max_ammo": 120,
+                "name": "37 mm Automatic SH-37",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.40856,
+                            8
+                        ],
+                        [
+                            0.472222,
+                            4
+                        ],
+                        [
+                            0.527778,
+                            4
+                        ],
+                        [
+                            0.59144,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 26980,
+                "reload_time": 4.6,
+                "repair_health": 36,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 865,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Gun_05.model",
+                "weight": 200,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Gun_06.model",
+                "depression": 6,
+                "dispersion": 0.57,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 94,
+                "id": 1699,
+                "identifier": "_76mm_L-10",
+                "max_ammo": 60,
+                "name": "76 mm L-10",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.40856,
+                            6
+                        ],
+                        [
+                            0.472222,
+                            4
+                        ],
+                        [
+                            0.527778,
+                            4
+                        ],
+                        [
+                            0.59144,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 10310,
+                "reload_time": 4.6,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 865,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Gun_06.model",
+                "weight": 641,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 176,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R22_T-46",
+        "name": "T-46",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 38500,
+        "radios": [
+            {
+                "health": 100,
+                "id": 1153,
+                "identifier": "_71-TK-3",
+                "name": "71-TK-3",
+                "not_in_shop": false,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R22_T-46",
+                "tier": 3,
+                "weight": 100
+            },
+            {
+                "health": 140,
+                "id": 1154,
+                "identifier": "_10R",
+                "name": "10R",
+                "not_in_shop": false,
+                "price": 3660,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "R22_T-46",
+                "tier": 5,
+                "weight": 100
+            }
+        ],
+        "repair_price": 2.68,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1693,
+                "icon": "ap",
+                "id": "_45mm_UBR-240A",
+                "min_penetration": 38,
+                "module_damage": 61,
+                "name": "UBR-240A",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1693,
+                "icon": "ap_cr",
+                "id": "_45mm_UBR-240PA",
+                "min_penetration": 66,
+                "module_damage": 61,
+                "name": "UBR-240PA",
+                "penetration": 88,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 946,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 45,
+                "damage": 62,
+                "explosion_radius": 0.43,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1693,
+                "icon": "he",
+                "id": "_45mm_UOF-240A",
+                "min_penetration": 23,
+                "module_damage": 61,
+                "name": "UOF-240A",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1694,
+                "icon": "ap",
+                "id": "_37mm_UBR160bis",
+                "min_penetration": 41,
+                "module_damage": 50,
+                "name": "UBR-160 bis",
+                "penetration": 58,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 915,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1694,
+                "icon": "ap_cr",
+                "id": "_37mm_UBR160PA",
+                "min_penetration": 40,
+                "module_damage": 50,
+                "name": "UBR-160PA",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 1144,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1694,
+                "icon": "he",
+                "id": "_37mm_UO160A",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "UO-160A",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 915,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1695,
+                "icon": "ap",
+                "id": "_45mm_UBR-240A",
+                "min_penetration": 38,
+                "module_damage": 61,
+                "name": "UBR-240A",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1695,
+                "icon": "ap_cr",
+                "id": "_45mm_UBR-240PA",
+                "min_penetration": 66,
+                "module_damage": 61,
+                "name": "UBR-240PA",
+                "penetration": 88,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 946,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 45,
+                "damage": 62,
+                "explosion_radius": 0.43,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1695,
+                "icon": "he",
+                "id": "_45mm_UOF-240A",
+                "min_penetration": 23,
+                "module_damage": 61,
+                "name": "UOF-240A",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1696,
+                "icon": "ap",
+                "id": "_37mm_UBR160bis",
+                "min_penetration": 41,
+                "module_damage": 50,
+                "name": "UBR-160 bis",
+                "penetration": 58,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 915,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1696,
+                "icon": "ap_cr",
+                "id": "_37mm_UBR160PA",
+                "min_penetration": 40,
+                "module_damage": 50,
+                "name": "UBR-160PA",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 1144,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1696,
+                "icon": "he",
+                "id": "_37mm_UO160A",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "UO-160A",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 915,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 45,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1697,
+                "icon": "ap",
+                "id": "_45mm_UBR-243SP",
+                "min_penetration": 61,
+                "module_damage": 61,
+                "name": "UBR-243SP",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 870,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 45,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 1697,
+                "icon": "ap_cr",
+                "id": "_45mm_UBR-243SPA",
+                "min_penetration": 81,
+                "module_damage": 61,
+                "name": "UBR-243SPA",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 1088,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 45,
+                "damage": 65,
+                "explosion_radius": 0.43,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1697,
+                "icon": "he",
+                "id": "_45mm_UOF-243",
+                "min_penetration": 23,
+                "module_damage": 61,
+                "name": "UOF-243",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 19,
+                "range": 720,
+                "speed": 870,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1698,
+                "icon": "ap",
+                "id": "_37mm_UBR160bis",
+                "min_penetration": 28,
+                "module_damage": 50,
+                "name": "UBR-160 bis",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 400,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1698,
+                "icon": "ap_cr",
+                "id": "_37mm_UBR160PA",
+                "min_penetration": 25,
+                "module_damage": 50,
+                "name": "UBR-160PA",
+                "penetration": 62,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1698,
+                "icon": "he",
+                "id": "_37mm_UO160A",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "UO-160A",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 400,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1699,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KA",
+                "min_penetration": 61,
+                "module_damage": 105,
+                "name": "UBR-354KA",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 558,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1699,
+                "icon": "hc",
+                "id": "_76mm_BP-354",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "BP-350A",
+                "penetration": 75,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 446,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 164,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1699,
+                "icon": "he",
+                "id": "_76mm_UOF-354K",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354K",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 558,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-46",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-46",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.53309,
+        "turret_pos_z": 0.13111,
+        "turret_slots": [
+            {
+                "id": 679,
+                "pos_x": 0,
+                "pos_y": 0.53309,
+                "pos_z": 0.13111,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R22_T-46"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 30,
+                "armor_rear": 15,
+                "armor_side": 15,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 7
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.348374,
+                "gun_pos_z": 0.71962,
+                "health": 44,
+                "id": 864,
+                "identifier": "T-46",
+                "name": "T-26",
+                "not_in_shop": false,
+                "price": 840,
+                "rotation_speed": 44,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "R22_T-46",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 260,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Turret_01.model",
+                "weight": 1000
+            },
+            {
+                "Guns": null,
+                "armor_front": 30,
+                "armor_rear": 15,
+                "armor_side": 15,
+                "collision_model": "vehicles/russian/R22_T-46/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 7
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.344894,
+                "gun_pos_z": 0.71039,
+                "health": 74,
+                "id": 865,
+                "identifier": "T-46-1",
+                "name": "T-46-1",
+                "not_in_shop": false,
+                "price": 1800,
+                "rotation_speed": 44,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "R22_T-46",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Turret_02.model",
+                "weight": 1450
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-T-46-2",
+                "name": "T-46-2",
+                "parent_key": "chassis-T-46-1",
+                "price": 340,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-T-46-1",
+                "name": "T-46-1",
+                "parent_key": "turret-T-46",
+                "price": 340,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_37mm_ZiS-19",
+                "name": "_37mm_ZiS-19",
+                "parent_key": "gun-_45mm_20K",
+                "price": 160,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_45mm_VT-42",
+                "name": "_45mm_VT-42",
+                "parent_key": "turret-T-46-1",
+                "price": 850,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_37mm_automatic_SH-37",
+                "name": "_37mm_automatic_SH-37",
+                "parent_key": "turret-T-46-1",
+                "price": 2600,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_L-10",
+                "name": "_76mm_L-10",
+                "parent_key": "turret-T-46-1",
+                "price": 400,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R06_T-28",
+                "name": "R06_T-28",
+                "parent_key": "gun-_76mm_L-10",
+                "price": 3600,
+                "tank_name": "T-28",
+                "tank_price": 135000,
+                "tank_slug": "t-28",
+                "tank_tier": 4,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-MT-5-1",
+                "name": "MT-5-1",
+                "parent_key": "engine-V-4",
+                "price": 0,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_10R",
+                "name": "_10R",
+                "parent_key": "radio-_71-TK-3",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922ct2",
+        "visual_model": "vehicles/russian/R22_T-46/normal/lod0/Hull.model",
+        "weight": 7800,
+        "xp_factor": 1
+    }
+}

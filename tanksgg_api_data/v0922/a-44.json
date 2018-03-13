@@ -1,0 +1,1741 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 90
+            }
+        ],
+        "armor_front": 150,
+        "armor_rear": 60,
+        "armor_side": 60,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.33,
+        "camo_moving": 0.165,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.22,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 32000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.992208,
+                "hull_pos_z": 0,
+                "id": 945,
+                "identifier": "Chassis_A44",
+                "max_climb_angle": 25,
+                "max_load": 37000,
+                "name": "A-44",
+                "not_in_shop": false,
+                "price": 12700,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "R59_A44",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 6,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Chassis.model",
+                "weight": 12000
+            },
+            {
+                "armor": 20,
+                "brake_force": 36000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.992208,
+                "hull_pos_z": 0,
+                "id": 946,
+                "identifier": "Chassis_A44_2",
+                "max_climb_angle": 25,
+                "max_load": 41000,
+                "name": "A-44 enhanced",
+                "not_in_shop": false,
+                "price": 17700,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 44,
+                "tank_id": "R59_A44",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.6,
+                "tier": 7,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/russian/R59_A44/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The project was developed at Factory No. 183 by engineer I.S. Ber in April 1941. The vehicle was to be manufactured in three versions with different armor, armament, combat weight, and speed characteristics. The creation of the prototype was scheduled for the beginning of 1942. However, the project was discontinued due to the outbreak of the war and evacuation.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 145,
+                "id": 1036,
+                "identifier": "V-2-34",
+                "name": "V-2-34",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 27860,
+                "repair_health": 72,
+                "repair_price": 6,
+                "tags": "diesel",
+                "tank_id": "R59_A44",
+                "tier": 6,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 120,
+                "id": 1037,
+                "identifier": "V-5",
+                "name": "V-5",
+                "not_in_shop": false,
+                "power": 600,
+                "price": 27860,
+                "repair_health": 60,
+                "repair_price": 7,
+                "tags": "diesel",
+                "tank_id": "R59_A44",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 59,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 1573,
+                "identifier": "_76mm_F-34",
+                "max_ammo": 160,
+                "name": "76 mm F-34",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 30550,
+                "reload_time": 3.3,
+                "repair_health": 53,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 812,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Gun_01.model",
+                "weight": 1155,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 104,
+                "id": 1574,
+                "identifier": "_57mm_ZiS-4",
+                "max_ammo": 160,
+                "name": "57 mm ZiS-4",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 41480,
+                "reload_time": 2.3,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 812,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Gun_02.model",
+                "weight": 740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1575,
+                "identifier": "_76mm_S-54",
+                "max_ammo": 160,
+                "name": "76 mm S-54",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 40130,
+                "reload_time": 3.3,
+                "repair_health": 65,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 5,
+                "turret_id": 812,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Gun_03.model",
+                "weight": 1390,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 3.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Gun_04.model",
+                "depression": 3,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 148,
+                "id": 1576,
+                "identifier": "_107mm_ZiS-6",
+                "max_ammo": 60,
+                "name": "107 mm ZiS-6",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 68290,
+                "reload_time": 10.5,
+                "repair_health": 74,
+                "repair_price": 6,
+                "rotation_speed": 26.25,
+                "tier": 7,
+                "turret_id": 812,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Gun_04.model",
+                "weight": 2400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Gun_05.model",
+                "depression": 5,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 1577,
+                "identifier": "_76mm_F-34",
+                "max_ammo": 160,
+                "name": "76 mm F-34",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 30550,
+                "reload_time": 3.3,
+                "repair_health": 53,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 813,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Gun_05.model",
+                "weight": 1155,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Gun_06.model",
+                "depression": 5,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 104,
+                "id": 1578,
+                "identifier": "_57mm_ZiS-4",
+                "max_ammo": 160,
+                "name": "57 mm ZiS-4",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 41480,
+                "reload_time": 2.3,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 813,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Gun_06.model",
+                "weight": 740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Gun_07.model",
+                "depression": 5,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1579,
+                "identifier": "_76mm_S-54",
+                "max_ammo": 160,
+                "name": "76 mm S-54",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 40130,
+                "reload_time": 3.3,
+                "repair_health": 65,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 5,
+                "turret_id": 813,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Gun_07.model",
+                "weight": 1390,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 3.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Gun_08.model",
+                "depression": 3,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 148,
+                "id": 1580,
+                "identifier": "_107mm_ZiS-6",
+                "max_ammo": 60,
+                "name": "107 mm ZiS-6",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 68290,
+                "reload_time": 10.5,
+                "repair_health": 74,
+                "repair_price": 6,
+                "rotation_speed": 26.25,
+                "tier": 7,
+                "turret_id": 813,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Gun_08.model",
+                "weight": 2400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 800,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R59_A44",
+        "name": "A-44",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 1380000,
+        "radios": [
+            {
+                "health": 110,
+                "id": 1083,
+                "identifier": "_9R",
+                "name": "9R",
+                "not_in_shop": false,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "R59_A44",
+                "tier": 4,
+                "weight": 80
+            },
+            {
+                "health": 120,
+                "id": 1084,
+                "identifier": "_9RM",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R59_A44",
+                "tier": 8,
+                "weight": 100
+            }
+        ],
+        "repair_price": 7.3,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1573,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1573,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 92,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1573,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1574,
+                "icon": "ap",
+                "id": "_57mm_UBR-271K",
+                "min_penetration": 98,
+                "module_damage": 76,
+                "name": "UBR-271K",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1574,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271N",
+                "min_penetration": 147,
+                "module_damage": 76,
+                "name": "UBR-271N",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1238,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1574,
+                "icon": "he",
+                "id": "_57mm_UO-271U",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271U",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 990,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1575,
+                "icon": "ap",
+                "id": "_76mm_UBR-354MA",
+                "min_penetration": 115,
+                "module_damage": 105,
+                "name": "UBR-354MA",
+                "penetration": 125,
+                "penetration_loss": 0,
+                "price": 80,
+                "range": 720,
+                "speed": 816,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1575,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 140,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 156,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1020,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 165,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1575,
+                "icon": "he",
+                "id": "_76mm_UOF-354M",
+                "min_penetration": 39,
+                "module_damage": 105,
+                "name": "UOF-354M",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 48,
+                "range": 720,
+                "speed": 816,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 107,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1576,
+                "icon": "ap",
+                "id": "_107mm_UBR-420",
+                "min_penetration": 140,
+                "module_damage": 150,
+                "name": "UBR-420",
+                "penetration": 167,
+                "penetration_loss": 0,
+                "price": 270,
+                "range": 720,
+                "speed": 830,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 107,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1576,
+                "icon": "ap_cr",
+                "id": "_107mm_UBR-420P",
+                "min_penetration": 184,
+                "module_damage": 150,
+                "name": "UBR-420P",
+                "penetration": 219,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1038,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 107,
+                "damage": 360,
+                "explosion_radius": 1.98,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1576,
+                "icon": "he",
+                "id": "_107mm_UOF-420",
+                "min_penetration": 54,
+                "module_damage": 150,
+                "name": "UOF-420",
+                "penetration": 54,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 720,
+                "speed": 830,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1577,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1577,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 92,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1577,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1578,
+                "icon": "ap",
+                "id": "_57mm_UBR-271K",
+                "min_penetration": 98,
+                "module_damage": 76,
+                "name": "UBR-271K",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1578,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271N",
+                "min_penetration": 147,
+                "module_damage": 76,
+                "name": "UBR-271N",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1238,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1578,
+                "icon": "he",
+                "id": "_57mm_UO-271U",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271U",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 990,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1579,
+                "icon": "ap",
+                "id": "_76mm_UBR-354MA",
+                "min_penetration": 115,
+                "module_damage": 105,
+                "name": "UBR-354MA",
+                "penetration": 125,
+                "penetration_loss": 0,
+                "price": 80,
+                "range": 720,
+                "speed": 816,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1579,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 140,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 156,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1020,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 165,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1579,
+                "icon": "he",
+                "id": "_76mm_UOF-354M",
+                "min_penetration": 39,
+                "module_damage": 105,
+                "name": "UOF-354M",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 48,
+                "range": 720,
+                "speed": 816,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 107,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1580,
+                "icon": "ap",
+                "id": "_107mm_UBR-420",
+                "min_penetration": 140,
+                "module_damage": 150,
+                "name": "UBR-420",
+                "penetration": 167,
+                "penetration_loss": 0,
+                "price": 270,
+                "range": 720,
+                "speed": 830,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 107,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1580,
+                "icon": "ap_cr",
+                "id": "_107mm_UBR-420P",
+                "min_penetration": 184,
+                "module_damage": 150,
+                "name": "UBR-420P",
+                "penetration": 219,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1038,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 107,
+                "damage": 360,
+                "explosion_radius": 1.98,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1580,
+                "icon": "he",
+                "id": "_107mm_UOF-420",
+                "min_penetration": 54,
+                "module_damage": 150,
+                "name": "UOF-420",
+                "penetration": 54,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 720,
+                "speed": 830,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "A-44",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "a-44",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": -0.002128,
+        "turret_pos_y": 0.556588,
+        "turret_pos_z": -1.52363,
+        "turret_slots": [
+            {
+                "id": 638,
+                "pos_x": -0.002128,
+                "pos_y": 0.556588,
+                "pos_z": -1.52363,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R59_A44"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 75,
+                "armor_rear": 75,
+                "armor_side": 75,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": 0.002128,
+                "gun_pos_y": 0.317804,
+                "gun_pos_z": 0.976928,
+                "health": 200,
+                "id": 812,
+                "identifier": "Turret_1_A44",
+                "name": "A-44",
+                "not_in_shop": false,
+                "price": 12840,
+                "rotation_speed": 40,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "R59_A44",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Turret_01.model",
+                "weight": 4250
+            },
+            {
+                "Guns": null,
+                "armor_front": 90,
+                "armor_rear": 90,
+                "armor_side": 90,
+                "collision_model": "vehicles/russian/R59_A44/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": 0.002128,
+                "gun_pos_y": 0.317804,
+                "gun_pos_z": 0.976928,
+                "health": 300,
+                "id": 813,
+                "identifier": "Turret_2_A44",
+                "name": "A-44 shielded",
+                "not_in_shop": false,
+                "price": 17300,
+                "rotation_speed": 38,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "R59_A44",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/russian/R59_A44/normal/lod0/Turret_02.model",
+                "weight": 5170
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_A44_2",
+                "name": "Chassis_A44_2",
+                "parent_key": "chassis-Chassis_A44",
+                "price": 7900,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_A44",
+                "name": "Turret_2_A44",
+                "parent_key": "turret-Turret_1_A44",
+                "price": 8800,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_57mm_ZiS-4",
+                "name": "_57mm_ZiS-4",
+                "parent_key": "gun-_76mm_F-34",
+                "price": 2200,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_S-54",
+                "name": "_76mm_S-54",
+                "parent_key": "gun-_76mm_F-34",
+                "price": 4300,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_107mm_ZiS-6",
+                "name": "_107mm_ZiS-6",
+                "parent_key": "gun-_76mm_S-54",
+                "price": 14400,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R60_Object416",
+                "name": "R60_Object416",
+                "parent_key": "gun-_107mm_ZiS-6",
+                "price": 104600,
+                "tank_name": "Obj. 416",
+                "tank_price": 2500000,
+                "tank_slug": "obj-416",
+                "tank_tier": 8,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-V-5",
+                "name": "V-5",
+                "parent_key": "engine-V-2-34",
+                "price": 5500,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_9RM",
+                "name": "_9RM",
+                "parent_key": "radio-_9R",
+                "price": 4040,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922",
+        "visual_model": "vehicles/russian/R59_A44/normal/lod0/Hull.model",
+        "weight": 17930,
+        "xp_factor": 1
+    }
+}

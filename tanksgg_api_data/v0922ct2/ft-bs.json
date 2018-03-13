@@ -1,0 +1,464 @@
+{
+    "tank": {
+        "ammo_rack_health": 50,
+        "ammo_rack_repair_health": 25,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6
+            }
+        ],
+        "armor_front": 16,
+        "armor_rear": 16,
+        "armor_side": 16,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.365,
+        "camo_moving": 0.122,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.243,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 6000,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F20_RenaultBS/collision_client/Chassis.model",
+                "dispersion_movement": 0.33,
+                "dispersion_rotation": 0.33,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 40,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.995299,
+                "hull_pos_z": 0,
+                "id": 180,
+                "identifier": "Chassis_RenaultBS",
+                "max_climb_angle": 25,
+                "max_load": 7300,
+                "name": "Renault FT 75 BS",
+                "not_in_shop": false,
+                "price": 250,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 12,
+                "tank_id": "F20_RenaultBS",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 1,
+                "visual_model": "vehicles/french/F20_RenaultBS/normal/lod0/Chassis.model",
+                "weight": 2200
+            },
+            {
+                "armor": 5,
+                "brake_force": 7000,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F20_RenaultBS/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.995299,
+                "hull_pos_z": 0,
+                "id": 181,
+                "identifier": "Chassis_RenaultBS2",
+                "max_climb_angle": 25,
+                "max_load": 9300,
+                "name": "Renault FT 75 BS bis",
+                "not_in_shop": false,
+                "price": 560,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 14,
+                "tank_id": "F20_RenaultBS",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/french/F20_RenaultBS/normal/lod0/Chassis.model",
+                "weight": 2200
+            }
+        ],
+        "collision_model": "vehicles/french/F20_RenaultBS/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "An SPG with the 75-mm short-barrel S-type Blockhaus Schneider howitzer installed in the armored cabin. It was larger than previous guns, which increased the vehicle mass to 7.3 tons and cut its ammunition to 30 shells. High command saw value in the project and placed an order for 970 vehicles. By the end of World War I, a total of 39 vehicles were manufactured; after that, production was discontinued. There is no reliable information about participation of this SPG during the 1940s, but some vehicles took part in battles in North Africa. Two SPGs were captured by the Allies (U.S.A., U.K., France) during Operation Torch.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 196,
+                "identifier": "Renault",
+                "name": "Renault",
+                "not_in_shop": false,
+                "power": 39,
+                "price": 0,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F20_RenaultBS",
+                "tier": 1,
+                "weight": 266
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 197,
+                "identifier": "Franklin",
+                "name": "Franklin",
+                "not_in_shop": false,
+                "power": 100,
+                "price": 330,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F20_RenaultBS",
+                "tier": 1,
+                "weight": 266
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 19,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 4.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F20_RenaultBS/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.77,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.34,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 84,
+                "id": 299,
+                "identifier": "_76mm_Schneider",
+                "max_ammo": 24,
+                "name": "75 mm Blockhaus Schneider",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 2830,
+                "reload_time": 7.8,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 35,
+                "tier": 2,
+                "turret_id": 153,
+                "visual_model": "vehicles/french/F20_RenaultBS/normal/lod0/Gun_01.model",
+                "weight": 210,
+                "yaw_left": -10,
+                "yaw_right": 10
+            }
+        ],
+        "health": 64,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F20_RenaultBS",
+        "name": "Renault FT 75 BS",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 3700,
+        "radios": [
+            {
+                "health": 100,
+                "id": 191,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F20_RenaultBS",
+                "tier": 2,
+                "weight": 100
+            },
+            {
+                "health": 140,
+                "id": 192,
+                "identifier": "ER_53",
+                "name": "ER 53",
+                "not_in_shop": false,
+                "price": 3650,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "F20_RenaultBS",
+                "tier": 5,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.95,
+        "reverse_speed": 6,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 165,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 150,
+                "gun_id": 299,
+                "icon": "he",
+                "id": "_76mm_OEO_mle._1917",
+                "min_penetration": 19,
+                "module_damage": 105,
+                "name": "OEO mle. 1917",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 10000,
+                "speed": 270,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "FT BS",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ft-bs",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0.119853,
+        "turret_pos_y": 0.78693,
+        "turret_pos_z": 0.654039,
+        "turret_slots": [
+            {
+                "id": 119,
+                "pos_x": 0.119853,
+                "pos_y": 0.78693,
+                "pos_z": 0.654039,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "F20_RenaultBS"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/french/F20_RenaultBS/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_17",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 16,
+                "id": 153,
+                "identifier": "Turret_1_RenaultBS",
+                "name": "Renault FT 75 BS",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 18,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "F20_RenaultBS",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 250,
+                "visual_model": "vehicles/french/F20_RenaultBS/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_RenaultBS2",
+                "name": "Chassis_RenaultBS2",
+                "parent_key": "chassis-Chassis_RenaultBS",
+                "price": 80,
+                "type": "chassis"
+            },
+            {
+                "key": "vehicle-F21_Lorraine39_L_AM",
+                "name": "F21_Lorraine39_L_AM",
+                "parent_key": "chassis-Chassis_RenaultBS2",
+                "price": 1450,
+                "tank_name": "Lorr. 39L AM",
+                "tank_price": 51000,
+                "tank_slug": "lorr-39l-am",
+                "tank_tier": 3,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Franklin",
+                "name": "Franklin",
+                "parent_key": "engine-Renault",
+                "price": 40,
+                "type": "engine"
+            },
+            {
+                "key": "radio-ER_53",
+                "name": "ER_53",
+                "parent_key": "radio-ER_52",
+                "price": 610,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922ct2",
+        "visual_model": "vehicles/french/F20_RenaultBS/normal/lod0/Hull.model",
+        "weight": 4224,
+        "xp_factor": 1
+    }
+}

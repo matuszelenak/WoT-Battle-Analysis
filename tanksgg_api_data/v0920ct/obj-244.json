@@ -1,0 +1,562 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 100,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 120,
+        "armor_rear": 60,
+        "armor_side": 100,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.207,
+        "camo_moving": 0.069,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.138,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 49000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R114_Object_244/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.933623,
+                "hull_pos_z": 0,
+                "id": 794,
+                "identifier": "Chassis_R114_Object_244",
+                "max_climb_angle": 25,
+                "max_load": 49000,
+                "name": "Object 244",
+                "not_in_shop": true,
+                "price": 12000,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 28,
+                "tank_id": "R114_Object_244",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.6,
+                "tier": 6,
+                "visual_model": "vehicles/russian/R114_Object_244/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/russian/R114_Object_244/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A further development of the experimental tank Object 237. The Object 244 featured a more powerful gun. The fighting compartment was slightly changed: the radio was placed in a turret recess, a more efficient fan was installed, and the ammo rack and periscopic sight were modified. The driver's compartment and engine-transmission compartment were not modified. The vehicle never entered service due to problems with the gun barrel.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 190,
+                "id": 876,
+                "identifier": "V-2IS_R1",
+                "name": "V-2-10",
+                "not_in_shop": true,
+                "power": 520,
+                "price": 29000,
+                "repair_health": 95,
+                "repair_price": 7,
+                "tags": "diesel",
+                "tank_id": "R114_Object_244",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 42,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 5500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R114_Object_244/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 134,
+                "id": 1331,
+                "identifier": "_85mm_D5T-85BMA",
+                "max_ammo": 59,
+                "name": "85 mm D-5T-85BM",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            4.2
+                        ],
+                        [
+                            0.447222,
+                            4.2
+                        ],
+                        [
+                            0.461111,
+                            4.7
+                        ],
+                        [
+                            0.538889,
+                            4.7
+                        ],
+                        [
+                            0.552778,
+                            4.2
+                        ],
+                        [
+                            0.569445,
+                            4.2
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 73600,
+                "reload_time": 5.7,
+                "repair_health": 67,
+                "repair_price": 6,
+                "rotation_speed": 39.375,
+                "tier": 7,
+                "turret_id": 675,
+                "visual_model": "vehicles/russian/R114_Object_244/normal/lod0/Gun_01.model",
+                "weight": 1850,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 704,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R114_Object_244",
+        "name": "Object 244",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 926,
+                "identifier": "_10RKM",
+                "name": "10RKM",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R114_Object_244",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.8,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1331,
+                "icon": "ap",
+                "id": "_85mm_UBR-365KBM",
+                "min_penetration": 125,
+                "module_damage": 115,
+                "name": "UBR-365KBM",
+                "penetration": 144,
+                "penetration_loss": 0,
+                "price": 175,
+                "range": 720,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 1331,
+                "icon": "ap_cr",
+                "id": "_85mm_UBR-365PBM",
+                "min_penetration": 168,
+                "module_damage": 115,
+                "name": "UBR-365PBM",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 300,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1331,
+                "icon": "he",
+                "id": "_85mm_UOF-365BM",
+                "min_penetration": 44,
+                "module_damage": 115,
+                "name": "UOF-365BM",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 139,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 244",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-244",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "inGame"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.562108,
+        "turret_pos_z": 0.652247,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 100,
+                "armor_rear": 90,
+                "armor_side": 90,
+                "collision_model": "vehicles/russian/R114_Object_244/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.0001,
+                "gun_pos_y": 0.435969,
+                "gun_pos_z": 1.16365,
+                "health": 176,
+                "id": 675,
+                "identifier": "Turret_1_R114_Object_244",
+                "name": "Object 244",
+                "not_in_shop": true,
+                "price": 12000,
+                "rotation_speed": 26,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "R114_Object_244",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/russian/R114_Object_244/normal/lod0/Turret_01.model",
+                "weight": 8000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0920ct",
+        "visual_model": "vehicles/russian/R114_Object_244/normal/lod0/Hull.model",
+        "weight": 21025,
+        "xp_factor": 1.5
+    }
+}

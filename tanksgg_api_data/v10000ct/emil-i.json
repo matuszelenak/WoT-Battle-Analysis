@@ -1,0 +1,836 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 125
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 18
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 250
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 160
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 30,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.173,
+        "camo_moving": 0.057,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.115,
+        "chassis": [
+            {
+                "armor": 30,
+                "brake_force": 29000,
+                "center_rotation": false,
+                "collision_model": "vehicles/sweden/S18_EMIL_1951_E1/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 30
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.933264,
+                "hull_pos_z": 0,
+                "id": 516,
+                "identifier": "Chassis_S18_EMIL_1951_E1",
+                "max_climb_angle": 25,
+                "max_load": 29000,
+                "name": "Emil Alt 1",
+                "not_in_shop": false,
+                "price": 16500,
+                "repair_health": 165,
+                "repair_price": 5,
+                "rotation_speed": 27,
+                "tank_id": "S18_EMIL_1951_E1",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 7,
+                "visual_model": "vehicles/sweden/S18_EMIL_1951_E1/normal/lod0/Chassis.model",
+                "weight": 6360
+            },
+            {
+                "armor": 30,
+                "brake_force": 29000,
+                "center_rotation": false,
+                "collision_model": "vehicles/sweden/S18_EMIL_1951_E1/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 30
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.933264,
+                "hull_pos_z": 0,
+                "id": 517,
+                "identifier": "Chassis_S18_EMIL_1951_E1_2",
+                "max_climb_angle": 25,
+                "max_load": 32000,
+                "name": "Emil Alt 2",
+                "not_in_shop": false,
+                "price": 33400,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "S18_EMIL_1951_E1",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 8,
+                "visual_model": "vehicles/sweden/S18_EMIL_1951_E1/normal/lod0/Chassis.model",
+                "weight": 6360
+            }
+        ],
+        "collision_model": "vehicles/sweden/S18_EMIL_1951_E1/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            }
+        ],
+        "description": "A variant of the heavy tank developed for the Swedish army under the EMIL project in the 1950s. Design solutions used for the French AMX 13 tank influenced the project, which is obvious from the design of the turret. In 1951, a draft design was prepared, but development was discontinued in favor of later versions.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 230,
+                "id": 563,
+                "identifier": "AOS_895",
+                "name": "AOS-895",
+                "not_in_shop": false,
+                "power": 330,
+                "price": 31000,
+                "repair_health": 115,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "S18_EMIL_1951_E1",
+                "tier": 7,
+                "weight": 765
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 564,
+                "identifier": "SFA_8_cyl_boxer",
+                "name": "SFA 8 cyl boxer",
+                "not_in_shop": false,
+                "power": 380,
+                "price": 44000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "S18_EMIL_1951_E1",
+                "tier": 8,
+                "weight": 800
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 3,
+                "clip_size": 4,
+                "collision_model": "vehicles/sweden/S18_EMIL_1951_E1/collision_client/Gun_01.model",
+                "depression": 12,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 852,
+                "identifier": "_105mm_lvkan_m_42",
+                "max_ammo": 52,
+                "name": "10,5 cm lvkan m/42",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            0.402778,
+                            12
+                        ],
+                        [
+                            0.436111,
+                            9.5
+                        ],
+                        [
+                            0.563889,
+                            9.5
+                        ],
+                        [
+                            0.597222,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 105000,
+                "reload_time": 37,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 33,
+                "tier": 8,
+                "turret_id": 438,
+                "visual_model": "vehicles/sweden/S18_EMIL_1951_E1/normal/lod0/Gun_01.model",
+                "weight": 2050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 3.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 3,
+                "clip_size": 4,
+                "collision_model": "vehicles/sweden/S18_EMIL_1951_E1/collision_client/Gun_02.model",
+                "depression": 12,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 853,
+                "identifier": "_105mm_TK_105_9",
+                "max_ammo": 52,
+                "name": "10,5 cm TK 105-9",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            0.402778,
+                            12
+                        ],
+                        [
+                            0.436111,
+                            9.5
+                        ],
+                        [
+                            0.563889,
+                            9.5
+                        ],
+                        [
+                            0.597222,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 165000,
+                "reload_time": 34,
+                "repair_health": 97,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 9,
+                "turret_id": 438,
+                "visual_model": "vehicles/sweden/S18_EMIL_1951_E1/normal/lod0/Gun_02.model",
+                "weight": 2390,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "S18_EMIL_1951_E1",
+        "name": "Emil I",
+        "nation": "sweden",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 2540000,
+        "radios": [
+            {
+                "health": 150,
+                "id": 590,
+                "identifier": "Ra_400",
+                "name": "Ra 400",
+                "not_in_shop": false,
+                "price": 44200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "S18_EMIL_1951_E1",
+                "tier": 9,
+                "weight": 45
+            },
+            {
+                "health": 250,
+                "id": 591,
+                "identifier": "Ra_421",
+                "name": "Ra 421",
+                "not_in_shop": false,
+                "price": 57200,
+                "range": 850,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "S18_EMIL_1951_E1",
+                "tier": 10,
+                "weight": 27
+            }
+        ],
+        "repair_price": 7.5,
+        "reverse_speed": 16,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 852,
+                "icon": "ap",
+                "id": "_105mm_slpgr_m_42",
+                "min_penetration": 167,
+                "module_damage": 150,
+                "name": "slpgr m/42",
+                "penetration": 179,
+                "penetration_loss": 0,
+                "price": 415,
+                "range": 720,
+                "speed": 852,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 852,
+                "icon": "ap_cr",
+                "id": "_105mm_slpprj_m_49",
+                "min_penetration": 194,
+                "module_damage": 150,
+                "name": "slpprj m/49",
+                "penetration": 224,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1009,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 420,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 852,
+                "icon": "he",
+                "id": "_105mm_sgr_m_40_B",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "sgr m/40 B",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 325,
+                "range": 720,
+                "speed": 840,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 853,
+                "icon": "ap_cr",
+                "id": "_105mm_slpprj_m_52",
+                "min_penetration": 200,
+                "module_damage": 150,
+                "name": "slpprj m/52",
+                "penetration": 217,
+                "penetration_loss": 0,
+                "price": 690,
+                "range": 720,
+                "speed": 1080,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 853,
+                "icon": "ap_cr",
+                "id": "_105mm_slpprj_m_52_B",
+                "min_penetration": 220,
+                "module_damage": 150,
+                "name": "slpprj m/52 B",
+                "penetration": 242,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1350,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 420,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 853,
+                "icon": "he",
+                "id": "_105mm_sgr_m_52",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "sgr m/52",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 440,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Emil I",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "emil-i",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "heavyTank2"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.391478,
+        "turret_pos_z": 0.134378,
+        "turret_slots": [
+            {
+                "id": 345,
+                "pos_x": 0,
+                "pos_y": 0.391478,
+                "pos_z": 0.134378,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "S18_EMIL_1951_E1"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 20,
+                "armor_side": 35,
+                "collision_model": "vehicles/sweden/S18_EMIL_1951_E1/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 170
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 140
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 110
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 85
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.752397,
+                "gun_pos_z": -0.380278,
+                "health": 280,
+                "id": 438,
+                "identifier": "Turret_1_S18_EMIL_1951_E1",
+                "name": "Emil I",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 20,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 2,
+                "tank_id": "S18_EMIL_1951_E1",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/sweden/S18_EMIL_1951_E1/normal/lod0/Turret_01.model",
+                "weight": 9000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_S18_EMIL_1951_E1_2",
+                "name": "Chassis_S18_EMIL_1951_E1_2",
+                "parent_key": "chassis-Chassis_S18_EMIL_1951_E1",
+                "price": 16300,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_105mm_TK_105_9",
+                "name": "_105mm_TK_105_9",
+                "parent_key": "gun-_105mm_lvkan_m_42",
+                "price": 42000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-S17_EMIL_1952_E2",
+                "name": "S17_EMIL_1952_E2",
+                "parent_key": "gun-_105mm_TK_105_9",
+                "price": 167500,
+                "tank_name": "Emil II",
+                "tank_price": 3550000,
+                "tank_slug": "emil-ii",
+                "tank_tier": 9,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-SFA_8_cyl_boxer",
+                "name": "SFA_8_cyl_boxer",
+                "parent_key": "engine-AOS_895",
+                "price": 16700,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Ra_421",
+                "name": "Ra_421",
+                "parent_key": "radio-Ra_400",
+                "price": 9400,
+                "type": "radio"
+            }
+        ],
+        "version": "v10000ct",
+        "visual_model": "vehicles/sweden/S18_EMIL_1951_E1/normal/lod0/Hull.model",
+        "weight": 9948,
+        "xp_factor": 1
+    }
+}

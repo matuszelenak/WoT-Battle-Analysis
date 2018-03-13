@@ -1,0 +1,528 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 8
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 8,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.414,
+        "camo_moving": 0.276,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.276,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 25000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G125_Spz_57_Rh/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.01233,
+                "hull_pos_z": 0,
+                "id": 284,
+                "identifier": "Chassis_G125_Spz_57_Rh",
+                "max_climb_angle": 25,
+                "max_load": 30000,
+                "name": "Rheinmetall Panzerwagen",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 54,
+                "tank_id": "G125_Spz_57_Rh",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 10,
+                "visual_model": "vehicles/german/G125_Spz_57_Rh/normal/lod0/Chassis.model",
+                "weight": 6500
+            }
+        ],
+        "collision_model": "vehicles/german/G125_Spz_57_Rh/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            }
+        ],
+        "description": "On June 8, 1957, Rheinmetall recorded a patent for a new light tank with an oscillating turret and a gun with trunnions. The proposed design allowed engineers to equip light vehicles with powerful 90-mm and 105-mm guns while preserving the minimum vehicle height. Rheinmetall did not have their own chassis for the subsequent tank production, and they offered their turret to other plants. The vehicle is a project on the basis of the Hanomag and Henschel chassis. Existed only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 313,
+                "identifier": "MB_881",
+                "name": "MB 881",
+                "not_in_shop": true,
+                "power": 1100,
+                "price": 132000,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "G125_Spz_57_Rh",
+                "tier": 10,
+                "weight": 700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 75,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G125_Spz_57_Rh/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 208,
+                "id": 469,
+                "identifier": "_105mm_Kanone",
+                "max_ammo": 35,
+                "name": "105 mm Kanone",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.361111,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            6
+                        ],
+                        [
+                            0.555556,
+                            6
+                        ],
+                        [
+                            0.583333,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 280000,
+                "reload_time": 9,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 10,
+                "turret_id": 240,
+                "visual_model": "vehicles/german/G125_Spz_57_Rh/normal/lod0/Gun_02.model",
+                "weight": 1000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G125_Spz_57_Rh",
+        "name": "Rheinmetall Panzerwagen",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 180,
+                "id": 307,
+                "identifier": "SEM25_1",
+                "name": "SEM 25A",
+                "not_in_shop": true,
+                "price": 55000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "G125_Spz_57_Rh",
+                "tier": 10,
+                "weight": 50
+            }
+        ],
+        "repair_price": 13.5,
+        "reverse_speed": 25,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 469,
+                "icon": "ap_cr",
+                "id": "_105mm_Exp_APDS",
+                "min_penetration": 194,
+                "module_damage": 150,
+                "name": "Exp. APDS",
+                "penetration": 242,
+                "penetration_loss": 0,
+                "price": 1130,
+                "range": 720,
+                "speed": 1200,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 469,
+                "icon": "hc",
+                "id": "_105mm_Exp_HEAT",
+                "min_penetration": 280,
+                "module_damage": 150,
+                "name": "Exp. HEAT",
+                "penetration": 280,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 420,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 469,
+                "icon": "he",
+                "id": "_105mm_Exp_HE",
+                "min_penetration": 120,
+                "module_damage": 150,
+                "name": "Exp. HE",
+                "penetration": 120,
+                "penetration_loss": 0,
+                "price": 815,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Rhm. Pzw.",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "rhm-pzw",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.724149,
+        "turret_pos_z": 0.68964,
+        "turret_slots": [
+            {
+                "id": 188,
+                "pos_x": 0,
+                "pos_y": 0.724149,
+                "pos_z": 0.68964,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G125_Spz_57_Rh"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 20,
+                "armor_rear": 20,
+                "armor_side": 20,
+                "collision_model": "vehicles/german/G125_Spz_57_Rh/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": 0.050166,
+                "gun_pos_y": 0.315859,
+                "gun_pos_z": 1.24533,
+                "health": 320,
+                "id": 240,
+                "identifier": "Turret_1_G125_Spz_57_Rh",
+                "name": "Rheinmetall Panzerwagen",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 44,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 2,
+                "tank_id": "G125_Spz_57_Rh",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 420,
+                "visual_model": "vehicles/german/G125_Spz_57_Rh/normal/lod0/Turret_01.model",
+                "weight": 4500
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0922ct2",
+        "visual_model": "vehicles/german/G125_Spz_57_Rh/normal/lod0/Hull.model",
+        "weight": 11950,
+        "xp_factor": 1
+    }
+}

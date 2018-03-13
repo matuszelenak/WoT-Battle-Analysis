@@ -1,0 +1,507 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 85
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 50
+            }
+        ],
+        "armor_front": 85,
+        "armor_rear": 40,
+        "armor_side": 50,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.243,
+        "camo_moving": 0.151,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.192,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 45000,
+                "center_rotation": true,
+                "collision_model": "vehicles/poland/Pl03_PzV_Poland/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.23974,
+                "hull_pos_z": 0,
+                "id": 472,
+                "identifier": "Chassis_1_Pl03_PzV_Poland",
+                "max_climb_angle": 25,
+                "max_load": 48000,
+                "name": "Pz.Kpfw. V Ausf. G",
+                "not_in_shop": true,
+                "price": 18200,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "Pl03_PzV_Poland",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.3,
+                "tier": 6,
+                "visual_model": "vehicles/poland/Pl03_PzV_Poland/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/poland/Pl03_PzV_Poland/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A variant of the Pz.Kpfw. V Panther Ausf. G, the most massively produced modification of the German Panther tank. Two German Panther Ausf. G tanks were captured by Polish troops during the Warsaw Uprising on August 2, 1944. Rebels applied national colors and various emblems to the vehicles, which is reflected in the game. One tank was nicknamed \"Pudel\" (which means Poodle) and used in urban warfare.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 515,
+                "identifier": "Maybach_HL_230P30A",
+                "name": "Maybach HL 230 TRM P30",
+                "not_in_shop": true,
+                "power": 700,
+                "price": 55000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "Pl03_PzV_Poland",
+                "tier": 8,
+                "weight": 1400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 3650,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/poland/Pl03_PzV_Poland/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 802,
+                "identifier": "_75mm_KwK_L70",
+                "max_ammo": 81,
+                "name": "7,5 cm Kw.K. 42 L/70",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 53000,
+                "reload_time": 4.2,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 417,
+                "visual_model": "vehicles/poland/Pl03_PzV_Poland/normal/lod0/Gun_01.model",
+                "weight": 955,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 608,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Pl03_PzV_Poland",
+        "name": "Pudel",
+        "nation": "poland",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 539,
+                "identifier": "FuG7A",
+                "name": "FuG 7",
+                "not_in_shop": true,
+                "price": 8160,
+                "range": 710,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "Pl03_PzV_Poland",
+                "tier": 6,
+                "weight": 70
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 802,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 132,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 150,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 925,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 802,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 174,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1156,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 802,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 19 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 925,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pudel",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pudel",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "beast"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.723957,
+        "turret_pos_z": -0.265,
+        "turret_slots": [
+            {
+                "id": 332,
+                "pos_x": 0,
+                "pos_y": 0.723957,
+                "pos_z": -0.265,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "Pl03_PzV_Poland"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 100,
+                "armor_rear": 45,
+                "armor_side": 45,
+                "collision_model": "vehicles/poland/Pl03_PzV_Poland/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 45
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.4563,
+                "gun_pos_z": 1.0316,
+                "health": 232,
+                "id": 417,
+                "identifier": "Turret_1_Pl03_PzV_Poland",
+                "name": "Pz.Kpfw. V Ausf. G",
+                "not_in_shop": true,
+                "price": 13500,
+                "rotation_speed": 30,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "Pl03_PzV_Poland",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/poland/Pl03_PzV_Poland/normal/lod0/Turret_01.model",
+                "weight": 7760
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v092014",
+        "visual_model": "vehicles/poland/Pl03_PzV_Poland/normal/lod0/Hull.model",
+        "weight": 18775,
+        "xp_factor": 1.5
+    }
+}

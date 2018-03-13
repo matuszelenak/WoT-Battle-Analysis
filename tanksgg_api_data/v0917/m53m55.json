@@ -1,0 +1,691 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 75,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 12.7
+            }
+        ],
+        "armor_front": 25.4,
+        "armor_rear": 12.7,
+        "armor_side": 12.7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.161,
+        "camo_moving": 0.054,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.107,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 40000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A88_M53_55/collision_client/Chassis.model",
+                "dispersion_movement": 0.42,
+                "dispersion_rotation": 0.42,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.24267,
+                "hull_pos_z": 0,
+                "id": 686,
+                "identifier": "Chassis_M53_55",
+                "max_climb_angle": 25,
+                "max_load": 44700,
+                "name": "T97/T108",
+                "not_in_shop": false,
+                "price": 31000,
+                "repair_health": 105,
+                "repair_price": 1,
+                "rotation_speed": 22,
+                "tank_id": "A88_M53_55",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 8,
+                "visual_model": "vehicles/american/A88_M53_55/normal/lod0/Chassis.model",
+                "weight": 23000
+            },
+            {
+                "armor": 20,
+                "brake_force": 45000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A88_M53_55/collision_client/Chassis.model",
+                "dispersion_movement": 0.38,
+                "dispersion_rotation": 0.38,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 150,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.24267,
+                "hull_pos_z": 0,
+                "id": 687,
+                "identifier": "Chassis_M53_55_2",
+                "max_climb_angle": 25,
+                "max_load": 48000,
+                "name": "M53/M55",
+                "not_in_shop": false,
+                "price": 64000,
+                "repair_health": 115,
+                "repair_price": 1,
+                "rotation_speed": 24,
+                "tank_id": "A88_M53_55",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 9,
+                "visual_model": "vehicles/american/A88_M53_55/normal/lod0/Chassis.model",
+                "weight": 23000
+            }
+        ],
+        "collision_model": "vehicles/american/A88_M53_55/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "SPG on a modified chassis of the M47 medium tank. The prototype was produced in 1952, and in 1956 the SPG entered service in two variants: the M55 for the Army and the M53 for the Marines.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 769,
+                "identifier": "Ford_GAC_R",
+                "name": "Ford GAC",
+                "not_in_shop": false,
+                "power": 770,
+                "price": 59000,
+                "repair_health": 130,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A88_M53_55",
+                "tier": 8,
+                "weight": 839
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 285,
+                "id": 770,
+                "identifier": "Continental_AV-1790-7B",
+                "name": "Continental AV-1790-7B",
+                "not_in_shop": false,
+                "power": 810,
+                "price": 100000,
+                "repair_health": 142,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "A88_M53_55",
+                "tier": 10,
+                "weight": 1171
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 56.3,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A88_M53_55/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.68,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.64,
+                "elevation": 65,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 230,
+                "id": 1203,
+                "identifier": "_155mm_Gun_M46",
+                "max_ammo": 40,
+                "name": "155 mm Gun M46",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -65
+                        ],
+                        [
+                            1,
+                            -65
+                        ]
+                    ]
+                },
+                "price": 125000,
+                "reload_time": 30.5,
+                "repair_health": 115,
+                "repair_price": 11,
+                "rotation_speed": 22.75,
+                "tier": 8,
+                "turret_id": 584,
+                "visual_model": "vehicles/american/A88_M53_55/normal/lod0/Gun_01.model",
+                "weight": 3264,
+                "yaw_left": -30,
+                "yaw_right": 30
+            },
+            {
+                "Shells": null,
+                "aim_time": 7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A88_M53_55/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.84,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.66,
+                "elevation": 65,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 242,
+                "id": 1204,
+                "identifier": "_203mm_Howitzer_M47",
+                "max_ammo": 20,
+                "name": "8-inch Howitzer M47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -65
+                        ],
+                        [
+                            1,
+                            -65
+                        ]
+                    ]
+                },
+                "price": 240000,
+                "reload_time": 45.2,
+                "repair_health": 121,
+                "repair_price": 12,
+                "rotation_speed": 17.5,
+                "tier": 9,
+                "turret_id": 584,
+                "visual_model": "vehicles/american/A88_M53_55/normal/lod0/Gun_02.model",
+                "weight": 2776,
+                "yaw_left": -30,
+                "yaw_right": 30
+            }
+        ],
+        "health": 360,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A88_M53_55",
+        "name": "M53/M55",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3550000,
+        "radios": [
+            {
+                "health": 140,
+                "id": 820,
+                "identifier": "AN_PRC_10",
+                "name": "AN/PRC-10",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 500,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "A88_M53_55",
+                "tier": 8,
+                "weight": 12
+            },
+            {
+                "health": 180,
+                "id": 821,
+                "identifier": "AN_PRC_25",
+                "name": "AN/PRC-25",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "A88_M53_55",
+                "tier": 10,
+                "weight": 9
+            }
+        ],
+        "repair_price": 30.5,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 155,
+                "damage": 1250,
+                "explosion_radius": 3.97,
+                "gold_price": 0,
+                "gravity": 170,
+                "gun_id": 1203,
+                "icon": "he",
+                "id": "_155mm_HE_M101M4",
+                "min_penetration": 88,
+                "module_damage": 210,
+                "name": "HE M101M4",
+                "penetration": 88,
+                "penetration_loss": 0,
+                "price": 1120,
+                "range": 10000,
+                "speed": 490,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 155,
+                "damage": 1250,
+                "explosion_radius": 5.34,
+                "gold_price": 13,
+                "gravity": 170,
+                "gun_id": 1203,
+                "icon": "he_premium",
+                "id": "_155mm_HE_M101M6",
+                "min_penetration": 90,
+                "module_damage": 210,
+                "name": "HE M101M6",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 5200,
+                "range": 10000,
+                "speed": 490,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 203,
+                "damage": 1850,
+                "explosion_radius": 6.07,
+                "gold_price": 0,
+                "gravity": 150,
+                "gun_id": 1204,
+                "icon": "he",
+                "id": "_203mm_HE_M106",
+                "min_penetration": 102,
+                "module_damage": 270,
+                "name": "HE A1M1",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 1870,
+                "range": 10000,
+                "speed": 440,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 203,
+                "damage": 1450,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 150,
+                "gun_id": 1204,
+                "icon": "ap",
+                "id": "_203mm_M106_M78",
+                "min_penetration": 221,
+                "module_damage": 270,
+                "name": "M106/M78",
+                "penetration": 241,
+                "penetration_loss": 0,
+                "price": 1765,
+                "range": 10000,
+                "speed": 440,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 203,
+                "damage": 1850,
+                "explosion_radius": 8.49,
+                "gold_price": 20,
+                "gravity": 150,
+                "gun_id": 1204,
+                "icon": "he_premium",
+                "id": "_203mm_HE_A1M1",
+                "min_penetration": 102,
+                "module_damage": 270,
+                "name": "HE M106",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 8000,
+                "range": 10000,
+                "speed": 440,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M53/M55",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m53m55",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "mediumSPG"
+            },
+            {
+                "name": "largeCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.368928,
+        "turret_pos_z": -1.2935,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A88_M53_55/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 19
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.829,
+                "gun_pos_z": 0.5251,
+                "health": 90,
+                "id": 584,
+                "identifier": "Turret_1_M53_55",
+                "name": "M53/M55",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 10,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "A88_M53_55",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/american/A88_M53_55/normal/lod0/Turret_01.model",
+                "weight": 8000
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_M53_55_2",
+                "name": "Chassis_M53_55_2",
+                "parent_key": "chassis-Chassis_M53_55",
+                "price": 24000,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_203mm_Howitzer_M47",
+                "name": "_203mm_Howitzer_M47",
+                "parent_key": "gun-_155mm_Gun_M46",
+                "price": 64000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A38_T92",
+                "name": "A38_T92",
+                "parent_key": "gun-_203mm_Howitzer_M47",
+                "price": 271000,
+                "tank_name": "T92 HMC",
+                "tank_price": 6100000,
+                "tank_slug": "t92-hmc",
+                "tank_tier": 10,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Continental_AV-1790-7B",
+                "name": "Continental_AV-1790-7B",
+                "parent_key": "engine-Ford_GAC_R",
+                "price": 31000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-AN_PRC_25",
+                "name": "AN_PRC_25",
+                "parent_key": "radio-AN_PRC_10",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0917",
+        "visual_model": "vehicles/american/A88_M53_55/normal/lod0/Hull.model",
+        "weight": 9243,
+        "xp_factor": 1
+    }
+}

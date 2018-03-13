@@ -1,0 +1,519 @@
+{
+    "tank": {
+        "ammo_rack_health": 185,
+        "ammo_rack_repair_health": 125,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 25
+            }
+        ],
+        "armor_front": 50.8,
+        "armor_rear": 50.8,
+        "armor_side": 50.8,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.204,
+        "camo_moving": 0.068,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1,
+        "camo_still": 0.136,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 45500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A21_T14/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.896805,
+                "hull_pos_z": 0,
+                "id": 779,
+                "identifier": "T-14",
+                "max_climb_angle": 25,
+                "max_load": 49800,
+                "name": "T14",
+                "not_in_shop": true,
+                "price": 12900,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 20,
+                "tank_id": "A21_T14",
+                "terrain_hard": 1.03,
+                "terrain_medium": 1.14,
+                "terrain_soft": 1.71,
+                "tier": 6,
+                "visual_model": "vehicles/american/A21_T14/normal/lod0/Chassis.model",
+                "weight": 14800
+            }
+        ],
+        "collision_model": "vehicles/american/A21_T14/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed between May 1942 and May 1943. Two prototypes were manufactured and tested. However, mass production was canceled, and the T14 never became more than an experimental vehicle.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 338,
+                "id": 862,
+                "identifier": "Ford_GAC_1",
+                "name": "Ford GAZ",
+                "not_in_shop": true,
+                "power": 720,
+                "price": 43500,
+                "repair_health": 169,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A21_T14",
+                "tier": 7,
+                "weight": 556
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 34,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.06,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A21_T14/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 101
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 114,
+                "id": 1300,
+                "identifier": "_75mm_Gun_M3_L37A",
+                "max_ammo": 90,
+                "name": "75 mm Gun M3",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.380783,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            7
+                        ],
+                        [
+                            0.555556,
+                            7
+                        ],
+                        [
+                            0.619218,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 3.81,
+                "repair_health": 57,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 666,
+                "visual_model": "vehicles/american/A21_T14/normal/lod0/Gun_01.model",
+                "weight": 1437,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 552,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A21_T14",
+        "name": "T14",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 907,
+                "identifier": "SCR_508_1",
+                "name": "SCR 508/1",
+                "not_in_shop": true,
+                "price": 21600,
+                "range": 570,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A21_T14",
+                "tier": 8,
+                "weight": 100
+            }
+        ],
+        "repair_price": 3.1,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1300,
+                "icon": "ap",
+                "id": "_75mm_M61",
+                "min_penetration": 80,
+                "module_damage": 100,
+                "name": "M61",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1300,
+                "icon": "ap_cr",
+                "id": "_75mm_M72",
+                "min_penetration": 97,
+                "module_damage": 100,
+                "name": "T45",
+                "penetration": 127,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 774,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1300,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T14",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t14",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": -2.9e-05,
+        "turret_pos_y": 0.743894,
+        "turret_pos_z": -0.218873,
+        "turret_slots": [
+            {
+                "id": 517,
+                "pos_x": -2.9e-05,
+                "pos_y": 0.743894,
+                "pos_z": -0.218873,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A21_T14"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 101.6,
+                "armor_rear": 101,
+                "armor_side": 101,
+                "collision_model": "vehicles/american/A21_T14/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 88.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 101
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 101
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 107.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 139.7
+                    }
+                ],
+                "gun_pos_x": 2.9e-05,
+                "gun_pos_y": 0.467439,
+                "gun_pos_z": 0.805225,
+                "health": 138,
+                "id": 666,
+                "identifier": "T-14",
+                "name": "T14",
+                "not_in_shop": true,
+                "price": 9500,
+                "rotation_speed": 26.25,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "A21_T14",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/american/A21_T14/normal/lod0/Turret_01.model",
+                "weight": 5020
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v09212",
+        "visual_model": "vehicles/american/A21_T14/normal/lod0/Hull.model",
+        "weight": 25600,
+        "xp_factor": 1.5
+    }
+}

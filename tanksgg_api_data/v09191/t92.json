@@ -1,0 +1,448 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 31.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 22.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 31.8,
+        "armor_rear": 19.1,
+        "armor_side": 25.4,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.48,
+        "camo_moving": 0.32,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.32,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 17000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A99_T92_LT/collision_client/Chassis.model",
+                "dispersion_movement": 0.08,
+                "dispersion_rotation": 0.08,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 155,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.801623,
+                "hull_pos_z": 0,
+                "id": 632,
+                "identifier": "Chassis_A99_T92_LT",
+                "max_climb_angle": 25,
+                "max_load": 20000,
+                "name": "T92",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 115,
+                "repair_price": 5,
+                "rotation_speed": 70,
+                "tank_id": "A99_T92_LT",
+                "terrain_hard": 0.3,
+                "terrain_medium": 0.4,
+                "terrain_soft": 1.1,
+                "tier": 7,
+                "visual_model": "vehicles/american/A99_T92_LT/normal/lod0/Chassis.model",
+                "weight": 4500
+            }
+        ],
+        "collision_model": "vehicles/american/A99_T92_LT/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A project of an airborne light tank. Developed by the Aircraft Armaments as a replacement for the M41. The design incorporated many innovations. Two prototypes were manufactured, which underwent trials at Aberdeen Proving Ground. In June 1958, the project was canceled.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 696,
+                "identifier": "Continental_AOI-628-1_A",
+                "name": "Continental AOI-628-1",
+                "not_in_shop": true,
+                "power": 340,
+                "price": 14000,
+                "repair_health": 52,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "A99_T92_LT",
+                "tier": 5,
+                "weight": 498
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 100,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.8,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A99_T92_LT/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.05,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1066,
+                "identifier": "_76mm_Gun_T185E1",
+                "max_ammo": 60,
+                "name": "76 mm Gun T185E1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.858333,
+                            10
+                        ],
+                        [
+                            0.902778,
+                            6
+                        ],
+                        [
+                            0.936111,
+                            7
+                        ],
+                        [
+                            0.966667,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 73000,
+                "reload_time": 4.2,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 7,
+                "turret_id": 538,
+                "visual_model": "vehicles/american/A99_T92_LT/normal/lod0/Gun_01.model",
+                "weight": 646,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 672,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A99_T92_LT",
+        "name": "T92",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 752,
+                "identifier": "AN_GRC_8",
+                "name": "AN/GRC-8",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A99_T92_LT",
+                "tier": 10,
+                "weight": 105
+            }
+        ],
+        "repair_price": 4.5,
+        "reverse_speed": 25,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1066,
+                "icon": "ap_cr",
+                "id": "_76mm_APDS_M331A2",
+                "min_penetration": 173,
+                "module_damage": 105,
+                "name": "HVAP-DS-T M331A2",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 270,
+                "range": 720,
+                "speed": 1219,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 14,
+                "gravity": 9.81,
+                "gun_id": 1066,
+                "icon": "hc",
+                "id": "_76mm_HEAT_M496",
+                "min_penetration": 210,
+                "module_damage": 105,
+                "name": "HEAT-T M496",
+                "penetration": 210,
+                "penetration_loss": 0.05,
+                "price": 5600,
+                "range": 720,
+                "speed": 975,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1066,
+                "icon": "he",
+                "id": "_76mm_HE_M352",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M352",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 250,
+                "range": 720,
+                "speed": 975,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T92",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t92",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "testTank"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": -0.000161,
+        "turret_pos_y": 0.570733,
+        "turret_pos_z": -0.282604,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 28.6,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A99_T92_LT/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.000159,
+                "gun_pos_y": 0.299352,
+                "gun_pos_z": 0.410399,
+                "health": 168,
+                "id": 538,
+                "identifier": "Turret_1_A99_T92_LT",
+                "name": "T92",
+                "not_in_shop": true,
+                "price": 20000,
+                "rotation_speed": 50,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "A99_T92_LT",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/american/A99_T92_LT/normal/lod0/Turret_01.model",
+                "weight": 3000
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09191",
+        "visual_model": "vehicles/american/A99_T92_LT/normal/lod0/Hull.model",
+        "weight": 7963,
+        "xp_factor": 1.5
+    }
+}

@@ -1,0 +1,535 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 45,
+        "armor_side": 45,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.449,
+        "camo_moving": 0.225,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.299,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 28000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R146_STG/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.801602,
+                "hull_pos_z": 0,
+                "id": 857,
+                "identifier": "Chassis_R146_STG",
+                "max_climb_angle": 25,
+                "max_load": 30000,
+                "name": "STG",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 150,
+                "repair_price": 7.5,
+                "rotation_speed": 45,
+                "tank_id": "R146_STG",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.6,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R146_STG/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/russian/R146_STG/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed in the J.V. Stalin Academy of the WPRA Mechanization and Motorization Program. According to various sources, work on the project started after 1949. The vehicle featured a layout with a frontal placement for its transmission and a rear placement for its fighting compartment, which was unusual for the Soviet tank-building school. The project was discontinued at the design development stage.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 260,
+                "id": 944,
+                "identifier": "BAMM_V12",
+                "name": "VAMM V12",
+                "not_in_shop": true,
+                "power": 400,
+                "price": 45000,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "R146_STG",
+                "tier": 8,
+                "weight": 1300
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 9700,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R146_STG/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.33,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 180
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 192,
+                "id": 1446,
+                "identifier": "_122mm_D_25TS",
+                "max_ammo": 35,
+                "name": "122 mm D-25TS",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 125000,
+                "reload_time": 14,
+                "repair_health": 96,
+                "repair_price": 8,
+                "rotation_speed": 25,
+                "tier": 8,
+                "turret_id": 743,
+                "visual_model": "vehicles/russian/R146_STG/normal/lod0/Gun_01.model",
+                "weight": 2590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1080,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R146_STG",
+        "name": "STG",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 992,
+                "identifier": "_10RKM",
+                "name": "10RKM",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R146_STG",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1446,
+                "icon": "ap",
+                "id": "_122mm_BR_471M",
+                "min_penetration": 193,
+                "module_damage": 165,
+                "name": "BR-471M",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 840,
+                "range": 720,
+                "speed": 880,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1446,
+                "icon": "ap_cr",
+                "id": "_122mm_BR_471PM",
+                "min_penetration": 212,
+                "module_damage": 165,
+                "name": "BR-471PM",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1446,
+                "icon": "he",
+                "id": "_122mm_UOF_471M",
+                "min_penetration": 61,
+                "module_damage": 165,
+                "name": "UOF-471M",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 470,
+                "range": 720,
+                "speed": 880,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "STG",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "stg",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": -0.001826,
+        "turret_pos_y": 0.49192,
+        "turret_pos_z": -0.673816,
+        "turret_slots": [
+            {
+                "id": 584,
+                "pos_x": -0.001826,
+                "pos_y": 0.49192,
+                "pos_z": -0.673816,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R146_STG"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 210,
+                "armor_rear": 45,
+                "armor_side": 180,
+                "collision_model": "vehicles/russian/R146_STG/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 85
+                    }
+                ],
+                "gun_pos_x": 0.001826,
+                "gun_pos_y": 0.322242,
+                "gun_pos_z": 1.18767,
+                "health": 270,
+                "id": 743,
+                "identifier": "Turret_1_R146_STG",
+                "name": "STG",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 35,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "R146_STG",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/russian/R146_STG/normal/lod0/Turret_01.model",
+                "weight": 7000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v092012",
+        "visual_model": "vehicles/russian/R146_STG/normal/lod0/Hull.model",
+        "weight": 9735,
+        "xp_factor": 1.5
+    }
+}

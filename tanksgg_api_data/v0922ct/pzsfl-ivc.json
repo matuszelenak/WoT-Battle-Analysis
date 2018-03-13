@@ -1,0 +1,843 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 20,
+        "armor_rear": 14.5,
+        "armor_side": 14.5,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.326,
+        "camo_moving": 0.13,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1,
+        "camo_still": 0.217,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 26000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G76_Pz_Sfl_IVc/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.844646,
+                "hull_pos_z": 0,
+                "id": 315,
+                "identifier": "Chassis_Pz_Sfl_IVc",
+                "max_climb_angle": 25,
+                "max_load": 26000,
+                "name": "Pz.Sfl. IVc",
+                "not_in_shop": false,
+                "price": 5000,
+                "repair_health": 70,
+                "repair_price": 0.5,
+                "rotation_speed": 44,
+                "tank_id": "G76_Pz_Sfl_IVc",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.4,
+                "tier": 4,
+                "visual_model": "vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Chassis.model",
+                "weight": 7000
+            },
+            {
+                "armor": 20,
+                "brake_force": 29000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G76_Pz_Sfl_IVc/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.844646,
+                "hull_pos_z": 0,
+                "id": 316,
+                "identifier": "Chassis_Pz_Sfl_IVc_2",
+                "max_climb_angle": 25,
+                "max_load": 29000,
+                "name": "Pz.Sfl. IVc verst\u00e4rkteketten",
+                "not_in_shop": false,
+                "price": 8800,
+                "repair_health": 75,
+                "repair_price": 0.5,
+                "rotation_speed": 48,
+                "tank_id": "G76_Pz_Sfl_IVc",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.2,
+                "tier": 5,
+                "visual_model": "vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/german/G76_Pz_Sfl_IVc/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Proposed antiaircraft vehicle mounting the 88-mm antiaircraft gun. Development started in Germany in 1941. The vehicle was based on the Pz.Sfl.IVc chassis. The operational requirements for the vehicle were constantly changed, and the FlaK 41 gun was mounted on the chassis only in 1944. The vehicle was to be the basis of variants with other armament alternatives. However, the plan was never implemented. Only three prototypes were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 348,
+                "identifier": "Maybach_HL90",
+                "name": "Maybach HL 90",
+                "not_in_shop": false,
+                "power": 360,
+                "price": 16400,
+                "repair_health": 40,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "G76_Pz_Sfl_IVc",
+                "tier": 5,
+                "weight": 550
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 349,
+                "identifier": "Maybach_HL100",
+                "name": "Maybach HL 100",
+                "not_in_shop": false,
+                "power": 400,
+                "price": 17700,
+                "repair_health": 40,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "G76_Pz_Sfl_IVc",
+                "tier": 5,
+                "weight": 550
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 60,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G76_Pz_Sfl_IVc/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 85,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 130,
+                "id": 524,
+                "identifier": "_75mm_Flak_L60",
+                "max_ammo": 72,
+                "name": "7,5 cm Flak L/60",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -85
+                        ],
+                        [
+                            1,
+                            -85
+                        ]
+                    ]
+                },
+                "price": 53000,
+                "reload_time": 4,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 265,
+                "visual_model": "vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Gun_01.model",
+                "weight": 1250,
+                "yaw_left": -24,
+                "yaw_right": 24
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G76_Pz_Sfl_IVc/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 85,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 150,
+                "id": 525,
+                "identifier": "_88mm_Flak_37_L56",
+                "max_ammo": 60,
+                "name": "8,8 cm Flak 37 L/56",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -85
+                        ],
+                        [
+                            1,
+                            -85
+                        ]
+                    ]
+                },
+                "price": 66000,
+                "reload_time": 6.8,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 265,
+                "visual_model": "vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Gun_02.model",
+                "weight": 2065,
+                "yaw_left": -24,
+                "yaw_right": 24
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G76_Pz_Sfl_IVc/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.32,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 90,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 170,
+                "id": 526,
+                "identifier": "_88mm_Flak_41_L74",
+                "max_ammo": 48,
+                "name": "8,8 cm Flak 41 L/74",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -90
+                        ],
+                        [
+                            1,
+                            -90
+                        ]
+                    ]
+                },
+                "price": 112180,
+                "reload_time": 7.5,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 30.625,
+                "tier": 8,
+                "turret_id": 266,
+                "visual_model": "vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Gun_03.model",
+                "weight": 4905,
+                "yaw_left": -5,
+                "yaw_right": 5
+            }
+        ],
+        "health": 280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G76_Pz_Sfl_IVc",
+        "name": "Pz.Sfl. IVc",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 380000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 351,
+                "identifier": "FuG_F",
+                "name": "Fu.Spr.Ger. \"f\"",
+                "not_in_shop": false,
+                "price": 10000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "G76_Pz_Sfl_IVc",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 352,
+                "identifier": "FuG8",
+                "name": "FuG 8",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "G76_Pz_Sfl_IVc",
+                "tier": 8,
+                "weight": 50
+            }
+        ],
+        "repair_price": 7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 524,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 123,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 139,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 860,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 524,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 154,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 174,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1075,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 524,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 860,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 88,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 525,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39",
+                "min_penetration": 129,
+                "module_damage": 119,
+                "name": "Pzgr 39",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 773,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 525,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40",
+                "min_penetration": 168,
+                "module_damage": 119,
+                "name": "Pzgr 40",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 966,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 270,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 525,
+                "icon": "he",
+                "id": "_88mm_Sprg.18",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 18",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 773,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 526,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39_1",
+                "min_penetration": 177,
+                "module_damage": 119,
+                "name": "Pzgr. 39/1 Flak 41",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 526,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr40_43",
+                "min_penetration": 216,
+                "module_damage": 119,
+                "name": "Pzgr. 40/43 Flak 41",
+                "penetration": 237,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 526,
+                "icon": "he",
+                "id": "_88mm_Sprgr.Flak_41",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr. Flak 41",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz.Sfl. IVc",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pzsfl-ivc",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.210224,
+        "turret_pos_z": -0.194144,
+        "turret_slots": [
+            {
+                "id": 210,
+                "pos_x": 0,
+                "pos_y": 0.210224,
+                "pos_z": -0.194144,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G76_Pz_Sfl_IVc"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G76_Pz_Sfl_IVc/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 1.305,
+                "gun_pos_z": -0.649627,
+                "health": 70,
+                "id": 265,
+                "identifier": "Turret_1_Pz_Sfl_IVc",
+                "name": "Pz.Sfl. IVc Flak 37",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "G76_Pz_Sfl_IVc",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Turret_01.model",
+                "weight": 100
+            },
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G76_Pz_Sfl_IVc/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.771899,
+                "gun_pos_z": -1.23028,
+                "health": 70,
+                "id": 266,
+                "identifier": "Turret_2_Pz_Sfl_IVc",
+                "name": "Pz.Sfl. IVc Flak 41",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "G76_Pz_Sfl_IVc",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Turret_02.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Pz_Sfl_IVc_2",
+                "name": "Chassis_Pz_Sfl_IVc_2",
+                "parent_key": "chassis-Chassis_Pz_Sfl_IVc",
+                "price": 2050,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_88mm_Flak_37_L56",
+                "name": "_88mm_Flak_37_L56",
+                "parent_key": "gun-_75mm_Flak_L60",
+                "price": 9500,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_88mm_Flak_41_L74",
+                "name": "_88mm_Flak_41_L74",
+                "parent_key": "gun-_88mm_Flak_37_L56",
+                "price": 16500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-G40_Nashorn",
+                "name": "G40_Nashorn",
+                "parent_key": "gun-_88mm_Flak_37_L56",
+                "price": 26500,
+                "tank_name": "Nashorn",
+                "tank_price": 905000,
+                "tank_slug": "nashorn",
+                "tank_tier": 6,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_HL100",
+                "name": "Maybach_HL100",
+                "parent_key": "engine-Maybach_HL90",
+                "price": 1500,
+                "type": "engine"
+            },
+            {
+                "key": "radio-FuG8",
+                "name": "FuG8",
+                "parent_key": "radio-FuG_F",
+                "price": 4040,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922ct",
+        "visual_model": "vehicles/german/G76_Pz_Sfl_IVc/normal/lod0/Hull.model",
+        "weight": 13155,
+        "xp_factor": 1
+    }
+}

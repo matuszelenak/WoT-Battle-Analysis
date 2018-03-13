@@ -1,0 +1,837 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 40,
+        "armor_rear": 20,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.483,
+        "camo_moving": 0.322,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.322,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 12000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F87_Batignolles-Chatillon_12t/collision_client/Chassis.model",
+                "dispersion_movement": 0.15,
+                "dispersion_rotation": 0.15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.946801,
+                "hull_pos_z": 0,
+                "id": 107,
+                "identifier": "Chassis_F87_Batignolles-Chatillon_12t",
+                "max_climb_angle": 25,
+                "max_load": 12500,
+                "name": "Batignolles-Ch\u00e2tillon 12 t",
+                "not_in_shop": false,
+                "price": 19000,
+                "repair_health": 135,
+                "repair_price": 7.5,
+                "rotation_speed": 40,
+                "tank_id": "F87_Batignolles-Chatillon_12t",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.6,
+                "tier": 7,
+                "visual_model": "vehicles/french/F87_Batignolles-Chatillon_12t/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 20,
+                "brake_force": 12000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F87_Batignolles-Chatillon_12t/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.946801,
+                "hull_pos_z": 0,
+                "id": 108,
+                "identifier": "Chassis_F87_Batignolles-Chatillon_12t_2",
+                "max_climb_angle": 25,
+                "max_load": 15000,
+                "name": "Batignolles-Ch\u00e2tillon 12 t bis",
+                "not_in_shop": false,
+                "price": 29000,
+                "repair_health": 150,
+                "repair_price": 7.5,
+                "rotation_speed": 42,
+                "tank_id": "F87_Batignolles-Chatillon_12t",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.4,
+                "tier": 8,
+                "visual_model": "vehicles/french/F87_Batignolles-Chatillon_12t/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/french/F87_Batignolles-Chatillon_12t/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            }
+        ],
+        "description": "A light tank developed by Batignolles-Ch\u00e2tillon in the late 1940s. The vehicle featured an oscillating turret and 75-mm gun. Never saw mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 120,
+                "identifier": "Mathis_210",
+                "name": "Mathis 210",
+                "not_in_shop": false,
+                "power": 320,
+                "price": 36000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "F87_Batignolles-Chatillon_12t",
+                "tier": 7,
+                "weight": 400
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 121,
+                "identifier": "Mathis_300",
+                "name": "Mathis 300",
+                "not_in_shop": false,
+                "power": 400,
+                "price": 44500,
+                "repair_health": 130,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "F87_Batignolles-Chatillon_12t",
+                "tier": 8,
+                "weight": 400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 68,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2,
+                "clip_size": 4,
+                "collision_model": "vehicles/french/F87_Batignolles-Chatillon_12t/collision_client/Gun_02.model",
+                "depression": 6,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 189,
+                "identifier": "Canon_de_75mm_Vo_920_m_s",
+                "max_ammo": 44,
+                "name": "Canon de 75 mm Vo 920 m/s",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            0.319444,
+                            -13
+                        ],
+                        [
+                            0.333333,
+                            -11
+                        ],
+                        [
+                            0.666667,
+                            -11
+                        ],
+                        [
+                            0.680556,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 72000,
+                "reload_time": 24,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 96,
+                "visual_model": "vehicles/french/F87_Batignolles-Chatillon_12t/normal/lod0/Gun_02.model",
+                "weight": 1700,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2,
+                "clip_size": 4,
+                "collision_model": "vehicles/french/F87_Batignolles-Chatillon_12t/collision_client/Gun_03.model",
+                "depression": 6,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 190,
+                "identifier": "Canon_de_75mm_Vo_1000_m_s",
+                "max_ammo": 52,
+                "name": "Canon de 75 mm Vo 1000 m/s",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            0.319444,
+                            -13
+                        ],
+                        [
+                            0.333333,
+                            -11
+                        ],
+                        [
+                            0.666667,
+                            -11
+                        ],
+                        [
+                            0.680556,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 102000,
+                "reload_time": 20,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 96,
+                "visual_model": "vehicles/french/F87_Batignolles-Chatillon_12t/normal/lod0/Gun_03.model",
+                "weight": 1700,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 800,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F87_Batignolles-Chatillon_12t",
+        "name": "Bat.-Ch\u00e2tillon 12 t",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 2370000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 112,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "F87_Batignolles-Chatillon_12t",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 113,
+                "identifier": "SCR_528",
+                "name": "SCR 528F",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F87_Batignolles-Chatillon_12t",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 9,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 170,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 189,
+                "icon": "ap",
+                "id": "_75mm_Prf1930A",
+                "min_penetration": 128,
+                "module_damage": 100,
+                "name": "Prf. mle. 1930A",
+                "penetration": 144,
+                "penetration_loss": 0,
+                "price": 210,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 170,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 189,
+                "icon": "ap_cr",
+                "id": "_75mm_FrtPrf1944A",
+                "min_penetration": 159,
+                "module_damage": 100,
+                "name": "Frt.Prf. mle. 1944A",
+                "penetration": 182,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 260,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 189,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1924A",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1924A",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 145,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 170,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 190,
+                "icon": "ap",
+                "id": "_75mm_Prf1930A",
+                "min_penetration": 148,
+                "module_damage": 100,
+                "name": "Prf. mle. 1930A",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 210,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 170,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 190,
+                "icon": "ap_cr",
+                "id": "_75mm_FrtPrf1944A",
+                "min_penetration": 185,
+                "module_damage": 100,
+                "name": "Frt.Prf. mle. 1944A",
+                "penetration": 210,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 260,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 190,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1924A",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1924A",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 145,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "B-C 12 t",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "b-c-12-t",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.29951,
+        "turret_pos_z": 0,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/french/F87_Batignolles-Chatillon_12t/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.453739,
+                "gun_pos_z": 0,
+                "health": 200,
+                "id": 96,
+                "identifier": "Turret_1_F87_Batignolles-Chatillon_12t",
+                "name": "FL 10 Type C",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 46,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "F87_Batignolles-Chatillon_12t",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/french/F87_Batignolles-Chatillon_12t/normal/lod0/Turret_01.model",
+                "weight": 2500
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_F87_Batignolles-Chatillon_12t_2",
+                "name": "Chassis_F87_Batignolles-Chatillon_12t_2",
+                "parent_key": "chassis-Chassis_F87_Batignolles-Chatillon_12t",
+                "price": 18200,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-Canon_de_75mm_Vo_1000_m_s",
+                "name": "Canon_de_75mm_Vo_1000_m_s",
+                "parent_key": "gun-Canon_de_75mm_Vo_920_m_s",
+                "price": 18000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F75_Char_de_25t",
+                "name": "F75_Char_de_25t",
+                "parent_key": "gun-Canon_de_75mm_Vo_1000_m_s",
+                "price": 198000,
+                "tank_name": "B-C 25 t AP",
+                "tank_price": 3450000,
+                "tank_slug": "b-c-25-t-ap",
+                "tank_tier": 9,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-F17_AMX_13_90",
+                "name": "F17_AMX_13_90",
+                "parent_key": "gun-Canon_de_75mm_Vo_1000_m_s",
+                "price": 189900,
+                "tank_name": "AMX 13 90",
+                "tank_price": 3500000,
+                "tank_slug": "amx-13-90",
+                "tank_tier": 9,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-F71_AMX_30_prototype",
+                "name": "F71_AMX_30_prototype",
+                "parent_key": "gun-Canon_de_75mm_Vo_1000_m_s",
+                "price": 197300,
+                "tank_name": "AMX 30",
+                "tank_price": 3550000,
+                "tank_slug": "amx-30",
+                "tank_tier": 9,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Mathis_300",
+                "name": "Mathis_300",
+                "parent_key": "engine-Mathis_210",
+                "price": 16400,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09201ct",
+        "visual_model": "vehicles/french/F87_Batignolles-Chatillon_12t/normal/lod0/Hull.model",
+        "weight": 4045,
+        "xp_factor": 1
+    }
+}

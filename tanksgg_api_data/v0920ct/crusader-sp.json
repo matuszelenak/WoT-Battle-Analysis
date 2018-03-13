@@ -1,0 +1,666 @@
+{
+    "tank": {
+        "ammo_rack_health": 110,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 28.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6.4
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": true,
+                "value": 12
+            }
+        ],
+        "armor_front": 0,
+        "armor_rear": 12,
+        "armor_side": 28.3,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.428,
+        "camo_moving": 0.143,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.285,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 17000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB29_Crusader_5inch/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.4,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.864568,
+                "hull_pos_z": 0,
+                "id": 621,
+                "identifier": "Chassis_GB29_Crusader_5inch",
+                "max_climb_angle": 25,
+                "max_load": 19000,
+                "name": "Crusader Mk. II",
+                "not_in_shop": false,
+                "price": 15000,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "GB29_Crusader_5inch",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 6,
+                "visual_model": "vehicles/british/GB29_Crusader_5inch/normal/lod0/Chassis.model",
+                "weight": 9000
+            },
+            {
+                "armor": 15,
+                "brake_force": 19000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB29_Crusader_5inch/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.864568,
+                "hull_pos_z": 0,
+                "id": 622,
+                "identifier": "Chassis_GB29_Crusader_5inch_2",
+                "max_climb_angle": 25,
+                "max_load": 21000,
+                "name": "Crusader 5.5-in. SP",
+                "not_in_shop": false,
+                "price": 20000,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "GB29_Crusader_5inch",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 7,
+                "visual_model": "vehicles/british/GB29_Crusader_5inch/normal/lod0/Chassis.model",
+                "weight": 9000
+            }
+        ],
+        "collision_model": "vehicles/british/GB29_Crusader_5inch/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "An SPG on the Crusader chassis with a 140-mm howitzer. The vehicle was developed after the end of WWII. The work on the project was discontinued at the prototyping stage. Never entered mass production or saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 682,
+                "identifier": "Nuffield_liberty_MKIV",
+                "name": "Nuffield Liberty Mk. III",
+                "not_in_shop": false,
+                "power": 395,
+                "price": 11500,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB29_Crusader_5inch",
+                "tier": 4,
+                "weight": 383
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 136,
+                "id": 683,
+                "identifier": "Nuffield_liberty_MKV",
+                "name": "Nuffield Liberty Mk. V",
+                "not_in_shop": false,
+                "power": 410,
+                "price": 12500,
+                "repair_health": 67,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB29_Crusader_5inch",
+                "tier": 5,
+                "weight": 383
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 14,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB29_Crusader_5inch/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.66,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 5,
+                "dispersion_rotation": 0.32,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 150,
+                "id": 1048,
+                "identifier": "_4.5inch_SPG_Howitzer",
+                "max_ammo": 64,
+                "name": "Q.F. 4.5-in. Howitzer",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 43000,
+                "reload_time": 12,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 5,
+                "turret_id": 521,
+                "visual_model": "vehicles/british/GB29_Crusader_5inch/normal/lod0/Gun_01.model",
+                "weight": 463,
+                "yaw_left": -17,
+                "yaw_right": 23
+            },
+            {
+                "Shells": null,
+                "aim_time": 4.8,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB29_Crusader_5inch/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.66,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.4,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 180,
+                "id": 1049,
+                "identifier": "_5.5inch_SPG_Gun",
+                "max_ammo": 32,
+                "name": "B.L. 5.5-in. Gun",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 88000,
+                "reload_time": 29,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 23.675,
+                "tier": 7,
+                "turret_id": 522,
+                "visual_model": "vehicles/british/GB29_Crusader_5inch/normal/lod0/Gun_02.model",
+                "weight": 1869,
+                "yaw_left": -19,
+                "yaw_right": 20
+            }
+        ],
+        "health": 280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB29_Crusader_5inch",
+        "name": "Crusader 5.5-in. SP",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 1440000,
+        "radios": [
+            {
+                "health": 80,
+                "id": 734,
+                "identifier": "N9",
+                "name": "WS No. 9",
+                "not_in_shop": false,
+                "price": 3600,
+                "range": 375,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "GB29_Crusader_5inch",
+                "tier": 5,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 735,
+                "identifier": "N19Mk1",
+                "name": "WS No. 19 Mk. I",
+                "not_in_shop": false,
+                "price": 15000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "GB29_Crusader_5inch",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 736,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB29_Crusader_5inch",
+                "tier": 7,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 737,
+                "identifier": "N19Mk3",
+                "name": "WS No. 19 Mk. III",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "GB29_Crusader_5inch",
+                "tier": 8,
+                "weight": 40
+            }
+        ],
+        "repair_price": 10,
+        "reverse_speed": 43.5,
+        "shells": [
+            {
+                "caliber": 114.3,
+                "damage": 450,
+                "explosion_radius": 2.22,
+                "gold_price": 0,
+                "gravity": 146,
+                "gun_id": 1048,
+                "icon": "he",
+                "id": "_4.5inch_HE_Mk_13",
+                "min_penetration": 28,
+                "module_damage": 155,
+                "name": "HE Mk. XIII",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 250,
+                "range": 10000,
+                "speed": 270,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 139.7,
+                "damage": 600,
+                "explosion_radius": 7.2,
+                "gold_price": 0,
+                "gravity": 146,
+                "gun_id": 1049,
+                "icon": "he",
+                "id": "_5.5inch_HE_Mk_4",
+                "min_penetration": 35,
+                "module_damage": 96,
+                "name": "HE 80-lb Mk. 3",
+                "penetration": 35,
+                "penetration_loss": 0,
+                "price": 700,
+                "range": 10000,
+                "speed": 440,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 139.7,
+                "damage": 600,
+                "explosion_radius": 8.1,
+                "gold_price": 12,
+                "gravity": 146,
+                "gun_id": 1049,
+                "icon": "he_premium",
+                "id": "_5.5inch_HE_Mk_5",
+                "min_penetration": 35,
+                "module_damage": 96,
+                "name": "HE 80-lb Mk. 4",
+                "penetration": 35,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 10000,
+                "speed": 440,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Crusader SP",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "crusader-sp",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "mediumSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedSuspension_Christie_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.262736,
+        "turret_pos_z": -1.86636,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB29_Crusader_5inch/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.672501,
+                "gun_pos_z": 0.297409,
+                "health": 70,
+                "id": 521,
+                "identifier": "Turret_1_GB29_Crusader_5inch",
+                "name": "Crusader 5.5-in. SP",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 14,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB29_Crusader_5inch",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 275,
+                "visual_model": "vehicles/british/GB29_Crusader_5inch/normal/lod0/Turret_01.model",
+                "weight": 100
+            },
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB29_Crusader_5inch/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 6.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.614197,
+                "gun_pos_z": 0.264862,
+                "health": 70,
+                "id": 522,
+                "identifier": "Turret_2_GB29_Crusader_5inch",
+                "name": "Crusader 5.5-in. SP",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 14,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB29_Crusader_5inch",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 275,
+                "visual_model": "vehicles/british/GB29_Crusader_5inch/normal/lod0/Turret_02.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB29_Crusader_5inch_2",
+                "name": "Chassis_GB29_Crusader_5inch_2",
+                "parent_key": "chassis-Chassis_GB29_Crusader_5inch",
+                "price": 9000,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_5.5inch_SPG_Gun",
+                "name": "_5.5inch_SPG_Gun",
+                "parent_key": "gun-_4.5inch_SPG_Howitzer",
+                "price": 14000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB79_FV206",
+                "name": "GB79_FV206",
+                "parent_key": "gun-_5.5inch_SPG_Gun",
+                "price": 118200,
+                "tank_name": "FV207",
+                "tank_price": 2730000,
+                "tank_slug": "fv207",
+                "tank_tier": 8,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Nuffield_liberty_MKV",
+                "name": "Nuffield_liberty_MKV",
+                "parent_key": "engine-Nuffield_liberty_MKIV",
+                "price": 1000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N19Mk1",
+                "name": "N19Mk1",
+                "parent_key": "radio-N9",
+                "price": 1480,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk2",
+                "name": "N19Mk2",
+                "parent_key": "radio-N19Mk1",
+                "price": 3600,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk3",
+                "name": "N19Mk3",
+                "parent_key": "radio-N19Mk2",
+                "price": 4000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0920ct",
+        "visual_model": "vehicles/british/GB29_Crusader_5inch/normal/lod0/Hull.model",
+        "weight": 7358,
+        "xp_factor": 1
+    }
+}

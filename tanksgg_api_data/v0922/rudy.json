@@ -1,0 +1,560 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 45
+            }
+        ],
+        "armor_front": 45,
+        "armor_rear": 40,
+        "armor_side": 45,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.368,
+        "camo_moving": 0.184,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.245,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 36500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R117_T34_85_Rudy/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.821276,
+                "hull_pos_z": 0,
+                "id": 849,
+                "identifier": "Chassis_R117_T34_85_Rudy",
+                "max_climb_angle": 25,
+                "max_load": 35300,
+                "name": "T-34-85-60",
+                "not_in_shop": true,
+                "price": 12000,
+                "repair_health": 90,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "R117_T34_85_Rudy",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.8,
+                "tier": 6,
+                "visual_model": "vehicles/russian/R117_T34_85_Rudy/normal/lod0/Chassis.model",
+                "weight": 7800
+            }
+        ],
+        "collision_model": "vehicles/russian/R117_T34_85_Rudy/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "This fictional T-34-85 tank, identified as Number 102 of the 1st Tank Brigade of the Polish Army, was featured in the Polish TV series \"Four Tank-Men and a Dog.\" In reality, \u0422-34-85s were produced in Poland in the 1950s at the Bumar Labedy plant, located in Gliwice. The Polish variant was slightly modified from the Soviet tank of the late-war period.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 145,
+                "id": 935,
+                "identifier": "V-2-34_B",
+                "name": "V-2-34",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 27860,
+                "repair_health": 72,
+                "repair_price": 6,
+                "tags": "diesel",
+                "tank_id": "R117_T34_85_Rudy",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 54,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 3550,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R117_T34_85_Rudy/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 22,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 122,
+                "id": 1418,
+                "identifier": "_85mm_ZiS_S-53_B",
+                "max_ammo": 56,
+                "name": "85 mm ZiS-S-53",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.427778,
+                            7
+                        ],
+                        [
+                            0.441667,
+                            4.2
+                        ],
+                        [
+                            0.469445,
+                            4.2
+                        ],
+                        [
+                            0.483333,
+                            7
+                        ],
+                        [
+                            0.516667,
+                            7
+                        ],
+                        [
+                            0.530556,
+                            4.2
+                        ],
+                        [
+                            0.558333,
+                            4.2
+                        ],
+                        [
+                            0.572222,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -22
+                        ],
+                        [
+                            1,
+                            -22
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 6,
+                "repair_health": 61,
+                "repair_price": 6,
+                "rotation_speed": 39.375,
+                "tier": 6,
+                "turret_id": 726,
+                "visual_model": "vehicles/russian/R117_T34_85_Rudy/normal/lod0/Gun_01.model",
+                "weight": 1550,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 576,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R117_T34_85_Rudy",
+        "name": "T-34-85 Rudy",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 982,
+                "identifier": "_9RM_O",
+                "name": "9RM",
+                "not_in_shop": true,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R117_T34_85_Rudy",
+                "tier": 8,
+                "weight": 30
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1418,
+                "icon": "ap",
+                "id": "_85mm_UBR-365KBM",
+                "min_penetration": 125,
+                "module_damage": 115,
+                "name": "UBR-365KBM",
+                "penetration": 144,
+                "penetration_loss": 0,
+                "price": 175,
+                "range": 720,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 1418,
+                "icon": "ap_cr",
+                "id": "_85mm_UBR-365PBM",
+                "min_penetration": 168,
+                "module_damage": 115,
+                "name": "UBR-365PBM",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 300,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1418,
+                "icon": "he",
+                "id": "_85mm_UOF-365BM",
+                "min_penetration": 44,
+                "module_damage": 115,
+                "name": "UOF-365BM",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 139,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Rudy",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "rudy",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedSuspension_Christie_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "dog"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.738724,
+        "turret_pos_z": 0.6248,
+        "turret_slots": [
+            {
+                "id": 565,
+                "pos_x": 0,
+                "pos_y": 0.738724,
+                "pos_z": 0.6248,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R117_T34_85_Rudy"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 90,
+                "armor_rear": 52,
+                "armor_side": 75,
+                "collision_model": "vehicles/russian/R117_T34_85_Rudy/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": -0.019345,
+                "gun_pos_y": 0.445023,
+                "gun_pos_z": 0.978068,
+                "health": 144,
+                "id": 726,
+                "identifier": "Turret_1_R117_T34_85_Rudy",
+                "name": "T-34-85",
+                "not_in_shop": true,
+                "price": 12000,
+                "rotation_speed": 46,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "R117_T34_85_Rudy",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 365,
+                "visual_model": "vehicles/russian/R117_T34_85_Rudy/normal/lod0/Turret_01.model",
+                "weight": 7000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0922",
+        "visual_model": "vehicles/russian/R117_T34_85_Rudy/normal/lod0/Hull.model",
+        "weight": 15100,
+        "xp_factor": 1.5
+    }
+}

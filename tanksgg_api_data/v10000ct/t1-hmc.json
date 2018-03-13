@@ -1,0 +1,537 @@
+{
+    "tank": {
+        "ammo_rack_health": 60,
+        "ammo_rack_repair_health": 30,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 6.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 6.4
+            }
+        ],
+        "armor_front": 9.5,
+        "armor_rear": 9.5,
+        "armor_side": 9.5,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.386,
+        "camo_moving": 0.128,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.257,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 5000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A107_T1_HMC/collision_client/Chassis.model",
+                "dispersion_movement": 0.55,
+                "dispersion_rotation": 0.55,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 40,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.87494,
+                "hull_pos_z": 0,
+                "id": 671,
+                "identifier": "Chassis_A107_T1_HMC",
+                "max_climb_angle": 25,
+                "max_load": 5200,
+                "name": "T1 HMC",
+                "not_in_shop": false,
+                "price": 250,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 18,
+                "tank_id": "A107_T1_HMC",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 1,
+                "visual_model": "vehicles/american/A107_T1_HMC/normal/lod0/Chassis.model",
+                "weight": 1000
+            },
+            {
+                "armor": 5,
+                "brake_force": 5000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A107_T1_HMC/collision_client/Chassis.model",
+                "dispersion_movement": 0.5,
+                "dispersion_rotation": 0.5,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.87494,
+                "hull_pos_z": 0,
+                "id": 672,
+                "identifier": "Chassis_A107_T1_HMC_2",
+                "max_climb_angle": 25,
+                "max_load": 7000,
+                "name": "T1 HMC modified",
+                "not_in_shop": false,
+                "price": 550,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 20,
+                "tank_id": "A107_T1_HMC",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/american/A107_T1_HMC/normal/lod0/Chassis.model",
+                "weight": 1000
+            }
+        ],
+        "collision_model": "vehicles/american/A107_T1_HMC/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The T1 Howitzer Motor Carriage was created in the fall of 1930 on the T2 chassis. The design incorporated components of the T1 Cunningham. Due to the Great Depression, all work on the project was discontinued at the prototype stage.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 58,
+                "id": 740,
+                "identifier": "LaSalle_V8_75",
+                "name": "LaSalle V8 75",
+                "not_in_shop": false,
+                "power": 75,
+                "price": 550,
+                "repair_health": 26,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "A107_T1_HMC",
+                "tier": 2,
+                "weight": 300
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 58,
+                "id": 741,
+                "identifier": "LaSalle_V8_89",
+                "name": "LaSalle V8 89",
+                "not_in_shop": false,
+                "power": 89,
+                "price": 800,
+                "repair_health": 26,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "A107_T1_HMC",
+                "tier": 2,
+                "weight": 300
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 34,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 5.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A107_T1_HMC/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.8,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.48,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 9.5
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 6.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 6.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 84,
+                "id": 1133,
+                "identifier": "_75mm_Pack_Howitzer_M1",
+                "max_ammo": 60,
+                "name": "75 mm Pack Howitzer M1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 2780,
+                "reload_time": 9,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 35,
+                "tier": 2,
+                "turret_id": 569,
+                "visual_model": "vehicles/american/A107_T1_HMC/normal/lod0/Gun_01.model",
+                "weight": 155,
+                "yaw_left": -30,
+                "yaw_right": 30
+            }
+        ],
+        "health": 64,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A107_T1_HMC",
+        "name": "T1 HMC",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 3300,
+        "radios": [
+            {
+                "health": 100,
+                "id": 791,
+                "identifier": "SCR_200",
+                "name": "SCR 200",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 265,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "A107_T1_HMC",
+                "tier": 2,
+                "weight": 40
+            },
+            {
+                "health": 110,
+                "id": 792,
+                "identifier": "SCR_210",
+                "name": "SCR 210",
+                "not_in_shop": false,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "A107_T1_HMC",
+                "tier": 4,
+                "weight": 80
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 145,
+                "gun_id": 1133,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 19,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 10000,
+                "speed": 380,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T1 HMC",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t1-hmc",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.414625,
+        "turret_pos_z": 0.272627,
+        "turret_slots": [
+            {
+                "id": 442,
+                "pos_x": 0,
+                "pos_y": 0.414625,
+                "pos_z": 0.272627,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A107_T1_HMC"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 9.5,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A107_T1_HMC/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 9.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 6.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.009209,
+                "gun_pos_y": 0.595805,
+                "gun_pos_z": -0.074752,
+                "health": 16,
+                "id": 569,
+                "identifier": "Turret_1_A107_T1_HMC",
+                "name": "T1 HMC",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 15,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "A107_T1_HMC",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 250,
+                "visual_model": "vehicles/american/A107_T1_HMC/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_A107_T1_HMC_2",
+                "name": "Chassis_A107_T1_HMC_2",
+                "parent_key": "chassis-Chassis_A107_T1_HMC",
+                "price": 90,
+                "type": "chassis"
+            },
+            {
+                "key": "engine-LaSalle_V8_89",
+                "name": "LaSalle_V8_89",
+                "parent_key": "engine-LaSalle_V8_75",
+                "price": 95,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_210",
+                "name": "SCR_210",
+                "parent_key": "radio-SCR_200",
+                "price": 330,
+                "type": "radio"
+            },
+            {
+                "key": "vehicle-A16_M7_Priest",
+                "name": "A16_M7_Priest",
+                "parent_key": "radio-SCR_210",
+                "price": 1130,
+                "tank_name": "M7 Priest",
+                "tank_price": 47000,
+                "tank_slug": "m7-priest",
+                "tank_tier": 3,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-A108_T18_HMC",
+                "name": "A108_T18_HMC",
+                "parent_key": "radio-SCR_210",
+                "price": 1110,
+                "tank_name": "T18 HMC",
+                "tank_price": 45000,
+                "tank_slug": "t18-hmc",
+                "tank_tier": 3,
+                "tank_type": "spg",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v10000ct",
+        "visual_model": "vehicles/american/A107_T1_HMC/normal/lod0/Hull.model",
+        "weight": 3370,
+        "xp_factor": 1
+    }
+}

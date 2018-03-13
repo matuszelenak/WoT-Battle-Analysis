@@ -1,0 +1,556 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 109.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 88.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 14.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 57.1
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 48.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 99.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 75
+            }
+        ],
+        "armor_front": 65,
+        "armor_rear": 38.1,
+        "armor_side": 38.1,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.309,
+        "camo_moving": 0.154,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.206,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 46500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A44_M4A2E4/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.970108,
+                "hull_pos_z": 0,
+                "id": 757,
+                "identifier": "Chassis_M4A2E4",
+                "max_climb_angle": 25,
+                "max_load": 33300,
+                "name": "M4A2E4T42",
+                "not_in_shop": true,
+                "price": 8300,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 37,
+                "tank_id": "A44_M4A2E4",
+                "terrain_hard": 1.03,
+                "terrain_medium": 1.14,
+                "terrain_soft": 1.71,
+                "tier": 5,
+                "visual_model": "vehicles/american/A44_M4A2E4/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/american/A44_M4A2E4/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Work on this experimental vehicle started in March 1943. Two prototypes were built by July. The vehicle passed trials, but was never mass-produced or used in action.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 176,
+                "id": 836,
+                "identifier": "General_Motors_6046",
+                "name": "General Motors 6046",
+                "not_in_shop": true,
+                "power": 420,
+                "price": 13500,
+                "repair_health": 100,
+                "repair_price": 3,
+                "tags": "diesel",
+                "tank_id": "A44_M4A2E4",
+                "tier": 5,
+                "weight": 549
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 52,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.06,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A44_M4A2E4/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 114,
+                "id": 1257,
+                "identifier": "_75mm_Gun_M3_L37A",
+                "max_ammo": 90,
+                "name": "75 mm Gun M3",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.038889,
+                            10
+                        ],
+                        [
+                            0.041667,
+                            5
+                        ],
+                        [
+                            0.094444,
+                            5
+                        ],
+                        [
+                            0.097222,
+                            10
+                        ],
+                        [
+                            0.902778,
+                            10
+                        ],
+                        [
+                            0.905556,
+                            5
+                        ],
+                        [
+                            0.958333,
+                            5
+                        ],
+                        [
+                            0.961111,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 3.81,
+                "repair_health": 57,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 640,
+                "visual_model": "vehicles/american/A44_M4A2E4/normal/lod0/Gun_01.model",
+                "weight": 1437,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 384,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A44_M4A2E4",
+        "name": "M4A2E4 Sherman",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 886,
+                "identifier": "SCR_508_1",
+                "name": "SCR 508/1",
+                "not_in_shop": true,
+                "price": 21600,
+                "range": 570,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A44_M4A2E4",
+                "tier": 8,
+                "weight": 100
+            }
+        ],
+        "repair_price": 3.5,
+        "reverse_speed": 18,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1257,
+                "icon": "ap",
+                "id": "_75mm_M61",
+                "min_penetration": 80,
+                "module_damage": 100,
+                "name": "M61",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1257,
+                "icon": "ap_cr",
+                "id": "_75mm_M72",
+                "min_penetration": 97,
+                "module_damage": 100,
+                "name": "T45",
+                "penetration": 127,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 774,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1257,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M4A2E4",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m4a2e4",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "disabledInRoaming"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 1.00989,
+        "turret_pos_z": 0.006792,
+        "turret_slots": [
+            {
+                "id": 501,
+                "pos_x": 0,
+                "pos_y": 1.00989,
+                "pos_z": 0.006792,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A44_M4A2E4"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 76.2,
+                "armor_rear": 50.8,
+                "armor_side": 50.8,
+                "collision_model": "vehicles/american/A44_M4A2E4/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 12.7
+                    }
+                ],
+                "gun_pos_x": -0.00077,
+                "gun_pos_y": 0.216073,
+                "gun_pos_z": 0.709484,
+                "health": 96,
+                "id": 640,
+                "identifier": "Turret_1_M4A2E4",
+                "name": "M4A2E4D51066",
+                "not_in_shop": true,
+                "price": 9650,
+                "rotation_speed": 39,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "A44_M4A2E4",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/american/A44_M4A2E4/normal/lod0/Turret_01.model",
+                "weight": 5000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0922",
+        "visual_model": "vehicles/american/A44_M4A2E4/normal/lod0/Hull.model",
+        "weight": 16460,
+        "xp_factor": 1.5
+    }
+}

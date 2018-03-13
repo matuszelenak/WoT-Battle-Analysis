@@ -1,0 +1,674 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 18
+            }
+        ],
+        "armor_front": 15,
+        "armor_rear": 12,
+        "armor_side": 12,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.581,
+        "camo_moving": 0.232,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.387,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 13000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.788987,
+                "hull_pos_z": 0,
+                "id": 508,
+                "identifier": "Chassis_S06_Ikv_90_Typ_B_Bofors",
+                "max_climb_angle": 25,
+                "max_load": 13500,
+                "name": "Ikv 90 Alt 1",
+                "not_in_shop": false,
+                "price": 12000,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.7,
+                "terrain_soft": 2.6,
+                "tier": 6,
+                "visual_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/normal/lod0/Chassis.model",
+                "weight": 3500
+            },
+            {
+                "armor": 10,
+                "brake_force": 13000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.788987,
+                "hull_pos_z": 0,
+                "id": 509,
+                "identifier": "Chassis_S06_Ikv_90_Typ_B_Bofors_2",
+                "max_climb_angle": 25,
+                "max_load": 16000,
+                "name": "Ikv 90 Alt 2",
+                "not_in_shop": false,
+                "price": 23300,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 7,
+                "visual_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/normal/lod0/Chassis.model",
+                "weight": 3500
+            }
+        ],
+        "collision_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A vehicle project by the Bofors company. Developed in 1965-1966 as part of the competitive search for a light tank by the Swedish Ministry of Defence. The lightly-armored vehicle was to combine high speed, maneuverability, and a powerful gun, which would be effective against modern tanks and support troops on the battlefield. The design project was ready in January 1966 and further work was scheduled. However, no prototype was produced.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 160,
+                "id": 555,
+                "identifier": "Volvo_TD_100_A",
+                "name": "Volvo TD 100 A",
+                "not_in_shop": false,
+                "power": 270,
+                "price": 26600,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors",
+                "tier": 6,
+                "weight": 940
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 160,
+                "id": 556,
+                "identifier": "Volvo_THD_100_B",
+                "name": "Volvo THD 100 B",
+                "not_in_shop": false,
+                "power": 310,
+                "price": 28000,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors",
+                "tier": 6,
+                "weight": 940
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 65,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    }
+                ],
+                "health": 170,
+                "id": 839,
+                "identifier": "_90mm_Bofors_L_53",
+                "max_ammo": 48,
+                "name": "9 cm Bofors L/53",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 84000,
+                "reload_time": 8,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 430,
+                "visual_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/normal/lod0/Gun_01.model",
+                "weight": 815,
+                "yaw_left": -20,
+                "yaw_right": 20
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    }
+                ],
+                "health": 170,
+                "id": 840,
+                "identifier": "_90mm_kan_m_F",
+                "max_ammo": 48,
+                "name": "9 cm kan m/F",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 124000,
+                "reload_time": 7.4,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 12,
+                "tier": 8,
+                "turret_id": 430,
+                "visual_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/normal/lod0/Gun_02.model",
+                "weight": 1030,
+                "yaw_left": -20,
+                "yaw_right": 20
+            }
+        ],
+        "health": 640,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "S06_Ikv_90_Typ_B_Bofors",
+        "name": "Ikv 90 Typ B",
+        "nation": "sweden",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 1420000,
+        "radios": [
+            {
+                "health": 150,
+                "id": 581,
+                "identifier": "Ra_100",
+                "name": "Ra 100",
+                "not_in_shop": false,
+                "price": 23500,
+                "range": 455,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors",
+                "tier": 7,
+                "weight": 14
+            },
+            {
+                "health": 120,
+                "id": 582,
+                "identifier": "Ra_105",
+                "name": "Ra 105",
+                "not_in_shop": false,
+                "price": 24800,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors",
+                "tier": 8,
+                "weight": 8
+            },
+            {
+                "health": 200,
+                "id": 583,
+                "identifier": "Ra_146",
+                "name": "Ra 146",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 615,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors",
+                "tier": 9,
+                "weight": 12
+            }
+        ],
+        "repair_price": 7.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 839,
+                "icon": "ap",
+                "id": "_90mm_slpprj_typ_II",
+                "min_penetration": 170,
+                "module_damage": 122,
+                "name": "slpprj typ II",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 320,
+                "range": 720,
+                "speed": 960,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 839,
+                "icon": "hc",
+                "id": "_90mm_slpsgr_typ_I",
+                "min_penetration": 230,
+                "module_damage": 122,
+                "name": "slpsgr typ I",
+                "penetration": 230,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 950,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 839,
+                "icon": "he",
+                "id": "_90mm_slsgr_m_72",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "slsgr m/72",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 195,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 840,
+                "icon": "ap",
+                "id": "_90mm_slpprj_m_F",
+                "min_penetration": 195,
+                "module_damage": 122,
+                "name": "slpprj m/F",
+                "penetration": 210,
+                "penetration_loss": 0,
+                "price": 390,
+                "range": 720,
+                "speed": 1275,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 840,
+                "icon": "hc",
+                "id": "_90mm_slpsgr_m_F",
+                "min_penetration": 250,
+                "module_damage": 122,
+                "name": "slpsgr m/F",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4400,
+                "range": 720,
+                "speed": 950,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 840,
+                "icon": "he",
+                "id": "_90mm_sgr_m_F",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "sgr m/F",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 210,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Ikv 90 B",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ikv-90-b",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": -0.00371,
+        "turret_pos_y": 0.914834,
+        "turret_pos_z": -0.39604,
+        "turret_slots": [
+            {
+                "id": 339,
+                "pos_x": -0.00371,
+                "pos_y": 0.914834,
+                "pos_z": -0.39604,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": -0.0125,
+                "health": 160,
+                "id": 430,
+                "identifier": "Turret_1_S06_Ikv_90_Typ_B_Bofors",
+                "name": "Ikv 90 Typ B",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 20,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "S06_Ikv_90_Typ_B_Bofors",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_S06_Ikv_90_Typ_B_Bofors_2",
+                "name": "Chassis_S06_Ikv_90_Typ_B_Bofors_2",
+                "parent_key": "chassis-Chassis_S06_Ikv_90_Typ_B_Bofors",
+                "price": 8300,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_90mm_kan_m_F",
+                "name": "_90mm_kan_m_F",
+                "parent_key": "gun-_90mm_Bofors_L_53",
+                "price": 19100,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-S21_UDES_03",
+                "name": "S21_UDES_03",
+                "parent_key": "gun-_90mm_kan_m_F",
+                "price": 104500,
+                "tank_name": "UDES 03",
+                "tank_price": 2620000,
+                "tank_slug": "udes-03",
+                "tank_tier": 8,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Volvo_THD_100_B",
+                "name": "Volvo_THD_100_B",
+                "parent_key": "engine-Volvo_TD_100_A",
+                "price": 5200,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Ra_105",
+                "name": "Ra_105",
+                "parent_key": "radio-Ra_100",
+                "price": 4100,
+                "type": "radio"
+            },
+            {
+                "key": "radio-Ra_146",
+                "name": "Ra_146",
+                "parent_key": "radio-Ra_105",
+                "price": 5600,
+                "type": "radio"
+            }
+        ],
+        "version": "v092201",
+        "visual_model": "vehicles/sweden/S06_Ikv_90_Typ_B_Bofors/normal/lod0/Hull.model",
+        "weight": 7633,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,841 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 14.5,
+        "armor_rear": 14.5,
+        "armor_side": 14.5,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.438,
+        "camo_moving": 0.292,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.292,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 12500,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G126_HWK_12/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.847219,
+                "hull_pos_z": 0,
+                "id": 308,
+                "identifier": "Chassis_G126_HWK_12",
+                "max_climb_angle": 25,
+                "max_load": 12500,
+                "name": "HWK 12",
+                "not_in_shop": false,
+                "price": 16500,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "G126_HWK_12",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2,
+                "tier": 7,
+                "visual_model": "vehicles/german/G126_HWK_12/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 10,
+                "brake_force": 12500,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G126_HWK_12/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.847219,
+                "hull_pos_z": 0,
+                "id": 309,
+                "identifier": "Chassis_G126_HWK_12_2",
+                "max_climb_angle": 25,
+                "max_load": 15000,
+                "name": "HWK 12 verbessert",
+                "not_in_shop": false,
+                "price": 32000,
+                "repair_health": 150,
+                "repair_price": 5,
+                "rotation_speed": 44,
+                "tank_id": "G126_HWK_12",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.9,
+                "tier": 8,
+                "visual_model": "vehicles/german/G126_HWK_12/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/german/G126_HWK_12/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            }
+        ],
+        "description": "A series of HWK 10 light caterpillar armored carriers was developed by Henschel-Werke in the late 1950s\u2013early 1960s. The vehicles were developed for export purposes. The first HWK 11 prototype was created in 1963, with 40 vehicles being sent to Mexico later. Two HWK 13 prototypes (reconnaissance vehicles) were built as well. The HWK 12 was supposed to be manufactured on the basis of the same chassis, but no prototypes were built.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 260,
+                "id": 341,
+                "identifier": "General_Motors_6V53",
+                "name": "General Motors 6V53",
+                "not_in_shop": false,
+                "power": 350,
+                "price": 31500,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "G126_HWK_12",
+                "tier": 7,
+                "weight": 594
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 320,
+                "id": 342,
+                "identifier": "General_Motors_6V53T",
+                "name": "General Motors 6V53T",
+                "not_in_shop": false,
+                "power": 450,
+                "price": 42200,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "G126_HWK_12",
+                "tier": 8,
+                "weight": 678
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 65,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G126_HWK_12/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 170,
+                "id": 521,
+                "identifier": "_90mm_Mecar_N",
+                "max_ammo": 50,
+                "name": "90 mm Mecar N",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 97200,
+                "reload_time": 8.2,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 263,
+                "visual_model": "vehicles/german/G126_HWK_12/normal/lod0/Gun_02.model",
+                "weight": 400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G126_HWK_12/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 170,
+                "id": 522,
+                "identifier": "_90mm_Mecar_N",
+                "max_ammo": 50,
+                "name": "90 mm Mecar N",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 97200,
+                "reload_time": 7.7,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 264,
+                "visual_model": "vehicles/german/G126_HWK_12/normal/lod0/Gun_04.model",
+                "weight": 400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 800,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G126_HWK_12",
+        "name": "HWK 12",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 2440000,
+        "radios": [
+            {
+                "health": 160,
+                "id": 334,
+                "identifier": "AN-GRC-4",
+                "name": "AN/GRC-4",
+                "not_in_shop": false,
+                "price": 45500,
+                "range": 720,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "G126_HWK_12",
+                "tier": 9,
+                "weight": 80
+            },
+            {
+                "health": 200,
+                "id": 335,
+                "identifier": "AN-GRC-7",
+                "name": "AN/GRC-7",
+                "not_in_shop": false,
+                "price": 54500,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "G126_HWK_12",
+                "tier": 10,
+                "weight": 120
+            }
+        ],
+        "repair_price": 9,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 521,
+                "icon": "ap",
+                "id": "_90mm_Mecar_N_AP",
+                "min_penetration": 160,
+                "module_damage": 122,
+                "name": "Mecar N AP",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 315,
+                "range": 720,
+                "speed": 630,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 521,
+                "icon": "hc",
+                "id": "_90mm_Mecar_N_HEAT",
+                "min_penetration": 250,
+                "module_damage": 122,
+                "name": "Mecar N HEAT",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4400,
+                "range": 720,
+                "speed": 630,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 521,
+                "icon": "he",
+                "id": "_90mm_Mecar_N_HE",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "Mecar N HE",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 210,
+                "range": 720,
+                "speed": 338,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 522,
+                "icon": "ap",
+                "id": "_90mm_Mecar_N_AP",
+                "min_penetration": 160,
+                "module_damage": 122,
+                "name": "Mecar N AP",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 315,
+                "range": 720,
+                "speed": 630,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 522,
+                "icon": "hc",
+                "id": "_90mm_Mecar_N_HEAT",
+                "min_penetration": 250,
+                "module_damage": 122,
+                "name": "Mecar N HEAT",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4400,
+                "range": 720,
+                "speed": 630,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 522,
+                "icon": "he",
+                "id": "_90mm_Mecar_N_HE",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "Mecar N HE",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 210,
+                "range": 720,
+                "speed": 338,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "HWK 12",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "hwk-12",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": -0.0079,
+        "turret_pos_y": 0.734361,
+        "turret_pos_z": -1.01284,
+        "turret_slots": [
+            {
+                "id": 206,
+                "pos_x": -0.0079,
+                "pos_y": 0.734361,
+                "pos_z": -1.01284,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G126_HWK_12"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 15,
+                "armor_rear": 10,
+                "armor_side": 10,
+                "collision_model": "vehicles/german/G126_HWK_12/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.322638,
+                "gun_pos_z": 0.97883,
+                "health": 200,
+                "id": 263,
+                "identifier": "Turret_1_G126_HWK_12",
+                "name": "HWK 12",
+                "not_in_shop": false,
+                "price": 19500,
+                "rotation_speed": 44,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "G126_HWK_12",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G126_HWK_12/normal/lod0/Turret_01.model",
+                "weight": 1800
+            },
+            {
+                "Guns": null,
+                "armor_front": 15,
+                "armor_rear": 10,
+                "armor_side": 10,
+                "collision_model": "vehicles/german/G126_HWK_12/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.322638,
+                "gun_pos_z": 0.97883,
+                "health": 300,
+                "id": 264,
+                "identifier": "Turret_2_G126_HWK_12",
+                "name": "HWK 12 verbessert",
+                "not_in_shop": false,
+                "price": 31200,
+                "rotation_speed": 44,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "G126_HWK_12",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 410,
+                "visual_model": "vehicles/german/G126_HWK_12/normal/lod0/Turret_02.model",
+                "weight": 2000
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_G126_HWK_12_2",
+                "name": "Chassis_G126_HWK_12_2",
+                "parent_key": "chassis-Chassis_G126_HWK_12",
+                "price": 14900,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_G126_HWK_12",
+                "name": "Turret_2_G126_HWK_12",
+                "parent_key": "gun-_90mm_Mecar_N",
+                "price": 15400,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-G103_RU_251",
+                "name": "G103_RU_251",
+                "parent_key": "turret-Turret_2_G126_HWK_12",
+                "price": 197600,
+                "tank_name": "Ru 251",
+                "tank_price": 3460000,
+                "tank_slug": "ru-251",
+                "tank_tier": 9,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-G91_Pro_Ag_A",
+                "name": "G91_Pro_Ag_A",
+                "parent_key": "turret-Turret_2_G126_HWK_12",
+                "price": 227100,
+                "tank_name": "Leopard PT A",
+                "tank_price": 3450000,
+                "tank_slug": "leopard-pt-a",
+                "tank_tier": 9,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-General_Motors_6V53T",
+                "name": "General_Motors_6V53T",
+                "parent_key": "engine-General_Motors_6V53",
+                "price": 14600,
+                "type": "engine"
+            },
+            {
+                "key": "radio-AN-GRC-7",
+                "name": "AN-GRC-7",
+                "parent_key": "radio-AN-GRC-4",
+                "price": 9100,
+                "type": "radio"
+            }
+        ],
+        "version": "v092201",
+        "visual_model": "vehicles/german/G126_HWK_12/normal/lod0/Hull.model",
+        "weight": 6022,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,872 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 56
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 36
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 56,
+        "armor_rear": 35,
+        "armor_side": 35,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.555,
+        "camo_moving": 0.222,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1,
+        "camo_still": 0.37,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F33_S_35CA/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.785968,
+                "hull_pos_z": 0,
+                "id": 161,
+                "identifier": "Chassis_S_35CA",
+                "max_climb_angle": 25,
+                "max_load": 19800,
+                "name": "S35 CA",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 70,
+                "repair_price": 0.5,
+                "rotation_speed": 26,
+                "tank_id": "F33_S_35CA",
+                "terrain_hard": 1.5,
+                "terrain_medium": 1.8,
+                "terrain_soft": 3,
+                "tier": 4,
+                "visual_model": "vehicles/french/F33_S_35CA/normal/lod0/Chassis.model",
+                "weight": 5350
+            },
+            {
+                "armor": 15,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F33_S_35CA/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.785968,
+                "hull_pos_z": 0,
+                "id": 162,
+                "identifier": "Chassis_S_35CA_2",
+                "max_climb_angle": 25,
+                "max_load": 22800,
+                "name": "S35 CA bis",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 75,
+                "repair_price": 0.5,
+                "rotation_speed": 28,
+                "tank_id": "F33_S_35CA",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.7,
+                "tier": 5,
+                "visual_model": "vehicles/french/F33_S_35CA/normal/lod0/Chassis.model",
+                "weight": 5350
+            }
+        ],
+        "collision_model": "vehicles/french/F33_S_35CA/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The design called for the conversion of tanks into tank destroyers by mounting a 17-pounder gun into an open-topped, lightly armored cabin.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 177,
+                "identifier": "Somua_S-40",
+                "name": "Somua S-40",
+                "not_in_shop": false,
+                "power": 220,
+                "price": 10420,
+                "repair_health": 39,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "F33_S_35CA",
+                "tier": 4,
+                "weight": 400
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 178,
+                "identifier": "Somua_S-40Bis",
+                "name": "Somua S-40 Bis",
+                "not_in_shop": false,
+                "power": 260,
+                "price": 16100,
+                "repair_health": 39,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "F33_S_35CA",
+                "tier": 5,
+                "weight": 400
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 37,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F33_S_35CA/collision_client/Gun_01.model",
+                "depression": 9,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 22,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 56
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 130,
+                "id": 269,
+                "identifier": "_17_pdr_Gan_MK.II",
+                "max_ammo": 86,
+                "name": "17-pdr AT Gun Mk. II",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -22
+                        ],
+                        [
+                            1,
+                            -22
+                        ]
+                    ]
+                },
+                "price": 45000,
+                "reload_time": 5.4,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 140,
+                "visual_model": "vehicles/french/F33_S_35CA/normal/lod0/Gun_01.model",
+                "weight": 1640,
+                "yaw_left": -15,
+                "yaw_right": 29
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F33_S_35CA/collision_client/Gun_02.model",
+                "depression": 9,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.24,
+                "elevation": 22,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 56
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 140,
+                "id": 270,
+                "identifier": "Canon_de_105_mle_1930_Schneider_AC",
+                "max_ammo": 42,
+                "name": "105 mm AC mle. 1930 S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -22
+                        ],
+                        [
+                            1,
+                            -22
+                        ]
+                    ]
+                },
+                "price": 60000,
+                "reload_time": 12,
+                "repair_health": 70,
+                "repair_price": 6,
+                "rotation_speed": 26.25,
+                "tier": 6,
+                "turret_id": 140,
+                "visual_model": "vehicles/french/F33_S_35CA/normal/lod0/Gun_02.model",
+                "weight": 2400,
+                "yaw_left": -15,
+                "yaw_right": 29
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F33_S_35CA/collision_client/Gun_03.model",
+                "depression": 9,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.2,
+                "elevation": 22,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 56
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 150,
+                "id": 271,
+                "identifier": "_90mm_canon_DCA_30_CA",
+                "max_ammo": 65,
+                "name": "90 mm AC canon DCA 30",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -22
+                        ],
+                        [
+                            1,
+                            -22
+                        ]
+                    ]
+                },
+                "price": 64000,
+                "reload_time": 8.4,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 140,
+                "visual_model": "vehicles/french/F33_S_35CA/normal/lod0/Gun_03.model",
+                "weight": 2050,
+                "yaw_left": -15,
+                "yaw_right": 29
+            }
+        ],
+        "health": 264,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F33_S_35CA",
+        "name": "S35 CA",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 403000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 171,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F33_S_35CA",
+                "tier": 2,
+                "weight": 100
+            },
+            {
+                "health": 140,
+                "id": 172,
+                "identifier": "ER_53",
+                "name": "ER 53",
+                "not_in_shop": false,
+                "price": 3650,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "F33_S_35CA",
+                "tier": 5,
+                "weight": 100
+            },
+            {
+                "health": 150,
+                "id": 173,
+                "identifier": "ER_56",
+                "name": "ER 56",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 455,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "F33_S_35CA",
+                "tier": 7,
+                "weight": 150
+            }
+        ],
+        "repair_price": 7.53,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 76.2,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 269,
+                "icon": "ap",
+                "id": "_76.2_mm_AP_Mk.3T",
+                "min_penetration": 161,
+                "module_damage": 105,
+                "name": "AP Mk. 3T",
+                "penetration": 171,
+                "penetration_loss": 0,
+                "price": 170,
+                "range": 720,
+                "speed": 884,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 269,
+                "icon": "ap_cr",
+                "id": "_76.2_mm_APCBC_Mk.8T",
+                "min_penetration": 218,
+                "module_damage": 105,
+                "name": "APCBC Mk. 8T",
+                "penetration": 239,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1105,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 190,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 269,
+                "icon": "he",
+                "id": "_76.2_mm_HE_Mk._1T",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE Mk. 1T",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 884,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 270,
+                "icon": "ap",
+                "id": "_105mm_Prf1940",
+                "min_penetration": 145,
+                "module_damage": 150,
+                "name": "Prf. mle. 1940",
+                "penetration": 165,
+                "penetration_loss": 0,
+                "price": 270,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 330,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 270,
+                "icon": "ap_cr",
+                "id": "_105mm_FrtPrf1943",
+                "min_penetration": 186,
+                "module_damage": 150,
+                "name": "Frt.Prf. mle. 1943",
+                "penetration": 223,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1063,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 360,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 270,
+                "icon": "he",
+                "id": "_105mm_OE_mle_1924",
+                "min_penetration": 54,
+                "module_damage": 150,
+                "name": "OE mle. 1924",
+                "penetration": 54,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 271,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 122,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 135,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 271,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 160,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 271,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "S35 CA",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "s35-ca",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "enhancedSprings_user"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0.183851,
+        "turret_pos_y": 0.507093,
+        "turret_pos_z": 1.85295,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/french/F33_S_35CA/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.447971,
+                "gun_pos_z": -0.000266,
+                "health": 66,
+                "id": 140,
+                "identifier": "Turret_1_S_35CA",
+                "name": "S35 CA",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "F33_S_35CA",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/french/F33_S_35CA/normal/lod0/Turret_01.model",
+                "weight": 170
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_S_35CA_2",
+                "name": "Chassis_S_35CA_2",
+                "parent_key": "chassis-Chassis_S_35CA",
+                "price": 2115,
+                "type": "chassis"
+            },
+            {
+                "key": "vehicle-F34_ARL_V39",
+                "name": "F34_ARL_V39",
+                "parent_key": "chassis-Chassis_S_35CA_2",
+                "price": 20000,
+                "tank_name": "ARL V39",
+                "tank_price": 900000,
+                "tank_slug": "arl-v39",
+                "tank_tier": 6,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-Canon_de_105_mle_1930_Schneider_AC",
+                "name": "Canon_de_105_mle_1930_Schneider_AC",
+                "parent_key": "gun-_17_pdr_Gan_MK.II",
+                "price": 7800,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_90mm_canon_DCA_30_CA",
+                "name": "_90mm_canon_DCA_30_CA",
+                "parent_key": "gun-_17_pdr_Gan_MK.II",
+                "price": 9300,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Somua_S-40Bis",
+                "name": "Somua_S-40Bis",
+                "parent_key": "engine-Somua_S-40",
+                "price": 1180,
+                "type": "engine"
+            },
+            {
+                "key": "radio-ER_53",
+                "name": "ER_53",
+                "parent_key": "radio-ER_52",
+                "price": 610,
+                "type": "radio"
+            },
+            {
+                "key": "radio-ER_56",
+                "name": "ER_56",
+                "parent_key": "radio-ER_53",
+                "price": 650,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/french/F33_S_35CA/normal/lod0/Hull.model",
+        "weight": 11700,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,780 @@
+{
+    "tank": {
+        "ammo_rack_health": 280,
+        "ammo_rack_repair_health": 190,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 270
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 260
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_7",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 140
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 250
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 115
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 250
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 75
+            }
+        ],
+        "armor_front": 270,
+        "armor_rear": 150,
+        "armor_side": 160,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.005,
+        "camo_moving": 0.002,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.003,
+        "chassis": [
+            {
+                "armor": 50,
+                "brake_force": 50200,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J20_Type_2605/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 50
+                    }
+                ],
+                "health": 300,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.33563,
+                "hull_pos_z": 0,
+                "id": 470,
+                "identifier": "Chassis_J20_Type_2605",
+                "max_climb_angle": 25,
+                "max_load": 160000,
+                "name": "Type 5 Heavy",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 225,
+                "repair_price": 5,
+                "rotation_speed": 17,
+                "tank_id": "J20_Type_2605",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2,
+                "tier": 10,
+                "visual_model": "vehicles/japan/J20_Type_2605/normal/lod0/Chassis.model",
+                "weight": 40000
+            }
+        ],
+        "collision_model": "vehicles/japan/J20_Type_2605/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The Type 5, also known as the Type 2605, was one of the variants of the O-I superheavy tank, developed during WWII. The vehicle was planned to be used for breaking through fortified enemy lines and for coastal defense.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 380,
+                "id": 515,
+                "identifier": "_Type98_V12_x2_1200_Kai",
+                "name": "2x Kawasaki Type 98 V-12 Kai (600)",
+                "not_in_shop": true,
+                "power": 1200,
+                "price": 132000,
+                "repair_health": 190,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "J20_Type_2605",
+                "tier": 10,
+                "weight": 1020
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 25,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J20_Type_2605/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 230,
+                "id": 789,
+                "identifier": "_140mm_50_3rd_Year_Type",
+                "max_ammo": 60,
+                "name": "14 cm/50 3rd Year Type",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.080556,
+                            10
+                        ],
+                        [
+                            0.083333,
+                            9.8
+                        ],
+                        [
+                            0.086111,
+                            9.6
+                        ],
+                        [
+                            0.088889,
+                            9.4
+                        ],
+                        [
+                            0.091667,
+                            9.5
+                        ],
+                        [
+                            0.094444,
+                            9.6
+                        ],
+                        [
+                            0.097222,
+                            9.7
+                        ],
+                        [
+                            0.1,
+                            9.8
+                        ],
+                        [
+                            0.102778,
+                            9.9
+                        ],
+                        [
+                            0.108333,
+                            10
+                        ],
+                        [
+                            0.472222,
+                            10
+                        ],
+                        [
+                            0.475,
+                            9.7
+                        ],
+                        [
+                            0.477778,
+                            9.3
+                        ],
+                        [
+                            0.483333,
+                            9.4
+                        ],
+                        [
+                            0.516667,
+                            9.4
+                        ],
+                        [
+                            0.522222,
+                            9.3
+                        ],
+                        [
+                            0.525,
+                            9.7
+                        ],
+                        [
+                            0.527778,
+                            10
+                        ],
+                        [
+                            0.891667,
+                            10
+                        ],
+                        [
+                            0.897222,
+                            9.9
+                        ],
+                        [
+                            0.9,
+                            9.8
+                        ],
+                        [
+                            0.902778,
+                            9.7
+                        ],
+                        [
+                            0.905556,
+                            9.6
+                        ],
+                        [
+                            0.908333,
+                            9.5
+                        ],
+                        [
+                            0.911111,
+                            9.4
+                        ],
+                        [
+                            0.913889,
+                            9.6
+                        ],
+                        [
+                            0.916667,
+                            9.8
+                        ],
+                        [
+                            0.919444,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 330000,
+                "reload_time": 17.1,
+                "repair_health": 115,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 401,
+                "visual_model": "vehicles/japan/J20_Type_2605/normal/lod0/Gun_01.model",
+                "weight": 5600,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J20_Type_2605/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.5,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4.5,
+                "dispersion_rotation": 0.22,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 230,
+                "id": 790,
+                "identifier": "_150mm_45_41st_Year_Type",
+                "max_ammo": 40,
+                "name": "15 cm/45 41st Year Type",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.138889,
+                            8
+                        ],
+                        [
+                            0.166667,
+                            10
+                        ],
+                        [
+                            0.333333,
+                            10
+                        ],
+                        [
+                            0.361111,
+                            8
+                        ],
+                        [
+                            0.638889,
+                            8
+                        ],
+                        [
+                            0.666667,
+                            10
+                        ],
+                        [
+                            0.833333,
+                            10
+                        ],
+                        [
+                            0.861111,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 332000,
+                "reload_time": 20,
+                "repair_health": 115,
+                "repair_price": 10,
+                "rotation_speed": 20,
+                "tier": 10,
+                "turret_id": 401,
+                "visual_model": "vehicles/japan/J20_Type_2605/normal/lod0/Gun_02.model",
+                "weight": 6700,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 2320,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J20_Type_2605",
+        "name": "Type 5 Heavy",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 180,
+                "id": 536,
+                "identifier": "_Type3_Ko_notInShop",
+                "name": "Type 3 Ko",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 0.5,
+                "tank_id": "J20_Type_2605",
+                "tier": 10,
+                "weight": 560
+            }
+        ],
+        "repair_price": 10,
+        "reverse_speed": 11,
+        "shells": [
+            {
+                "caliber": 139.7,
+                "damage": 600,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 789,
+                "icon": "ap",
+                "id": "_140mm_Capped_Common_Semi_AP",
+                "min_penetration": 219,
+                "module_damage": 191,
+                "name": "14 cm Capped Common Semi-AP",
+                "penetration": 249,
+                "penetration_loss": 0,
+                "price": 1195,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 139.7,
+                "damage": 600,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 789,
+                "icon": "ap",
+                "id": "_140mm_Capped_Common_Semi_AP_Kai",
+                "min_penetration": 247,
+                "module_damage": 191,
+                "name": "14 cm Capped Common Semi-AP Kai",
+                "penetration": 282,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 139.7,
+                "damage": 770,
+                "explosion_radius": 3.17,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 789,
+                "icon": "he",
+                "id": "_140mm_Common_Type_0_HE",
+                "min_penetration": 70,
+                "module_damage": 191,
+                "name": "14 cm Common Type 0 HE",
+                "penetration": 70,
+                "penetration_loss": 0,
+                "price": 905,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152.4,
+                "damage": 1100,
+                "explosion_radius": 3.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 790,
+                "icon": "he",
+                "id": "_150mm_Common_Type_0_HE",
+                "min_penetration": 75,
+                "module_damage": 203,
+                "name": "Common Type 0",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 1320,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152.4,
+                "damage": 1400,
+                "explosion_radius": 3.66,
+                "gold_price": 16,
+                "gravity": 9.81,
+                "gun_id": 790,
+                "icon": "he",
+                "id": "_150mm_Common_Type_0_HE_Kai",
+                "min_penetration": 75,
+                "module_damage": 203,
+                "name": "Common Type 0 Kai",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 6400,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Type 5 Heavy",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "type-5-heavy",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "heavyTank1"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "antifragmentationLining_superheavy_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 1.02122,
+        "turret_pos_z": -0.03484,
+        "turret_slots": [
+            {
+                "id": 314,
+                "pos_x": 0,
+                "pos_y": 1.02122,
+                "pos_z": -0.03484,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "J20_Type_2605"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 280,
+                "armor_rear": 200,
+                "armor_side": 210,
+                "collision_model": "vehicles/japan/J20_Type_2605/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 280
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 280
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 280
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 105
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 280
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.406659,
+                "gun_pos_z": 1.59439,
+                "health": 580,
+                "id": 401,
+                "identifier": "Turret_1_J20_Type_2605",
+                "name": "Type 5 Heavy",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 18,
+                "rotator_health": 180,
+                "rotator_repair_health": 90,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 2,
+                "tank_id": "J20_Type_2605",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/japan/J20_Type_2605/normal/lod0/Turret_01.model",
+                "weight": 36000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "gun-_150mm_45_41st_Year_Type",
+                "name": "_150mm_45_41st_Year_Type",
+                "parent_key": "gun-_140mm_50_3rd_Year_Type",
+                "price": 64600,
+                "type": "gun"
+            }
+        ],
+        "version": "v09212",
+        "visual_model": "vehicles/japan/J20_Type_2605/normal/lod0/Hull.model",
+        "weight": 66520,
+        "xp_factor": 1
+    }
+}

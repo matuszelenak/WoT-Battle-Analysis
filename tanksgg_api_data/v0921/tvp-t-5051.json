@@ -1,0 +1,512 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 100
+            }
+        ],
+        "armor_front": 65,
+        "armor_rear": 30,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.353,
+        "camo_moving": 0.176,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.235,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 40000,
+                "center_rotation": true,
+                "collision_model": "vehicles/czech/Cz04_T50_51/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.0078,
+                "hull_pos_z": 0,
+                "id": 89,
+                "identifier": "Chassis_Cz04_T50_51",
+                "max_climb_angle": 25,
+                "max_load": 43000,
+                "name": "TVP T 50/51",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 54,
+                "tank_id": "Cz04_T50_51",
+                "terrain_hard": 0.8,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.8,
+                "tier": 10,
+                "visual_model": "vehicles/czech/Cz04_T50_51/normal/lod0/Chassis.model",
+                "weight": 11500
+            }
+        ],
+        "collision_model": "vehicles/czech/Cz04_T50_51/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A joint project by \u0160koda and \u010cKD. Discussions to determine the tank\u2019s characteristics started on January 14, 1950, but the project was discontinued on March 4, 1950 by the Czechoslovakian Ministry of Defense. No prototypes were manufactured. Existed only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 99,
+                "identifier": "Praga_AXK",
+                "name": "Praga AXK",
+                "not_in_shop": true,
+                "power": 1000,
+                "price": 110000,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "Cz04_T50_51",
+                "tier": 10,
+                "weight": 1700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 1.5,
+                "clip_size": 4,
+                "collision_model": "vehicles/czech/Cz04_T50_51/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 200,
+                "id": 154,
+                "identifier": "_100mm_AK1",
+                "max_ammo": 48,
+                "name": "100 mm AK1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.430556,
+                            8
+                        ],
+                        [
+                            0.433333,
+                            4
+                        ],
+                        [
+                            0.436111,
+                            1.8
+                        ],
+                        [
+                            0.563889,
+                            1.8
+                        ],
+                        [
+                            0.566667,
+                            4
+                        ],
+                        [
+                            0.569444,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 275000,
+                "reload_time": 25,
+                "repair_health": 100,
+                "repair_price": 10,
+                "rotation_speed": 33,
+                "tier": 10,
+                "turret_id": 81,
+                "visual_model": "vehicles/czech/Cz04_T50_51/normal/lod0/Gun_01.model",
+                "weight": 2600,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1440,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Cz04_T50_51",
+        "name": "TVP T 50/51",
+        "nation": "czech",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 93,
+                "identifier": "Radiostanice_RM_31T_A",
+                "name": "Radiostanice RM-31T",
+                "not_in_shop": true,
+                "price": 57500,
+                "range": 850,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "Cz04_T50_51",
+                "tier": 10,
+                "weight": 62
+            }
+        ],
+        "repair_price": 12.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 154,
+                "icon": "ap_cr",
+                "id": "_100mm_Prurazny_vz_50",
+                "min_penetration": 225,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 50",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 1110,
+                "range": 720,
+                "speed": 1400,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 154,
+                "icon": "hc",
+                "id": "_100mm_Prupalny_vz_50",
+                "min_penetration": 310,
+                "module_damage": 135,
+                "name": "Pr\u016fpaln\u00fd vz. 50",
+                "penetration": 310,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 154,
+                "icon": "he",
+                "id": "_100mm_Narazovy_vz_50",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "N\u00e1razov\u00fd vz. 50",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 620,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "TVP T 50/51",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "tvp-t-5051",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumTank2"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.67696,
+        "turret_pos_z": 0.372903,
+        "turret_slots": [
+            {
+                "id": 59,
+                "pos_x": 0,
+                "pos_y": 0.67696,
+                "pos_z": 0.372903,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "Cz04_T50_51"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 60,
+                "armor_side": 80,
+                "collision_model": "vehicles/czech/Cz04_T50_51/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 30
+                    }
+                ],
+                "gun_pos_x": -0.095539,
+                "gun_pos_y": 0.343337,
+                "gun_pos_z": 1.18711,
+                "health": 360,
+                "id": 81,
+                "identifier": "Turret_1_Cz04_T50_51",
+                "name": "TVP T 50/51",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 36,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 2,
+                "tank_id": "Cz04_T50_51",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 410,
+                "visual_model": "vehicles/czech/Cz04_T50_51/normal/lod0/Turret_01.model",
+                "weight": 9000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0921",
+        "visual_model": "vehicles/czech/Cz04_T50_51/normal/lod0/Hull.model",
+        "weight": 14838,
+        "xp_factor": 1
+    }
+}

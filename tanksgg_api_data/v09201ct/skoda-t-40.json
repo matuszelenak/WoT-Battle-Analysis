@@ -1,0 +1,502 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 40
+            }
+        ],
+        "armor_front": 65,
+        "armor_rear": 30,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.344,
+        "camo_moving": 0.172,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.229,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 39000,
+                "center_rotation": true,
+                "collision_model": "vehicles/czech/Cz01_Skoda_T40/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.05719,
+                "hull_pos_z": 0,
+                "id": 80,
+                "identifier": "Chassis_Cz01_Skoda_T40",
+                "max_climb_angle": 25,
+                "max_load": 41500,
+                "name": "\u0160koda T 40",
+                "not_in_shop": true,
+                "price": 12000,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "Cz01_Skoda_T40",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 2,
+                "tier": 6,
+                "visual_model": "vehicles/czech/Cz01_Skoda_T40/normal/lod0/Chassis.model",
+                "weight": 11730
+            }
+        ],
+        "collision_model": "vehicles/czech/Cz01_Skoda_T40/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development of the T 40 tank was suggested by the \u0160koda company under the TVP (general purpose tank) program in 1946. The vehicle design was developed; however, a prototype was never built.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 255,
+                "id": 88,
+                "identifier": "Skoda_16_ADH_140",
+                "name": "\u0160koda 16 ADH 140",
+                "not_in_shop": true,
+                "power": 700,
+                "price": 45300,
+                "repair_health": 127,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "Cz01_Skoda_T40",
+                "tier": 8,
+                "weight": 1400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 3700,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz01_Skoda_T40/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 150,
+                "id": 131,
+                "identifier": "_88mm_Vz_37N_A",
+                "max_ammo": 80,
+                "name": "8,8 cm vz. 37N",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 66000,
+                "reload_time": 6.9,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 72,
+                "visual_model": "vehicles/czech/Cz01_Skoda_T40/normal/lod0/Gun_01.model",
+                "weight": 1650,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 560,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Cz01_Skoda_T40",
+        "name": "\u0160koda T 40",
+        "nation": "czech",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 83,
+                "identifier": "Fu7A",
+                "name": "Radiostanice Fu 7 upraven\u00e1",
+                "not_in_shop": true,
+                "price": 10000,
+                "range": 710,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "Cz01_Skoda_T40",
+                "tier": 6,
+                "weight": 70
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 88,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 131,
+                "icon": "ap",
+                "id": "_88mm_AP_Vz_39N_OPG",
+                "min_penetration": 129,
+                "module_damage": 119,
+                "name": "Vz. 39N OPG",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 200,
+                "range": 720,
+                "speed": 773,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 131,
+                "icon": "hc",
+                "id": "_88mm_HEAT_Vz_46_prupalny",
+                "min_penetration": 200,
+                "module_damage": 119,
+                "name": "Vz. 46 pr\u016fpaln\u00fd",
+                "penetration": 200,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 600,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 88,
+                "damage": 270,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 131,
+                "icon": "he",
+                "id": "_88mm_HE_narazovy",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "N\u00e1razov\u00fd",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 160,
+                "range": 720,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "\u0160koda T 40",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "skoda-t-40",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.781217,
+        "turret_pos_z": 0.794371,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 65,
+                "armor_rear": 40,
+                "armor_side": 40,
+                "collision_model": "vehicles/czech/Cz01_Skoda_T40/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.369643,
+                "gun_pos_z": 1.12886,
+                "health": 140,
+                "id": 72,
+                "identifier": "Turret_1_Cz01_Skoda_T40",
+                "name": "\u0160koda T 40",
+                "not_in_shop": true,
+                "price": 12000,
+                "rotation_speed": 32,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz01_Skoda_T40",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/czech/Cz01_Skoda_T40/normal/lod0/Turret_01.model",
+                "weight": 6200
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v09201ct",
+        "visual_model": "vehicles/czech/Cz01_Skoda_T40/normal/lod0/Hull.model",
+        "weight": 18650,
+        "xp_factor": 1.5
+    }
+}

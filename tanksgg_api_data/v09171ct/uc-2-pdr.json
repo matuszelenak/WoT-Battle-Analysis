@@ -1,0 +1,812 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 5
+            }
+        ],
+        "armor_front": 10,
+        "armor_rear": 7,
+        "armor_side": 7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.513,
+        "camo_moving": 0.205,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.342,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 4500,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB39_Universal_CarrierQF2/collision_client/Chassis.model",
+                "dispersion_movement": 0.36,
+                "dispersion_rotation": 0.36,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 574,
+                "identifier": "Chassis_GB39_Universal_CarrierQF2",
+                "max_climb_angle": 25,
+                "max_load": 4500,
+                "name": "Universal Carrier Mk. I",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 40,
+                "repair_price": 0.5,
+                "rotation_speed": 36,
+                "tank_id": "GB39_Universal_CarrierQF2",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.8,
+                "tier": 1,
+                "visual_model": "vehicles/british/GB39_Universal_CarrierQF2/normal/lod0/Chassis.model",
+                "weight": 1500
+            },
+            {
+                "armor": 5,
+                "brake_force": 5000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB39_Universal_CarrierQF2/collision_client/Chassis.model",
+                "dispersion_movement": 0.34,
+                "dispersion_rotation": 0.34,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 575,
+                "identifier": "Chassis_GB39_Universal_CarrierQF2_2",
+                "max_climb_angle": 25,
+                "max_load": 7000,
+                "name": "Universal Carrier Mk. II",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 45,
+                "repair_price": 0.5,
+                "rotation_speed": 40,
+                "tank_id": "GB39_Universal_CarrierQF2",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.6,
+                "tier": 2,
+                "visual_model": "vehicles/british/GB39_Universal_CarrierQF2/normal/lod0/Chassis.model",
+                "weight": 1500
+            }
+        ],
+        "collision_model": "vehicles/british/GB39_Universal_CarrierQF2/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The Universal Carrier was developed during the interwar period and was the main armored personnel carrier used by British Commonwealth forces. A total of 90,000 vehicles were produced from 1937 through 1945. Versions of the Universal Carriers were used for transporting personnel and equipment, as machine gun platforms, and for reconnaissance purposes. In 1940, a variant with a 40-mm anti-tank gun was developed.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 32,
+                "id": 644,
+                "identifier": "Ford_V8-221",
+                "name": "Ford V8-221",
+                "not_in_shop": false,
+                "power": 85,
+                "price": 200,
+                "repair_health": 15,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "GB39_Universal_CarrierQF2",
+                "tier": 1,
+                "weight": 238
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 32,
+                "id": 645,
+                "identifier": "Ford_V8-239",
+                "name": "Ford V8-239",
+                "not_in_shop": false,
+                "power": 100,
+                "price": 350,
+                "repair_health": 15,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "GB39_Universal_CarrierQF2",
+                "tier": 1,
+                "weight": 258
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 48,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB39_Universal_CarrierQF2/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 66,
+                "id": 1016,
+                "identifier": "_2pdr_AT_Gun_Mk_IX",
+                "max_ammo": 112,
+                "name": "QF 2-pdr AT Gun Mk. IX",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 2000,
+                "reload_time": 2.3,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 484,
+                "visual_model": "vehicles/british/GB39_Universal_CarrierQF2/normal/lod0/Gun_01.model",
+                "weight": 130,
+                "yaw_left": -22,
+                "yaw_right": 22
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB39_Universal_CarrierQF2/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.5,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 84,
+                "id": 1017,
+                "identifier": "QF_6_pounder_8cwt_Mk_II_AT",
+                "max_ammo": 64,
+                "name": "QF 6-pdr 8 cwt AT Gun Mk. II",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 3000,
+                "reload_time": 3.1,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 484,
+                "visual_model": "vehicles/british/GB39_Universal_CarrierQF2/normal/lod0/Gun_02.model",
+                "weight": 300,
+                "yaw_left": -22,
+                "yaw_right": 22
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB39_Universal_CarrierQF2/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 94,
+                "id": 1018,
+                "identifier": "QF_6_pounder_8cwt_Mk_I_AT",
+                "max_ammo": 64,
+                "name": "QF 6-pdr 8 cwt AT Gun Mk. I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 25000,
+                "reload_time": 3.1,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 484,
+                "visual_model": "vehicles/british/GB39_Universal_CarrierQF2/normal/lod0/Gun_03.model",
+                "weight": 450,
+                "yaw_left": -22,
+                "yaw_right": 22
+            }
+        ],
+        "health": 96,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB39_Universal_CarrierQF2",
+        "name": "Universal Carrier 2-pdr",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3900,
+        "radios": [
+            {
+                "health": 60,
+                "id": 693,
+                "identifier": "N11",
+                "name": "WS No. 11",
+                "not_in_shop": false,
+                "price": 600,
+                "range": 350,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "GB39_Universal_CarrierQF2",
+                "tier": 3,
+                "weight": 40
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1016,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.1T",
+                "min_penetration": 54,
+                "module_damage": 54,
+                "name": "AP Mk. 1T",
+                "penetration": 64,
+                "penetration_loss": 0,
+                "price": 25,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 1016,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.1",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 1",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1016,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1017,
+                "icon": "ap",
+                "id": "_6pdr_AP_Steel_HSCT",
+                "min_penetration": 32,
+                "module_damage": 76,
+                "name": "Steel Shell HSCT",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 459,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 1017,
+                "icon": "ap",
+                "id": "_6pdr_AP_Steel_NF",
+                "min_penetration": 45,
+                "module_damage": 76,
+                "name": "Steel Shell NF",
+                "penetration": 57,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 574,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1017,
+                "icon": "he",
+                "id": "_6pdr_HE_Common",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "Common Shell",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 22,
+                "range": 720,
+                "speed": 459,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1018,
+                "icon": "ap",
+                "id": "_6pdr_AP_Steel_HSCT",
+                "min_penetration": 45,
+                "module_damage": 76,
+                "name": "Steel Shell HSCT",
+                "penetration": 57,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 538,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 1018,
+                "icon": "ap",
+                "id": "_6pdr_AP_Steel_NF",
+                "min_penetration": 57,
+                "module_damage": 76,
+                "name": "Steel Shell NF",
+                "penetration": 72,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 673,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1018,
+                "icon": "he",
+                "id": "_6pdr_HE_Common",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "Common Shell",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 22,
+                "range": 720,
+                "speed": 538,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "UC 2-pdr",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "uc-2-pdr",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.519467,
+        "turret_pos_z": 0.315602,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB39_Universal_CarrierQF2/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.210533,
+                "gun_pos_z": 0.037638,
+                "health": 24,
+                "id": 484,
+                "identifier": "Turret_1_GB39_Universal_CarrierQF2",
+                "name": "Universal Carrier 2-pdr",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB39_Universal_CarrierQF2",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/british/GB39_Universal_CarrierQF2/normal/lod0/Turret_01.model",
+                "weight": 200
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB39_Universal_CarrierQF2_2",
+                "name": "Chassis_GB39_Universal_CarrierQF2_2",
+                "parent_key": "chassis-Chassis_GB39_Universal_CarrierQF2",
+                "price": 95,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-QF_6_pounder_8cwt_Mk_II_AT",
+                "name": "QF_6_pounder_8cwt_Mk_II_AT",
+                "parent_key": "gun-_2pdr_AT_Gun_Mk_IX",
+                "price": 170,
+                "type": "gun"
+            },
+            {
+                "key": "gun-QF_6_pounder_8cwt_Mk_I_AT",
+                "name": "QF_6_pounder_8cwt_Mk_I_AT",
+                "parent_key": "gun-QF_6_pounder_8cwt_Mk_II_AT",
+                "price": 1200,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB42_Valentine_AT",
+                "name": "GB42_Valentine_AT",
+                "parent_key": "gun-QF_6_pounder_8cwt_Mk_I_AT",
+                "price": 1050,
+                "tank_name": "Valentine AT",
+                "tank_price": 34000,
+                "tank_slug": "valentine-at",
+                "tank_tier": 3,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Ford_V8-239",
+                "name": "Ford_V8-239",
+                "parent_key": "engine-Ford_V8-221",
+                "price": 35,
+                "type": "engine"
+            }
+        ],
+        "version": "v09171ct",
+        "visual_model": "vehicles/british/GB39_Universal_CarrierQF2/normal/lod0/Hull.model",
+        "weight": 2192,
+        "xp_factor": 1
+    }
+}

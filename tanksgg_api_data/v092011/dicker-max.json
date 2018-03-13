@@ -1,0 +1,471 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 20,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.444,
+        "camo_moving": 0.177,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.296,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G41_DickerMax/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.01246,
+                "hull_pos_z": 0,
+                "id": 204,
+                "identifier": "Chassis_DickerMax",
+                "max_climb_angle": 25,
+                "max_load": 26700,
+                "name": "Dicker Max",
+                "not_in_shop": true,
+                "price": 15000,
+                "repair_health": 90,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tank_id": "G41_DickerMax",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 6,
+                "visual_model": "vehicles/german/G41_DickerMax/normal/lod0/Chassis.model",
+                "weight": 5750
+            }
+        ],
+        "collision_model": "vehicles/german/G41_DickerMax/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The Dicker Max (\"Fat Max\") was initially intended to destroy bunkers. Two prototypes were built in the spring of 1941. Later the vehicle was redesignated a heavy tank destroyer. The design was never put into mass production, but the prototypes fought on the Eastern Front.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 84,
+                "id": 221,
+                "identifier": "Maybach_HL_120_TR_A",
+                "name": "Maybach HL 120 TRM 112",
+                "not_in_shop": true,
+                "power": 272,
+                "price": 9000,
+                "repair_health": 41,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G41_DickerMax",
+                "tier": 4,
+                "weight": 510
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 40,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 3200,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G41_DickerMax/collision_client/Gun_01.model",
+                "depression": 15,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 10,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 170,
+                "id": 334,
+                "identifier": "_105mm_K18_L52A",
+                "max_ammo": 26,
+                "name": "10,5 cm Kanone 18",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -10
+                        ],
+                        [
+                            1,
+                            -10
+                        ]
+                    ]
+                },
+                "price": 116490,
+                "reload_time": 9.3,
+                "repair_health": 85,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 171,
+                "visual_model": "vehicles/german/G41_DickerMax/normal/lod0/Gun_01.model",
+                "weight": 3000,
+                "yaw_left": -8,
+                "yaw_right": 8
+            }
+        ],
+        "health": 440,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G41_DickerMax",
+        "name": "Dicker Max",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 214,
+                "identifier": "FuG5A",
+                "name": "FuG5 mit 20 WS.E.",
+                "not_in_shop": true,
+                "price": 630,
+                "range": 620,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G41_DickerMax",
+                "tier": 6,
+                "weight": 50
+            }
+        ],
+        "repair_price": 6.5,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 334,
+                "icon": "ap",
+                "id": "_105mm_PzGrRot",
+                "min_penetration": 154,
+                "module_damage": 150,
+                "name": "PzGr rot",
+                "penetration": 169,
+                "penetration_loss": 0,
+                "price": 600,
+                "range": 720,
+                "speed": 805,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 334,
+                "icon": "ap_cr",
+                "id": "_105mm_PzGr.40Rot",
+                "min_penetration": 207,
+                "module_damage": 150,
+                "name": "PzGr 40 rot",
+                "penetration": 227,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1006,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 380,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 334,
+                "icon": "he",
+                "id": "_105mm_Gr19",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "Gr 19",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 805,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Dicker Max",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "dicker-max",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": -0.009242,
+        "turret_pos_y": 0.531782,
+        "turret_pos_z": 0.229462,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G41_DickerMax/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.000247,
+                "gun_pos_y": 0.41872,
+                "gun_pos_z": 0.229693,
+                "health": 110,
+                "id": 171,
+                "identifier": "Turret_1_DickerMax",
+                "name": "Dicker Max",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "G41_DickerMax",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G41_DickerMax/normal/lod0/Turret_01.model",
+                "weight": 50
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v092011",
+        "visual_model": "vehicles/german/G41_DickerMax/normal/lod0/Hull.model",
+        "weight": 15400,
+        "xp_factor": 1.5
+    }
+}

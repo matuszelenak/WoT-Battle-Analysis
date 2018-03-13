@@ -1,0 +1,1430 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 47
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 47
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 47
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 40
+            }
+        ],
+        "armor_front": 47,
+        "armor_rear": 35,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.387,
+        "camo_moving": 0.194,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.258,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 20000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.765029,
+                "hull_pos_z": 0,
+                "id": 190,
+                "identifier": "Chassis_Somua_S35",
+                "max_climb_angle": 25,
+                "max_load": 20200,
+                "name": "Somua S35",
+                "not_in_shop": false,
+                "price": 600,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tank_id": "F44_Somua_S35",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 2,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Chassis.model",
+                "weight": 6000
+            },
+            {
+                "armor": 15,
+                "brake_force": 23000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Chassis.model",
+                "dispersion_movement": 0.23,
+                "dispersion_rotation": 0.23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.765029,
+                "hull_pos_z": 0,
+                "id": 191,
+                "identifier": "Chassis_Somua_S35_2",
+                "max_climb_angle": 25,
+                "max_load": 23500,
+                "name": "Somua S40",
+                "not_in_shop": false,
+                "price": 1900,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "F44_Somua_S35",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.4,
+                "tier": 3,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Chassis.model",
+                "weight": 6000
+            }
+        ],
+        "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "loader"
+            }
+        ],
+        "description": "Good firepower, armor protection, and mobility made the S35 one of the best tanks of its time. However, the small turret forced the commander to handle multiple tasks at once: searching for enemy targets, aiming and reloading the gun, and coordinating the actions of the crew. This workload reduced his situational awareness and decreased the vehicle\u2019s effectiveness on the battlefield. By the time France capitulated on June 22, 1940, a total of 427 vehicles had been manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 50,
+                "id": 206,
+                "identifier": "Somua_190CV_V8",
+                "name": "Somua V8",
+                "not_in_shop": false,
+                "power": 190,
+                "price": 4500,
+                "repair_health": 25,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "F44_Somua_S35",
+                "tier": 3,
+                "weight": 540
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 140,
+                "id": 207,
+                "identifier": "Hispano_219CV_V8",
+                "name": "Hispano-Suiza V8",
+                "not_in_shop": false,
+                "power": 219,
+                "price": 9800,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "F44_Somua_S35",
+                "tier": 4,
+                "weight": 400
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 160,
+                "id": 208,
+                "identifier": "Somua_230_V8",
+                "name": "Somua V8 version d\u00e9finitive",
+                "not_in_shop": false,
+                "power": 230,
+                "price": 16000,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F44_Somua_S35",
+                "tier": 5,
+                "weight": 540
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 45,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Gun_03.model",
+                "depression": 18,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 42
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 313,
+                "identifier": "_47mm_SA34",
+                "max_ammo": 118,
+                "name": "47 mm SA34",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            18
+                        ],
+                        [
+                            0.333333,
+                            18
+                        ],
+                        [
+                            0.388889,
+                            5
+                        ],
+                        [
+                            0.611111,
+                            5
+                        ],
+                        [
+                            0.666667,
+                            18
+                        ],
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 2400,
+                "reload_time": 2.4,
+                "repair_health": 35,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 159,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Gun_03.model",
+                "weight": 90,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Gun_04.model",
+                "depression": 18,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 42
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 76,
+                "id": 314,
+                "identifier": "_47mm_SA35",
+                "max_ammo": 118,
+                "name": "47 mm SA35",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            18
+                        ],
+                        [
+                            0.333333,
+                            18
+                        ],
+                        [
+                            0.388889,
+                            8
+                        ],
+                        [
+                            0.611111,
+                            8
+                        ],
+                        [
+                            0.666667,
+                            18
+                        ],
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 3250,
+                "reload_time": 2.6,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 159,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Gun_04.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Gun_07.model",
+                "depression": 14,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 315,
+                "identifier": "_47mm_SA34",
+                "max_ammo": 118,
+                "name": "47 mm SA34",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            14
+                        ],
+                        [
+                            0.288889,
+                            14
+                        ],
+                        [
+                            0.388889,
+                            3
+                        ],
+                        [
+                            0.611111,
+                            3
+                        ],
+                        [
+                            0.711111,
+                            14
+                        ],
+                        [
+                            1,
+                            14
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2400,
+                "reload_time": 2.4,
+                "repair_health": 35,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 160,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Gun_07.model",
+                "weight": 90,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Gun_08.model",
+                "depression": 16,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 76,
+                "id": 316,
+                "identifier": "_47mm_SA35",
+                "max_ammo": 118,
+                "name": "47 mm SA35",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            16
+                        ],
+                        [
+                            0.288889,
+                            16
+                        ],
+                        [
+                            0.388889,
+                            4
+                        ],
+                        [
+                            0.611111,
+                            4
+                        ],
+                        [
+                            0.711111,
+                            16
+                        ],
+                        [
+                            1,
+                            16
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 3250,
+                "reload_time": 2.5,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 160,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Gun_08.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Gun_09.model",
+                "depression": 11,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 76,
+                "id": 317,
+                "identifier": "_47mm_SA37",
+                "max_ammo": 69,
+                "name": "47 mm SA37",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            11
+                        ],
+                        [
+                            0.438889,
+                            11
+                        ],
+                        [
+                            0.458333,
+                            4
+                        ],
+                        [
+                            0.541667,
+                            4
+                        ],
+                        [
+                            0.561111,
+                            11
+                        ],
+                        [
+                            1,
+                            11
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 4750,
+                "reload_time": 2.9,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 160,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Gun_09.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 184,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F44_Somua_S35",
+        "name": "Somua S35",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 42000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 199,
+                "identifier": "ER_28",
+                "name": "ER 28",
+                "not_in_shop": false,
+                "price": 620,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F44_Somua_S35",
+                "tier": 3,
+                "weight": 15
+            },
+            {
+                "health": 140,
+                "id": 200,
+                "identifier": "ER_29",
+                "name": "ER 29",
+                "not_in_shop": false,
+                "price": 3650,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "F44_Somua_S35",
+                "tier": 5,
+                "weight": 50
+            },
+            {
+                "health": 150,
+                "id": 201,
+                "identifier": "ER_26_ter",
+                "name": "ER 26 ter",
+                "not_in_shop": false,
+                "price": 21800,
+                "range": 455,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "F44_Somua_S35",
+                "tier": 7,
+                "weight": 150
+            },
+            {
+                "health": 150,
+                "id": 202,
+                "identifier": "ER_27",
+                "name": "ER 27",
+                "not_in_shop": false,
+                "price": 43500,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "F44_Somua_S35",
+                "tier": 9,
+                "weight": 200
+            }
+        ],
+        "repair_price": 3.2,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 313,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1892",
+                "min_penetration": 15,
+                "module_damage": 64,
+                "name": "ODR mle. 1892",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 450,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 313,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle_1935_b",
+                "min_penetration": 34,
+                "module_damage": 64,
+                "name": "ODR mle. 1935 Bref",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 563,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 62,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 313,
+                "icon": "he",
+                "id": "_47mm_Oe_type_D",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE type D",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 450,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 314,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1932",
+                "min_penetration": 38,
+                "module_damage": 64,
+                "name": "ODR mle. 1932",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 660,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 314,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle._1935",
+                "min_penetration": 44,
+                "module_damage": 64,
+                "name": "ODR mle. 1935",
+                "penetration": 79,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 825,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 314,
+                "icon": "he",
+                "id": "_47mm_Oe_mle._1932",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE mle. 1932",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 660,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 315,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1892",
+                "min_penetration": 15,
+                "module_damage": 64,
+                "name": "ODR mle. 1892",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 450,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 315,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle_1935_b",
+                "min_penetration": 34,
+                "module_damage": 64,
+                "name": "ODR mle. 1935 Bref",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 563,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 62,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 315,
+                "icon": "he",
+                "id": "_47mm_Oe_type_D",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE type D",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 450,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 316,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1932",
+                "min_penetration": 38,
+                "module_damage": 64,
+                "name": "ODR mle. 1932",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 660,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 316,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle._1935",
+                "min_penetration": 44,
+                "module_damage": 64,
+                "name": "ODR mle. 1935",
+                "penetration": 79,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 825,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 316,
+                "icon": "he",
+                "id": "_47mm_Oe_mle._1932",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE mle. 1932",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 660,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 317,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1932",
+                "min_penetration": 58,
+                "module_damage": 64,
+                "name": "ODR mle. 1932",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 885,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 317,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle._1935",
+                "min_penetration": 68,
+                "module_damage": 64,
+                "name": "ODR mle. 1935",
+                "penetration": 98,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 1106,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 317,
+                "icon": "he",
+                "id": "_47mm_Oe_mle._1932",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE mle. 1932",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 885,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Somua S35",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "somua-s35",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedSprings_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -0.012,
+        "turret_pos_y": 0.977971,
+        "turret_pos_z": 0.5084,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 42,
+                "armor_rear": 42,
+                "armor_side": 42,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 42
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 42
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 42
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 42
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 42
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": -0.05458,
+                "gun_pos_y": 0.28168,
+                "gun_pos_z": 0.6229,
+                "health": 46,
+                "id": 159,
+                "identifier": "Turret_1_Somua_S35",
+                "name": "APX 1CE",
+                "not_in_shop": false,
+                "price": 600,
+                "rotation_speed": 40,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "F44_Somua_S35",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Turret_01.model",
+                "weight": 2000
+            },
+            {
+                "Guns": null,
+                "armor_front": 40,
+                "armor_rear": 60,
+                "armor_side": 40,
+                "collision_model": "vehicles/french/F44_Somua_S35/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": 0.32159,
+                "gun_pos_y": 0.23743,
+                "gun_pos_z": 0.57891,
+                "health": 66,
+                "id": 160,
+                "identifier": "Turret_2_Somua_S35",
+                "name": "ARL 2C",
+                "not_in_shop": false,
+                "price": 1850,
+                "rotation_speed": 42,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "F44_Somua_S35",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Turret_02.model",
+                "weight": 2340
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Somua_S35_2",
+                "name": "Chassis_Somua_S35_2",
+                "parent_key": "chassis-Chassis_Somua_S35",
+                "price": 320,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_47mm_SA35",
+                "name": "_47mm_SA35",
+                "parent_key": "gun-_47mm_SA34",
+                "price": 265,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_Somua_S35",
+                "name": "Turret_2_Somua_S35",
+                "parent_key": "gun-_47mm_SA35",
+                "price": 350,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_47mm_SA37",
+                "name": "_47mm_SA37",
+                "parent_key": "turret-Turret_2_Somua_S35",
+                "price": 450,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F70_SARL42",
+                "name": "F70_SARL42",
+                "parent_key": "turret-Turret_2_Somua_S35",
+                "price": 3230,
+                "tank_name": "SARL 42",
+                "tank_price": 155000,
+                "tank_slug": "sarl-42",
+                "tank_tier": 4,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Hispano_219CV_V8",
+                "name": "Hispano_219CV_V8",
+                "parent_key": "engine-Somua_190CV_V8",
+                "price": 820,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Somua_230_V8",
+                "name": "Somua_230_V8",
+                "parent_key": "engine-Hispano_219CV_V8",
+                "price": 1050,
+                "type": "engine"
+            },
+            {
+                "key": "radio-ER_29",
+                "name": "ER_29",
+                "parent_key": "radio-ER_28",
+                "price": 630,
+                "type": "radio"
+            },
+            {
+                "key": "radio-ER_26_ter",
+                "name": "ER_26_ter",
+                "parent_key": "radio-ER_29",
+                "price": 3100,
+                "type": "radio"
+            },
+            {
+                "key": "radio-ER_27",
+                "name": "ER_27",
+                "parent_key": "radio-ER_26_ter",
+                "price": 7100,
+                "type": "radio"
+            }
+        ],
+        "version": "v092011",
+        "visual_model": "vehicles/french/F44_Somua_S35/normal/lod0/Hull.model",
+        "weight": 10860,
+        "xp_factor": 1
+    }
+}

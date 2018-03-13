@@ -1,0 +1,431 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 45
+            }
+        ],
+        "armor_front": 70,
+        "armor_rear": 45,
+        "armor_side": 45,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.66,
+        "camo_moving": 0.264,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.444,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 32000,
+                "center_rotation": true,
+                "collision_model": "vehicles/chinese/Ch35_T-34-2G_FT/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.789775,
+                "hull_pos_z": 0,
+                "id": 46,
+                "identifier": "Chassis_Ch35_T-34-2G_FT",
+                "max_climb_angle": 25,
+                "max_load": 32000,
+                "name": "T-34-2G FT",
+                "not_in_shop": true,
+                "price": 14500,
+                "repair_health": 90,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tank_id": "Ch35_T-34-2G_FT",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.1,
+                "tier": 6,
+                "visual_model": "vehicles/chinese/Ch35_T-34-2G_FT/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch35_T-34-2G_FT/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A proposed project for a tank destroyer on the basis of the T-34-2 medium tank, which was supposed to incorporate the technical innovations from the Soviet SU-122-54 and SPGs of the WWII period. No prototypes were built.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 145,
+                "id": 52,
+                "identifier": "_Type_102SG",
+                "name": "Type 102SG",
+                "not_in_shop": true,
+                "power": 450,
+                "price": 26000,
+                "repair_health": 72,
+                "repair_price": 6,
+                "tags": "diesel",
+                "tank_id": "Ch35_T-34-2G_FT",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 50,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch35_T-34-2G_FT/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 70,
+                "identifier": "_100mm_59_100TG_FT",
+                "max_ammo": 40,
+                "name": "100 mm 59-100TG FT",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 79000,
+                "reload_time": 7.5,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 30,
+                "tier": 7,
+                "turret_id": 45,
+                "visual_model": "vehicles/chinese/Ch35_T-34-2G_FT/normal/lod0/Gun_01.model",
+                "weight": 2257,
+                "yaw_left": -12,
+                "yaw_right": 12
+            }
+        ],
+        "health": 640,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch35_T-34-2G_FT",
+        "name": "T-34-2G FT",
+        "nation": "china",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 1440000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 48,
+                "identifier": "_9RM_shop",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "Ch35_T-34-2G_FT",
+                "tier": 8,
+                "weight": 100
+            }
+        ],
+        "repair_price": 7.5,
+        "reverse_speed": 16,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 70,
+                "icon": "ap",
+                "id": "_100mm_UBR-412",
+                "min_penetration": 160,
+                "module_damage": 135,
+                "name": "Chuan bei-412",
+                "penetration": 181,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 70,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412P",
+                "min_penetration": 213,
+                "module_damage": 135,
+                "name": "Chuan chao-412",
+                "penetration": 241,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 70,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "Sha bao-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-34-2G FT",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-34-2g-ft",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0.1266,
+        "turret_pos_y": 0.611925,
+        "turret_pos_z": 1.6061,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/chinese/Ch35_T-34-2G_FT/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": -0.0125,
+                "health": 160,
+                "id": 45,
+                "identifier": "Turret_1_Ch35_T-34-2G_FT",
+                "name": "T-34-2G FT",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 30,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch35_T-34-2G_FT",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/chinese/Ch35_T-34-2G_FT/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v09191",
+        "visual_model": "vehicles/chinese/Ch35_T-34-2G_FT/normal/lod0/Hull.model",
+        "weight": 20100,
+        "xp_factor": 1
+    }
+}

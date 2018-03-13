@@ -1,0 +1,917 @@
+{
+    "tank": {
+        "ammo_rack_health": 170,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 33.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 31.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 26.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 31.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 25.4
+            }
+        ],
+        "armor_front": 38.1,
+        "armor_rear": 31.7,
+        "armor_side": 33.3,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.387,
+        "camo_moving": 0.258,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.258,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 46500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A23_M7_med/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.0179,
+                "hull_pos_z": 0,
+                "id": 680,
+                "identifier": "VVSS_T48",
+                "max_climb_angle": 25,
+                "max_load": 24500,
+                "name": "VVSS T48",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 46,
+                "tank_id": "A23_M7_med",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.1,
+                "tier": 4,
+                "visual_model": "vehicles/american/A23_M7_med/normal/lod0/Chassis.model",
+                "weight": 4000
+            },
+            {
+                "armor": 20,
+                "brake_force": 46500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A23_M7_med/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.0179,
+                "hull_pos_z": 0,
+                "id": 681,
+                "identifier": "VVSS_T48A",
+                "max_climb_angle": 25,
+                "max_load": 25500,
+                "name": "VVSS T48A",
+                "not_in_shop": false,
+                "price": 8000,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 48,
+                "tank_id": "A23_M7_med",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.7,
+                "tier": 5,
+                "visual_model": "vehicles/american/A23_M7_med/normal/lod0/Chassis.model",
+                "weight": 4000
+            }
+        ],
+        "collision_model": "vehicles/american/A23_M7_med/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development started in 1941. Initially, the vehicle was developed as a light tank; however, as the model gradually received extra armor and armaments, it was reclassified as a medium tank. Production of the M7 started by the fall of 1942. However, since the M7 was inferior to the mass-produced M4 Sherman in all parameters except speed and dimensions, the production was stopped. A total of 7 vehicles were produced.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 748,
+                "identifier": "Wright_Continental_R-975EC2L",
+                "name": "Wright Continental R-975EC2L",
+                "not_in_shop": false,
+                "power": 480,
+                "price": 14100,
+                "repair_health": 52,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "A23_M7_med",
+                "tier": 4,
+                "weight": 515
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 749,
+                "identifier": "Wright_Continental_R-975C1L",
+                "name": "Wright Continental R-975C1L",
+                "not_in_shop": false,
+                "power": 600,
+                "price": 21500,
+                "repair_health": 52,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "A23_M7_med",
+                "tier": 5,
+                "weight": 516
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A23_M7_med/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.44,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 52.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 114,
+                "id": 1155,
+                "identifier": "_75mm_Gun_M2_L28L",
+                "max_ammo": 71,
+                "name": "75 mm Gun M2L",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.394671,
+                            8
+                        ],
+                        [
+                            0.458333,
+                            7
+                        ],
+                        [
+                            0.541667,
+                            7
+                        ],
+                        [
+                            0.605329,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 23000,
+                "reload_time": 5.2,
+                "repair_health": 57,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 580,
+                "visual_model": "vehicles/american/A23_M7_med/normal/lod0/Gun_05.model",
+                "weight": 1237,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A23_M7_med/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 52.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 94,
+                "id": 1156,
+                "identifier": "QF_6_pounder_Mk_III",
+                "max_ammo": 155,
+                "name": "QF 6-pdr Mk. III",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.394671,
+                            8
+                        ],
+                        [
+                            0.458333,
+                            7
+                        ],
+                        [
+                            0.541667,
+                            7
+                        ],
+                        [
+                            0.605329,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 30500,
+                "reload_time": 3,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 580,
+                "visual_model": "vehicles/american/A23_M7_med/normal/lod0/Gun_04.model",
+                "weight": 450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A23_M7_med/collision_client/Gun_06.model",
+                "depression": 8,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 52.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 114,
+                "id": 1157,
+                "identifier": "_75mm_Gun_M3_L37L",
+                "max_ammo": 71,
+                "name": "75 mm Gun M3L",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.394671,
+                            8
+                        ],
+                        [
+                            0.458333,
+                            7
+                        ],
+                        [
+                            0.541667,
+                            7
+                        ],
+                        [
+                            0.605329,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4.8,
+                "repair_health": 57,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 580,
+                "visual_model": "vehicles/american/A23_M7_med/normal/lod0/Gun_06.model",
+                "weight": 1437,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A23_M7_med",
+        "name": "M7",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 355000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 808,
+                "identifier": "AN-GRC-3",
+                "name": "AN/GRC-3",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 410,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A23_M7_med",
+                "tier": 6,
+                "weight": 120
+            },
+            {
+                "health": 200,
+                "id": 809,
+                "identifier": "SCR_528",
+                "name": "SCR 528",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A23_M7_med",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 5.34,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1155,
+                "icon": "ap",
+                "id": "_75mm_M61",
+                "min_penetration": 78,
+                "module_damage": 100,
+                "name": "M61",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 588,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1155,
+                "icon": "ap_cr",
+                "id": "_75mm_M72",
+                "min_penetration": 95,
+                "module_damage": 100,
+                "name": "T45",
+                "penetration": 125,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 735,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1155,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 588,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1156,
+                "icon": "ap",
+                "id": "_6pdr_AP_MKs_4",
+                "min_penetration": 81,
+                "module_damage": 76,
+                "name": "AP Mk. 4",
+                "penetration": 105,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1156,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 121,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1026,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1157,
+                "icon": "ap",
+                "id": "_75mm_M61",
+                "min_penetration": 80,
+                "module_damage": 100,
+                "name": "M61",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1157,
+                "icon": "ap_cr",
+                "id": "_75mm_M72",
+                "min_penetration": 97,
+                "module_damage": 100,
+                "name": "T45",
+                "penetration": 127,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 820,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1157,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M7",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m7",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.564403,
+        "turret_pos_z": 0.252167,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 52.3,
+                "armor_rear": 41.2,
+                "armor_side": 41.2,
+                "collision_model": "vehicles/american/A23_M7_med/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 52.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 41.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 41.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 41.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 19
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 19
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 41.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 19
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.256761,
+                "gun_pos_z": 0.780183,
+                "health": 70,
+                "id": 580,
+                "identifier": "M47",
+                "name": "M47",
+                "not_in_shop": false,
+                "price": 11500,
+                "rotation_speed": 46,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "A23_M7_med",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/american/A23_M7_med/normal/lod0/Turret_02.model",
+                "weight": 3400
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-VVSS_T48A",
+                "name": "VVSS_T48A",
+                "parent_key": "chassis-VVSS_T48",
+                "price": 1990,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-QF_6_pounder_Mk_III",
+                "name": "QF_6_pounder_Mk_III",
+                "parent_key": "gun-_75mm_Gun_M2_L28L",
+                "price": 1880,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_75mm_Gun_M3_L37L",
+                "name": "_75mm_Gun_M3_L37L",
+                "parent_key": "gun-_75mm_Gun_M2_L28L",
+                "price": 2100,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A71_T21",
+                "name": "A71_T21",
+                "parent_key": "gun-_75mm_Gun_M3_L37L",
+                "price": 32300,
+                "tank_name": "T21",
+                "tank_price": 900000,
+                "tank_slug": "t21",
+                "tank_tier": 6,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Wright_Continental_R-975C1L",
+                "name": "Wright_Continental_R-975C1L",
+                "parent_key": "engine-Wright_Continental_R-975EC2L",
+                "price": 1860,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-AN-GRC-3",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/american/A23_M7_med/normal/lod0/Hull.model",
+        "weight": 14600,
+        "xp_factor": 1
+    }
+}

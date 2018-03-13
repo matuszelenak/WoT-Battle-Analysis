@@ -1,0 +1,545 @@
+{
+    "tank": {
+        "ammo_rack_health": 60,
+        "ammo_rack_repair_health": 30,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 13,
+        "armor_rear": 13,
+        "armor_side": 13,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.233,
+        "camo_moving": 0.077,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.155,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 6000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G11_Bison_I/collision_client/Chassis.model",
+                "dispersion_movement": 0.46,
+                "dispersion_rotation": 0.46,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.69369,
+                "hull_pos_z": 0,
+                "id": 229,
+                "identifier": "Sturmpanzerketten_I",
+                "max_climb_angle": 25,
+                "max_load": 7000,
+                "name": "Sturmpanzer I",
+                "not_in_shop": false,
+                "price": 560,
+                "repair_health": 40,
+                "repair_price": 0.5,
+                "rotation_speed": 14,
+                "tank_id": "G11_Bison_I",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.7,
+                "tier": 2,
+                "visual_model": "vehicles/german/G11_Bison_I/normal/lod0/Chassis.model",
+                "weight": 2750
+            },
+            {
+                "armor": 5,
+                "brake_force": 7000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G11_Bison_I/collision_client/Chassis.model",
+                "dispersion_movement": 0.42,
+                "dispersion_rotation": 0.42,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.69369,
+                "hull_pos_z": 0,
+                "id": 230,
+                "identifier": "Sturmpanzerketten_II",
+                "max_climb_angle": 25,
+                "max_load": 9200,
+                "name": "Sturmpanzer I verst\u00e4rkteketten",
+                "not_in_shop": false,
+                "price": 1160,
+                "repair_health": 45,
+                "repair_price": 0.5,
+                "rotation_speed": 16,
+                "tank_id": "G11_Bison_I",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 3,
+                "visual_model": "vehicles/german/G11_Bison_I/normal/lod0/Chassis.model",
+                "weight": 2750
+            }
+        ],
+        "collision_model": "vehicles/german/G11_Bison_I/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed from 1939 through 1940 on the chassis of the Panzerkampfwagen I. Equipped with the 150 mm s.I.G. 33 gun that was mounted together with the gun carriage. Rate of fire was three rounds per minute; on-board ammunition totaled eight shells. The vehicle required the support of an ammunition carrier. The SPG was used from 1940 through 1943 during the French Campaign, Balkan Campaign, and on the Eastern Front. Later the Sturmpanzer II with a similar gun type was developed.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 249,
+                "identifier": "Krupp_M305",
+                "name": "Krupp M305",
+                "not_in_shop": false,
+                "power": 60,
+                "price": 290,
+                "repair_health": 12,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "G11_Bison_I",
+                "tier": 1,
+                "weight": 220
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 44,
+                "id": 250,
+                "identifier": "Maybach_NL38TR",
+                "name": "Maybach HL 38 TR",
+                "not_in_shop": false,
+                "power": 100,
+                "price": 700,
+                "repair_health": 22,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "G11_Bison_I",
+                "tier": 2,
+                "weight": 500
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 40,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 6.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G11_Bison_I/collision_client/Gun_01.model",
+                "depression": 4,
+                "dispersion": 0.86,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.5,
+                "elevation": 75,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 100,
+                "id": 382,
+                "identifier": "_150mm_sIG33L11",
+                "max_ammo": 12,
+                "name": "15 cm s.I.G. 33 L/11",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -75
+                        ],
+                        [
+                            1,
+                            -75
+                        ]
+                    ]
+                },
+                "price": 8880,
+                "reload_time": 22.8,
+                "repair_health": 50,
+                "repair_price": 10,
+                "rotation_speed": 23.675,
+                "tier": 3,
+                "turret_id": 199,
+                "visual_model": "vehicles/german/G11_Bison_I/normal/lod0/Gun_01.model",
+                "weight": 760,
+                "yaw_left": -5.5,
+                "yaw_right": 5.5
+            }
+        ],
+        "health": 104,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G11_Bison_I",
+        "name": "Sturmpanzer I Bison",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 48500,
+        "radios": [
+            {
+                "health": 100,
+                "id": 245,
+                "identifier": "FuG2",
+                "name": "FuG 2",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 265,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G11_Bison_I",
+                "tier": 2,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 246,
+                "identifier": "FuG5",
+                "name": "FuG 5",
+                "not_in_shop": false,
+                "price": 630,
+                "range": 310,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G11_Bison_I",
+                "tier": 3,
+                "weight": 50
+            },
+            {
+                "health": 150,
+                "id": 247,
+                "identifier": "FuG_Spr.A",
+                "name": "Fu.Spr.Ger. \"a\"",
+                "not_in_shop": false,
+                "price": 27000,
+                "range": 700,
+                "repair_health": 75,
+                "repair_price": 2.5,
+                "tank_id": "G11_Bison_I",
+                "tier": 8,
+                "weight": 150
+            }
+        ],
+        "repair_price": 6.12,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 150,
+                "damage": 400,
+                "explosion_radius": 6.5,
+                "gold_price": 0,
+                "gravity": 125,
+                "gun_id": 382,
+                "icon": "he",
+                "id": "_150mm_Sprg_L",
+                "min_penetration": 35,
+                "module_damage": 102,
+                "name": "Sprgr L",
+                "penetration": 35,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 10000,
+                "speed": 275,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Bison",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "bison",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0,
+        "turret_pos_y": 1.44961,
+        "turret_pos_z": 0.436,
+        "turret_slots": [
+            {
+                "id": 157,
+                "pos_x": 0,
+                "pos_y": 1.44961,
+                "pos_z": 0.436,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G11_Bison_I"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G11_Bison_I/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 6e-06,
+                "gun_pos_z": 2.9e-05,
+                "health": 26,
+                "id": 199,
+                "identifier": "T_Bison",
+                "name": "Sturmpanzer I Bison",
+                "not_in_shop": true,
+                "price": 50,
+                "rotation_speed": 16,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "G11_Bison_I",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 245,
+                "visual_model": "vehicles/german/G11_Bison_I/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Sturmpanzerketten_II",
+                "name": "Sturmpanzerketten_II",
+                "parent_key": "chassis-Sturmpanzerketten_I",
+                "price": 350,
+                "type": "chassis"
+            },
+            {
+                "key": "engine-Maybach_NL38TR",
+                "name": "Maybach_NL38TR",
+                "parent_key": "engine-Krupp_M305",
+                "price": 80,
+                "type": "engine"
+            },
+            {
+                "key": "radio-FuG5",
+                "name": "FuG5",
+                "parent_key": "radio-FuG2",
+                "price": 105,
+                "type": "radio"
+            },
+            {
+                "key": "radio-FuG_Spr.A",
+                "name": "FuG_Spr.A",
+                "parent_key": "radio-FuG5",
+                "price": 4500,
+                "type": "radio"
+            },
+            {
+                "key": "vehicle-G22_Sturmpanzer_II",
+                "name": "G22_Sturmpanzer_II",
+                "parent_key": "radio-FuG5",
+                "price": 5120,
+                "tank_name": "St.Pz. II",
+                "tank_price": 156000,
+                "tank_slug": "stpz-ii",
+                "tank_tier": 4,
+                "tank_type": "spg",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v092012",
+        "visual_model": "vehicles/german/G11_Bison_I/normal/lod0/Hull.model",
+        "weight": 2690,
+        "xp_factor": 1
+    }
+}

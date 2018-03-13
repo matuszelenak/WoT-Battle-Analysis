@@ -1,0 +1,1663 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 28.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 28.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12.7
+            }
+        ],
+        "armor_front": 28.6,
+        "armor_rear": 25.4,
+        "armor_side": 28.6,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.578,
+        "camo_moving": 0.231,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.385,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Chassis.model",
+                "dispersion_movement": 0.29,
+                "dispersion_rotation": 0.29,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.919951,
+                "hull_pos_z": 0,
+                "id": 663,
+                "identifier": "Chassis_M8A1",
+                "max_climb_angle": 25,
+                "max_load": 16200,
+                "name": "VVS T16",
+                "not_in_shop": false,
+                "price": 1850,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tank_id": "A57_M8A1",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.4,
+                "tier": 3,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Chassis.model",
+                "dispersion_movement": 0.27,
+                "dispersion_rotation": 0.27,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.919951,
+                "hull_pos_z": 0,
+                "id": 664,
+                "identifier": "Chassis_M8A1_2",
+                "max_climb_angle": 25,
+                "max_load": 17500,
+                "name": "T36 E6",
+                "not_in_shop": false,
+                "price": 5850,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "A57_M8A1",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.2,
+                "tier": 4,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/american/A57_M8A1/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "Developed in 1941 through 1942 on the basis of the M5 Stuart light tank. This SPG is an example of the successful use of an outdated chassis. The vehicle was equipped with a 75 mm short-barrel howitzer; however, attempts were made to fit a 75 mm tank gun into a modernized turret.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 123,
+                "id": 736,
+                "identifier": "Twin_Cadillac_42series",
+                "name": "Twin Cadillac, Series 42",
+                "not_in_shop": false,
+                "power": 320,
+                "price": 10350,
+                "repair_health": 58,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A57_M8A1",
+                "tier": 4,
+                "weight": 530
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 737,
+                "identifier": "Continental_R-975-C1",
+                "name": "Continental R-975-C1",
+                "not_in_shop": false,
+                "power": 350,
+                "price": 10500,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A57_M8A1",
+                "tier": 4,
+                "weight": 500
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 58,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 100,
+                "id": 1140,
+                "identifier": "_75mm_AT_Howitzer_M3",
+                "max_ammo": 46,
+                "name": "75 mm AT Howitzer M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.333333,
+                            10
+                        ],
+                        [
+                            0.352778,
+                            -2
+                        ],
+                        [
+                            0.611111,
+                            -2
+                        ],
+                        [
+                            0.660884,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 5400,
+                "reload_time": 3.7,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 3,
+                "turret_id": 563,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Gun_01.model",
+                "weight": 138,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 118,
+                "id": 1141,
+                "identifier": "_75mm_AT_Gun_M3_L37",
+                "max_ammo": 46,
+                "name": "75 mm AT Gun M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.333333,
+                            10
+                        ],
+                        [
+                            0.352778,
+                            -2
+                        ],
+                        [
+                            0.611111,
+                            -2
+                        ],
+                        [
+                            0.660884,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4.2,
+                "repair_health": 59,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 563,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Gun_02.model",
+                "weight": 1437,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 104,
+                "id": 1142,
+                "identifier": "_57mm_Gun_M1_L50",
+                "max_ammo": 66,
+                "name": "57 mm Gun M1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.333333,
+                            10
+                        ],
+                        [
+                            0.352778,
+                            -2
+                        ],
+                        [
+                            0.611111,
+                            -2
+                        ],
+                        [
+                            0.660884,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 33000,
+                "reload_time": 2.5,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 563,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Gun_03.model",
+                "weight": 400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 100,
+                "id": 1143,
+                "identifier": "_75mm_AT_Howitzer_M3",
+                "max_ammo": 46,
+                "name": "75 mm AT Howitzer M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.333333,
+                            10
+                        ],
+                        [
+                            0.352778,
+                            -2
+                        ],
+                        [
+                            0.611111,
+                            -2
+                        ],
+                        [
+                            0.660884,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 5400,
+                "reload_time": 3.7,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 3,
+                "turret_id": 564,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Gun_04.model",
+                "weight": 138,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 118,
+                "id": 1144,
+                "identifier": "_75mm_AT_Gun_M3_L37",
+                "max_ammo": 46,
+                "name": "75 mm AT Gun M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.333333,
+                            10
+                        ],
+                        [
+                            0.352778,
+                            -2
+                        ],
+                        [
+                            0.611111,
+                            -2
+                        ],
+                        [
+                            0.660884,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4.2,
+                "repair_health": 59,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 564,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Gun_05.model",
+                "weight": 1437,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Gun_06.model",
+                "depression": 10,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 104,
+                "id": 1145,
+                "identifier": "_57mm_Gun_M1_L50",
+                "max_ammo": 66,
+                "name": "57 mm Gun M1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.333333,
+                            10
+                        ],
+                        [
+                            0.352778,
+                            -2
+                        ],
+                        [
+                            0.611111,
+                            -2
+                        ],
+                        [
+                            0.660884,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 33000,
+                "reload_time": 2.5,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 564,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Gun_06.model",
+                "weight": 400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Gun_07.model",
+                "depression": 8,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 120,
+                "id": 1146,
+                "identifier": "_75mm_AT_Gun_M7_L50",
+                "max_ammo": 46,
+                "name": "3-inch AT Gun M7",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.333333,
+                            8
+                        ],
+                        [
+                            0.352778,
+                            -2
+                        ],
+                        [
+                            0.611111,
+                            -2
+                        ],
+                        [
+                            0.660884,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 33500,
+                "reload_time": 4.2,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 5,
+                "turret_id": 564,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Gun_07.model",
+                "weight": 1450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 200,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A57_M8A1",
+        "name": "M8A1",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 130000,
+        "radios": [
+            {
+                "health": 110,
+                "id": 788,
+                "identifier": "SCR_510",
+                "name": "SCR 510",
+                "not_in_shop": false,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "A57_M8A1",
+                "tier": 4,
+                "weight": 80
+            },
+            {
+                "health": 120,
+                "id": 789,
+                "identifier": "SCR_610",
+                "name": "SCR 610",
+                "not_in_shop": false,
+                "price": 24600,
+                "range": 420,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A57_M8A1",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 790,
+                "identifier": "SCR_619",
+                "name": "SCR 619",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A57_M8A1",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1140,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 620,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1140,
+                "icon": "hc",
+                "id": "_75mm_HEAT_M66",
+                "min_penetration": 91.4,
+                "module_damage": 100,
+                "name": "HEAT M66",
+                "penetration": 91.4,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 496,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1141,
+                "icon": "ap",
+                "id": "_75mm_M61",
+                "min_penetration": 80,
+                "module_damage": 100,
+                "name": "M61",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1141,
+                "icon": "ap_cr",
+                "id": "_75mm_M72",
+                "min_penetration": 97,
+                "module_damage": 100,
+                "name": "T45",
+                "penetration": 127,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 820,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1141,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1142,
+                "icon": "ap",
+                "id": "_57mm_AP_M70",
+                "min_penetration": 93,
+                "module_damage": 76,
+                "name": "AP M70",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 50,
+                "range": 720,
+                "speed": 823,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1142,
+                "icon": "ap_cr",
+                "id": "_57mm_APC_M86",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APC M86",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1029,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1142,
+                "icon": "he",
+                "id": "_57mm_HE_T18",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "HE T18",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 823,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1143,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 620,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1143,
+                "icon": "hc",
+                "id": "_75mm_HEAT_M66",
+                "min_penetration": 91.4,
+                "module_damage": 100,
+                "name": "HEAT M66",
+                "penetration": 91.4,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 496,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1144,
+                "icon": "ap",
+                "id": "_75mm_M61",
+                "min_penetration": 80,
+                "module_damage": 100,
+                "name": "M61",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1144,
+                "icon": "ap_cr",
+                "id": "_75mm_M72",
+                "min_penetration": 97,
+                "module_damage": 100,
+                "name": "T45",
+                "penetration": 127,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 820,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1144,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1145,
+                "icon": "ap",
+                "id": "_57mm_AP_M70",
+                "min_penetration": 93,
+                "module_damage": 76,
+                "name": "AP M70",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 50,
+                "range": 720,
+                "speed": 823,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1145,
+                "icon": "ap_cr",
+                "id": "_57mm_APC_M86",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APC M86",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1029,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1145,
+                "icon": "he",
+                "id": "_57mm_HE_T18",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "HE T18",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 823,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1146,
+                "icon": "ap",
+                "id": "_76mm_M62",
+                "min_penetration": 93,
+                "module_damage": 100,
+                "name": "AP M62(M7)",
+                "penetration": 101,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1146,
+                "icon": "ap_cr",
+                "id": "_76mm_M79",
+                "min_penetration": 101,
+                "module_damage": 100,
+                "name": "HVAP M93(M7)",
+                "penetration": 157,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1146,
+                "icon": "he",
+                "id": "_76mm_M42A1",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE M42A1(M7)",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M8A1",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m8a1",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0.00685,
+        "turret_pos_y": 0.736839,
+        "turret_pos_z": 0.22842,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 38.1,
+                "armor_rear": 25.4,
+                "armor_side": 25.4,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 9.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 9.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.00141,
+                "gun_pos_y": 0.29733,
+                "gun_pos_z": 0.7895,
+                "health": 50,
+                "id": 563,
+                "identifier": "Turret_1_M8A1",
+                "name": "M8 HMC Scott",
+                "not_in_shop": false,
+                "price": 1890,
+                "rotation_speed": 18,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "A57_M8A1",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Turret_01.model",
+                "weight": 1200
+            },
+            {
+                "Guns": null,
+                "armor_front": 38.1,
+                "armor_rear": 25.4,
+                "armor_side": 25.4,
+                "collision_model": "vehicles/american/A57_M8A1/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 9.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.00141,
+                "gun_pos_y": 0.29733,
+                "gun_pos_z": 0.7895,
+                "health": 65,
+                "id": 564,
+                "identifier": "Turret_2_M8A1",
+                "name": "M8 GMC",
+                "not_in_shop": false,
+                "price": 5180,
+                "rotation_speed": 18,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "A57_M8A1",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Turret_02.model",
+                "weight": 1550
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_M8A1_2",
+                "name": "Chassis_M8A1_2",
+                "parent_key": "chassis-Chassis_M8A1",
+                "price": 1100,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_AT_Gun_M3_L37",
+                "name": "_75mm_AT_Gun_M3_L37",
+                "parent_key": "gun-_75mm_AT_Howitzer_M3",
+                "price": 2100,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_57mm_Gun_M1_L50",
+                "name": "_57mm_Gun_M1_L50",
+                "parent_key": "gun-_75mm_AT_Howitzer_M3",
+                "price": 2350,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_M8A1",
+                "name": "Turret_2_M8A1",
+                "parent_key": "gun-_75mm_AT_Gun_M3_L37",
+                "price": 1200,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-A58_T67",
+                "name": "A58_T67",
+                "parent_key": "gun-_57mm_Gun_M1_L50",
+                "price": 10500,
+                "tank_name": "T67",
+                "tank_price": 400000,
+                "tank_slug": "t67",
+                "tank_tier": 5,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-_75mm_AT_Gun_M7_L50",
+                "name": "_75mm_AT_Gun_M7_L50",
+                "parent_key": "turret-Turret_2_M8A1",
+                "price": 2250,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Continental_R-975-C1",
+                "name": "Continental_R-975-C1",
+                "parent_key": "engine-Twin_Cadillac_42series",
+                "price": 550,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_610",
+                "name": "SCR_610",
+                "parent_key": "radio-SCR_510",
+                "price": 0,
+                "type": "radio"
+            },
+            {
+                "key": "radio-SCR_619",
+                "name": "SCR_619",
+                "parent_key": "radio-SCR_610",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919ct",
+        "visual_model": "vehicles/american/A57_M8A1/normal/lod0/Hull.model",
+        "weight": 9800,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,905 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 17
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_14",
+                "primary": false,
+                "value": 14
+            }
+        ],
+        "armor_front": 60,
+        "armor_rear": 60,
+        "armor_side": 60,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.527,
+        "camo_moving": 0.211,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.351,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 14500,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB42_Valentine_AT/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 596,
+                "identifier": "Chassis_GB42_Valentine_AT",
+                "max_climb_angle": 25,
+                "max_load": 15000,
+                "name": "Valentine AT Mk. I",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 34,
+                "tank_id": "GB42_Valentine_AT",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2,
+                "tier": 3,
+                "visual_model": "vehicles/british/GB42_Valentine_AT/normal/lod0/Chassis.model",
+                "weight": 3200
+            },
+            {
+                "armor": 10,
+                "brake_force": 17000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB42_Valentine_AT/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 597,
+                "identifier": "Chassis_GB42_Valentine_AT_2",
+                "max_climb_angle": 25,
+                "max_load": 17000,
+                "name": "Valentine AT Mk. II",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "GB42_Valentine_AT",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.8,
+                "tier": 3,
+                "visual_model": "vehicles/british/GB42_Valentine_AT/normal/lod0/Chassis.model",
+                "weight": 3200
+            }
+        ],
+        "collision_model": "vehicles/british/GB42_Valentine_AT/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "This experimental tank destroyer had the gun mounted in the middle of the hull behind a gun shield. A prototype was built, but work on the vehicle was discontinued when a new tank destroyer was developed, based on the Valentine and mounting the powerful 17-pounder.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 66,
+                "id": 658,
+                "identifier": "AEC_A189",
+                "name": "AEC A189",
+                "not_in_shop": false,
+                "power": 135,
+                "price": 2150,
+                "repair_health": 33,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 2,
+                "weight": 800
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 66,
+                "id": 659,
+                "identifier": "AEC_A1909",
+                "name": "AEC A190",
+                "not_in_shop": false,
+                "power": 131,
+                "price": 2500,
+                "repair_health": 33,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 3,
+                "weight": 800
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 70,
+                "id": 660,
+                "identifier": "GMC_6-71_Mk10",
+                "name": "GMC 6004 6-71S",
+                "not_in_shop": false,
+                "power": 138,
+                "price": 9000,
+                "repair_health": 35,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 4,
+                "weight": 991
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 72,
+                "id": 661,
+                "identifier": "GMC_6-71_Mk11",
+                "name": "GMC 6004 6-71A",
+                "not_in_shop": false,
+                "power": 165,
+                "price": 11000,
+                "repair_health": 36,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 5,
+                "weight": 991
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 24,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB42_Valentine_AT/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 94,
+                "id": 1028,
+                "identifier": "QF_6_pounder_Mk_II_AT",
+                "max_ammo": 102,
+                "name": "QF 6-pdr AT Gun Mk. II",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 25000,
+                "reload_time": 2.8,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 503,
+                "visual_model": "vehicles/british/GB42_Valentine_AT/normal/lod0/Gun_03.model",
+                "weight": 400,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB42_Valentine_AT/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.49,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 140,
+                "id": 1029,
+                "identifier": "_3.7inch_AT_Howitzer",
+                "max_ammo": 42,
+                "name": "3.7-inch AT Howitzer",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 35000,
+                "reload_time": 8,
+                "repair_health": 70,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 503,
+                "visual_model": "vehicles/british/GB42_Valentine_AT/normal/lod0/Gun_02.model",
+                "weight": 393,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB42_Valentine_AT/collision_client/Gun_04.model",
+                "depression": 5,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 104,
+                "id": 1030,
+                "identifier": "QF_6_pounder_Mk_IV_AT",
+                "max_ammo": 102,
+                "name": "QF 6-pdr AT Gun Mk. IV",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 27000,
+                "reload_time": 2.8,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 503,
+                "visual_model": "vehicles/british/GB42_Valentine_AT/normal/lod0/Gun_04.model",
+                "weight": 450,
+                "yaw_left": -15,
+                "yaw_right": 15
+            }
+        ],
+        "health": 136,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB42_Valentine_AT",
+        "name": "Valentine AT",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 34000,
+        "radios": [
+            {
+                "health": 60,
+                "id": 714,
+                "identifier": "N11",
+                "name": "WS No. 11",
+                "not_in_shop": false,
+                "price": 600,
+                "range": 350,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 3,
+                "weight": 40
+            },
+            {
+                "health": 80,
+                "id": 715,
+                "identifier": "N9",
+                "name": "WS No. 9",
+                "not_in_shop": false,
+                "price": 3600,
+                "range": 375,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 5,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 716,
+                "identifier": "N19Mk1",
+                "name": "WS No. 19 Mk. I",
+                "not_in_shop": false,
+                "price": 15000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 717,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 7,
+                "weight": 40
+            }
+        ],
+        "repair_price": 6,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1028,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 81,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 105,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1028,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 121,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1026,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1028,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 94,
+                "damage": 370,
+                "explosion_radius": 1.58,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1029,
+                "icon": "he",
+                "id": "_3.7inch_HE_Mk3",
+                "min_penetration": 47,
+                "module_damage": 130,
+                "name": "HE Mk. 3",
+                "penetration": 47,
+                "penetration_loss": 0,
+                "price": 156,
+                "range": 720,
+                "speed": 243,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 94,
+                "damage": 280,
+                "explosion_radius": 0,
+                "gold_price": 14,
+                "gravity": 9.81,
+                "gun_id": 1029,
+                "icon": "hc",
+                "id": "_3.7inch_HEAT_Mk1",
+                "min_penetration": 110,
+                "module_damage": 130,
+                "name": "HEAT Mk. 1",
+                "penetration": 110,
+                "penetration_loss": 0.05,
+                "price": 5600,
+                "range": 720,
+                "speed": 243,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1030,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 95,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 892,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1030,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1115,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1030,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 892,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Valentine AT",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "valentine-at",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -0.007222,
+        "turret_pos_y": 0.608988,
+        "turret_pos_z": 1.49326,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB42_Valentine_AT/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.447957,
+                "gun_pos_z": -0.008867,
+                "health": 34,
+                "id": 503,
+                "identifier": "Turret_1_GB42_Valentine_AT",
+                "name": "Valentine AT",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB42_Valentine_AT",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/british/GB42_Valentine_AT/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB42_Valentine_AT_2",
+                "name": "Chassis_GB42_Valentine_AT_2",
+                "parent_key": "chassis-Chassis_GB42_Valentine_AT",
+                "price": 400,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_3.7inch_AT_Howitzer",
+                "name": "_3.7inch_AT_Howitzer",
+                "parent_key": "gun-QF_6_pounder_Mk_II_AT",
+                "price": 2300,
+                "type": "gun"
+            },
+            {
+                "key": "gun-QF_6_pounder_Mk_IV_AT",
+                "name": "QF_6_pounder_Mk_IV_AT",
+                "parent_key": "gun-QF_6_pounder_Mk_II_AT",
+                "price": 2000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB57_Alecto",
+                "name": "GB57_Alecto",
+                "parent_key": "gun-QF_6_pounder_Mk_IV_AT",
+                "price": 3700,
+                "tank_name": "Alecto",
+                "tank_price": 130000,
+                "tank_slug": "alecto",
+                "tank_tier": 4,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-AEC_A1909",
+                "name": "AEC_A1909",
+                "parent_key": "engine-AEC_A189",
+                "price": 180,
+                "type": "engine"
+            },
+            {
+                "key": "engine-GMC_6-71_Mk10",
+                "name": "GMC_6-71_Mk10",
+                "parent_key": "engine-AEC_A1909",
+                "price": 700,
+                "type": "engine"
+            },
+            {
+                "key": "engine-GMC_6-71_Mk11",
+                "name": "GMC_6-71_Mk11",
+                "parent_key": "engine-GMC_6-71_Mk10",
+                "price": 800,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N9",
+                "name": "N9",
+                "parent_key": "radio-N11",
+                "price": 610,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk1",
+                "name": "N19Mk1",
+                "parent_key": "radio-N9",
+                "price": 1480,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk2",
+                "name": "N19Mk2",
+                "parent_key": "radio-N19Mk1",
+                "price": 3600,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919",
+        "visual_model": "vehicles/british/GB42_Valentine_AT/normal/lod0/Hull.model",
+        "weight": 9960,
+        "xp_factor": 1
+    }
+}

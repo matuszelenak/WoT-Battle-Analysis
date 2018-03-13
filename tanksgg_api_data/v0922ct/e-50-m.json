@@ -1,0 +1,506 @@
+{
+    "tank": {
+        "ammo_rack_health": 280,
+        "ammo_rack_repair_health": 190,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 5
+            }
+        ],
+        "armor_front": 150,
+        "armor_rear": 80,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.26,
+        "camo_moving": 0.13,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.173,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 65000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G73_E50_Ausf_M/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 300,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.13328,
+                "hull_pos_z": 0,
+                "id": 270,
+                "identifier": "Chassis_E50_Ausf_M",
+                "max_climb_angle": 25,
+                "max_load": 67000,
+                "name": "E 50 Ausf. M",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 225,
+                "repair_price": 5,
+                "rotation_speed": 44,
+                "tank_id": "G73_E50_Ausf_M",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 10,
+                "visual_model": "vehicles/german/G73_E50_Ausf_M/normal/lod0/Chassis.model",
+                "weight": 9000
+            }
+        ],
+        "collision_model": "vehicles/german/G73_E50_Ausf_M/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The German Army demanded that the E-series tanks had transmissions positioned in the rear. However, the E 50 and E 75 tanks used the Tiger II engine-transmission compartment, which allowed engineers to work faster, but made rear placement of the transmission impossible. The E 50 Ausf. M tank was a redesign of the E 50 project with the transmission placed in the rear.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 297,
+                "identifier": "Maybach_HL_235",
+                "name": "Maybach HL 235",
+                "not_in_shop": true,
+                "power": 1200,
+                "price": 123000,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "G73_E50_Ausf_M",
+                "tier": 10,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G73_E50_Ausf_M/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.3,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 200,
+                "id": 452,
+                "identifier": "_105mm_KwK45_L52_ausf_K",
+                "max_ammo": 48,
+                "name": "10,5 cm Kw.K. L/52 Ausf. K",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.069444,
+                            8
+                        ],
+                        [
+                            0.083333,
+                            8
+                        ],
+                        [
+                            0.402778,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            7
+                        ],
+                        [
+                            0.583333,
+                            7
+                        ],
+                        [
+                            0.597222,
+                            8
+                        ],
+                        [
+                            0.916667,
+                            8
+                        ],
+                        [
+                            0.930556,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 225600,
+                "reload_time": 9.6,
+                "repair_health": 100,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 10,
+                "turret_id": 230,
+                "visual_model": "vehicles/german/G73_E50_Ausf_M/normal/lod0/Gun_01.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1640,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G73_E50_Ausf_M",
+        "name": "E 50 Ausf. M",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 295,
+                "identifier": "_10WSc",
+                "name": "10WSc",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 720,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "G73_E50_Ausf_M",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 11.42,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 452,
+                "icon": "ap_cr",
+                "id": "_105mm_Pzgr.40K",
+                "min_penetration": 260,
+                "module_damage": 150,
+                "name": "Pzgr 40 K",
+                "penetration": 270,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 1500,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 452,
+                "icon": "hc",
+                "id": "_105mmGr_39H1A_K",
+                "min_penetration": 330,
+                "module_damage": 150,
+                "name": "Gr 39 H1A K",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 1200,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 510,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 452,
+                "icon": "he",
+                "id": "_105mm_Sprg.18K",
+                "min_penetration": 60,
+                "module_damage": 150,
+                "name": "Sprgr 18 K",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 1211,
+                "range": 720,
+                "speed": 1200,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "E 50 M",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "e-50-m",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumTank3"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedBelwillWashers_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.637912,
+        "turret_pos_z": 0.08252,
+        "turret_slots": [
+            {
+                "id": 180,
+                "pos_x": 0,
+                "pos_y": 0.637912,
+                "pos_z": 0.08252,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G73_E50_Ausf_M"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 185,
+                "armor_rear": 80,
+                "armor_side": 80,
+                "collision_model": "vehicles/german/G73_E50_Ausf_M/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 185
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": 0.012205,
+                "gun_pos_y": 0.457285,
+                "gun_pos_z": 1.11576,
+                "health": 410,
+                "id": 230,
+                "identifier": "Turret_1_E50_Ausf_M",
+                "name": "E 50 Ausf. M",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 30,
+                "rotator_health": 180,
+                "rotator_repair_health": 90,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 2,
+                "tank_id": "G73_E50_Ausf_M",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G73_E50_Ausf_M/normal/lod0/Turret_01.model",
+                "weight": 14100
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0922ct",
+        "visual_model": "vehicles/german/G73_E50_Ausf_M/normal/lod0/Hull.model",
+        "weight": 35000,
+        "xp_factor": 1
+    }
+}

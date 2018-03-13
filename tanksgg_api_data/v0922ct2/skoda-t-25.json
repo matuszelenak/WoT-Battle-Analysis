@@ -1,0 +1,1220 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 35,
+        "armor_side": 35,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.296,
+        "camo_moving": 0.148,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.197,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 23000,
+                "center_rotation": true,
+                "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.826545,
+                "hull_pos_z": 0,
+                "id": 86,
+                "identifier": "Chassis_Cz08_T_25",
+                "max_climb_angle": 25,
+                "max_load": 23000,
+                "name": "T 25 prvn\u00ed model",
+                "not_in_shop": false,
+                "price": 9000,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 25,
+                "tank_id": "Cz08_T_25",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 5,
+                "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Chassis.model",
+                "weight": 4000
+            },
+            {
+                "armor": 15,
+                "brake_force": 23000,
+                "center_rotation": true,
+                "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 120,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.826545,
+                "hull_pos_z": 0,
+                "id": 87,
+                "identifier": "Chassis_Cz08_T_25_2",
+                "max_climb_angle": 25,
+                "max_load": 27000,
+                "name": "T 25 druh\u00fd model",
+                "not_in_shop": false,
+                "price": 15500,
+                "repair_health": 90,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "Cz08_T_25",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.9,
+                "tier": 6,
+                "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Chassis.model",
+                "weight": 4000
+            }
+        ],
+        "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "A further development of the medium T-24 tank, this vehicle was developed for the German Army in 1942. The project was deemed outdated. No prototypes were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 100,
+                "id": 95,
+                "identifier": "Skoda_V12_19_8_liter_450",
+                "name": "\u0160koda V12 19.8 liter (450)",
+                "not_in_shop": false,
+                "power": 450,
+                "price": 15100,
+                "repair_health": 49,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "Cz08_T_25",
+                "tier": 5,
+                "weight": 510
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 145,
+                "id": 96,
+                "identifier": "Skoda_V12_19_8_liter_500",
+                "name": "\u0160koda V12 19.8 liter (500)",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 25400,
+                "repair_health": 73,
+                "repair_price": 7,
+                "tags": "gasoline",
+                "tank_id": "Cz08_T_25",
+                "tier": 6,
+                "weight": 700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 142,
+                "identifier": "_75mm_Skoda_A18",
+                "max_ammo": 60,
+                "name": "75 mm \u0160koda A18",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 37360,
+                "reload_time": 5,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tier": 5,
+                "turret_id": 78,
+                "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Gun_01.model",
+                "weight": 1000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 1.3333334,
+                "clip_size": 3,
+                "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 143,
+                "identifier": "_75mm_Skoda_A18_s_automatickym_nabijenim",
+                "max_ammo": 60,
+                "name": "75 mm \u0160koda A18 (s automatick\u00fdm nab\u00edjen\u00edm)",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 58500,
+                "reload_time": 10,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tier": 6,
+                "turret_id": 78,
+                "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Gun_02.model",
+                "weight": 1300,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 144,
+                "identifier": "_75mm_Skoda_A18",
+                "max_ammo": 60,
+                "name": "75 mm \u0160koda A18",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            10
+                        ],
+                        [
+                            0.419444,
+                            9.8
+                        ],
+                        [
+                            0.422222,
+                            9
+                        ],
+                        [
+                            0.425,
+                            8.8
+                        ],
+                        [
+                            0.427778,
+                            8.2
+                        ],
+                        [
+                            0.441667,
+                            8
+                        ],
+                        [
+                            0.558333,
+                            8
+                        ],
+                        [
+                            0.572222,
+                            8.2
+                        ],
+                        [
+                            0.575,
+                            8.8
+                        ],
+                        [
+                            0.577778,
+                            9
+                        ],
+                        [
+                            0.580556,
+                            9.8
+                        ],
+                        [
+                            0.583333,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 37360,
+                "reload_time": 4.7,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tier": 5,
+                "turret_id": 79,
+                "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Gun_03.model",
+                "weight": 1000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 1.3333334,
+                "clip_size": 3,
+                "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 145,
+                "identifier": "_75mm_Skoda_A18_s_automatickym_nabijenim",
+                "max_ammo": 60,
+                "name": "75 mm \u0160koda A18 (s automatick\u00fdm nab\u00edjen\u00edm)",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            10
+                        ],
+                        [
+                            0.419444,
+                            9.8
+                        ],
+                        [
+                            0.422222,
+                            9
+                        ],
+                        [
+                            0.425,
+                            8.8
+                        ],
+                        [
+                            0.427778,
+                            8.2
+                        ],
+                        [
+                            0.441667,
+                            8
+                        ],
+                        [
+                            0.558333,
+                            8
+                        ],
+                        [
+                            0.572222,
+                            8.2
+                        ],
+                        [
+                            0.575,
+                            8.8
+                        ],
+                        [
+                            0.577778,
+                            9
+                        ],
+                        [
+                            0.580556,
+                            9.8
+                        ],
+                        [
+                            0.583333,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 58500,
+                "reload_time": 8,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tier": 6,
+                "turret_id": 79,
+                "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Gun_04.model",
+                "weight": 1300,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 552,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Cz08_T_25",
+        "name": "\u0160koda T 25",
+        "nation": "czech",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 930000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 88,
+                "identifier": "Radiostanice_vz_37",
+                "name": "Radiostanice vz. 37",
+                "not_in_shop": false,
+                "price": 2250,
+                "range": 345,
+                "repair_health": 60,
+                "repair_price": 1,
+                "tank_id": "Cz08_T_25",
+                "tier": 4,
+                "weight": 150
+            },
+            {
+                "health": 120,
+                "id": 89,
+                "identifier": "Radiostanice_Fu_7",
+                "name": "Radiostanice Fu 7",
+                "not_in_shop": false,
+                "price": 8160,
+                "range": 415,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "Cz08_T_25",
+                "tier": 6,
+                "weight": 70
+            },
+            {
+                "health": 150,
+                "id": 90,
+                "identifier": "Radiostanice_Fu_12",
+                "name": "Radiostanice Fu 12",
+                "not_in_shop": false,
+                "price": 43200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "Cz08_T_25",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 142,
+                "icon": "ap",
+                "id": "_75mm_Prurazny_vz_42",
+                "min_penetration": 119,
+                "module_damage": 100,
+                "name": "Pr\u016frazn\u00fd vz. 42",
+                "penetration": 132,
+                "penetration_loss": 0,
+                "price": 94,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 142,
+                "icon": "ap_cr",
+                "id": "_75mm_Prurazny_vz_42_s_wolf_jadrem",
+                "min_penetration": 166,
+                "module_damage": 100,
+                "name": "Pr\u016frazn\u00fd vz. 42 (s wolf. j\u00e1drem)",
+                "penetration": 185,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1090,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 142,
+                "icon": "he",
+                "id": "_75mm_Narazovy_vz_42",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "N\u00e1razov\u00fd vz. 42",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 65,
+                "range": 720,
+                "speed": 680,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 143,
+                "icon": "ap",
+                "id": "_75mm_Prurazny_vz_42",
+                "min_penetration": 119,
+                "module_damage": 100,
+                "name": "Pr\u016frazn\u00fd vz. 42",
+                "penetration": 132,
+                "penetration_loss": 0,
+                "price": 94,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 143,
+                "icon": "ap_cr",
+                "id": "_75mm_Prurazny_vz_42_s_wolf_jadrem",
+                "min_penetration": 166,
+                "module_damage": 100,
+                "name": "Pr\u016frazn\u00fd vz. 42 (s wolf. j\u00e1drem)",
+                "penetration": 185,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1090,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 143,
+                "icon": "he",
+                "id": "_75mm_Narazovy_vz_42",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "N\u00e1razov\u00fd vz. 42",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 65,
+                "range": 720,
+                "speed": 680,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 144,
+                "icon": "ap",
+                "id": "_75mm_Prurazny_vz_42",
+                "min_penetration": 119,
+                "module_damage": 100,
+                "name": "Pr\u016frazn\u00fd vz. 42",
+                "penetration": 132,
+                "penetration_loss": 0,
+                "price": 94,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 144,
+                "icon": "ap_cr",
+                "id": "_75mm_Prurazny_vz_42_s_wolf_jadrem",
+                "min_penetration": 166,
+                "module_damage": 100,
+                "name": "Pr\u016frazn\u00fd vz. 42 (s wolf. j\u00e1drem)",
+                "penetration": 185,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1090,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 144,
+                "icon": "he",
+                "id": "_75mm_Narazovy_vz_42",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "N\u00e1razov\u00fd vz. 42",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 65,
+                "range": 720,
+                "speed": 680,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 145,
+                "icon": "ap",
+                "id": "_75mm_Prurazny_vz_42",
+                "min_penetration": 119,
+                "module_damage": 100,
+                "name": "Pr\u016frazn\u00fd vz. 42",
+                "penetration": 132,
+                "penetration_loss": 0,
+                "price": 94,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 145,
+                "icon": "ap_cr",
+                "id": "_75mm_Prurazny_vz_42_s_wolf_jadrem",
+                "min_penetration": 166,
+                "module_damage": 100,
+                "name": "Pr\u016frazn\u00fd vz. 42 (s wolf. j\u00e1drem)",
+                "penetration": 185,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1090,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 145,
+                "icon": "he",
+                "id": "_75mm_Narazovy_vz_42",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "N\u00e1razov\u00fd vz. 42",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 65,
+                "range": 720,
+                "speed": 680,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "\u0160koda T 25",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "skoda-t-25",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedSprings_class2_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.897355,
+        "turret_pos_z": 0.6768,
+        "turret_slots": [
+            {
+                "id": 58,
+                "pos_x": 0,
+                "pos_y": 0.897355,
+                "pos_z": 0.6768,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "Cz08_T_25"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 50,
+                "armor_rear": 35,
+                "armor_side": 35,
+                "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": -6.1e-05,
+                "gun_pos_y": 0.487929,
+                "gun_pos_z": 0.910343,
+                "health": 138,
+                "id": 78,
+                "identifier": "Turret_1_Cz08_T_25",
+                "name": "T 25 prvn\u00ed model",
+                "not_in_shop": false,
+                "price": 10000,
+                "rotation_speed": 32,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz08_T_25",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Turret_01.model",
+                "weight": 3500
+            },
+            {
+                "Guns": null,
+                "armor_front": 50,
+                "armor_rear": 35,
+                "armor_side": 35,
+                "collision_model": "vehicles/czech/Cz08_T_25/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.407363,
+                "gun_pos_z": 0.921907,
+                "health": 178,
+                "id": 79,
+                "identifier": "Turret_2_Cz08_T_25",
+                "name": "T 25 druh\u00fd model",
+                "not_in_shop": false,
+                "price": 16100,
+                "rotation_speed": 36,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz08_T_25",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Turret_02.model",
+                "weight": 3500
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Cz08_T_25_2",
+                "name": "Chassis_Cz08_T_25_2",
+                "parent_key": "chassis-Chassis_Cz08_T_25",
+                "price": 5400,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_Skoda_A18_s_automatickym_nabijenim",
+                "name": "_75mm_Skoda_A18_s_automatickym_nabijenim",
+                "parent_key": "gun-_75mm_Skoda_A18",
+                "price": 5500,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_Cz08_T_25",
+                "name": "Turret_2_Cz08_T_25",
+                "parent_key": "gun-_75mm_Skoda_A18_s_automatickym_nabijenim",
+                "price": 5050,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-Cz05_T34_100",
+                "name": "Cz05_T34_100",
+                "parent_key": "turret-Turret_2_Cz08_T_25",
+                "price": 57950,
+                "tank_name": "T-34/100",
+                "tank_price": 1430000,
+                "tank_slug": "t-34100",
+                "tank_tier": 7,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Skoda_V12_19_8_liter_500",
+                "name": "Skoda_V12_19_8_liter_500",
+                "parent_key": "engine-Skoda_V12_19_8_liter_450",
+                "price": 5600,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Radiostanice_Fu_7",
+                "name": "Radiostanice_Fu_7",
+                "parent_key": "radio-Radiostanice_vz_37",
+                "price": 1360,
+                "type": "radio"
+            },
+            {
+                "key": "radio-Radiostanice_Fu_12",
+                "name": "Radiostanice_Fu_12",
+                "parent_key": "radio-Radiostanice_Fu_7",
+                "price": 7200,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922ct2",
+        "visual_model": "vehicles/czech/Cz08_T_25/normal/lod0/Hull.model",
+        "weight": 13400,
+        "xp_factor": 1
+    }
+}

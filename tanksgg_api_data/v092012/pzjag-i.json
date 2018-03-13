@@ -1,0 +1,648 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 14.5
+            }
+        ],
+        "armor_front": 0,
+        "armor_rear": 13,
+        "armor_side": 13,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.51,
+        "camo_moving": 0.204,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.34,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 6500,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G21_PanzerJager_I/collision_client/Chassis.model",
+                "dispersion_movement": 0.34,
+                "dispersion_rotation": 0.34,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.732121,
+                "hull_pos_z": 0,
+                "id": 411,
+                "identifier": "PzJgd_ketten_I",
+                "max_climb_angle": 25,
+                "max_load": 6400,
+                "name": "Panzerj\u00e4ger I",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 40,
+                "repair_price": 0.5,
+                "rotation_speed": 32,
+                "tank_id": "G21_PanzerJager_I",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.5,
+                "tier": 1,
+                "visual_model": "vehicles/german/G21_PanzerJager_I/normal/lod0/Chassis.model",
+                "weight": 2000
+            },
+            {
+                "armor": 10,
+                "brake_force": 7000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G21_PanzerJager_I/collision_client/Chassis.model",
+                "dispersion_movement": 0.32,
+                "dispersion_rotation": 0.32,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.732121,
+                "hull_pos_z": 0,
+                "id": 412,
+                "identifier": "PzJgd_ketten_II",
+                "max_climb_angle": 25,
+                "max_load": 8400,
+                "name": "Panzerj\u00e4ger I verst\u00e4rkteketten",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 45,
+                "repair_price": 0.5,
+                "rotation_speed": 36,
+                "tank_id": "G21_PanzerJager_I",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/german/G21_PanzerJager_I/normal/lod0/Chassis.model",
+                "weight": 2000
+            }
+        ],
+        "collision_model": "vehicles/german/G21_PanzerJager_I/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            }
+        ],
+        "description": "Development of the Panzerj\u00e4ger I, the German tank destroyer, started in 1939 based on the Panzerkampfwagen I Ausf. B. Initially, the 37-mm Pak 36 gun was mounted on the chassis of the Panzerkampfwagen I Ausf. B. However, during the invasion of Poland, it was revealed that the gun was not effective against new vehicles. After Germany captured Czechoslovakia in 1940, the 47-mm Pak 36(t) L/43.4 (\u0160koda 47-mm A-5 KP \u00daV vz. 38 Model A5) gun was mounted on the tank destroyer. A total of 202 vehicles were manufactured and saw action until 1943.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 38,
+                "id": 452,
+                "identifier": "Krupp_M311",
+                "name": "Krupp M311",
+                "not_in_shop": false,
+                "power": 85,
+                "price": 0,
+                "repair_health": 19,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "G21_PanzerJager_I",
+                "tier": 1,
+                "weight": 300
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 44,
+                "id": 453,
+                "identifier": "Maybach_NL38TR",
+                "name": "Maybach HL 38 TR",
+                "not_in_shop": false,
+                "power": 100,
+                "price": 700,
+                "repair_health": 22,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "G21_PanzerJager_I",
+                "tier": 2,
+                "weight": 500
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 40,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G21_PanzerJager_I/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 10,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 60,
+                "id": 706,
+                "identifier": "_37mm_PaK_38t_L47",
+                "max_ammo": 160,
+                "name": "3,7 cm Pak (t) L/47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -10
+                        ],
+                        [
+                            1,
+                            -10
+                        ]
+                    ]
+                },
+                "price": 2730,
+                "reload_time": 2.1,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 368,
+                "visual_model": "vehicles/german/G21_PanzerJager_I/normal/lod0/Gun_01.model",
+                "weight": 120,
+                "yaw_left": -17.5,
+                "yaw_right": 17.5
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G21_PanzerJager_I/collision_client/Gun_02.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 10,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 70,
+                "id": 707,
+                "identifier": "_47mm_PaK_38t_L43AT",
+                "max_ammo": 84,
+                "name": "4,7 cm Pak (t) L/43",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -10
+                        ],
+                        [
+                            1,
+                            -10
+                        ]
+                    ]
+                },
+                "price": 3460,
+                "reload_time": 2.5,
+                "repair_health": 35,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 368,
+                "visual_model": "vehicles/german/G21_PanzerJager_I/normal/lod0/Gun_02.model",
+                "weight": 200,
+                "yaw_left": -17.5,
+                "yaw_right": 17.5
+            }
+        ],
+        "health": 96,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G21_PanzerJager_I",
+        "name": "Panzerj\u00e4ger I",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 3200,
+        "radios": [
+            {
+                "health": 100,
+                "id": 463,
+                "identifier": "FuG2",
+                "name": "FuG 2",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 265,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G21_PanzerJager_I",
+                "tier": 2,
+                "weight": 40
+            }
+        ],
+        "repair_price": 2.5,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 706,
+                "icon": "ap",
+                "id": "_37mm_Pzgr39t",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "Pzgr 39 (t)",
+                "penetration": 42,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 706,
+                "icon": "ap_cr",
+                "id": "_37cm_Pzgr40t",
+                "min_penetration": 38,
+                "module_damage": 50,
+                "name": "Pzgr 40 (t)",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 938,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 706,
+                "icon": "he",
+                "id": "_37mm_Sprg.18t",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Sprgr 18 (t)",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 60,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 707,
+                "icon": "ap",
+                "id": "_47mm_Pzgr39t",
+                "min_penetration": 55,
+                "module_damage": 64,
+                "name": "Pzgr 39 (t)",
+                "penetration": 62,
+                "penetration_loss": 0,
+                "price": 16,
+                "range": 720,
+                "speed": 775,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 60,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 707,
+                "icon": "ap_cr",
+                "id": "_47cm_Pzgr40t",
+                "min_penetration": 68,
+                "module_damage": 64,
+                "name": "Pzgr 40 (t)",
+                "penetration": 115,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 969,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 75,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 707,
+                "icon": "he",
+                "id": "_47mm_Sprg.18t",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "Sprgr 18 (t)",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 775,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz.J\u00e4g. I",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pzjag-i",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0.057401,
+        "turret_pos_y": 0.814458,
+        "turret_pos_z": 0.165905,
+        "turret_slots": [
+            {
+                "id": 293,
+                "pos_x": 0.057401,
+                "pos_y": 0.814458,
+                "pos_z": 0.165905,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G21_PanzerJager_I"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G21_PanzerJager_I/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 5
+                    }
+                ],
+                "gun_pos_x": -0.00794,
+                "gun_pos_y": 0.258104,
+                "gun_pos_z": 0.001407,
+                "health": 24,
+                "id": 368,
+                "identifier": "PanzerJager",
+                "name": "Panzerj\u00e4ger I",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "G21_PanzerJager_I",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/german/G21_PanzerJager_I/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-PzJgd_ketten_II",
+                "name": "PzJgd_ketten_II",
+                "parent_key": "chassis-PzJgd_ketten_I",
+                "price": 95,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_47mm_PaK_38t_L43AT",
+                "name": "_47mm_PaK_38t_L43AT",
+                "parent_key": "gun-_37mm_PaK_38t_L47",
+                "price": 130,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-G20_Marder_II",
+                "name": "G20_Marder_II",
+                "parent_key": "gun-_47mm_PaK_38t_L43AT",
+                "price": 1600,
+                "tank_name": "Marder II",
+                "tank_price": 42000,
+                "tank_slug": "marder-ii",
+                "tank_tier": 3,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_NL38TR",
+                "name": "Maybach_NL38TR",
+                "parent_key": "engine-Krupp_M311",
+                "price": 80,
+                "type": "engine"
+            }
+        ],
+        "version": "v092012",
+        "visual_model": "vehicles/german/G21_PanzerJager_I/normal/lod0/Hull.model",
+        "weight": 3250,
+        "xp_factor": 1
+    }
+}

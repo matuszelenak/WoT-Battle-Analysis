@@ -1,0 +1,699 @@
+{
+    "tank": {
+        "ammo_rack_health": 210,
+        "ammo_rack_repair_health": 140,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 3
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 80,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.411,
+        "camo_moving": 0.206,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.274,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 48000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R120_T22SR_A22/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.921454,
+                "hull_pos_z": 0,
+                "id": 918,
+                "identifier": "Chassis_R120_T22SR_A22",
+                "max_climb_angle": 25,
+                "max_load": 39000,
+                "name": "T-22 medium",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "R120_T22SR_A22",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 2,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R120_T22SR_A22/normal/lod0/Chassis.model",
+                "weight": 6500
+            }
+        ],
+        "collision_model": "vehicles/russian/R120_T22SR_A22/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The prototype of the A-22 hull was produced in 1949. The design incorporated rolled armor plates with maximum slope angles. Test firing showed that the hull was well-protected from high-caliber Armor-Piercing shells. The hull was used as a basis for the project of the T-22 medium tank. Development was discontinued after the preparation of the suspension and general design. Later, the best innovations were applied in the development of the Object 907.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 1012,
+                "identifier": "V-12-5_shortened",
+                "name": "V-12-5 shortened",
+                "not_in_shop": true,
+                "power": 750,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R120_T22SR_A22",
+                "tier": 10,
+                "weight": 1000
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 5,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R120_T22SR_A22/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 230
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 180
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 1551,
+                "identifier": "_100mm_D54_M",
+                "max_ammo": 50,
+                "name": "100 mm D-54TS",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.380556,
+                            5
+                        ],
+                        [
+                            0.383333,
+                            4.7
+                        ],
+                        [
+                            0.391667,
+                            4.6
+                        ],
+                        [
+                            0.394444,
+                            4.5
+                        ],
+                        [
+                            0.397222,
+                            4.2
+                        ],
+                        [
+                            0.4,
+                            4
+                        ],
+                        [
+                            0.402778,
+                            3.8
+                        ],
+                        [
+                            0.405556,
+                            3.6
+                        ],
+                        [
+                            0.408333,
+                            3.5
+                        ],
+                        [
+                            0.411111,
+                            3.2
+                        ],
+                        [
+                            0.413889,
+                            3
+                        ],
+                        [
+                            0.419444,
+                            2.7
+                        ],
+                        [
+                            0.422222,
+                            2.4
+                        ],
+                        [
+                            0.436111,
+                            2.4
+                        ],
+                        [
+                            0.438889,
+                            1
+                        ],
+                        [
+                            0.441667,
+                            0
+                        ],
+                        [
+                            0.444444,
+                            0
+                        ],
+                        [
+                            0.447222,
+                            -0.1
+                        ],
+                        [
+                            0.458333,
+                            -0.1
+                        ],
+                        [
+                            0.461111,
+                            0
+                        ],
+                        [
+                            0.463889,
+                            0.6
+                        ],
+                        [
+                            0.466667,
+                            1
+                        ],
+                        [
+                            0.533333,
+                            1
+                        ],
+                        [
+                            0.536111,
+                            0.6
+                        ],
+                        [
+                            0.538889,
+                            0
+                        ],
+                        [
+                            0.541667,
+                            -0.1
+                        ],
+                        [
+                            0.552778,
+                            -0.1
+                        ],
+                        [
+                            0.555556,
+                            0
+                        ],
+                        [
+                            0.558333,
+                            0
+                        ],
+                        [
+                            0.561111,
+                            1
+                        ],
+                        [
+                            0.563889,
+                            2.4
+                        ],
+                        [
+                            0.577778,
+                            2.4
+                        ],
+                        [
+                            0.580556,
+                            2.7
+                        ],
+                        [
+                            0.586111,
+                            3
+                        ],
+                        [
+                            0.588889,
+                            3.2
+                        ],
+                        [
+                            0.591667,
+                            3.5
+                        ],
+                        [
+                            0.594444,
+                            3.6
+                        ],
+                        [
+                            0.597222,
+                            3.8
+                        ],
+                        [
+                            0.6,
+                            4
+                        ],
+                        [
+                            0.602778,
+                            4.2
+                        ],
+                        [
+                            0.605556,
+                            4.5
+                        ],
+                        [
+                            0.608333,
+                            4.6
+                        ],
+                        [
+                            0.616667,
+                            4.7
+                        ],
+                        [
+                            0.619444,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 242700,
+                "reload_time": 8.1,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33.25,
+                "tier": 10,
+                "turret_id": 780,
+                "visual_model": "vehicles/russian/R120_T22SR_A22/normal/lod0/Gun_01.model",
+                "weight": 2557,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1520,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R120_T22SR_A22",
+        "name": "T-22 medium",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 250,
+                "id": 1056,
+                "identifier": "R123A",
+                "name": "R-123",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 850,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "R120_T22SR_A22",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 13,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1551,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412PB",
+                "min_penetration": 254,
+                "module_damage": 135,
+                "name": "UBR-412PB",
+                "penetration": 264,
+                "penetration_loss": 0,
+                "price": 1100,
+                "range": 720,
+                "speed": 1535,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1551,
+                "icon": "hc",
+                "id": "_100mm_3UBK4M",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "ZUBK4M",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1551,
+                "icon": "he",
+                "id": "_100mm_3UOF10",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "ZUOF10",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-22 med.",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-22-med",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "special"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "inGame"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.5308,
+        "turret_pos_z": 0.012624,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 230,
+                "armor_rear": 140,
+                "armor_side": 170,
+                "collision_model": "vehicles/russian/R120_T22SR_A22/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 230
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 170
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 140
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 181
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 110
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 190
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 70
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.263174,
+                "gun_pos_z": 1.40638,
+                "health": 380,
+                "id": 780,
+                "identifier": "Turret_1_R120_T22SR_A22",
+                "name": "T-22 medium",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 30,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "R120_T22SR_A22",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/russian/R120_T22SR_A22/normal/lod0/Turret_01.model",
+                "weight": 9000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v09201ct",
+        "visual_model": "vehicles/russian/R120_T22SR_A22/normal/lod0/Hull.model",
+        "weight": 16563,
+        "xp_factor": 1.5
+    }
+}

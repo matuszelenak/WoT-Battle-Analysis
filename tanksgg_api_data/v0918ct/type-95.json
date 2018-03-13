@@ -1,0 +1,765 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_5",
+                "primary": false,
+                "value": 3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12
+            }
+        ],
+        "armor_front": 35,
+        "armor_rear": 25,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.149,
+        "camo_moving": 0.05,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.099,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 30000,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J22_Type_95/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.14557,
+                "hull_pos_z": 0,
+                "id": 412,
+                "identifier": "Chassis_J22_Type_95",
+                "max_climb_angle": 25,
+                "max_load": 29600,
+                "name": "Type 95",
+                "not_in_shop": false,
+                "price": 1800,
+                "repair_health": 90,
+                "repair_price": 1,
+                "rotation_speed": 28,
+                "tank_id": "J22_Type_95",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/japan/J22_Type_95/normal/lod0/Chassis.model",
+                "weight": 6000
+            },
+            {
+                "armor": 20,
+                "brake_force": 32000,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J22_Type_95/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.14557,
+                "hull_pos_z": 0,
+                "id": 413,
+                "identifier": "Chassis_J22_Type_95_2",
+                "max_climb_angle": 25,
+                "max_load": 32000,
+                "name": "Type 95 No. 2~4",
+                "not_in_shop": false,
+                "price": 4700,
+                "repair_health": 100,
+                "repair_price": 1,
+                "rotation_speed": 30,
+                "tank_id": "J22_Type_95",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 4,
+                "visual_model": "vehicles/japan/J22_Type_95/normal/lod0/Chassis.model",
+                "weight": 6000
+            }
+        ],
+        "collision_model": "vehicles/japan/J22_Type_95/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "The Japanese Type 95 heavy tank was based on the Type 91. This multi-turret vehicle of the interwar period incorporated some elements of German and Italian tanks. The primary turret featured a 70-mm gun. In addition to that, the vehicle had a 37-mm gun and two 6.5-mm machineguns. Four prototypes were built.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 454,
+                "identifier": "BMW_IV_Kai",
+                "name": "BMW IV Kai",
+                "not_in_shop": false,
+                "power": 250,
+                "price": 7800,
+                "repair_health": 39,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "J22_Type_95",
+                "tier": 3,
+                "weight": 290
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 100,
+                "id": 455,
+                "identifier": "BMW_IV_Kai_Ni",
+                "name": "BMW IV Kai Ni",
+                "not_in_shop": false,
+                "power": 290,
+                "price": 10300,
+                "repair_health": 49,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "J22_Type_95",
+                "tier": 4,
+                "weight": 290
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 22,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J22_Type_95/collision_client/Gun_01.model",
+                "depression": 12,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "id": 719,
+                "identifier": "_70mm_Gun_Type_94",
+                "max_ammo": 100,
+                "name": "7 cm Gun Type 94",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 9500,
+                "reload_time": 3.3,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 41.125,
+                "tier": 3,
+                "turret_id": 351,
+                "visual_model": "vehicles/japan/J22_Type_95/normal/lod0/Gun_01.model",
+                "weight": 325,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J22_Type_95/collision_client/Gun_02.model",
+                "depression": 12,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "id": 720,
+                "identifier": "_75mm_Gun_Type_99",
+                "max_ammo": 90,
+                "name": "7.5 cm Tank Gun Type 99",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            0.466667,
+                            12
+                        ],
+                        [
+                            0.472222,
+                            11
+                        ],
+                        [
+                            0.477778,
+                            10
+                        ],
+                        [
+                            0.494444,
+                            9
+                        ],
+                        [
+                            0.505556,
+                            9
+                        ],
+                        [
+                            0.516667,
+                            10
+                        ],
+                        [
+                            0.522222,
+                            11
+                        ],
+                        [
+                            0.527778,
+                            12
+                        ],
+                        [
+                            0.902778,
+                            12
+                        ],
+                        [
+                            0.905556,
+                            11
+                        ],
+                        [
+                            0.911111,
+                            10
+                        ],
+                        [
+                            0.916667,
+                            9
+                        ],
+                        [
+                            0.930556,
+                            8
+                        ],
+                        [
+                            0.977778,
+                            9
+                        ],
+                        [
+                            0.988889,
+                            10
+                        ],
+                        [
+                            0.991667,
+                            11
+                        ],
+                        [
+                            0.994444,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 29000,
+                "reload_time": 3.3,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 41.125,
+                "tier": 4,
+                "turret_id": 351,
+                "visual_model": "vehicles/japan/J22_Type_95/normal/lod0/Gun_02.model",
+                "weight": 543,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 352,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J22_Type_95",
+        "name": "Type 95 Heavy",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 166000,
+        "radios": [
+            {
+                "health": 60,
+                "id": 475,
+                "identifier": "_Type94_Otsu",
+                "name": "Type 94 Mk. 4 Otsu",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "J22_Type_95",
+                "tier": 2,
+                "weight": 40
+            },
+            {
+                "health": 70,
+                "id": 476,
+                "identifier": "_Type94_Hei",
+                "name": "Type 94 Mk. 4 Hei",
+                "not_in_shop": false,
+                "price": 2350,
+                "range": 350,
+                "repair_health": 42,
+                "repair_price": 0.5,
+                "tank_id": "J22_Type_95",
+                "tier": 4,
+                "weight": 90
+            },
+            {
+                "health": 100,
+                "id": 477,
+                "identifier": "_Type96_Bo",
+                "name": "Type 96 Mk. 4 Bo",
+                "not_in_shop": false,
+                "price": 14000,
+                "range": 425,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "J22_Type_95",
+                "tier": 6,
+                "weight": 50
+            }
+        ],
+        "repair_price": 4.2,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 70,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 719,
+                "icon": "ap",
+                "id": "_70mm_APHE_Type95",
+                "min_penetration": 28,
+                "module_damage": 90,
+                "name": "APHE Type 95",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 25,
+                "range": 720,
+                "speed": 300,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 70,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 719,
+                "icon": "hc",
+                "id": "_70mm_HEAT_Type3",
+                "min_penetration": 90,
+                "module_damage": 90,
+                "name": "HEAT Type 3",
+                "penetration": 90,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 400,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 70,
+                "damage": 160,
+                "explosion_radius": 0.94,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 719,
+                "icon": "he",
+                "id": "_70mm_HE_Type92",
+                "min_penetration": 35,
+                "module_damage": 90,
+                "name": "HE Type 92",
+                "penetration": 35,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 350,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 720,
+                "icon": "ap",
+                "id": "_75mm_APHE_Type1_185",
+                "min_penetration": 64,
+                "module_damage": 100,
+                "name": "Type 1 185R",
+                "penetration": 70.4,
+                "penetration_loss": 0,
+                "price": 52,
+                "range": 720,
+                "speed": 453,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 720,
+                "icon": "hc",
+                "id": "_75mm_HEAT_Type2_185",
+                "min_penetration": 100,
+                "module_damage": 100,
+                "name": "Type 2",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2400,
+                "range": 720,
+                "speed": 362,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 720,
+                "icon": "he",
+                "id": "_75mm_HE_Type94_185",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 94 185R",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 60,
+                "range": 720,
+                "speed": 453,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Type 95",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "type-95",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "enhancedSprings_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": -9.9e-05,
+        "turret_pos_y": 1.02534,
+        "turret_pos_z": 0.469806,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 30,
+                "armor_rear": 25,
+                "armor_side": 0,
+                "collision_model": "vehicles/japan/J22_Type_95/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.004439,
+                "gun_pos_y": 0.396596,
+                "gun_pos_z": 0.675476,
+                "health": 88,
+                "id": 351,
+                "identifier": "Turret_1_J22_Type_95",
+                "name": "Type 95",
+                "not_in_shop": true,
+                "price": 4000,
+                "rotation_speed": 32,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "J22_Type_95",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/japan/J22_Type_95/normal/lod0/Turret_01.model",
+                "weight": 2000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_J22_Type_95_2",
+                "name": "Chassis_J22_Type_95_2",
+                "parent_key": "chassis-Chassis_J22_Type_95",
+                "price": 1150,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_Gun_Type_99",
+                "name": "_75mm_Gun_Type_99",
+                "parent_key": "gun-_70mm_Gun_Type_94",
+                "price": 2200,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-J23_Mi_To",
+                "name": "J23_Mi_To",
+                "parent_key": "gun-_75mm_Gun_Type_99",
+                "price": 14730,
+                "tank_name": "O-I Exp.",
+                "tank_price": 445000,
+                "tank_slug": "o-i-exp",
+                "tank_tier": 5,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-BMW_IV_Kai_Ni",
+                "name": "BMW_IV_Kai_Ni",
+                "parent_key": "engine-BMW_IV_Kai",
+                "price": 950,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_Type94_Hei",
+                "name": "_Type94_Hei",
+                "parent_key": "radio-_Type94_Otsu",
+                "price": 430,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type96_Bo",
+                "name": "_Type96_Bo",
+                "parent_key": "radio-_Type94_Hei",
+                "price": 1400,
+                "type": "radio"
+            }
+        ],
+        "version": "v0918ct",
+        "visual_model": "vehicles/japan/J22_Type_95/normal/lod0/Hull.model",
+        "weight": 20095,
+        "xp_factor": 1
+    }
+}

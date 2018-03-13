@@ -1,0 +1,1688 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 7.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 4.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 19.1
+            }
+        ],
+        "armor_front": 12.7,
+        "armor_rear": 12.7,
+        "armor_side": 12.7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.555,
+        "camo_moving": 0.222,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.37,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.4,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.917618,
+                "hull_pos_z": 0,
+                "id": 720,
+                "identifier": "Chassis_M18_Hellcat",
+                "max_climb_angle": 25,
+                "max_load": 17950,
+                "name": "M18 T67",
+                "not_in_shop": false,
+                "price": 8600,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "A41_M18_Hellcat",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.5,
+                "tier": 5,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Chassis.model",
+                "weight": 4000
+            },
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Chassis.model",
+                "dispersion_movement": 0.36,
+                "dispersion_rotation": 0.36,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.917618,
+                "hull_pos_z": 0,
+                "id": 721,
+                "identifier": "Chassis_M18_Hellcat_2",
+                "max_climb_angle": 25,
+                "max_load": 21800,
+                "name": "M18 T69",
+                "not_in_shop": false,
+                "price": 17000,
+                "repair_health": 90,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "A41_M18_Hellcat",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 6,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Chassis.model",
+                "weight": 4000
+            }
+        ],
+        "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development started in 1942. In April 1943 the General Motors company produced the first prototypes. One of a few American tank destroyers manufactured on its original chassis, not on a tank chassis. The tank destroyer became the fastest armored vehicle, of this type, of World War II. A total of 2,507 vehicles were produced from July 1943 through October 1944.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 798,
+                "identifier": "Wright_Continental_R-975EC2",
+                "name": "Wright Continental R-975EC2",
+                "not_in_shop": false,
+                "power": 350,
+                "price": 10500,
+                "repair_health": 52,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "A41_M18_Hellcat",
+                "tier": 4,
+                "weight": 515
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 799,
+                "identifier": "Wright_Continental_R-975C1",
+                "name": "Wright Continental R-975C1",
+                "not_in_shop": false,
+                "power": 400,
+                "price": 11000,
+                "repair_health": 52,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "A41_M18_Hellcat",
+                "tier": 4,
+                "weight": 516
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 136,
+                "id": 800,
+                "identifier": "Wright_Continental_R-975C4",
+                "name": "Wright Continental R-975C4",
+                "not_in_shop": false,
+                "power": 460,
+                "price": 13900,
+                "repair_health": 67,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A41_M18_Hellcat",
+                "tier": 5,
+                "weight": 550
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 72,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 120,
+                "id": 1231,
+                "identifier": "_75mm_AT_Gun_M7_L50",
+                "max_ammo": 45,
+                "name": "3-inch AT Gun M7",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            0
+                        ],
+                        [
+                            0.583333,
+                            0
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 33500,
+                "reload_time": 3.9,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 5,
+                "turret_id": 613,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Gun_01.model",
+                "weight": 1450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 120,
+                "id": 1232,
+                "identifier": "_76mm_AT_Gun_M1A1",
+                "max_ammo": 45,
+                "name": "76 mm AT Gun M1A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            0
+                        ],
+                        [
+                            0.583333,
+                            0
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 50330,
+                "reload_time": 3.5,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 613,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Gun_02.model",
+                "weight": 1567,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 130,
+                "id": 1233,
+                "identifier": "_76mm_AT_Gun_M1A2",
+                "max_ammo": 45,
+                "name": "76 mm AT Gun M1A2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            0
+                        ],
+                        [
+                            0.583333,
+                            0
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 3.2,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 613,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Gun_03.model",
+                "weight": 1590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 120,
+                "id": 1234,
+                "identifier": "_75mm_AT_Gun_M7_L50",
+                "max_ammo": 45,
+                "name": "3-inch AT Gun M7",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            0
+                        ],
+                        [
+                            0.583333,
+                            0
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 33500,
+                "reload_time": 3.8,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 5,
+                "turret_id": 614,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Gun_04.model",
+                "weight": 1450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 120,
+                "id": 1235,
+                "identifier": "_76mm_AT_Gun_M1A1",
+                "max_ammo": 45,
+                "name": "76 mm AT Gun M1A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            0
+                        ],
+                        [
+                            0.583333,
+                            0
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 50330,
+                "reload_time": 3.4,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 614,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Gun_05.model",
+                "weight": 1567,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Gun_06.model",
+                "depression": 10,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 130,
+                "id": 1236,
+                "identifier": "_76mm_AT_Gun_M1A2",
+                "max_ammo": 45,
+                "name": "76 mm AT Gun M1A2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            0
+                        ],
+                        [
+                            0.583333,
+                            0
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 3.1,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 614,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Gun_06.model",
+                "weight": 1590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Gun_07.model",
+                "depression": 10,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.2,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 150,
+                "id": 1237,
+                "identifier": "_90mm_AT_Gun_M3",
+                "max_ammo": 30,
+                "name": "90 mm AT Gun M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            0
+                        ],
+                        [
+                            0.583333,
+                            0
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 81000,
+                "reload_time": 8.5,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 614,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Gun_07.model",
+                "weight": 2050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 440,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A41_M18_Hellcat",
+        "name": "M18 Hellcat",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 950000,
+        "radios": [
+            {
+                "health": 110,
+                "id": 848,
+                "identifier": "SCR_510",
+                "name": "SCR 510",
+                "not_in_shop": false,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "A41_M18_Hellcat",
+                "tier": 4,
+                "weight": 80
+            },
+            {
+                "health": 120,
+                "id": 849,
+                "identifier": "SCR_610",
+                "name": "SCR 610",
+                "not_in_shop": false,
+                "price": 24600,
+                "range": 420,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A41_M18_Hellcat",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 850,
+                "identifier": "SCR_619",
+                "name": "SCR 619",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A41_M18_Hellcat",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 8.15,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1231,
+                "icon": "ap",
+                "id": "_76mm_M62",
+                "min_penetration": 93,
+                "module_damage": 100,
+                "name": "AP M62(M7)",
+                "penetration": 101,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1231,
+                "icon": "ap_cr",
+                "id": "_76mm_M79",
+                "min_penetration": 101,
+                "module_damage": 100,
+                "name": "HVAP M93(M7)",
+                "penetration": 157,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1231,
+                "icon": "he",
+                "id": "_76mm_M42A1",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE M42A1(M7)",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1232,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1232,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1232,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1233,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1233,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1233,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1234,
+                "icon": "ap",
+                "id": "_76mm_M62",
+                "min_penetration": 93,
+                "module_damage": 100,
+                "name": "AP M62(M7)",
+                "penetration": 101,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1234,
+                "icon": "ap_cr",
+                "id": "_76mm_M79",
+                "min_penetration": 101,
+                "module_damage": 100,
+                "name": "HVAP M93(M7)",
+                "penetration": 157,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1234,
+                "icon": "he",
+                "id": "_76mm_M42A1",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE M42A1(M7)",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1235,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1235,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1235,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1236,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1236,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1236,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1237,
+                "icon": "ap",
+                "id": "_90mm_AP_M77",
+                "min_penetration": 135,
+                "module_damage": 122,
+                "name": "AP M77",
+                "penetration": 160,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1237,
+                "icon": "ap_cr",
+                "id": "_90mm_HVAP_M304",
+                "min_penetration": 221,
+                "module_damage": 122,
+                "name": "HVAP M304",
+                "penetration": 243,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1066,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1237,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Hellcat",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "hellcat",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.59169,
+        "turret_pos_z": 0.077592,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25.4,
+                "armor_rear": 12.7,
+                "armor_side": 12.7,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 7.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 4.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 4.8
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.392684,
+                "gun_pos_z": 0.807828,
+                "health": 110,
+                "id": 613,
+                "identifier": "Turret_1_M18_Hellcat",
+                "name": "M18 M34A1",
+                "not_in_shop": false,
+                "price": 9000,
+                "rotation_speed": 16,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "A41_M18_Hellcat",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Turret_01.model",
+                "weight": 2300
+            },
+            {
+                "Guns": null,
+                "armor_front": 76.2,
+                "armor_rear": 127,
+                "armor_side": 31.8,
+                "collision_model": "vehicles/american/A41_M18_Hellcat/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 44.5
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.401463,
+                "gun_pos_z": 0.878728,
+                "health": 130,
+                "id": 614,
+                "identifier": "Turret_2_M18_Hellcat",
+                "name": "M18 M1",
+                "not_in_shop": false,
+                "price": 16250,
+                "rotation_speed": 16,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "A41_M18_Hellcat",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Turret_02.model",
+                "weight": 4500
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_M18_Hellcat_2",
+                "name": "Chassis_M18_Hellcat_2",
+                "parent_key": "chassis-Chassis_M18_Hellcat",
+                "price": 5100,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_76mm_AT_Gun_M1A1",
+                "name": "_76mm_AT_Gun_M1A1",
+                "parent_key": "gun-_75mm_AT_Gun_M7_L50",
+                "price": 4600,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_AT_Gun_M1A2",
+                "name": "_76mm_AT_Gun_M1A2",
+                "parent_key": "gun-_76mm_AT_Gun_M1A1",
+                "price": 5800,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_M18_Hellcat",
+                "name": "Turret_2_M18_Hellcat",
+                "parent_key": "gun-_76mm_AT_Gun_M1A2",
+                "price": 4600,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_90mm_AT_Gun_M3",
+                "name": "_90mm_AT_Gun_M3",
+                "parent_key": "turret-Turret_2_M18_Hellcat",
+                "price": 14000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A72_T25_2",
+                "name": "A72_T25_2",
+                "parent_key": "gun-_90mm_AT_Gun_M3",
+                "price": 42350,
+                "tank_name": "T25/2",
+                "tank_price": 1364000,
+                "tank_slug": "t252",
+                "tank_tier": 7,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Wright_Continental_R-975C1",
+                "name": "Wright_Continental_R-975C1",
+                "parent_key": "engine-Wright_Continental_R-975EC2",
+                "price": 0,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Wright_Continental_R-975C4",
+                "name": "Wright_Continental_R-975C4",
+                "parent_key": "engine-Wright_Continental_R-975C1",
+                "price": 0,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_610",
+                "name": "SCR_610",
+                "parent_key": "radio-SCR_510",
+                "price": 0,
+                "type": "radio"
+            },
+            {
+                "key": "radio-SCR_619",
+                "name": "SCR_619",
+                "parent_key": "radio-SCR_610",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919",
+        "visual_model": "vehicles/american/A41_M18_Hellcat/normal/lod0/Hull.model",
+        "weight": 8800,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,518 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 22.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 50
+            }
+        ],
+        "armor_front": 65,
+        "armor_rear": 45,
+        "armor_side": 45,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.362,
+        "camo_moving": 0.181,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.241,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 28000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB35_Sentinel_AC_IV/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.01817,
+                "hull_pos_z": 0,
+                "id": 537,
+                "identifier": "Chassis_GB35_Sentinel_AC_IV",
+                "max_climb_angle": 25,
+                "max_load": 31000,
+                "name": "AC 4 Experimental",
+                "not_in_shop": true,
+                "price": 12000,
+                "repair_health": 90,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "GB35_Sentinel_AC_IV",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.2,
+                "tier": 6,
+                "visual_model": "vehicles/british/GB35_Sentinel_AC_IV/normal/lod0/Chassis.model",
+                "weight": 5000
+            }
+        ],
+        "collision_model": "vehicles/british/GB35_Sentinel_AC_IV/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The tank was developed in 1943. An order was placed for 400 vehicles. The prototype was created on the basis of the AC 1 tank with an enlarged superstructure, which allowed mounting a modified turret from the AC 3 tank with a 17-pounder gun. In July 1943, the work on the project was stopped at the final stage, as the program for creating the Australian cruiser tank was discontinued.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 584,
+                "identifier": "Cadillac_75_x_3",
+                "name": "Cadillac \"75\" x3",
+                "not_in_shop": true,
+                "power": 330,
+                "price": 10350,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB35_Sentinel_AC_IV",
+                "tier": 4,
+                "weight": 1000
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60.4,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 3550,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB35_Sentinel_AC_IV/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 144,
+                "id": 896,
+                "identifier": "OQF_17pdr_Gun_Mk_VII_A",
+                "max_ammo": 50,
+                "name": "OQF 17-pdr Gun Mk. VII",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 5,
+                "repair_health": 72,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 7,
+                "turret_id": 469,
+                "visual_model": "vehicles/british/GB35_Sentinel_AC_IV/normal/lod0/Gun_01.model",
+                "weight": 826,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 600,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB35_Sentinel_AC_IV",
+        "name": "AC 4 Experimental",
+        "nation": "uk",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 616,
+                "identifier": "N19Mk2_Aust",
+                "name": "WS No. 19 Mk. II (Aust.)",
+                "not_in_shop": true,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB35_Sentinel_AC_IV",
+                "tier": 7,
+                "weight": 40
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76.2,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 896,
+                "icon": "ap",
+                "id": "_17pdr_AP_Mk3T",
+                "min_penetration": 161,
+                "module_damage": 105,
+                "name": "APCBC 17-Pr. Mk. 9T",
+                "penetration": 171,
+                "penetration_loss": 0,
+                "price": 175,
+                "range": 720,
+                "speed": 884,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 896,
+                "icon": "ap_cr",
+                "id": "_17pdr_APC_Mk4T",
+                "min_penetration": 218,
+                "module_damage": 105,
+                "name": "APDS 17-Pr. Mk. 1T",
+                "penetration": 239,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1105,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 190,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 896,
+                "icon": "he",
+                "id": "_17pdr_HE_Mk1T",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE 17-Pr. Mk. 2T",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 75,
+                "range": 720,
+                "speed": 884,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AC 4 Exp.",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ac-4-exp",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedHorizontal_springs_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.654886,
+        "turret_pos_z": 0.020993,
+        "turret_slots": [
+            {
+                "id": 373,
+                "pos_x": 0,
+                "pos_y": 0.654886,
+                "pos_z": 0.020993,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "GB35_Sentinel_AC_IV"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 65,
+                "armor_side": 65,
+                "collision_model": "vehicles/british/GB35_Sentinel_AC_IV/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 50
+                    }
+                ],
+                "gun_pos_x": 6.3e-05,
+                "gun_pos_y": 0.399803,
+                "gun_pos_z": 0.760598,
+                "health": 150,
+                "id": 469,
+                "identifier": "Turret_1_GB35_Sentinel_AC_IV",
+                "name": "AC 4 Experimental",
+                "not_in_shop": true,
+                "price": 12000,
+                "rotation_speed": 44,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB35_Sentinel_AC_IV",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/british/GB35_Sentinel_AC_IV/normal/lod0/Turret_01.model",
+                "weight": 4400
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v092014",
+        "visual_model": "vehicles/british/GB35_Sentinel_AC_IV/normal/lod0/Hull.model",
+        "weight": 16933,
+        "xp_factor": 1.5
+    }
+}

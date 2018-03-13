@@ -1,0 +1,459 @@
+{
+    "tank": {
+        "ammo_rack_health": 60,
+        "ammo_rack_repair_health": 30,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 3.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": true,
+                "value": 0
+            }
+        ],
+        "armor_front": 7,
+        "armor_rear": 0,
+        "armor_side": 7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.491,
+        "camo_moving": 0.164,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.327,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 4000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB25_Loyd_Gun_Carriage/collision_client/Chassis.model",
+                "dispersion_movement": 0.52,
+                "dispersion_rotation": 0.52,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 40,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.896134,
+                "hull_pos_z": 0,
+                "id": 586,
+                "identifier": "Chassis_GB25_Loyd_Carrier",
+                "max_climb_angle": 25,
+                "max_load": 4500,
+                "name": "Loyd Carrier Mk. I",
+                "not_in_shop": false,
+                "price": 270,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 22,
+                "tank_id": "GB25_Loyd_Gun_Carriage",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 1,
+                "visual_model": "vehicles/british/GB25_Loyd_Gun_Carriage/normal/lod0/Chassis.model",
+                "weight": 2000
+            },
+            {
+                "armor": 5,
+                "brake_force": 4500,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB25_Loyd_Gun_Carriage/collision_client/Chassis.model",
+                "dispersion_movement": 0.48,
+                "dispersion_rotation": 0.48,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.896134,
+                "hull_pos_z": 0,
+                "id": 587,
+                "identifier": "Chassis_GB25_Loyd_Carrier_2",
+                "max_climb_angle": 25,
+                "max_load": 6500,
+                "name": "Loyd Carrier Mk. II",
+                "not_in_shop": false,
+                "price": 550,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 24,
+                "tank_id": "GB25_Loyd_Gun_Carriage",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/british/GB25_Loyd_Gun_Carriage/normal/lod0/Chassis.model",
+                "weight": 2000
+            }
+        ],
+        "collision_model": "vehicles/british/GB25_Loyd_Gun_Carriage/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "A proposal to mount a 76.2 mm gun on the chassis of the Loyd Carrier artillery truck. Developed from 1940 through 1941. No prototypes were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 32,
+                "id": 642,
+                "identifier": "Ford_V8-220",
+                "name": "Ford V8-220",
+                "not_in_shop": false,
+                "power": 65,
+                "price": 100,
+                "repair_health": 15,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "GB25_Loyd_Gun_Carriage",
+                "tier": 1,
+                "weight": 238
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 32,
+                "id": 643,
+                "identifier": "Ford_V8-221",
+                "name": "Ford V8-221",
+                "not_in_shop": false,
+                "power": 85,
+                "price": 200,
+                "repair_health": 15,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "GB25_Loyd_Gun_Carriage",
+                "tier": 1,
+                "weight": 238
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 48,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB25_Loyd_Gun_Carriage/collision_client/Gun_01.model",
+                "depression": 0,
+                "dispersion": 0.8,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.6,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 3.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 84,
+                "id": 974,
+                "identifier": "_13pdr_Gun",
+                "max_ammo": 24,
+                "name": "Q.F. 13-Pr. Mk. III",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 2800,
+                "reload_time": 9,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 35,
+                "tier": 2,
+                "turret_id": 498,
+                "visual_model": "vehicles/british/GB25_Loyd_Gun_Carriage/normal/lod0/Gun_01.model",
+                "weight": 305,
+                "yaw_left": -30,
+                "yaw_right": 8.5
+            }
+        ],
+        "health": 64,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB25_Loyd_Gun_Carriage",
+        "name": "Loyd Gun Carriage",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3900,
+        "radios": [
+            {
+                "health": 60,
+                "id": 684,
+                "identifier": "N11",
+                "name": "WS No. 11",
+                "not_in_shop": false,
+                "price": 600,
+                "range": 350,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "GB25_Loyd_Gun_Carriage",
+                "tier": 3,
+                "weight": 40
+            },
+            {
+                "health": 80,
+                "id": 685,
+                "identifier": "N9",
+                "name": "WS No. 9",
+                "not_in_shop": false,
+                "price": 3600,
+                "range": 375,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "GB25_Loyd_Gun_Carriage",
+                "tier": 5,
+                "weight": 40
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 76.2,
+                "damage": 165,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 138,
+                "gun_id": 974,
+                "icon": "he",
+                "id": "_13pdr_HE",
+                "min_penetration": 21,
+                "module_damage": 105,
+                "name": "HE Mk. III",
+                "penetration": 21,
+                "penetration_loss": 0,
+                "price": 42,
+                "range": 10000,
+                "speed": 265,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Loyd GC",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "loyd-gc",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": -0.2934,
+        "turret_pos_y": -0.270724,
+        "turret_pos_z": 0.90016,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB25_Loyd_Gun_Carriage/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 3.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 3.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.001358,
+                "gun_pos_y": 0.769744,
+                "gun_pos_z": -0.164075,
+                "health": 16,
+                "id": 498,
+                "identifier": "Turret_1_GB25_Loyd_Carrier",
+                "name": "Loyd Gun Carriage",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 10,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB25_Loyd_Gun_Carriage",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 260,
+                "visual_model": "vehicles/british/GB25_Loyd_Gun_Carriage/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB25_Loyd_Carrier_2",
+                "name": "Chassis_GB25_Loyd_Carrier_2",
+                "parent_key": "chassis-Chassis_GB25_Loyd_Carrier",
+                "price": 90,
+                "type": "chassis"
+            },
+            {
+                "key": "engine-Ford_V8-221",
+                "name": "Ford_V8-221",
+                "parent_key": "engine-Ford_V8-220",
+                "price": 30,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N9",
+                "name": "N9",
+                "parent_key": "radio-N11",
+                "price": 610,
+                "type": "radio"
+            },
+            {
+                "key": "vehicle-GB27_Sexton",
+                "name": "GB27_Sexton",
+                "parent_key": "radio-N9",
+                "price": 1350,
+                "tank_name": "Sexton II",
+                "tank_price": 49000,
+                "tank_slug": "sexton-ii",
+                "tank_tier": 3,
+                "tank_type": "spg",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v092011",
+        "visual_model": "vehicles/british/GB25_Loyd_Gun_Carriage/normal/lod0/Hull.model",
+        "weight": 1617,
+        "xp_factor": 1
+    }
+}

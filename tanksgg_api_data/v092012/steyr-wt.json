@@ -1,0 +1,543 @@
+{
+    "tank": {
+        "ammo_rack_health": 190,
+        "ammo_rack_repair_health": 130,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 20,
+        "armor_rear": 8,
+        "armor_side": 10,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.596,
+        "camo_moving": 0.238,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.397,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 16000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G109_Steyr_WT/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.76081,
+                "hull_pos_z": 0,
+                "id": 306,
+                "identifier": "Chassis_G109_Steyr_WT",
+                "max_climb_angle": 25,
+                "max_load": 16000,
+                "name": "Krupp-Steyr Waffentr\u00e4ger",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 135,
+                "repair_price": 0.5,
+                "rotation_speed": 40,
+                "tank_id": "G109_Steyr_WT",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.1,
+                "tier": 7,
+                "visual_model": "vehicles/german/G109_Steyr_WT/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/german/G109_Steyr_WT/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A vehicle project by Steyr as a special artillery transporter that would be able not only to transport the gun but also to fire it from the chassis. To keep costs down and reduce complexity, the design used many components of the Raupenschlepper Ost, a tracked artillery mover. The turret and gun were supplied by Krupp. One wooden model and one prototype were manufactured by September 2, 1944.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 339,
+                "identifier": "V12_cylinder_Boxer_Motor",
+                "name": "12 cylinder Boxer-Motor",
+                "not_in_shop": true,
+                "power": 220,
+                "price": 12000,
+                "repair_health": 19,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "G109_Steyr_WT",
+                "tier": 5,
+                "weight": 600
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 35,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 5950,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G109_Steyr_WT/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.33,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 200,
+                "id": 528,
+                "identifier": "_88mm_KwK_43_L71A",
+                "max_ammo": 50,
+                "name": "8,8 cm Pak 43 L/71",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.027778,
+                            8
+                        ],
+                        [
+                            0.033333,
+                            2
+                        ],
+                        [
+                            0.069444,
+                            2
+                        ],
+                        [
+                            0.075,
+                            8
+                        ],
+                        [
+                            0.925,
+                            8
+                        ],
+                        [
+                            0.930556,
+                            2
+                        ],
+                        [
+                            0.966667,
+                            2
+                        ],
+                        [
+                            0.972222,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 112180,
+                "reload_time": 7.2,
+                "repair_health": 100,
+                "repair_price": 7,
+                "rotation_speed": 30.625,
+                "tier": 8,
+                "turret_id": 277,
+                "visual_model": "vehicles/german/G109_Steyr_WT/normal/lod0/Gun_01.model",
+                "weight": 2562,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 640,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G109_Steyr_WT",
+        "name": "Krupp-Steyr Waffentr\u00e4ger",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 340,
+                "identifier": "FuG7A",
+                "name": "FuG 7 Ausf. F",
+                "not_in_shop": true,
+                "price": 8160,
+                "range": 710,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "G109_Steyr_WT",
+                "tier": 6,
+                "weight": 70
+            }
+        ],
+        "repair_price": 6.5,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 528,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39_43",
+                "min_penetration": 185,
+                "module_damage": 119,
+                "name": "Pzgr 39/43",
+                "penetration": 203,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 528,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40_43",
+                "min_penetration": 217,
+                "module_damage": 119,
+                "name": "Pzgr 40/43",
+                "penetration": 237,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 528,
+                "icon": "he",
+                "id": "_88mm_Sprg.43",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 43",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Steyr WT",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "steyr-wt",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "enhancedSprings_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "inGame"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.556249,
+        "turret_pos_z": -1.11991,
+        "turret_slots": [
+            {
+                "id": 220,
+                "pos_x": 0,
+                "pos_y": 0.556249,
+                "pos_z": -1.11991,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G109_Steyr_WT"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 20,
+                "armor_rear": 10,
+                "armor_side": 10,
+                "collision_model": "vehicles/german/G109_Steyr_WT/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.391832,
+                "gun_pos_z": 0.70423,
+                "health": 160,
+                "id": 277,
+                "identifier": "Turret_1_G109_Steyr_WT",
+                "name": "Krupp-Steyr Waffentr\u00e4ger",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 27,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "G109_Steyr_WT",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/german/G109_Steyr_WT/normal/lod0/Turret_01.model",
+                "weight": 2000
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v092012",
+        "visual_model": "vehicles/german/G109_Steyr_WT/normal/lod0/Hull.model",
+        "weight": 5493,
+        "xp_factor": 1.5
+    }
+}

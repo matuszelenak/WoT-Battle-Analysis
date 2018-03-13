@@ -1,0 +1,545 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 88.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 47.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 114.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 19.1
+            }
+        ],
+        "armor_front": 76.2,
+        "armor_rear": 38.1,
+        "armor_side": 50.8,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.356,
+        "camo_moving": 0.177,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.237,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 37000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A111_T25_Pilot/collision_client/Chassis.model",
+                "dispersion_movement": 0.13,
+                "dispersion_rotation": 0.13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.952545,
+                "hull_pos_z": 0,
+                "id": 603,
+                "identifier": "Chassis_A111_T25_Pilot",
+                "max_climb_angle": 25,
+                "max_load": 40000,
+                "name": "T25 Pilot Number 1",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 43,
+                "tank_id": "A111_T25_Pilot",
+                "terrain_hard": 0.5,
+                "terrain_medium": 0.7,
+                "terrain_soft": 1.5,
+                "tier": 8,
+                "visual_model": "vehicles/american/A111_T25_Pilot/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/american/A111_T25_Pilot/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed by the United States Army Ordnance Corps on the basis of the mass-produced T23 tank with a 90-mm gun and reinforced armor. After the creation of two prototypes, 40 other vehicles were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 667,
+                "identifier": "Ford_GAN_T",
+                "name": "Ford GAN No. 17",
+                "not_in_shop": true,
+                "power": 530,
+                "price": 37200,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A111_T25_Pilot",
+                "tier": 7,
+                "weight": 569
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 7450,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A111_T25_Pilot/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.2,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 150,
+                "id": 1039,
+                "identifier": "_90mm_Gun_T7",
+                "max_ammo": 50,
+                "name": "90 mm Gun T7",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 81000,
+                "reload_time": 7.8,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 507,
+                "visual_model": "vehicles/american/A111_T25_Pilot/normal/lod0/Gun_01.model",
+                "weight": 975,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1160,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A111_T25_Pilot",
+        "name": "T25 Pilot Number 1",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 723,
+                "identifier": "SCR_528A1",
+                "name": "SCR 528AM",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A111_T25_Pilot",
+                "tier": 10,
+                "weight": 91
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1039,
+                "icon": "ap",
+                "id": "_90mm_AP_T33",
+                "min_penetration": 170,
+                "module_damage": 122,
+                "name": "AP T33",
+                "penetration": 192,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1039,
+                "icon": "ap_cr",
+                "id": "_90mm_HVAP_M304",
+                "min_penetration": 221,
+                "module_damage": 122,
+                "name": "HVAP M304",
+                "penetration": 243,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1021,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1039,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 823,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T25 Pilot 1",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t25-pilot-1",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedHorizontal_springs_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.593018,
+        "turret_pos_z": 0.576003,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 76.2,
+                "armor_rear": 63.5,
+                "armor_side": 63.5,
+                "collision_model": "vehicles/american/A111_T25_Pilot/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 41.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 69.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 41.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 50.8
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.414967,
+                "gun_pos_z": 0.874615,
+                "health": 290,
+                "id": 507,
+                "identifier": "Turret_1_A111_T25_Pilot",
+                "name": "T25 Pilot Number 1",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 45,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "A111_T25_Pilot",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/american/A111_T25_Pilot/normal/lod0/Turret_01.model",
+                "weight": 7900
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0919ct",
+        "visual_model": "vehicles/american/A111_T25_Pilot/normal/lod0/Hull.model",
+        "weight": 19525,
+        "xp_factor": 1.5
+    }
+}

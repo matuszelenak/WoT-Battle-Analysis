@@ -1,0 +1,841 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "surveyingDevice",
+                "primary": false,
+                "value": 50
+            }
+        ],
+        "armor_front": 40,
+        "armor_rear": 40,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.414,
+        "camo_moving": 0.207,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.276,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F12_Hotchkiss_H35/collision_client/Chassis.model",
+                "dispersion_movement": 0.32,
+                "dispersion_rotation": 0.32,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.756653,
+                "hull_pos_z": 0,
+                "id": 155,
+                "identifier": "Chassis_Hotchkiss_H35",
+                "max_climb_angle": 25,
+                "max_load": 9600,
+                "name": "H35",
+                "not_in_shop": false,
+                "price": 250,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 32,
+                "tank_id": "F12_Hotchkiss_H35",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.7,
+                "tier": 1,
+                "visual_model": "vehicles/french/F12_Hotchkiss_H35/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F12_Hotchkiss_H35/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.756653,
+                "hull_pos_z": 0,
+                "id": 156,
+                "identifier": "Chassis_Hotchkiss_H35_2",
+                "max_climb_angle": 25,
+                "max_load": 10500,
+                "name": "H39",
+                "not_in_shop": false,
+                "price": 560,
+                "repair_health": 45,
+                "repair_price": 1,
+                "rotation_speed": 34,
+                "tank_id": "F12_Hotchkiss_H35",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.5,
+                "tier": 2,
+                "visual_model": "vehicles/french/F12_Hotchkiss_H35/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/french/F12_Hotchkiss_H35/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Cavalry support tank. Developed in 1934. Mass production was launched in 1935, with a total of 400 vehicles manufactured. In 1938 a new modification, the H38, entered production. About 1000 of the H35/H38/H39 vehicles were produced.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 170,
+                "identifier": "Hotchkiss_35",
+                "name": "Hotchkiss 35",
+                "not_in_shop": false,
+                "power": 75,
+                "price": 400,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F12_Hotchkiss_H35",
+                "tier": 1,
+                "weight": 266
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 171,
+                "identifier": "Renault_V4",
+                "name": "Renault V4",
+                "not_in_shop": false,
+                "power": 82,
+                "price": 480,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F12_Hotchkiss_H35",
+                "tier": 2,
+                "weight": 266
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 27,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F12_Hotchkiss_H35/collision_client/Gun_01.model",
+                "depression": 16,
+                "dispersion": 0.54,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 254,
+                "identifier": "_37mm_APX_SA18",
+                "max_ammo": 100,
+                "name": "37 mm APX SA18",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            16
+                        ],
+                        [
+                            0.458333,
+                            16
+                        ],
+                        [
+                            0.472222,
+                            11
+                        ],
+                        [
+                            0.527778,
+                            11
+                        ],
+                        [
+                            0.541667,
+                            16
+                        ],
+                        [
+                            1,
+                            16
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.5,
+                "repair_health": 27,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 130,
+                "visual_model": "vehicles/french/F12_Hotchkiss_H35/normal/lod0/Gun_01.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F12_Hotchkiss_H35/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 56,
+                "id": 255,
+                "identifier": "_25mm_Canon_Raccourci_Mle.1934",
+                "max_ammo": 160,
+                "name": "25 mm Canon Raccourci mle. 1934",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 2320,
+                "reload_time": 1.7,
+                "repair_health": 28,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 130,
+                "visual_model": "vehicles/french/F12_Hotchkiss_H35/normal/lod0/Gun_02.model",
+                "weight": 71,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F12_Hotchkiss_H35/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.48,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 256,
+                "identifier": "_37mm_SA38",
+                "max_ammo": 100,
+                "name": "37 mm SA38",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 1890,
+                "reload_time": 2.6,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 130,
+                "visual_model": "vehicles/french/F12_Hotchkiss_H35/normal/lod0/Gun_03.model",
+                "weight": 70,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 128,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F12_Hotchkiss_H35",
+        "name": "Hotchkiss H35",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 4200,
+        "radios": [
+            {
+                "health": 100,
+                "id": 161,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F12_Hotchkiss_H35",
+                "tier": 2,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.58,
+        "reverse_speed": 11,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 254,
+                "icon": "ap",
+                "id": "_37mm_Odr_mle._1935",
+                "min_penetration": 22,
+                "module_damage": 50,
+                "name": "ODR mle. 1935",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 600,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 254,
+                "icon": "ap_cr",
+                "id": "_37mm_FrtPrf1935",
+                "min_penetration": 34,
+                "module_damage": 50,
+                "name": "Frt.Prf. mle. 1935",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 254,
+                "icon": "he",
+                "id": "_37mm_OE_mle._1916",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "OE mle. 1916",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 6,
+                "range": 720,
+                "speed": 600,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 25,
+                "damage": 27,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 255,
+                "icon": "ap",
+                "id": "_25mm_Balle_T.P._mle._1928",
+                "min_penetration": 34,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1928",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 5,
+                "range": 400,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 25,
+                "damage": 27,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 255,
+                "icon": "ap_cr",
+                "id": "_25mm_Balle_T.P._mle._1934P",
+                "min_penetration": 35,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1934P",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 256,
+                "icon": "ap",
+                "id": "_37mm_Odr_mle._1932",
+                "min_penetration": 27,
+                "module_damage": 50,
+                "name": "ODR mle. 1932",
+                "penetration": 34,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 705,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 256,
+                "icon": "ap_cr",
+                "id": "_37mm_Odr_mle._1939",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "ODR mle. 1939",
+                "penetration": 67,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 881,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 256,
+                "icon": "he",
+                "id": "_37mm_Oe_mle._1932",
+                "min_penetration": 24,
+                "module_damage": 50,
+                "name": "OE mle. 1932",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 705,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "H35",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "h35",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedHorizontal_springs_user"
+            },
+            {
+                "name": "enhancedHorizontal_springs_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": -1.4e-05,
+        "turret_pos_y": 0.652054,
+        "turret_pos_z": 0.171351,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 40,
+                "armor_rear": 40,
+                "armor_side": 40,
+                "collision_model": "vehicles/french/F12_Hotchkiss_H35/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "surveyingDevice",
+                        "value": 50
+                    }
+                ],
+                "gun_pos_x": 0.108435,
+                "gun_pos_y": 0.231121,
+                "gun_pos_z": 0.430981,
+                "health": 32,
+                "id": 130,
+                "identifier": "Turret_1_Hotchkiss_H35",
+                "name": "APX R",
+                "not_in_shop": true,
+                "price": 450,
+                "rotation_speed": 24,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 2,
+                "tank_id": "F12_Hotchkiss_H35",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/french/F12_Hotchkiss_H35/normal/lod0/Turret_01.model",
+                "weight": 900
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Hotchkiss_H35_2",
+                "name": "Chassis_Hotchkiss_H35_2",
+                "parent_key": "chassis-Chassis_Hotchkiss_H35",
+                "price": 95,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_37mm_SA38",
+                "name": "_37mm_SA38",
+                "parent_key": "turret-Turret_1_Hotchkiss_H35",
+                "price": 75,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_25mm_Canon_Raccourci_Mle.1934",
+                "name": "_25mm_Canon_Raccourci_Mle.1934",
+                "parent_key": "gun-_37mm_APX_SA18",
+                "price": 150,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F44_Somua_S35",
+                "name": "F44_Somua_S35",
+                "parent_key": "gun-_37mm_SA38",
+                "price": 1360,
+                "tank_name": "Somua S35",
+                "tank_price": 42000,
+                "tank_slug": "somua-s35",
+                "tank_tier": 3,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Renault_V4",
+                "name": "Renault_V4",
+                "parent_key": "engine-Hotchkiss_35",
+                "price": 85,
+                "type": "engine"
+            }
+        ],
+        "version": "v09201ct",
+        "visual_model": "vehicles/french/F12_Hotchkiss_H35/normal/lod0/Hull.model",
+        "weight": 4900,
+        "xp_factor": 1
+    }
+}

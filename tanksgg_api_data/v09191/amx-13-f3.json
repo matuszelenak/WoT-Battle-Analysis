@@ -1,0 +1,576 @@
+{
+    "tank": {
+        "ammo_rack_health": 90,
+        "ammo_rack_repair_health": 45,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "surveyingDevice",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 40,
+        "armor_rear": 15,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.468,
+        "camo_moving": 0.156,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.312,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 14500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F23_AMX_13F3AM/collision_client/Chassis.model",
+                "dispersion_movement": 0.33,
+                "dispersion_rotation": 0.33,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.897371,
+                "hull_pos_z": 0,
+                "id": 114,
+                "identifier": "Chassis_AMX_13F3AM",
+                "max_climb_angle": 25,
+                "max_load": 16500,
+                "name": "AMX 13 F3 AM",
+                "not_in_shop": false,
+                "price": 8600,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "rotation_speed": 27,
+                "tank_id": "F23_AMX_13F3AM",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 5,
+                "visual_model": "vehicles/french/F23_AMX_13F3AM/normal/lod0/Chassis.model",
+                "weight": 3800
+            },
+            {
+                "armor": 10,
+                "brake_force": 16500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F23_AMX_13F3AM/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.897371,
+                "hull_pos_z": 0,
+                "id": 115,
+                "identifier": "Chassis_AMX_13F3AM_2",
+                "max_climb_angle": 25,
+                "max_load": 18500,
+                "name": "AMX 13 F3 AM bis",
+                "not_in_shop": false,
+                "price": 13300,
+                "repair_health": 70,
+                "repair_price": 0.5,
+                "rotation_speed": 30,
+                "tank_id": "F23_AMX_13F3AM",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 6,
+                "visual_model": "vehicles/french/F23_AMX_13F3AM/normal/lod0/Chassis.model",
+                "weight": 3800
+            }
+        ],
+        "collision_model": "vehicles/french/F23_AMX_13F3AM/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "At the end of the 1950s, engineers of Creusot-Loire developed the new vehicle on the shortened basis of the AMX 13. The vehicle featured a 155-mm gun. It was mass-produced from 1962 through 1997 with a total of 600 vehicles manufactured. The SPG is still in service in France, Argentina, Chile, Ecuador, Morocco, and other countries.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 160,
+                "id": 126,
+                "identifier": "SOFAM_8Gxb",
+                "name": "SOFAM 8 Gxb",
+                "not_in_shop": false,
+                "power": 250,
+                "price": 16000,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F23_AMX_13F3AM",
+                "tier": 5,
+                "weight": 400
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 160,
+                "id": 127,
+                "identifier": "_6F11SRY",
+                "name": "Baudouin 6F 11 SRY",
+                "not_in_shop": false,
+                "power": 280,
+                "price": 27000,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "F23_AMX_13F3AM",
+                "tier": 6,
+                "weight": 400
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 60,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F23_AMX_13F3AM/collision_client/Gun_01.model",
+                "depression": 0,
+                "dispersion": 0.74,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.36,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 168,
+                "id": 191,
+                "identifier": "Obusier_de_155mm_C_mle.1917",
+                "max_ammo": 25,
+                "name": "Obusier de 155 mm C mle. 1917",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 44920,
+                "reload_time": 28,
+                "repair_health": 84,
+                "repair_price": 10,
+                "rotation_speed": 22.75,
+                "tier": 5,
+                "turret_id": 106,
+                "visual_model": "vehicles/french/F23_AMX_13F3AM/normal/lod0/Gun_01.model",
+                "weight": 1220,
+                "yaw_left": -15,
+                "yaw_right": 20
+            },
+            {
+                "Shells": null,
+                "aim_time": 6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F23_AMX_13F3AM/collision_client/Gun_02.model",
+                "depression": 0,
+                "dispersion": 0.7,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.4,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 188,
+                "id": 192,
+                "identifier": "Canon_de_155mm_de_33_calibres",
+                "max_ammo": 25,
+                "name": "Canon de 155 mm de 33 calibres",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 65000,
+                "reload_time": 31.9,
+                "repair_health": 94,
+                "repair_price": 10,
+                "rotation_speed": 22.75,
+                "tier": 6,
+                "turret_id": 106,
+                "visual_model": "vehicles/french/F23_AMX_13F3AM/normal/lod0/Gun_02.model",
+                "weight": 2675,
+                "yaw_left": -15,
+                "yaw_right": 20
+            }
+        ],
+        "health": 216,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F23_AMX_13F3AM",
+        "name": "AMX 13 F3 AM",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 935000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 118,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "F23_AMX_13F3AM",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 119,
+                "identifier": "SCR_528",
+                "name": "SCR 528F",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F23_AMX_13F3AM",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 6.25,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 155,
+                "damage": 550,
+                "explosion_radius": 7,
+                "gold_price": 0,
+                "gravity": 150,
+                "gun_id": 191,
+                "icon": "he",
+                "id": "_155mm_OE_mle_1917",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "OE mle. 1917",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 505,
+                "range": 10000,
+                "speed": 385,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 155,
+                "damage": 700,
+                "explosion_radius": 8,
+                "gold_price": 0,
+                "gravity": 160,
+                "gun_id": 192,
+                "icon": "he",
+                "id": "_155_OE_mle_1956",
+                "min_penetration": 39,
+                "module_damage": 105,
+                "name": "OE mle. 1956",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 10000,
+                "speed": 470,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AMX 13 F3",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-13-f3",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": -0.209791,
+        "turret_pos_z": -1.32718,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/french/F23_AMX_13F3AM/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.89692,
+                "gun_pos_z": -0.42994,
+                "health": 54,
+                "id": 106,
+                "identifier": "Turret_2_AMX_13F3AM",
+                "name": "AMX 13 F3 AM",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 14,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "F23_AMX_13F3AM",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 270,
+                "visual_model": "vehicles/french/F23_AMX_13F3AM/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_AMX_13F3AM_2",
+                "name": "Chassis_AMX_13F3AM_2",
+                "parent_key": "chassis-Chassis_AMX_13F3AM",
+                "price": 4180,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-Canon_de_155mm_de_33_calibres",
+                "name": "Canon_de_155mm_de_33_calibres",
+                "parent_key": "gun-Obusier_de_155mm_C_mle.1917",
+                "price": 6600,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F24_Lorraine155_50",
+                "name": "F24_Lorraine155_50",
+                "parent_key": "gun-Canon_de_155mm_de_33_calibres",
+                "price": 60750,
+                "tank_name": "Lorr. 155 50",
+                "tank_price": 1420000,
+                "tank_slug": "lorr-155-50",
+                "tank_tier": 7,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-_6F11SRY",
+                "name": "_6F11SRY",
+                "parent_key": "engine-SOFAM_8Gxb",
+                "price": 8000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/french/F23_AMX_13F3AM/normal/lod0/Hull.model",
+        "weight": 9175,
+        "xp_factor": 1
+    }
+}

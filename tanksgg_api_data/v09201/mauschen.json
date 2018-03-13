@@ -1,0 +1,792 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 200
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_2",
+                "primary": false,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 155
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 135
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 180
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 135
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 100
+            }
+        ],
+        "armor_front": 200,
+        "armor_rear": 135,
+        "armor_side": 155,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.057,
+        "camo_moving": 0.019,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.038,
+        "chassis": [
+            {
+                "armor": 50,
+                "brake_force": 170000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G110_Typ_205/collision_client/Chassis.model",
+                "dispersion_movement": 0.21,
+                "dispersion_rotation": 0.21,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 50
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.06339,
+                "hull_pos_z": 0,
+                "id": 312,
+                "identifier": "Chassis_G110_Typ_205",
+                "max_climb_angle": 25,
+                "max_load": 171000,
+                "name": "170 ton Panzer",
+                "not_in_shop": false,
+                "price": 32000,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 12,
+                "tank_id": "G110_Typ_205",
+                "terrain_hard": 2,
+                "terrain_medium": 2.1,
+                "terrain_soft": 3.4,
+                "tier": 8,
+                "visual_model": "vehicles/german/G110_Typ_205/normal/lod0/Chassis.model",
+                "weight": 30000
+            },
+            {
+                "armor": 50,
+                "brake_force": 180000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G110_Typ_205/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 50
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.06339,
+                "hull_pos_z": 0,
+                "id": 313,
+                "identifier": "Chassis_G110_Typ_205_2",
+                "max_climb_angle": 25,
+                "max_load": 180000,
+                "name": "M\u00e4uschen",
+                "not_in_shop": false,
+                "price": 65500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 15,
+                "tank_id": "G110_Typ_205",
+                "terrain_hard": 1.8,
+                "terrain_medium": 1.9,
+                "terrain_soft": 3,
+                "tier": 9,
+                "visual_model": "vehicles/german/G110_Typ_205/normal/lod0/Chassis.model",
+                "weight": 30000
+            }
+        ],
+        "collision_model": "vehicles/german/G110_Typ_205/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In summer 1942, the Porsche company received an order for the development of an assault tank with as much protection as possible and a powerful gun. One of the results of the superheavy Maus tank's development was the Typ 205 M\u00e4uschen, a design project with the same interior. Existed only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 348,
+                "identifier": "Daimler-Benz_DB-603",
+                "name": "DB 603 mit mechanischer Aufladung",
+                "not_in_shop": false,
+                "power": 1300,
+                "price": 94000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G110_Typ_205",
+                "tier": 9,
+                "weight": 920
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 349,
+                "identifier": "Porsche_Typ_220",
+                "name": "DB 603 A1",
+                "not_in_shop": false,
+                "power": 1550,
+                "price": 132000,
+                "repair_health": 160,
+                "repair_price": 10,
+                "tags": "gasoline",
+                "tank_id": "G110_Typ_205",
+                "tier": 10,
+                "weight": 2500
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 20,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G110_Typ_205/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 240
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 240
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 220,
+                "id": 531,
+                "identifier": "_128mm_L50A",
+                "max_ammo": 50,
+                "name": "12,8 cm Kw.K. L/50",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 220000,
+                "reload_time": 14,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 9,
+                "turret_id": 264,
+                "visual_model": "vehicles/german/G110_Typ_205/normal/lod0/Gun_01.model",
+                "weight": 3600,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G110_Typ_205/collision_client/Gun_02.model",
+                "depression": 8,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 240
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 240
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 220,
+                "id": 532,
+                "identifier": "_128mm_KwK44_L55",
+                "max_ammo": 50,
+                "name": "12,8 cm Kw.K. 44 L/55",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 310000,
+                "reload_time": 15,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 264,
+                "visual_model": "vehicles/german/G110_Typ_205/normal/lod0/Gun_02.model",
+                "weight": 3480,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1840,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G110_Typ_205",
+        "name": "M\u00e4uschen",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3580000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 343,
+                "identifier": "FuG7",
+                "name": "FuG 7",
+                "not_in_shop": false,
+                "price": 8160,
+                "range": 415,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G110_Typ_205",
+                "tier": 6,
+                "weight": 70
+            },
+            {
+                "health": 150,
+                "id": 344,
+                "identifier": "FuG12",
+                "name": "FuG 12",
+                "not_in_shop": false,
+                "price": 43200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "G110_Typ_205",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 8.9,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 128,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 531,
+                "icon": "ap",
+                "id": "_128mm_PzGr39K",
+                "min_penetration": 190,
+                "module_damage": 165,
+                "name": "Pzgr 39 K",
+                "penetration": 220,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 128,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 531,
+                "icon": "ap_cr",
+                "id": "_128mm_PzGr40K",
+                "min_penetration": 219,
+                "module_damage": 165,
+                "name": "Pzgr 40 K",
+                "penetration": 260,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1013,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 128,
+                "damage": 630,
+                "explosion_radius": 2.71,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 531,
+                "icon": "he",
+                "id": "_128mm_SprG18",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Sprgr 18",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 935,
+                "range": 720,
+                "speed": 810,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 532,
+                "icon": "ap",
+                "id": "_128mm_PzGr39",
+                "min_penetration": 241,
+                "module_damage": 180,
+                "name": "Pzgr 39",
+                "penetration": 246,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 532,
+                "icon": "ap_cr",
+                "id": "_128mm_PzGr40",
+                "min_penetration": 263,
+                "module_damage": 180,
+                "name": "Pzgr 40",
+                "penetration": 311,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 128,
+                "damage": 630,
+                "explosion_radius": 2.71,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 532,
+                "icon": "he",
+                "id": "_128mm_SprG18",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Sprgr 18",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 935,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M\u00e4uschen",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "mauschen",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "heavyTank1"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "antifragmentationLining_superheavy_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "enhancedLongitudinalTorsions_user"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": -0.001022,
+        "turret_pos_y": 0.947784,
+        "turret_pos_z": -1.14001,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 240,
+                "armor_rear": 150,
+                "armor_side": 160,
+                "collision_model": "vehicles/german/G110_Typ_205/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 240
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 240
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 190
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 210
+                    }
+                ],
+                "gun_pos_x": 0.001302,
+                "gun_pos_y": 0.629715,
+                "gun_pos_z": 1.55854,
+                "health": 460,
+                "id": 264,
+                "identifier": "Turret_1_G110_Typ_205",
+                "name": "M\u00e4uschen",
+                "not_in_shop": true,
+                "price": 55000,
+                "rotation_speed": 15,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 2,
+                "tank_id": "G110_Typ_205",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G110_Typ_205/normal/lod0/Turret_01.model",
+                "weight": 50000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_G110_Typ_205_2",
+                "name": "Chassis_G110_Typ_205_2",
+                "parent_key": "chassis-Chassis_G110_Typ_205",
+                "price": 24400,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_128mm_KwK44_L55",
+                "name": "_128mm_KwK44_L55",
+                "parent_key": "gun-_128mm_L50A",
+                "price": 63000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-G42_Maus",
+                "name": "G42_Maus",
+                "parent_key": "gun-_128mm_KwK44_L55",
+                "price": 219660,
+                "tank_name": "Maus",
+                "tank_price": 6100000,
+                "tank_slug": "maus",
+                "tank_tier": 10,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Porsche_Typ_220",
+                "name": "Porsche_Typ_220",
+                "parent_key": "engine-Daimler-Benz_DB-603",
+                "price": 51500,
+                "type": "engine"
+            },
+            {
+                "key": "radio-FuG12",
+                "name": "FuG12",
+                "parent_key": "radio-FuG7",
+                "price": 7200,
+                "type": "radio"
+            }
+        ],
+        "version": "v09201",
+        "visual_model": "vehicles/german/G110_Typ_205/normal/lod0/Hull.model",
+        "weight": 83500,
+        "xp_factor": 1
+    }
+}

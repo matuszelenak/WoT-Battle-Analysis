@@ -1,0 +1,532 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 85
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 5
+            }
+        ],
+        "armor_front": 85,
+        "armor_rear": 40,
+        "armor_side": 50,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.239,
+        "camo_moving": 0.119,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.159,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 48000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G106_PzKpfwPanther_AusfF/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 210,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.23983,
+                "hull_pos_z": 0,
+                "id": 370,
+                "identifier": "Chassis_G106_PzKpfwPanther_AusfF",
+                "max_climb_angle": 25,
+                "max_load": 49000,
+                "name": "Panther mit 8,8 cm Kw.K. 43 L/71",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 160,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "G106_PzKpfwPanther_AusfF",
+                "terrain_hard": 0.6,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.5,
+                "tier": 8,
+                "visual_model": "vehicles/german/G106_PzKpfwPanther_AusfF/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/german/G106_PzKpfwPanther_AusfF/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development of a modification of the Panther started in the spring of 1944. The new variant was to incorporate a newly designed Schmalturm turret. The new vehicle was designated the Panther Ausf. F. On January 23, 1945, it was reported that the 88-mm gun of the Tiger was mounted on the upgraded version of the new turret. A large number of hulls for the vehicle were manufactured, but the turret never saw production and existed only as a wooden model.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 411,
+                "identifier": "Maybach_HL_230P30_2500rpm",
+                "name": "Maybach HL 230 P30",
+                "not_in_shop": true,
+                "power": 700,
+                "price": 55000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G106_PzKpfwPanther_AusfF",
+                "tier": 8,
+                "weight": 1400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 46,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 7300,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G106_PzKpfwPanther_AusfF/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.32,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 200,
+                "id": 638,
+                "identifier": "_88mm_KwK_43_L71B",
+                "max_ammo": 56,
+                "name": "8,8 cm Kw.K. 43 L/71",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.055556,
+                            8
+                        ],
+                        [
+                            0.083333,
+                            8
+                        ],
+                        [
+                            0.375,
+                            8
+                        ],
+                        [
+                            0.402778,
+                            8
+                        ],
+                        [
+                            0.501532,
+                            8
+                        ],
+                        [
+                            0.514544,
+                            4
+                        ],
+                        [
+                            0.597222,
+                            4
+                        ],
+                        [
+                            0.625,
+                            8
+                        ],
+                        [
+                            0.916667,
+                            8
+                        ],
+                        [
+                            0.944444,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 112180,
+                "reload_time": 6.9,
+                "repair_health": 100,
+                "repair_price": 7,
+                "rotation_speed": 30.625,
+                "tier": 8,
+                "turret_id": 315,
+                "visual_model": "vehicles/german/G106_PzKpfwPanther_AusfF/normal/lod0/Gun_01.model",
+                "weight": 2562,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1200,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G106_PzKpfwPanther_AusfF",
+        "name": "Panther mit 8,8 cm L/71",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 140,
+                "id": 420,
+                "identifier": "FuG8_1",
+                "name": "Fu 8",
+                "not_in_shop": true,
+                "price": 24240,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "G106_PzKpfwPanther_AusfF",
+                "tier": 8,
+                "weight": 50
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 638,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39_43",
+                "min_penetration": 185,
+                "module_damage": 119,
+                "name": "Pzgr 39/43",
+                "penetration": 203,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 638,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40_43",
+                "min_penetration": 217,
+                "module_damage": 119,
+                "name": "Pzgr 40/43",
+                "penetration": 237,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 638,
+                "icon": "he",
+                "id": "_88mm_Sprg.43",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 43",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Panther 8,8",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "panther-88",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "beast"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": -0.002854,
+        "turret_pos_y": 0.688996,
+        "turret_pos_z": -0.362247,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 60,
+                "armor_side": 60,
+                "collision_model": "vehicles/german/G106_PzKpfwPanther_AusfF/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": 0.002854,
+                "gun_pos_y": 0.385873,
+                "gun_pos_z": 1.19749,
+                "health": 300,
+                "id": 315,
+                "identifier": "Turret_1_G106_PzKpfwPanther_AusfF",
+                "name": "Panther mit 8,8 cm Kw.K. 43 L/71",
+                "not_in_shop": true,
+                "price": 20000,
+                "rotation_speed": 32,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "G106_PzKpfwPanther_AusfF",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/german/G106_PzKpfwPanther_AusfF/normal/lod0/Turret_01.model",
+                "weight": 8000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0919ct",
+        "visual_model": "vehicles/german/G106_PzKpfwPanther_AusfF/normal/lod0/Hull.model",
+        "weight": 19213,
+        "xp_factor": 1.5
+    }
+}

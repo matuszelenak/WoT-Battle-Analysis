@@ -1,0 +1,416 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 13,
+        "armor_rear": 7,
+        "armor_side": 13,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.431,
+        "camo_moving": 0.215,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.287,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 7000,
+                "center_rotation": false,
+                "collision_model": "vehicles/sweden/S15_L_60/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.867128,
+                "hull_pos_z": 0,
+                "id": 442,
+                "identifier": "Chassis_S15_L_60",
+                "max_climb_angle": 25,
+                "max_load": 8000,
+                "name": "L-60",
+                "not_in_shop": true,
+                "price": 500,
+                "repair_health": 45,
+                "repair_price": 1,
+                "rotation_speed": 45,
+                "tank_id": "S15_L_60",
+                "terrain_hard": 1,
+                "terrain_medium": 1.35,
+                "terrain_soft": 1.95,
+                "tier": 2,
+                "visual_model": "vehicles/sweden/S15_L_60/normal/lod0/Chassis.model",
+                "weight": 2050
+            }
+        ],
+        "collision_model": "vehicles/sweden/S15_L_60/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            }
+        ],
+        "description": "Designed by Landsverk AB in 1934 as a further development for the L-10 tank. The vehicle configuration featured a number of revolutionary solutions. Four vehicles were sold to Austria, Hungary, and Ireland. After several upgrades, the vehicle entered service in Sweden under the Stridsvagn m/38 designation.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 55,
+                "id": 486,
+                "identifier": "BNAG_L8V_36TR_A",
+                "name": "B\u00fcssing NAG L8V/36 TR",
+                "not_in_shop": true,
+                "power": 160,
+                "price": 4350,
+                "repair_health": 27,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "S15_L_60",
+                "tier": 3,
+                "weight": 600
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 48,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.3,
+                "clip_size": 10,
+                "collision_model": "vehicles/sweden/S15_L_60/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.48,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.2,
+                "dispersion_rotation": 0.12,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 13
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 13
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "id": 763,
+                "identifier": "_20mm_akan_m_Madsen_A",
+                "max_ammo": 320,
+                "name": "20 mm akan m/Madsen",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 2400,
+                "reload_time": 5,
+                "repair_health": 25,
+                "repair_price": 2,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 373,
+                "visual_model": "vehicles/sweden/S15_L_60/normal/lod0/Gun_01.model",
+                "weight": 53,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 144,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "S15_L_60",
+        "name": "L-60",
+        "nation": "sweden",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 513,
+                "identifier": "_25_W_Sv_1_m_39_A",
+                "name": "25 W Sv/1 m/39",
+                "not_in_shop": true,
+                "price": 180,
+                "range": 290,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "S15_L_60",
+                "tier": 2,
+                "weight": 34
+            }
+        ],
+        "repair_price": 2,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 20,
+                "damage": 12,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 763,
+                "icon": "ap",
+                "id": "_20mm_slpprj_m_Madsen",
+                "min_penetration": 17,
+                "module_damage": 27,
+                "name": "slpprj m/Madsen",
+                "penetration": 27,
+                "penetration_loss": 0,
+                "price": 2,
+                "range": 400,
+                "speed": 805,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 12,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 763,
+                "icon": "ap",
+                "id": "_20mm_slpprj_m_40_M",
+                "min_penetration": 24,
+                "module_damage": 27,
+                "name": "slpprj m/40 M",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 775,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 16,
+                "explosion_radius": 0.1,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 763,
+                "icon": "he",
+                "id": "_20mm_slsgr_m_Madsen",
+                "min_penetration": 10,
+                "module_damage": 27,
+                "name": "slsgr m/Madsen",
+                "penetration": 10,
+                "penetration_loss": 0,
+                "price": 2,
+                "range": 400,
+                "speed": 890,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "L-60",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "l-60",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0.005953,
+        "turret_pos_y": 0.43297,
+        "turret_pos_z": 0.256708,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 13,
+                "armor_rear": 13,
+                "armor_side": 13,
+                "collision_model": "vehicles/sweden/S15_L_60/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.040515,
+                "gun_pos_y": 0.260572,
+                "gun_pos_z": 0.670925,
+                "health": 36,
+                "id": 373,
+                "identifier": "Turret_1_S15_L_60",
+                "name": "L-60",
+                "not_in_shop": true,
+                "price": 500,
+                "rotation_speed": 44,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 2,
+                "tank_id": "S15_L_60",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/sweden/S15_L_60/normal/lod0/Turret_01.model",
+                "weight": 730
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0918ct",
+        "visual_model": "vehicles/sweden/S15_L_60/normal/lod0/Hull.model",
+        "weight": 3633,
+        "xp_factor": 1.5
+    }
+}

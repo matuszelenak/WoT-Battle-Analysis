@@ -1,0 +1,493 @@
+{
+    "tank": {
+        "ammo_rack_health": 250,
+        "ammo_rack_repair_health": 200,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 110
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 120,
+        "armor_rear": 80,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.114,
+        "camo_moving": 0.038,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.076,
+        "chassis": [
+            {
+                "armor": 30,
+                "brake_force": 50000,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F65_FCM_50t/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 30
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.29843,
+                "hull_pos_z": 0,
+                "id": 109,
+                "identifier": "Chassis_FCM_50t",
+                "max_climb_angle": 25,
+                "max_load": 57500,
+                "name": "FCM 50 t",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 175,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "F65_FCM_50t",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.4,
+                "tier": 8,
+                "visual_model": "vehicles/french/F65_FCM_50t/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/french/F65_FCM_50t/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development was started in December 1945. The vehicle was conceived as an alternative for the AMX 50t and combined archaic features typical of the pre-war French tank-construction industry as well as German innovations. The vehicle was to be equipped with an additional container trailer, equipment for underwater driving, and a demountable mine clearer.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 320,
+                "id": 119,
+                "identifier": "Maybach_HL_234P45A",
+                "name": "Maybach V-12 ACC",
+                "not_in_shop": true,
+                "power": 1000,
+                "price": 98730,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "F65_FCM_50t",
+                "tier": 9,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 51,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 11900,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F65_FCM_50t/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 170,
+                "id": 178,
+                "identifier": "_90mm_canon_DCA_45A",
+                "max_ammo": 91,
+                "name": "90 mm DCA 45",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            1
+                        ],
+                        [
+                            0.583333,
+                            1
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 121250,
+                "reload_time": 7.5,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 95,
+                "visual_model": "vehicles/french/F65_FCM_50t/normal/lod0/Gun_01.model",
+                "weight": 2750,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1200,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F65_FCM_50t",
+        "name": "FCM 50 t",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 112,
+                "identifier": "SCR_528A",
+                "name": "SCR 528F",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F65_FCM_50t",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 5.13,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 178,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 193,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 178,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 228,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 259,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 178,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "FCM 50 t",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "fcm-50-t",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.488722,
+        "turret_pos_z": 0.897251,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 60,
+                "armor_side": 80,
+                "collision_model": "vehicles/french/F65_FCM_50t/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.459195,
+                "gun_pos_z": 1.05069,
+                "health": 300,
+                "id": 95,
+                "identifier": "Turret_1_FCM_50t",
+                "name": "FCM 50 t",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 36,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 2,
+                "tank_id": "F65_FCM_50t",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/french/F65_FCM_50t/normal/lod0/Turret_01.model",
+                "weight": 9000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v09201",
+        "visual_model": "vehicles/french/F65_FCM_50t/normal/lod0/Hull.model",
+        "weight": 31360,
+        "xp_factor": 1.5
+    }
+}

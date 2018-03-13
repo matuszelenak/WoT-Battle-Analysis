@@ -1,0 +1,476 @@
+{
+    "tank": {
+        "ammo_rack_health": 280,
+        "ammo_rack_repair_health": 190,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 200,
+        "armor_rear": 150,
+        "armor_side": 120,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.011,
+        "camo_moving": 0.004,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 2,
+        "camo_still": 0.007,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 100000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G98_Waffentrager_E100/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 300,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1,
+                "hull_pos_z": 0,
+                "id": 281,
+                "identifier": "Chassis_Waffentrager_E100",
+                "max_climb_angle": 25,
+                "max_load": 150000,
+                "name": "Waffentr\u00e4ger auf E 100",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 225,
+                "repair_price": 5,
+                "rotation_speed": 26,
+                "tank_id": "G98_Waffentrager_E100",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 10,
+                "visual_model": "vehicles/german/G98_Waffentrager_E100/normal/lod0/Chassis.model",
+                "weight": 42000
+            }
+        ],
+        "collision_model": "vehicles/german/G98_Waffentrager_E100/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A proposal to mount a large-caliber antiaircraft gun on the chassis of the E 100 tank. The vehicle was to feature either 128- or 150-mm guns with an automatic loading system. However, the design project was never developed.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 255,
+                "id": 316,
+                "identifier": "Engine_VK4502P",
+                "name": "Engine_VK4502P",
+                "not_in_shop": true,
+                "power": 840,
+                "price": 45300,
+                "repair_health": 127,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "G98_Waffentrager_E100",
+                "tier": 8,
+                "weight": 720
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 40,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2,
+                "clip_size": 5,
+                "collision_model": "vehicles/german/G98_Waffentrager_E100/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.29,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2.5,
+                "dispersion_rotation": 0.25,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 220,
+                "id": 491,
+                "identifier": "Gun_VK4502P",
+                "max_ammo": 60,
+                "name": "12,8 cm Kw.K. 44 L/55",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            0.383333,
+                            -15
+                        ],
+                        [
+                            0.397222,
+                            -7
+                        ],
+                        [
+                            0.602778,
+                            -7
+                        ],
+                        [
+                            0.616667,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 310000,
+                "reload_time": 58,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 240,
+                "visual_model": "vehicles/german/G98_Waffentrager_E100/normal/lod0/Gun_01.model",
+                "weight": 3480,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1600,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G98_Waffentrager_E100",
+        "name": "Waffentr\u00e4ger auf E 100",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 150,
+                "id": 316,
+                "identifier": "Radio_VK4502P",
+                "name": "Radio_VK4502P",
+                "not_in_shop": true,
+                "price": 43200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "G98_Waffentrager_E100",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 10.5,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 491,
+                "icon": "ap",
+                "id": "_128mm_PzGr39",
+                "min_penetration": 241,
+                "module_damage": 180,
+                "name": "Pzgr 39",
+                "penetration": 246,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 491,
+                "icon": "ap_cr",
+                "id": "_128mm_PzGr40",
+                "min_penetration": 263,
+                "module_damage": 180,
+                "name": "Pzgr 40",
+                "penetration": 311,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 128,
+                "damage": 630,
+                "explosion_radius": 2.71,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 491,
+                "icon": "he",
+                "id": "_128mm_SprG18",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Sprgr 18",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 935,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "WT auf E 100",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "wt-auf-e-100",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "noImprovedVentilation"
+            },
+            {
+                "name": "antifragmentationLining_superheavy_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedBelwillWashers_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "unrecoverable"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.379118,
+        "turret_pos_z": -1.71333,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 20,
+                "armor_rear": 8,
+                "armor_side": 10,
+                "collision_model": "vehicles/german/G98_Waffentrager_E100/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 5
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 1.37102,
+                "gun_pos_z": -0.690134,
+                "health": 400,
+                "id": 240,
+                "identifier": "Turret_1_Waffentrager_E100",
+                "name": "Waffentr\u00e4ger auf E 100",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 22,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 2,
+                "tank_id": "G98_Waffentrager_E100",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/german/G98_Waffentrager_E100/normal/lod0/Turret_01.model",
+                "weight": 10000
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v09171",
+        "visual_model": "vehicles/german/G98_Waffentrager_E100/normal/lod0/Hull.model",
+        "weight": 38490,
+        "xp_factor": 1
+    }
+}

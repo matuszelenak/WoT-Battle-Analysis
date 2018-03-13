@@ -1,0 +1,472 @@
+{
+    "tank": {
+        "ammo_rack_health": 130,
+        "ammo_rack_repair_health": 85,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 37
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 37
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 37
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 37
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 37,
+        "armor_rear": 37,
+        "armor_side": 37,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.456,
+        "camo_moving": 0.304,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.304,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 40500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.823819,
+                "hull_pos_z": 0,
+                "id": 816,
+                "identifier": "Chassis_T_50_2_1",
+                "max_climb_angle": 25,
+                "max_load": 14000,
+                "name": "T-50-2",
+                "not_in_shop": true,
+                "price": 4800,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 36,
+                "tank_id": "R70_T_50_2",
+                "terrain_hard": 1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.2,
+                "tier": 4,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Chassis.model",
+                "weight": 2000
+            }
+        ],
+        "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The designs of the T-50 were submitted by the Construction Bureau of the Kirov Plant (Leningrad) and Plant 174. The design introduced by the Kirov Plant was more difficult to implement. The distinctive features of the vehicle were its hull shape and a horseshoe-shaped radiator.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 93,
+                "id": 900,
+                "identifier": "Engine_T-50-2",
+                "name": "V-4",
+                "not_in_shop": true,
+                "power": 300,
+                "price": 9000,
+                "repair_health": 45,
+                "repair_price": 4,
+                "tags": "diesel",
+                "tank_id": "R70_T_50_2",
+                "tier": 4,
+                "weight": 540
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 72,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 37
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 68,
+                "id": 1352,
+                "identifier": "Gun_T-50-2",
+                "max_ammo": 150,
+                "name": "45 mm 20K",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2530,
+                "reload_time": 2.3,
+                "repair_health": 34,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 696,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Gun_01.model",
+                "weight": 250,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 400,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R70_T_50_2",
+        "name": "T-50-2",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 725000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 948,
+                "identifier": "Radio_T-50-2",
+                "name": "71-TK-3",
+                "not_in_shop": true,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R70_T_50_2",
+                "tier": 3,
+                "weight": 100
+            }
+        ],
+        "repair_price": 16,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1352,
+                "icon": "ap",
+                "id": "_45mm_UBR-240A",
+                "min_penetration": 38,
+                "module_damage": 61,
+                "name": "UBR-240A",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1352,
+                "icon": "ap_cr",
+                "id": "_45mm_UBR-240PA",
+                "min_penetration": 66,
+                "module_damage": 61,
+                "name": "UBR-240PA",
+                "penetration": 88,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 946,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 45,
+                "damage": 62,
+                "explosion_radius": 0.43,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1352,
+                "icon": "he",
+                "id": "_45mm_UOF-240A",
+                "min_penetration": 23,
+                "module_damage": 61,
+                "name": "UOF-240A",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-50-2",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-50-2",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "unrecoverable"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.724581,
+        "turret_pos_z": 0.554402,
+        "turret_slots": [
+            {
+                "id": 542,
+                "pos_x": 0,
+                "pos_y": 0.724581,
+                "pos_z": 0.554402,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R70_T_50_2"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 37,
+                "armor_rear": 37,
+                "armor_side": 37,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 37
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 37
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 37
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 37
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 37
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": 0.019607,
+                "gun_pos_y": 0.457312,
+                "gun_pos_z": 1.01427,
+                "health": 100,
+                "id": 696,
+                "identifier": "Turret_1_T_50_2",
+                "name": "T-50-2",
+                "not_in_shop": true,
+                "price": 4100,
+                "rotation_speed": 45,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "R70_T_50_2",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Turret_01.model",
+                "weight": 500
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0922ct2",
+        "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Hull.model",
+        "weight": 8700,
+        "xp_factor": 1
+    }
+}

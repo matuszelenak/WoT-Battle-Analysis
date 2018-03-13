@@ -1,0 +1,1985 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 22.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 41.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 139.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 41.3
+            }
+        ],
+        "armor_front": 101.6,
+        "armor_rear": 50.8,
+        "armor_side": 76.2,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.339,
+        "camo_moving": 0.169,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.226,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.0706,
+                "hull_pos_z": 0,
+                "id": 725,
+                "identifier": "Pershingchassis1",
+                "max_climb_angle": 25,
+                "max_load": 42350,
+                "name": "M26T80E1",
+                "not_in_shop": false,
+                "price": 16300,
+                "repair_health": 135,
+                "repair_price": 7.5,
+                "rotation_speed": 36,
+                "tank_id": "A35_Pershing",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.9,
+                "tier": 7,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Chassis.model",
+                "weight": 10000
+            },
+            {
+                "armor": 20,
+                "brake_force": 36500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Chassis.model",
+                "dispersion_movement": 0.15,
+                "dispersion_rotation": 0.15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.0706,
+                "hull_pos_z": 0,
+                "id": 726,
+                "identifier": "Pershingchassis2",
+                "max_climb_angle": 25,
+                "max_load": 45050,
+                "name": "M26T81",
+                "not_in_shop": false,
+                "price": 30250,
+                "repair_health": 150,
+                "repair_price": 7.5,
+                "rotation_speed": 38,
+                "tank_id": "A35_Pershing",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 8,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/american/A35_Pershing/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "American medium tank, named in honor of General John Pershing, who led the American Expeditionary Force during World War I. In 1944\u20131946 in the U.S. Army, the M26 was temporarily classified as heavy tank. Starting in February 1945 these vehicles took part in World War II; in 1950\u20131951 the vehicle saw combat in the Korean War.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 813,
+                "identifier": "Ford_GAN",
+                "name": "Ford GAN",
+                "not_in_shop": false,
+                "power": 560,
+                "price": 37200,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A35_Pershing",
+                "tier": 7,
+                "weight": 569
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 814,
+                "identifier": "Continental_AV-1790-1",
+                "name": "Continental AV-1790-1",
+                "not_in_shop": false,
+                "power": 704,
+                "price": 45000,
+                "repair_health": 130,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A35_Pershing",
+                "tier": 8,
+                "weight": 569
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 48,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 1269,
+                "identifier": "_76mm_Gun_M1A1",
+                "max_ammo": 92,
+                "name": "76 mm Gun M1A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 50330,
+                "reload_time": 4.2,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 616,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_01.model",
+                "weight": 1567,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1270,
+                "identifier": "_76mm_Gun_M1A2",
+                "max_ammo": 92,
+                "name": "76 mm Gun M1A2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 3.3,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 616,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_02.model",
+                "weight": 1590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 150,
+                "id": 1271,
+                "identifier": "_90mm_Gun_M3",
+                "max_ammo": 70,
+                "name": "90 mm Gun M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 81000,
+                "reload_time": 8.2,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 616,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_03.model",
+                "weight": 2050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.2,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 1272,
+                "identifier": "_90mm_Gun_T15E2M2",
+                "max_ammo": 70,
+                "name": "90 mm Gun T15E2M2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 128900,
+                "reload_time": 8.2,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 616,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_04.model",
+                "weight": 2250,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_06.model",
+                "depression": 10,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.11,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 120,
+                "id": 1273,
+                "identifier": "_76mm_Gun_M1A1",
+                "max_ammo": 92,
+                "name": "76 mm Gun M1A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            9
+                        ],
+                        [
+                            0.583333,
+                            9
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 50330,
+                "reload_time": 4.2,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 617,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_06.model",
+                "weight": 1567,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_07.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.11,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 130,
+                "id": 1274,
+                "identifier": "_76mm_Gun_M1A2",
+                "max_ammo": 92,
+                "name": "76 mm Gun M1A2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            9
+                        ],
+                        [
+                            0.583333,
+                            9
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 3.3,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 617,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_07.model",
+                "weight": 1590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_08.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.11,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    }
+                ],
+                "health": 150,
+                "id": 1275,
+                "identifier": "_90mm_Gun_M3",
+                "max_ammo": 70,
+                "name": "90 mm Gun M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            9
+                        ],
+                        [
+                            0.583333,
+                            9
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 81000,
+                "reload_time": 8.2,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 617,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_08.model",
+                "weight": 2050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_09.model",
+                "depression": 10,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.2,
+                "dispersion_rotation": 0.11,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    }
+                ],
+                "health": 170,
+                "id": 1276,
+                "identifier": "_90mm_Gun_T15E2M2",
+                "max_ammo": 70,
+                "name": "90 mm Gun T15E2M2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            9
+                        ],
+                        [
+                            0.583333,
+                            9
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 128900,
+                "reload_time": 8.2,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 617,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_09.model",
+                "weight": 2250,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Gun_10.model",
+                "depression": 10,
+                "dispersion": 0.55,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 150,
+                "id": 1277,
+                "identifier": "_105mm_SPH_M4_L23",
+                "max_ammo": 54,
+                "name": "105 mm M4",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            9
+                        ],
+                        [
+                            0.583333,
+                            9
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 40300,
+                "reload_time": 8,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 617,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Gun_10.model",
+                "weight": 2600,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1080,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A35_Pershing",
+        "name": "M26 Pershing",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 2403000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 862,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 395,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A35_Pershing",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 863,
+                "identifier": "SCR_528",
+                "name": "SCR 528",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A35_Pershing",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 8.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1269,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1269,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1269,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1270,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1270,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1270,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1271,
+                "icon": "ap",
+                "id": "_90mm_AP_M77",
+                "min_penetration": 135,
+                "module_damage": 122,
+                "name": "AP M77",
+                "penetration": 160,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1271,
+                "icon": "ap_cr",
+                "id": "_90mm_HVAP_M304",
+                "min_penetration": 221,
+                "module_damage": 122,
+                "name": "HVAP M304",
+                "penetration": 243,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1066,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1271,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1272,
+                "icon": "ap",
+                "id": "_90mm_AP_M77",
+                "min_penetration": 170,
+                "module_damage": 122,
+                "name": "AP M77",
+                "penetration": 190,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 975,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1272,
+                "icon": "ap_cr",
+                "id": "_90mm_HVAP_M304",
+                "min_penetration": 245,
+                "module_damage": 122,
+                "name": "HVAP M304",
+                "penetration": 268,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1219,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1272,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 975,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1273,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1273,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1273,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1274,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1274,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1274,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1275,
+                "icon": "ap",
+                "id": "_90mm_AP_M77",
+                "min_penetration": 135,
+                "module_damage": 122,
+                "name": "AP M77",
+                "penetration": 160,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1275,
+                "icon": "ap_cr",
+                "id": "_90mm_HVAP_M304",
+                "min_penetration": 221,
+                "module_damage": 122,
+                "name": "HVAP M304",
+                "penetration": 243,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1066,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1275,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1276,
+                "icon": "ap",
+                "id": "_90mm_AP_M77",
+                "min_penetration": 170,
+                "module_damage": 122,
+                "name": "AP M77",
+                "penetration": 190,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 975,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1276,
+                "icon": "ap_cr",
+                "id": "_90mm_HVAP_M304",
+                "min_penetration": 245,
+                "module_damage": 122,
+                "name": "HVAP M304",
+                "penetration": 268,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1219,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1276,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 975,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 410,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1277,
+                "icon": "he",
+                "id": "_105mm_HE_M1",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "HE M1",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 166,
+                "range": 720,
+                "speed": 472,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 1277,
+                "icon": "hc",
+                "id": "_105mm_HEAT_M67",
+                "min_penetration": 101.6,
+                "module_damage": 150,
+                "name": "HEAT M67",
+                "penetration": 101.6,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 381,
+                "type": "HOLLOW_CHARGE"
+            }
+        ],
+        "short_name": "Pershing",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pershing",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.529289,
+        "turret_pos_z": 0.554646,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 101.6,
+                "armor_rear": 76.2,
+                "armor_side": 76.2,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 41.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 85.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 41.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 41.3
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.427038,
+                "gun_pos_z": 0.938862,
+                "health": 270,
+                "id": 616,
+                "identifier": "Turret_1_Pershing",
+                "name": "M26M67",
+                "not_in_shop": false,
+                "price": 21800,
+                "rotation_speed": 36,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "A35_Pershing",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Turret_01.model",
+                "weight": 8000
+            },
+            {
+                "Guns": null,
+                "armor_front": 127,
+                "armor_rear": 63.5,
+                "armor_side": 76.2,
+                "collision_model": "vehicles/american/A35_Pershing/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 41.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 111.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 41.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 41.3
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.427038,
+                "gun_pos_z": 0.938862,
+                "health": 360,
+                "id": 617,
+                "identifier": "Turret_2_Pershing",
+                "name": "M26M71",
+                "not_in_shop": false,
+                "price": 46000,
+                "rotation_speed": 38,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "A35_Pershing",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Turret_02.model",
+                "weight": 9700
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Pershingchassis2",
+                "name": "Pershingchassis2",
+                "parent_key": "chassis-Pershingchassis1",
+                "price": 13500,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_Pershing",
+                "name": "Turret_2_Pershing",
+                "parent_key": "turret-Turret_1_Pershing",
+                "price": 19500,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_76mm_Gun_M1A2",
+                "name": "_76mm_Gun_M1A2",
+                "parent_key": "gun-_76mm_Gun_M1A1",
+                "price": 5800,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_90mm_Gun_M3",
+                "name": "_90mm_Gun_M3",
+                "parent_key": "gun-_76mm_Gun_M1A2",
+                "price": 14000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_90mm_Gun_T15E2M2",
+                "name": "_90mm_Gun_T15E2M2",
+                "parent_key": "gun-_90mm_Gun_M3",
+                "price": 18900,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A63_M46_Patton",
+                "name": "A63_M46_Patton",
+                "parent_key": "gun-_90mm_Gun_M3",
+                "price": 174690,
+                "tank_name": "M46 Patton",
+                "tank_price": 3450000,
+                "tank_slug": "m46-patton",
+                "tank_tier": 9,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-_105mm_SPH_M4_L23",
+                "name": "_105mm_SPH_M4_L23",
+                "parent_key": "turret-Turret_2_Pershing",
+                "price": 1500,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Continental_AV-1790-1",
+                "name": "Continental_AV-1790-1",
+                "parent_key": "engine-Ford_GAN",
+                "price": 0,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09171",
+        "visual_model": "vehicles/american/A35_Pershing/normal/lod0/Hull.model",
+        "weight": 20050,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,1550 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 78
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 47
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_14",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 47
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 47
+            }
+        ],
+        "armor_front": 75,
+        "armor_rear": 55,
+        "armor_side": 70,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.398,
+        "camo_moving": 0.199,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.265,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 24000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.939138,
+                "hull_pos_z": 0,
+                "id": 585,
+                "identifier": "Chassis_GB07_Matilda",
+                "max_climb_angle": 25,
+                "max_load": 27000,
+                "name": "Matilda Mk. II",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 34,
+                "tank_id": "GB07_Matilda",
+                "terrain_hard": 1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Chassis.model",
+                "weight": 7200
+            },
+            {
+                "armor": 10,
+                "brake_force": 25000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.939138,
+                "hull_pos_z": 0,
+                "id": 586,
+                "identifier": "Chassis_GB07_Matilda_2",
+                "max_climb_angle": 25,
+                "max_load": 29000,
+                "name": "Matilda Mk. IIA",
+                "not_in_shop": false,
+                "price": 4800,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 36,
+                "tank_id": "GB07_Matilda",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 4,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Chassis.model",
+                "weight": 7200
+            }
+        ],
+        "collision_model": "vehicles/british/GB07_Matilda/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed from 1936 through 1938. A total of 2987 vehicles were manufactured by August 1943. It was the only British tank to remain in service throughout World War II.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 65,
+                "id": 639,
+                "identifier": "AEC",
+                "name": "2x AEC",
+                "not_in_shop": false,
+                "power": 174,
+                "price": 1500,
+                "repair_health": 32,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB07_Matilda",
+                "tier": 3,
+                "weight": 331
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 65,
+                "id": 640,
+                "identifier": "Leyland",
+                "name": "2x Leyland E164",
+                "not_in_shop": false,
+                "power": 190,
+                "price": 4000,
+                "repair_health": 32,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB07_Matilda",
+                "tier": 3,
+                "weight": 331
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 24,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.06,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 972,
+                "identifier": "_2pdr_Gun_Mk_X",
+                "max_ammo": 92,
+                "name": "QF 2-pdr Mk. X",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            9
+                        ],
+                        [
+                            0.569444,
+                            9
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 6000,
+                "reload_time": 2.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 492,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Gun_01.model",
+                "weight": 130,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 973,
+                "identifier": "_76mm_Howitzer_MkI",
+                "max_ammo": 35,
+                "name": "OQF 3-inch Howitzer Mk. I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            9
+                        ],
+                        [
+                            0.569444,
+                            9
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4,
+                "repair_health": 53,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 492,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Gun_02.model",
+                "weight": 116,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 70,
+                "id": 974,
+                "identifier": "QF_2pdr_Littlejohn",
+                "max_ammo": 92,
+                "name": "QF 2-pdr Mk. X-B",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            9
+                        ],
+                        [
+                            0.569444,
+                            9
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 28000,
+                "reload_time": 2.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 492,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Gun_03.model",
+                "weight": 175,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.04,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 975,
+                "identifier": "_2pdr_Gun_Mk_X",
+                "max_ammo": 92,
+                "name": "QF 2-pdr Mk. X",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            9
+                        ],
+                        [
+                            0.569444,
+                            9
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 6000,
+                "reload_time": 2.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 493,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Gun_04.model",
+                "weight": 130,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.06,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 976,
+                "identifier": "_76mm_Howitzer_MkI",
+                "max_ammo": 35,
+                "name": "OQF 3-inch Howitzer Mk. I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            9
+                        ],
+                        [
+                            0.569444,
+                            9
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4,
+                "repair_health": 53,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 493,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Gun_05.model",
+                "weight": 116,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Gun_06.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 70,
+                "id": 977,
+                "identifier": "QF_2pdr_Littlejohn",
+                "max_ammo": 92,
+                "name": "QF 2-pdr Mk. X-B",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            9
+                        ],
+                        [
+                            0.569444,
+                            9
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 28000,
+                "reload_time": 2.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 493,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Gun_06.model",
+                "weight": 175,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 272,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB07_Matilda",
+        "name": "Matilda",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 140000,
+        "radios": [
+            {
+                "health": 60,
+                "id": 679,
+                "identifier": "N11",
+                "name": "WS No. 11",
+                "not_in_shop": false,
+                "price": 600,
+                "range": 350,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "GB07_Matilda",
+                "tier": 3,
+                "weight": 40
+            },
+            {
+                "health": 80,
+                "id": 680,
+                "identifier": "N9",
+                "name": "WS No. 9",
+                "not_in_shop": false,
+                "price": 3600,
+                "range": 375,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "GB07_Matilda",
+                "tier": 5,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 681,
+                "identifier": "N19Mk1",
+                "name": "WS No. 19 Mk. I",
+                "not_in_shop": false,
+                "price": 15000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "GB07_Matilda",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 682,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB07_Matilda",
+                "tier": 7,
+                "weight": 40
+            }
+        ],
+        "repair_price": 4.17,
+        "reverse_speed": 11,
+        "shells": [
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 972,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.IXBT",
+                "min_penetration": 66,
+                "module_damage": 54,
+                "name": "APCBC Mk. IXBT",
+                "penetration": 78,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 972,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.2",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 2",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 972,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 973,
+                "icon": "he",
+                "id": "_76mm_HE_MkI",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE Mk. I",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 182,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 973,
+                "icon": "hc",
+                "id": "_76mm_HEAT_MkI",
+                "min_penetration": 100,
+                "module_damage": 105,
+                "name": "HEAT Mk. I",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 182,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 40,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 974,
+                "icon": "ap",
+                "id": "_2pdr_APSV_Mk.1",
+                "min_penetration": 102,
+                "module_damage": 54,
+                "name": "APSV Mk. 1",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 40,
+                "range": 720,
+                "speed": 1341,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 4,
+                "gravity": 9.81,
+                "gun_id": 974,
+                "icon": "ap_cr",
+                "id": "_2pdr_APSV_Mk.2",
+                "min_penetration": 122,
+                "module_damage": 54,
+                "name": "APSV Mk. 2",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 1600,
+                "range": 720,
+                "speed": 1341,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 975,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.IXBT",
+                "min_penetration": 66,
+                "module_damage": 54,
+                "name": "APCBC Mk. IXBT",
+                "penetration": 78,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 975,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.2",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 2",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 975,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 976,
+                "icon": "he",
+                "id": "_76mm_HE_MkI",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE Mk. I",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 182,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 976,
+                "icon": "hc",
+                "id": "_76mm_HEAT_MkI",
+                "min_penetration": 100,
+                "module_damage": 105,
+                "name": "HEAT Mk. I",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 182,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 40,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 977,
+                "icon": "ap",
+                "id": "_2pdr_APSV_Mk.1",
+                "min_penetration": 102,
+                "module_damage": 54,
+                "name": "APSV Mk. 1",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 40,
+                "range": 720,
+                "speed": 1341,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 4,
+                "gravity": 9.81,
+                "gun_id": 977,
+                "icon": "ap_cr",
+                "id": "_2pdr_APSV_Mk.2",
+                "min_penetration": 122,
+                "module_damage": 54,
+                "name": "APSV Mk. 2",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 1600,
+                "range": 720,
+                "speed": 1341,
+                "type": "ARMOR_PIERCING_CR"
+            }
+        ],
+        "short_name": "Matilda",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "matilda",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedHorizontal_elastic_elements_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": -0.00487,
+        "turret_pos_y": 0.532146,
+        "turret_pos_z": 0.575507,
+        "turret_slots": [
+            {
+                "id": 386,
+                "pos_x": -0.00487,
+                "pos_y": 0.532146,
+                "pos_z": 0.575507,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "GB07_Matilda"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 75,
+                "armor_rear": 75,
+                "armor_side": 75,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.39739,
+                "gun_pos_z": 0.650373,
+                "health": 68,
+                "id": 492,
+                "identifier": "Turret_1_GB07_Matilda",
+                "name": "Matilda Mk. IIA",
+                "not_in_shop": false,
+                "price": 0,
+                "rotation_speed": 34,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB07_Matilda",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Turret_01.model",
+                "weight": 5650
+            },
+            {
+                "Guns": null,
+                "armor_front": 75,
+                "armor_rear": 75,
+                "armor_side": 75,
+                "collision_model": "vehicles/british/GB07_Matilda/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.39739,
+                "gun_pos_z": 0.650373,
+                "health": 98,
+                "id": 493,
+                "identifier": "Turret_2_GB07_Matilda",
+                "name": "Matilda Mk. IIA*",
+                "not_in_shop": false,
+                "price": 5000,
+                "rotation_speed": 34,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB07_Matilda",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Turret_02.model",
+                "weight": 6050
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB07_Matilda_2",
+                "name": "Chassis_GB07_Matilda_2",
+                "parent_key": "chassis-Chassis_GB07_Matilda",
+                "price": 1100,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-QF_2pdr_Littlejohn",
+                "name": "QF_2pdr_Littlejohn",
+                "parent_key": "gun-_2pdr_Gun_Mk_X",
+                "price": 1800,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_Howitzer_MkI",
+                "name": "_76mm_Howitzer_MkI",
+                "parent_key": "gun-_2pdr_Gun_Mk_X",
+                "price": 2100,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_GB07_Matilda",
+                "name": "Turret_2_GB07_Matilda",
+                "parent_key": "gun-_76mm_Howitzer_MkI",
+                "price": 1200,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-GB08_Churchill_I",
+                "name": "GB08_Churchill_I",
+                "parent_key": "turret-Turret_2_GB07_Matilda",
+                "price": 11500,
+                "tank_name": "Churchill I",
+                "tank_price": 340000,
+                "tank_slug": "churchill-i",
+                "tank_tier": 5,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Leyland",
+                "name": "Leyland",
+                "parent_key": "engine-AEC",
+                "price": 310,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N9",
+                "name": "N9",
+                "parent_key": "radio-N11",
+                "price": 610,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk1",
+                "name": "N19Mk1",
+                "parent_key": "radio-N9",
+                "price": 1480,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk2",
+                "name": "N19Mk2",
+                "parent_key": "radio-N19Mk1",
+                "price": 3600,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922",
+        "visual_model": "vehicles/british/GB07_Matilda/normal/lod0/Hull.model",
+        "weight": 12923,
+        "xp_factor": 1
+    }
+}

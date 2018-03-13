@@ -1,0 +1,784 @@
+{
+    "tank": {
+        "ammo_rack_health": 130,
+        "ammo_rack_repair_health": 85,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 12
+            }
+        ],
+        "armor_front": 20,
+        "armor_rear": 12,
+        "armor_side": 16,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.506,
+        "camo_moving": 0.337,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.337,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 10000,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J06_Ke_Ho/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.753255,
+                "hull_pos_z": 0,
+                "id": 433,
+                "identifier": "Chassis_Ke_Ho",
+                "max_climb_angle": 25,
+                "max_load": 10000,
+                "name": "Type 5 Ke-Ho",
+                "not_in_shop": false,
+                "price": 2000,
+                "repair_health": 55,
+                "repair_price": 1,
+                "rotation_speed": 54,
+                "tank_id": "J06_Ke_Ho",
+                "terrain_hard": 0.6,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.6,
+                "tier": 3,
+                "visual_model": "vehicles/japan/J06_Ke_Ho/normal/lod0/Chassis.model",
+                "weight": 3300
+            },
+            {
+                "armor": 15,
+                "brake_force": 11000,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J06_Ke_Ho/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.753255,
+                "hull_pos_z": 0,
+                "id": 434,
+                "identifier": "Chassis_Ke_Ho_2",
+                "max_climb_angle": 25,
+                "max_load": 12500,
+                "name": "Type 5 Ke-Ho Kai",
+                "not_in_shop": false,
+                "price": 4500,
+                "repair_health": 60,
+                "repair_price": 1,
+                "rotation_speed": 60,
+                "tank_id": "J06_Ke_Ho",
+                "terrain_hard": 0.5,
+                "terrain_medium": 0.7,
+                "terrain_soft": 1.4,
+                "tier": 4,
+                "visual_model": "vehicles/japan/J06_Ke_Ho/normal/lod0/Chassis.model",
+                "weight": 3300
+            }
+        ],
+        "collision_model": "vehicles/japan/J06_Ke_Ho/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "By 1945 the design of the Type 95 Ha-Go was already obsolete. In 1942 the Hino Jidosha company started to develop a new tank. A prototype designated the Type 5 Ke-Ho was built in 1944. The design of the tank was similar to that of the Czech LT vz.38 and the Japanese Chi-Ha. However, the vehicle did not go into mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 66,
+                "id": 478,
+                "identifier": "_Type100_V6_Kakyuu",
+                "name": "Type 100 Kakyuu V-6",
+                "not_in_shop": false,
+                "power": 150,
+                "price": 5750,
+                "repair_health": 33,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "J06_Ke_Ho",
+                "tier": 3,
+                "weight": 630
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J06_Ke_Ho/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 76,
+                "id": 737,
+                "identifier": "_47mm_Gun_Type1",
+                "max_ammo": 90,
+                "name": "47 mm Gun Type 1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 21000,
+                "reload_time": 2.4,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 372,
+                "visual_model": "vehicles/japan/J06_Ke_Ho/normal/lod0/Gun_01.model",
+                "weight": 411,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J06_Ke_Ho/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 94,
+                "id": 738,
+                "identifier": "_57mm_Gun_Shin",
+                "max_ammo": 60,
+                "name": "Experimental 57 mm Tank Gun Shin",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.347222,
+                            10
+                        ],
+                        [
+                            0.361111,
+                            6
+                        ],
+                        [
+                            0.638889,
+                            6
+                        ],
+                        [
+                            0.652778,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 27500,
+                "reload_time": 2.4,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 372,
+                "visual_model": "vehicles/japan/J06_Ke_Ho/normal/lod0/Gun_04.model",
+                "weight": 543,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 272,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J06_Ke_Ho",
+        "name": "Type 5 Ke-Ho",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 140000,
+        "radios": [
+            {
+                "health": 70,
+                "id": 491,
+                "identifier": "_Type94_Hei",
+                "name": "Type 94 Mk. 4 Hei",
+                "not_in_shop": false,
+                "price": 2350,
+                "range": 350,
+                "repair_health": 42,
+                "repair_price": 0.5,
+                "tank_id": "J06_Ke_Ho",
+                "tier": 4,
+                "weight": 90
+            },
+            {
+                "health": 80,
+                "id": 492,
+                "identifier": "_Hei",
+                "name": "Hei",
+                "not_in_shop": false,
+                "price": 3800,
+                "range": 400,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "J06_Ke_Ho",
+                "tier": 5,
+                "weight": 130
+            },
+            {
+                "health": 100,
+                "id": 493,
+                "identifier": "_Type96_Bo",
+                "name": "Type 96 Mk. 4 Bo",
+                "not_in_shop": false,
+                "price": 14000,
+                "range": 425,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "J06_Ke_Ho",
+                "tier": 6,
+                "weight": 50
+            },
+            {
+                "health": 140,
+                "id": 494,
+                "identifier": "_Type3_Otsu",
+                "name": "Type 3 Otsu",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 0.5,
+                "tank_id": "J06_Ke_Ho",
+                "tier": 8,
+                "weight": 240
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 22,
+        "shells": [
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "ap",
+                "id": "_47mm_APHE_Type1",
+                "min_penetration": 69,
+                "module_damage": 64,
+                "name": "Type 1",
+                "penetration": 81,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 4,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "ap",
+                "id": "_47mm_APHE_Type1_TK",
+                "min_penetration": 80.9,
+                "module_damage": 64,
+                "name": "Type 1 Toku Kou",
+                "penetration": 122,
+                "penetration_loss": 0,
+                "price": 1600,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 90,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "he",
+                "id": "_47mm_HE_Type94",
+                "min_penetration": 25,
+                "module_damage": 64,
+                "name": "Type 94",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 810,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 738,
+                "icon": "ap",
+                "id": "_57mm_APHE_Type1",
+                "min_penetration": 75,
+                "module_damage": 76,
+                "name": "Type 1",
+                "penetration": 87,
+                "penetration_loss": 0,
+                "price": 40,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 738,
+                "icon": "ap",
+                "id": "_57mm_APHE_Type1_TK",
+                "min_penetration": 113,
+                "module_damage": 76,
+                "name": "Type 1 Toku Kou",
+                "penetration": 131,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 738,
+                "icon": "he",
+                "id": "_57mm_HE_Type2",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "Type 2",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 26,
+                "range": 720,
+                "speed": 810,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Ke-Ho",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ke-ho",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedSprings_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0.12351,
+        "turret_pos_y": 0.556509,
+        "turret_pos_z": 0.00739,
+        "turret_slots": [
+            {
+                "id": 290,
+                "pos_x": 0.12351,
+                "pos_y": 0.556509,
+                "pos_z": 0.00739,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "J06_Ke_Ho"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 30,
+                "armor_rear": 16,
+                "armor_side": 20,
+                "collision_model": "vehicles/japan/J06_Ke_Ho/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 22
+                    }
+                ],
+                "gun_pos_x": -0.123506,
+                "gun_pos_y": 0.27699,
+                "gun_pos_z": 0.691322,
+                "health": 68,
+                "id": 372,
+                "identifier": "Turret_1_Ke_Ho",
+                "name": "Type 5 Ke-Ho",
+                "not_in_shop": true,
+                "price": 4000,
+                "rotation_speed": 36,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "J06_Ke_Ho",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/japan/J06_Ke_Ho/normal/lod0/Turret_01.model",
+                "weight": 1500
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Ke_Ho_2",
+                "name": "Chassis_Ke_Ho_2",
+                "parent_key": "chassis-Chassis_Ke_Ho",
+                "price": 1100,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_57mm_Gun_Shin",
+                "name": "_57mm_Gun_Shin",
+                "parent_key": "gun-_47mm_Gun_Type1",
+                "price": 2000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-J08_Chi_Nu",
+                "name": "J08_Chi_Nu",
+                "parent_key": "gun-_57mm_Gun_Shin",
+                "price": 15000,
+                "tank_name": "Chi-Nu",
+                "tank_price": 410000,
+                "tank_slug": "chi-nu",
+                "tank_tier": 5,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-_Hei",
+                "name": "_Hei",
+                "parent_key": "radio-_Type94_Hei",
+                "price": 640,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type96_Bo",
+                "name": "_Type96_Bo",
+                "parent_key": "radio-_Hei",
+                "price": 1400,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type3_Otsu",
+                "name": "_Type3_Otsu",
+                "parent_key": "radio-_Type96_Bo",
+                "price": 4000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922ct",
+        "visual_model": "vehicles/japan/J06_Ke_Ho/normal/lod0/Hull.model",
+        "weight": 3779,
+        "xp_factor": 1
+    }
+}

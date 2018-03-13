@@ -1,0 +1,471 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 15
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 16,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.444,
+        "camo_moving": 0.222,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.296,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 31000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R34_BT-SV/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.877605,
+                "hull_pos_z": 0,
+                "id": 904,
+                "identifier": "BT-SV",
+                "max_climb_angle": 25,
+                "max_load": 14500,
+                "name": "BT-SV",
+                "not_in_shop": true,
+                "price": 1200,
+                "repair_health": 55,
+                "repair_price": 2.5,
+                "rotation_speed": 33,
+                "tank_id": "R34_BT-SV",
+                "terrain_hard": 1.14,
+                "terrain_medium": 1.37,
+                "terrain_soft": 3.43,
+                "tier": 3,
+                "visual_model": "vehicles/russian/R34_BT-SV/normal/lod0/Chassis.model",
+                "weight": 2000
+            }
+        ],
+        "collision_model": "vehicles/russian/R34_BT-SV/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            }
+        ],
+        "description": "Developed in 1937 at Armored Vehicle Repair Base No. 12 (Kharkov command). The BT-SV used parts and components of the BT-7. The hull used 10\u201312-mm structural steel plates that formed sloped armor; the mass-produced vehicle was supposed to feature 25-mm homogeneous armor steel plates. The vehicle passed trials but did not see service. Subsequently, its sloped armor design was used for the A-20 experimental tank and T-34.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 90,
+                "id": 994,
+                "identifier": "M-17FA",
+                "name": "M-17T",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 13460,
+                "repair_health": 44,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R34_BT-SV",
+                "tier": 4,
+                "weight": 610
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 62,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1000,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7142857,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R34_BT-SV/collision_client/Gun_01.model",
+                "depression": 4,
+                "dispersion": 0.41142857,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 22,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 68,
+                "id": 1513,
+                "identifier": "_45mm_20KL",
+                "max_ammo": 84,
+                "name": "45 mm 20KL",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -22
+                        ],
+                        [
+                            1,
+                            -22
+                        ]
+                    ]
+                },
+                "price": 2530,
+                "reload_time": 2.2857144,
+                "repair_health": 34,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 772,
+                "visual_model": "vehicles/russian/R34_BT-SV/normal/lod0/Gun_01.model",
+                "weight": 250,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 192,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R34_BT-SV",
+        "name": "BT-SV",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 1040,
+                "identifier": "_71-TK-3A",
+                "name": "71-TK-3",
+                "not_in_shop": true,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R34_BT-SV",
+                "tier": 3,
+                "weight": 100
+            }
+        ],
+        "repair_price": 3.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1513,
+                "icon": "ap",
+                "id": "_45mm_UBR-240A",
+                "min_penetration": 38,
+                "module_damage": 61,
+                "name": "UBR-240A",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1513,
+                "icon": "ap_cr",
+                "id": "_45mm_UBR-240PA",
+                "min_penetration": 45,
+                "module_damage": 61,
+                "name": "UBR-240PA",
+                "penetration": 84,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 956,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 45,
+                "damage": 62,
+                "explosion_radius": 0.43,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1513,
+                "icon": "he",
+                "id": "_45mm_UOF-240A",
+                "min_penetration": 23,
+                "module_damage": 61,
+                "name": "UOF-240A",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "BT-SV",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "bt-sv",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedSuspension_Christie_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.697194,
+        "turret_pos_z": 0.5792,
+        "turret_slots": [
+            {
+                "id": 605,
+                "pos_x": 0,
+                "pos_y": 0.697194,
+                "pos_z": 0.5792,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R34_BT-SV"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/russian/R34_BT-SV/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.240303,
+                "gun_pos_z": 0.5187,
+                "health": 48,
+                "id": 772,
+                "identifier": "BT-SV",
+                "name": "BT-SV",
+                "not_in_shop": true,
+                "price": 3700,
+                "rotation_speed": 39.38,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "R34_BT-SV",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/russian/R34_BT-SV/normal/lod0/Turret_01.model",
+                "weight": 400
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v10000ct",
+        "visual_model": "vehicles/russian/R34_BT-SV/normal/lod0/Hull.model",
+        "weight": 9500,
+        "xp_factor": 1.5
+    }
+}

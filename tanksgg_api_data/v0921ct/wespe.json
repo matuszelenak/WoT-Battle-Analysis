@@ -1,0 +1,660 @@
+{
+    "tank": {
+        "ammo_rack_health": 60,
+        "ammo_rack_repair_health": 30,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 14.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 35
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 14.5,
+        "armor_side": 14.5,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.426,
+        "camo_moving": 0.142,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.284,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 10000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G19_Wespe/collision_client/Chassis.model",
+                "dispersion_movement": 0.44,
+                "dispersion_rotation": 0.44,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.876576,
+                "hull_pos_z": 0,
+                "id": 271,
+                "identifier": "Wespeketten_ausf_A",
+                "max_climb_angle": 25,
+                "max_load": 11000,
+                "name": "Wespe",
+                "not_in_shop": false,
+                "price": 600,
+                "repair_health": 40,
+                "repair_price": 0.5,
+                "rotation_speed": 22,
+                "tank_id": "G19_Wespe",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 2,
+                "visual_model": "vehicles/german/G19_Wespe/normal/lod0/Chassis.model",
+                "weight": 5000
+            },
+            {
+                "armor": 10,
+                "brake_force": 11000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G19_Wespe/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.4,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.876576,
+                "hull_pos_z": 0,
+                "id": 272,
+                "identifier": "Wespeketten_ausf_B",
+                "max_climb_angle": 25,
+                "max_load": 13100,
+                "name": "Wespe verst\u00e4rkteketten",
+                "not_in_shop": false,
+                "price": 1860,
+                "repair_health": 45,
+                "repair_price": 0.5,
+                "rotation_speed": 24,
+                "tank_id": "G19_Wespe",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/german/G19_Wespe/normal/lod0/Chassis.model",
+                "weight": 5000
+            }
+        ],
+        "collision_model": "vehicles/german/G19_Wespe/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Self-propelled gun on the basis of the outdated Pz.Kpfw. II. The vehicle was designed as a mobile artillery unit for armored forces. The armored cabin with the modified 105 mm field howitzer was mounted on the middle and rear parts of the chassis. This SPG was a successful re-use of the outdated chassis. A total of 700 vehicles were built from 1943 through 1944.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 55,
+                "id": 302,
+                "identifier": "Maybach_HL57TR",
+                "name": "Maybach HL 57 TR",
+                "not_in_shop": false,
+                "power": 130,
+                "price": 1120,
+                "repair_health": 27,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "G19_Wespe",
+                "tier": 2,
+                "weight": 540
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 55,
+                "id": 303,
+                "identifier": "Maybach_HL62TR",
+                "name": "Maybach HL 62 TR",
+                "not_in_shop": false,
+                "power": 140,
+                "price": 4220,
+                "repair_health": 27,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "G19_Wespe",
+                "tier": 3,
+                "weight": 550
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 304,
+                "identifier": "Maybach_HL_45P",
+                "name": "Maybach HL 45 P",
+                "not_in_shop": false,
+                "power": 150,
+                "price": 5600,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G19_Wespe",
+                "tier": 3,
+                "weight": 500
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 40,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G19_Wespe/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.8,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.52,
+                "elevation": 42,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 120,
+                "id": 481,
+                "identifier": "_105mm_leFH16_L22",
+                "max_ammo": 32,
+                "name": "10,5 cm le.F.H. 16 L/22",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -42
+                        ],
+                        [
+                            1,
+                            -42
+                        ]
+                    ]
+                },
+                "price": 13900,
+                "reload_time": 20,
+                "repair_health": 60,
+                "repair_price": 8,
+                "rotation_speed": 30.625,
+                "tier": 3,
+                "turret_id": 232,
+                "visual_model": "vehicles/german/G19_Wespe/normal/lod0/Gun_01.model",
+                "weight": 490,
+                "yaw_left": -20,
+                "yaw_right": 20
+            },
+            {
+                "Shells": null,
+                "aim_time": 6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G19_Wespe/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.76,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.48,
+                "elevation": 42,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 150,
+                "id": 482,
+                "identifier": "_105mm_leFH18_L28",
+                "max_ammo": 32,
+                "name": "10,5 cm le.F.H. 18 L/28",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -42
+                        ],
+                        [
+                            1,
+                            -42
+                        ]
+                    ]
+                },
+                "price": 34110,
+                "reload_time": 20,
+                "repair_health": 75,
+                "repair_price": 9,
+                "rotation_speed": 30.625,
+                "tier": 4,
+                "turret_id": 232,
+                "visual_model": "vehicles/german/G19_Wespe/normal/lod0/Gun_02.model",
+                "weight": 585,
+                "yaw_left": -20,
+                "yaw_right": 20
+            }
+        ],
+        "health": 104,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G19_Wespe",
+        "name": "Wespe",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 48000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 295,
+                "identifier": "FuG5",
+                "name": "FuG 5",
+                "not_in_shop": false,
+                "price": 630,
+                "range": 310,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G19_Wespe",
+                "tier": 3,
+                "weight": 50
+            },
+            {
+                "health": 150,
+                "id": 296,
+                "identifier": "FuG_Spr.1",
+                "name": "FuG Spr. 1",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 455,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "G19_Wespe",
+                "tier": 7,
+                "weight": 150
+            }
+        ],
+        "repair_price": 6.12,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 410,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 170,
+                "gun_id": 481,
+                "icon": "he",
+                "id": "_105mm_Sprg_K",
+                "min_penetration": 27,
+                "module_damage": 150,
+                "name": "Sprgr K",
+                "penetration": 27,
+                "penetration_loss": 0,
+                "price": 128,
+                "range": 10000,
+                "speed": 380,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 410,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 170,
+                "gun_id": 482,
+                "icon": "he",
+                "id": "_105mm_Sprg_K",
+                "min_penetration": 26,
+                "module_damage": 150,
+                "name": "Sprgr K",
+                "penetration": 26,
+                "penetration_loss": 0,
+                "price": 128,
+                "range": 10000,
+                "speed": 410,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Wespe",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "wespe",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "enhancedSprings_user"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0.0001,
+        "turret_pos_y": 0.287191,
+        "turret_pos_z": -0.72731,
+        "turret_slots": [
+            {
+                "id": 176,
+                "pos_x": 0.0001,
+                "pos_y": 0.287191,
+                "pos_z": -0.72731,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G19_Wespe"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G19_Wespe/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.008033,
+                "gun_pos_y": 0.827437,
+                "gun_pos_z": -0.224642,
+                "health": 26,
+                "id": 232,
+                "identifier": "Wespeturm",
+                "name": "Wespe",
+                "not_in_shop": true,
+                "price": 150,
+                "rotation_speed": 16,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "G19_Wespe",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 250,
+                "visual_model": "vehicles/german/G19_Wespe/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Wespeketten_ausf_B",
+                "name": "Wespeketten_ausf_B",
+                "parent_key": "chassis-Wespeketten_ausf_A",
+                "price": 345,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_105mm_leFH18_L28",
+                "name": "_105mm_leFH18_L28",
+                "parent_key": "gun-_105mm_leFH16_L22",
+                "price": 2400,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Maybach_HL62TR",
+                "name": "Maybach_HL62TR",
+                "parent_key": "engine-Maybach_HL57TR",
+                "price": 145,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Maybach_HL_45P",
+                "name": "Maybach_HL_45P",
+                "parent_key": "engine-Maybach_HL62TR",
+                "price": 380,
+                "type": "engine"
+            },
+            {
+                "key": "vehicle-G95_Pz_Sfl_IVb",
+                "name": "G95_Pz_Sfl_IVb",
+                "parent_key": "engine-Maybach_HL_45P",
+                "price": 4740,
+                "tank_name": "Pz.Sfl. IVb",
+                "tank_price": 150000,
+                "tank_slug": "pzsfl-ivb",
+                "tank_tier": 4,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-FuG_Spr.1",
+                "name": "FuG_Spr.1",
+                "parent_key": "radio-FuG5",
+                "price": 3600,
+                "type": "radio"
+            }
+        ],
+        "version": "v0921ct",
+        "visual_model": "vehicles/german/G19_Wespe/normal/lod0/Hull.model",
+        "weight": 4515,
+        "xp_factor": 1
+    }
+}

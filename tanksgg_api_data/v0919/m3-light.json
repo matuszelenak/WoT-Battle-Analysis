@@ -1,0 +1,476 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 38
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 44
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 38,
+        "armor_rear": 25,
+        "armor_side": 25,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.401,
+        "camo_moving": 0.267,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.267,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R67_M3_LL/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.809992,
+                "hull_pos_z": 0,
+                "id": 936,
+                "identifier": "chassisE1_LL",
+                "max_climb_angle": 25,
+                "max_load": 12500,
+                "name": "Stuart E1",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "R67_M3_LL",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.26,
+                "terrain_soft": 2.29,
+                "tier": 2,
+                "visual_model": "vehicles/russian/R67_M3_LL/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/russian/R67_M3_LL/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "The most famous light tank of World War II, with a total of 13,859 vehicles manufactured from 1941 through September 1943. 1,576 tanks (mostly of the M3A1 version) were supplied to the U.S.S.R. under Lend-Lease, and many more to the British.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 1033,
+                "identifier": "Continental_W-670_LL",
+                "name": "Continental W-670",
+                "not_in_shop": true,
+                "power": 268,
+                "price": 8610,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R67_M3_LL",
+                "tier": 4,
+                "weight": 256
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 61,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 850,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R67_M3_LL/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.457143,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 51
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 38
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 0
+                    }
+                ],
+                "health": 60,
+                "id": 1619,
+                "identifier": "_37mm_M-5_LL",
+                "max_ammo": 103,
+                "name": "37 mm M5",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.325227,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            5
+                        ],
+                        [
+                            0.611111,
+                            5
+                        ],
+                        [
+                            0.674773,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 1950,
+                "reload_time": 2.5,
+                "repair_health": 30,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 798,
+                "visual_model": "vehicles/russian/R67_M3_LL/normal/lod0/Gun_01.model",
+                "weight": 78,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 176,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R67_M3_LL",
+        "name": "M3 Light",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 110,
+                "id": 1080,
+                "identifier": "SCR_209",
+                "name": "SCR 209",
+                "not_in_shop": true,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "R67_M3_LL",
+                "tier": 4,
+                "weight": 80
+            }
+        ],
+        "repair_price": 3.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1619,
+                "icon": "ap",
+                "id": "_37mm_AP_M74_LL",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "M74",
+                "penetration": 48,
+                "penetration_loss": 0,
+                "price": 18,
+                "range": 720,
+                "speed": 765,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1619,
+                "icon": "ap_cr",
+                "id": "_37mm_APC_M51_LL",
+                "min_penetration": 61,
+                "module_damage": 50,
+                "name": "M51",
+                "penetration": 70,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 956,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1619,
+                "icon": "he",
+                "id": "_37mm_HE_M63_LL",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "M63",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 765,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M3 Light",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m3-light",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "lendLeaseVehicle"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 1.1e-05,
+        "turret_pos_y": 0.903535,
+        "turret_pos_z": 0.193059,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 38,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/russian/R67_M3_LL/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 38
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": -1.1e-05,
+                "gun_pos_y": 0.239607,
+                "gun_pos_z": 0.66352,
+                "health": 44,
+                "id": 798,
+                "identifier": "D37812_LL",
+                "name": "D37812",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 40.25,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "R67_M3_LL",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/russian/R67_M3_LL/normal/lod0/Turret_01.model",
+                "weight": 1250
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0919",
+        "visual_model": "vehicles/russian/R67_M3_LL/normal/lod0/Hull.model",
+        "weight": 7100,
+        "xp_factor": 1.5
+    }
+}

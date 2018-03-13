@@ -1,0 +1,650 @@
+{
+    "tank": {
+        "ammo_rack_health": 70,
+        "ammo_rack_repair_health": 48,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 6.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 6.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 6.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 6.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 6.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 6.35
+            }
+        ],
+        "armor_front": 6.35,
+        "armor_rear": 6.35,
+        "armor_side": 6.35,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.212,
+        "camo_moving": 0.106,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.2,
+        "camo_still": 0.141,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 12000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB01_Medium_Mark_I/collision_client/Chassis.model",
+                "dispersion_movement": 0.36,
+                "dispersion_rotation": 0.36,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 530,
+                "identifier": "Chassis_GB01_Medium_Mark_I_2",
+                "max_climb_angle": 25,
+                "max_load": 13200,
+                "name": "Vickers Medium Mk. IA*",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 35,
+                "tank_id": "GB01_Medium_Mark_I",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.2,
+                "tier": 1,
+                "visual_model": "vehicles/british/GB01_Medium_Mark_I/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/british/GB01_Medium_Mark_I/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The first British tank to carry the gun in a rotating turret. Vickers started development in 1922, and several dozen vehicles were produced from 1923 through 1925. Remained in service from 1924 through 1938.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 32,
+                "id": 583,
+                "identifier": "Vickers-Armstrong",
+                "name": "Armstrong Siddeley V8",
+                "not_in_shop": false,
+                "power": 90,
+                "price": 0,
+                "repair_health": 15,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "GB01_Medium_Mark_I",
+                "tier": 1,
+                "weight": 200
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 24,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB01_Medium_Mark_I/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 64,
+                "id": 900,
+                "identifier": "_3pdr_gun_Hotchkiss",
+                "max_ammo": 90,
+                "name": "OQF 3-pdr Gun Mk. I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 4.5,
+                "repair_health": 32,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 445,
+                "visual_model": "vehicles/british/GB01_Medium_Mark_I/normal/lod0/Gun_01.model",
+                "weight": 240,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB01_Medium_Mark_I/collision_client/Gun_06.model",
+                "depression": 7,
+                "dispersion": 0.52,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 84,
+                "id": 901,
+                "identifier": "QF_6_pounder_8cwt_Mk_II",
+                "max_ammo": 60,
+                "name": "QF 6-pdr 8 cwt Mk. II",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 3000,
+                "reload_time": 4.5,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 445,
+                "visual_model": "vehicles/british/GB01_Medium_Mark_I/normal/lod0/Gun_06.model",
+                "weight": 300,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 112,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB01_Medium_Mark_I",
+        "name": "Vickers Medium Mk. I",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 50,
+                "id": 618,
+                "identifier": "N14",
+                "name": "WS No. 14",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 250,
+                "repair_health": 30,
+                "repair_price": 0.5,
+                "tank_id": "GB01_Medium_Mark_I",
+                "tier": 2,
+                "weight": 40
+            }
+        ],
+        "repair_price": 0,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 900,
+                "icon": "ap",
+                "id": "_47mm_3pdrAP",
+                "min_penetration": 28,
+                "module_damage": 64,
+                "name": "QF AP Mk. IIIT",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 574,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 900,
+                "icon": "ap_cr",
+                "id": "_47mm_3pdrAPCR",
+                "min_penetration": 44,
+                "module_damage": 64,
+                "name": "QF APDS Mk. I",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 718,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 65,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 900,
+                "icon": "he",
+                "id": "_47mm_3pdrHE",
+                "min_penetration": 23,
+                "module_damage": 64,
+                "name": "QF HE Mk. IT",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 574,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 901,
+                "icon": "ap",
+                "id": "_6pdr_AP_Steel_HSCT",
+                "min_penetration": 32,
+                "module_damage": 76,
+                "name": "Steel Shell HSCT",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 459,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 901,
+                "icon": "ap",
+                "id": "_6pdr_AP_Steel_NF",
+                "min_penetration": 45,
+                "module_damage": 76,
+                "name": "Steel Shell NF",
+                "penetration": 57,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 574,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 901,
+                "icon": "he",
+                "id": "_6pdr_HE_Common",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "Common Shell",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 22,
+                "range": 720,
+                "speed": 459,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Medium I",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "medium-i",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "lightTankArtefacts_User"
+            },
+            {
+                "name": "enhancedVertical_elastic_elements_user"
+            }
+        ],
+        "tier": 1,
+        "turret_pos_x": 0.000209,
+        "turret_pos_y": 1.148,
+        "turret_pos_z": -0.524262,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 6.35,
+                "armor_rear": 6.35,
+                "armor_side": 6.35,
+                "collision_model": "vehicles/british/GB01_Medium_Mark_I/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 6.35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 6.35
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.3577,
+                "gun_pos_z": 0.6059,
+                "health": 28,
+                "id": 445,
+                "identifier": "Turret_1_GB01_Medium_Mark_I",
+                "name": "Vickers Medium Mk. I",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 32,
+                "rotator_health": 50,
+                "rotator_repair_health": 25,
+                "rotator_repair_price": 1,
+                "surveyor_health": 30,
+                "surveyor_repair_health": 15,
+                "surveyor_repair_price": 2,
+                "tank_id": "GB01_Medium_Mark_I",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/british/GB01_Medium_Mark_I/normal/lod0/Turret_01.model",
+                "weight": 1360
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "gun-QF_6_pounder_8cwt_Mk_II",
+                "name": "QF_6_pounder_8cwt_Mk_II",
+                "parent_key": "gun-_3pdr_gun_Hotchkiss",
+                "price": 90,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB58_Cruiser_Mk_III",
+                "name": "GB58_Cruiser_Mk_III",
+                "parent_key": "gun-QF_6_pounder_8cwt_Mk_II",
+                "price": 220,
+                "tank_name": "Cruiser III",
+                "tank_price": 3800,
+                "tank_slug": "cruiser-iii",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-GB39_Universal_CarrierQF2",
+                "name": "GB39_Universal_CarrierQF2",
+                "parent_key": "gun-QF_6_pounder_8cwt_Mk_II",
+                "price": 220,
+                "tank_name": "UC 2-pdr",
+                "tank_price": 3900,
+                "tank_slug": "uc-2-pdr",
+                "tank_tier": 2,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-GB05_Vickers_Medium_Mk_II",
+                "name": "GB05_Vickers_Medium_Mk_II",
+                "parent_key": "gun-QF_6_pounder_8cwt_Mk_II",
+                "price": 220,
+                "tank_name": "Medium II",
+                "tank_price": 3500,
+                "tank_slug": "medium-ii",
+                "tank_tier": 2,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-GB14_M2",
+                "name": "GB14_M2",
+                "parent_key": "gun-QF_6_pounder_8cwt_Mk_II",
+                "price": 220,
+                "tank_name": "M2",
+                "tank_price": 3800,
+                "tank_slug": "m2",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-GB03_Cruiser_Mk_I",
+                "name": "GB03_Cruiser_Mk_I",
+                "parent_key": "gun-QF_6_pounder_8cwt_Mk_II",
+                "price": 220,
+                "tank_name": "Cruiser I",
+                "tank_price": 3000,
+                "tank_slug": "cruiser-i",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-GB25_Loyd_Gun_Carriage",
+                "name": "GB25_Loyd_Gun_Carriage",
+                "parent_key": "gun-QF_6_pounder_8cwt_Mk_II",
+                "price": 220,
+                "tank_name": "Loyd GC",
+                "tank_price": 3900,
+                "tank_slug": "loyd-gc",
+                "tank_tier": 2,
+                "tank_type": "spg",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v0919",
+        "visual_model": "vehicles/british/GB01_Medium_Mark_I/normal/lod0/Hull.model",
+        "weight": 6750,
+        "xp_factor": 1
+    }
+}

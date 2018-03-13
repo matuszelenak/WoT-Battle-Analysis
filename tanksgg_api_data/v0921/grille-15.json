@@ -1,0 +1,441 @@
+{
+    "tank": {
+        "ammo_rack_health": 280,
+        "ammo_rack_repair_health": 190,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 20,
+        "armor_side": 16,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.207,
+        "camo_moving": 0.083,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 2,
+        "camo_still": 0.138,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 40000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G121_Grille_15_L63/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 300,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.18466,
+                "hull_pos_z": 0,
+                "id": 226,
+                "identifier": "Chassis_G121_Grille_15_L63",
+                "max_climb_angle": 25,
+                "max_load": 45000,
+                "name": "Grille 15",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 225,
+                "repair_price": 5,
+                "rotation_speed": 24,
+                "tank_id": "G121_Grille_15_L63",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2,
+                "tier": 10,
+                "visual_model": "vehicles/german/G121_Grille_15_L63/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/german/G121_Grille_15_L63/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In the summer of 1942, Waffenamt (the German Army Weapon Agency) concluded an agreement with the Krupp and Rheinmetall companies for designing a tank destroyer on the chassis of the Panther tank. It was planned to mount either the 128-mm K 43 gun or the 150-mm sFH 43 howitzer. The projects were designated Grille 12 and Grille 15, featured rear placement of the fighting compartment, and differed only in the artillery system type. Later, the Grille 15 received a 150-mm gun with a length of 63 calibers, which could penetrate 200 mm of armor at 4,000 meters. However, development was slow, and the Grille 15 remained only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 360,
+                "id": 246,
+                "identifier": "Maybach_HL_234",
+                "name": "Maybach NL 234",
+                "not_in_shop": true,
+                "power": 850,
+                "price": 120000,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "G121_Grille_15_L63",
+                "tier": 10,
+                "weight": 1200
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 60,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G121_Grille_15_L63/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.27,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.4,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 230,
+                "id": 372,
+                "identifier": "_150mm_Pak_L63",
+                "max_ammo": 30,
+                "name": "15 cm Pak L/63",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 340000,
+                "reload_time": 18,
+                "repair_health": 115,
+                "repair_price": 10,
+                "rotation_speed": 20,
+                "tier": 10,
+                "turret_id": 191,
+                "visual_model": "vehicles/german/G121_Grille_15_L63/normal/lod0/Gun_01.model",
+                "weight": 6300,
+                "yaw_left": -50,
+                "yaw_right": 50
+            }
+        ],
+        "health": 1440,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G121_Grille_15_L63",
+        "name": "Grille 15",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 239,
+                "identifier": "_10WSc",
+                "name": "10WSc",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 720,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "G121_Grille_15_L63",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 10.5,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 150,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 372,
+                "icon": "ap",
+                "id": "_150mm_Pzgr",
+                "min_penetration": 270,
+                "module_damage": 203,
+                "name": "Pzgr.",
+                "penetration": 279,
+                "penetration_loss": 0,
+                "price": 1680,
+                "range": 720,
+                "speed": 1200,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 150,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 15,
+                "gravity": 9.81,
+                "gun_id": 372,
+                "icon": "hc",
+                "id": "_150mm_Gr_HL",
+                "min_penetration": 334,
+                "module_damage": 203,
+                "name": "Gr. HL",
+                "penetration": 334,
+                "penetration_loss": 0.05,
+                "price": 6000,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 150,
+                "damage": 950,
+                "explosion_radius": 3.57,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 372,
+                "icon": "he",
+                "id": "_150mm_Sprgr",
+                "min_penetration": 75,
+                "module_damage": 203,
+                "name": "Sprgr.",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 1140,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Grille 15",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "grille-15",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "AT-SPG1"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.379761,
+        "turret_pos_z": -1.48536,
+        "turret_slots": [
+            {
+                "id": 149,
+                "pos_x": 0,
+                "pos_y": 0.379761,
+                "pos_z": -1.48536,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G121_Grille_15_L63"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 20,
+                "armor_rear": 0,
+                "armor_side": 14.5,
+                "collision_model": "vehicles/german/G121_Grille_15_L63/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 14.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.938655,
+                "gun_pos_z": -0.397613,
+                "health": 360,
+                "id": 191,
+                "identifier": "Turret_1_G121_Grille_15_L63",
+                "name": "Grille 15",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 20,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 2,
+                "tank_id": "G121_Grille_15_L63",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/german/G121_Grille_15_L63/normal/lod0/Turret_01.model",
+                "weight": 3000
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v0921",
+        "visual_model": "vehicles/german/G121_Grille_15_L63/normal/lod0/Hull.model",
+        "weight": 17040,
+        "xp_factor": 1
+    }
+}

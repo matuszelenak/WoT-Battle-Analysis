@@ -1,0 +1,466 @@
+{
+    "tank": {
+        "ammo_rack_health": 90,
+        "ammo_rack_repair_health": 60,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 6
+            }
+        ],
+        "armor_front": 20,
+        "armor_rear": 13,
+        "armor_side": 19,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.413,
+        "camo_moving": 0.206,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.275,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 15000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R105_BT_7A/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.841935,
+                "hull_pos_z": 0,
+                "id": 839,
+                "identifier": "Chassis_R105_BT_7A",
+                "max_climb_angle": 25,
+                "max_load": 14800,
+                "name": "BT-7 art.",
+                "not_in_shop": true,
+                "price": 2000,
+                "repair_health": 55,
+                "repair_price": 2.5,
+                "rotation_speed": 46,
+                "tank_id": "R105_BT_7A",
+                "terrain_hard": 0.8,
+                "terrain_medium": 1,
+                "terrain_soft": 1.9,
+                "tier": 3,
+                "visual_model": "vehicles/russian/R105_BT_7A/normal/lod0/Chassis.model",
+                "weight": 4000
+            }
+        ],
+        "collision_model": "vehicles/russian/R105_BT_7A/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            }
+        ],
+        "description": "In 1934\u20131935 the design bureau of the Kharkov Locomotive Factory developed this artillery modification of the BT-7. The new elliptical turret was equipped with the 76.2-mm CT-28 gun. In addition, some vehicles received new radio stations. A total of 155 artillery BT-7s were manufactured. The vehicles saw combat on the Karelian Isthmus, in Manchuria, and during the first period of the Great Patriotic War.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 90,
+                "id": 928,
+                "identifier": "M-17FA",
+                "name": "M-17T",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 13460,
+                "repair_health": 44,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R105_BT_7A",
+                "tier": 4,
+                "weight": 610
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 51.6,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 5,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R105_BT_7A/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.6,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 82,
+                "id": 1410,
+                "identifier": "_76mm_KT-28A",
+                "max_ammo": 40,
+                "name": "76 mm KT-28",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.444444,
+                            4
+                        ],
+                        [
+                            0.555556,
+                            4
+                        ],
+                        [
+                            0.569445,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 3580,
+                "reload_time": 4.8,
+                "repair_health": 41,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 719,
+                "visual_model": "vehicles/russian/R105_BT_7A/normal/lod0/Gun_01.model",
+                "weight": 540,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 176,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R105_BT_7A",
+        "name": "BT-7 artillery",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 973,
+                "identifier": "_71-TK-3A",
+                "name": "71-TK-3",
+                "not_in_shop": true,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R105_BT_7A",
+                "tier": 3,
+                "weight": 100
+            }
+        ],
+        "repair_price": 2.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 164,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1410,
+                "icon": "he",
+                "id": "_76mm_UOF-354K",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354K",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 381,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1410,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KA",
+                "min_penetration": 31,
+                "module_damage": 105,
+                "name": "UBR-354KA",
+                "penetration": 37,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 381,
+                "type": "ARMOR_PIERCING"
+            }
+        ],
+        "short_name": "BT-7 art.",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "bt-7-art",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedSuspension_Christie_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.696765,
+        "turret_pos_z": 0.5629,
+        "turret_slots": [
+            {
+                "id": 558,
+                "pos_x": 0,
+                "pos_y": 0.696765,
+                "pos_z": 0.5629,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R105_BT_7A"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 15,
+                "armor_rear": 13,
+                "armor_side": 15,
+                "collision_model": "vehicles/russian/R105_BT_7A/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.3635,
+                "gun_pos_z": 0.4702,
+                "health": 44,
+                "id": 719,
+                "identifier": "Turret_1_R105_BT_7A",
+                "name": "BT-7 art.",
+                "not_in_shop": true,
+                "price": 2000,
+                "rotation_speed": 40,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "R105_BT_7A",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 290,
+                "visual_model": "vehicles/russian/R105_BT_7A/normal/lod0/Turret_01.model",
+                "weight": 1200
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0921",
+        "visual_model": "vehicles/russian/R105_BT_7A/normal/lod0/Hull.model",
+        "weight": 6850,
+        "xp_factor": 1.5
+    }
+}

@@ -1,0 +1,1088 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 51
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 38
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 38
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 38
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "commander",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "gunner_1",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "driver",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "loader_1",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "loader_2",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 51,
+        "armor_rear": 38,
+        "armor_side": 38,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.552,
+        "camo_moving": 0.221,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.368,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A29_T40/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.01619,
+                "hull_pos_z": 0,
+                "id": 735,
+                "identifier": "Chassis_T40",
+                "max_climb_angle": 25,
+                "max_load": 22500,
+                "name": "T40T41",
+                "not_in_shop": false,
+                "price": 1850,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "A29_T40",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.7,
+                "terrain_soft": 2.5,
+                "tier": 3,
+                "visual_model": "vehicles/american/A29_T40/normal/lod0/Chassis.model",
+                "weight": 6200
+            },
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A29_T40/collision_client/Chassis.model",
+                "dispersion_movement": 0.23,
+                "dispersion_rotation": 0.23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.01619,
+                "hull_pos_z": 0,
+                "id": 736,
+                "identifier": "Chassis_T40_2",
+                "max_climb_angle": 25,
+                "max_load": 24000,
+                "name": "T40T48",
+                "not_in_shop": false,
+                "price": 4500,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "A29_T40",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 4,
+                "visual_model": "vehicles/american/A29_T40/normal/lod0/Chassis.model",
+                "weight": 6200
+            }
+        ],
+        "collision_model": "vehicles/american/A29_T40/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Experimental tank destroyer developed on the basis of the M3 tank in the spring of 1942. The vehicle never entered mass production, nor saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 156,
+                "id": 816,
+                "identifier": "Wright_R-975EC2",
+                "name": "Wright R-975EC2",
+                "not_in_shop": false,
+                "power": 400,
+                "price": 11600,
+                "repair_health": 78,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A29_T40",
+                "tier": 4,
+                "weight": 515
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 817,
+                "identifier": "Crysler_A57",
+                "name": "Chrysler A57",
+                "not_in_shop": false,
+                "power": 440,
+                "price": 13900,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A29_T40",
+                "tier": 5,
+                "weight": 570
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 38,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A29_T40/collision_client/Gun_01.model",
+                "depression": 2,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 19
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 104,
+                "id": 1256,
+                "identifier": "_75mm_Howitzer_M1A1",
+                "max_ammo": 98,
+                "name": "75 mm AT Howitzer M1A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 26000,
+                "reload_time": 3.7,
+                "repair_health": 52,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 623,
+                "visual_model": "vehicles/american/A29_T40/normal/lod0/Gun_01.model",
+                "weight": 138,
+                "yaw_left": -22,
+                "yaw_right": 35
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A29_T40/collision_client/Gun_03.model",
+                "depression": 1,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 19
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 118,
+                "id": 1257,
+                "identifier": "_76mm_AT_Gun_M1918",
+                "max_ammo": 98,
+                "name": "3-inch AT Gun M1918",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            1
+                        ],
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 27300,
+                "reload_time": 3.7,
+                "repair_health": 59,
+                "repair_price": 4,
+                "rotation_speed": 35,
+                "tier": 4,
+                "turret_id": 623,
+                "visual_model": "vehicles/american/A29_T40/normal/lod0/Gun_03.model",
+                "weight": 900,
+                "yaw_left": -22,
+                "yaw_right": 35
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A29_T40/collision_client/Gun_04.model",
+                "depression": 3.5,
+                "dispersion": 0.55,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 19
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 150,
+                "id": 1258,
+                "identifier": "_105mm_AT_Howitzer_M3",
+                "max_ammo": 50,
+                "name": "105 mm AT Howitzer M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3.5
+                        ],
+                        [
+                            1,
+                            3.5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 40150,
+                "reload_time": 8,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 30.625,
+                "tier": 5,
+                "turret_id": 623,
+                "visual_model": "vehicles/american/A29_T40/normal/lod0/Gun_04.model",
+                "weight": 2100,
+                "yaw_left": -22,
+                "yaw_right": 35
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A29_T40/collision_client/Gun_02.model",
+                "depression": 2.5,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 104,
+                "id": 1259,
+                "identifier": "_57mm_Gun_M1_L50",
+                "max_ammo": 126,
+                "name": "57 mm Gun M1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2.5
+                        ],
+                        [
+                            1,
+                            2.5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 33000,
+                "reload_time": 2.3,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 623,
+                "visual_model": "vehicles/american/A29_T40/normal/lod0/Gun_02.model",
+                "weight": 400,
+                "yaw_left": -22,
+                "yaw_right": 35
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A29_T40/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 19
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 120,
+                "id": 1260,
+                "identifier": "_76mm_AT_Gun_M1A1",
+                "max_ammo": 68,
+                "name": "76 mm AT Gun M1A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 50330,
+                "reload_time": 3.7,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 623,
+                "visual_model": "vehicles/american/A29_T40/normal/lod0/Gun_05.model",
+                "weight": 1567,
+                "yaw_left": -22,
+                "yaw_right": 35
+            }
+        ],
+        "health": 220,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A29_T40",
+        "name": "T40",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 125000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 867,
+                "identifier": "SCR_200",
+                "name": "SCR 200",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 265,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "A29_T40",
+                "tier": 2,
+                "weight": 40
+            },
+            {
+                "health": 110,
+                "id": 868,
+                "identifier": "SCR_210",
+                "name": "SCR 210",
+                "not_in_shop": false,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "A29_T40",
+                "tier": 4,
+                "weight": 80
+            },
+            {
+                "health": 200,
+                "id": 869,
+                "identifier": "SCR_506",
+                "name": "SCR 506",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 615,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A29_T40",
+                "tier": 9,
+                "weight": 110
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1256,
+                "icon": "he",
+                "id": "_75mm_M48",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 381,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1256,
+                "icon": "hc",
+                "id": "_75mm_HEAT_M66",
+                "min_penetration": 91.4,
+                "module_damage": 100,
+                "name": "HEAT M66",
+                "penetration": 91.4,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 305,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1257,
+                "icon": "ap",
+                "id": "_76mm_M64",
+                "min_penetration": 84,
+                "module_damage": 105,
+                "name": "M64",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 130,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1257,
+                "icon": "hc",
+                "id": "_76mm_HEAT",
+                "min_penetration": 100,
+                "module_damage": 105,
+                "name": "HEAT",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 634,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 170,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1257,
+                "icon": "he",
+                "id": "_76mm_HE_M42B1",
+                "min_penetration": 42,
+                "module_damage": 105,
+                "name": "HE M42B1",
+                "penetration": 42,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 410,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1258,
+                "icon": "he",
+                "id": "_105mm_HE_M1",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "HE M1",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 166,
+                "range": 720,
+                "speed": 311,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 1258,
+                "icon": "hc",
+                "id": "_105mm_HEAT_M67",
+                "min_penetration": 101.6,
+                "module_damage": 150,
+                "name": "HEAT M67",
+                "penetration": 101.6,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 249,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1259,
+                "icon": "ap",
+                "id": "_57mm_AP_M70",
+                "min_penetration": 93,
+                "module_damage": 76,
+                "name": "AP M70",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 50,
+                "range": 720,
+                "speed": 823,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1259,
+                "icon": "ap_cr",
+                "id": "_57mm_APC_M86",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APC M86",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1029,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1259,
+                "icon": "he",
+                "id": "_57mm_HE_T18",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "HE T18",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 823,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1260,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1260,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1260,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T40",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t40",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "enhancedVertical_springs_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0.200058,
+        "turret_pos_y": 0.530004,
+        "turret_pos_z": 0.47085,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A29_T40/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 19
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.018058,
+                "gun_pos_y": 0.53749,
+                "gun_pos_z": -0.44959,
+                "health": 55,
+                "id": 623,
+                "identifier": "Turret_1_T40",
+                "name": "T40",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "A29_T40",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/american/A29_T40/normal/lod0/Turret_01.model",
+                "weight": 170
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_T40_2",
+                "name": "Chassis_T40_2",
+                "parent_key": "chassis-Chassis_T40",
+                "price": 1100,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_76mm_AT_Gun_M1918",
+                "name": "_76mm_AT_Gun_M1918",
+                "parent_key": "gun-_75mm_Howitzer_M1A1",
+                "price": 1500,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_105mm_AT_Howitzer_M3",
+                "name": "_105mm_AT_Howitzer_M3",
+                "parent_key": "gun-_75mm_Howitzer_M1A1",
+                "price": 3850,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_57mm_Gun_M1_L50",
+                "name": "_57mm_Gun_M1_L50",
+                "parent_key": "gun-_75mm_Howitzer_M1A1",
+                "price": 2350,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A30_M10_Wolverine",
+                "name": "A30_M10_Wolverine",
+                "parent_key": "gun-_76mm_AT_Gun_M1918",
+                "price": 14430,
+                "tank_name": "Wolverine",
+                "tank_price": 415000,
+                "tank_slug": "wolverine",
+                "tank_tier": 5,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-_76mm_AT_Gun_M1A1",
+                "name": "_76mm_AT_Gun_M1A1",
+                "parent_key": "gun-_76mm_AT_Gun_M1918",
+                "price": 4600,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Crysler_A57",
+                "name": "Crysler_A57",
+                "parent_key": "engine-Wright_R-975EC2",
+                "price": 1500,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_210",
+                "name": "SCR_210",
+                "parent_key": "radio-SCR_200",
+                "price": 330,
+                "type": "radio"
+            },
+            {
+                "key": "radio-SCR_506",
+                "name": "SCR_506",
+                "parent_key": "radio-SCR_210",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919ct",
+        "visual_model": "vehicles/american/A29_T40/normal/lod0/Hull.model",
+        "weight": 13000,
+        "xp_factor": 1
+    }
+}

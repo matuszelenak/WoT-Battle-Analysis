@@ -1,0 +1,875 @@
+{
+    "tank": {
+        "ammo_rack_health": 125,
+        "ammo_rack_repair_health": 85,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 15,
+        "armor_side": 10,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.576,
+        "camo_moving": 0.384,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.384,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 25000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F62_ELC_AMX/collision_client/Chassis.model",
+                "dispersion_movement": 0.27,
+                "dispersion_rotation": 0.27,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.733714,
+                "hull_pos_z": 0,
+                "id": 83,
+                "identifier": "Chassis_ELC_AMX",
+                "max_climb_angle": 25,
+                "max_load": 7300,
+                "name": "AMX ELC",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 80,
+                "repair_price": 1,
+                "rotation_speed": 36,
+                "tank_id": "F62_ELC_AMX",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.6,
+                "tier": 4,
+                "visual_model": "vehicles/french/F62_ELC_AMX/normal/lod0/Chassis.model",
+                "weight": 1500
+            },
+            {
+                "armor": 10,
+                "brake_force": 25000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F62_ELC_AMX/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.733714,
+                "hull_pos_z": 0,
+                "id": 84,
+                "identifier": "Chassis_ELC_AMX_2",
+                "max_climb_angle": 25,
+                "max_load": 7950,
+                "name": "AMX ELC bis",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "F62_ELC_AMX",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.4,
+                "tier": 5,
+                "visual_model": "vehicles/french/F62_ELC_AMX/normal/lod0/Chassis.model",
+                "weight": 1500
+            }
+        ],
+        "collision_model": "vehicles/french/F62_ELC_AMX/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Developed from 1957 through 1961 to provide French airborne troops with an air-transportable vehicle that could engage heavy tanks. The vehicle mounted a 90-mm gun and had a very low silhouette. The two crew members were seated in the turret, which could turn through 360 degrees, but only when the vehicle was not moving. Variants with different guns were planned. Only one prototype was manufactured. The vehicle never saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 82,
+                "id": 96,
+                "identifier": "Sovam_de_150cv",
+                "name": "SOFAM de 150 cv",
+                "not_in_shop": false,
+                "power": 150,
+                "price": 700,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "F62_ELC_AMX",
+                "tier": 4,
+                "weight": 340
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 160,
+                "id": 97,
+                "identifier": "SOFAM_8Gxb",
+                "name": "SOFAM 8 Gxb",
+                "not_in_shop": false,
+                "power": 250,
+                "price": 16000,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F62_ELC_AMX",
+                "tier": 5,
+                "weight": 400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 65,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F62_ELC_AMX/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "id": 168,
+                "identifier": "_75mm_SA32",
+                "max_ammo": 60,
+                "name": "75 mm SA32",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 10360,
+                "reload_time": 4.3,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 4,
+                "turret_id": 81,
+                "visual_model": "vehicles/french/F62_ELC_AMX/normal/lod0/Gun_01.model",
+                "weight": 1520,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F62_ELC_AMX/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 169,
+                "identifier": "_75mm_Long_44",
+                "max_ammo": 48,
+                "name": "75 mm SA44",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 27000,
+                "reload_time": 4.3,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 81,
+                "visual_model": "vehicles/french/F62_ELC_AMX/normal/lod0/Gun_02.model",
+                "weight": 1400,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F62_ELC_AMX/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.2,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 140,
+                "id": 170,
+                "identifier": "_90mm_D914",
+                "max_ammo": 36,
+                "name": "90 mm D. 915",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 61000,
+                "reload_time": 12,
+                "repair_health": 70,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 81,
+                "visual_model": "vehicles/french/F62_ELC_AMX/normal/lod0/Gun_03.model",
+                "weight": 1560,
+                "yaw_left": -15,
+                "yaw_right": 15
+            }
+        ],
+        "health": 320,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F62_ELC_AMX",
+        "name": "AMX ELC bis",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 315000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 88,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F62_ELC_AMX",
+                "tier": 2,
+                "weight": 100
+            },
+            {
+                "health": 140,
+                "id": 89,
+                "identifier": "ER_53",
+                "name": "ER 53",
+                "not_in_shop": false,
+                "price": 3650,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "F62_ELC_AMX",
+                "tier": 5,
+                "weight": 100
+            }
+        ],
+        "repair_price": 6.7,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 168,
+                "icon": "ap",
+                "id": "_75mm_Odr_mle.1910",
+                "min_penetration": 64,
+                "module_damage": 100,
+                "name": "ODR mle. 1910",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 46,
+                "range": 720,
+                "speed": 600,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 168,
+                "icon": "hc",
+                "id": "_75mm_OCO_mle._1926",
+                "min_penetration": 91.4,
+                "module_damage": 100,
+                "name": "OCO mle. 1926",
+                "penetration": 91.4,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 480,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 168,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1915",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1915",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 600,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 169,
+                "icon": "ap",
+                "id": "_75mm_Prf1926",
+                "min_penetration": 93,
+                "module_damage": 100,
+                "name": "Prf. mle. 1926",
+                "penetration": 100,
+                "penetration_loss": 0,
+                "price": 70,
+                "range": 720,
+                "speed": 735,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 169,
+                "icon": "ap_cr",
+                "id": "_75mm_FrtPrf1940",
+                "min_penetration": 110,
+                "module_damage": 100,
+                "name": "Frt.Prf. mle. 1940",
+                "penetration": 129,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 919,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 169,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1915",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1915",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 735,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 170,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 145,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 170,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 224,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1163,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 170,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AMX ELC bis",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-elc-bis",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.341887,
+        "turret_pos_z": -0.4833,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 20,
+                "armor_rear": 10,
+                "armor_side": 15,
+                "collision_model": "vehicles/french/F62_ELC_AMX/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 15
+                    }
+                ],
+                "gun_pos_x": -0.061222,
+                "gun_pos_y": 0.235707,
+                "gun_pos_z": 0.878078,
+                "health": 80,
+                "id": 81,
+                "identifier": "Turret_1_ELC_AMX",
+                "name": "AMX ELC bis",
+                "not_in_shop": true,
+                "price": 4800,
+                "rotation_speed": 44,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "F62_ELC_AMX",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/french/F62_ELC_AMX/normal/lod0/Turret_01.model",
+                "weight": 500
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_ELC_AMX_2",
+                "name": "Chassis_ELC_AMX_2",
+                "parent_key": "chassis-Chassis_ELC_AMX",
+                "price": 2420,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_Long_44",
+                "name": "_75mm_Long_44",
+                "parent_key": "gun-_75mm_SA32",
+                "price": 2700,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_90mm_D914",
+                "name": "_90mm_D914",
+                "parent_key": "gun-_75mm_Long_44",
+                "price": 3880,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F15_AMX_12t",
+                "name": "F15_AMX_12t",
+                "parent_key": "gun-_90mm_D914",
+                "price": 26400,
+                "tank_name": "AMX 12 t",
+                "tank_price": 875000,
+                "tank_slug": "amx-12-t",
+                "tank_tier": 6,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-SOFAM_8Gxb",
+                "name": "SOFAM_8Gxb",
+                "parent_key": "engine-Sovam_de_150cv",
+                "price": 1150,
+                "type": "engine"
+            },
+            {
+                "key": "radio-ER_53",
+                "name": "ER_53",
+                "parent_key": "radio-ER_52",
+                "price": 610,
+                "type": "radio"
+            }
+        ],
+        "version": "v09171",
+        "visual_model": "vehicles/french/F62_ELC_AMX/normal/lod0/Hull.model",
+        "weight": 2450,
+        "xp_factor": 1
+    }
+}

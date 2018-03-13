@@ -1,0 +1,609 @@
+{
+    "tank": {
+        "ammo_rack_health": 70,
+        "ammo_rack_repair_health": 35,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 7
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 10,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.423,
+        "camo_moving": 0.141,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1,
+        "camo_still": 0.282,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 10000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R100_SU122A/collision_client/Chassis.model",
+                "dispersion_movement": 0.44,
+                "dispersion_rotation": 0.44,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.815126,
+                "hull_pos_z": 0,
+                "id": 805,
+                "identifier": "Chassis_R100_SU122A",
+                "max_climb_angle": 25,
+                "max_load": 11000,
+                "name": "SU-122A",
+                "not_in_shop": false,
+                "price": 4510,
+                "repair_health": 55,
+                "repair_price": 2.5,
+                "rotation_speed": 24,
+                "tank_id": "R100_SU122A",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 4,
+                "visual_model": "vehicles/russian/R100_SU122A/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 15,
+                "brake_force": 11000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R100_SU122A/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.4,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.815126,
+                "hull_pos_z": 0,
+                "id": 806,
+                "identifier": "Chassis_R100_SU122A_2",
+                "max_climb_angle": 25,
+                "max_load": 13000,
+                "name": "SU-122A enhanced",
+                "not_in_shop": false,
+                "price": 8500,
+                "repair_health": 60,
+                "repair_price": 2.5,
+                "rotation_speed": 26,
+                "tank_id": "R100_SU122A",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 5,
+                "visual_model": "vehicles/russian/R100_SU122A/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/russian/R100_SU122A/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A proposed 122-mm SPG on the basis of the SU-76. No prototypes were built.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 60,
+                "id": 889,
+                "identifier": "GAZ-203",
+                "name": "GAZ-203",
+                "not_in_shop": false,
+                "power": 140,
+                "price": 3830,
+                "repair_health": 30,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "R100_SU122A",
+                "tier": 3,
+                "weight": 550
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 60,
+                "id": 890,
+                "identifier": "M-80",
+                "name": "M-80",
+                "not_in_shop": false,
+                "power": 170,
+                "price": 4130,
+                "repair_health": 30,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "R100_SU122A",
+                "tier": 3,
+                "weight": 550
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 30,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R100_SU122A/collision_client/Gun_01.model",
+                "depression": 3,
+                "dispersion": 0.86,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.4,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 132,
+                "id": 1356,
+                "identifier": "_122mm_M-30",
+                "max_ammo": 20,
+                "name": "122 mm Howitzer M-30",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 45000,
+                "reload_time": 16.5,
+                "repair_health": 66,
+                "repair_price": 9,
+                "rotation_speed": 26.25,
+                "tier": 5,
+                "turret_id": 691,
+                "visual_model": "vehicles/russian/R100_SU122A/normal/lod0/Gun_01.model",
+                "weight": 725,
+                "yaw_left": -7.5,
+                "yaw_right": 7.5
+            },
+            {
+                "Shells": null,
+                "aim_time": 7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R100_SU122A/collision_client/Gun_02.model",
+                "depression": 3,
+                "dispersion": 0.85,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.44,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 202,
+                "id": 1357,
+                "identifier": "_152mm_howitzer_D-1",
+                "max_ammo": 15,
+                "name": "152 mm Howitzer D-1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 61000,
+                "reload_time": 31.6,
+                "repair_health": 101,
+                "repair_price": 10,
+                "rotation_speed": 22.75,
+                "tier": 6,
+                "turret_id": 691,
+                "visual_model": "vehicles/russian/R100_SU122A/normal/lod0/Gun_02.model",
+                "weight": 1559,
+                "yaw_left": -7.5,
+                "yaw_right": 7.5
+            }
+        ],
+        "health": 168,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R100_SU122A",
+        "name": "SU-122A",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 385000,
+        "radios": [
+            {
+                "health": 140,
+                "id": 937,
+                "identifier": "_10R",
+                "name": "10R",
+                "not_in_shop": false,
+                "price": 3660,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "R100_SU122A",
+                "tier": 5,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 938,
+                "identifier": "_12RT",
+                "name": "12RT",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 625,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R100_SU122A",
+                "tier": 9,
+                "weight": 110
+            }
+        ],
+        "repair_price": 7.57,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 465,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 150,
+                "gun_id": 1356,
+                "icon": "he",
+                "id": "_122mm_OF-462",
+                "min_penetration": 32,
+                "module_damage": 165,
+                "name": "OF-462",
+                "penetration": 32,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 10000,
+                "speed": 415,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 600,
+                "explosion_radius": 7,
+                "gold_price": 0,
+                "gravity": 140,
+                "gun_id": 1357,
+                "icon": "he",
+                "id": "_152mm_53-OF-531",
+                "min_penetration": 38,
+                "module_damage": 102,
+                "name": "53-OF-531",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 810,
+                "range": 10000,
+                "speed": 410,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-122A",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-122a",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": -0.22763,
+        "turret_pos_y": 0.540278,
+        "turret_pos_z": -0.72229,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R100_SU122A/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 5
+                    }
+                ],
+                "gun_pos_x": 0.015274,
+                "gun_pos_y": 0.524596,
+                "gun_pos_z": -0.279387,
+                "health": 42,
+                "id": 691,
+                "identifier": "Turret_1_R100_SU122A",
+                "name": "SU-122A",
+                "not_in_shop": true,
+                "price": 500,
+                "rotation_speed": 16,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "R100_SU122A",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 255,
+                "visual_model": "vehicles/russian/R100_SU122A/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_R100_SU122A_2",
+                "name": "Chassis_R100_SU122A_2",
+                "parent_key": "chassis-Chassis_R100_SU122A",
+                "price": 2050,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_152mm_howitzer_D-1",
+                "name": "_152mm_howitzer_D-1",
+                "parent_key": "gun-_122mm_M-30",
+                "price": 6400,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R26_SU-8",
+                "name": "R26_SU-8",
+                "parent_key": "gun-_152mm_howitzer_D-1",
+                "price": 29800,
+                "tank_name": "SU-8",
+                "tank_price": 932000,
+                "tank_slug": "su-8",
+                "tank_tier": 6,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-M-80",
+                "name": "M-80",
+                "parent_key": "engine-GAZ-203",
+                "price": 240,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_12RT",
+                "name": "_12RT",
+                "parent_key": "radio-_10R",
+                "price": 5600,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/russian/R100_SU122A/normal/lod0/Hull.model",
+        "weight": 5275,
+        "xp_factor": 1
+    }
+}

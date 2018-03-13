@@ -1,0 +1,428 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 130,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 220
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 220,
+        "armor_rear": 120,
+        "armor_side": 120,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.395,
+        "camo_moving": 0.198,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.263,
+        "chassis": [
+            {
+                "armor": 30,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F77_FCM_2C_HE2017/collision_client/Chassis.model",
+                "dispersion_movement": 0.35,
+                "dispersion_rotation": 0.35,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 30
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.78855,
+                "hull_pos_z": 0,
+                "id": 94,
+                "identifier": "Chassis_FCM_2C_HE2017",
+                "max_climb_angle": 25,
+                "max_load": 70000,
+                "name": "Fallen FCM 2C",
+                "not_in_shop": true,
+                "price": 240,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "F77_FCM_2C_HE2017",
+                "terrain_hard": 1,
+                "terrain_medium": 1.35,
+                "terrain_soft": 1.95,
+                "tier": 8,
+                "visual_model": "vehicles/french/F77_FCM_2C_HE2017/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/french/F77_FCM_2C_HE2017/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "A fallen version of the French FCM 2C tank, from a long-forgotten battle. It is equipped with two fully operable turrets. It can be used only during the Halloween Event on the Dark Crucible map. The armor of the Stein is on par with Tier VIII heavy tanks, with more powerful variants of the front and rear turrets well-suited for fighting Leviathan and its Minions. The Stein is faster to accelerate than the Franken and has heavier armor. While its lighter guns do less damage at long range, its faster reload speeds and a burst-fire secondary turret make it especially useful for close-up brawling. The vehicle's secondary turret with limited traverse angles faces backward by default, making it essential to attack in a broadside position in order to focus its full firepower on targets.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 140,
+                "id": 104,
+                "identifier": "Hispano_219CV_V8_HE2017",
+                "name": "Fallen Engine",
+                "not_in_shop": true,
+                "power": 219,
+                "price": 9800,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "F77_FCM_2C_HE2017",
+                "tier": 8,
+                "weight": 400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.25,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F77_FCM_2C_HE2017/collision_client/Gun_01.model",
+                "depression": 12,
+                "dispersion": 0.47,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    }
+                ],
+                "health": 30,
+                "id": 161,
+                "identifier": "Gun_1_FCM_2C_HE2017",
+                "max_ammo": 74,
+                "name": "Spectral 105 mm",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            0.361111,
+                            12
+                        ],
+                        [
+                            0.638889,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 11.4,
+                "repair_health": 14,
+                "repair_price": 0,
+                "rotation_speed": 25,
+                "tier": 8,
+                "turret_id": 86,
+                "visual_model": "vehicles/french/F77_FCM_2C_HE2017/normal/lod0/Gun_01.model",
+                "weight": 71,
+                "yaw_left": -142,
+                "yaw_right": 142
+            }
+        ],
+        "health": 1440,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F77_FCM_2C_HE2017",
+        "name": "Stein",
+        "nation": "france",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 100,
+        "radios": [
+            {
+                "health": 100,
+                "id": 97,
+                "identifier": "ER_28_HE2017",
+                "name": "Fallen Radio",
+                "not_in_shop": true,
+                "price": 620,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F77_FCM_2C_HE2017",
+                "tier": 8,
+                "weight": 15
+            }
+        ],
+        "repair_price": 0,
+        "reverse_speed": 30,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 275,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 161,
+                "icon": "ap",
+                "id": "_105mm_Prf1924_HE2017",
+                "min_penetration": 228,
+                "module_damage": 100,
+                "name": "G\u00e9missant A-LS",
+                "penetration": 250,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            }
+        ],
+        "short_name": "Stein",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "stein",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "multi_turret"
+            },
+            {
+                "name": "cannot_be_sold"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "event_battles"
+            },
+            {
+                "name": "lockCrew"
+            },
+            {
+                "name": "cannot_be_researched"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0.004,
+        "turret_pos_y": 0.702203,
+        "turret_pos_z": 2.307,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 120,
+                "armor_side": 160,
+                "collision_model": "vehicles/french/F77_FCM_2C_HE2017/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.004741,
+                "gun_pos_y": 0.416536,
+                "gun_pos_z": 0.614915,
+                "health": 240,
+                "id": 86,
+                "identifier": "Turret_1_FCM_2C_HE2017",
+                "name": "Fallen FCM 2C Main",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 30,
+                "rotator_health": 150,
+                "rotator_repair_health": 45,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "F77_FCM_2C_HE2017",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/french/F77_FCM_2C_HE2017/normal/lod0/Turret_01.model",
+                "weight": 13000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v092011",
+        "visual_model": "vehicles/french/F77_FCM_2C_HE2017/normal/lod0/Hull.model",
+        "weight": 30000,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,640 @@
+{
+    "tank": {
+        "ammo_rack_health": 170,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 18.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 18.5,
+        "armor_rear": 12,
+        "armor_side": 7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.638,
+        "camo_moving": 0.255,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1,
+        "camo_still": 0.425,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 9000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S14_Ikv_103/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.752881,
+                "hull_pos_z": 0,
+                "id": 505,
+                "identifier": "Chassis_S14_Ikv_103",
+                "max_climb_angle": 25,
+                "max_load": 9000,
+                "name": "Ikv 102",
+                "not_in_shop": false,
+                "price": 4000,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "S14_Ikv_103",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 4,
+                "visual_model": "vehicles/sweden/S14_Ikv_103/normal/lod0/Chassis.model",
+                "weight": 2500
+            },
+            {
+                "armor": 10,
+                "brake_force": 9000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S14_Ikv_103/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.752881,
+                "hull_pos_z": 0,
+                "id": 506,
+                "identifier": "Chassis_S14_Ikv_103_2",
+                "max_climb_angle": 25,
+                "max_load": 10000,
+                "name": "Ikv 103",
+                "not_in_shop": false,
+                "price": 10150,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "S14_Ikv_103",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.1,
+                "tier": 5,
+                "visual_model": "vehicles/sweden/S14_Ikv_103/normal/lod0/Chassis.model",
+                "weight": 2500
+            }
+        ],
+        "collision_model": "vehicles/sweden/S14_Ikv_103/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In 1956, production of a modernized variant of the Ikv 102 SPG, designated Ikv 103, was started. These vehicles were designed to provide fire support to infantry. A total of around 80 vehicles were manufactured and remained in service till the early 1980s.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 123,
+                "id": 548,
+                "identifier": "SFA_B42",
+                "name": "SFA B42",
+                "not_in_shop": false,
+                "power": 150,
+                "price": 9000,
+                "repair_health": 58,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "S14_Ikv_103",
+                "tier": 4,
+                "weight": 600
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 123,
+                "id": 549,
+                "identifier": "Ford_391",
+                "name": "Ford 391",
+                "not_in_shop": false,
+                "power": 175,
+                "price": 11800,
+                "repair_health": 58,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "S14_Ikv_103",
+                "tier": 5,
+                "weight": 600
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 60,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S14_Ikv_103/collision_client/Gun_02.model",
+                "depression": 12,
+                "dispersion": 0.54,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 18.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 150,
+                "id": 843,
+                "identifier": "_105mm_kan_ikv_102",
+                "max_ammo": 24,
+                "name": "10,5 cm kan ikv 102",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 38000,
+                "reload_time": 12,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 40,
+                "tier": 5,
+                "turret_id": 442,
+                "visual_model": "vehicles/sweden/S14_Ikv_103/normal/lod0/Gun_02.model",
+                "weight": 550,
+                "yaw_left": -10,
+                "yaw_right": 10
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S14_Ikv_103/collision_client/Gun_02.model",
+                "depression": 12,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 18.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 150,
+                "id": 844,
+                "identifier": "_105mm_kan_ikv_103",
+                "max_ammo": 24,
+                "name": "10,5 cm kan ikv 103",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 45700,
+                "reload_time": 11.1,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 40,
+                "tier": 5,
+                "turret_id": 442,
+                "visual_model": "vehicles/sweden/S14_Ikv_103/normal/lod0/Gun_02.model",
+                "weight": 550,
+                "yaw_left": -10,
+                "yaw_right": 10
+            }
+        ],
+        "health": 280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "S14_Ikv_103",
+        "name": "Ikv 103",
+        "nation": "sweden",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 394000,
+        "radios": [
+            {
+                "health": 150,
+                "id": 576,
+                "identifier": "Ra_100",
+                "name": "Ra 100",
+                "not_in_shop": false,
+                "price": 23500,
+                "range": 455,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "S14_Ikv_103",
+                "tier": 7,
+                "weight": 14
+            },
+            {
+                "health": 120,
+                "id": 577,
+                "identifier": "Ra_105",
+                "name": "Ra 105",
+                "not_in_shop": false,
+                "price": 24800,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "S14_Ikv_103",
+                "tier": 8,
+                "weight": 8
+            }
+        ],
+        "repair_price": 7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 843,
+                "icon": "ap",
+                "id": "_105mm_slpgr_m_43",
+                "min_penetration": 93,
+                "module_damage": 150,
+                "name": "slpgr m/43",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 215,
+                "range": 720,
+                "speed": 359,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 843,
+                "icon": "hc",
+                "id": "_105mm_slpsgr_m_49",
+                "min_penetration": 110,
+                "module_damage": 150,
+                "name": "slpsgr m/49",
+                "penetration": 110,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 418,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 370,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 843,
+                "icon": "he",
+                "id": "_105mm_lt_sgr_m_34",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "lt sgr m/34",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 240,
+                "range": 720,
+                "speed": 371,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 844,
+                "icon": "hc",
+                "id": "_105mm_slpsgr_m_60",
+                "min_penetration": 120,
+                "module_damage": 150,
+                "name": "slpsgr m/60",
+                "penetration": 120,
+                "penetration_loss": 0.05,
+                "price": 220,
+                "range": 720,
+                "speed": 418,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 844,
+                "icon": "hc",
+                "id": "_105mm_slpsgr_m_65",
+                "min_penetration": 140,
+                "module_damage": 150,
+                "name": "slpsgr m/65",
+                "penetration": 140,
+                "penetration_loss": 0.05,
+                "price": 4400,
+                "range": 720,
+                "speed": 418,
+                "type": "HOLLOW_CHARGE"
+            }
+        ],
+        "short_name": "Ikv 103",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ikv-103",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.491615,
+        "turret_pos_z": 1.5675,
+        "turret_slots": [
+            {
+                "id": 353,
+                "pos_x": 0,
+                "pos_y": 0.491615,
+                "pos_z": 1.5675,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "S14_Ikv_103"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/sweden/S14_Ikv_103/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 70,
+                "id": 442,
+                "identifier": "Turret_1_S14_Ikv_103",
+                "name": "Ikv 103",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 18,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "S14_Ikv_103",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/sweden/S14_Ikv_103/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_S14_Ikv_103_2",
+                "name": "Chassis_S14_Ikv_103_2",
+                "parent_key": "chassis-Chassis_S14_Ikv_103",
+                "price": 2300,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_105mm_kan_ikv_103",
+                "name": "_105mm_kan_ikv_103",
+                "parent_key": "gun-_105mm_kan_ikv_102",
+                "price": 4300,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-S08_Ikv_65_Alt_2",
+                "name": "S08_Ikv_65_Alt_2",
+                "parent_key": "gun-_105mm_kan_ikv_103",
+                "price": 30620,
+                "tank_name": "Ikv 65 II",
+                "tank_price": 933000,
+                "tank_slug": "ikv-65-ii",
+                "tank_tier": 6,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Ford_391",
+                "name": "Ford_391",
+                "parent_key": "engine-SFA_B42",
+                "price": 1030,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Ra_105",
+                "name": "Ra_105",
+                "parent_key": "radio-Ra_100",
+                "price": 4100,
+                "type": "radio"
+            }
+        ],
+        "version": "v092012",
+        "visual_model": "vehicles/sweden/S14_Ikv_103/normal/lod0/Hull.model",
+        "weight": 4792,
+        "xp_factor": 1
+    }
+}

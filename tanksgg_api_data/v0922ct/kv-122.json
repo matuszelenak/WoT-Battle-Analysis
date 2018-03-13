@@ -1,0 +1,535 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 100,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 60
+            }
+        ],
+        "armor_front": 75,
+        "armor_rear": 60,
+        "armor_side": 60,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.182,
+        "camo_moving": 0.061,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.121,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 37500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R133_KV_122/collision_client/Chassis.model",
+                "dispersion_movement": 0.21,
+                "dispersion_rotation": 0.21,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.11276,
+                "hull_pos_z": 0,
+                "id": 805,
+                "identifier": "Chassis_R133_KV_122",
+                "max_climb_angle": 25,
+                "max_load": 49000,
+                "name": "KV-122",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "R133_KV_122",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.1,
+                "tier": 7,
+                "visual_model": "vehicles/russian/R133_KV_122/normal/lod0/Chassis.model",
+                "weight": 12400
+            }
+        ],
+        "collision_model": "vehicles/russian/R133_KV_122/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Prototype of the KV-122 was created in the spring of 1944 by the Construction Bureau of the Chelyabinsk Kirov Plant on the basis of the KV-85 and differed from the latter in a turret with a 122-mm gun. The turret was copied from the IS-2 designed in 1944. After the production of the IS heavy tanks started, all work on the project was discontinued.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 260,
+                "id": 889,
+                "identifier": "V-11_700",
+                "name": "V-11 (700)",
+                "not_in_shop": true,
+                "power": 700,
+                "price": 55270,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "R133_KV_122",
+                "tier": 8,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 42,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 5950,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R133_KV_122/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.15,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 192,
+                "id": 1338,
+                "identifier": "_122-mm_D-25T_with_wedges_shutter_A",
+                "max_ammo": 28,
+                "name": "122 mm D-25T",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 125140,
+                "reload_time": 13.3,
+                "repair_health": 96,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 686,
+                "visual_model": "vehicles/russian/R133_KV_122/normal/lod0/Gun_01.model",
+                "weight": 2590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 960,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R133_KV_122",
+        "name": "KV-122",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 936,
+                "identifier": "_10RKM",
+                "name": "10RKM",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R133_KV_122",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.9,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1338,
+                "icon": "ap",
+                "id": "_122mm_UBR-471",
+                "min_penetration": 152,
+                "module_damage": 165,
+                "name": "UBR-471",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 1025,
+                "range": 720,
+                "speed": 780,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1338,
+                "icon": "ap_cr",
+                "id": "_122mm_UBR-471P",
+                "min_penetration": 204,
+                "module_damage": 165,
+                "name": "BR-471D",
+                "penetration": 217,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 975,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1338,
+                "icon": "he",
+                "id": "_122mm_UOF-471",
+                "min_penetration": 61,
+                "module_damage": 165,
+                "name": "UOF-471",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 720,
+                "speed": 780,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "KV-122",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "kv-122",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.524625,
+        "turret_pos_z": 0.404527,
+        "turret_slots": [
+            {
+                "id": 533,
+                "pos_x": 0,
+                "pos_y": 0.524625,
+                "pos_z": 0.404527,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R133_KV_122"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 100,
+                "armor_rear": 90,
+                "armor_side": 90,
+                "collision_model": "vehicles/russian/R133_KV_122/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.491375,
+                "gun_pos_z": 1.12188,
+                "health": 240,
+                "id": 686,
+                "identifier": "Turret_1_R133_KV_122",
+                "name": "KV-122",
+                "not_in_shop": true,
+                "price": 20000,
+                "rotation_speed": 32,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "R133_KV_122",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/russian/R133_KV_122/normal/lod0/Turret_01.model",
+                "weight": 7400
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0922ct",
+        "visual_model": "vehicles/russian/R133_KV_122/normal/lod0/Hull.model",
+        "weight": 23000,
+        "xp_factor": 1.5
+    }
+}

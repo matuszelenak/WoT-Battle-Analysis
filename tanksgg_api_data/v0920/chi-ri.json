@@ -1,0 +1,1286 @@
+{
+    "tank": {
+        "ammo_rack_health": 228,
+        "ammo_rack_repair_health": 156,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 75,
+        "armor_rear": 35,
+        "armor_side": 35,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.312,
+        "camo_moving": 0.156,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.208,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 31500,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 156,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.00989,
+                "hull_pos_z": 0,
+                "id": 438,
+                "identifier": "Chassis_Chi_Ri",
+                "max_climb_angle": 25,
+                "max_load": 42300,
+                "name": "Type 5 Chi-Ri Plan 1",
+                "not_in_shop": false,
+                "price": 12000,
+                "repair_health": 120,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "J11_Chi_Ri",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.4,
+                "tier": 6,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Chassis.model",
+                "weight": 11600
+            },
+            {
+                "armor": 20,
+                "brake_force": 35000,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 168,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.00989,
+                "hull_pos_z": 0,
+                "id": 439,
+                "identifier": "Chassis_Chi_Ri_2",
+                "max_climb_angle": 25,
+                "max_load": 44800,
+                "name": "Type 5 Chi-Ri Plan 2",
+                "not_in_shop": false,
+                "price": 19500,
+                "repair_health": 126,
+                "repair_price": 5,
+                "rotation_speed": 34,
+                "tank_id": "J11_Chi_Ri",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.2,
+                "tier": 7,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Chassis.model",
+                "weight": 11600
+            }
+        ],
+        "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A single prototype was manufactured at the beginning of 1945. The vehicle underwent trials and was recommended for service. However, Japan was defeated before mass production could begin. After the surrender, the prototype was confiscated by American occupation authorities and was shipped to the United States.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 200,
+                "id": 482,
+                "identifier": "_Type4_V12_Kakyuu",
+                "name": "Mitsubishi AL Type 4 Kakyuu V-12",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 33000,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "J11_Chi_Ri",
+                "tier": 7,
+                "weight": 1000
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 200,
+                "id": 483,
+                "identifier": "_Type98_V12",
+                "name": "Kawasaki Type 98 V-12",
+                "not_in_shop": false,
+                "power": 550,
+                "price": 36500,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "J11_Chi_Ri",
+                "tier": 7,
+                "weight": 510
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 42,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 735,
+                "identifier": "_75mm_Gun_Type5",
+                "max_ammo": 97,
+                "name": "7.5 cm Tank Gun Type 5",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.402778,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            3
+                        ],
+                        [
+                            0.583333,
+                            3
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 42500,
+                "reload_time": 4.7,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 373,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Gun_01.model",
+                "weight": 1489,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 736,
+                "identifier": "_75mm_Gun_Type5_M1",
+                "max_ammo": 97,
+                "name": "7.5 cm Tank Gun Type 5 Model I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.402778,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            3
+                        ],
+                        [
+                            0.583333,
+                            3
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 57000,
+                "reload_time": 3.8,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 373,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Gun_01.model",
+                "weight": 1764,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 737,
+                "identifier": "_75mm_Gun_Type5",
+                "max_ammo": 105,
+                "name": "7.5 cm Tank Gun Type 5",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.411111,
+                            10
+                        ],
+                        [
+                            0.425,
+                            2
+                        ],
+                        [
+                            0.575,
+                            2
+                        ],
+                        [
+                            0.588889,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 42500,
+                "reload_time": 4.5,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 374,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Gun_03.model",
+                "weight": 1489,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 738,
+                "identifier": "_75mm_Gun_Type5_M1",
+                "max_ammo": 105,
+                "name": "7.5 cm Tank Gun Type 5 Model I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.411111,
+                            10
+                        ],
+                        [
+                            0.425,
+                            2
+                        ],
+                        [
+                            0.575,
+                            2
+                        ],
+                        [
+                            0.588889,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 57000,
+                "reload_time": 3.6,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 374,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Gun_03.model",
+                "weight": 1764,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 1,
+                "clip_size": 3,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 739,
+                "identifier": "_75mm_Gun_Type5_M1_auto",
+                "max_ammo": 105,
+                "name": "7.5 cm Autoloading Tank Gun Type 5",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.411111,
+                            10
+                        ],
+                        [
+                            0.425,
+                            2
+                        ],
+                        [
+                            0.575,
+                            2
+                        ],
+                        [
+                            0.588889,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 10,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 374,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Gun_03.model",
+                "weight": 1764,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 920,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J11_Chi_Ri",
+        "name": "Type 5 Chi-Ri",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 1440000,
+        "radios": [
+            {
+                "health": 80,
+                "id": 497,
+                "identifier": "_Hei",
+                "name": "Hei",
+                "not_in_shop": false,
+                "price": 3800,
+                "range": 400,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "J11_Chi_Ri",
+                "tier": 5,
+                "weight": 130
+            },
+            {
+                "health": 100,
+                "id": 498,
+                "identifier": "_Type96_Bo",
+                "name": "Type 96 Mk. 4 Bo",
+                "not_in_shop": false,
+                "price": 14000,
+                "range": 425,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "J11_Chi_Ri",
+                "tier": 6,
+                "weight": 50
+            },
+            {
+                "health": 140,
+                "id": 499,
+                "identifier": "_Type3_Otsu",
+                "name": "Type 3 Otsu",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 0.5,
+                "tank_id": "J11_Chi_Ri",
+                "tier": 8,
+                "weight": 240
+            },
+            {
+                "health": 180,
+                "id": 500,
+                "identifier": "_Type3_Ko",
+                "name": "Type 3 Ko",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 0.5,
+                "tank_id": "J11_Chi_Ri",
+                "tier": 10,
+                "weight": 560
+            }
+        ],
+        "repair_price": 7,
+        "reverse_speed": 18,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 125,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 735,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_604",
+                "min_penetration": 112,
+                "module_damage": 100,
+                "name": "Type 1 604R",
+                "penetration": 124,
+                "penetration_loss": 0,
+                "price": 82,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 125,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 735,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_SK_604",
+                "min_penetration": 140,
+                "module_damage": 100,
+                "name": "Type 1 Toku Kou 604R",
+                "penetration": 155,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 735,
+                "icon": "he",
+                "id": "_75mm_HE_Type_4_604",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 4 604R",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 60,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 130,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 736,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_TKK_604",
+                "min_penetration": 140,
+                "module_damage": 100,
+                "name": "Type 1 Toku Kou Kai",
+                "penetration": 155,
+                "penetration_loss": 0,
+                "price": 140,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 130,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 736,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_TO_604",
+                "min_penetration": 168,
+                "module_damage": 100,
+                "name": "Type 1 Toku Otsu",
+                "penetration": 186,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 736,
+                "icon": "he",
+                "id": "_75mm_HE_Type_4_K_604",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 4 Kai",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 125,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_604",
+                "min_penetration": 112,
+                "module_damage": 100,
+                "name": "Type 1 604R",
+                "penetration": 124,
+                "penetration_loss": 0,
+                "price": 82,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 125,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_SK_604",
+                "min_penetration": 140,
+                "module_damage": 100,
+                "name": "Type 1 Toku Kou 604R",
+                "penetration": 155,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "he",
+                "id": "_75mm_HE_Type_4_604",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 4 604R",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 60,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 130,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 738,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_TKK_604",
+                "min_penetration": 140,
+                "module_damage": 100,
+                "name": "Type 1 Toku Kou Kai",
+                "penetration": 155,
+                "penetration_loss": 0,
+                "price": 140,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 130,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 738,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_TO_604",
+                "min_penetration": 168,
+                "module_damage": 100,
+                "name": "Type 1 Toku Otsu",
+                "penetration": 186,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 738,
+                "icon": "he",
+                "id": "_75mm_HE_Type_4_K_604",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 4 Kai",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 130,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 739,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_TKK_604",
+                "min_penetration": 140,
+                "module_damage": 100,
+                "name": "Type 1 Toku Kou Kai",
+                "penetration": 155,
+                "penetration_loss": 0,
+                "price": 140,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 130,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 739,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_TO_604",
+                "min_penetration": 168,
+                "module_damage": 100,
+                "name": "Type 1 Toku Otsu",
+                "penetration": 186,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 739,
+                "icon": "he",
+                "id": "_75mm_HE_Type_4_K_604",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 4 Kai",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Chi-Ri",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "chi-ri",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedSprings_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.724157,
+        "turret_pos_z": 0.224992,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 75,
+                "armor_rear": 50,
+                "armor_side": 50,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 95
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 150
+                    }
+                ],
+                "gun_pos_x": -0.003197,
+                "gun_pos_y": 0.417765,
+                "gun_pos_z": 1.03005,
+                "health": 230,
+                "id": 373,
+                "identifier": "Turret_1_Chi_Ri",
+                "name": "Type 5 Chi-Ri Plan 1",
+                "not_in_shop": false,
+                "price": 13000,
+                "rotation_speed": 36,
+                "rotator_health": 156,
+                "rotator_repair_health": 78,
+                "rotator_repair_price": 1,
+                "surveyor_health": 108,
+                "surveyor_repair_health": 54,
+                "surveyor_repair_price": 1,
+                "tank_id": "J11_Chi_Ri",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Turret_01.model",
+                "weight": 7000
+            },
+            {
+                "Guns": null,
+                "armor_front": 75,
+                "armor_rear": 50,
+                "armor_side": 50,
+                "collision_model": "vehicles/japan/J11_Chi_Ri/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 95
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 150
+                    }
+                ],
+                "gun_pos_x": -0.101,
+                "gun_pos_y": 0.417757,
+                "gun_pos_z": 1.03001,
+                "health": 330,
+                "id": 374,
+                "identifier": "Turret_2_Chi_Ri",
+                "name": "Type 5 Chi-Ri Plan 2",
+                "not_in_shop": false,
+                "price": 21000,
+                "rotation_speed": 36,
+                "rotator_health": 156,
+                "rotator_repair_health": 78,
+                "rotator_repair_price": 1,
+                "surveyor_health": 108,
+                "surveyor_repair_health": 54,
+                "surveyor_repair_price": 1,
+                "tank_id": "J11_Chi_Ri",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Turret_02.model",
+                "weight": 13752
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Chi_Ri_2",
+                "name": "Chassis_Chi_Ri_2",
+                "parent_key": "chassis-Chassis_Chi_Ri",
+                "price": 8800,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_Gun_Type5_M1",
+                "name": "_75mm_Gun_Type5_M1",
+                "parent_key": "gun-_75mm_Gun_Type5",
+                "price": 5400,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_Chi_Ri",
+                "name": "Turret_2_Chi_Ri",
+                "parent_key": "gun-_75mm_Gun_Type5_M1",
+                "price": 10200,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_75mm_Gun_Type5_M1_auto",
+                "name": "_75mm_Gun_Type5_M1_auto",
+                "parent_key": "turret-Turret_2_Chi_Ri",
+                "price": 5800,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-J13_STA_1",
+                "name": "J13_STA_1",
+                "parent_key": "gun-_75mm_Gun_Type5_M1_auto",
+                "price": 111000,
+                "tank_name": "STA-1",
+                "tank_price": 2550000,
+                "tank_slug": "sta-1",
+                "tank_tier": 8,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-_Type98_V12",
+                "name": "_Type98_V12",
+                "parent_key": "engine-_Type4_V12_Kakyuu",
+                "price": 11000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_Type96_Bo",
+                "name": "_Type96_Bo",
+                "parent_key": "radio-_Hei",
+                "price": 1400,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type3_Otsu",
+                "name": "_Type3_Otsu",
+                "parent_key": "radio-_Type96_Bo",
+                "price": 4000,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type3_Ko",
+                "name": "_Type3_Ko",
+                "parent_key": "radio-_Type3_Otsu",
+                "price": 9300,
+                "type": "radio"
+            }
+        ],
+        "version": "v0920",
+        "visual_model": "vehicles/japan/J11_Chi_Ri/normal/lod0/Hull.model",
+        "weight": 13796,
+        "xp_factor": 1
+    }
+}

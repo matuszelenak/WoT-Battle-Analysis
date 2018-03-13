@@ -1,0 +1,1496 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 45,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.405,
+        "camo_moving": 0.203,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.27,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 36500,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.939821,
+                "hull_pos_z": 0,
+                "id": 46,
+                "identifier": "Chassis_Ch18_WZ-120",
+                "max_climb_angle": 25,
+                "max_load": 36700,
+                "name": "WZ-120",
+                "not_in_shop": false,
+                "price": 31700,
+                "repair_health": 175,
+                "repair_price": 7.5,
+                "rotation_speed": 44,
+                "tank_id": "Ch18_WZ-120",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 2,
+                "tier": 8,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Chassis.model",
+                "weight": 7700
+            },
+            {
+                "armor": 20,
+                "brake_force": 40000,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.939821,
+                "hull_pos_z": 0,
+                "id": 47,
+                "identifier": "Chassis_Ch18_WZ-120_2",
+                "max_climb_angle": 25,
+                "max_load": 40200,
+                "name": "WZ-120 model 3",
+                "not_in_shop": false,
+                "price": 62000,
+                "repair_health": 180,
+                "repair_price": 7.5,
+                "rotation_speed": 46,
+                "tank_id": "Ch18_WZ-120",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 9,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Chassis.model",
+                "weight": 7700
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Initially, the WZ-120 (Type 59) tank was a copy of the Soviet medium T-54A tank. In later modifications the tank was upgraded. Between 6,000 and 9,500 vehicles of all variants were manufactured from 1958 through 1987.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 190,
+                "id": 51,
+                "identifier": "_12150L",
+                "name": "12150L",
+                "not_in_shop": false,
+                "power": 520,
+                "price": 48000,
+                "repair_health": 95,
+                "repair_price": 7,
+                "tags": "diesel",
+                "tank_id": "Ch18_WZ-120",
+                "tier": 8,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 260,
+                "id": 52,
+                "identifier": "_12150LS",
+                "name": "12150LS",
+                "not_in_shop": false,
+                "power": 580,
+                "price": 99500,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "Ch18_WZ-120",
+                "tier": 9,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 53,
+                "identifier": "_12150LT",
+                "name": "12150LT",
+                "not_in_shop": false,
+                "power": 600,
+                "price": 120000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "Ch18_WZ-120",
+                "tier": 10,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 56,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 76,
+                "identifier": "_100mm_59-100T",
+                "max_ammo": 34,
+                "name": "100 mm 59-100T",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.366894,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            3
+                        ],
+                        [
+                            0.569444,
+                            3
+                        ],
+                        [
+                            0.633106,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 102000,
+                "reload_time": 8,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 8,
+                "turret_id": 45,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Gun_01.model",
+                "weight": 2257,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 77,
+                "identifier": "_100mm_60-100T",
+                "max_ammo": 34,
+                "name": "100 mm 60-100T",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.366894,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            3
+                        ],
+                        [
+                            0.569444,
+                            3
+                        ],
+                        [
+                            0.633106,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 180000,
+                "reload_time": 7.6,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 45,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Gun_02.model",
+                "weight": 2257,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Gun_04.model",
+                "depression": 5,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 220
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 165
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 110
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 78,
+                "identifier": "_100mm_59-100T",
+                "max_ammo": 45,
+                "name": "100 mm 59-100T",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.366894,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            3
+                        ],
+                        [
+                            0.569444,
+                            3
+                        ],
+                        [
+                            0.633106,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 102000,
+                "reload_time": 7.6,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 8,
+                "turret_id": 46,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Gun_04.model",
+                "weight": 2257,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Gun_05.model",
+                "depression": 5,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 220
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 165
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 110
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 79,
+                "identifier": "_100mm_60-100T",
+                "max_ammo": 45,
+                "name": "100 mm 60-100T",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.366894,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            3
+                        ],
+                        [
+                            0.569444,
+                            3
+                        ],
+                        [
+                            0.633106,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 180000,
+                "reload_time": 7.2,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 46,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Gun_05.model",
+                "weight": 2257,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Gun_07.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 220
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 165
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 110
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 80,
+                "identifier": "_100mm_62-100T",
+                "max_ammo": 45,
+                "name": "100 mm 62-100T",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.366894,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            3
+                        ],
+                        [
+                            0.569444,
+                            3
+                        ],
+                        [
+                            0.633106,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 221000,
+                "reload_time": 8.2,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 46,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Gun_07.model",
+                "weight": 2557,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 3.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Gun_06.model",
+                "depression": 3,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 220
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 165
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 110
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    }
+                ],
+                "health": 210,
+                "id": 81,
+                "identifier": "_122-mm_60-122T",
+                "max_ammo": 40,
+                "name": "122 mm 60-122T",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            0.366894,
+                            3
+                        ],
+                        [
+                            0.430556,
+                            0
+                        ],
+                        [
+                            0.569444,
+                            0
+                        ],
+                        [
+                            0.633106,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 300000,
+                "reload_time": 12,
+                "repair_health": 105,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 46,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Gun_06.model",
+                "weight": 2757,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1240,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch18_WZ-120",
+        "name": "WZ-120",
+        "nation": "china",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3520000,
+        "radios": [
+            {
+                "health": 160,
+                "id": 47,
+                "identifier": "A-220_1",
+                "name": "A-220",
+                "not_in_shop": false,
+                "price": 38000,
+                "range": 600,
+                "repair_health": 96,
+                "repair_price": 3.5,
+                "tank_id": "Ch18_WZ-120",
+                "tier": 9,
+                "weight": 40
+            },
+            {
+                "health": 180,
+                "id": 48,
+                "identifier": "A-220B",
+                "name": "A-220A",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "Ch18_WZ-120",
+                "tier": 10,
+                "weight": 40
+            }
+        ],
+        "repair_price": 9.94,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 76,
+                "icon": "ap",
+                "id": "_100mm_UBR-412",
+                "min_penetration": 160,
+                "module_damage": 135,
+                "name": "Chuan bei-412",
+                "penetration": 181,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 76,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412P",
+                "min_penetration": 213,
+                "module_damage": 135,
+                "name": "Chuan chao-412",
+                "penetration": 241,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 76,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "Sha bao-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 77,
+                "icon": "ap",
+                "id": "_100mm_UBR-412",
+                "min_penetration": 167,
+                "module_damage": 135,
+                "name": "Chuan bei-412",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 77,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412P",
+                "min_penetration": 215,
+                "module_damage": 135,
+                "name": "Chuan chao-412",
+                "penetration": 244,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 77,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "Sha bao-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 78,
+                "icon": "ap",
+                "id": "_100mm_UBR-412",
+                "min_penetration": 160,
+                "module_damage": 135,
+                "name": "Chuan bei-412",
+                "penetration": 181,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 78,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412P",
+                "min_penetration": 213,
+                "module_damage": 135,
+                "name": "Chuan chao-412",
+                "penetration": 241,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 78,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "Sha bao-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 79,
+                "icon": "ap",
+                "id": "_100mm_UBR-412",
+                "min_penetration": 167,
+                "module_damage": 135,
+                "name": "Chuan bei-412",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 79,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412P",
+                "min_penetration": 215,
+                "module_damage": 135,
+                "name": "Chuan chao-412",
+                "penetration": 244,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 79,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "Sha bao-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 80,
+                "icon": "ap",
+                "id": "_100mm_CJ-412G",
+                "min_penetration": 185,
+                "module_damage": 135,
+                "name": "Chuan jian-412G",
+                "penetration": 215,
+                "penetration_loss": 0,
+                "price": 1050,
+                "range": 720,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 80,
+                "icon": "ap_cr",
+                "id": "_100mm_TC-412G",
+                "min_penetration": 255,
+                "module_damage": 135,
+                "name": "Tuo chuan-412G",
+                "penetration": 265,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 80,
+                "icon": "he",
+                "id": "_100mm_SB-412G",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "Sha bao-412G",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 750,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 81,
+                "icon": "ap",
+                "id": "_122mm_CB-472",
+                "min_penetration": 235,
+                "module_damage": 165,
+                "name": "Chuan bei-472",
+                "penetration": 249,
+                "penetration_loss": 0,
+                "price": 1065,
+                "range": 720,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 81,
+                "icon": "hc",
+                "id": "_122mm_PO-122",
+                "min_penetration": 340,
+                "module_damage": 165,
+                "name": "Po-122",
+                "penetration": 340,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 950,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 81,
+                "icon": "he",
+                "id": "_122mm_SB-472",
+                "min_penetration": 68,
+                "module_damage": 165,
+                "name": "Sha bao-472",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 630,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "WZ-120",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "wz-120",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": -0.000253,
+        "turret_pos_y": 0.549289,
+        "turret_pos_z": -0.107132,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 200,
+                "armor_rear": 60,
+                "armor_side": 130,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 168
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 86
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 48
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 48
+                    }
+                ],
+                "gun_pos_x": 0.046344,
+                "gun_pos_y": 0.273661,
+                "gun_pos_z": 0.989757,
+                "health": 310,
+                "id": 45,
+                "identifier": "Turret_1_Ch18_WZ-120",
+                "name": "WZ-120",
+                "not_in_shop": false,
+                "price": 0,
+                "rotation_speed": 46,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch18_WZ-120",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Turret_01.model",
+                "weight": 8500
+            },
+            {
+                "Guns": null,
+                "armor_front": 220,
+                "armor_rear": 65,
+                "armor_side": 160,
+                "collision_model": "vehicles/chinese/Ch18_WZ-120/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 220
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 190
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 102
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 48
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 48
+                    }
+                ],
+                "gun_pos_x": 0.046344,
+                "gun_pos_y": 0.273661,
+                "gun_pos_z": 0.989757,
+                "health": 410,
+                "id": 46,
+                "identifier": "Turret_2_Ch18_WZ-120",
+                "name": "WZ-120-1",
+                "not_in_shop": false,
+                "price": 60000,
+                "rotation_speed": 42,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch18_WZ-120",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Turret_02.model",
+                "weight": 9200
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Ch18_WZ-120_2",
+                "name": "Chassis_Ch18_WZ-120_2",
+                "parent_key": "chassis-Chassis_Ch18_WZ-120",
+                "price": 22400,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_100mm_60-100T",
+                "name": "_100mm_60-100T",
+                "parent_key": "gun-_100mm_59-100T",
+                "price": 45000,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_Ch18_WZ-120",
+                "name": "Turret_2_Ch18_WZ-120",
+                "parent_key": "gun-_100mm_60-100T",
+                "price": 23500,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_100mm_62-100T",
+                "name": "_100mm_62-100T",
+                "parent_key": "turret-Turret_2_Ch18_WZ-120",
+                "price": 59000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-Ch19_121",
+                "name": "Ch19_121",
+                "parent_key": "turret-Turret_2_Ch18_WZ-120",
+                "price": 180000,
+                "tank_name": "121",
+                "tank_price": 6100000,
+                "tank_slug": "121",
+                "tank_tier": 10,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-_122-mm_60-122T",
+                "name": "_122-mm_60-122T",
+                "parent_key": "gun-_100mm_62-100T",
+                "price": 59000,
+                "type": "gun"
+            },
+            {
+                "key": "engine-_12150LS",
+                "name": "_12150LS",
+                "parent_key": "engine-_12150L",
+                "price": 33000,
+                "type": "engine"
+            },
+            {
+                "key": "engine-_12150LT",
+                "name": "_12150LT",
+                "parent_key": "engine-_12150LS",
+                "price": 46000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-A-220B",
+                "name": "A-220B",
+                "parent_key": "radio-A-220_1",
+                "price": 9500,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919",
+        "visual_model": "vehicles/chinese/Ch18_WZ-120/normal/lod0/Hull.model",
+        "weight": 16453,
+        "xp_factor": 1
+    }
+}

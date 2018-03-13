@@ -1,0 +1,442 @@
+{
+    "tank": {
+        "ammo_rack_health": 90,
+        "ammo_rack_repair_health": 60,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 6.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 6.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 9.5
+            }
+        ],
+        "armor_front": 15.9,
+        "armor_rear": 6.4,
+        "armor_side": 12.7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.356,
+        "camo_moving": 0.177,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.237,
+        "chassis": [
+            {
+                "armor": 6,
+                "brake_force": 10500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A93_T7_Combat_Car/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 6
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.958508,
+                "hull_pos_z": 0,
+                "id": 681,
+                "identifier": "Chassis_T7_Combat_Car",
+                "max_climb_angle": 25,
+                "max_load": 12500,
+                "name": "T7 Combat Car",
+                "not_in_shop": true,
+                "price": 600,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 44,
+                "tank_id": "A93_T7_Combat_Car",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.5,
+                "terrain_soft": 3.4,
+                "tier": 2,
+                "visual_model": "vehicles/american/A93_T7_Combat_Car/normal/lod0/Chassis.model",
+                "weight": 3500
+            }
+        ],
+        "collision_model": "vehicles/american/A93_T7_Combat_Car/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Light wheeled caterpillar vehicle with machineguns, developed for the U.S. cavalry. The trials of the first prototype started in April 1937 and continued until 1939. However, the T7 was discontinued in favor of track-type vehicles.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 100,
+                "id": 748,
+                "identifier": "Continental_W-670-9A",
+                "name": "Continental W-670",
+                "not_in_shop": true,
+                "power": 262,
+                "price": 8100,
+                "repair_health": 50,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A93_T7_Combat_Car",
+                "tier": 3,
+                "weight": 256
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 56,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 750,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.10909091,
+                "clip_size": 50,
+                "collision_model": "vehicles/american/A93_T7_Combat_Car/collision_client/Gun_01.model",
+                "depression": 15,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.1,
+                "dispersion_rotation": 0.1,
+                "elevation": 40,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 30,
+                "id": 1127,
+                "identifier": "_12.7mm_MG_HB_M2_A",
+                "max_ammo": 1350,
+                "name": "Browning MG caliber .50 HB, M2",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            0.333333,
+                            15
+                        ],
+                        [
+                            0.347222,
+                            4
+                        ],
+                        [
+                            0.45,
+                            4
+                        ],
+                        [
+                            0.463889,
+                            12
+                        ],
+                        [
+                            0.536111,
+                            12
+                        ],
+                        [
+                            0.55,
+                            4
+                        ],
+                        [
+                            0.652778,
+                            4
+                        ],
+                        [
+                            0.666667,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -40
+                        ],
+                        [
+                            1,
+                            -40
+                        ]
+                    ]
+                },
+                "price": 2000,
+                "reload_time": 24,
+                "repair_health": 15,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 575,
+                "visual_model": "vehicles/american/A93_T7_Combat_Car/normal/lod0/Gun_01.model",
+                "weight": 38,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A93_T7_Combat_Car",
+        "name": "T7 Combat Car",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 110,
+                "id": 801,
+                "identifier": "SCR_210A",
+                "name": "SCR 210",
+                "not_in_shop": true,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "A93_T7_Combat_Car",
+                "tier": 4,
+                "weight": 80
+            }
+        ],
+        "repair_price": 2,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 12.7,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1127,
+                "icon": "ap",
+                "id": "_12.7mm_AP_M2",
+                "min_penetration": 18,
+                "module_damage": 17,
+                "name": "AP M2",
+                "penetration": 27,
+                "penetration_loss": 0,
+                "price": 1,
+                "range": 400,
+                "speed": 895,
+                "type": "ARMOR_PIERCING"
+            }
+        ],
+        "short_name": "T7 Car",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t7-car",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.773307,
+        "turret_pos_z": 0.367027,
+        "turret_slots": [
+            {
+                "id": 452,
+                "pos_x": 0,
+                "pos_y": 0.773307,
+                "pos_z": 0.367027,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A93_T7_Combat_Car"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 12.7,
+                "armor_rear": 12.7,
+                "armor_side": 12.7,
+                "collision_model": "vehicles/american/A93_T7_Combat_Car/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 6.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 6.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 12.7
+                    }
+                ],
+                "gun_pos_x": -0.186682,
+                "gun_pos_y": 0.182161,
+                "gun_pos_z": 0.638662,
+                "health": 30,
+                "id": 575,
+                "identifier": "Turret_1_T7_Combat_Car",
+                "name": "T7 Combat Car",
+                "not_in_shop": true,
+                "price": 600,
+                "rotation_speed": 24,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "A93_T7_Combat_Car",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/american/A93_T7_Combat_Car/normal/lod0/Turret_01.model",
+                "weight": 800
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0922",
+        "visual_model": "vehicles/american/A93_T7_Combat_Car/normal/lod0/Hull.model",
+        "weight": 5085,
+        "xp_factor": 1.5
+    }
+}

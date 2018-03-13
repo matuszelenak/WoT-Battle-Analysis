@@ -1,0 +1,503 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 20,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.293,
+        "camo_moving": 0.146,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.195,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 38000,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F68_AMX_Chasseur_de_char_46/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.30501,
+                "hull_pos_z": 0,
+                "id": 144,
+                "identifier": "Chassis_AMX_Chasseur_de_char_46",
+                "max_climb_angle": 25,
+                "max_load": 37800,
+                "name": "AMX Chasseur de chars",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 180,
+                "repair_price": 7.5,
+                "rotation_speed": 40,
+                "tank_id": "F68_AMX_Chasseur_de_char_46",
+                "terrain_hard": 1.5,
+                "terrain_medium": 1.7,
+                "terrain_soft": 3,
+                "tier": 8,
+                "visual_model": "vehicles/french/F68_AMX_Chasseur_de_char_46/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/french/F68_AMX_Chasseur_de_char_46/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In 1946, the AMX company presented this design for a new vehicle. The powerful engine and light weight would have made the vehicle highly mobile, and the 90-mm gun was equipped with a mechanical ammunition system for a high rate of fire. However, the large dimensions of the vehicle, its thin armor, high cost, and the complexity of the design made it unappealing, and the project never advanced to a prototype.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 360,
+                "id": 160,
+                "identifier": "Maybach_HL_295_FA",
+                "name": "Maybach HL 295 F",
+                "not_in_shop": true,
+                "power": 1200,
+                "price": 123000,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "F68_AMX_Chasseur_de_char_46",
+                "tier": 10,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 57,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 7450,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F68_AMX_Chasseur_de_char_46/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 170,
+                "id": 251,
+                "identifier": "_90mm_canon_DCA_45_AC_A",
+                "max_ammo": 90,
+                "name": "90 mm AC DCA 45",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            8
+                        ],
+                        [
+                            0.555556,
+                            8
+                        ],
+                        [
+                            0.569445,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 121250,
+                "reload_time": 7.3,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 124,
+                "visual_model": "vehicles/french/F68_AMX_Chasseur_de_char_46/normal/lod0/Gun_01.model",
+                "weight": 2750,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F68_AMX_Chasseur_de_char_46",
+        "name": "AMX Chasseur de chars",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 153,
+                "identifier": "SCR_528A",
+                "name": "SCR 528F",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F68_AMX_Chasseur_de_char_46",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 251,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 193,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 251,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 228,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 259,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 251,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AMX CDC",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-cdc",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.365312,
+        "turret_pos_z": 0.900996,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 30,
+                "armor_rear": 20,
+                "armor_side": 20,
+                "collision_model": "vehicles/french/F68_AMX_Chasseur_de_char_46/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.411534,
+                "gun_pos_z": 1.18286,
+                "health": 280,
+                "id": 124,
+                "identifier": "Turret_1_AMX_Chasseur_de_char_46",
+                "name": "AMX Chasseur de chars",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 38,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "F68_AMX_Chasseur_de_char_46",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/french/F68_AMX_Chasseur_de_char_46/normal/lod0/Turret_01.model",
+                "weight": 6000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0919ct",
+        "visual_model": "vehicles/french/F68_AMX_Chasseur_de_char_46/normal/lod0/Hull.model",
+        "weight": 17145,
+        "xp_factor": 1.5
+    }
+}

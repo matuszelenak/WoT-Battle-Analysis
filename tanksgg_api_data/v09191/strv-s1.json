@@ -1,0 +1,438 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_8",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_13",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "leftTrack",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "rightTrack",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 30,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.633,
+        "camo_moving": 0.253,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.422,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 33000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S22_Strv_S1/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.1,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.503458,
+                "hull_pos_z": -0.008279,
+                "id": 475,
+                "identifier": "Chassis_S22_Strv_S1",
+                "max_climb_angle": 25,
+                "max_load": 35000,
+                "name": "Strv S1",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 150,
+                "repair_price": 5,
+                "rotation_speed": 26,
+                "tank_id": "S22_Strv_S1",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.6,
+                "tier": 8,
+                "visual_model": "vehicles/sweden/S22_Strv_S1/normal/lod0/Chassis.model",
+                "weight": 6500
+            }
+        ],
+        "collision_model": "vehicles/sweden/S22_Strv_S1/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "driver",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "loader"
+            }
+        ],
+        "description": "The development of an advanced tank for Swedish army was performed by Sven Berge. First drafts of the unique vehicle were developed in 1956. By 1961, the design of the new vehicle was finalized, and a wooden prototype was built. Later, the first Strv S1 prototype was built and used for testing of the new type of suspension, which allowed for vertical aiming of the rigidly mounted gun. The Strv S2 prototype was developed by the end of 1962. Both prototypes became the basis for the mass production of the Strv 103 tank.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 400,
+                "id": 519,
+                "identifier": "Motoraggregat_1S_A",
+                "name": "Motoraggregat 1S",
+                "not_in_shop": true,
+                "power": 540,
+                "price": 70000,
+                "repair_health": 200,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "S22_Strv_S1",
+                "tier": 9,
+                "weight": 700
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 50,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 10900,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S22_Strv_S1/collision_client/Gun_02.model",
+                "depression": 1,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 18,
+                "dispersion_rotation": 0.1,
+                "elevation": 1,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 208,
+                "id": 797,
+                "identifier": "_105mm_kan_strv_103_L_51_1",
+                "max_ammo": 50,
+                "name": "10,5 cm kan strv 103 L/51",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            -1
+                        ],
+                        [
+                            1,
+                            -1
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -1
+                        ],
+                        [
+                            1,
+                            -1
+                        ]
+                    ]
+                },
+                "price": 290000,
+                "reload_time": 10.2,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 5,
+                "tier": 10,
+                "turret_id": 404,
+                "visual_model": "vehicles/sweden/S22_Strv_S1/normal/lod0/Gun_02.model",
+                "weight": 1350,
+                "yaw_left": -3,
+                "yaw_right": 3
+            }
+        ],
+        "health": 800,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 11,
+        "hull_elevation": -11,
+        "id": "S22_Strv_S1",
+        "name": "Strv S1",
+        "nation": "sweden",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 250,
+                "id": 548,
+                "identifier": "Ra_421_1",
+                "name": "Ra 421",
+                "not_in_shop": true,
+                "price": 57200,
+                "range": 850,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "S22_Strv_S1",
+                "tier": 10,
+                "weight": 27
+            }
+        ],
+        "repair_price": 6,
+        "reverse_speed": 45,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 797,
+                "icon": "ap_cr",
+                "id": "_105mm_slpprj_m_61",
+                "min_penetration": 278,
+                "module_damage": 150,
+                "name": "slpprj m/61",
+                "penetration": 288,
+                "penetration_loss": 0,
+                "price": 1160,
+                "range": 720,
+                "speed": 1450,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 797,
+                "icon": "ap_cr",
+                "id": "_105mm_slpprj_m_66",
+                "min_penetration": 320,
+                "module_damage": 150,
+                "name": "slpprj m/66",
+                "penetration": 330,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1400,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 797,
+                "icon": "he",
+                "id": "_105mm_slsgr_m_61A",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "slsgr m/61A",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 810,
+                "range": 720,
+                "speed": 650,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Strv S1",
+        "siege": false,
+        "siege_enter_time": 2,
+        "siege_id": "S22_Strv_S1_siege_mode",
+        "siege_leave_time": 1.3,
+        "siege_slug": "strv-s1-siege",
+        "slug": "strv-s1",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "siegeMode"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 1.0279,
+        "turret_pos_z": 0.360218,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/sweden/S22_Strv_S1/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 200,
+                "id": 404,
+                "identifier": "Turret_1_S22_Strv_S1",
+                "name": "Strv S1",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 16,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "S22_Strv_S1",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/sweden/S22_Strv_S1/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v09191",
+        "visual_model": "vehicles/sweden/S22_Strv_S1/normal/lod0/Hull.model",
+        "weight": 24048,
+        "xp_factor": 1.5
+    }
+}

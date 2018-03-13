@@ -1,0 +1,479 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 16
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 20,
+        "armor_side": 16,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.245,
+        "camo_moving": 0.098,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.163,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 40000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G114_Skorpian/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.23974,
+                "hull_pos_z": 0,
+                "id": 377,
+                "identifier": "Chassis_G114_Skorpian",
+                "max_climb_angle": 25,
+                "max_load": 45000,
+                "name": "Rheinmetall 12,8 cm K 43 Skorpion",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 165,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "G114_Skorpian",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.5,
+                "terrain_soft": 3,
+                "tier": 8,
+                "visual_model": "vehicles/german/G114_Skorpian/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/german/G114_Skorpian/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            }
+        ],
+        "description": "Development of the second series of self-propelled guns on the basis of the Panther tank was started by the Rheinmetall company in January 1943. The design plans for the 12,8 cm Skorpion were completed on April 2, 1943. Existed only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 200,
+                "id": 414,
+                "identifier": "Maybach_HL_210_TRM_P30_A",
+                "name": "Maybach HL 210 TRM P30",
+                "not_in_shop": true,
+                "power": 650,
+                "price": 35500,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G114_Skorpian",
+                "tier": 7,
+                "weight": 850
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 60,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 10900,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G114_Skorpian/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.3,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.16,
+                "elevation": 14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 220,
+                "id": 615,
+                "identifier": "_128mm_K43_L55",
+                "max_ammo": 30,
+                "name": "12,8 cm Kanone 43 L/55",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5.75
+                        ],
+                        [
+                            0.072222,
+                            5.75
+                        ],
+                        [
+                            0.086111,
+                            7
+                        ],
+                        [
+                            0.386111,
+                            7
+                        ],
+                        [
+                            0.4,
+                            2.9
+                        ],
+                        [
+                            0.6,
+                            2.9
+                        ],
+                        [
+                            0.613889,
+                            7
+                        ],
+                        [
+                            0.913889,
+                            7
+                        ],
+                        [
+                            0.927778,
+                            5.75
+                        ],
+                        [
+                            1,
+                            5.75
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -14
+                        ],
+                        [
+                            1,
+                            -14
+                        ]
+                    ]
+                },
+                "price": 250000,
+                "reload_time": 12.2,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 9,
+                "turret_id": 321,
+                "visual_model": "vehicles/german/G114_Skorpian/normal/lod0/Gun_01.model",
+                "weight": 3050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 920,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G114_Skorpian",
+        "name": "Rheinmetall Skorpion",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 416,
+                "identifier": "FuG_FA",
+                "name": "Fu.Spr.Ger. \"f\" A",
+                "not_in_shop": true,
+                "price": 10000,
+                "range": 700,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "G114_Skorpian",
+                "tier": 8,
+                "weight": 40
+            }
+        ],
+        "repair_price": 6,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 615,
+                "icon": "ap",
+                "id": "_128mm_PzGr39",
+                "min_penetration": 241,
+                "module_damage": 180,
+                "name": "Pzgr 39",
+                "penetration": 246,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 615,
+                "icon": "ap_cr",
+                "id": "_128mm_PzGr40",
+                "min_penetration": 263,
+                "module_damage": 180,
+                "name": "Pzgr 40",
+                "penetration": 311,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 128,
+                "damage": 630,
+                "explosion_radius": 2.71,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 615,
+                "icon": "he",
+                "id": "_128mm_SprG18",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Sprgr 18",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 935,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Skorpion",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "skorpion",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "AT-SPG1"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "inGame"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 5.6e-05,
+        "turret_pos_y": 0.660448,
+        "turret_pos_z": -0.288547,
+        "turret_slots": [
+            {
+                "id": 254,
+                "pos_x": 5.6e-05,
+                "pos_y": 0.660448,
+                "pos_z": -0.288547,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G114_Skorpian"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G114_Skorpian/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 14.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 14.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 14.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.26241,
+                "gun_pos_z": -0.114005,
+                "health": 230,
+                "id": 321,
+                "identifier": "Turret_1_G114_Skorpian",
+                "name": "Rheinmetall 12,8 cm K 43 Skorpion",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 18,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "G114_Skorpian",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/german/G114_Skorpian/normal/lod0/Turret_01.model",
+                "weight": 3150
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v0921",
+        "visual_model": "vehicles/german/G114_Skorpian/normal/lod0/Hull.model",
+        "weight": 15865,
+        "xp_factor": 1.5
+    }
+}

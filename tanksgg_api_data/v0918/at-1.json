@@ -1,0 +1,750 @@
+{
+    "tank": {
+        "ammo_rack_health": 75,
+        "ammo_rack_repair_health": 50,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            }
+        ],
+        "armor_front": 15,
+        "armor_rear": 15,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.558,
+        "camo_moving": 0.223,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.372,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 37000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R10_AT-1/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.959724,
+                "hull_pos_z": 0,
+                "id": 893,
+                "identifier": "AT-1",
+                "max_climb_angle": 25,
+                "max_load": 10170,
+                "name": "AT-1",
+                "not_in_shop": false,
+                "price": 560,
+                "repair_health": 40,
+                "repair_price": 2.5,
+                "rotation_speed": 30,
+                "tank_id": "R10_AT-1",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.6,
+                "tier": 2,
+                "visual_model": "vehicles/russian/R10_AT-1/normal/lod0/Chassis.model",
+                "weight": 1550
+            },
+            {
+                "armor": 10,
+                "brake_force": 37000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R10_AT-1/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.959724,
+                "hull_pos_z": 0,
+                "id": 894,
+                "identifier": "AT-1bis",
+                "max_climb_angle": 25,
+                "max_load": 10800,
+                "name": "AT-1 Bis",
+                "not_in_shop": false,
+                "price": 1790,
+                "repair_health": 45,
+                "repair_price": 2.5,
+                "rotation_speed": 32,
+                "tank_id": "R10_AT-1",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.4,
+                "tier": 3,
+                "visual_model": "vehicles/russian/R10_AT-1/normal/lod0/Chassis.model",
+                "weight": 1550
+            }
+        ],
+        "collision_model": "vehicles/russian/R10_AT-1/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            }
+        ],
+        "description": "The AT-1 tank destroyer based on the T-26 light tank was developed by the construction bureau at the Experimental Design Mechanical Department of Factory No. 185 in Leningrad from 1935 through 1936. The vehicle was designed for anti-tank warfare. Two prototypes equipped with the 76.2 mm PS-3 tank guns were built, which underwent trials by 1936. This vehicle never saw mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 987,
+                "identifier": "T-26",
+                "name": "T-26",
+                "not_in_shop": false,
+                "power": 90,
+                "price": 770,
+                "repair_health": 20,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "R10_AT-1",
+                "tier": 1,
+                "weight": 545
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 50,
+                "id": 988,
+                "identifier": "T-26F",
+                "name": "T-26F",
+                "not_in_shop": false,
+                "power": 130,
+                "price": 1500,
+                "repair_health": 25,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "R10_AT-1",
+                "tier": 2,
+                "weight": 545
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 30,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R10_AT-1/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 68,
+                "id": 1547,
+                "identifier": "_45mm_20K_S",
+                "max_ammo": 80,
+                "name": "45 mm 20KS",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 2710,
+                "reload_time": 2.1,
+                "repair_health": 34,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 762,
+                "visual_model": "vehicles/russian/R10_AT-1/normal/lod0/Gun_01.model",
+                "weight": 250,
+                "yaw_left": -11,
+                "yaw_right": 11
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R10_AT-1/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.55,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 94,
+                "id": 1548,
+                "identifier": "_76mm_L-10_S",
+                "max_ammo": 40,
+                "name": "76 mm L-10S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 10310,
+                "reload_time": 4.8,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 762,
+                "visual_model": "vehicles/russian/R10_AT-1/normal/lod0/Gun_04.model",
+                "weight": 641,
+                "yaw_left": -11,
+                "yaw_right": 11
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R10_AT-1/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.16,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 94,
+                "id": 1549,
+                "identifier": "_57mm_ZiS-8_S",
+                "max_ammo": 60,
+                "name": "57 mm ZiS-8S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 22910,
+                "reload_time": 3.1,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 762,
+                "visual_model": "vehicles/russian/R10_AT-1/normal/lod0/Gun_05.model",
+                "weight": 400,
+                "yaw_left": -11,
+                "yaw_right": 11
+            }
+        ],
+        "health": 100,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R10_AT-1",
+        "name": "AT-1",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 1036,
+                "identifier": "_71-TK-3",
+                "name": "71-TK-3",
+                "not_in_shop": false,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R10_AT-1",
+                "tier": 3,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5.43,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1547,
+                "icon": "ap",
+                "id": "_45mm_UBR-240A",
+                "min_penetration": 38,
+                "module_damage": 61,
+                "name": "UBR-240A",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1547,
+                "icon": "ap_cr",
+                "id": "_45mm_UBR-240PA",
+                "min_penetration": 45,
+                "module_damage": 61,
+                "name": "UBR-240PA",
+                "penetration": 84,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 956,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 45,
+                "damage": 62,
+                "explosion_radius": 0.43,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1547,
+                "icon": "he",
+                "id": "_45mm_UOF-240A",
+                "min_penetration": 23,
+                "module_damage": 61,
+                "name": "UOF-240A",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1548,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KA",
+                "min_penetration": 61,
+                "module_damage": 105,
+                "name": "UBR-354KA",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 558,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1548,
+                "icon": "hc",
+                "id": "_76mm_BP-354",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "BP-350A",
+                "penetration": 75,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 446,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 164,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1548,
+                "icon": "he",
+                "id": "_76mm_UOF-354K",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354K",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 558,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1549,
+                "icon": "ap",
+                "id": "_57mm_UBR-271KO",
+                "min_penetration": 67,
+                "module_damage": 76,
+                "name": "UBR-271KO",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 1549,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271NO",
+                "min_penetration": 70,
+                "module_damage": 76,
+                "name": "UBR-271NO",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 1063,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1549,
+                "icon": "he",
+                "id": "_57mm_UO-271UO",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271UO",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 24,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AT-1",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "at-1",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "enhancedSuspension_Vikkers_user"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.599388,
+        "turret_pos_z": 0.4925,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R10_AT-1/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 25,
+                "id": 762,
+                "identifier": "AT-1",
+                "name": "AT-1",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "R10_AT-1",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 250,
+                "visual_model": "vehicles/russian/R10_AT-1/normal/lod0/Turret_01.model",
+                "weight": 10
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-AT-1bis",
+                "name": "AT-1bis",
+                "parent_key": "chassis-AT-1",
+                "price": 330,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_76mm_L-10_S",
+                "name": "_76mm_L-10_S",
+                "parent_key": "gun-_45mm_20K_S",
+                "price": 0,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_57mm_ZiS-8_S",
+                "name": "_57mm_ZiS-8_S",
+                "parent_key": "gun-_45mm_20K_S",
+                "price": 0,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R24_SU-76",
+                "name": "R24_SU-76",
+                "parent_key": "gun-_57mm_ZiS-8_S",
+                "price": 1100,
+                "tank_name": "SU-76M",
+                "tank_price": 35500,
+                "tank_slug": "su-76m",
+                "tank_tier": 3,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-T-26F",
+                "name": "T-26F",
+                "parent_key": "engine-T-26",
+                "price": 0,
+                "type": "engine"
+            }
+        ],
+        "version": "v0918",
+        "visual_model": "vehicles/russian/R10_AT-1/normal/lod0/Hull.model",
+        "weight": 7050,
+        "xp_factor": 1
+    }
+}

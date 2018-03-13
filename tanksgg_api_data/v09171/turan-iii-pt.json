@@ -1,0 +1,598 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 25,
+        "armor_side": 25,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.363,
+        "camo_moving": 0.181,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.242,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 20000,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G116_Turan_III_prot/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.00264,
+                "hull_pos_z": 0,
+                "id": 325,
+                "identifier": "Chassis_G116_Turan_III_prot",
+                "max_climb_angle": 25,
+                "max_load": 23000,
+                "name": "Tur\u00e1n III protot\u00edpus",
+                "not_in_shop": true,
+                "price": 8000,
+                "repair_health": 70,
+                "repair_price": 1,
+                "rotation_speed": 34,
+                "tank_id": "G116_Turan_III_prot",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 1.8,
+                "tier": 5,
+                "visual_model": "vehicles/german/G116_Turan_III_prot/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/german/G116_Turan_III_prot/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Prototype of the WWII Hungarian medium tank. It featured the long-barreled 75 mm 43.M gun and improved armor compared to previous modifications. Never saw mass production due to the termination of vehicle manufacturing in Hungary by the summer of 1944.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 86,
+                "id": 367,
+                "identifier": "Weiss_Manfred_V_8H",
+                "name": "Weiss Manfr\u00e9d V-8H",
+                "not_in_shop": true,
+                "power": 260,
+                "price": 11000,
+                "repair_health": 42,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G116_Turan_III_prot",
+                "tier": 4,
+                "weight": 900
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 40,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1700,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G116_Turan_III_prot/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 584,
+                "identifier": "_75mm_43_M_L43",
+                "max_ammo": 32,
+                "name": "75 mm 43 M. L/43",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.397222,
+                            10
+                        ],
+                        [
+                            0.4,
+                            9.8
+                        ],
+                        [
+                            0.402778,
+                            9.6
+                        ],
+                        [
+                            0.405556,
+                            9.4
+                        ],
+                        [
+                            0.408333,
+                            9.2
+                        ],
+                        [
+                            0.411111,
+                            9
+                        ],
+                        [
+                            0.413889,
+                            8.7
+                        ],
+                        [
+                            0.416667,
+                            8.4
+                        ],
+                        [
+                            0.419444,
+                            8.2
+                        ],
+                        [
+                            0.422222,
+                            8
+                        ],
+                        [
+                            0.425,
+                            7.8
+                        ],
+                        [
+                            0.427778,
+                            7.6
+                        ],
+                        [
+                            0.430556,
+                            7.4
+                        ],
+                        [
+                            0.433333,
+                            7.2
+                        ],
+                        [
+                            0.436111,
+                            7
+                        ],
+                        [
+                            0.438889,
+                            6.8
+                        ],
+                        [
+                            0.45,
+                            6.8
+                        ],
+                        [
+                            0.452778,
+                            6
+                        ],
+                        [
+                            0.455556,
+                            5.5
+                        ],
+                        [
+                            0.461111,
+                            5.5
+                        ],
+                        [
+                            0.463889,
+                            6
+                        ],
+                        [
+                            0.466667,
+                            7.3
+                        ],
+                        [
+                            0.486111,
+                            7.3
+                        ],
+                        [
+                            0.488889,
+                            7.5
+                        ],
+                        [
+                            0.491667,
+                            8
+                        ],
+                        [
+                            0.533333,
+                            8
+                        ],
+                        [
+                            0.536111,
+                            6
+                        ],
+                        [
+                            0.538889,
+                            5.5
+                        ],
+                        [
+                            0.541667,
+                            5.5
+                        ],
+                        [
+                            0.544444,
+                            6
+                        ],
+                        [
+                            0.547222,
+                            7
+                        ],
+                        [
+                            0.558333,
+                            7
+                        ],
+                        [
+                            0.563889,
+                            7.2
+                        ],
+                        [
+                            0.572222,
+                            7.8
+                        ],
+                        [
+                            0.575,
+                            8.2
+                        ],
+                        [
+                            0.577778,
+                            9.6
+                        ],
+                        [
+                            0.580556,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 28000,
+                "reload_time": 4,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 278,
+                "visual_model": "vehicles/german/G116_Turan_III_prot/normal/lod0/Gun_01.model",
+                "weight": 500,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 456,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G116_Turan_III_prot",
+        "name": "Tur\u00e1n III protot\u00edpus",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 369,
+                "identifier": "R_4_T",
+                "name": "R/4-T",
+                "not_in_shop": true,
+                "price": 12000,
+                "range": 620,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G116_Turan_III_prot",
+                "tier": 6,
+                "weight": 41
+            }
+        ],
+        "repair_price": 3.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 584,
+                "icon": "ap",
+                "id": "_75mm_43_M_Pancelgranat",
+                "min_penetration": 101,
+                "module_damage": 100,
+                "name": "43 M. p\u00e1nc\u00e9lgr\u00e1n\u00e1t",
+                "penetration": 113,
+                "penetration_loss": 0,
+                "price": 76,
+                "range": 720,
+                "speed": 770,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 584,
+                "icon": "ap_cr",
+                "id": "_75mm_40_M_Kulonleges_Nemet_Pancelgranat",
+                "min_penetration": 131,
+                "module_damage": 100,
+                "name": "40 (40W) M. KNP",
+                "penetration": 160,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 584,
+                "icon": "he",
+                "id": "_75mm_43_M_Repeszgranat",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "43 M. repeszgr\u00e1n\u00e1t",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 60,
+                "range": 720,
+                "speed": 550,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Tur\u00e1n III PT",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "turan-iii-pt",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": -0.009293,
+        "turret_pos_y": 0.560031,
+        "turret_pos_z": 0.55409,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 75,
+                "armor_rear": 55,
+                "armor_side": 35,
+                "collision_model": "vehicles/german/G116_Turan_III_prot/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": 0.000257,
+                "gun_pos_y": 0.374332,
+                "gun_pos_z": 0.545186,
+                "health": 114,
+                "id": 278,
+                "identifier": "Turret_1_G116_Turan_III_prot",
+                "name": "Tur\u00e1n III protot\u00edpus",
+                "not_in_shop": true,
+                "price": 8000,
+                "rotation_speed": 28,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "G116_Turan_III_prot",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/german/G116_Turan_III_prot/normal/lod0/Turret_01.model",
+                "weight": 4000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v09171",
+        "visual_model": "vehicles/german/G116_Turan_III_prot/normal/lod0/Hull.model",
+        "weight": 7309,
+        "xp_factor": 1.5
+    }
+}

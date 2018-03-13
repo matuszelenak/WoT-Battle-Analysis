@@ -1,0 +1,555 @@
+{
+    "tank": {
+        "ammo_rack_health": 210,
+        "ammo_rack_repair_health": 140,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 57
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 57
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": true,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 57
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 55,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.435,
+        "camo_moving": 0.217,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.29,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 36000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R97_Object_140/collision_client/Chassis.model",
+                "dispersion_movement": 0.08,
+                "dispersion_rotation": 0.08,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.939254,
+                "hull_pos_z": 0,
+                "id": 807,
+                "identifier": "Chassis_Object_140",
+                "max_climb_angle": 25,
+                "max_load": 39000,
+                "name": "Object 140",
+                "not_in_shop": true,
+                "price": 31700,
+                "repair_health": 190,
+                "repair_price": 7.5,
+                "rotation_speed": 54,
+                "tank_id": "R97_Object_140",
+                "terrain_hard": 0.55,
+                "terrain_medium": 0.65,
+                "terrain_soft": 1.5,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R97_Object_140/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/russian/R97_Object_140/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "An experimental medium tank. Developed between 1953 and 1958 in Nizhny Tagil to replace the T-54. Two prototypes were built, but in 1958 the project was terminated in favor of the Object 430.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 891,
+                "identifier": "TD-12",
+                "name": "TD-12",
+                "not_in_shop": true,
+                "power": 580,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R97_Object_140",
+                "tier": 10,
+                "weight": 1000
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R97_Object_140/collision_client/Gun_03.model",
+                "depression": 6,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 240
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 200,
+                "id": 1340,
+                "identifier": "_100mm_D54_TS",
+                "max_ammo": 50,
+                "name": "100 mm U-8TS",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.394445,
+                            6
+                        ],
+                        [
+                            0.408333,
+                            2
+                        ],
+                        [
+                            0.591667,
+                            2
+                        ],
+                        [
+                            0.605556,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 242700,
+                "reload_time": 6.6,
+                "repair_health": 100,
+                "repair_price": 10,
+                "rotation_speed": 33.25,
+                "tier": 10,
+                "turret_id": 688,
+                "visual_model": "vehicles/russian/R97_Object_140/normal/lod0/Gun_03.model",
+                "weight": 2800,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1520,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R97_Object_140",
+        "name": "Object 140",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 938,
+                "identifier": "R113M",
+                "name": "R-113",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R97_Object_140",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 12.6,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1340,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412PB",
+                "min_penetration": 254,
+                "module_damage": 135,
+                "name": "UBR-412PB",
+                "penetration": 264,
+                "penetration_loss": 0,
+                "price": 1100,
+                "range": 720,
+                "speed": 1535,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1340,
+                "icon": "hc",
+                "id": "_100mm_3UBK4M",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "ZUBK4M",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1340,
+                "icon": "he",
+                "id": "_100mm_3UOF10",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "ZUOF10",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 140",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-140",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.530647,
+        "turret_pos_z": 0.312,
+        "turret_slots": [
+            {
+                "id": 535,
+                "pos_x": 0,
+                "pos_y": 0.530647,
+                "pos_z": 0.312,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R97_Object_140"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 240,
+                "armor_rear": 65,
+                "armor_side": 187,
+                "collision_model": "vehicles/russian/R97_Object_140/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 240
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 227
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 220
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 196
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 187
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 88
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 37
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.2061,
+                "gun_pos_z": 1.199,
+                "health": 380,
+                "id": 688,
+                "identifier": "Turret_1_Object_140",
+                "name": "Object 140",
+                "not_in_shop": true,
+                "price": 52000,
+                "rotation_speed": 40,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "R97_Object_140",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/russian/R97_Object_140/normal/lod0/Turret_01.model",
+                "weight": 8200
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v10000ct",
+        "visual_model": "vehicles/russian/R97_Object_140/normal/lod0/Hull.model",
+        "weight": 11620,
+        "xp_factor": 1
+    }
+}

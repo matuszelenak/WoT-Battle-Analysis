@@ -1,0 +1,1515 @@
+{
+    "tank": {
+        "ammo_rack_health": 190,
+        "ammo_rack_repair_health": 130,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 85
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 5
+            }
+        ],
+        "armor_front": 85,
+        "armor_rear": 40,
+        "armor_side": 50,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.243,
+        "camo_moving": 0.121,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.162,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 40000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 150,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.23974,
+                "hull_pos_z": 0,
+                "id": 188,
+                "identifier": "Pz-V_Standardketten",
+                "max_climb_angle": 25,
+                "max_load": 45000,
+                "name": "Pz.Kpfw. Panther Ausf. A",
+                "not_in_shop": false,
+                "price": 15000,
+                "repair_health": 115,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "G03_PzV_Panther",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.5,
+                "tier": 6,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Chassis.model",
+                "weight": 15000
+            },
+            {
+                "armor": 25,
+                "brake_force": 45000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 160,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.23974,
+                "hull_pos_z": 0,
+                "id": 189,
+                "identifier": "Pz-V_Vetstaerktketten",
+                "max_climb_angle": 25,
+                "max_load": 48000,
+                "name": "Pz.Kpfw. Panther Ausf. G",
+                "not_in_shop": false,
+                "price": 18200,
+                "repair_health": 120,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "G03_PzV_Panther",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.3,
+                "tier": 7,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "This famous tank was produced from January 1943 through April 1945, with a total of 5,796 vehicles built plus eight vehicles built on the F series chassis.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 200,
+                "id": 206,
+                "identifier": "Maybach_HL_210_TRM_P30",
+                "name": "Maybach HL 210 TRM P30",
+                "not_in_shop": false,
+                "power": 650,
+                "price": 35500,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G03_PzV_Panther",
+                "tier": 7,
+                "weight": 850
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 207,
+                "identifier": "Maybach_HL_230_TRM_P30",
+                "name": "Maybach HL 230 TRM P30",
+                "not_in_shop": false,
+                "power": 700,
+                "price": 54000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G03_PzV_Panther",
+                "tier": 8,
+                "weight": 1200
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 320,
+                "identifier": "_75mm_KwK_L70",
+                "max_ammo": 81,
+                "name": "7,5 cm Kw.K. 42 L/70",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 53000,
+                "reload_time": 4.2,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 159,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Gun_01.model",
+                "weight": 1740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Gun_06.model",
+                "depression": 8,
+                "dispersion": 0.55,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 150,
+                "id": 321,
+                "identifier": "_105mm_StuH42_L28Pz",
+                "max_ammo": 42,
+                "name": "10,5 cm Kw.K. L/28",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            3
+                        ],
+                        [
+                            0.583333,
+                            3
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 28000,
+                "reload_time": 8,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 159,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Gun_06.model",
+                "weight": 2100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Gun_03.model",
+                "depression": 8,
+                "dispersion": 0.32,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.2,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "id": 322,
+                "identifier": "_75mm_KwK45_L100",
+                "max_ammo": 80,
+                "name": "7,5 cm Kw.K. L/100",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 128570,
+                "reload_time": 4.2,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 159,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Gun_03.model",
+                "weight": 2100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Gun_02.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 323,
+                "identifier": "_75mm_KwK_L70",
+                "max_ammo": 80,
+                "name": "7,5 cm Kw.K. 42 L/70",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            3
+                        ],
+                        [
+                            0.583333,
+                            3
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 53000,
+                "reload_time": 4,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 160,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Gun_02.model",
+                "weight": 1740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.55,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 150,
+                "id": 324,
+                "identifier": "_105mm_StuH42_L28Pz",
+                "max_ammo": 42,
+                "name": "10,5 cm Kw.K. L/28",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            4
+                        ],
+                        [
+                            0.583333,
+                            4
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 28000,
+                "reload_time": 8,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 160,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Gun_05.model",
+                "weight": 2100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.32,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "id": 325,
+                "identifier": "_75mm_KwK45_L100",
+                "max_ammo": 80,
+                "name": "7,5 cm Kw.K. L/100",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            3
+                        ],
+                        [
+                            0.583333,
+                            3
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 128570,
+                "reload_time": 4,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 160,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Gun_04.model",
+                "weight": 2100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 960,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G03_PzV_Panther",
+        "name": "Panther",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 1380000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 201,
+                "identifier": "FuG5",
+                "name": "FuG 5",
+                "not_in_shop": false,
+                "price": 630,
+                "range": 310,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G03_PzV_Panther",
+                "tier": 3,
+                "weight": 50
+            },
+            {
+                "health": 120,
+                "id": 202,
+                "identifier": "FuG7",
+                "name": "FuG 7",
+                "not_in_shop": false,
+                "price": 8160,
+                "range": 415,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G03_PzV_Panther",
+                "tier": 6,
+                "weight": 70
+            },
+            {
+                "health": 150,
+                "id": 203,
+                "identifier": "FuG12",
+                "name": "FuG 12",
+                "not_in_shop": false,
+                "price": 43200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "G03_PzV_Panther",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 6.09,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 320,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 132,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 150,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 925,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 320,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 174,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1156,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 320,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 925,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 321,
+                "icon": "ap",
+                "id": "_105mm_PzGr39K",
+                "min_penetration": 61,
+                "module_damage": 150,
+                "name": "Pzgr 39 K",
+                "penetration": 64,
+                "penetration_loss": 0,
+                "price": 120,
+                "range": 720,
+                "speed": 470,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 321,
+                "icon": "hc",
+                "id": "_105mmGr39H1A",
+                "min_penetration": 104,
+                "module_damage": 150,
+                "name": "Gr 39 H1A",
+                "penetration": 104,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 376,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 410,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 321,
+                "icon": "he",
+                "id": "_105mm_Sprg_K",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "Sprgr K",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 128,
+                "range": 720,
+                "speed": 470,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 322,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 184,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 198,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 322,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 204,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 244,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 322,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 323,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 132,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 150,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 925,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 323,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 174,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1156,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 323,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 925,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 324,
+                "icon": "ap",
+                "id": "_105mm_PzGr39K",
+                "min_penetration": 61,
+                "module_damage": 150,
+                "name": "Pzgr 39 K",
+                "penetration": 64,
+                "penetration_loss": 0,
+                "price": 120,
+                "range": 720,
+                "speed": 470,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 324,
+                "icon": "hc",
+                "id": "_105mmGr39H1A",
+                "min_penetration": 104,
+                "module_damage": 150,
+                "name": "Gr 39 H1A",
+                "penetration": 104,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 376,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 410,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 324,
+                "icon": "he",
+                "id": "_105mm_Sprg_K",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "Sprgr K",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 128,
+                "range": 720,
+                "speed": 470,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 325,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 184,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 198,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 325,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 204,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 244,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 325,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Panther",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "panther",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "beast"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.723957,
+        "turret_pos_z": -0.265,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 100,
+                "armor_rear": 45,
+                "armor_side": 45,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 45
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.4563,
+                "gun_pos_z": 1.0316,
+                "health": 240,
+                "id": 159,
+                "identifier": "Pz-V_Standardturm",
+                "name": "Pz.Kpfw. Panther Ausf. G",
+                "not_in_shop": false,
+                "price": 13500,
+                "rotation_speed": 30,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "G03_PzV_Panther",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Turret_01.model",
+                "weight": 7760
+            },
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 60,
+                "armor_side": 60,
+                "collision_model": "vehicles/german/G03_PzV_Panther/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": 0.0058,
+                "gun_pos_y": 0.4563,
+                "gun_pos_z": 1.0316,
+                "health": 340,
+                "id": 160,
+                "identifier": "Pz-V_Shmallturm",
+                "name": "Pz.Kpfw. Panther Schmalturm",
+                "not_in_shop": false,
+                "price": 22300,
+                "rotation_speed": 30,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "G03_PzV_Panther",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Turret_02.model",
+                "weight": 7745
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Pz-V_Vetstaerktketten",
+                "name": "Pz-V_Vetstaerktketten",
+                "parent_key": "chassis-Pz-V_Standardketten",
+                "price": 8200,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Pz-V_Shmallturm",
+                "name": "Pz-V_Shmallturm",
+                "parent_key": "gun-_75mm_KwK_L70",
+                "price": 10100,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_105mm_StuH42_L28Pz",
+                "name": "_105mm_StuH42_L28Pz",
+                "parent_key": "gun-_75mm_KwK_L70",
+                "price": 3800,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_75mm_KwK45_L100",
+                "name": "_75mm_KwK45_L100",
+                "parent_key": "gun-_75mm_KwK_L70",
+                "price": 16100,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-G64_Panther_II",
+                "name": "G64_Panther_II",
+                "parent_key": "gun-_75mm_KwK45_L100",
+                "price": 88500,
+                "tank_name": "Panther II",
+                "tank_price": 2390000,
+                "tank_slug": "panther-ii",
+                "tank_tier": 8,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_HL_230_TRM_P30",
+                "name": "Maybach_HL_230_TRM_P30",
+                "parent_key": "engine-Maybach_HL_210_TRM_P30",
+                "price": 15800,
+                "type": "engine"
+            },
+            {
+                "key": "vehicle-G16_PzVIB_Tiger_II",
+                "name": "G16_PzVIB_Tiger_II",
+                "parent_key": "engine-Maybach_HL_230_TRM_P30",
+                "price": 108000,
+                "tank_name": "Tiger II",
+                "tank_price": 2450000,
+                "tank_slug": "tiger-ii",
+                "tank_tier": 8,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-FuG7",
+                "name": "FuG7",
+                "parent_key": "radio-FuG5",
+                "price": 0,
+                "type": "radio"
+            },
+            {
+                "key": "radio-FuG12",
+                "name": "FuG12",
+                "parent_key": "radio-FuG7",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919ct",
+        "visual_model": "vehicles/german/G03_PzV_Panther/normal/lod0/Hull.model",
+        "weight": 18775,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,604 @@
+{
+    "tank": {
+        "ammo_rack_health": 90,
+        "ammo_rack_repair_health": 45,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 17
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 0,
+        "armor_rear": 60,
+        "armor_side": 50,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.3,
+        "camo_moving": 0.1,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1,
+        "camo_still": 0.2,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 16000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB28_Bishop/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.93621,
+                "hull_pos_z": 0,
+                "id": 586,
+                "identifier": "Chassis_GB28_Bishop",
+                "max_climb_angle": 25,
+                "max_load": 17700,
+                "name": "Valentine Mk. II",
+                "not_in_shop": false,
+                "price": 4500,
+                "repair_health": 55,
+                "repair_price": 1,
+                "rotation_speed": 20,
+                "tank_id": "GB28_Bishop",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 4,
+                "visual_model": "vehicles/british/GB28_Bishop/normal/lod0/Chassis.model",
+                "weight": 6000
+            },
+            {
+                "armor": 10,
+                "brake_force": 18000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB28_Bishop/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.93621,
+                "hull_pos_z": 0,
+                "id": 587,
+                "identifier": "Chassis_GB28_Bishop_2",
+                "max_climb_angle": 25,
+                "max_load": 20000,
+                "name": "Bishop",
+                "not_in_shop": false,
+                "price": 8800,
+                "repair_health": 60,
+                "repair_price": 1,
+                "rotation_speed": 22,
+                "tank_id": "GB28_Bishop",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 5,
+                "visual_model": "vehicles/british/GB28_Bishop/normal/lod0/Chassis.model",
+                "weight": 6000
+            }
+        ],
+        "collision_model": "vehicles/british/GB28_Bishop/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed on the basis of the Valentine tank. The standard turret was replaced by a stationary box-shaped cabin that featured a 25-pounder howitzer. Due to the low gun elevation angle (15 deg), the maximum firing range was only 5,800 m, which is only half as long as its firing range in the towed state. The SPG saw combat in North Africa, Sicily, and South Italy. According to various sources, a total of 80\u2013100 vehicles were produced.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 66,
+                "id": 648,
+                "identifier": "AEC_A189",
+                "name": "AEC A189",
+                "not_in_shop": false,
+                "power": 135,
+                "price": 2150,
+                "repair_health": 33,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "GB28_Bishop",
+                "tier": 2,
+                "weight": 800
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 66,
+                "id": 649,
+                "identifier": "AEC_A1909",
+                "name": "AEC A190",
+                "not_in_shop": false,
+                "power": 131,
+                "price": 2500,
+                "repair_health": 33,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB28_Bishop",
+                "tier": 3,
+                "weight": 800
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 70,
+                "id": 650,
+                "identifier": "GMC_6-71_Mk10",
+                "name": "GMC 6004 6-71S",
+                "not_in_shop": false,
+                "power": 138,
+                "price": 9000,
+                "repair_health": 35,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB28_Bishop",
+                "tier": 4,
+                "weight": 991
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 72,
+                "id": 651,
+                "identifier": "GMC_6-71_Mk11",
+                "name": "GMC 6004 6-71A",
+                "not_in_shop": false,
+                "power": 165,
+                "price": 11000,
+                "repair_health": 36,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB28_Bishop",
+                "tier": 5,
+                "weight": 991
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 24,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 4.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB28_Bishop/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.68,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 5,
+                "dispersion_rotation": 0.32,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 130,
+                "id": 1014,
+                "identifier": "OQF_25pdr_Gun_Mk_II",
+                "max_ammo": 32,
+                "name": "Q.F. 25-Pr. Gun/How.",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 28500,
+                "reload_time": 8.8,
+                "repair_health": 65,
+                "repair_price": 8,
+                "rotation_speed": 30.625,
+                "tier": 4,
+                "turret_id": 493,
+                "visual_model": "vehicles/british/GB28_Bishop/normal/lod0/Gun_01.model",
+                "weight": 510,
+                "yaw_left": -4,
+                "yaw_right": 4
+            },
+            {
+                "Shells": null,
+                "aim_time": 4.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB28_Bishop/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.72,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 5,
+                "dispersion_rotation": 0.32,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 150,
+                "id": 1015,
+                "identifier": "_4.5inch_SPG_Howitzer",
+                "max_ammo": 32,
+                "name": "Q.F. 4.5-in. Howitzer",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 43000,
+                "reload_time": 12.9,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 5,
+                "turret_id": 493,
+                "visual_model": "vehicles/british/GB28_Bishop/normal/lod0/Gun_02.model",
+                "weight": 463,
+                "yaw_left": -4,
+                "yaw_right": 4
+            }
+        ],
+        "health": 280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB28_Bishop",
+        "name": "Bishop",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 405000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 704,
+                "identifier": "N19Mk1",
+                "name": "WS No. 19 Mk. I",
+                "not_in_shop": false,
+                "price": 15000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "GB28_Bishop",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 705,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB28_Bishop",
+                "tier": 7,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 706,
+                "identifier": "N19Mk3",
+                "name": "WS No. 19 Mk. III",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "GB28_Bishop",
+                "tier": 8,
+                "weight": 40
+            }
+        ],
+        "repair_price": 6,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 87.6,
+                "damage": 280,
+                "explosion_radius": 1.39,
+                "gold_price": 0,
+                "gravity": 160,
+                "gun_id": 1014,
+                "icon": "he",
+                "id": "_25pdr_HE_Mk_1D",
+                "min_penetration": 22,
+                "module_damage": 115,
+                "name": "HE Mk. 1D",
+                "penetration": 22,
+                "penetration_loss": 0,
+                "price": 83,
+                "range": 10000,
+                "speed": 410,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 114.3,
+                "damage": 450,
+                "explosion_radius": 2.22,
+                "gold_price": 0,
+                "gravity": 146,
+                "gun_id": 1015,
+                "icon": "he",
+                "id": "_4.5inch_HE_Mk_13",
+                "min_penetration": 28,
+                "module_damage": 155,
+                "name": "HE Mk. XIII",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 250,
+                "range": 10000,
+                "speed": 270,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Bishop",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "bishop",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 1.16293,
+        "turret_pos_z": 1.30686,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/british/GB28_Bishop/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": -0.013365,
+                "gun_pos_z": -0.057149,
+                "health": 70,
+                "id": 493,
+                "identifier": "Turret_1_GB28_Bishop",
+                "name": "Bishop",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 20,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 55,
+                "surveyor_repair_health": 0,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB28_Bishop",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 250,
+                "visual_model": "vehicles/british/GB28_Bishop/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB28_Bishop_2",
+                "name": "Chassis_GB28_Bishop_2",
+                "parent_key": "chassis-Chassis_GB28_Bishop",
+                "price": 2000,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_4.5inch_SPG_Howitzer",
+                "name": "_4.5inch_SPG_Howitzer",
+                "parent_key": "gun-OQF_25pdr_Gun_Mk_II",
+                "price": 4100,
+                "type": "gun"
+            },
+            {
+                "key": "engine-AEC_A1909",
+                "name": "AEC_A1909",
+                "parent_key": "engine-AEC_A189",
+                "price": 180,
+                "type": "engine"
+            },
+            {
+                "key": "engine-GMC_6-71_Mk10",
+                "name": "GMC_6-71_Mk10",
+                "parent_key": "engine-AEC_A1909",
+                "price": 700,
+                "type": "engine"
+            },
+            {
+                "key": "engine-GMC_6-71_Mk11",
+                "name": "GMC_6-71_Mk11",
+                "parent_key": "engine-GMC_6-71_Mk10",
+                "price": 800,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N19Mk2",
+                "name": "N19Mk2",
+                "parent_key": "radio-N19Mk1",
+                "price": 3600,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk3",
+                "name": "N19Mk3",
+                "parent_key": "radio-N19Mk2",
+                "price": 4000,
+                "type": "radio"
+            },
+            {
+                "key": "vehicle-GB77_FV304",
+                "name": "GB77_FV304",
+                "parent_key": "radio-N19Mk2",
+                "price": 31000,
+                "tank_name": "FV304",
+                "tank_price": 930000,
+                "tank_slug": "fv304",
+                "tank_tier": 6,
+                "tank_type": "spg",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v0918ct",
+        "visual_model": "vehicles/british/GB28_Bishop/normal/lod0/Hull.model",
+        "weight": 9990,
+        "xp_factor": 1
+    }
+}

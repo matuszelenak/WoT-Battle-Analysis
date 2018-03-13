@@ -1,0 +1,446 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 85
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 115
+            }
+        ],
+        "armor_front": 90,
+        "armor_rear": 60,
+        "armor_side": 90,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.417,
+        "camo_moving": 0.167,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.278,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 50000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R111_ISU130/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.00105,
+                "hull_pos_z": 0,
+                "id": 902,
+                "identifier": "Chassis_R111_ISU130",
+                "max_climb_angle": 25,
+                "max_load": 52600,
+                "name": "ISU-130",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 150,
+                "repair_price": 5,
+                "rotation_speed": 28,
+                "tank_id": "R111_ISU130",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R111_ISU130/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/russian/R111_ISU130/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "This heavy SPG on the basis of the ISU-122S was developed in 1944, with a prototype built in October. The 130-mm S-26 gun, based on the B-13 naval gun, was mounted on the ISU-122S. The vehicle underwent automotive and firing trials by 1945, but penetration characteristics were inferior to those of the 122-mm guns, and the war was drawing to a close, so the vehicle never entered service.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 190,
+                "id": 993,
+                "identifier": "V-2IS_R1",
+                "name": "V-2-10",
+                "not_in_shop": true,
+                "power": 520,
+                "price": 29000,
+                "repair_health": 95,
+                "repair_price": 7,
+                "tags": "diesel",
+                "tank_id": "R111_ISU130",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 38,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 5,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R111_ISU130/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.06,
+                "elevation": 14.3,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 190,
+                "id": 1511,
+                "identifier": "_130mm_S-26A",
+                "max_ammo": 25,
+                "name": "130 mm S-26",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -14.3
+                        ],
+                        [
+                            1,
+                            -14.3
+                        ]
+                    ]
+                },
+                "price": 147000,
+                "reload_time": 10.3,
+                "repair_health": 95,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 767,
+                "visual_model": "vehicles/russian/R111_ISU130/normal/lod0/Gun_01.model",
+                "weight": 5000,
+                "yaw_left": -2,
+                "yaw_right": 10
+            }
+        ],
+        "health": 800,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R111_ISU130",
+        "name": "ISU-130",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 1039,
+                "identifier": "_10RKM",
+                "name": "10RKM",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R111_ISU130",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 6,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 130,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1511,
+                "icon": "ap",
+                "id": "_130mm_2-02864A",
+                "min_penetration": 207,
+                "module_damage": 180,
+                "name": "Ch. \u2116 2-02864A",
+                "penetration": 215,
+                "penetration_loss": 0,
+                "price": 760,
+                "range": 720,
+                "speed": 898,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 130,
+                "damage": 570,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 1511,
+                "icon": "ap",
+                "id": "_130mm_2-01743",
+                "min_penetration": 179,
+                "module_damage": 180,
+                "name": "Ch. \u2116 2-01743",
+                "penetration": 187,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 130,
+                "damage": 640,
+                "explosion_radius": 2.78,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1511,
+                "icon": "he",
+                "id": "_130mm_2-02742",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Ch. \u2116 2-02742",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 450,
+                "range": 720,
+                "speed": 702,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "ISU-130",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "isu-130",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "inGame"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0.256579,
+        "turret_pos_y": 0.825229,
+        "turret_pos_z": 2.29866,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R111_ISU130/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 200,
+                "id": 767,
+                "identifier": "Turret_1_R111_ISU130",
+                "name": "ISU-130",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "R111_ISU130",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/russian/R111_ISU130/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v09201",
+        "visual_model": "vehicles/russian/R111_ISU130/normal/lod0/Hull.model",
+        "weight": 28775,
+        "xp_factor": 1.5
+    }
+}

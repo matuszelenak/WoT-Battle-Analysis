@@ -1,0 +1,1094 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 16
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 30,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.375,
+        "camo_moving": 0.188,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.25,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Chassis.model",
+                "dispersion_movement": 0.32,
+                "dispersion_rotation": 0.32,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.936598,
+                "hull_pos_z": 0,
+                "id": 124,
+                "identifier": "Chassis_D1_2",
+                "max_climb_angle": 25,
+                "max_load": 12190,
+                "name": "D1",
+                "not_in_shop": false,
+                "price": 340,
+                "repair_health": 45,
+                "repair_price": 1,
+                "rotation_speed": 32,
+                "tank_id": "F02_D1",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.2,
+                "tier": 1,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Chassis.model",
+                "weight": 1200
+            },
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Chassis.model",
+                "dispersion_movement": 0.29,
+                "dispersion_rotation": 0.29,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.936598,
+                "hull_pos_z": 0,
+                "id": 125,
+                "identifier": "Chassis_D1_2_2",
+                "max_climb_angle": 25,
+                "max_load": 14250,
+                "name": "D1 bis",
+                "not_in_shop": false,
+                "price": 620,
+                "repair_health": 55,
+                "repair_price": 1,
+                "rotation_speed": 34,
+                "tank_id": "F02_D1",
+                "terrain_hard": 1,
+                "terrain_medium": 1,
+                "terrain_soft": 2,
+                "tier": 2,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Chassis.model",
+                "weight": 1200
+            }
+        ],
+        "collision_model": "vehicles/french/F02_D1/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "Development was started in 1929. Mass production was launched in 1930, with 160 vehicles manufactured by 1935. A total of 152 tanks fought in France. Eighteen vehicles were captured by the German Army and used for training purposes.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 137,
+                "identifier": "Renault_S4",
+                "name": "Renault S4",
+                "not_in_shop": false,
+                "power": 65,
+                "price": 310,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F02_D1",
+                "tier": 1,
+                "weight": 266
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 138,
+                "identifier": "Renault_S4B",
+                "name": "Renault S4F",
+                "not_in_shop": false,
+                "power": 74,
+                "price": 350,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F02_D1",
+                "tier": 1,
+                "weight": 266
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 28,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.13333334,
+                "clip_size": 15,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.54,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.2,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 34,
+                "id": 209,
+                "identifier": "_13.2mm_Hotchkiss_mle._1930",
+                "max_ammo": 420,
+                "name": "13.2 mm Hotchkiss mle. 1930",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 1500,
+                "reload_time": 5,
+                "repair_health": 17,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 109,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Gun_02.model",
+                "weight": 70,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 56,
+                "id": 210,
+                "identifier": "_25mm_Canon_Raccourci_Mle.1934",
+                "max_ammo": 200,
+                "name": "25 mm Canon Raccourci mle. 1934",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2320,
+                "reload_time": 1.7,
+                "repair_health": 28,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 109,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Gun_03.model",
+                "weight": 71,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.13333334,
+                "clip_size": 30,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Gun_05.model",
+                "depression": 18,
+                "dispersion": 0.54,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.2,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 34,
+                "id": 211,
+                "identifier": "_13.2mm_Hotchkiss_mle._1930",
+                "max_ammo": 420,
+                "name": "13.2 mm Hotchkiss mle. 1930",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            18
+                        ],
+                        [
+                            0.353005,
+                            18
+                        ],
+                        [
+                            0.416667,
+                            10
+                        ],
+                        [
+                            0.583333,
+                            10
+                        ],
+                        [
+                            0.646995,
+                            18
+                        ],
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 1500,
+                "reload_time": 10,
+                "repair_health": 17,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 110,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Gun_05.model",
+                "weight": 70,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Gun_06.model",
+                "depression": 18,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 56,
+                "id": 212,
+                "identifier": "_25mm_Canon_Raccourci_Mle.1934",
+                "max_ammo": 200,
+                "name": "25 mm Canon Raccourci mle. 1934",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            18
+                        ],
+                        [
+                            0.361111,
+                            18
+                        ],
+                        [
+                            0.375,
+                            10
+                        ],
+                        [
+                            0.625,
+                            10
+                        ],
+                        [
+                            0.638889,
+                            18
+                        ],
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2320,
+                "reload_time": 1.5,
+                "repair_health": 28,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 110,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Gun_06.model",
+                "weight": 71,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Gun_07.model",
+                "depression": 18,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 213,
+                "identifier": "_47mm_SA34",
+                "max_ammo": 112,
+                "name": "47 mm SA34",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            18
+                        ],
+                        [
+                            0.353005,
+                            18
+                        ],
+                        [
+                            0.416667,
+                            10
+                        ],
+                        [
+                            0.583333,
+                            10
+                        ],
+                        [
+                            0.646995,
+                            18
+                        ],
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2400,
+                "reload_time": 2.5,
+                "repair_health": 35,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 110,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Gun_07.model",
+                "weight": 90,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 124,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F02_D1",
+        "name": "D1",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3800,
+        "radios": [
+            {
+                "health": 100,
+                "id": 130,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F02_D1",
+                "tier": 2,
+                "weight": 100
+            }
+        ],
+        "repair_price": 3.6,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 13.2,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 209,
+                "icon": "ap",
+                "id": "_13.2mm_Balle_P.",
+                "min_penetration": 16,
+                "module_damage": 18,
+                "name": "Balle P.",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 1,
+                "range": 400,
+                "speed": 800,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 13.2,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 209,
+                "icon": "ap_cr",
+                "id": "_13.2mm_Balle_T.P.",
+                "min_penetration": 15,
+                "module_damage": 18,
+                "name": "Balle T.P.",
+                "penetration": 36,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 25,
+                "damage": 27,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 210,
+                "icon": "ap",
+                "id": "_25mm_Balle_T.P._mle._1928",
+                "min_penetration": 34,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1928",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 5,
+                "range": 400,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 25,
+                "damage": 27,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 210,
+                "icon": "ap_cr",
+                "id": "_25mm_Balle_T.P._mle._1934P",
+                "min_penetration": 35,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1934P",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 13.2,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 211,
+                "icon": "ap",
+                "id": "_13.2mm_Balle_P.",
+                "min_penetration": 16,
+                "module_damage": 18,
+                "name": "Balle P.",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 1,
+                "range": 400,
+                "speed": 800,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 13.2,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 211,
+                "icon": "ap_cr",
+                "id": "_13.2mm_Balle_T.P.",
+                "min_penetration": 15,
+                "module_damage": 18,
+                "name": "Balle T.P.",
+                "penetration": 36,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 25,
+                "damage": 27,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 212,
+                "icon": "ap",
+                "id": "_25mm_Balle_T.P._mle._1928",
+                "min_penetration": 34,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1928",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 5,
+                "range": 400,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 25,
+                "damage": 27,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 212,
+                "icon": "ap_cr",
+                "id": "_25mm_Balle_T.P._mle._1934P",
+                "min_penetration": 35,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1934P",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 213,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1892",
+                "min_penetration": 15,
+                "module_damage": 64,
+                "name": "ODR mle. 1892",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 450,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 213,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle_1935_b",
+                "min_penetration": 34,
+                "module_damage": 64,
+                "name": "ODR mle. 1935 Bref",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 563,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 62,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 213,
+                "icon": "he",
+                "id": "_47mm_Oe_type_D",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE type D",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 450,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "D1",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "d1",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.692572,
+        "turret_pos_z": 0.43454,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 22,
+                "armor_rear": 16,
+                "armor_side": 22,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 22
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 22
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 22
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 22
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 22
+                    }
+                ],
+                "gun_pos_x": -0.01057,
+                "gun_pos_y": 0.23397,
+                "gun_pos_z": 0.49501,
+                "health": 31,
+                "id": 109,
+                "identifier": "Turret_1_D1_2",
+                "name": "D1 Berliet",
+                "not_in_shop": false,
+                "price": 120,
+                "rotation_speed": 24,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 2,
+                "tank_id": "F02_D1",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Turret_01.model",
+                "weight": 500
+            },
+            {
+                "Guns": null,
+                "armor_front": 40,
+                "armor_rear": 40,
+                "armor_side": 0,
+                "collision_model": "vehicles/french/F02_D1/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.230756,
+                "gun_pos_y": 0.255898,
+                "gun_pos_z": 0.370434,
+                "health": 46,
+                "id": 110,
+                "identifier": "Turret_2_D1_2",
+                "name": "Schneider Tourelle 2",
+                "not_in_shop": false,
+                "price": 830,
+                "rotation_speed": 24,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 2,
+                "tank_id": "F02_D1",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/french/F02_D1/normal/lod0/Turret_02.model",
+                "weight": 1300
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_D1_2_2",
+                "name": "Chassis_D1_2_2",
+                "parent_key": "chassis-Chassis_D1_2",
+                "price": 105,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_25mm_Canon_Raccourci_Mle.1934",
+                "name": "_25mm_Canon_Raccourci_Mle.1934",
+                "parent_key": "gun-_13.2mm_Hotchkiss_mle._1930",
+                "price": 150,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_D1_2",
+                "name": "Turret_2_D1_2",
+                "parent_key": "gun-_13.2mm_Hotchkiss_mle._1930",
+                "price": 135,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_47mm_SA34",
+                "name": "_47mm_SA34",
+                "parent_key": "turret-Turret_2_D1_2",
+                "price": 95,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F03_D2",
+                "name": "F03_D2",
+                "parent_key": "gun-_47mm_SA34",
+                "price": 1175,
+                "tank_name": "D2",
+                "tank_price": 42500,
+                "tank_slug": "d2",
+                "tank_tier": 3,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Renault_S4B",
+                "name": "Renault_S4B",
+                "parent_key": "engine-Renault_S4",
+                "price": 55,
+                "type": "engine"
+            }
+        ],
+        "version": "v09201ct",
+        "visual_model": "vehicles/french/F02_D1/normal/lod0/Hull.model",
+        "weight": 9000,
+        "xp_factor": 1
+    }
+}

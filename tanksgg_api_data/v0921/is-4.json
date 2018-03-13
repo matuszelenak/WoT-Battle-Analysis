@@ -1,0 +1,765 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 140
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 210
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 140
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 180
+            }
+        ],
+        "armor_front": 140,
+        "armor_rear": 100,
+        "armor_side": 160,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.176,
+        "camo_moving": 0.059,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.117,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R90_IS_4M/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.918547,
+                "hull_pos_z": 0,
+                "id": 901,
+                "identifier": "IS-4",
+                "max_climb_angle": 25,
+                "max_load": 66300,
+                "name": "IS-4M",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 26,
+                "tank_id": "R90_IS_4M",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.7,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R90_IS_4M/normal/lod0/Chassis.model",
+                "weight": 11000
+            }
+        ],
+        "collision_model": "vehicles/russian/R90_IS_4M/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The project was developed by the Design Bureau of the Chelyabinsk Kirov Plant starting in December 1943. In April 1944 two prototypes of the Object 701 were built. After prototype trials, the design was improved. In late 1944 and early 1945 two more prototypes underwent trials. The Object 701 No. 5 was recommended for adoption into service. However, production was called off in favor of the IS-3 just entering mass-production. After IS-3 production was suspended in 1946, production of the IS-4 began, continuing until 1949. A total of 25 IS-4M tanks were built in 1951. Later all previously produced tanks were modernized to the level of the IS-4M. According to different sources, between 235 and 258 vehicles were built in total; they were stationed in the Far East.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 370,
+                "id": 995,
+                "identifier": "V-12",
+                "name": "V-12",
+                "not_in_shop": true,
+                "power": 750,
+                "price": 128000,
+                "repair_health": 185,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "R90_IS_4M",
+                "tier": 10,
+                "weight": 1024
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 43,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R90_IS_4M/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 300
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 170
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 192,
+                "id": 1516,
+                "identifier": "_122-mm_D-25T_with_wedges_shutter",
+                "max_ammo": 30,
+                "name": "122 mm D-25T",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.405556,
+                            6
+                        ],
+                        [
+                            0.419444,
+                            2.9
+                        ],
+                        [
+                            0.463889,
+                            2.9
+                        ],
+                        [
+                            0.477778,
+                            6
+                        ],
+                        [
+                            0.522222,
+                            6
+                        ],
+                        [
+                            0.536111,
+                            2.9
+                        ],
+                        [
+                            0.580556,
+                            2.9
+                        ],
+                        [
+                            0.594444,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 125140,
+                "reload_time": 11,
+                "repair_health": 96,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 772,
+                "visual_model": "vehicles/russian/R90_IS_4M/normal/lod0/Gun_01.model",
+                "weight": 2590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R90_IS_4M/collision_client/Gun_02.model",
+                "depression": 6,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 300
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 170
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 210,
+                "id": 1517,
+                "identifier": "_122mm_M62-T2",
+                "max_ammo": 30,
+                "name": "122 mm M62-T2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.405556,
+                            6
+                        ],
+                        [
+                            0.419444,
+                            2.9
+                        ],
+                        [
+                            0.466667,
+                            2.9
+                        ],
+                        [
+                            0.480556,
+                            6
+                        ],
+                        [
+                            0.519445,
+                            6
+                        ],
+                        [
+                            0.533333,
+                            2.9
+                        ],
+                        [
+                            0.580556,
+                            2.9
+                        ],
+                        [
+                            0.594444,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 335000,
+                "reload_time": 12,
+                "repair_health": 105,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 772,
+                "visual_model": "vehicles/russian/R90_IS_4M/normal/lod0/Gun_02.model",
+                "weight": 3397,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 2000,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R90_IS_4M",
+        "name": "IS-4",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 1038,
+                "identifier": "_10RK-26",
+                "name": "10RK-26",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 720,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "R90_IS_4M",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 10.015,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1516,
+                "icon": "ap",
+                "id": "_122mm_UBR-471",
+                "min_penetration": 152,
+                "module_damage": 165,
+                "name": "UBR-471",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 1025,
+                "range": 720,
+                "speed": 780,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1516,
+                "icon": "ap_cr",
+                "id": "_122mm_UBR-471P",
+                "min_penetration": 204,
+                "module_damage": 165,
+                "name": "BR-471D",
+                "penetration": 217,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 975,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1516,
+                "icon": "he",
+                "id": "_122mm_UOF-471",
+                "min_penetration": 61,
+                "module_damage": 165,
+                "name": "UOF-471",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 720,
+                "speed": 780,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1517,
+                "icon": "ap",
+                "id": "_122mm_BR-471D",
+                "min_penetration": 250,
+                "module_damage": 165,
+                "name": "BR-472",
+                "penetration": 258,
+                "penetration_loss": 0,
+                "price": 1065,
+                "range": 720,
+                "speed": 940,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 13,
+                "gravity": 9.81,
+                "gun_id": 1517,
+                "icon": "hc",
+                "id": "_122mm_BM11",
+                "min_penetration": 340,
+                "module_damage": 165,
+                "name": "BK-9",
+                "penetration": 340,
+                "penetration_loss": 0.05,
+                "price": 5200,
+                "range": 720,
+                "speed": 920,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1517,
+                "icon": "he",
+                "id": "_122mm_UOF-472",
+                "min_penetration": 68,
+                "module_damage": 165,
+                "name": "UOF-472",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 630,
+                "range": 720,
+                "speed": 940,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "IS-4",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "is-4",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "heavyTank1"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.633887,
+        "turret_pos_z": 0.833712,
+        "turret_slots": [
+            {
+                "id": 602,
+                "pos_x": 0,
+                "pos_y": 0.633887,
+                "pos_z": 0.833712,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R90_IS_4M"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 250,
+                "armor_rear": 170,
+                "armor_side": 200,
+                "collision_model": "vehicles/russian/R90_IS_4M/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 230
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 170
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 230
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 140
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 275
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 230
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 75
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.359766,
+                "gun_pos_z": 1.13011,
+                "health": 500,
+                "id": 772,
+                "identifier": "Turret_710_mod_5",
+                "name": "IS-4M",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 22,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "R90_IS_4M",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/russian/R90_IS_4M/normal/lod0/Turret_01.model",
+                "weight": 14200
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "gun-_122mm_M62-T2",
+                "name": "_122mm_M62-T2",
+                "parent_key": "turret-Turret_710_mod_5",
+                "price": 0,
+                "type": "gun"
+            }
+        ],
+        "version": "v0921",
+        "visual_model": "vehicles/russian/R90_IS_4M/normal/lod0/Hull.model",
+        "weight": 30750,
+        "xp_factor": 1
+    }
+}

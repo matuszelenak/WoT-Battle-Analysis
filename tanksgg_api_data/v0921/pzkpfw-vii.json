@@ -1,0 +1,551 @@
+{
+    "tank": {
+        "ammo_rack_health": 280,
+        "ammo_rack_repair_health": 190,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 240
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 230
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 300
+            }
+        ],
+        "armor_front": 240,
+        "armor_rear": 120,
+        "armor_side": 160,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.099,
+        "camo_moving": 0.033,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.066,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 120000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G134_PzKpfw_VII/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 300,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.21035,
+                "hull_pos_z": 0,
+                "id": 302,
+                "identifier": "Chassis_G134_PzKpfw_VII",
+                "max_climb_angle": 25,
+                "max_load": 130000,
+                "name": "Pz.Kpfw. VII",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 225,
+                "repair_price": 5,
+                "rotation_speed": 24,
+                "tank_id": "G134_PzKpfw_VII",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.3,
+                "tier": 10,
+                "visual_model": "vehicles/german/G134_PzKpfw_VII/normal/lod0/Chassis.model",
+                "weight": 24000
+            }
+        ],
+        "collision_model": "vehicles/german/G134_PzKpfw_VII/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A superheavy tank with rear placement of the turret. Developed by the Krupp company in 1942. The project was discontinued in favor of more heavy tanks. No vehicles were ever manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 330,
+                "identifier": "MB517P",
+                "name": "MB 517",
+                "not_in_shop": true,
+                "power": 1200,
+                "price": 132000,
+                "repair_health": 160,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "G134_PzKpfw_VII",
+                "tier": 10,
+                "weight": 920
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 33,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G134_PzKpfw_VII/collision_client/Gun_02.model",
+                "depression": 7,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 240,
+                "id": 496,
+                "identifier": "_128mm_KwK46_L61",
+                "max_ammo": 40,
+                "name": "12,8 cm Kw.K. 46 L/61",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.027778,
+                            5
+                        ],
+                        [
+                            0.036111,
+                            7
+                        ],
+                        [
+                            0.963889,
+                            7
+                        ],
+                        [
+                            0.972222,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 340000,
+                "reload_time": 16,
+                "repair_health": 120,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 257,
+                "visual_model": "vehicles/german/G134_PzKpfw_VII/normal/lod0/Gun_02.model",
+                "weight": 3680,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 2000,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G134_PzKpfw_VII",
+        "name": "Pz.Kpfw. VII",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 329,
+                "identifier": "_10WSc",
+                "name": "10WSc",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 720,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "G134_PzKpfw_VII",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 10.5,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 128,
+                "damage": 560,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 496,
+                "icon": "ap",
+                "id": "_128mm_PzGr39L",
+                "min_penetration": 238,
+                "module_damage": 180,
+                "name": "Pzgr 39 L",
+                "penetration": 258,
+                "penetration_loss": 0,
+                "price": 1260,
+                "range": 720,
+                "speed": 1100,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 128,
+                "damage": 560,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 496,
+                "icon": "ap_cr",
+                "id": "_128mm_PzGr43",
+                "min_penetration": 270,
+                "module_damage": 180,
+                "name": "Pzgr 43",
+                "penetration": 315,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1350,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 128,
+                "damage": 700,
+                "explosion_radius": 2.71,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 496,
+                "icon": "he",
+                "id": "_128mm_SprG19",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Sprgr 19",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 1055,
+                "range": 720,
+                "speed": 1100,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz.Kpfw. VII",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pzkpfw-vii",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "heavyTank1"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "antifragmentationLining_superheavy_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": -0.00015,
+        "turret_pos_y": 0.66209,
+        "turret_pos_z": -2.08792,
+        "turret_slots": [
+            {
+                "id": 202,
+                "pos_x": -0.00015,
+                "pos_y": 0.66209,
+                "pos_z": -2.08792,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G134_PzKpfw_VII"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 200,
+                "armor_rear": 120,
+                "armor_side": 160,
+                "collision_model": "vehicles/german/G134_PzKpfw_VII/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 140
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 120
+                    }
+                ],
+                "gun_pos_x": 0.000492,
+                "gun_pos_y": 0.62573,
+                "gun_pos_z": 1.23051,
+                "health": 500,
+                "id": 257,
+                "identifier": "Turret_1_G134_PzKpfw_VII",
+                "name": "Pz.Kpfw. VII",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 18,
+                "rotator_health": 180,
+                "rotator_repair_health": 90,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 2,
+                "tank_id": "G134_PzKpfw_VII",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G134_PzKpfw_VII/normal/lod0/Turret_01.model",
+                "weight": 40000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0921",
+        "visual_model": "vehicles/german/G134_PzKpfw_VII/normal/lod0/Hull.model",
+        "weight": 50970,
+        "xp_factor": 1
+    }
+}

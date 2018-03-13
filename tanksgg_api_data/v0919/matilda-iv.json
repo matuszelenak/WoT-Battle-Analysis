@@ -1,0 +1,479 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 100,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 78
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 47
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_14",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 47
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 47
+            }
+        ],
+        "armor_front": 75,
+        "armor_rear": 55,
+        "armor_side": 70,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.398,
+        "camo_moving": 0.199,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.265,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 42800,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R32_Matilda_II_LL/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.94351,
+                "hull_pos_z": 0,
+                "id": 760,
+                "identifier": "Matilda",
+                "max_climb_angle": 25,
+                "max_load": 31000,
+                "name": "Matilda II",
+                "not_in_shop": true,
+                "price": 9380,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tank_id": "R32_Matilda_II_LL",
+                "terrain_hard": 1.03,
+                "terrain_medium": 1.26,
+                "terrain_soft": 2.29,
+                "tier": 5,
+                "visual_model": "vehicles/russian/R32_Matilda_II_LL/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/russian/R32_Matilda_II_LL/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A British tank supplied to the U.S.S.R. under Lend-Lease.\nIn December 1941, one Matilda vehicle was equipped with the Soviet 76.2-mm ZiS-5 gun and the DT machinegun. As a result, the better penetration rate and use of HE shells significantly increased the firepower. There is no precise data on the large-scale re-equipment of vehicles.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 75,
+                "id": 842,
+                "identifier": "AEC3",
+                "name": "AEC3",
+                "not_in_shop": true,
+                "power": 274,
+                "price": 4220,
+                "repair_health": 30,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "R32_Matilda_II_LL",
+                "tier": 3,
+                "weight": 400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 25,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.71429,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R32_Matilda_II_LL/collision_client/Gun_01.model",
+                "depression": 14,
+                "dispersion": 0.411429,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 118,
+                "id": 1295,
+                "identifier": "_76mm_ZiS-96",
+                "max_ammo": 60,
+                "name": "76 mm F-96",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            14
+                        ],
+                        [
+                            1,
+                            14
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 34020,
+                "reload_time": 3.71429,
+                "repair_health": 59,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 5,
+                "turret_id": 646,
+                "visual_model": "vehicles/russian/R32_Matilda_II_LL/normal/lod0/Gun_01.model",
+                "weight": 1155,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 488,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R32_Matilda_II_LL",
+        "name": "Matilda IV",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 892,
+                "identifier": "Mk19R",
+                "name": "WS No. 19R",
+                "not_in_shop": true,
+                "price": 29400,
+                "range": 570,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R32_Matilda_II_LL",
+                "tier": 9,
+                "weight": 110
+            }
+        ],
+        "repair_price": 3,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1295,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 680,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1295,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 92,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1295,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 680,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Matilda IV",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "matilda-iv",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "lendLeaseVehicle"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": -0.00866,
+        "turret_pos_y": 0.58264,
+        "turret_pos_z": 0.55971,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 75,
+                "armor_rear": 75,
+                "armor_side": 75,
+                "collision_model": "vehicles/russian/R32_Matilda_II_LL/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.05857,
+                "gun_pos_y": 0.41794,
+                "gun_pos_z": 0.76615,
+                "health": 122,
+                "id": 646,
+                "identifier": "Matilda_II_LL",
+                "name": "Matilda IV",
+                "not_in_shop": true,
+                "price": 9670,
+                "rotation_speed": 34.13,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "R32_Matilda_II_LL",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/russian/R32_Matilda_II_LL/normal/lod0/Turret_01.model",
+                "weight": 3500
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0919",
+        "visual_model": "vehicles/russian/R32_Matilda_II_LL/normal/lod0/Hull.model",
+        "weight": 15000,
+        "xp_factor": 1.5
+    }
+}

@@ -1,0 +1,550 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 31.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": true,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 25.4
+            }
+        ],
+        "armor_front": 25.4,
+        "armor_rear": 19.1,
+        "armor_side": 25.4,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.374,
+        "camo_moving": 0.279,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.279,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 28000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G120_M41_90/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.999411,
+                "hull_pos_z": 0,
+                "id": 263,
+                "identifier": "Chassis_G120_M41_90_GrandFinal",
+                "max_climb_angle": 25,
+                "max_load": 26000,
+                "name": "leKpz M 41 90 mm",
+                "not_in_shop": true,
+                "price": 32000,
+                "repair_health": 165,
+                "repair_price": 7.5,
+                "rotation_speed": 54,
+                "tank_id": "G120_M41_90_GrandFinal",
+                "terrain_hard": 0.6,
+                "terrain_medium": 0.7,
+                "terrain_soft": 1.2,
+                "tier": 8,
+                "visual_model": "vehicles/german/G120_M41_90_GrandFinal/normal/lod0/Chassis.model",
+                "weight": 6000
+            }
+        ],
+        "collision_model": "vehicles/german/G120_M41_90/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "German variant of the M41A1 Walker Bulldog U.S. light tank. The changes mainly related to the 76 mm M32 gun, which was re-bored to 90 mm and shortened by 425 mm.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 287,
+                "identifier": "Continental_AOS-895-3",
+                "name": "Continental AOS-895-3",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 40000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "G120_M41_90_GrandFinal",
+                "tier": 7,
+                "weight": 771
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 72.4,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 6500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.8,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G120_M41_90/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 429,
+                "identifier": "_90_76mm_US_Kanone_M_32",
+                "max_ammo": 46,
+                "name": "90/76 mm US-Kanone M 32",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 85000,
+                "reload_time": 6.6,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 221,
+                "visual_model": "vehicles/german/G120_M41_90_GrandFinal/normal/lod0/Gun_01.model",
+                "weight": 650,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 880,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G120_M41_90_GrandFinal",
+        "name": "leKpz M 41 90 mm GF",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 286,
+                "identifier": "AN_GRC_8",
+                "name": "AN/GRC-8",
+                "not_in_shop": true,
+                "price": 54500,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "G120_M41_90_GrandFinal",
+                "tier": 10,
+                "weight": 105
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 24,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 429,
+                "icon": "ap",
+                "id": "_90mm_AP_T_33",
+                "min_penetration": 168,
+                "module_damage": 122,
+                "name": "AP T 33",
+                "penetration": 182,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 720,
+                "speed": 830,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 429,
+                "icon": "hc",
+                "id": "_90mm_HEAT_T_108",
+                "min_penetration": 250,
+                "module_damage": 122,
+                "name": "HEAT T 108",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 830,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 429,
+                "icon": "he",
+                "id": "_90mm_HEP_T_142",
+                "min_penetration": 102,
+                "module_damage": 122,
+                "name": "HEP T 142",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 450,
+                "range": 720,
+                "speed": 773,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M 41 90 GF",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m-41-90-gf",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "lockOutfit"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": -0.00047,
+        "turret_pos_y": 0.598844,
+        "turret_pos_z": 0.268222,
+        "turret_slots": [
+            {
+                "id": 175,
+                "pos_x": -0.00047,
+                "pos_y": 0.598844,
+                "pos_z": 0.268222,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G120_M41_90_GrandFinal"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25.4,
+                "armor_rear": 25.4,
+                "armor_side": 25.4,
+                "collision_model": "vehicles/german/G120_M41_90/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 25.4
+                    }
+                ],
+                "gun_pos_x": 0.00047,
+                "gun_pos_y": 0.323531,
+                "gun_pos_z": 0.998643,
+                "health": 220,
+                "id": 221,
+                "identifier": "Turret_1_G120_M41_90_GrandFinal",
+                "name": "leKpz M 41 90 mm",
+                "not_in_shop": true,
+                "price": 32000,
+                "rotation_speed": 50,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "G120_M41_90_GrandFinal",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G120_M41_90_GrandFinal/normal/lod0/Turret_01.model",
+                "weight": 5022
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09212",
+        "visual_model": "vehicles/german/G120_M41_90_GrandFinal/normal/lod0/Hull.model",
+        "weight": 10702,
+        "xp_factor": 1.5
+    }
+}

@@ -1,0 +1,889 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 63.5
+            }
+        ],
+        "armor_front": 101.6,
+        "armor_rear": 38.1,
+        "armor_side": 76.2,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.333,
+        "camo_moving": 0.167,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.222,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 31500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A90_T69/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.04999,
+                "hull_pos_z": 0,
+                "id": 803,
+                "identifier": "Chassis_T69",
+                "max_climb_angle": 25,
+                "max_load": 34540,
+                "name": "T84E1",
+                "not_in_shop": false,
+                "price": 16300,
+                "repair_health": 135,
+                "repair_price": 7.5,
+                "rotation_speed": 38,
+                "tank_id": "A90_T69",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 7,
+                "visual_model": "vehicles/american/A90_T69/normal/lod0/Chassis.model",
+                "weight": 8000
+            },
+            {
+                "armor": 20,
+                "brake_force": 35000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A90_T69/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.04999,
+                "hull_pos_z": 0,
+                "id": 804,
+                "identifier": "Chassis_T69_2",
+                "max_climb_angle": 25,
+                "max_load": 36560,
+                "name": "T95",
+                "not_in_shop": false,
+                "price": 33000,
+                "repair_health": 150,
+                "repair_price": 7.5,
+                "rotation_speed": 42,
+                "tank_id": "A90_T69",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 8,
+                "visual_model": "vehicles/american/A90_T69/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/american/A90_T69/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A prototype with an oscillating turret and an automatic loading system developed at the beginning of 1955 and based on the T42 experimental medium tank. The vehicle underwent trials from June 1955 through April 1956. The vehicle never entered mass production or saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 136,
+                "id": 886,
+                "identifier": "Wright_Continental_R-975C4",
+                "name": "Wright Continental R-975C4",
+                "not_in_shop": false,
+                "power": 460,
+                "price": 13900,
+                "repair_health": 67,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A90_T69",
+                "tier": 5,
+                "weight": 550
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 887,
+                "identifier": "Continental_AOS-895-3",
+                "name": "Continental AOS-895-3",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 31000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A90_T69",
+                "tier": 7,
+                "weight": 771
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 888,
+                "identifier": "Continental_AOSI-895-5",
+                "name": "Continental AOSI-895-5",
+                "not_in_shop": false,
+                "power": 550,
+                "price": 43000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A90_T69",
+                "tier": 8,
+                "weight": 771
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 51.5,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 1.8181819,
+                "clip_size": 5,
+                "collision_model": "vehicles/american/A90_T69/collision_client/Gun_01.model",
+                "depression": 9,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_15",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1336,
+                "identifier": "_76mm_Gun_T185",
+                "max_ammo": 60,
+                "name": "76 mm Gun T185",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -14
+                        ],
+                        [
+                            1,
+                            -14
+                        ]
+                    ]
+                },
+                "price": 73000,
+                "reload_time": 16,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 7,
+                "turret_id": 685,
+                "visual_model": "vehicles/american/A90_T69/normal/lod0/Gun_01.model",
+                "weight": 646,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2,
+                "clip_size": 4,
+                "collision_model": "vehicles/american/A90_T69/collision_client/Gun_02.model",
+                "depression": 9,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_15",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 1337,
+                "identifier": "_90mm_Gun_T178",
+                "max_ammo": 40,
+                "name": "90 mm Gun T178",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -14
+                        ],
+                        [
+                            1,
+                            -14
+                        ]
+                    ]
+                },
+                "price": 121000,
+                "reload_time": 27,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 685,
+                "visual_model": "vehicles/american/A90_T69/normal/lod0/Gun_02.model",
+                "weight": 1075,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1080,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A90_T69",
+        "name": "T69",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 2403000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 934,
+                "identifier": "SCR_610",
+                "name": "SCR 610",
+                "not_in_shop": false,
+                "price": 24600,
+                "range": 420,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A90_T69",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 935,
+                "identifier": "SCR_619",
+                "name": "SCR 619",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A90_T69",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 8.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1336,
+                "icon": "ap_cr",
+                "id": "_76mm_APDS_M331A2",
+                "min_penetration": 173,
+                "module_damage": 105,
+                "name": "HVAP-DS-T M331A2",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 270,
+                "range": 720,
+                "speed": 1219,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 14,
+                "gravity": 9.81,
+                "gun_id": 1336,
+                "icon": "hc",
+                "id": "_76mm_HEAT_M496",
+                "min_penetration": 210,
+                "module_damage": 105,
+                "name": "HEAT-T M496",
+                "penetration": 210,
+                "penetration_loss": 0.05,
+                "price": 5600,
+                "range": 720,
+                "speed": 975,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1336,
+                "icon": "he",
+                "id": "_76mm_HE_M352",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M352",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 250,
+                "range": 720,
+                "speed": 975,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1337,
+                "icon": "ap",
+                "id": "_90mm_AP_M318",
+                "min_penetration": 170,
+                "module_damage": 122,
+                "name": "AP M318",
+                "penetration": 181,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 914,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 1337,
+                "icon": "hc",
+                "id": "_90mm_HEAT_M348",
+                "min_penetration": 250,
+                "module_damage": 122,
+                "name": "HEAT-T M348",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 1143,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1337,
+                "icon": "he",
+                "id": "_90mm_HE_T91E3",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE T91E3",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 914,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T69",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t69",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumTank2"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0.00217,
+        "turret_pos_y": 0.594847,
+        "turret_pos_z": 0.394045,
+        "turret_slots": [
+            {
+                "id": 532,
+                "pos_x": 0.00217,
+                "pos_y": 0.594847,
+                "pos_z": 0.394045,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A90_T69"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 152.4,
+                "armor_rear": 63.5,
+                "armor_side": 114.3,
+                "collision_model": "vehicles/american/A90_T69/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 82.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 69.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 63.5
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.534891,
+                "gun_pos_z": 0.052173,
+                "health": 270,
+                "id": 685,
+                "identifier": "Turret_1_T69",
+                "name": "T178",
+                "not_in_shop": false,
+                "price": 46000,
+                "rotation_speed": 38,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "A90_T69",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/american/A90_T69/normal/lod0/Turret_01.model",
+                "weight": 7000
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_T69_2",
+                "name": "Chassis_T69_2",
+                "parent_key": "chassis-Chassis_T69",
+                "price": 14800,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_90mm_Gun_T178",
+                "name": "_90mm_Gun_T178",
+                "parent_key": "gun-_76mm_Gun_T185",
+                "price": 18000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A89_T54E1",
+                "name": "A89_T54E1",
+                "parent_key": "gun-_90mm_Gun_T178",
+                "price": 170000,
+                "tank_name": "T54E1",
+                "tank_price": 3600000,
+                "tank_slug": "t54e1",
+                "tank_tier": 9,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Continental_AOS-895-3",
+                "name": "Continental_AOS-895-3",
+                "parent_key": "engine-Wright_Continental_R-975C4",
+                "price": 9500,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Continental_AOSI-895-5",
+                "name": "Continental_AOSI-895-5",
+                "parent_key": "engine-Continental_AOS-895-3",
+                "price": 18000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_619",
+                "name": "SCR_619",
+                "parent_key": "radio-SCR_610",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v0921",
+        "visual_model": "vehicles/american/A90_T69/normal/lod0/Hull.model",
+        "weight": 17332,
+        "xp_factor": 1
+    }
+}

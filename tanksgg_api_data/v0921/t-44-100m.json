@@ -1,0 +1,579 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 90,
+        "armor_rear": 45,
+        "armor_side": 75,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.44,
+        "camo_moving": 0.22,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.293,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R122_T44_100/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.897672,
+                "hull_pos_z": 0,
+                "id": 904,
+                "identifier": "Chassis_R122_T44_100B",
+                "max_climb_angle": 25,
+                "max_load": 37000,
+                "name": "T-44-100M",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 150,
+                "repair_price": 1,
+                "rotation_speed": 51,
+                "tank_id": "R122_T44_100B",
+                "terrain_hard": 0.5,
+                "terrain_medium": 0.6,
+                "terrain_soft": 1.5,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R122_T44_100/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/russian/R122_T44_100/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Experimental medium tank developed in 1945 on the basis of the T-44 tank. Unlike the T-44 tank, the T-44-100 featured the 100-mm LB-1 gun mounted in a newly designed turret, and slat side armor. Only two vehicles were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 190,
+                "id": 999,
+                "identifier": "V-44",
+                "name": "V-44",
+                "not_in_shop": true,
+                "power": 520,
+                "price": 29000,
+                "repair_health": 95,
+                "repair_price": 7,
+                "tags": "diesel",
+                "tank_id": "R122_T44_100B",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 52,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 100,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R122_T44_100/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.13,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_12",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 1522,
+                "identifier": "_100mm_LB-1B",
+                "max_ammo": 56,
+                "name": "100 mm LB-1BM",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.380783,
+                            7
+                        ],
+                        [
+                            0.444444,
+                            5
+                        ],
+                        [
+                            0.555556,
+                            5
+                        ],
+                        [
+                            0.619218,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -23
+                        ],
+                        [
+                            1,
+                            -23
+                        ]
+                    ]
+                },
+                "price": 130750,
+                "reload_time": 9.6,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 7,
+                "turret_id": 774,
+                "visual_model": "vehicles/russian/R122_T44_100/normal/lod0/Gun_01.model",
+                "weight": 2400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1080,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R122_T44_100B",
+        "name": "T-44-100M",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 1041,
+                "identifier": "_9RSA",
+                "name": "9RS",
+                "not_in_shop": true,
+                "price": 38800,
+                "range": 700,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R122_T44_100B",
+                "tier": 9,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1522,
+                "icon": "ap",
+                "id": "_100mm_UBR-412BM",
+                "min_penetration": 162,
+                "module_damage": 150,
+                "name": "UBR-412BM",
+                "penetration": 183,
+                "penetration_loss": 0,
+                "price": 370,
+                "range": 720,
+                "speed": 880,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1522,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412PBM",
+                "min_penetration": 208,
+                "module_damage": 150,
+                "name": "UBR-412PBM",
+                "penetration": 235,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1100,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 360,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1522,
+                "icon": "he",
+                "id": "_100mm_UOF-412BM",
+                "min_penetration": 50,
+                "module_damage": 150,
+                "name": "UOF-412BM",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 245,
+                "range": 720,
+                "speed": 880,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-44-100M",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-44-100m",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": -0.009684,
+        "turret_pos_y": 0.513164,
+        "turret_pos_z": 0.001972,
+        "turret_slots": [
+            {
+                "id": 604,
+                "pos_x": -0.009684,
+                "pos_y": 0.513164,
+                "pos_z": 0.001972,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R122_T44_100B"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 100,
+                "armor_side": 100,
+                "collision_model": "vehicles/russian/R122_T44_100/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 115
+                    }
+                ],
+                "gun_pos_x": 0.025154,
+                "gun_pos_y": 0.35855,
+                "gun_pos_z": 1.02273,
+                "health": 270,
+                "id": 774,
+                "identifier": "Turret_1_R122_T44_100B",
+                "name": "T-44-100M",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 48,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "R122_T44_100B",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/russian/R122_T44_100/normal/lod0/Turret_01.model",
+                "weight": 7800
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0921",
+        "visual_model": "vehicles/russian/R122_T44_100/normal/lod0/Hull.model",
+        "weight": 14175,
+        "xp_factor": 1.5
+    }
+}

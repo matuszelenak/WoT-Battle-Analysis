@@ -1,0 +1,671 @@
+{
+    "tank": {
+        "ammo_rack_health": 65,
+        "ammo_rack_repair_health": 45,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 22
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 22
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 11
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 22,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.368,
+        "camo_moving": 0.184,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.2,
+        "camo_still": 0.245,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 9400,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J01_NC27/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.4,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.901047,
+                "hull_pos_z": 0,
+                "id": 454,
+                "identifier": "Chassis_NC27_2",
+                "max_climb_angle": 25,
+                "max_load": 10500,
+                "name": "Renault Otsu",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tank_id": "J01_NC27",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.5,
+                "tier": 1,
+                "visual_model": "vehicles/japan/J01_NC27/normal/lod0/Chassis.model",
+                "weight": 2600
+            }
+        ],
+        "collision_model": "vehicles/japan/J01_NC27/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Developed from 1925 through 1928 in France as an upgraded modification of the Renault FT. The modernization project was finished and the vehicle saw mass production. In 1929, a total of 10 vehicles were purchased by Japan and were designated the Otsu-Gata Sensha (Tank B Model). The Japanese vehicles were slightly modernized and were widely used both in action and for training purposes.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 44,
+                "id": 499,
+                "identifier": "Mitsubishi",
+                "name": "Mitsubishi A475VD",
+                "not_in_shop": true,
+                "power": 75,
+                "price": 0,
+                "repair_health": 22,
+                "repair_price": 2,
+                "tags": "diesel",
+                "tank_id": "J01_NC27",
+                "tier": 1,
+                "weight": 650
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 23,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.13333334,
+                "clip_size": 15,
+                "collision_model": "vehicles/japan/J01_NC27/collision_client/Gun_04.model",
+                "depression": 20,
+                "dispersion": 0.56,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.2,
+                "dispersion_rotation": 0.14,
+                "elevation": 35,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 34,
+                "id": 759,
+                "identifier": "_13.2mm_Type93",
+                "max_ammo": 720,
+                "name": "13 mm Autocannon Type Ho",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            20
+                        ],
+                        [
+                            0.386111,
+                            20
+                        ],
+                        [
+                            0.4,
+                            7
+                        ],
+                        [
+                            0.6,
+                            7
+                        ],
+                        [
+                            0.613889,
+                            20
+                        ],
+                        [
+                            1,
+                            20
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -35
+                        ],
+                        [
+                            1,
+                            -35
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 5.8,
+                "repair_health": 17,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 387,
+                "visual_model": "vehicles/japan/J01_NC27/normal/lod0/Gun_04.model",
+                "weight": 38,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J01_NC27/collision_client/Gun_06.model",
+                "depression": 22,
+                "dispersion": 0.5,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.24,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 760,
+                "identifier": "_37mm_Sogekiho",
+                "max_ammo": 120,
+                "name": "37 mm Sogekihou",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            22
+                        ],
+                        [
+                            0.369444,
+                            22
+                        ],
+                        [
+                            0.383333,
+                            3
+                        ],
+                        [
+                            0.616667,
+                            3
+                        ],
+                        [
+                            0.630556,
+                            22
+                        ],
+                        [
+                            1,
+                            22
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 1900,
+                "reload_time": 3.4,
+                "repair_health": 27,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 387,
+                "visual_model": "vehicles/japan/J01_NC27/normal/lod0/Gun_06.model",
+                "weight": 175,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 88,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J01_NC27",
+        "name": "Renault Otsu",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 60,
+                "id": 513,
+                "identifier": "_Type94_Otsu",
+                "name": "Type 94 Mk. 4 Otsu",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "J01_NC27",
+                "tier": 2,
+                "weight": 40
+            }
+        ],
+        "repair_price": 0,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 13.2,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 759,
+                "icon": "ap",
+                "id": "_13.2mm_AP",
+                "min_penetration": 16,
+                "module_damage": 18,
+                "name": "Type 92",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 400,
+                "speed": 800,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 13.2,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 759,
+                "icon": "ap_cr",
+                "id": "_13.2mm_Balle_T.P.",
+                "min_penetration": 15,
+                "module_damage": 18,
+                "name": "Balle T.P.",
+                "penetration": 36,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 760,
+                "icon": "ap",
+                "id": "_37mm_APHE_Type94",
+                "min_penetration": 28.3,
+                "module_damage": 50,
+                "name": "Type 94",
+                "penetration": 32.8,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 580,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 760,
+                "icon": "ap",
+                "id": "_37mm_APHE_Ichi_Go",
+                "min_penetration": 25.6,
+                "module_damage": 50,
+                "name": "Ichi-Go",
+                "penetration": 48.6,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 580,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 55,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 760,
+                "icon": "he",
+                "id": "_37mm_HE_Type12",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Type 12",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 720,
+                "speed": 580,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "R. Otsu",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "r-otsu",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 1,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.535453,
+        "turret_pos_z": 0.43705,
+        "turret_slots": [
+            {
+                "id": 305,
+                "pos_x": 0,
+                "pos_y": 0.535453,
+                "pos_z": 0.43705,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "J01_NC27"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 20,
+                "armor_rear": 20,
+                "armor_side": 20,
+                "collision_model": "vehicles/japan/J01_NC27/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.232351,
+                "gun_pos_z": 0.476,
+                "health": 22,
+                "id": 387,
+                "identifier": "Turret_2_NC27",
+                "name": "Renault Otsu",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 24,
+                "rotator_health": 50,
+                "rotator_repair_health": 25,
+                "rotator_repair_price": 1,
+                "surveyor_health": 30,
+                "surveyor_repair_health": 15,
+                "surveyor_repair_price": 1,
+                "tank_id": "J01_NC27",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/japan/J01_NC27/normal/lod0/Turret_02.model",
+                "weight": 200
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "gun-_37mm_Sogekiho",
+                "name": "_37mm_Sogekiho",
+                "parent_key": "gun-_13.2mm_Type93",
+                "price": 40,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-J03_Ha_Go",
+                "name": "J03_Ha_Go",
+                "parent_key": "gun-_37mm_Sogekiho",
+                "price": 270,
+                "tank_name": "Ha-Go",
+                "tank_price": 3000,
+                "tank_slug": "ha-go",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-J15_Chi_Ni",
+                "name": "J15_Chi_Ni",
+                "parent_key": "gun-_37mm_Sogekiho",
+                "price": 270,
+                "tank_name": "Chi-Ni",
+                "tank_price": 3900,
+                "tank_slug": "chi-ni",
+                "tank_tier": 2,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-J26_Type_89",
+                "name": "J26_Type_89",
+                "parent_key": "gun-_37mm_Sogekiho",
+                "price": 270,
+                "tank_name": "I-Go/Chi-Ro",
+                "tank_price": 3400,
+                "tank_slug": "i-gochi-ro",
+                "tank_tier": 2,
+                "tank_type": "medium",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v10000ct",
+        "visual_model": "vehicles/japan/J01_NC27/normal/lod0/Hull.model",
+        "weight": 4674,
+        "xp_factor": 1
+    }
+}

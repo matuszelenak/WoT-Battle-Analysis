@@ -1,0 +1,718 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 50,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 50
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 20,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.092,
+        "camo_moving": 0.03,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.061,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 58000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R27_SU-14/collision_client/Chassis.model",
+                "dispersion_movement": 0.36,
+                "dispersion_rotation": 0.36,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": -0.020835,
+                "hull_pos_y": 1.34644,
+                "hull_pos_z": -0.394151,
+                "id": 751,
+                "identifier": "SU-14",
+                "max_climb_angle": 25,
+                "max_load": 64000,
+                "name": "SU-14-2",
+                "not_in_shop": false,
+                "price": 20000,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 14,
+                "tank_id": "R27_SU-14",
+                "terrain_hard": 1.5,
+                "terrain_medium": 1.7,
+                "terrain_soft": 2.9,
+                "tier": 7,
+                "visual_model": "vehicles/russian/R27_SU-14/normal/lod0/Chassis.model",
+                "weight": 15000
+            },
+            {
+                "armor": 20,
+                "brake_force": 64000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R27_SU-14/collision_client/Chassis.model",
+                "dispersion_movement": 0.32,
+                "dispersion_rotation": 0.32,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": -0.020835,
+                "hull_pos_y": 1.34644,
+                "hull_pos_z": -0.394151,
+                "id": 752,
+                "identifier": "SU-14Bis",
+                "max_climb_angle": 25,
+                "max_load": 66000,
+                "name": "SU-14-2 enhanced",
+                "not_in_shop": false,
+                "price": 27310,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 16,
+                "tank_id": "R27_SU-14",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.7,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R27_SU-14/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/russian/R27_SU-14/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A \"Special Purpose Heavy Triplex\" self-propelled gun developed from 1932 through 1937, with two prototypes modernized in 1940. It never entered mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 90,
+                "id": 842,
+                "identifier": "M-17F",
+                "name": "M-17T",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 13460,
+                "repair_health": 44,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R27_SU-14",
+                "tier": 4,
+                "weight": 610
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 90,
+                "id": 843,
+                "identifier": "M-17F_R",
+                "name": "M-17F",
+                "not_in_shop": false,
+                "power": 700,
+                "price": 35000,
+                "repair_health": 44,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R27_SU-14",
+                "tier": 7,
+                "weight": 610
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 30,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 6.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R27_SU-14/collision_client/Gun_01.model",
+                "depression": 0,
+                "dispersion": 0.74,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.5,
+                "elevation": 60,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    }
+                ],
+                "health": 222,
+                "id": 1322,
+                "identifier": "_152mm_BR-2",
+                "max_ammo": 32,
+                "name": "152 mm BR-2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -60
+                        ],
+                        [
+                            1,
+                            -60
+                        ]
+                    ]
+                },
+                "price": 92000,
+                "reload_time": 23.2,
+                "repair_health": 111,
+                "repair_price": 11,
+                "rotation_speed": 22.75,
+                "tier": 7,
+                "turret_id": 639,
+                "visual_model": "vehicles/russian/R27_SU-14/normal/lod0/Gun_01.model",
+                "weight": 5720,
+                "yaw_left": -4,
+                "yaw_right": 4
+            },
+            {
+                "Shells": null,
+                "aim_time": 7.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R27_SU-14/collision_client/Gun_02.model",
+                "depression": 0,
+                "dispersion": 0.86,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.6,
+                "elevation": 60,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 242,
+                "id": 1323,
+                "identifier": "_203mm_B-4",
+                "max_ammo": 16,
+                "name": "203 mm B-4",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -60
+                        ],
+                        [
+                            1,
+                            -60
+                        ]
+                    ]
+                },
+                "price": 235000,
+                "reload_time": 46,
+                "repair_health": 121,
+                "repair_price": 12,
+                "rotation_speed": 17.5,
+                "tier": 9,
+                "turret_id": 639,
+                "visual_model": "vehicles/russian/R27_SU-14/normal/lod0/Gun_02.model",
+                "weight": 5200,
+                "yaw_left": -4,
+                "yaw_right": 4
+            }
+        ],
+        "health": 328,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R27_SU-14",
+        "name": "SU-14-2",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 2720000,
+        "radios": [
+            {
+                "health": 140,
+                "id": 890,
+                "identifier": "_10R",
+                "name": "10R",
+                "not_in_shop": false,
+                "price": 3660,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "R27_SU-14",
+                "tier": 5,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 891,
+                "identifier": "_12RT",
+                "name": "12RT",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 625,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R27_SU-14",
+                "tier": 9,
+                "weight": 110
+            }
+        ],
+        "repair_price": 21,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 152,
+                "damage": 950,
+                "explosion_radius": 3.66,
+                "gold_price": 0,
+                "gravity": 175,
+                "gun_id": 1322,
+                "icon": "he",
+                "id": "_152mm_53-OF-551",
+                "min_penetration": 88,
+                "module_damage": 203,
+                "name": "53-OF-551",
+                "penetration": 88,
+                "penetration_loss": 0,
+                "price": 1120,
+                "range": 10000,
+                "speed": 500,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 175,
+                "gun_id": 1322,
+                "icon": "ap",
+                "id": "_152mm_53-G-551",
+                "min_penetration": 229,
+                "module_damage": 203,
+                "name": "53-G-551",
+                "penetration": 246,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 10000,
+                "speed": 500,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 152,
+                "damage": 950,
+                "explosion_radius": 5.11,
+                "gold_price": 13,
+                "gravity": 175,
+                "gun_id": 1322,
+                "icon": "he_premium",
+                "id": "_152mm_53-OF-551BM",
+                "min_penetration": 90,
+                "module_damage": 203,
+                "name": "53-OF-551BM",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 5200,
+                "range": 10000,
+                "speed": 500,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 203,
+                "damage": 1850,
+                "explosion_radius": 6.07,
+                "gold_price": 0,
+                "gravity": 143,
+                "gun_id": 1323,
+                "icon": "he",
+                "id": "_203mm_F-625D",
+                "min_penetration": 102,
+                "module_damage": 270,
+                "name": "F-625D",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 1910,
+                "range": 10000,
+                "speed": 425,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 203,
+                "damage": 1450,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 143,
+                "gun_id": 1323,
+                "icon": "ap",
+                "id": "_203mm_G-620",
+                "min_penetration": 221,
+                "module_damage": 270,
+                "name": "G-620",
+                "penetration": 260,
+                "penetration_loss": 0,
+                "price": 1845,
+                "range": 10000,
+                "speed": 425,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 203,
+                "damage": 1850,
+                "explosion_radius": 8.49,
+                "gold_price": 20,
+                "gravity": 143,
+                "gun_id": 1323,
+                "icon": "he_premium",
+                "id": "_203mm_F-625DBM",
+                "min_penetration": 102,
+                "module_damage": 270,
+                "name": "F-625DBM",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 8000,
+                "range": 10000,
+                "speed": 425,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-14-2",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-14-2",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "heavySPG"
+            },
+            {
+                "name": "largeCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0.024851,
+        "turret_pos_y": 1.38593,
+        "turret_pos_z": 0.387715,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R27_SU-14/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 82,
+                "id": 639,
+                "identifier": "SU-14_1",
+                "name": "SU-14-2",
+                "not_in_shop": true,
+                "price": 1200,
+                "rotation_speed": 12,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "R27_SU-14",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/russian/R27_SU-14/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-SU-14Bis",
+                "name": "SU-14Bis",
+                "parent_key": "chassis-SU-14",
+                "price": 15115,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_203mm_B-4",
+                "name": "_203mm_B-4",
+                "parent_key": "gun-_152mm_BR-2",
+                "price": 64000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R51_Object_212",
+                "name": "R51_Object_212",
+                "parent_key": "gun-_152mm_BR-2",
+                "price": 217500,
+                "tank_name": "212A",
+                "tank_price": 3700000,
+                "tank_slug": "212a",
+                "tank_tier": 9,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-M-17F_R",
+                "name": "M-17F_R",
+                "parent_key": "engine-M-17F",
+                "price": 10000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_12RT",
+                "name": "_12RT",
+                "parent_key": "radio-_10R",
+                "price": 5600,
+                "type": "radio"
+            }
+        ],
+        "version": "v09171",
+        "visual_model": "vehicles/russian/R27_SU-14/normal/lod0/Hull.model",
+        "weight": 42210,
+        "xp_factor": 1
+    }
+}

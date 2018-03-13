@@ -1,0 +1,705 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 90,
+        "armor_rear": 40,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.372,
+        "camo_moving": 0.216,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.278,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G119_Panzer58_BF/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.95558,
+                "hull_pos_z": 0,
+                "id": 251,
+                "identifier": "Chassis_G119_Panzer58_BF",
+                "max_climb_angle": 25,
+                "max_load": 40000,
+                "name": "Panzer 58",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 150,
+                "repair_price": 1,
+                "rotation_speed": 45,
+                "tank_id": "G119_Panzer58_BF",
+                "terrain_hard": 0.5,
+                "terrain_medium": 0.7,
+                "terrain_soft": 1.4,
+                "tier": 8,
+                "visual_model": "vehicles/german/G119_Panzer58_BF/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/german/G119_Panzer58_BF/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Swiss project for a medium tank with improved combat characteristics and the ability to fight in mountainous terrain, developed in 1953. The plans called for using the gun from the British Centurion tank. A total of two prototypes and ten vehicles were produced, but the vehicle never saw mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 234,
+                "id": 275,
+                "identifier": "MB-837-Ba-600",
+                "name": "MB 837 Ea 600",
+                "not_in_shop": true,
+                "power": 600,
+                "price": 52500,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "diesel",
+                "tank_id": "G119_Panzer58_BF",
+                "tier": 8,
+                "weight": 1400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 8700,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G119_Panzer58_BF/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 105
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_12",
+                        "value": 105
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_13",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 170,
+                "id": 412,
+                "identifier": "_9cm_Kan",
+                "max_ammo": 48,
+                "name": "9 cm Kanone",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            10
+                        ],
+                        [
+                            0.419444,
+                            9.8
+                        ],
+                        [
+                            0.422222,
+                            9.6
+                        ],
+                        [
+                            0.425,
+                            9.4
+                        ],
+                        [
+                            0.427778,
+                            9
+                        ],
+                        [
+                            0.430556,
+                            8.8
+                        ],
+                        [
+                            0.433333,
+                            8.6
+                        ],
+                        [
+                            0.436111,
+                            8.175
+                        ],
+                        [
+                            0.438889,
+                            7.8
+                        ],
+                        [
+                            0.441667,
+                            7.5
+                        ],
+                        [
+                            0.444444,
+                            7.3
+                        ],
+                        [
+                            0.588889,
+                            7.3
+                        ],
+                        [
+                            0.591667,
+                            7.4
+                        ],
+                        [
+                            0.594444,
+                            7.6
+                        ],
+                        [
+                            0.597222,
+                            8
+                        ],
+                        [
+                            0.6,
+                            8.4
+                        ],
+                        [
+                            0.602778,
+                            8.6
+                        ],
+                        [
+                            0.605556,
+                            8.7
+                        ],
+                        [
+                            0.608333,
+                            8.8
+                        ],
+                        [
+                            0.613889,
+                            9
+                        ],
+                        [
+                            0.616667,
+                            9.1
+                        ],
+                        [
+                            0.619444,
+                            9.2
+                        ],
+                        [
+                            0.622222,
+                            9.4
+                        ],
+                        [
+                            0.625,
+                            9.6
+                        ],
+                        [
+                            0.627778,
+                            9.7
+                        ],
+                        [
+                            0.630556,
+                            9.8
+                        ],
+                        [
+                            0.633333,
+                            10
+                        ],
+                        [
+                            0.911111,
+                            10
+                        ],
+                        [
+                            0.947222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 118000,
+                "reload_time": 8,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 211,
+                "visual_model": "vehicles/german/G119_Panzer58_BF/normal/lod0/Gun_02.model",
+                "weight": 1650,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1040,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G119_Panzer58_BF",
+        "name": "Schwarzpanzer 58",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 271,
+                "identifier": "Kdo_Funkstation_SE_407",
+                "name": "Kdo. Funkstation SE 407",
+                "not_in_shop": true,
+                "price": 25000,
+                "range": 570,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "G119_Panzer58_BF",
+                "tier": 8,
+                "weight": 123
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 412,
+                "icon": "ap",
+                "id": "_90mm_Pzgr39_48",
+                "min_penetration": 193,
+                "module_damage": 122,
+                "name": "Pzgr 39/48",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 300,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 412,
+                "icon": "ap_cr",
+                "id": "_90mm_Pzgr40_48",
+                "min_penetration": 228,
+                "module_damage": 122,
+                "name": "Pzgr 40/48",
+                "penetration": 259,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 412,
+                "icon": "he",
+                "id": "_90mm_Sprg48",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "Sprgr 48",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Schwarzpz.58",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "schwarzpz58",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumTank1"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.660854,
+        "turret_pos_z": 0.463634,
+        "turret_slots": [
+            {
+                "id": 166,
+                "pos_x": 0,
+                "pos_y": 0.660854,
+                "pos_z": 0.463634,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G119_Panzer58_BF"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 40,
+                "armor_side": 65,
+                "collision_model": "vehicles/german/G119_Panzer58_BF/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.267142,
+                "gun_pos_z": 1.13856,
+                "health": 260,
+                "id": 211,
+                "identifier": "Turret_1_G119_Panzer58_BF",
+                "name": "Panzer 58",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 36,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "G119_Panzer58_BF",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/german/G119_Panzer58_BF/normal/lod0/Turret_01.model",
+                "weight": 9000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v09212",
+        "visual_model": "vehicles/german/G119_Panzer58_BF/normal/lod0/Hull.model",
+        "weight": 14652,
+        "xp_factor": 1.5
+    }
+}

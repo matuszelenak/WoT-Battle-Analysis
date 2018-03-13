@@ -1,0 +1,489 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 152.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 31.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 36
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 254
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 203.2
+            }
+        ],
+        "armor_front": 152.4,
+        "armor_rear": 76.2,
+        "armor_side": 50.8,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.17,
+        "camo_moving": 0.068,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 2,
+        "camo_still": 0.113,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 60000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB48_FV215b_183/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.13387,
+                "hull_pos_z": 0,
+                "id": 606,
+                "identifier": "Chassis_GB48_FV215b_183",
+                "max_climb_angle": 25,
+                "max_load": 64000,
+                "name": "FV215b",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 24,
+                "tank_id": "GB48_FV215b_183",
+                "terrain_hard": 1.8,
+                "terrain_medium": 2,
+                "terrain_soft": 3,
+                "tier": 10,
+                "visual_model": "vehicles/british/GB48_FV215b_183/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/british/GB48_FV215b_183/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Project for a heavy SPG based on the Conqueror Mk II tank with a 183 mm gun and rear placement of the traversable turret and fighting compartment. The vehicle was designed to counter Soviet heavy tanks at long range (up to 1,829 m) and should have been able to withstand return fire from 122 mm guns at a distance of up to 500 m. After the development of 193 mm Malkara anti-tank rockets\u2014which were a cheaper and more efficient choice for countering the IS-series tanks\u2014the vehicle lost its relevance. The project was canceled shortly after a dummy vehicle was built.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 320,
+                "id": 662,
+                "identifier": "Rolls_Royse_Meteor_Mk12",
+                "name": "Rolls-Royce Meteor Mk. 12",
+                "not_in_shop": true,
+                "power": 800,
+                "price": 50000,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "GB48_FV215b_183",
+                "tier": 10,
+                "weight": 744
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 34.3,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB48_FV215b_183/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.4,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 80
+                    }
+                ],
+                "health": 280,
+                "id": 1020,
+                "identifier": "_183mm_AT_Gun",
+                "max_ammo": 12,
+                "name": "183 mm L4",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 335000,
+                "reload_time": 30,
+                "repair_health": 140,
+                "repair_price": 12,
+                "rotation_speed": 23.625,
+                "tier": 10,
+                "turret_id": 512,
+                "visual_model": "vehicles/british/GB48_FV215b_183/normal/lod0/Gun_01.model",
+                "weight": 5400,
+                "yaw_left": -45,
+                "yaw_right": 45
+            }
+        ],
+        "health": 1600,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB48_FV215b_183",
+        "name": "FV215b (183)",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 180,
+                "id": 717,
+                "identifier": "C45",
+                "name": "SR C45",
+                "not_in_shop": true,
+                "price": 45600,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "GB48_FV215b_183",
+                "tier": 10,
+                "weight": 40
+            }
+        ],
+        "repair_price": 11,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 182.9,
+                "damage": 1150,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1020,
+                "icon": "ap",
+                "id": "_183mm_AP_Mk1",
+                "min_penetration": 300,
+                "module_damage": 244,
+                "name": "AP Mk. 1",
+                "penetration": 310,
+                "penetration_loss": 0,
+                "price": 2250,
+                "range": 720,
+                "speed": 830,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 182.9,
+                "damage": 1750,
+                "explosion_radius": 5.05,
+                "gold_price": 20,
+                "gravity": 9.81,
+                "gun_id": 1020,
+                "icon": "he",
+                "id": "_183mm_HESH",
+                "min_penetration": 230,
+                "module_damage": 244,
+                "name": "HESH Mk. 1",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 8000,
+                "range": 720,
+                "speed": 830,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 182.9,
+                "damage": 1750,
+                "explosion_radius": 5.05,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1020,
+                "icon": "he",
+                "id": "_183mm_HE_Mk1",
+                "min_penetration": 92,
+                "module_damage": 244,
+                "name": "HE Mk. 1",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 1900,
+                "range": 720,
+                "speed": 830,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "FV215b 183",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "fv215b-183",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "AT-SPG2"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedHorizontal_springs_class3_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.695531,
+        "turret_pos_z": -1.5111,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 254,
+                "armor_rear": 31.8,
+                "armor_side": 177.8,
+                "collision_model": "vehicles/british/GB48_FV215b_183/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 254
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 44.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 177.8
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.5304,
+                "gun_pos_z": 1.5893,
+                "health": 400,
+                "id": 512,
+                "identifier": "Turret_1_GB48_FV215b_183",
+                "name": "FV215b",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 16,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB48_FV215b_183",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/british/GB48_FV215b_183/normal/lod0/Turret_01.model",
+                "weight": 17000
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v09201",
+        "visual_model": "vehicles/british/GB48_FV215b_183/normal/lod0/Hull.model",
+        "weight": 24516,
+        "xp_factor": 1
+    }
+}

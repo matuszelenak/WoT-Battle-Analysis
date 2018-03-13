@@ -1,0 +1,534 @@
+{
+    "tank": {
+        "ammo_rack_health": 280,
+        "ammo_rack_repair_health": 190,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 152.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 184.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 82.6
+            }
+        ],
+        "armor_front": 152.4,
+        "armor_rear": 76.2,
+        "armor_side": 101.6,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.11,
+        "camo_moving": 0.056,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.093,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 60000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A115_Chrysler_K/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.05629,
+                "hull_pos_z": 0,
+                "id": 788,
+                "identifier": "Chassis_A115_Chrysler_K",
+                "max_climb_angle": 25,
+                "max_load": 63000,
+                "name": "Chrysler K GF",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 165,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "A115_Chrysler_K",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2,
+                "tier": 8,
+                "visual_model": "vehicles/american/A115_Chrysler_K/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/american/A115_Chrysler_K/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A project of the Chrysler Corporation, developed in the summer of 1946. The vehicle featured a number of design solutions that were not typical of U.S. tank-building. In particular, the Chrysler K was to have its transmission and engine located in the front, and the armament compartment\u2014in the rear part of the hull. All crew members would have sat in the turret. It is thought that this project was the first U.S. project to position the driver in the turret. It was not supported by the army due to limited funding.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 870,
+                "identifier": "Chrysler_1200_HP",
+                "name": "Chrysler 1200 HP",
+                "not_in_shop": true,
+                "power": 1200,
+                "price": 80000,
+                "repair_health": 130,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A115_Chrysler_K",
+                "tier": 8,
+                "weight": 1500
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 35,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 9200,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A115_Chrysler_K/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 254
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 127
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    }
+                ],
+                "health": 180,
+                "id": 1313,
+                "identifier": "_105mm_Gun_T5E1_2",
+                "max_ammo": 100,
+                "name": "105-mm Gun T5E1A",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 118000,
+                "reload_time": 10.1,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 673,
+                "visual_model": "vehicles/american/A115_Chrysler_K/normal/lod0/Gun_01.model",
+                "weight": 2400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1200,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A115_Chrysler_K",
+        "name": "Chrysler K GF",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 918,
+                "identifier": "SCR_528A1",
+                "name": "SCR 528AM",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A115_Chrysler_K",
+                "tier": 10,
+                "weight": 91
+            }
+        ],
+        "repair_price": 4.5,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1313,
+                "icon": "ap",
+                "id": "_105mm_AP_T32",
+                "min_penetration": 175,
+                "module_damage": 150,
+                "name": "AP T32",
+                "penetration": 198,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1313,
+                "icon": "ap_cr",
+                "id": "_105mm_APCR_T29E3",
+                "min_penetration": 232,
+                "module_damage": 150,
+                "name": "APCR T29E3",
+                "penetration": 260,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 420,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1313,
+                "icon": "he",
+                "id": "_105mm_HE_M11",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "HE M11",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Chrysler GF",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "chrysler-gf",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "heavyTank1"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "lockOutfit"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 2.5e-05,
+        "turret_pos_y": 0.86605,
+        "turret_pos_z": -1.95431,
+        "turret_slots": [
+            {
+                "id": 522,
+                "pos_x": 2.5e-05,
+                "pos_y": 0.86605,
+                "pos_z": -1.95431,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A115_Chrysler_K"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 254,
+                "armor_rear": 88.9,
+                "armor_side": 127,
+                "collision_model": "vehicles/american/A115_Chrysler_K/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 254
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 241.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 152.4
+                    }
+                ],
+                "gun_pos_x": -2.5e-05,
+                "gun_pos_y": 0.491709,
+                "gun_pos_z": 1.40896,
+                "health": 300,
+                "id": 673,
+                "identifier": "Turret_1_A115_Chrysler_K",
+                "name": "Chrysler K GF",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 24,
+                "rotator_health": 160,
+                "rotator_repair_health": 80,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "A115_Chrysler_K",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/american/A115_Chrysler_K/normal/lod0/Turret_01.model",
+                "weight": 10000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v10000ct",
+        "visual_model": "vehicles/american/A115_Chrysler_K/normal/lod0/Hull.model",
+        "weight": 35709,
+        "xp_factor": 1.5
+    }
+}

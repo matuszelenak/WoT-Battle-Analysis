@@ -1,0 +1,611 @@
+{
+    "tank": {
+        "ammo_rack_health": 65,
+        "ammo_rack_repair_health": 45,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 8
+            }
+        ],
+        "armor_front": 16,
+        "armor_rear": 16,
+        "armor_side": 16,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.332,
+        "camo_moving": 0.166,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.2,
+        "camo_still": 0.221,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 6600,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch06_Renault_NC31/collision_client/Chassis.model",
+                "dispersion_movement": 0.38,
+                "dispersion_rotation": 0.38,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.964166,
+                "hull_pos_z": 0,
+                "id": 26,
+                "identifier": "Chassis_Ch06_Renault_NC31_2",
+                "max_climb_angle": 25,
+                "max_load": 8600,
+                "name": "M26/27",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 60,
+                "tank_id": "Ch06_Renault_NC31",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 1,
+                "visual_model": "vehicles/chinese/Ch06_Renault_NC31/normal/lod0/Chassis.model",
+                "weight": 800
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch06_Renault_NC31/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "The NC-2 project (commercial name NC-31) was a modification of the Renault FT-17 tank featuring a soft ride suspension and a Kegresse-Hinstin fanged rubber track. These features, along with an upgraded engine, gave an increased top speed of 16 km/h. A total of 15 vehicles of this type were exported to China.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 29,
+                "identifier": "_Renault_NC",
+                "name": "Renault NC-2",
+                "not_in_shop": true,
+                "power": 75,
+                "price": 0,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "Ch06_Renault_NC31",
+                "tier": 1,
+                "weight": 266
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 25,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch06_Renault_NC31/collision_client/Gun_03.model",
+                "depression": 6,
+                "dispersion": 0.54,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.14,
+                "elevation": 35,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 22
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 55,
+                "identifier": "_37mm_APX_SA18",
+                "max_ammo": 237,
+                "name": "37 mm APX SA18",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.422449,
+                            6
+                        ],
+                        [
+                            0.486111,
+                            0
+                        ],
+                        [
+                            0.513889,
+                            0
+                        ],
+                        [
+                            0.577551,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -35
+                        ],
+                        [
+                            1,
+                            -35
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.5,
+                "repair_health": 27,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 26,
+                "visual_model": "vehicles/chinese/Ch06_Renault_NC31/normal/lod0/Gun_03.model",
+                "weight": 110,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch06_Renault_NC31/collision_client/Gun_05.model",
+                "depression": 6,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.14,
+                "elevation": 35,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 22
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 56,
+                "identifier": "_37mm_KwK_L46",
+                "max_ammo": 150,
+                "name": "37 mm KwK 36 L/46.5",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.422449,
+                            6
+                        ],
+                        [
+                            0.486111,
+                            0
+                        ],
+                        [
+                            0.513889,
+                            0
+                        ],
+                        [
+                            0.577551,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -35
+                        ],
+                        [
+                            1,
+                            -35
+                        ]
+                    ]
+                },
+                "price": 1900,
+                "reload_time": 2.3,
+                "repair_health": 27,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 26,
+                "visual_model": "vehicles/chinese/Ch06_Renault_NC31/normal/lod0/Gun_05.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 88,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch06_Renault_NC31",
+        "name": "Renault NC-31",
+        "nation": "china",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 28,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": true,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "Ch06_Renault_NC31",
+                "tier": 2,
+                "weight": 100
+            }
+        ],
+        "repair_price": 0,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 55,
+                "icon": "ap",
+                "id": "_37mm_Odr_mle._1935",
+                "min_penetration": 22,
+                "module_damage": 50,
+                "name": "ODR mle. 1935",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 600,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 55,
+                "icon": "ap_cr",
+                "id": "_37mm_FrtPrf1935",
+                "min_penetration": 34,
+                "module_damage": 50,
+                "name": "Frt.Prf. mle. 1935",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 55,
+                "icon": "he",
+                "id": "_37mm_OE_mle._1916",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "OE mle. 1916",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 6,
+                "range": 720,
+                "speed": 600,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 56,
+                "icon": "ap",
+                "id": "_37mm_Pzgr36",
+                "min_penetration": 33,
+                "module_damage": 50,
+                "name": "Pzgr. 36",
+                "penetration": 40,
+                "penetration_loss": 0,
+                "price": 6,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 56,
+                "icon": "ap_cr",
+                "id": "_37cm_Pzgr40",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "Pzgr. 40",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 938,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 42,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 56,
+                "icon": "he",
+                "id": "_37mm_Sprg.18",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Sprgr. 18",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 6,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "NC-31",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "nc-31",
+        "tags": [
+            {
+                "name": "lightTank"
+            }
+        ],
+        "tier": 1,
+        "turret_pos_x": -0.002452,
+        "turret_pos_y": 0.655486,
+        "turret_pos_z": 0.583497,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 22,
+                "armor_rear": 16,
+                "armor_side": 22,
+                "collision_model": "vehicles/chinese/Ch06_Renault_NC31/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 22
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 22
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 22
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 16
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.235125,
+                "gun_pos_z": 0.452628,
+                "health": 22,
+                "id": 26,
+                "identifier": "Turret_2_Ch06_Renault_NC31",
+                "name": "FT-18",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 34,
+                "rotator_health": 50,
+                "rotator_repair_health": 25,
+                "rotator_repair_price": 1,
+                "surveyor_health": 30,
+                "surveyor_repair_health": 15,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch06_Renault_NC31",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/chinese/Ch06_Renault_NC31/normal/lod0/Turret_02.model",
+                "weight": 200
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "gun-_37mm_KwK_L46",
+                "name": "_37mm_KwK_L46",
+                "parent_key": "gun-_37mm_APX_SA18",
+                "price": 35,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-Ch07_Vickers_MkE_Type_BT26",
+                "name": "Ch07_Vickers_MkE_Type_BT26",
+                "parent_key": "gun-_37mm_KwK_L46",
+                "price": 275,
+                "tank_name": "VAE Type B",
+                "tank_price": 3900,
+                "tank_slug": "vae-type-b",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v0917",
+        "visual_model": "vehicles/chinese/Ch06_Renault_NC31/normal/lod0/Hull.model",
+        "weight": 4923,
+        "xp_factor": 1
+    }
+}

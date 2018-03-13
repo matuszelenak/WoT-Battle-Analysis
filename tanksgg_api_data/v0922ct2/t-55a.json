@@ -1,0 +1,528 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 45,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.41,
+        "camo_moving": 0.205,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.273,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 42500,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G105_T-55_NVA_DDR/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.921023,
+                "hull_pos_z": 0,
+                "id": 337,
+                "identifier": "Chassis_G105_T-55_NVA_DDR",
+                "max_climb_angle": 25,
+                "max_load": 39800,
+                "name": "T 55A",
+                "not_in_shop": true,
+                "price": 50000,
+                "repair_health": 180,
+                "repair_price": 7.5,
+                "rotation_speed": 50,
+                "tank_id": "G105_T-55_NVA_DDR",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.4,
+                "tier": 9,
+                "visual_model": "vehicles/german/G105_T-55_NVA_DDR/normal/lod0/Chassis.model",
+                "weight": 7700
+            }
+        ],
+        "collision_model": "vehicles/german/G105_T-55_NVA_DDR/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "An upgraded version of the T-55 tank. The T 55A had a higher level of nuclear protection and no bow machinegun. From 1962 through 1970, about 1,800 of the T-55 and T 55A tanks were supplied to East Germany by the U.S.S.R.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 370,
+                "id": 373,
+                "identifier": "W-55",
+                "name": "W-55",
+                "not_in_shop": true,
+                "power": 580,
+                "price": 82300,
+                "repair_health": 185,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "G105_T-55_NVA_DDR",
+                "tier": 9,
+                "weight": 940
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 17500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G105_T-55_NVA_DDR/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.33,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 14.25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 567,
+                "identifier": "_100mm_Typ_D-10T2S",
+                "max_ammo": 43,
+                "name": "100 mm Panzerkanone D-10T2S L/56",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -14.25
+                        ],
+                        [
+                            1,
+                            -14.25
+                        ]
+                    ]
+                },
+                "price": 221000,
+                "reload_time": 7.7,
+                "repair_health": 97,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 287,
+                "visual_model": "vehicles/german/G105_T-55_NVA_DDR/normal/lod0/Gun_01.model",
+                "weight": 1950,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1360,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G105_T-55_NVA_DDR",
+        "name": "T 55A",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 368,
+                "identifier": "R113",
+                "name": "R-113",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "G105_T-55_NVA_DDR",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 10,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 567,
+                "icon": "ap",
+                "id": "_100mm_BR-412D",
+                "min_penetration": 181,
+                "module_damage": 135,
+                "name": "UBR-412D",
+                "penetration": 201,
+                "penetration_loss": 0,
+                "price": 1230,
+                "range": 720,
+                "speed": 895,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 567,
+                "icon": "hc",
+                "id": "_100mm_3UBK4",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "3UBK4",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 895,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 567,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "UOF-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 895,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T 55A",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-55a",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "special"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.520477,
+        "turret_pos_z": -0.0032,
+        "turret_slots": [
+            {
+                "id": 225,
+                "pos_x": 0,
+                "pos_y": 0.520477,
+                "pos_z": -0.0032,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G105_T-55_NVA_DDR"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 200,
+                "armor_rear": 65,
+                "armor_side": 160,
+                "collision_model": "vehicles/german/G105_T-55_NVA_DDR/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 57
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 48
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 107
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 121
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 48
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 48
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 86
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.3094,
+                "gun_pos_z": 1.0399,
+                "health": 340,
+                "id": 287,
+                "identifier": "Turret_1_G105_T-55_NVA_DDR",
+                "name": "T 55A",
+                "not_in_shop": true,
+                "price": 50000,
+                "rotation_speed": 46,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "G105_T-55_NVA_DDR",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 395,
+                "visual_model": "vehicles/german/G105_T-55_NVA_DDR/normal/lod0/Turret_01.model",
+                "weight": 9500
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0922ct2",
+        "visual_model": "vehicles/german/G105_T-55_NVA_DDR/normal/lod0/Hull.model",
+        "weight": 17030,
+        "xp_factor": 1.5
+    }
+}

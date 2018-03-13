@@ -1,0 +1,514 @@
+{
+    "tank": {
+        "ammo_rack_health": 250,
+        "ammo_rack_repair_health": 200,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 225
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            }
+        ],
+        "armor_front": 150,
+        "armor_rear": 80,
+        "armor_side": 100,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.101,
+        "camo_moving": 0.034,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.067,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 65500,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G51_Lowe/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.17469,
+                "hull_pos_z": 0,
+                "id": 363,
+                "identifier": "Chassis_Lowe",
+                "max_climb_angle": 25,
+                "max_load": 99850,
+                "name": "L\u00f6we",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 175,
+                "repair_price": 5,
+                "rotation_speed": 24,
+                "tank_id": "G51_Lowe",
+                "terrain_hard": 1.14,
+                "terrain_medium": 1.43,
+                "terrain_soft": 2.29,
+                "tier": 8,
+                "visual_model": "vehicles/german/G51_Lowe/normal/lod0/Chassis.model",
+                "weight": 22000
+            }
+        ],
+        "collision_model": "vehicles/german/G51_Lowe/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development of this 70-ton super-heavy tank started on November 1, 1941. In February 1942, the Krupp company suggested the VK 70.01 avant project, later designated the L\u00f6we (\"Lion\"). Several designs varying in configuration, armament, and armor, were drafted. However, the project was canceled after the F\u00fchrer made the decision to develop even heavier tanks. No prototypes were ever built.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 403,
+                "identifier": "Maybach_HL_234P30_Ausf_A",
+                "name": "Maybach HL 234 TRM P72",
+                "not_in_shop": true,
+                "power": 1000,
+                "price": 45000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G51_Lowe",
+                "tier": 8,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 35,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 12500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.857143,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G51_Lowe/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.33142856,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 38,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 190,
+                "id": 618,
+                "identifier": "_105mm_KwK46_L70",
+                "max_ammo": 80,
+                "name": "10,5 cm Kw.K. L/70",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.402778,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -38
+                        ],
+                        [
+                            1,
+                            -38
+                        ]
+                    ]
+                },
+                "price": 181700,
+                "reload_time": 12,
+                "repair_health": 95,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 9,
+                "turret_id": 310,
+                "visual_model": "vehicles/german/G51_Lowe/normal/lod0/Gun_01.model",
+                "weight": 3600,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1320,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G51_Lowe",
+        "name": "L\u00f6we",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 150,
+                "id": 400,
+                "identifier": "FuG12A",
+                "name": "FuG 12 A",
+                "not_in_shop": true,
+                "price": 7200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "G51_Lowe",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 4.168,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 618,
+                "icon": "ap",
+                "id": "_105mm_PzGr39L1",
+                "min_penetration": 200,
+                "module_damage": 150,
+                "name": "Pzgr 39 L1",
+                "penetration": 234,
+                "penetration_loss": 0,
+                "price": 1030,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 618,
+                "icon": "ap_cr",
+                "id": "_105mm_Pzgr.40L1",
+                "min_penetration": 250,
+                "module_damage": 150,
+                "name": "Pzgr 40 L1",
+                "penetration": 294,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1438,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 420,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 618,
+                "icon": "he",
+                "id": "_105mm_Sprg_L1",
+                "min_penetration": 60,
+                "module_damage": 150,
+                "name": "Sprgr L1",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 1150,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "L\u00f6we",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "lowe",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "beast"
+            },
+            {
+                "name": "antifragmentationLining_superheavy_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0.00075,
+        "turret_pos_y": 0.699244,
+        "turret_pos_z": 0.149403,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 80,
+                "armor_side": 80,
+                "collision_model": "vehicles/german/G51_Lowe/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 95
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 175
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 180
+                    }
+                ],
+                "gun_pos_x": -0.000312,
+                "gun_pos_y": 0.602787,
+                "gun_pos_z": 1.21393,
+                "health": 330,
+                "id": 310,
+                "identifier": "Turret_1_Lowe",
+                "name": "L\u00f6we",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 23,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 2,
+                "tank_id": "G51_Lowe",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G51_Lowe/normal/lod0/Turret_01.model",
+                "weight": 15000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v09201",
+        "visual_model": "vehicles/german/G51_Lowe/normal/lod0/Hull.model",
+        "weight": 48200,
+        "xp_factor": 1.5
+    }
+}

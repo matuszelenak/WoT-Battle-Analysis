@@ -1,0 +1,662 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 14.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 23.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 31.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 14.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 11.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 31.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 11.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 9.5
+            }
+        ],
+        "armor_front": 14.3,
+        "armor_rear": 12.7,
+        "armor_side": 31.8,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.381,
+        "camo_moving": 0.254,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.254,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 15000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A116_XM551/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.789674,
+                "hull_pos_z": 0,
+                "id": 749,
+                "identifier": "Chassis_A116_XM551",
+                "max_climb_angle": 25,
+                "max_load": 20000,
+                "name": "AR/AAV XM551 Sheridan",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 55,
+                "tank_id": "A116_XM551",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 10,
+                "visual_model": "vehicles/american/A116_XM551/normal/lod0/Chassis.model",
+                "weight": 3500
+            }
+        ],
+        "collision_model": "vehicles/american/A116_XM551/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Work on the vehicle started under the AR/AAV project (Armored Reconnaissance/Airborne Assault Vehicle) in January 1959. In June 1962, the Cadillac Motor Car Division delivered the first vehicle prototype to the client. The first generation of vehicles included three prototypes. Work was continued, and the vehicle eventually saw service under\u00a0the M551\u00a0Sheridan designation in\u00a01966.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 285,
+                "id": 828,
+                "identifier": "General_Motors_6V53T",
+                "name": "General Motors 6V53T",
+                "not_in_shop": true,
+                "power": 650,
+                "price": 100000,
+                "repair_health": 142,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "A116_XM551",
+                "tier": 10,
+                "weight": 495
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 65,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A116_XM551/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.05,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 208,
+                "id": 1245,
+                "identifier": "_105mm_Lightweight_Gun",
+                "max_ammo": 42,
+                "name": "105 mm Lightweight Gun",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.361111,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            4.5
+                        ],
+                        [
+                            0.569444,
+                            4.5
+                        ],
+                        [
+                            0.638889,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 225000,
+                "reload_time": 9.2,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 10,
+                "turret_id": 634,
+                "visual_model": "vehicles/american/A116_XM551/normal/lod0/Gun_01.model",
+                "weight": 1000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 3.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A116_XM551/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.4,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "id": 1246,
+                "identifier": "_152mm_Gun_Launcher_M81",
+                "max_ammo": 28,
+                "name": "152 mm Gun-Launcher XM81 (conventional)",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.361111,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            4.5
+                        ],
+                        [
+                            0.569444,
+                            4.5
+                        ],
+                        [
+                            0.638889,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 230000,
+                "reload_time": 20,
+                "repair_health": 115,
+                "repair_price": 11,
+                "rotation_speed": 20,
+                "tier": 10,
+                "turret_id": 634,
+                "visual_model": "vehicles/american/A116_XM551/normal/lod0/Gun_02.model",
+                "weight": 510,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A116_XM551",
+        "name": "XM551 Sheridan",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 180,
+                "id": 876,
+                "identifier": "AN_VRC_12A",
+                "name": "AN/VRC-12",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "A116_XM551",
+                "tier": 10,
+                "weight": 26
+            }
+        ],
+        "repair_price": 13.5,
+        "reverse_speed": 22,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1245,
+                "icon": "ap_cr",
+                "id": "_105mm_Exp_APDS",
+                "min_penetration": 189,
+                "module_damage": 150,
+                "name": "Exp. APDS",
+                "penetration": 236,
+                "penetration_loss": 0,
+                "price": 1100,
+                "range": 720,
+                "speed": 1200,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1245,
+                "icon": "hc",
+                "id": "_105mm_Exp_HEAT",
+                "min_penetration": 280,
+                "module_damage": 150,
+                "name": "Exp. HEAT",
+                "penetration": 280,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1245,
+                "icon": "he",
+                "id": "_105mm_Exp_HE",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "Exp. HE",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 815,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 910,
+                "explosion_radius": 3.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1246,
+                "icon": "he",
+                "id": "_152mm_HE_XM657E2",
+                "min_penetration": 76,
+                "module_damage": 203,
+                "name": "HE XM657E2",
+                "penetration": 76,
+                "penetration_loss": 0,
+                "price": 750,
+                "range": 720,
+                "speed": 683,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 700,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1246,
+                "icon": "hc",
+                "id": "_152mm_HEAT_XM409",
+                "min_penetration": 152,
+                "module_damage": 203,
+                "name": "HEAT XM409",
+                "penetration": 152,
+                "penetration_loss": 0.05,
+                "price": 770,
+                "range": 720,
+                "speed": 683,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 152,
+                "damage": 910,
+                "explosion_radius": 5.11,
+                "gold_price": 13,
+                "gravity": 9.81,
+                "gun_id": 1246,
+                "icon": "he_premium",
+                "id": "_152mm_HE_XM657E3",
+                "min_penetration": 85,
+                "module_damage": 203,
+                "name": "HE XM657E3",
+                "penetration": 85,
+                "penetration_loss": 0,
+                "price": 5200,
+                "range": 720,
+                "speed": 683,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Sheridan",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "sheridan",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.923144,
+        "turret_pos_z": 0.249,
+        "turret_slots": [
+            {
+                "id": 495,
+                "pos_x": 0,
+                "pos_y": 0.923144,
+                "pos_z": 0.249,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A116_XM551"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 38.1,
+                "armor_rear": 15.9,
+                "armor_side": 15.9,
+                "collision_model": "vehicles/american/A116_XM551/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 15.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25.4
+                    }
+                ],
+                "gun_pos_x": -0.002926,
+                "gun_pos_y": 0.291479,
+                "gun_pos_z": 0.990141,
+                "health": 320,
+                "id": 634,
+                "identifier": "Turret_1_A116_XM551",
+                "name": "AR/AAV XM551 Sheridan",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 43,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "A116_XM551",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 420,
+                "visual_model": "vehicles/american/A116_XM551/normal/lod0/Turret_01.model",
+                "weight": 4000
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "gun-_152mm_Gun_Launcher_M81",
+                "name": "_152mm_Gun_Launcher_M81",
+                "parent_key": "gun-_105mm_Lightweight_Gun",
+                "price": 52000,
+                "type": "gun"
+            }
+        ],
+        "version": "v0922",
+        "visual_model": "vehicles/american/A116_XM551/normal/lod0/Hull.model",
+        "weight": 6250,
+        "xp_factor": 1
+    }
+}

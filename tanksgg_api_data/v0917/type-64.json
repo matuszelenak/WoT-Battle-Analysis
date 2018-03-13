@@ -1,0 +1,514 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 31.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 12.7
+            }
+        ],
+        "armor_front": 25.4,
+        "armor_rear": 19.1,
+        "armor_side": 12.7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.402,
+        "camo_moving": 0.268,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.268,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 23000,
+                "center_rotation": true,
+                "collision_model": "vehicles/chinese/Ch24_Type64/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 45,
+                "identifier": "Chassis_Ch24_Type64",
+                "max_climb_angle": 25,
+                "max_load": 25000,
+                "name": "Type 64",
+                "not_in_shop": true,
+                "price": 15000,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 56,
+                "tank_id": "Ch24_Type64",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.7,
+                "tier": 6,
+                "visual_model": "vehicles/chinese/Ch24_Type64/normal/lod0/Chassis.model",
+                "weight": 7500
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch24_Type64/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "More than 50 of these vehicles were produced in Taiwan. All basic components of the vehicle were based on those of American vehicles. The Hellcat turret was mounted on the chassis of the M42 anti-aircraft vehicle, and the armament was the well-proven M1A2 gun. Only one Type 64 prototype survives today.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 52,
+                "identifier": "Continental_AOSI_895_5_Prem",
+                "name": "Continental AOSI-895-5",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 25000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "Ch24_Type64",
+                "tier": 6,
+                "weight": 862
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 72.4,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 3500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch24_Type64/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 9.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 130,
+                "id": 90,
+                "identifier": "_76mm_Gun_Type64",
+                "max_ammo": 45,
+                "name": "76 mm Gun M1A2",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.347222,
+                            10
+                        ],
+                        [
+                            0.361111,
+                            7
+                        ],
+                        [
+                            0.436111,
+                            7
+                        ],
+                        [
+                            0.45,
+                            10
+                        ],
+                        [
+                            0.55,
+                            10
+                        ],
+                        [
+                            0.563889,
+                            7
+                        ],
+                        [
+                            0.638889,
+                            7
+                        ],
+                        [
+                            0.652778,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 3.3,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 45,
+                "visual_model": "vehicles/chinese/Ch24_Type64/normal/lod0/Gun_01.model",
+                "weight": 587,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 464,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch24_Type64",
+        "name": "Type 64",
+        "nation": "china",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 140,
+                "id": 47,
+                "identifier": "AN_GRR_5_Prem",
+                "name": "AN/GRR-5",
+                "not_in_shop": true,
+                "price": 25000,
+                "range": 700,
+                "repair_health": 84,
+                "repair_price": 3,
+                "tank_id": "Ch24_Type64",
+                "tier": 8,
+                "weight": 34
+            }
+        ],
+        "repair_price": 4.5,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 90,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 94,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 90,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 90,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "M48",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Type 64",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "type-64",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "noImprovedVentilation"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.68946,
+        "turret_pos_z": 0.486132,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25.4,
+                "armor_rear": 12.7,
+                "armor_side": 12.7,
+                "collision_model": "vehicles/chinese/Ch24_Type64/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 7.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 4.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.412046,
+                "gun_pos_z": 0.848406,
+                "health": 116,
+                "id": 45,
+                "identifier": "Turret_1_Ch24_Type64",
+                "name": "Type 64",
+                "not_in_shop": true,
+                "price": 15000,
+                "rotation_speed": 36,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch24_Type64",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/chinese/Ch24_Type64/normal/lod0/Turret_01.model",
+                "weight": 4500
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0917",
+        "visual_model": "vehicles/chinese/Ch24_Type64/normal/lod0/Hull.model",
+        "weight": 9267,
+        "xp_factor": 1.5
+    }
+}

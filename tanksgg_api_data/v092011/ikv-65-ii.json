@@ -1,0 +1,668 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 100,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 15,
+        "armor_rear": 10,
+        "armor_side": 10,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.608,
+        "camo_moving": 0.243,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.405,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 11000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S08_Ikv_65_Alt_2/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.763057,
+                "hull_pos_z": 0,
+                "id": 513,
+                "identifier": "Chassis_S08_Ikv_65_Alt_2",
+                "max_climb_angle": 25,
+                "max_load": 11000,
+                "name": "Ikv 65 Alt II",
+                "not_in_shop": false,
+                "price": 8800,
+                "repair_health": 85,
+                "repair_price": 0.5,
+                "rotation_speed": 30,
+                "tank_id": "S08_Ikv_65_Alt_2",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.4,
+                "tier": 5,
+                "visual_model": "vehicles/sweden/S08_Ikv_65_Alt_2/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 10,
+                "brake_force": 11000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S08_Ikv_65_Alt_2/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.763057,
+                "hull_pos_z": 0,
+                "id": 514,
+                "identifier": "Chassis_S08_Ikv_65_Alt_2_2",
+                "max_climb_angle": 25,
+                "max_load": 14000,
+                "name": "Ikv 65 Alt III",
+                "not_in_shop": false,
+                "price": 15100,
+                "repair_health": 85,
+                "repair_price": 0.5,
+                "rotation_speed": 32,
+                "tank_id": "S08_Ikv_65_Alt_2",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.4,
+                "tier": 6,
+                "visual_model": "vehicles/sweden/S08_Ikv_65_Alt_2/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/sweden/S08_Ikv_65_Alt_2/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In the mid-1960s, the Swedish Ministry of Defense laid out requirements for a new light tank. The lightly armored vehicle should combine high speed and maneuverability with powerful armament that would be sufficient to oppose modern tanks and provide fire support to the infantry. Landsverk developed several projects with both a rotating turret and a gun mounted on a stationary superstructure. They were essentially tank destroyers. Development of the project was discontinued at the drafting and modelling stage.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 160,
+                "id": 558,
+                "identifier": "Volvo_TD_70_A",
+                "name": "Volvo TD 70 A",
+                "not_in_shop": false,
+                "power": 190,
+                "price": 12100,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "S08_Ikv_65_Alt_2",
+                "tier": 5,
+                "weight": 660
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 160,
+                "id": 559,
+                "identifier": "GM_6V_53",
+                "name": "GM 6V 53",
+                "not_in_shop": false,
+                "power": 215,
+                "price": 15300,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "S08_Ikv_65_Alt_2",
+                "tier": 5,
+                "weight": 700
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 60,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S08_Ikv_65_Alt_2/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    }
+                ],
+                "health": 150,
+                "id": 844,
+                "identifier": "_90mm_Bofors_L_43",
+                "max_ammo": 40,
+                "name": "9 cm Bofors L/43",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 72000,
+                "reload_time": 9.1,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 433,
+                "visual_model": "vehicles/sweden/S08_Ikv_65_Alt_2/normal/lod0/Gun_01.model",
+                "weight": 600,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S08_Ikv_65_Alt_2/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.14,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    }
+                ],
+                "health": 170,
+                "id": 845,
+                "identifier": "_90mm_Bofors_L_53",
+                "max_ammo": 40,
+                "name": "9 cm Bofors L/53",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 84000,
+                "reload_time": 9.7,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 433,
+                "visual_model": "vehicles/sweden/S08_Ikv_65_Alt_2/normal/lod0/Gun_02.model",
+                "weight": 815,
+                "yaw_left": -15,
+                "yaw_right": 15
+            }
+        ],
+        "health": 464,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "S08_Ikv_65_Alt_2",
+        "name": "Ikv 65 Alt II",
+        "nation": "sweden",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 933000,
+        "radios": [
+            {
+                "health": 150,
+                "id": 585,
+                "identifier": "Ra_100",
+                "name": "Ra 100",
+                "not_in_shop": false,
+                "price": 23500,
+                "range": 455,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "S08_Ikv_65_Alt_2",
+                "tier": 7,
+                "weight": 14
+            },
+            {
+                "health": 120,
+                "id": 586,
+                "identifier": "Ra_105",
+                "name": "Ra 105",
+                "not_in_shop": false,
+                "price": 24800,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "S08_Ikv_65_Alt_2",
+                "tier": 8,
+                "weight": 8
+            },
+            {
+                "health": 200,
+                "id": 587,
+                "identifier": "Ra_146",
+                "name": "Ra 146",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 615,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "S08_Ikv_65_Alt_2",
+                "tier": 9,
+                "weight": 12
+            }
+        ],
+        "repair_price": 7.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 844,
+                "icon": "ap",
+                "id": "_90mm_slpprj_typ_I",
+                "min_penetration": 145,
+                "module_damage": 122,
+                "name": "slpprj typ I",
+                "penetration": 155,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 720,
+                "speed": 880,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 844,
+                "icon": "hc",
+                "id": "_90mm_slpsgr_typ_I",
+                "min_penetration": 230,
+                "module_damage": 122,
+                "name": "slpsgr typ I",
+                "penetration": 230,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 890,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 844,
+                "icon": "he",
+                "id": "_90mm_slsgr_m_72",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "slsgr m/72",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 195,
+                "range": 720,
+                "speed": 880,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 845,
+                "icon": "ap",
+                "id": "_90mm_slpprj_typ_II",
+                "min_penetration": 170,
+                "module_damage": 122,
+                "name": "slpprj typ II",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 320,
+                "range": 720,
+                "speed": 960,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 845,
+                "icon": "hc",
+                "id": "_90mm_slpsgr_typ_I",
+                "min_penetration": 230,
+                "module_damage": 122,
+                "name": "slpsgr typ I",
+                "penetration": 230,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 950,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 845,
+                "icon": "he",
+                "id": "_90mm_slsgr_m_72",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "slsgr m/72",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 195,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Ikv 65 II",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ikv-65-ii",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": -0.002905,
+        "turret_pos_y": 0.740053,
+        "turret_pos_z": 1.21658,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/sweden/S08_Ikv_65_Alt_2/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 116,
+                "id": 433,
+                "identifier": "Turret_1_S08_Ikv_65_Alt_2",
+                "name": "Ikv 65 Alt II",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 24,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "S08_Ikv_65_Alt_2",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/sweden/S08_Ikv_65_Alt_2/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_S08_Ikv_65_Alt_2_2",
+                "name": "Chassis_S08_Ikv_65_Alt_2_2",
+                "parent_key": "chassis-Chassis_S08_Ikv_65_Alt_2",
+                "price": 4900,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_90mm_Bofors_L_53",
+                "name": "_90mm_Bofors_L_53",
+                "parent_key": "gun-_90mm_Bofors_L_43",
+                "price": 12100,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-S06_Ikv_90_Typ_B_Bofors",
+                "name": "S06_Ikv_90_Typ_B_Bofors",
+                "parent_key": "gun-_90mm_Bofors_L_53",
+                "price": 61420,
+                "tank_name": "Ikv 90 B",
+                "tank_price": 1420000,
+                "tank_slug": "ikv-90-b",
+                "tank_tier": 7,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-GM_6V_53",
+                "name": "GM_6V_53",
+                "parent_key": "engine-Volvo_TD_70_A",
+                "price": 1080,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Ra_105",
+                "name": "Ra_105",
+                "parent_key": "radio-Ra_100",
+                "price": 4100,
+                "type": "radio"
+            },
+            {
+                "key": "radio-Ra_146",
+                "name": "Ra_146",
+                "parent_key": "radio-Ra_105",
+                "price": 5600,
+                "type": "radio"
+            }
+        ],
+        "version": "v092011",
+        "visual_model": "vehicles/sweden/S08_Ikv_65_Alt_2/normal/lod0/Hull.model",
+        "weight": 6123,
+        "xp_factor": 1
+    }
+}

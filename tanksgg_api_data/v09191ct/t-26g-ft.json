@@ -1,0 +1,401 @@
+{
+    "tank": {
+        "ammo_rack_health": 75,
+        "ammo_rack_repair_health": 50,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": true,
+                "value": 18
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 18,
+        "armor_rear": 15,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.575,
+        "camo_moving": 0.23,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.383,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 10000,
+                "center_rotation": true,
+                "collision_model": "vehicles/chinese/Ch30_T-26G_FT/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.968484,
+                "hull_pos_z": 0,
+                "id": 17,
+                "identifier": "Chassis_Ch30_T-26G_FT",
+                "max_climb_angle": 25,
+                "max_load": 10000,
+                "name": "T-26G FT",
+                "not_in_shop": true,
+                "price": 270,
+                "repair_health": 40,
+                "repair_price": 2.5,
+                "rotation_speed": 30,
+                "tank_id": "Ch30_T-26G_FT",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.6,
+                "tier": 2,
+                "visual_model": "vehicles/chinese/Ch30_T-26G_FT/normal/lod0/Chassis.model",
+                "weight": 1600
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch30_T-26G_FT/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The T-26 tanks were exported by the USSR to China in the late 1930s, where they saw service in the 200th Mechanized Division of the National Revolutionary Army of Kuomintang (China). During the 1946\u201350 civil war, a number of vehicles were captured by the People's Liberation Army in eastern China in 1949. In 1950, they were used as a basis for the creation of at least two modifications of tank destroyers.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 18,
+                "identifier": "T_26",
+                "name": "T-26",
+                "not_in_shop": true,
+                "power": 100,
+                "price": 770,
+                "repair_health": 20,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "Ch30_T-26G_FT",
+                "tier": 1,
+                "weight": 545
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 36,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch30_T-26G_FT/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 18
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 29,
+                "identifier": "_37mm_Pak",
+                "max_ammo": 100,
+                "name": "37 mm Pak",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 2700,
+                "reload_time": 2,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 17,
+                "visual_model": "vehicles/chinese/Ch30_T-26G_FT/normal/lod0/Gun_01.model",
+                "weight": 120,
+                "yaw_left": -11,
+                "yaw_right": 11
+            }
+        ],
+        "health": 100,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch30_T-26G_FT",
+        "name": "T-26G FT",
+        "nation": "china",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 3000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 18,
+                "identifier": "_71-TK-3",
+                "name": "71-TK-3",
+                "not_in_shop": true,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "Ch30_T-26G_FT",
+                "tier": 3,
+                "weight": 50
+            }
+        ],
+        "repair_price": 3.5,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 29,
+                "icon": "ap",
+                "id": "_37mm_Pzgr36",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "Pzgr. 36",
+                "penetration": 42,
+                "penetration_loss": 0,
+                "price": 6,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 29,
+                "icon": "ap_cr",
+                "id": "_37cm_Pzgr40",
+                "min_penetration": 38,
+                "module_damage": 50,
+                "name": "Pzgr. 40",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 938,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 42,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 29,
+                "icon": "he",
+                "id": "_37mm_Sprg.18",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Sprgr. 18",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 6,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-26G FT",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-26g-ft",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "enhancedSuspension_Vikkers_user"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.527338,
+        "turret_pos_z": 0.561764,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/chinese/Ch30_T-26G_FT/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0.242807,
+                "health": 25,
+                "id": 17,
+                "identifier": "Turret_1_Ch30_T-26G_FT",
+                "name": "T-26G FT",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch30_T-26G_FT",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 270,
+                "visual_model": "vehicles/chinese/Ch30_T-26G_FT/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v09191ct",
+        "visual_model": "vehicles/chinese/Ch30_T-26G_FT/normal/lod0/Hull.model",
+        "weight": 7094,
+        "xp_factor": 1
+    }
+}

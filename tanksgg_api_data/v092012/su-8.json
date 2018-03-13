@@ -1,0 +1,609 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 40,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 8
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 20,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.216,
+        "camo_moving": 0.072,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.144,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 20000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R26_SU-8/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.18985,
+                "hull_pos_z": 0,
+                "id": 827,
+                "identifier": "SU-8",
+                "max_climb_angle": 25,
+                "max_load": 21800,
+                "name": "SU-8",
+                "not_in_shop": false,
+                "price": 8500,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 20,
+                "tank_id": "R26_SU-8",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 5,
+                "visual_model": "vehicles/russian/R26_SU-8/normal/lod0/Chassis.model",
+                "weight": 5160
+            },
+            {
+                "armor": 15,
+                "brake_force": 22000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R26_SU-8/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.18985,
+                "hull_pos_z": 0,
+                "id": 828,
+                "identifier": "SU-8Bis",
+                "max_climb_angle": 25,
+                "max_load": 24500,
+                "name": "SU-8 Bis",
+                "not_in_shop": false,
+                "price": 13600,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 22,
+                "tank_id": "R26_SU-8",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 6,
+                "visual_model": "vehicles/russian/R26_SU-8/normal/lod0/Chassis.model",
+                "weight": 5160
+            }
+        ],
+        "collision_model": "vehicles/russian/R26_SU-8/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed in 1934\u20131935 at the Experimental Kirov Plant in Leningrad. Variants with frontal and rear placement of fighting compartment were designed. Never saw service or mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 85,
+                "id": 910,
+                "identifier": "M-5-400F",
+                "name": "M-5-400F",
+                "not_in_shop": false,
+                "power": 440,
+                "price": 10000,
+                "repair_health": 43,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R26_SU-8",
+                "tier": 4,
+                "weight": 410
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 85,
+                "id": 911,
+                "identifier": "M-17T",
+                "name": "M-17L 1,400 r/min",
+                "not_in_shop": false,
+                "power": 450,
+                "price": 10770,
+                "repair_health": 42,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R26_SU-8",
+                "tier": 4,
+                "weight": 610
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 90,
+                "id": 912,
+                "identifier": "M-17F",
+                "name": "M-17T",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 13460,
+                "repair_health": 44,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R26_SU-8",
+                "tier": 4,
+                "weight": 610
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 48,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 5.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R26_SU-8/collision_client/Gun_01.model",
+                "depression": 4,
+                "dispersion": 0.76,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.38,
+                "elevation": 44,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 164,
+                "id": 1383,
+                "identifier": "_122mm_howitzer_A-19",
+                "max_ammo": 26,
+                "name": "122 mm Howitzer A-19",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -44
+                        ],
+                        [
+                            1,
+                            -44
+                        ]
+                    ]
+                },
+                "price": 60000,
+                "reload_time": 18,
+                "repair_health": 82,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 6,
+                "turret_id": 717,
+                "visual_model": "vehicles/russian/R26_SU-8/normal/lod0/Gun_01.model",
+                "weight": 2340,
+                "yaw_left": -5,
+                "yaw_right": 12
+            },
+            {
+                "Shells": null,
+                "aim_time": 5.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R26_SU-8/collision_client/Gun_02.model",
+                "depression": 4,
+                "dispersion": 0.75,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.34,
+                "elevation": 44,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 202,
+                "id": 1384,
+                "identifier": "_152mm_howitzer_ML-20_mod_1931",
+                "max_ammo": 26,
+                "name": "152 mm Howitzer ML-20 mod. 1931",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -44
+                        ],
+                        [
+                            1,
+                            -44
+                        ]
+                    ]
+                },
+                "price": 64830,
+                "reload_time": 20.5,
+                "repair_health": 101,
+                "repair_price": 10,
+                "rotation_speed": 22.75,
+                "tier": 6,
+                "turret_id": 717,
+                "visual_model": "vehicles/russian/R26_SU-8/normal/lod0/Gun_02.model",
+                "weight": 2363,
+                "yaw_left": -5,
+                "yaw_right": 12
+            }
+        ],
+        "health": 216,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R26_SU-8",
+        "name": "SU-8",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 932000,
+        "radios": [
+            {
+                "health": 140,
+                "id": 960,
+                "identifier": "_10R",
+                "name": "10R",
+                "not_in_shop": false,
+                "price": 3660,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "R26_SU-8",
+                "tier": 5,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 961,
+                "identifier": "_12RT",
+                "name": "12RT",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 625,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R26_SU-8",
+                "tier": 9,
+                "weight": 110
+            }
+        ],
+        "repair_price": 7.27,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 500,
+                "explosion_radius": 2.75,
+                "gold_price": 0,
+                "gravity": 167,
+                "gun_id": 1383,
+                "icon": "he",
+                "id": "_122mm_UOF-471A",
+                "min_penetration": 30,
+                "module_damage": 83,
+                "name": "UOF-471A",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 10000,
+                "speed": 480,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 600,
+                "explosion_radius": 7,
+                "gold_price": 0,
+                "gravity": 154,
+                "gun_id": 1384,
+                "icon": "he",
+                "id": "_152mm_53-OF-531",
+                "min_penetration": 38,
+                "module_damage": 102,
+                "name": "53-OF-531",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 810,
+                "range": 10000,
+                "speed": 455,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-8",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-8",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "mediumSPG"
+            },
+            {
+                "name": "enhancedSuspension_candle_user"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.943154,
+        "turret_pos_z": -0.82,
+        "turret_slots": [
+            {
+                "id": 564,
+                "pos_x": 0,
+                "pos_y": 0.943154,
+                "pos_z": -0.82,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R26_SU-8"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R26_SU-8/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.791,
+                "gun_pos_z": -0.312,
+                "health": 54,
+                "id": 717,
+                "identifier": "Su-8",
+                "name": "SU-8",
+                "not_in_shop": true,
+                "price": 500,
+                "rotation_speed": 18,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "R26_SU-8",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 260,
+                "visual_model": "vehicles/russian/R26_SU-8/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-SU-8Bis",
+                "name": "SU-8Bis",
+                "parent_key": "chassis-SU-8",
+                "price": 4100,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_152mm_howitzer_ML-20_mod_1931",
+                "name": "_152mm_howitzer_ML-20_mod_1931",
+                "parent_key": "gun-_122mm_howitzer_A-19",
+                "price": 6600,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R91_SU14_1",
+                "name": "R91_SU14_1",
+                "parent_key": "gun-_152mm_howitzer_ML-20_mod_1931",
+                "price": 62200,
+                "tank_name": "SU-14-1",
+                "tank_price": 1370000,
+                "tank_slug": "su-14-1",
+                "tank_tier": 7,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-M-17T",
+                "name": "M-17T",
+                "parent_key": "engine-M-5-400F",
+                "price": 200,
+                "type": "engine"
+            },
+            {
+                "key": "engine-M-17F",
+                "name": "M-17F",
+                "parent_key": "engine-M-17T",
+                "price": 850,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_12RT",
+                "name": "_12RT",
+                "parent_key": "radio-_10R",
+                "price": 5600,
+                "type": "radio"
+            }
+        ],
+        "version": "v092012",
+        "visual_model": "vehicles/russian/R26_SU-8/normal/lod0/Hull.model",
+        "weight": 13417,
+        "xp_factor": 1
+    }
+}

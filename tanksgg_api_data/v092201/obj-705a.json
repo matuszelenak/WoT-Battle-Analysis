@@ -1,0 +1,575 @@
+{
+    "tank": {
+        "ammo_rack_health": 210,
+        "ammo_rack_repair_health": 140,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 175
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 140
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 180
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 230
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 260
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 290
+            }
+        ],
+        "armor_front": 175,
+        "armor_rear": 60,
+        "armor_side": 100,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.162,
+        "camo_moving": 0.054,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.108,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 100000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R145_Object_705_A/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.974374,
+                "hull_pos_z": 0,
+                "id": 982,
+                "identifier": "Chassis_R145_Object_705_A",
+                "max_climb_angle": 25,
+                "max_load": 105000,
+                "name": "Object 705A",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 24,
+                "tank_id": "R145_Object_705_A",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.8,
+                "terrain_soft": 3.1,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R145_Object_705_A/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/russian/R145_Object_705_A/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A version of the Object 705 heavy tank with a 152 mm gun and an upgraded engine. All work on the project was discontinued in 1948.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 360,
+                "id": 1076,
+                "identifier": "DM_45",
+                "name": "DM-45",
+                "not_in_shop": true,
+                "power": 1500,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R145_Object_705_A",
+                "tier": 10,
+                "weight": 2500
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 40,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.8,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R145_Object_705_A/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.44,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 330
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 180
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 240
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 300
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 252,
+                "id": 1645,
+                "identifier": "_152mm_M_51",
+                "max_ammo": 30,
+                "name": "152 mm M-51",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 330000,
+                "reload_time": 18.1,
+                "repair_health": 126,
+                "repair_price": 10,
+                "rotation_speed": 24,
+                "tier": 10,
+                "turret_id": 842,
+                "visual_model": "vehicles/russian/R145_Object_705_A/normal/lod0/Gun_03.model",
+                "weight": 4370,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1960,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R145_Object_705_A",
+        "name": "Object 705A",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 1122,
+                "identifier": "_10RK-26",
+                "name": "10RK-26",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 720,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "R145_Object_705_A",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 11.5,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 152,
+                "damage": 650,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1645,
+                "icon": "ap",
+                "id": "_152mm_UBR551O",
+                "min_penetration": 244,
+                "module_damage": 203,
+                "name": "UBR551O",
+                "penetration": 256,
+                "penetration_loss": 0,
+                "price": 1610,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 152,
+                "damage": 650,
+                "explosion_radius": 0,
+                "gold_price": 15,
+                "gravity": 9.81,
+                "gun_id": 1645,
+                "icon": "hc",
+                "id": "_152mm_UBK551O",
+                "min_penetration": 317,
+                "module_damage": 203,
+                "name": "UBK551O",
+                "penetration": 317,
+                "penetration_loss": 0.05,
+                "price": 6000,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 152,
+                "damage": 840,
+                "explosion_radius": 3.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1645,
+                "icon": "he",
+                "id": "_152mm_53_OF_551O",
+                "min_penetration": 90,
+                "module_damage": 203,
+                "name": "53-OF-551O",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 1190,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 705A",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-705a",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "heavyTank1"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "antifragmentationLining_superheavy_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0.008967,
+        "turret_pos_y": 0.648564,
+        "turret_pos_z": -0.707942,
+        "turret_slots": [
+            {
+                "id": 661,
+                "pos_x": 0.008967,
+                "pos_y": 0.648564,
+                "pos_z": -0.707942,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R145_Object_705_A"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 330,
+                "armor_rear": 120,
+                "armor_side": 150,
+                "collision_model": "vehicles/russian/R145_Object_705_A/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 330
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 300
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 270
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 240
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 100
+                    }
+                ],
+                "gun_pos_x": -0.064482,
+                "gun_pos_y": 0.344795,
+                "gun_pos_z": 1.35912,
+                "health": 490,
+                "id": 842,
+                "identifier": "Turret_1_R145_Object_705_A",
+                "name": "Object 705A",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 28,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "R145_Object_705_A",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/russian/R145_Object_705_A/normal/lod0/Turret_01.model",
+                "weight": 18000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v092201",
+        "visual_model": "vehicles/russian/R145_Object_705_A/normal/lod0/Hull.model",
+        "weight": 59670,
+        "xp_factor": 1
+    }
+}

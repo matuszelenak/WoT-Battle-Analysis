@@ -1,0 +1,1953 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 5
+            }
+        ],
+        "armor_front": 150,
+        "armor_rear": 80,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.239,
+        "camo_moving": 0.119,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.159,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 54000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.22215,
+                "hull_pos_z": 0,
+                "id": 350,
+                "identifier": "Chassis_E-50",
+                "max_climb_angle": 25,
+                "max_load": 60000,
+                "name": "E 50",
+                "not_in_shop": false,
+                "price": 32900,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "G54_E-50",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.3,
+                "tier": 8,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Chassis.model",
+                "weight": 15000
+            },
+            {
+                "armor": 25,
+                "brake_force": 60000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.22215,
+                "hull_pos_z": 0,
+                "id": 351,
+                "identifier": "Chassis_E-50_2",
+                "max_climb_angle": 25,
+                "max_load": 66000,
+                "name": "E 50 verst\u00e4rkteketten",
+                "not_in_shop": false,
+                "price": 62900,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "G54_E-50",
+                "terrain_hard": 0.8,
+                "terrain_medium": 1,
+                "terrain_soft": 2.1,
+                "tier": 9,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/german/G54_E-50/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In 1945 the E 50 was conceived as a standard medium tank of the Panzerwaffe to replace the Panther and Panther II. It existed only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 389,
+                "identifier": "Maybach_HL_230_TRM_P30",
+                "name": "Maybach HL 230 TRM P30",
+                "not_in_shop": false,
+                "power": 700,
+                "price": 54000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G54_E-50",
+                "tier": 8,
+                "weight": 1200
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 320,
+                "id": 390,
+                "identifier": "Maybach_HL_234_TRM_P30",
+                "name": "Maybach HL 234 TRM P30",
+                "not_in_shop": false,
+                "power": 900,
+                "price": 88000,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "G54_E-50",
+                "tier": 9,
+                "weight": 1200
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 596,
+                "identifier": "_75mm_KwK_L70",
+                "max_ammo": 80,
+                "name": "7,5 cm Kw.K. 42 L/70",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 53000,
+                "reload_time": 3.8,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 305,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_01.model",
+                "weight": 1740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_02.model",
+                "depression": 8,
+                "dispersion": 0.32,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "id": 597,
+                "identifier": "_75mm_KwK45_L100",
+                "max_ammo": 80,
+                "name": "7,5 cm Kw.K. L/100",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 128570,
+                "reload_time": 4.2,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 305,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_02.model",
+                "weight": 2100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_03.model",
+                "depression": 8,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 598,
+                "identifier": "_88mm_KwK_43_L71",
+                "max_ammo": 60,
+                "name": "8,8 cm Kw.K. 43 L/71",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 112180,
+                "reload_time": 6.9,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 30.625,
+                "tier": 8,
+                "turret_id": 305,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_03.model",
+                "weight": 2562,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_09.model",
+                "depression": 8,
+                "dispersion": 0.3,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 190,
+                "id": 599,
+                "identifier": "_88mm_KwK_L100",
+                "max_ammo": 66,
+                "name": "8,8 cm Kw.K. L/100",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 174550,
+                "reload_time": 6.9,
+                "repair_health": 95,
+                "repair_price": 7,
+                "rotation_speed": 30.625,
+                "tier": 9,
+                "turret_id": 305,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_09.model",
+                "weight": 3350,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 600,
+                "identifier": "_75mm_KwK_L70",
+                "max_ammo": 90,
+                "name": "7,5 cm Kw.K. 42 L/70",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 53000,
+                "reload_time": 3.5,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 306,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_04.model",
+                "weight": 1740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.32,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "id": 601,
+                "identifier": "_75mm_KwK45_L100",
+                "max_ammo": 90,
+                "name": "7,5 cm Kw.K. L/100",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 128570,
+                "reload_time": 3.8,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 306,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_05.model",
+                "weight": 2100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_06.model",
+                "depression": 8,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 602,
+                "identifier": "_88mm_KwK_43_L71",
+                "max_ammo": 68,
+                "name": "8,8 cm Kw.K. 43 L/71",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 112180,
+                "reload_time": 5.5,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 30.625,
+                "tier": 8,
+                "turret_id": 306,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_06.model",
+                "weight": 2562,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_07.model",
+                "depression": 8,
+                "dispersion": 0.29,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 190,
+                "id": 603,
+                "identifier": "_88mm_KwK_L100",
+                "max_ammo": 74,
+                "name": "8,8 cm Kw.K. L/100",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 174550,
+                "reload_time": 5,
+                "repair_health": 95,
+                "repair_price": 7,
+                "rotation_speed": 30.625,
+                "tier": 9,
+                "turret_id": 306,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_07.model",
+                "weight": 3350,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Gun_08.model",
+                "depression": 8,
+                "dispersion": 0.3,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 200,
+                "id": 604,
+                "identifier": "_105mm_KwK45_L52_ausf_B",
+                "max_ammo": 48,
+                "name": "10,5 cm Kw.K. L/52 Ausf. B",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.405587,
+                            8
+                        ],
+                        [
+                            0.5,
+                            7
+                        ],
+                        [
+                            0.592032,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 225600,
+                "reload_time": 9.6,
+                "repair_health": 100,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 9,
+                "turret_id": 306,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Gun_08.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1320,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G54_E-50",
+        "name": "E 50",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3450000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 390,
+                "identifier": "FuG5",
+                "name": "FuG 5",
+                "not_in_shop": false,
+                "price": 630,
+                "range": 310,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G54_E-50",
+                "tier": 3,
+                "weight": 50
+            },
+            {
+                "health": 120,
+                "id": 391,
+                "identifier": "FuG7",
+                "name": "FuG 7",
+                "not_in_shop": false,
+                "price": 8160,
+                "range": 415,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G54_E-50",
+                "tier": 6,
+                "weight": 70
+            },
+            {
+                "health": 150,
+                "id": 392,
+                "identifier": "FuG12",
+                "name": "FuG 12",
+                "not_in_shop": false,
+                "price": 43200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "G54_E-50",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 9.4,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 596,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 132,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 150,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 925,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 596,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 174,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1156,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 596,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 925,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 597,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 184,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 198,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 597,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 204,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 244,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 597,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 598,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39_43",
+                "min_penetration": 185,
+                "module_damage": 119,
+                "name": "Pzgr 39/43",
+                "penetration": 203,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 598,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40_43",
+                "min_penetration": 217,
+                "module_damage": 119,
+                "name": "Pzgr 40/43",
+                "penetration": 237,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 598,
+                "icon": "he",
+                "id": "_88mm_Sprg.43",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 43",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 599,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39L",
+                "min_penetration": 200,
+                "module_damage": 119,
+                "name": "Pzgr 39 L",
+                "penetration": 223,
+                "penetration_loss": 0,
+                "price": 676,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 599,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40L",
+                "min_penetration": 235,
+                "module_damage": 119,
+                "name": "Pzgr 40 L",
+                "penetration": 261,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1438,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 599,
+                "icon": "he",
+                "id": "_88mm_Sprg.18L",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 18 L",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 616,
+                "range": 720,
+                "speed": 1150,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 600,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 132,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 150,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 925,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 600,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 174,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1156,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 600,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 925,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 601,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 184,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 198,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 601,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 204,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 244,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 601,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 602,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39_43",
+                "min_penetration": 185,
+                "module_damage": 119,
+                "name": "Pzgr 39/43",
+                "penetration": 203,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 602,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40_43",
+                "min_penetration": 217,
+                "module_damage": 119,
+                "name": "Pzgr 40/43",
+                "penetration": 237,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 602,
+                "icon": "he",
+                "id": "_88mm_Sprg.43",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 43",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 603,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39L",
+                "min_penetration": 200,
+                "module_damage": 119,
+                "name": "Pzgr 39 L",
+                "penetration": 223,
+                "penetration_loss": 0,
+                "price": 676,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 603,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40L",
+                "min_penetration": 235,
+                "module_damage": 119,
+                "name": "Pzgr 40 L",
+                "penetration": 261,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1438,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 603,
+                "icon": "he",
+                "id": "_88mm_Sprg.18L",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 18 L",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 616,
+                "range": 720,
+                "speed": 1150,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 604,
+                "icon": "ap",
+                "id": "_105mm_PzGr39G",
+                "min_penetration": 194,
+                "module_damage": 150,
+                "name": "PzGr 39 G",
+                "penetration": 220,
+                "penetration_loss": 0,
+                "price": 1245,
+                "range": 720,
+                "speed": 1200,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 604,
+                "icon": "ap_cr",
+                "id": "_105mm_Pzgr.40G",
+                "min_penetration": 235,
+                "module_damage": 150,
+                "name": "Pzgr 40 G",
+                "penetration": 270,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1500,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 510,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 604,
+                "icon": "he",
+                "id": "_105mm_Sprg.18G",
+                "min_penetration": 60,
+                "module_damage": 150,
+                "name": "Sprgr 18G",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 1211,
+                "range": 720,
+                "speed": 1200,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "E 50",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "e-50",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedBelwillWashers_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.675387,
+        "turret_pos_z": -0.25309,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 60,
+                "armor_side": 60,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.416289,
+                "gun_pos_z": 1.09873,
+                "health": 330,
+                "id": 305,
+                "identifier": "Turret_1_E-50",
+                "name": "E 50 Ausf. A",
+                "not_in_shop": false,
+                "price": 31700,
+                "rotation_speed": 30,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "G54_E-50",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Turret_01.model",
+                "weight": 8438
+            },
+            {
+                "Guns": null,
+                "armor_front": 185,
+                "armor_rear": 80,
+                "armor_side": 80,
+                "collision_model": "vehicles/german/G54_E-50/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 185
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.416289,
+                "gun_pos_z": 1.09873,
+                "health": 430,
+                "id": 306,
+                "identifier": "Turret_2_E-50",
+                "name": "E 50 Ausf. B",
+                "not_in_shop": false,
+                "price": 52000,
+                "rotation_speed": 30,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "G54_E-50",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G54_E-50/normal/lod0/Turret_02.model",
+                "weight": 10500
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_E-50_2",
+                "name": "Chassis_E-50_2",
+                "parent_key": "chassis-Chassis_E-50",
+                "price": 23500,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_KwK45_L100",
+                "name": "_75mm_KwK45_L100",
+                "parent_key": "gun-_75mm_KwK_L70",
+                "price": 16100,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_88mm_KwK_43_L71",
+                "name": "_88mm_KwK_43_L71",
+                "parent_key": "gun-_75mm_KwK_L70",
+                "price": 16500,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_E-50",
+                "name": "Turret_2_E-50",
+                "parent_key": "gun-_88mm_KwK_43_L71",
+                "price": 23670,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_88mm_KwK_L100",
+                "name": "_88mm_KwK_L100",
+                "parent_key": "gun-_88mm_KwK_43_L71",
+                "price": 43500,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_105mm_KwK45_L52_ausf_B",
+                "name": "_105mm_KwK45_L52_ausf_B",
+                "parent_key": "turret-Turret_2_E-50",
+                "price": 59400,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-G73_E50_Ausf_M",
+                "name": "G73_E50_Ausf_M",
+                "parent_key": "gun-_105mm_KwK45_L52_ausf_B",
+                "price": 183010,
+                "tank_name": "E 50 M",
+                "tank_price": 6100000,
+                "tank_slug": "e-50-m",
+                "tank_tier": 10,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_HL_234_TRM_P30",
+                "name": "Maybach_HL_234_TRM_P30",
+                "parent_key": "engine-Maybach_HL_230_TRM_P30",
+                "price": 24500,
+                "type": "engine"
+            },
+            {
+                "key": "radio-FuG7",
+                "name": "FuG7",
+                "parent_key": "radio-FuG5",
+                "price": 0,
+                "type": "radio"
+            },
+            {
+                "key": "radio-FuG12",
+                "name": "FuG12",
+                "parent_key": "radio-FuG7",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/german/G54_E-50/normal/lod0/Hull.model",
+        "weight": 32450,
+        "xp_factor": 1
+    }
+}

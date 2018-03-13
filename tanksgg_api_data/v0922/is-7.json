@@ -1,0 +1,542 @@
+{
+    "tank": {
+        "ammo_rack_health": 210,
+        "ammo_rack_repair_health": 140,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 270
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 140
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_14",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 140
+            }
+        ],
+        "armor_front": 150,
+        "armor_rear": 100,
+        "armor_side": 150,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.174,
+        "camo_moving": 0.058,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.116,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R45_IS-7/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.896721,
+                "hull_pos_z": 0,
+                "id": 972,
+                "identifier": "IS-7",
+                "max_climb_angle": 25,
+                "max_load": 70950,
+                "name": "IS-7",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 28,
+                "tank_id": "R45_IS-7",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.8,
+                "terrain_soft": 3.1,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R45_IS-7/normal/lod0/Chassis.model",
+                "weight": 11000
+            }
+        ],
+        "collision_model": "vehicles/russian/R45_IS-7/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Development of the IS-7 started in the spring of 1945. Prototypes successfully underwent trials in 1946 and 1947. However, the IS-7 never saw mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 360,
+                "id": 1065,
+                "identifier": "M_50TI",
+                "name": "M-50TI",
+                "not_in_shop": true,
+                "power": 1200,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R45_IS-7",
+                "tier": 10,
+                "weight": 700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 59.6,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R45_IS-7/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.06,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 350
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 240
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 110
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 210,
+                "id": 1623,
+                "identifier": "_130mm_S-70",
+                "max_ammo": 30,
+                "name": "130 mm S-70",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.311338,
+                            6
+                        ],
+                        [
+                            0.375,
+                            1
+                        ],
+                        [
+                            0.625,
+                            1
+                        ],
+                        [
+                            0.688662,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 297000,
+                "reload_time": 13.7,
+                "repair_health": 105,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 837,
+                "visual_model": "vehicles/russian/R45_IS-7/normal/lod0/Gun_01.model",
+                "weight": 2980,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1920,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R45_IS-7",
+        "name": "IS-7",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 1111,
+                "identifier": "_10RK-26",
+                "name": "10RK-26",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 720,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "R45_IS-7",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 11.172,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 130,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1623,
+                "icon": "ap",
+                "id": "_130mm_UBR-482",
+                "min_penetration": 240,
+                "module_damage": 180,
+                "name": "UBR-482",
+                "penetration": 250,
+                "penetration_loss": 0,
+                "price": 1118,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 130,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1623,
+                "icon": "ap_cr",
+                "id": "_130mm_UBR-482P",
+                "min_penetration": 263,
+                "module_damage": 180,
+                "name": "UBR-482P",
+                "penetration": 303,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 130,
+                "damage": 640,
+                "explosion_radius": 2.78,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1623,
+                "icon": "he",
+                "id": "_130mm_UOF-482",
+                "min_penetration": 68,
+                "module_damage": 180,
+                "name": "UOF-482",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 978,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "IS-7",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "is-7",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.715476,
+        "turret_pos_z": 0.6685,
+        "turret_slots": [
+            {
+                "id": 657,
+                "pos_x": 0,
+                "pos_y": 0.715476,
+                "pos_z": 0.6685,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R45_IS-7"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 240,
+                "armor_rear": 94,
+                "armor_side": 185,
+                "collision_model": "vehicles/russian/R45_IS-7/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 240
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 185
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 94
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 270
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 30
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.20942,
+                "gun_pos_z": 0.8174,
+                "health": 480,
+                "id": 837,
+                "identifier": "IS-7",
+                "name": "IS-7",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 25,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "R45_IS-7",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/russian/R45_IS-7/normal/lod0/Turret_01.model",
+                "weight": 14200
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0922",
+        "visual_model": "vehicles/russian/R45_IS-7/normal/lod0/Hull.model",
+        "weight": 38850,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,534 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 130
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 140
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 250
+            }
+        ],
+        "armor_front": 130,
+        "armor_rear": 90,
+        "armor_side": 100,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.183,
+        "camo_moving": 0.081,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.142,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 55000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R134_Object_252K/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.881157,
+                "hull_pos_z": 0,
+                "id": 743,
+                "identifier": "Chassis_R134_Object_252K",
+                "max_climb_angle": 25,
+                "max_load": 58000,
+                "name": "Object 252U Defender",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 165,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "R134_Object_252K",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.3,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R134_Object_252K/normal/lod0/Chassis.model",
+                "weight": 11000
+            }
+        ],
+        "collision_model": "vehicles/russian/R134_Object_252K/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A draft project, prepared during the development of the IS-6 heavy tank. The draft was completed by the end of 1944. Later, work on the IS-6 tank was stopped, and the development of the project was discontinued. The vehicle never entered service.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 370,
+                "id": 833,
+                "identifier": "V_12CN",
+                "name": "V-12CN",
+                "not_in_shop": true,
+                "power": 700,
+                "price": 84000,
+                "repair_health": 185,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "R134_Object_252K",
+                "tier": 9,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 35,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 10950,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R134_Object_252K/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.44,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 240
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 210,
+                "id": 1306,
+                "identifier": "_122mm_BL_13",
+                "max_ammo": 30,
+                "name": "122 mm BL-13",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.430556,
+                            6
+                        ],
+                        [
+                            0.444444,
+                            4.5
+                        ],
+                        [
+                            0.555556,
+                            4.5
+                        ],
+                        [
+                            0.569444,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 178500,
+                "reload_time": 15,
+                "repair_health": 105,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 9,
+                "turret_id": 632,
+                "visual_model": "vehicles/russian/R134_Object_252K/normal/lod0/Gun_01.model",
+                "weight": 2790,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1200,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R134_Object_252K",
+        "name": "Object 252U Defender",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 881,
+                "identifier": "_10RKM",
+                "name": "10RKM",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R134_Object_252K",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.5,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1306,
+                "icon": "ap",
+                "id": "_122mm_UBR-471BMM",
+                "min_penetration": 204,
+                "module_damage": 165,
+                "name": "BP-471BMM",
+                "penetration": 225,
+                "penetration_loss": 0,
+                "price": 1025,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1306,
+                "icon": "ap_cr",
+                "id": "_122mm_UBR-471PBMM",
+                "min_penetration": 250,
+                "module_damage": 165,
+                "name": "BR-471PBMM",
+                "penetration": 265,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1306,
+                "icon": "he",
+                "id": "_122mm_UOF-471",
+                "min_penetration": 68,
+                "module_damage": 165,
+                "name": "UOF-471",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Defender",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "defender",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.6678,
+        "turret_pos_z": 0.617268,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 250,
+                "armor_rear": 100,
+                "armor_side": 150,
+                "collision_model": "vehicles/russian/R134_Object_252K/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 220
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 230
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 180
+                    }
+                ],
+                "gun_pos_x": 0.049679,
+                "gun_pos_y": 0.369414,
+                "gun_pos_z": 1.07881,
+                "health": 300,
+                "id": 632,
+                "identifier": "Turret_1_R134_Object_252K",
+                "name": "Object 252U Defender",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 24,
+                "rotator_health": 160,
+                "rotator_repair_health": 80,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "R134_Object_252K",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/russian/R134_Object_252K/normal/lod0/Turret_01.model",
+                "weight": 12000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v09171",
+        "visual_model": "vehicles/russian/R134_Object_252K/normal/lod0/Hull.model",
+        "weight": 24585,
+        "xp_factor": 1.5
+    }
+}

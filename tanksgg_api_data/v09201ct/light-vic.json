@@ -1,0 +1,456 @@
+{
+    "tank": {
+        "ammo_rack_health": 85,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 11
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 11
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 11
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 11
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 3
+            }
+        ],
+        "armor_front": 14,
+        "armor_rear": 6,
+        "armor_side": 13,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.413,
+        "camo_moving": 0.206,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.275,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 5200,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB76_Mk_VIC/collision_client/Chassis.model",
+                "dispersion_movement": 0.32,
+                "dispersion_rotation": 0.32,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.617166,
+                "hull_pos_z": 0,
+                "id": 559,
+                "identifier": "Chassis_GB76_Mk_VIC",
+                "max_climb_angle": 25,
+                "max_load": 7200,
+                "name": "Light Mk. VIC",
+                "not_in_shop": true,
+                "price": 500,
+                "repair_health": 45,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tank_id": "GB76_Mk_VIC",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/british/GB76_Mk_VIC/normal/lod0/Chassis.model",
+                "weight": 2000
+            }
+        ],
+        "collision_model": "vehicles/british/GB76_Mk_VIC/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "A modification of the Mk.VI light tank with enhanced armament (the 15-mm Besa machinegun). Produced from December 1939 through July 1940. Initially, the tanks were designed for service in colonies. A total of 130 Mk. VI\u0421 tanks were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 38,
+                "id": 612,
+                "identifier": "Meadows_ESTB",
+                "name": "Meadows E.S.T.L.",
+                "not_in_shop": true,
+                "power": 88,
+                "price": 400,
+                "repair_health": 19,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "GB76_Mk_VIC",
+                "tier": 2,
+                "weight": 250
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 52.5,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 750,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.13953489,
+                "clip_size": 40,
+                "collision_model": "vehicles/british/GB76_Mk_VIC/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.52,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.1,
+                "dispersion_rotation": 0.08,
+                "elevation": 37,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 14
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 14
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 11
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 36,
+                "id": 927,
+                "identifier": "_15mm_Machine_gun_BESA_",
+                "max_ammo": 400,
+                "name": "15 mm Machine Gun BESA",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -37
+                        ],
+                        [
+                            1,
+                            -37
+                        ]
+                    ]
+                },
+                "price": 1900,
+                "reload_time": 18,
+                "repair_health": 18,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 469,
+                "visual_model": "vehicles/british/GB76_Mk_VIC/normal/lod0/Gun_01.model",
+                "weight": 70,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB76_Mk_VIC",
+        "name": "Light Mk. VIC",
+        "nation": "uk",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 80,
+                "id": 646,
+                "identifier": "N9A",
+                "name": "WS No. 9",
+                "not_in_shop": true,
+                "price": 3600,
+                "range": 375,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "GB76_Mk_VIC",
+                "tier": 5,
+                "weight": 40
+            }
+        ],
+        "repair_price": 2,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 15,
+                "damage": 9,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 927,
+                "icon": "ap",
+                "id": "_15mm_AP_W_Mk1",
+                "min_penetration": 19,
+                "module_damage": 20,
+                "name": "AP W Mk. 1",
+                "penetration": 27,
+                "penetration_loss": 0,
+                "price": 1,
+                "range": 400,
+                "speed": 884,
+                "type": "ARMOR_PIERCING"
+            }
+        ],
+        "short_name": "Light VIC",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "light-vic",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": -0.01411,
+        "turret_pos_y": 0.728701,
+        "turret_pos_z": -0.43524,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 14,
+                "armor_rear": 11,
+                "armor_side": 14,
+                "collision_model": "vehicles/british/GB76_Mk_VIC/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 11
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 11
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 11
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 11
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 3.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 3.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 3.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 11
+                    }
+                ],
+                "gun_pos_x": 0.01411,
+                "gun_pos_y": 0.360525,
+                "gun_pos_z": 0.502194,
+                "health": 30,
+                "id": 469,
+                "identifier": "Turret_1_GB76_Mk_VIC",
+                "name": "Light Mk. VIC",
+                "not_in_shop": true,
+                "price": 500,
+                "rotation_speed": 36,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 2,
+                "tank_id": "GB76_Mk_VIC",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/british/GB76_Mk_VIC/normal/lod0/Turret_01.model",
+                "weight": 800
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09201ct",
+        "visual_model": "vehicles/british/GB76_Mk_VIC/normal/lod0/Hull.model",
+        "weight": 1840,
+        "xp_factor": 1.5
+    }
+}

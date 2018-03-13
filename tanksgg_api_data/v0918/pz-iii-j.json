@@ -1,0 +1,1921 @@
+{
+    "tank": {
+        "ammo_rack_health": 125,
+        "ammo_rack_repair_health": 85,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 15
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 50,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.428,
+        "camo_moving": 0.214,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.285,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 33000,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.07571,
+                "hull_pos_z": 0,
+                "id": 368,
+                "identifier": "PzIIIketten_Ausf_J",
+                "max_climb_angle": 25,
+                "max_load": 19250,
+                "name": "Pz.Kpfw. III Ausf. J",
+                "not_in_shop": false,
+                "price": 1900,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "G10_PzIII_AusfJ",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.6,
+                "tier": 3,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Chassis.model",
+                "weight": 7000
+            },
+            {
+                "armor": 15,
+                "brake_force": 33000,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.07571,
+                "hull_pos_z": 0,
+                "id": 369,
+                "identifier": "PzIIIketten_Ausf_L",
+                "max_climb_angle": 25,
+                "max_load": 22650,
+                "name": "Pz.Kpfw. III Ausf. L",
+                "not_in_shop": false,
+                "price": 4650,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 45,
+                "tank_id": "G10_PzIII_AusfJ",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.7,
+                "tier": 4,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Production of the J variant started in March 1941. In addition to the enhanced armor, the vehicle received the new 50-mm KwK 38 gun, which was deemed extremely successful; 1,067 other vehicles featured the KwK 39 gun, the improved version with better penetration rate. An attempt to mount a 75-mm gun (the N variant) was recognized as a failure, and the most large-scale vehicles were the J, L, and M variants (with 50-mm guns that had an impeccable track record). A total of 5,691 vehicles were produced, among which 1,969 were equipped with long-barrel guns and 2,391 with short-barrel 50-mm guns.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 82,
+                "id": 408,
+                "identifier": "Maybach_HL_108TR",
+                "name": "Maybach HL 108 TR",
+                "not_in_shop": false,
+                "power": 320,
+                "price": 9460,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G10_PzIII_AusfJ",
+                "tier": 4,
+                "weight": 450
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 84,
+                "id": 409,
+                "identifier": "Maybach_HL_120_TR",
+                "name": "Maybach HL 120 TR",
+                "not_in_shop": false,
+                "power": 350,
+                "price": 10430,
+                "repair_health": 41,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G10_PzIII_AusfJ",
+                "tier": 4,
+                "weight": 510
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 86,
+                "id": 410,
+                "identifier": "Maybach_HL_120_TRM",
+                "name": "Maybach HL 120 TRM",
+                "not_in_shop": false,
+                "power": 440,
+                "price": 19900,
+                "repair_health": 42,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G10_PzIII_AusfJ",
+                "tier": 4,
+                "weight": 510
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 64,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 631,
+                "identifier": "_37mm_KwK_L46",
+                "max_ammo": 131,
+                "name": "3,7 cm Kw.K. 36 L/46.5",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.3,
+                "repair_health": 27,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 314,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_01.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.48,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 80,
+                "id": 632,
+                "identifier": "_50mm_KwK_38_L42",
+                "max_ammo": 76,
+                "name": "5 cm Kw.K. 38 L/42",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 8570,
+                "reload_time": 2.5,
+                "repair_health": 40,
+                "repair_price": 3,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 314,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_03.model",
+                "weight": 700,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.133333,
+                "clip_size": 10,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.2,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "id": 633,
+                "identifier": "_20mm_Flak_38_L112",
+                "max_ammo": 400,
+                "name": "2 cm Flak 38",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.55763,
+                            10
+                        ],
+                        [
+                            0.5625,
+                            7
+                        ],
+                        [
+                            0.596471,
+                            7
+                        ],
+                        [
+                            0.602964,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 3160,
+                "reload_time": 2.5,
+                "repair_health": 25,
+                "repair_price": 0.5,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 314,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_04.model",
+                "weight": 110,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_09.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 90,
+                "id": 634,
+                "identifier": "_50mm_KwK_39_L60",
+                "max_ammo": 93,
+                "name": "5 cm Kw.K. 39 L/60",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            0.0983565,
+                            9
+                        ],
+                        [
+                            0.112988,
+                            10
+                        ],
+                        [
+                            0.416282,
+                            10
+                        ],
+                        [
+                            0.43901,
+                            8.5
+                        ],
+                        [
+                            0.555813,
+                            8.5
+                        ],
+                        [
+                            0.560679,
+                            7
+                        ],
+                        [
+                            0.59962,
+                            7
+                        ],
+                        [
+                            0.606089,
+                            10
+                        ],
+                        [
+                            0.903751,
+                            10
+                        ],
+                        [
+                            0.91187,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 13970,
+                "reload_time": 2.5,
+                "repair_health": 45,
+                "repair_price": 3,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 314,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_09.model",
+                "weight": 700,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 635,
+                "identifier": "_37mm_KwK_L46",
+                "max_ammo": 156,
+                "name": "3,7 cm Kw.K. 36 L/46.5",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.3,
+                "repair_health": 27,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 315,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_05.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_07.model",
+                "depression": 10,
+                "dispersion": 0.48,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 80,
+                "id": 636,
+                "identifier": "_50mm_KwK_38_L42",
+                "max_ammo": 93,
+                "name": "5 cm Kw.K. 38 L/42",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 8570,
+                "reload_time": 2.5,
+                "repair_health": 40,
+                "repair_price": 3,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 315,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_07.model",
+                "weight": 700,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.133333,
+                "clip_size": 10,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_08.model",
+                "depression": 10,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.2,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "id": 637,
+                "identifier": "_20mm_Flak_38_L112",
+                "max_ammo": 600,
+                "name": "2 cm Flak 38",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.55763,
+                            10
+                        ],
+                        [
+                            0.5625,
+                            7
+                        ],
+                        [
+                            0.596471,
+                            7
+                        ],
+                        [
+                            0.602964,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 3160,
+                "reload_time": 2.5,
+                "repair_health": 25,
+                "repair_price": 0.5,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 315,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_08.model",
+                "weight": 110,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_11.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 90,
+                "id": 638,
+                "identifier": "_50mm_KwK_39_L60",
+                "max_ammo": 93,
+                "name": "5 cm Kw.K. 39 L/60",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            0.0983565,
+                            9
+                        ],
+                        [
+                            0.112988,
+                            10
+                        ],
+                        [
+                            0.416282,
+                            10
+                        ],
+                        [
+                            0.43901,
+                            8.5
+                        ],
+                        [
+                            0.555813,
+                            8.5
+                        ],
+                        [
+                            0.560679,
+                            7
+                        ],
+                        [
+                            0.59962,
+                            7
+                        ],
+                        [
+                            0.606089,
+                            10
+                        ],
+                        [
+                            0.903751,
+                            10
+                        ],
+                        [
+                            0.91187,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 13970,
+                "reload_time": 2.5,
+                "repair_health": 45,
+                "repair_price": 3,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 315,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_11.model",
+                "weight": 700,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Gun_10.model",
+                "depression": 10,
+                "dispersion": 0.55,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 100,
+                "id": 639,
+                "identifier": "_75mm_KwK_37_L24",
+                "max_ammo": 70,
+                "name": "7,5 cm Kw.K. 37 L/24",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.415308,
+                            10
+                        ],
+                        [
+                            0.431565,
+                            8.5
+                        ],
+                        [
+                            0.596901,
+                            8.5
+                        ],
+                        [
+                            0.608275,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 10450,
+                "reload_time": 4.3,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 41.125,
+                "tier": 4,
+                "turret_id": 315,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Gun_10.model",
+                "weight": 780,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 248,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G10_PzIII_AusfJ",
+        "name": "Pz.Kpfw. III Ausf. J",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 138000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 418,
+                "identifier": "FuG5",
+                "name": "FuG 5",
+                "not_in_shop": false,
+                "price": 630,
+                "range": 310,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G10_PzIII_AusfJ",
+                "tier": 3,
+                "weight": 50
+            },
+            {
+                "health": 120,
+                "id": 419,
+                "identifier": "FuG7",
+                "name": "FuG 7",
+                "not_in_shop": false,
+                "price": 8160,
+                "range": 415,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G10_PzIII_AusfJ",
+                "tier": 6,
+                "weight": 70
+            },
+            {
+                "health": 150,
+                "id": 420,
+                "identifier": "FuG12",
+                "name": "FuG 12",
+                "not_in_shop": false,
+                "price": 43200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "G10_PzIII_AusfJ",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 4.17,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 631,
+                "icon": "ap",
+                "id": "_37mm_Pzgr36",
+                "min_penetration": 33,
+                "module_damage": 50,
+                "name": "Pzgr 36",
+                "penetration": 40,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 631,
+                "icon": "ap_cr",
+                "id": "_37cm_Pzgr40",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "Pzgr 40",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 938,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 42,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 631,
+                "icon": "he",
+                "id": "_37mm_Sprg.18",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Sprgr 18",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 6,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 50,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 632,
+                "icon": "ap",
+                "id": "_50mm_Pzgr39",
+                "min_penetration": 47,
+                "module_damage": 68,
+                "name": "Pzgr 39",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 685,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 50,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 632,
+                "icon": "ap_cr",
+                "id": "_50mm_Pzgr40",
+                "min_penetration": 58,
+                "module_damage": 68,
+                "name": "Pzgr 40",
+                "penetration": 96,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 856,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 50,
+                "damage": 90,
+                "explosion_radius": 0.52,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 632,
+                "icon": "he",
+                "id": "_50mm_Sprg.18",
+                "min_penetration": 25,
+                "module_damage": 68,
+                "name": "Sprgr 18",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 18,
+                "range": 720,
+                "speed": 685,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 633,
+                "icon": "ap",
+                "id": "_20mm_Pzgr39",
+                "min_penetration": 18,
+                "module_damage": 27,
+                "name": "Pzgr 39",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 3,
+                "range": 400,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 633,
+                "icon": "ap_cr",
+                "id": "_20cm_Pzgr40",
+                "min_penetration": 24,
+                "module_damage": 27,
+                "name": "Pzgr 40",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 50,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 634,
+                "icon": "ap",
+                "id": "_50mm_Pzgr39",
+                "min_penetration": 57,
+                "module_damage": 68,
+                "name": "Pzgr 39",
+                "penetration": 67,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 835,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 50,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 634,
+                "icon": "ap_cr",
+                "id": "_50mm_Pzgr40",
+                "min_penetration": 72,
+                "module_damage": 68,
+                "name": "Pzgr 40",
+                "penetration": 130,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 1044,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 50,
+                "damage": 90,
+                "explosion_radius": 0.52,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 634,
+                "icon": "he",
+                "id": "_50mm_Sprg.18",
+                "min_penetration": 25,
+                "module_damage": 68,
+                "name": "Sprgr 18",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 18,
+                "range": 720,
+                "speed": 835,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 635,
+                "icon": "ap",
+                "id": "_37mm_Pzgr36",
+                "min_penetration": 33,
+                "module_damage": 50,
+                "name": "Pzgr 36",
+                "penetration": 40,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 635,
+                "icon": "ap_cr",
+                "id": "_37cm_Pzgr40",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "Pzgr 40",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 938,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 42,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 635,
+                "icon": "he",
+                "id": "_37mm_Sprg.18",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Sprgr 18",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 6,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 50,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 636,
+                "icon": "ap",
+                "id": "_50mm_Pzgr39",
+                "min_penetration": 47,
+                "module_damage": 68,
+                "name": "Pzgr 39",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 685,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 50,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 636,
+                "icon": "ap_cr",
+                "id": "_50mm_Pzgr40",
+                "min_penetration": 58,
+                "module_damage": 68,
+                "name": "Pzgr 40",
+                "penetration": 96,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 856,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 50,
+                "damage": 90,
+                "explosion_radius": 0.52,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 636,
+                "icon": "he",
+                "id": "_50mm_Sprg.18",
+                "min_penetration": 25,
+                "module_damage": 68,
+                "name": "Sprgr 18",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 18,
+                "range": 720,
+                "speed": 685,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 637,
+                "icon": "ap",
+                "id": "_20mm_Pzgr39",
+                "min_penetration": 18,
+                "module_damage": 27,
+                "name": "Pzgr 39",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 3,
+                "range": 400,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 637,
+                "icon": "ap_cr",
+                "id": "_20cm_Pzgr40",
+                "min_penetration": 24,
+                "module_damage": 27,
+                "name": "Pzgr 40",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 50,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 638,
+                "icon": "ap",
+                "id": "_50mm_Pzgr39",
+                "min_penetration": 57,
+                "module_damage": 68,
+                "name": "Pzgr 39",
+                "penetration": 67,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 835,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 50,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 638,
+                "icon": "ap_cr",
+                "id": "_50mm_Pzgr40",
+                "min_penetration": 72,
+                "module_damage": 68,
+                "name": "Pzgr 40",
+                "penetration": 130,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 1044,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 50,
+                "damage": 90,
+                "explosion_radius": 0.52,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 638,
+                "icon": "he",
+                "id": "_50mm_Sprg.18",
+                "min_penetration": 25,
+                "module_damage": 68,
+                "name": "Sprgr 18",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 18,
+                "range": 720,
+                "speed": 835,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 639,
+                "icon": "ap",
+                "id": "_75mm_APCBC",
+                "min_penetration": 39,
+                "module_damage": 100,
+                "name": "APCBC",
+                "penetration": 43,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 385,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 639,
+                "icon": "hc",
+                "id": "_Gr_38_HL_A",
+                "min_penetration": 87,
+                "module_damage": 100,
+                "name": "Gr 38 HL A",
+                "penetration": 87,
+                "penetration_loss": 0.05,
+                "price": 2000,
+                "range": 720,
+                "speed": 308,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 639,
+                "icon": "he",
+                "id": "_75mm_Sprg.18",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 385,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz. III J",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pz-iii-j",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "grousers_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.524294,
+        "turret_pos_z": 0.3,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 30,
+                "armor_rear": 30,
+                "armor_side": 30,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 90
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.3,
+                "gun_pos_z": 0.8,
+                "health": 62,
+                "id": 314,
+                "identifier": "PzIII_Ausf_E",
+                "name": "Pz.Kpfw. III Ausf. J",
+                "not_in_shop": false,
+                "price": 2290,
+                "rotation_speed": 46,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "G10_PzIII_AusfJ",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Turret_01.model",
+                "weight": 2200
+            },
+            {
+                "Guns": null,
+                "armor_front": 30,
+                "armor_rear": 30,
+                "armor_side": 30,
+                "collision_model": "vehicles/german/G10_PzIII_AusfJ/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 90
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.3,
+                "gun_pos_z": 0.8,
+                "health": 102,
+                "id": 315,
+                "identifier": "PzIII_Ausf_M",
+                "name": "Pz.Kpfw. III Ausf. L",
+                "not_in_shop": false,
+                "price": 5000,
+                "rotation_speed": 44,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "G10_PzIII_AusfJ",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Turret_02.model",
+                "weight": 3200
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-PzIIIketten_Ausf_L",
+                "name": "PzIIIketten_Ausf_L",
+                "parent_key": "chassis-PzIIIketten_Ausf_J",
+                "price": 1095,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-PzIII_Ausf_M",
+                "name": "PzIII_Ausf_M",
+                "parent_key": "turret-PzIII_Ausf_E",
+                "price": 1175,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_50mm_KwK_38_L42",
+                "name": "_50mm_KwK_38_L42",
+                "parent_key": "gun-_37mm_KwK_L46",
+                "price": 500,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_20mm_Flak_38_L112",
+                "name": "_20mm_Flak_38_L112",
+                "parent_key": "gun-_37mm_KwK_L46",
+                "price": 160,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_75mm_KwK_37_L24",
+                "name": "_75mm_KwK_37_L24",
+                "parent_key": "turret-PzIII_Ausf_M",
+                "price": 800,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_50mm_KwK_39_L60",
+                "name": "_50mm_KwK_39_L60",
+                "parent_key": "turret-PzIII_Ausf_M",
+                "price": 1350,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-G28_PzIII_IV",
+                "name": "G28_PzIII_IV",
+                "parent_key": "gun-_75mm_KwK_37_L24",
+                "price": 13480,
+                "tank_name": "Pz. III/IV",
+                "tank_price": 315000,
+                "tank_slug": "pz-iiiiv",
+                "tank_tier": 5,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_HL_120_TR",
+                "name": "Maybach_HL_120_TR",
+                "parent_key": "engine-Maybach_HL_108TR",
+                "price": 710,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Maybach_HL_120_TRM",
+                "name": "Maybach_HL_120_TRM",
+                "parent_key": "engine-Maybach_HL_120_TR",
+                "price": 1500,
+                "type": "engine"
+            },
+            {
+                "key": "radio-FuG7",
+                "name": "FuG7",
+                "parent_key": "radio-FuG5",
+                "price": 0,
+                "type": "radio"
+            },
+            {
+                "key": "radio-FuG12",
+                "name": "FuG12",
+                "parent_key": "radio-FuG7",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v0918",
+        "visual_model": "vehicles/german/G10_PzIII_AusfJ/normal/lod0/Hull.model",
+        "weight": 8000,
+        "xp_factor": 1
+    }
+}

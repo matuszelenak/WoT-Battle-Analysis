@@ -1,0 +1,481 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 15,
+        "armor_rear": 10,
+        "armor_side": 10,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.582,
+        "camo_moving": 0.388,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.388,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 6700,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F97_ELC_EVEN_90/collision_client/Chassis.model",
+                "dispersion_movement": 0.19,
+                "dispersion_rotation": 0.19,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.617038,
+                "hull_pos_z": 0,
+                "id": 114,
+                "identifier": "Chassis_F97_ELC_EVEN_90",
+                "max_climb_angle": 25,
+                "max_load": 8000,
+                "name": "ELC EVEN 90",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 150,
+                "repair_price": 7.5,
+                "rotation_speed": 45,
+                "tank_id": "F97_ELC_EVEN_90",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.4,
+                "tier": 8,
+                "visual_model": "vehicles/french/F97_ELC_EVEN_90/normal/lod0/Chassis.model",
+                "weight": 1750
+            }
+        ],
+        "collision_model": "vehicles/french/F97_ELC_EVEN_90/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            }
+        ],
+        "description": "A series of vehicles developed by BRUNON-VALETTE under the ELC program in the late 1950s. The goal was to create a light aeromobile tank for fire support purposes. The vehicle had small dimensions and high maneuverability. A total of 10 pilot vehicles with different types of armament were produced. They underwent trials, but the vehicle never entered mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 125,
+                "identifier": "SOFAM_G_s_c_4",
+                "name": "SOFAM G s c 4",
+                "not_in_shop": true,
+                "power": 160,
+                "price": 30000,
+                "repair_health": 130,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "F97_ELC_EVEN_90",
+                "tier": 7,
+                "weight": 340
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 70,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 6500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2.5,
+                "clip_size": 3,
+                "collision_model": "vehicles/french/F97_ELC_EVEN_90/collision_client/Gun_01.model",
+                "depression": 9,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 170,
+                "id": 189,
+                "identifier": "_90mm_D_919",
+                "max_ammo": 45,
+                "name": "90 mm D. 919",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            0.555556,
+                            -13
+                        ],
+                        [
+                            0.569444,
+                            -11
+                        ],
+                        [
+                            0.847222,
+                            -11
+                        ],
+                        [
+                            0.861111,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 110000,
+                "reload_time": 30,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 100,
+                "visual_model": "vehicles/french/F97_ELC_EVEN_90/normal/lod0/Gun_01.model",
+                "weight": 350,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 720,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F97_ELC_EVEN_90",
+        "name": "ELC EVEN 90",
+        "nation": "france",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 115,
+                "identifier": "AN_VRC_7",
+                "name": "AN/VRC-7",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F97_ELC_EVEN_90",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 189,
+                "icon": "ap",
+                "id": "_90mm_POT_90_D_919",
+                "min_penetration": 158,
+                "module_damage": 122,
+                "name": "POT-90 D. 919",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 720,
+                "speed": 760,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 189,
+                "icon": "ap_cr",
+                "id": "_90mm_OFL_90_D_919",
+                "min_penetration": 182,
+                "module_damage": 122,
+                "name": "OFL-90 D. 919",
+                "penetration": 215,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 950,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 270,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 189,
+                "icon": "he",
+                "id": "_90mm_OE_90_D_919",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE-90 D. 919",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 175,
+                "range": 720,
+                "speed": 760,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "ELC EVEN 90",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "elc-even-90",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": -0.214336,
+        "turret_pos_y": 0.515737,
+        "turret_pos_z": 0.088441,
+        "turret_slots": [
+            {
+                "id": 76,
+                "pos_x": -0.214336,
+                "pos_y": 0.515737,
+                "pos_z": 0.088441,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "F97_ELC_EVEN_90"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 15,
+                "armor_rear": 10,
+                "armor_side": 10,
+                "collision_model": "vehicles/french/F97_ELC_EVEN_90/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.389488,
+                "gun_pos_y": 0.174634,
+                "gun_pos_z": -0.003833,
+                "health": 180,
+                "id": 100,
+                "identifier": "Turret_1_F97_ELC_EVEN_90",
+                "name": "ELC EVEN tourelle de 90",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 46,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "F97_ELC_EVEN_90",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/french/F97_ELC_EVEN_90/normal/lod0/Turret_01.model",
+                "weight": 1300
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v092201",
+        "visual_model": "vehicles/french/F97_ELC_EVEN_90/normal/lod0/Hull.model",
+        "weight": 2585,
+        "xp_factor": 1.5
+    }
+}

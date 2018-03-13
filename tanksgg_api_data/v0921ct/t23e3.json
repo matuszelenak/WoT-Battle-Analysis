@@ -1,0 +1,503 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 47.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 114.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 88.9
+            }
+        ],
+        "armor_front": 76.2,
+        "armor_rear": 38.1,
+        "armor_side": 50.8,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.38,
+        "camo_moving": 0.19,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.253,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 36000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A86_T23E3/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.05943,
+                "hull_pos_z": 0,
+                "id": 664,
+                "identifier": "Torsion_bar_T80",
+                "max_climb_angle": 25,
+                "max_load": 39140,
+                "name": "T23E3",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "A86_T23E3",
+                "terrain_hard": 0.6,
+                "terrain_medium": 0.7,
+                "terrain_soft": 1.1,
+                "tier": 7,
+                "visual_model": "vehicles/american/A86_T23E3/normal/lod0/Chassis.model",
+                "weight": 7700
+            }
+        ],
+        "collision_model": "vehicles/american/A86_T23E3/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development started in April 1943. The prototype was manufactured in August 1944. Unlike its predecessor T23, this variant featured a torsion-bar suspension. The vehicle never entered mass production nor saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 732,
+                "identifier": "Ford_GAN_T",
+                "name": "Ford GAN No. 17",
+                "not_in_shop": true,
+                "power": 530,
+                "price": 37200,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A86_T23E3",
+                "tier": 7,
+                "weight": 569
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 56.3,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 7000,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A86_T23E3/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2.7,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 1105,
+                "identifier": "_76mm_Gun_M1A1T",
+                "max_ammo": 84,
+                "name": "76 mm Gun M1A1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 50330,
+                "reload_time": 3.3,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 560,
+                "visual_model": "vehicles/american/A86_T23E3/normal/lod0/Gun_01.model",
+                "weight": 1567,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 840,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A86_T23E3",
+        "name": "T23E3",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 787,
+                "identifier": "SCR_528A1",
+                "name": "SCR 528AM",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A86_T23E3",
+                "tier": 10,
+                "weight": 91
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 30,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1105,
+                "icon": "ap",
+                "id": "_76mm_AP_M79_149",
+                "min_penetration": 128,
+                "module_damage": 105,
+                "name": "AP M79",
+                "penetration": 149,
+                "penetration_loss": 0,
+                "price": 110,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1105,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_T4",
+                "min_penetration": 160,
+                "module_damage": 105,
+                "name": "HVAP T4",
+                "penetration": 190,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1105,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T23E3",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t23e3",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.535474,
+        "turret_pos_z": 0.6302,
+        "turret_slots": [
+            {
+                "id": 436,
+                "pos_x": 0,
+                "pos_y": 0.535474,
+                "pos_z": 0.6302,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A86_T23E3"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 76.2,
+                "armor_rear": 63.5,
+                "armor_side": 63.5,
+                "collision_model": "vehicles/american/A86_T23E3/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.3759,
+                "gun_pos_z": 0.9544,
+                "health": 210,
+                "id": 560,
+                "identifier": "M62T80",
+                "name": "T23E3",
+                "not_in_shop": true,
+                "price": 20000,
+                "rotation_speed": 36,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "A86_T23E3",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/american/A86_T23E3/normal/lod0/Turret_01.model",
+                "weight": 7800
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0921ct",
+        "visual_model": "vehicles/american/A86_T23E3/normal/lod0/Hull.model",
+        "weight": 18009,
+        "xp_factor": 1.5
+    }
+}

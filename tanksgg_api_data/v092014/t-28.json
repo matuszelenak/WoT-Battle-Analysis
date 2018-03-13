@@ -1,0 +1,2198 @@
+{
+    "tank": {
+        "ammo_rack_health": 110,
+        "ammo_rack_repair_health": 75,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 20,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.306,
+        "camo_moving": 0.153,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.204,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 34500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.1442,
+                "hull_pos_z": 0,
+                "id": 823,
+                "identifier": "T-28_0",
+                "max_climb_angle": 25,
+                "max_load": 18900,
+                "name": "T-28",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tank_id": "R06_T-28",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Chassis.model",
+                "weight": 5160
+            },
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Chassis.model",
+                "dispersion_movement": 0.23,
+                "dispersion_rotation": 0.23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.1442,
+                "hull_pos_z": 0,
+                "id": 824,
+                "identifier": "T-28_A",
+                "max_climb_angle": 25,
+                "max_load": 32300,
+                "name": "T-28A",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "R06_T-28",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 4,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Chassis.model",
+                "weight": 5300
+            }
+        ],
+        "collision_model": "vehicles/russian/R06_T-28/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "The T-28 tank was developed by the Experimental Machine Design Bureau of the Voroshilov plant. The vehicle saw service on August 11, 1933. A total of 503 tanks were manufactured at the Leningrad Kirov Plant between 1933 and 1940. During mass production, the T-28 tank underwent a number of changes in design and modifications. The vehicles were used in the war with Finland in the winter of 1939\u20131940 and at the beginning of WWII.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 85,
+                "id": 908,
+                "identifier": "M-5-400",
+                "name": "M-5-400",
+                "not_in_shop": false,
+                "power": 400,
+                "price": 10230,
+                "repair_health": 43,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R06_T-28",
+                "tier": 4,
+                "weight": 410
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 85,
+                "id": 909,
+                "identifier": "M-17T",
+                "name": "M-17L 1,400 r/min",
+                "not_in_shop": false,
+                "power": 450,
+                "price": 10770,
+                "repair_health": 42,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R06_T-28",
+                "tier": 4,
+                "weight": 610
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 90,
+                "id": 910,
+                "identifier": "M-17F",
+                "name": "M-17T",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 13460,
+                "repair_health": 44,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R06_T-28",
+                "tier": 4,
+                "weight": 610
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 45,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.6,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 82,
+                "id": 1388,
+                "identifier": "_76mm_KT-28",
+                "max_ammo": 69,
+                "name": "76 mm KT-28",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.353005,
+                            6
+                        ],
+                        [
+                            0.416667,
+                            3
+                        ],
+                        [
+                            0.583333,
+                            3
+                        ],
+                        [
+                            0.646995,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 3580,
+                "reload_time": 4.6,
+                "repair_health": 41,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 716,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_01.model",
+                "weight": 540,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_04.model",
+                "depression": 6,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 94,
+                "id": 1389,
+                "identifier": "_57mm_ZiS-8",
+                "max_ammo": 78,
+                "name": "57 mm ZiS-8",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.339116,
+                            6
+                        ],
+                        [
+                            0.402778,
+                            5
+                        ],
+                        [
+                            0.597222,
+                            5
+                        ],
+                        [
+                            0.660884,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 22910,
+                "reload_time": 2.9,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 716,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_04.model",
+                "weight": 400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_02.model",
+                "depression": 6,
+                "dispersion": 0.57,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 94,
+                "id": 1390,
+                "identifier": "_76mm_L-10",
+                "max_ammo": 69,
+                "name": "76 mm L-10",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.339116,
+                            6
+                        ],
+                        [
+                            0.402778,
+                            2
+                        ],
+                        [
+                            0.597222,
+                            2
+                        ],
+                        [
+                            0.660884,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 10310,
+                "reload_time": 4.6,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 716,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_02.model",
+                "weight": 641,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_03.model",
+                "depression": 6,
+                "dispersion": 0.51,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 1391,
+                "identifier": "_76mm_F-32",
+                "max_ammo": 69,
+                "name": "76 mm F-32",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.319671,
+                            6
+                        ],
+                        [
+                            0.383333,
+                            -2
+                        ],
+                        [
+                            0.616667,
+                            -2
+                        ],
+                        [
+                            0.680329,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 27610,
+                "reload_time": 3.9,
+                "repair_health": 53,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 716,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_03.model",
+                "weight": 770,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_05.model",
+                "depression": 6,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 104,
+                "id": 1392,
+                "identifier": "_57mm_ZiS-4",
+                "max_ammo": 78,
+                "name": "57 mm ZiS-4",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.339116,
+                            6
+                        ],
+                        [
+                            0.402778,
+                            5
+                        ],
+                        [
+                            0.597222,
+                            5
+                        ],
+                        [
+                            0.660884,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 41480,
+                "reload_time": 2.7,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 716,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_05.model",
+                "weight": 740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_06.model",
+                "depression": 6,
+                "dispersion": 0.6,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 82,
+                "id": 1393,
+                "identifier": "_76mm_KT-28",
+                "max_ammo": 69,
+                "name": "76 mm KT-28",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.353005,
+                            6
+                        ],
+                        [
+                            0.416667,
+                            3
+                        ],
+                        [
+                            0.583333,
+                            3
+                        ],
+                        [
+                            0.646995,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 3580,
+                "reload_time": 4.6,
+                "repair_health": 41,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 717,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_06.model",
+                "weight": 540,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_09.model",
+                "depression": 6,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 94,
+                "id": 1394,
+                "identifier": "_57mm_ZiS-8",
+                "max_ammo": 78,
+                "name": "57 mm ZiS-8",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.339116,
+                            6
+                        ],
+                        [
+                            0.402778,
+                            5
+                        ],
+                        [
+                            0.597222,
+                            5
+                        ],
+                        [
+                            0.660884,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 22910,
+                "reload_time": 2.9,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 717,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_09.model",
+                "weight": 400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_07.model",
+                "depression": 6,
+                "dispersion": 0.57,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 94,
+                "id": 1395,
+                "identifier": "_76mm_L-10",
+                "max_ammo": 69,
+                "name": "76 mm L-10",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.339116,
+                            6
+                        ],
+                        [
+                            0.402778,
+                            2
+                        ],
+                        [
+                            0.597222,
+                            2
+                        ],
+                        [
+                            0.660884,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 10310,
+                "reload_time": 4.6,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 717,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_07.model",
+                "weight": 641,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_08.model",
+                "depression": 6,
+                "dispersion": 0.51,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 1396,
+                "identifier": "_76mm_F-32",
+                "max_ammo": 69,
+                "name": "76 mm F-32",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.319671,
+                            6
+                        ],
+                        [
+                            0.383333,
+                            -2
+                        ],
+                        [
+                            0.616667,
+                            -2
+                        ],
+                        [
+                            0.680329,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 27610,
+                "reload_time": 3.9,
+                "repair_health": 53,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 717,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_08.model",
+                "weight": 770,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Gun_10.model",
+                "depression": 6,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 104,
+                "id": 1397,
+                "identifier": "_57mm_ZiS-4",
+                "max_ammo": 78,
+                "name": "57 mm ZiS-4",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.339116,
+                            6
+                        ],
+                        [
+                            0.402778,
+                            5
+                        ],
+                        [
+                            0.597222,
+                            5
+                        ],
+                        [
+                            0.660884,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 41480,
+                "reload_time": 2.7,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 717,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Gun_10.model",
+                "weight": 740,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 256,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R06_T-28",
+        "name": "T-28",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 135000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 955,
+                "identifier": "_71-TK-3",
+                "name": "71-TK-3",
+                "not_in_shop": false,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R06_T-28",
+                "tier": 3,
+                "weight": 100
+            },
+            {
+                "health": 140,
+                "id": 956,
+                "identifier": "_10R",
+                "name": "10R",
+                "not_in_shop": false,
+                "price": 3660,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "R06_T-28",
+                "tier": 5,
+                "weight": 100
+            }
+        ],
+        "repair_price": 3.8,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1388,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KA",
+                "min_penetration": 31,
+                "module_damage": 105,
+                "name": "UBR-354KA",
+                "penetration": 37,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 381,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1388,
+                "icon": "hc",
+                "id": "_76mm_BP-354",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "BP-350A",
+                "penetration": 75,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 305,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 164,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1388,
+                "icon": "he",
+                "id": "_76mm_UOF-354K",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354K",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 381,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1389,
+                "icon": "ap",
+                "id": "_57mm_UBR-271KO",
+                "min_penetration": 67,
+                "module_damage": 76,
+                "name": "UBR-271KO",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 1389,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271NO",
+                "min_penetration": 70,
+                "module_damage": 76,
+                "name": "UBR-271NO",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 1063,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1389,
+                "icon": "he",
+                "id": "_57mm_UO-271UO",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271UO",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 24,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1390,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KA",
+                "min_penetration": 61,
+                "module_damage": 105,
+                "name": "UBR-354KA",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 558,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1390,
+                "icon": "hc",
+                "id": "_76mm_BP-354",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "BP-350A",
+                "penetration": 75,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 446,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 164,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1390,
+                "icon": "he",
+                "id": "_76mm_UOF-354K",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354K",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 558,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1391,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 60,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 67,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 612,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1391,
+                "icon": "hc",
+                "id": "_76mm_BP-354",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "BP-350A",
+                "penetration": 75,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 490,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1391,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 612,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1392,
+                "icon": "ap",
+                "id": "_57mm_UBR-271K",
+                "min_penetration": 98,
+                "module_damage": 76,
+                "name": "UBR-271K",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1392,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271N",
+                "min_penetration": 147,
+                "module_damage": 76,
+                "name": "UBR-271N",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1238,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1392,
+                "icon": "he",
+                "id": "_57mm_UO-271U",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271U",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 990,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1393,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KA",
+                "min_penetration": 31,
+                "module_damage": 105,
+                "name": "UBR-354KA",
+                "penetration": 37,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 381,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1393,
+                "icon": "hc",
+                "id": "_76mm_BP-354",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "BP-350A",
+                "penetration": 75,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 305,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 164,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1393,
+                "icon": "he",
+                "id": "_76mm_UOF-354K",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354K",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 381,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1394,
+                "icon": "ap",
+                "id": "_57mm_UBR-271KO",
+                "min_penetration": 67,
+                "module_damage": 76,
+                "name": "UBR-271KO",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 1394,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271NO",
+                "min_penetration": 70,
+                "module_damage": 76,
+                "name": "UBR-271NO",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 1063,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1394,
+                "icon": "he",
+                "id": "_57mm_UO-271UO",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271UO",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 24,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1395,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KA",
+                "min_penetration": 61,
+                "module_damage": 105,
+                "name": "UBR-354KA",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 558,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1395,
+                "icon": "hc",
+                "id": "_76mm_BP-354",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "BP-350A",
+                "penetration": 75,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 446,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 164,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1395,
+                "icon": "he",
+                "id": "_76mm_UOF-354K",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354K",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 558,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1396,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 60,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 67,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 612,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1396,
+                "icon": "hc",
+                "id": "_76mm_BP-354",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "BP-350A",
+                "penetration": 75,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 490,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1396,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 612,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1397,
+                "icon": "ap",
+                "id": "_57mm_UBR-271K",
+                "min_penetration": 98,
+                "module_damage": 76,
+                "name": "UBR-271K",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1397,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271N",
+                "min_penetration": 147,
+                "module_damage": 76,
+                "name": "UBR-271N",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1238,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1397,
+                "icon": "he",
+                "id": "_57mm_UO-271U",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271U",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 990,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-28",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-28",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedSuspension_candle_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.714107,
+        "turret_pos_z": 0.66577,
+        "turret_slots": [
+            {
+                "id": 561,
+                "pos_x": 0,
+                "pos_y": 0.714107,
+                "pos_z": 0.66577,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R06_T-28"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 20,
+                "armor_rear": 20,
+                "armor_side": 20,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.44668,
+                "gun_pos_z": 0.83599,
+                "health": 64,
+                "id": 716,
+                "identifier": "T-28_cylindrical",
+                "name": "T-28 cylindrical",
+                "not_in_shop": false,
+                "price": 0,
+                "rotation_speed": 46,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "R06_T-28",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Turret_01.model",
+                "weight": 2000
+            },
+            {
+                "Guns": null,
+                "armor_front": 25,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/russian/R06_T-28/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.44668,
+                "gun_pos_z": 0.83599,
+                "health": 94,
+                "id": 717,
+                "identifier": "T-28_conic",
+                "name": "T-28 conical",
+                "not_in_shop": false,
+                "price": 0,
+                "rotation_speed": 44,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "R06_T-28",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Turret_02.model",
+                "weight": 2500
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-T-28_A",
+                "name": "T-28_A",
+                "parent_key": "chassis-T-28_0",
+                "price": 1220,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-T-28_conic",
+                "name": "T-28_conic",
+                "parent_key": "turret-T-28_cylindrical",
+                "price": 1025,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_76mm_L-10",
+                "name": "_76mm_L-10",
+                "parent_key": "gun-_76mm_KT-28",
+                "price": 0,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_57mm_ZiS-8",
+                "name": "_57mm_ZiS-8",
+                "parent_key": "gun-_76mm_KT-28",
+                "price": 550,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_57mm_ZiS-4",
+                "name": "_57mm_ZiS-4",
+                "parent_key": "gun-_57mm_ZiS-8",
+                "price": 0,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_F-32",
+                "name": "_76mm_F-32",
+                "parent_key": "gun-_76mm_L-10",
+                "price": 500,
+                "type": "gun"
+            },
+            {
+                "key": "engine-M-17T",
+                "name": "M-17T",
+                "parent_key": "engine-M-5-400",
+                "price": 200,
+                "type": "engine"
+            },
+            {
+                "key": "engine-M-17F",
+                "name": "M-17F",
+                "parent_key": "engine-M-17T",
+                "price": 0,
+                "type": "engine"
+            },
+            {
+                "key": "vehicle-R80_KV1",
+                "name": "R80_KV1",
+                "parent_key": "engine-M-17F",
+                "price": 13500,
+                "tank_name": "KV-1",
+                "tank_price": 390000,
+                "tank_slug": "kv-1",
+                "tank_tier": 5,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-_10R",
+                "name": "_10R",
+                "parent_key": "radio-_71-TK-3",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v092014",
+        "visual_model": "vehicles/russian/R06_T-28/normal/lod0/Hull.model",
+        "weight": 7580,
+        "xp_factor": 1
+    }
+}

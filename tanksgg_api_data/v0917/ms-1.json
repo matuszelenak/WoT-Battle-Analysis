@@ -1,0 +1,708 @@
+{
+    "tank": {
+        "ammo_rack_health": 60,
+        "ammo_rack_repair_health": 40,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 8
+            }
+        ],
+        "armor_front": 16,
+        "armor_rear": 16,
+        "armor_side": 16,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.395,
+        "camo_moving": 0.198,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.2,
+        "camo_still": 0.263,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R11_MS-1/collision_client/Chassis.model",
+                "dispersion_movement": 0.38,
+                "dispersion_rotation": 0.38,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.904204,
+                "hull_pos_z": 0,
+                "id": 742,
+                "identifier": "T-18Bis",
+                "max_climb_angle": 25,
+                "max_load": 6500,
+                "name": "T-18",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 48,
+                "tank_id": "R11_MS-1",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 1,
+                "visual_model": "vehicles/russian/R11_MS-1/normal/lod0/Chassis.model",
+                "weight": 1200
+            }
+        ],
+        "collision_model": "vehicles/russian/R11_MS-1/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "The first Soviet mass-produced tank with a total of 959 vehicles manufactured from 1928 through 1931.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 30,
+                "id": 834,
+                "identifier": "GAZ-M1",
+                "name": "GAZ-M1",
+                "not_in_shop": true,
+                "power": 55,
+                "price": 0,
+                "repair_health": 20,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "R11_MS-1",
+                "tier": 1,
+                "weight": 215
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 32,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R11_MS-1/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.54,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 18
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 1305,
+                "identifier": "_37mm_Gochkins",
+                "max_ammo": 104,
+                "name": "37 mm Hotchkiss",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            5.5
+                        ],
+                        [
+                            0.583333,
+                            5.5
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.5,
+                "repair_health": 27,
+                "repair_price": 2,
+                "rotation_speed": 52.5,
+                "tier": 1,
+                "turret_id": 631,
+                "visual_model": "vehicles/russian/R11_MS-1/normal/lod0/Gun_05.model",
+                "weight": 104,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R11_MS-1/collision_client/Gun_09.model",
+                "depression": 8,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 18
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 68,
+                "id": 1306,
+                "identifier": "_45mm_mod_1932",
+                "max_ammo": 54,
+                "name": "45 mm mod. 1932",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            5.5
+                        ],
+                        [
+                            0.583333,
+                            5.5
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 2000,
+                "reload_time": 2.9,
+                "repair_health": 34,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 631,
+                "visual_model": "vehicles/russian/R11_MS-1/normal/lod0/Gun_09.model",
+                "weight": 240,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 80,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R11_MS-1",
+        "name": "MS-1",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 879,
+                "identifier": "_71-TK-1",
+                "name": "71-TK-1",
+                "not_in_shop": true,
+                "price": 0,
+                "range": 265,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R11_MS-1",
+                "tier": 1,
+                "weight": 50
+            }
+        ],
+        "repair_price": 0,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1305,
+                "icon": "ap",
+                "id": "_37mm_UBRT1",
+                "min_penetration": 27,
+                "module_damage": 50,
+                "name": "UBRT1",
+                "penetration": 34,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 442,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 1305,
+                "icon": "hc",
+                "id": "_37mm_BPT1",
+                "min_penetration": 44,
+                "module_damage": 50,
+                "name": "BPT1",
+                "penetration": 44,
+                "penetration_loss": 0.05,
+                "price": 400,
+                "range": 720,
+                "speed": 354,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1305,
+                "icon": "he",
+                "id": "_37mm_UOT1",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "UOT1",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 720,
+                "speed": 442,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1306,
+                "icon": "ap",
+                "id": "_45mm_UBR-240A",
+                "min_penetration": 36,
+                "module_damage": 61,
+                "name": "UBR-240A",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1306,
+                "icon": "ap_cr",
+                "id": "_45mm_UBR-240PA",
+                "min_penetration": 66,
+                "module_damage": 61,
+                "name": "UBR-240PA",
+                "penetration": 88,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 956,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 45,
+                "damage": 62,
+                "explosion_radius": 0.43,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1306,
+                "icon": "he",
+                "id": "_45mm_UOF-240A",
+                "min_penetration": 23,
+                "module_damage": 61,
+                "name": "UOF-240A",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "MS-1",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ms-1",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 1,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.515986,
+        "turret_pos_z": 0.050844,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 16,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/russian/R11_MS-1/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 8
+                    }
+                ],
+                "gun_pos_x": -0.007945,
+                "gun_pos_y": 0.228756,
+                "gun_pos_z": 0.551855,
+                "health": 20,
+                "id": 631,
+                "identifier": "T-18_mod",
+                "name": "MS-1 mod. 1930",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 35,
+                "rotator_health": 50,
+                "rotator_repair_health": 25,
+                "rotator_repair_price": 1,
+                "surveyor_health": 30,
+                "surveyor_repair_health": 15,
+                "surveyor_repair_price": 1,
+                "tank_id": "R11_MS-1",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/russian/R11_MS-1/normal/lod0/Turret_02.model",
+                "weight": 240
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "gun-_45mm_mod_1932",
+                "name": "_45mm_mod_1932",
+                "parent_key": "gun-_37mm_Gochkins",
+                "price": 40,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R10_AT-1",
+                "name": "R10_AT-1",
+                "parent_key": "gun-_45mm_mod_1932",
+                "price": 270,
+                "tank_name": "AT-1",
+                "tank_price": 3000,
+                "tank_slug": "at-1",
+                "tank_tier": 2,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-R42_T-60",
+                "name": "R42_T-60",
+                "parent_key": "gun-_45mm_mod_1932",
+                "price": 270,
+                "tank_name": "T-60",
+                "tank_price": 3300,
+                "tank_slug": "t-60",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-R08_BT-2",
+                "name": "R08_BT-2",
+                "parent_key": "gun-_45mm_mod_1932",
+                "price": 270,
+                "tank_name": "BT-2",
+                "tank_price": 3500,
+                "tank_slug": "bt-2",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-R09_T-26",
+                "name": "R09_T-26",
+                "parent_key": "gun-_45mm_mod_1932",
+                "price": 270,
+                "tank_name": "T-26",
+                "tank_price": 3700,
+                "tank_slug": "t-26",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-R16_SU-18",
+                "name": "R16_SU-18",
+                "parent_key": "gun-_45mm_mod_1932",
+                "price": 270,
+                "tank_name": "SU-18",
+                "tank_price": 3550,
+                "tank_slug": "su-18",
+                "tank_tier": 2,
+                "tank_type": "spg",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v0917",
+        "visual_model": "vehicles/russian/R11_MS-1/normal/lod0/Hull.model",
+        "weight": 2750,
+        "xp_factor": 1
+    }
+}

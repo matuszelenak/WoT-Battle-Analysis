@@ -1,0 +1,1490 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 17
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 28.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 88.9
+            }
+        ],
+        "armor_front": 76.2,
+        "armor_rear": 38.1,
+        "armor_side": 50.8,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.317,
+        "camo_moving": 0.159,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.211,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 39000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.21601,
+                "hull_pos_z": 0,
+                "id": 512,
+                "identifier": "Chassis_GB23_Centurion",
+                "max_climb_angle": 25,
+                "max_load": 43000,
+                "name": "Centurion Mk. I",
+                "not_in_shop": false,
+                "price": 20200,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 34,
+                "tank_id": "GB23_Centurion",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 7,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Chassis.model",
+                "weight": 10000
+            },
+            {
+                "armor": 20,
+                "brake_force": 48000,
+                "center_rotation": true,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.21601,
+                "hull_pos_z": 0,
+                "id": 513,
+                "identifier": "Chassis_GB23_Centurion_2",
+                "max_climb_angle": 25,
+                "max_load": 48000,
+                "name": "Centurion Mk. III",
+                "not_in_shop": false,
+                "price": 33000,
+                "repair_health": 150,
+                "repair_price": 5,
+                "rotation_speed": 36,
+                "tank_id": "GB23_Centurion",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.9,
+                "tier": 8,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/british/GB23_Centurion/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Development of the Centurion started in 1943. The vehicle was designed as a \"universal tank\" to replace existing infantry and cruiser tanks. The Centurion was the first British vehicle that featured sloped armor plates. The tank entered service in 1947. A total of 100 vehicles of this series were manufactured from 1945 through 1946.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 247,
+                "id": 559,
+                "identifier": "Rolls_Royse_Meteor",
+                "name": "Rolls-Royce Meteor",
+                "not_in_shop": false,
+                "power": 600,
+                "price": 14000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "GB23_Centurion",
+                "tier": 5,
+                "weight": 744
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 247,
+                "id": 560,
+                "identifier": "Rolls_Royse_Meteor_MkIV",
+                "name": "Rolls-Royce Meteor Mk. IVB",
+                "not_in_shop": false,
+                "power": 650,
+                "price": 16000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "GB23_Centurion",
+                "tier": 5,
+                "weight": 744
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 320,
+                "id": 561,
+                "identifier": "Rolls_Royse_Meteor_MkIVC",
+                "name": "Rolls-Royce Meteor Mk. IVC",
+                "not_in_shop": false,
+                "power": 750,
+                "price": 84000,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "GB23_Centurion",
+                "tier": 9,
+                "weight": 744
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 127
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 130,
+                "id": 857,
+                "identifier": "OQF_77mm_Gun_MkII",
+                "max_ammo": 96,
+                "name": "OQF 77 mm Gun Mk. II",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.380783,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            3
+                        ],
+                        [
+                            0.555556,
+                            3
+                        ],
+                        [
+                            0.619218,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 63000,
+                "reload_time": 4.2,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 7,
+                "turret_id": 436,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Gun_01.model",
+                "weight": 681,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 127
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 144,
+                "id": 858,
+                "identifier": "OQF_17pdr_Gun_Mk_VII",
+                "max_ammo": 73,
+                "name": "OQF 17-pdr Gun Mk. VII",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.380782,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            3
+                        ],
+                        [
+                            0.555556,
+                            3
+                        ],
+                        [
+                            0.619218,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            0.380782,
+                            -20
+                        ],
+                        [
+                            0.444444,
+                            -20
+                        ],
+                        [
+                            0.555556,
+                            -20
+                        ],
+                        [
+                            0.619218,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 70000,
+                "reload_time": 4.4,
+                "repair_health": 72,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 7,
+                "turret_id": 436,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Gun_02.model",
+                "weight": 826,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 130,
+                "id": 859,
+                "identifier": "OQF_77mm_Gun_MkII",
+                "max_ammo": 96,
+                "name": "OQF 77 mm Gun Mk. II",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.380782,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            2
+                        ],
+                        [
+                            0.555556,
+                            2
+                        ],
+                        [
+                            0.619218,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            0.380782,
+                            -18
+                        ],
+                        [
+                            0.444444,
+                            -18
+                        ],
+                        [
+                            0.555556,
+                            -18
+                        ],
+                        [
+                            0.619218,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 63000,
+                "reload_time": 4,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 7,
+                "turret_id": 437,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Gun_04.model",
+                "weight": 681,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 144,
+                "id": 860,
+                "identifier": "OQF_17pdr_Gun_Mk_VII",
+                "max_ammo": 73,
+                "name": "OQF 17-pdr Gun Mk. VII",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.380782,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            2
+                        ],
+                        [
+                            0.555556,
+                            2
+                        ],
+                        [
+                            0.619218,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            0.380782,
+                            -18
+                        ],
+                        [
+                            0.444444,
+                            -18
+                        ],
+                        [
+                            0.555556,
+                            -18
+                        ],
+                        [
+                            0.619218,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 70000,
+                "reload_time": 4.2,
+                "repair_health": 72,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 7,
+                "turret_id": 437,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Gun_05.model",
+                "weight": 826,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Gun_06.model",
+                "depression": 10,
+                "dispersion": 0.33,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.16,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 170,
+                "id": 861,
+                "identifier": "_20pdr_Gun_Type_A",
+                "max_ammo": 65,
+                "name": "OQF 20-pdr Gun Type A Barrel",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.380782,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            2
+                        ],
+                        [
+                            0.555556,
+                            2
+                        ],
+                        [
+                            0.619218,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            0.380782,
+                            -18
+                        ],
+                        [
+                            0.444444,
+                            -18
+                        ],
+                        [
+                            0.555556,
+                            -18
+                        ],
+                        [
+                            0.619218,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 120000,
+                "reload_time": 7.5,
+                "repair_health": 85,
+                "repair_price": 6,
+                "rotation_speed": 40.25,
+                "tier": 8,
+                "turret_id": 437,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Gun_06.model",
+                "weight": 1242,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1080,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB23_Centurion",
+        "name": "Centurion Mk. I",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 2350000,
+        "radios": [
+            {
+                "health": 140,
+                "id": 589,
+                "identifier": "N19Mk3",
+                "name": "WS No. 19 Mk. III",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "GB23_Centurion",
+                "tier": 8,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 590,
+                "identifier": "N22",
+                "name": "WS No. 22",
+                "not_in_shop": false,
+                "price": 25000,
+                "range": 700,
+                "repair_health": 84,
+                "repair_price": 3,
+                "tank_id": "GB23_Centurion",
+                "tier": 8,
+                "weight": 40
+            },
+            {
+                "health": 180,
+                "id": 591,
+                "identifier": "C42",
+                "name": "SR C42",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "GB23_Centurion",
+                "tier": 10,
+                "weight": 40
+            }
+        ],
+        "repair_price": 8.93,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76.2,
+                "damage": 140,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 857,
+                "icon": "ap",
+                "id": "_77mm_APCBC_Mk8T",
+                "min_penetration": 138,
+                "module_damage": 105,
+                "name": "APCBC 77 mm Mk. 8T",
+                "penetration": 148,
+                "penetration_loss": 0,
+                "price": 150,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 140,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 857,
+                "icon": "ap_cr",
+                "id": "_77mm_APDS_Mk1T",
+                "min_penetration": 187,
+                "module_damage": 105,
+                "name": "APDS 77 mm Mk. 1T",
+                "penetration": 208,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 981,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 190,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 857,
+                "icon": "he",
+                "id": "_77mm_HE_Mk1T",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE 77 mm Mk. 1T",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 75,
+                "range": 720,
+                "speed": 785,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 858,
+                "icon": "ap",
+                "id": "_17pdr_AP_Mk3T",
+                "min_penetration": 161,
+                "module_damage": 105,
+                "name": "APCBC 17-Pr. Mk. 9T",
+                "penetration": 171,
+                "penetration_loss": 0,
+                "price": 175,
+                "range": 720,
+                "speed": 884,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 858,
+                "icon": "ap_cr",
+                "id": "_17pdr_APC_Mk4T",
+                "min_penetration": 218,
+                "module_damage": 105,
+                "name": "APDS 17-Pr. Mk. 1T",
+                "penetration": 239,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1105,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 190,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 858,
+                "icon": "he",
+                "id": "_17pdr_HE_Mk1T",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE 17-Pr. Mk. 2T",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 75,
+                "range": 720,
+                "speed": 884,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 140,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 859,
+                "icon": "ap",
+                "id": "_77mm_APCBC_Mk8T",
+                "min_penetration": 138,
+                "module_damage": 105,
+                "name": "APCBC 77 mm Mk. 8T",
+                "penetration": 148,
+                "penetration_loss": 0,
+                "price": 150,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 140,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 859,
+                "icon": "ap_cr",
+                "id": "_77mm_APDS_Mk1T",
+                "min_penetration": 187,
+                "module_damage": 105,
+                "name": "APDS 77 mm Mk. 1T",
+                "penetration": 208,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 981,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 190,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 859,
+                "icon": "he",
+                "id": "_77mm_HE_Mk1T",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE 77 mm Mk. 1T",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 75,
+                "range": 720,
+                "speed": 785,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 860,
+                "icon": "ap",
+                "id": "_17pdr_AP_Mk3T",
+                "min_penetration": 161,
+                "module_damage": 105,
+                "name": "APCBC 17-Pr. Mk. 9T",
+                "penetration": 171,
+                "penetration_loss": 0,
+                "price": 175,
+                "range": 720,
+                "speed": 884,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 150,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 860,
+                "icon": "ap_cr",
+                "id": "_17pdr_APC_Mk4T",
+                "min_penetration": 218,
+                "module_damage": 105,
+                "name": "APDS 17-Pr. Mk. 1T",
+                "penetration": 239,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1105,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 190,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 860,
+                "icon": "he",
+                "id": "_17pdr_HE_Mk1T",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE 17-Pr. Mk. 2T",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 75,
+                "range": 720,
+                "speed": 884,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 83.4,
+                "damage": 230,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 861,
+                "icon": "ap",
+                "id": "_20pdr_AP_Mk1",
+                "min_penetration": 211,
+                "module_damage": 118,
+                "name": "AP Mk. 1",
+                "penetration": 226,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 1020,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 83.4,
+                "damage": 230,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 861,
+                "icon": "ap_cr",
+                "id": "_20pdr_APC_Mk2",
+                "min_penetration": 248,
+                "module_damage": 118,
+                "name": "APC Mk. 2",
+                "penetration": 258,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1275,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 83.4,
+                "damage": 280,
+                "explosion_radius": 1.28,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 861,
+                "icon": "he",
+                "id": "_20pdr_HE_Mk3",
+                "min_penetration": 42,
+                "module_damage": 118,
+                "name": "HE Mk. 3",
+                "penetration": 42,
+                "penetration_loss": 0,
+                "price": 170,
+                "range": 720,
+                "speed": 1020,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Centurion I",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "centurion-i",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedHorizontal_springs_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.428685,
+        "turret_pos_z": 0.38725,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 127,
+                "armor_rear": 76.2,
+                "armor_side": 76.2,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 101.6
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.487637,
+                "gun_pos_z": 0.935611,
+                "health": 270,
+                "id": 436,
+                "identifier": "Turret_1_GB23_Centurion",
+                "name": "Centurion Mk. I",
+                "not_in_shop": false,
+                "price": 20000,
+                "rotation_speed": 38,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 2,
+                "tank_id": "GB23_Centurion",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Turret_01.model",
+                "weight": 8400
+            },
+            {
+                "Guns": null,
+                "armor_front": 152.4,
+                "armor_rear": 88.9,
+                "armor_side": 88.9,
+                "collision_model": "vehicles/british/GB23_Centurion/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 120.7
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.4347,
+                "gun_pos_z": 1.03105,
+                "health": 370,
+                "id": 437,
+                "identifier": "Turret_2_GB23_Centurion",
+                "name": "Centurion Mk. III",
+                "not_in_shop": false,
+                "price": 42000,
+                "rotation_speed": 36,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 2,
+                "tank_id": "GB23_Centurion",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Turret_02.model",
+                "weight": 10400
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB23_Centurion_2",
+                "name": "Chassis_GB23_Centurion_2",
+                "parent_key": "chassis-Chassis_GB23_Centurion",
+                "price": 16000,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_GB23_Centurion",
+                "name": "Turret_2_GB23_Centurion",
+                "parent_key": "turret-Turret_1_GB23_Centurion",
+                "price": 16000,
+                "type": "turret"
+            },
+            {
+                "key": "gun-OQF_17pdr_Gun_Mk_VII",
+                "name": "OQF_17pdr_Gun_Mk_VII",
+                "parent_key": "gun-OQF_77mm_Gun_MkII",
+                "price": 15000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_20pdr_Gun_Type_A",
+                "name": "_20pdr_Gun_Type_A",
+                "parent_key": "turret-Turret_2_GB23_Centurion",
+                "price": 16400,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB24_Centurion_Mk3",
+                "name": "GB24_Centurion_Mk3",
+                "parent_key": "gun-_20pdr_Gun_Type_A",
+                "price": 165000,
+                "tank_name": "Centurion 7/1",
+                "tank_price": 3515000,
+                "tank_slug": "centurion-71",
+                "tank_tier": 9,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Rolls_Royse_Meteor_MkIV",
+                "name": "Rolls_Royse_Meteor_MkIV",
+                "parent_key": "engine-Rolls_Royse_Meteor",
+                "price": 1900,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Rolls_Royse_Meteor_MkIVC",
+                "name": "Rolls_Royse_Meteor_MkIVC",
+                "parent_key": "engine-Rolls_Royse_Meteor_MkIV",
+                "price": 31000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N22",
+                "name": "N22",
+                "parent_key": "radio-N19Mk3",
+                "price": 4500,
+                "type": "radio"
+            },
+            {
+                "key": "radio-C42",
+                "name": "C42",
+                "parent_key": "radio-N22",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/british/GB23_Centurion/normal/lod0/Hull.model",
+        "weight": 22190,
+        "xp_factor": 1
+    }
+}

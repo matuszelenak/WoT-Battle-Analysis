@@ -1,0 +1,1833 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 152.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 139.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 95.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 57.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 82.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 95.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 115.3
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 95.3
+            }
+        ],
+        "armor_front": 152.4,
+        "armor_rear": 50.8,
+        "armor_side": 95.3,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.197,
+        "camo_moving": 0.065,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.131,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 36000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.26197,
+                "hull_pos_z": 0,
+                "id": 637,
+                "identifier": "Chassis_GB09_Churchill_VII",
+                "max_climb_angle": 25,
+                "max_load": 40150,
+                "name": "Churchill IV",
+                "not_in_shop": false,
+                "price": 8600,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 18,
+                "tank_id": "GB09_Churchill_VII",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.5,
+                "tier": 5,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Chassis.model",
+                "weight": 8150
+            },
+            {
+                "armor": 20,
+                "brake_force": 39000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.26197,
+                "hull_pos_z": 0,
+                "id": 638,
+                "identifier": "Chassis_GB09_Churchill_VII_2",
+                "max_climb_angle": 25,
+                "max_load": 43000,
+                "name": "Churchill VII",
+                "not_in_shop": false,
+                "price": 18000,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 20,
+                "tank_id": "GB09_Churchill_VII",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 6,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Chassis.model",
+                "weight": 8150
+            }
+        ],
+        "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A modification of the A22 with enhanced armor. First vehicles of this type were produced just before the Allied landing in Normandy. This model was also the basis for the Churchill Crocodile flame-throwing tank.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 82,
+                "id": 700,
+                "identifier": "Meadows_DAV",
+                "name": "Meadows D.A.V.",
+                "not_in_shop": false,
+                "power": 300,
+                "price": 9000,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "GB09_Churchill_VII",
+                "tier": 4,
+                "weight": 724
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 701,
+                "identifier": "Vauxhall_Bedford_Twin_Six",
+                "name": "Bedford Twin-Six",
+                "not_in_shop": false,
+                "power": 350,
+                "price": 11000,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB09_Churchill_VII",
+                "tier": 4,
+                "weight": 1531
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 20,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 104,
+                "id": 1063,
+                "identifier": "QF_6_pounder_Mk_V",
+                "max_ammo": 84,
+                "name": "QF 6-pdr Gun Mk. V",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.325226,
+                            7
+                        ],
+                        [
+                            0.388888,
+                            4
+                        ],
+                        [
+                            0.611112,
+                            4
+                        ],
+                        [
+                            0.674774,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 35000,
+                "reload_time": 2.2,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 539,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_01.model",
+                "weight": 450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_02.model",
+                "depression": 3,
+                "dispersion": 0.51,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 140,
+                "id": 1064,
+                "identifier": "_3.7inch_Howitzer",
+                "max_ammo": 50,
+                "name": "3.7-inch Howitzer",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 35000,
+                "reload_time": 7,
+                "repair_health": 70,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 539,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_02.model",
+                "weight": 393,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_03.model",
+                "depression": 4,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 120,
+                "id": 1065,
+                "identifier": "_75mm_Gun_Mk_V",
+                "max_ammo": 84,
+                "name": "75 mm Gun Mk. V",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            0.325226,
+                            4
+                        ],
+                        [
+                            0.388888,
+                            3
+                        ],
+                        [
+                            0.611112,
+                            3
+                        ],
+                        [
+                            0.674774,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 45000,
+                "reload_time": 3,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 5,
+                "turret_id": 539,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_03.model",
+                "weight": 500,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_04.model",
+                "depression": 4,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1066,
+                "identifier": "_75mm_Gun_Vickers_HV",
+                "max_ammo": 84,
+                "name": "75 mm Vickers HV",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            0.325226,
+                            4
+                        ],
+                        [
+                            0.388888,
+                            3
+                        ],
+                        [
+                            0.611112,
+                            3
+                        ],
+                        [
+                            0.674774,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 50000,
+                "reload_time": 4.8,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 539,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_04.model",
+                "weight": 591,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_05.model",
+                "depression": 12.5,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 104,
+                "id": 1067,
+                "identifier": "QF_6_pounder_Mk_V",
+                "max_ammo": 84,
+                "name": "QF 6-pdr Gun Mk. V",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.077778,
+                            5
+                        ],
+                        [
+                            0.14144,
+                            12.5
+                        ],
+                        [
+                            0.325226,
+                            12.5
+                        ],
+                        [
+                            0.388888,
+                            3
+                        ],
+                        [
+                            0.611112,
+                            3
+                        ],
+                        [
+                            0.674774,
+                            12.5
+                        ],
+                        [
+                            0.85856,
+                            12.5
+                        ],
+                        [
+                            0.922222,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 35000,
+                "reload_time": 2.2,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 540,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_05.model",
+                "weight": 450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_06.model",
+                "depression": 3,
+                "dispersion": 0.51,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 140,
+                "id": 1068,
+                "identifier": "_3.7inch_Howitzer",
+                "max_ammo": 50,
+                "name": "3.7-inch Howitzer",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 35000,
+                "reload_time": 7,
+                "repair_health": 70,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 540,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_06.model",
+                "weight": 393,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_07.model",
+                "depression": 12.5,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 120,
+                "id": 1069,
+                "identifier": "_75mm_Gun_Mk_V",
+                "max_ammo": 84,
+                "name": "75 mm Gun Mk. V",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            0.083333,
+                            4
+                        ],
+                        [
+                            0.146996,
+                            12.5
+                        ],
+                        [
+                            0.325226,
+                            12.5
+                        ],
+                        [
+                            0.388888,
+                            2
+                        ],
+                        [
+                            0.611112,
+                            2
+                        ],
+                        [
+                            0.674774,
+                            12.5
+                        ],
+                        [
+                            0.853004,
+                            12.5
+                        ],
+                        [
+                            0.916666,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 45000,
+                "reload_time": 3,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 5,
+                "turret_id": 540,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_07.model",
+                "weight": 500,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_08.model",
+                "depression": 4,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1070,
+                "identifier": "_75mm_Gun_Vickers_HV",
+                "max_ammo": 84,
+                "name": "75 mm Vickers HV",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            0.325226,
+                            4
+                        ],
+                        [
+                            0.388888,
+                            2
+                        ],
+                        [
+                            0.611112,
+                            2
+                        ],
+                        [
+                            0.674774,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 50000,
+                "reload_time": 4.3,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 540,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_08.model",
+                "weight": 591,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Gun_09.model",
+                "depression": 4,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 130,
+                "id": 1071,
+                "identifier": "OQF_77mm_Gun_MkII",
+                "max_ammo": 84,
+                "name": "OQF 77 mm Gun Mk. II",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            0.325226,
+                            4
+                        ],
+                        [
+                            0.388888,
+                            2
+                        ],
+                        [
+                            0.611112,
+                            2
+                        ],
+                        [
+                            0.674774,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 63000,
+                "reload_time": 4.3,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 7,
+                "turret_id": 540,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Gun_09.model",
+                "weight": 681,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 688,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB09_Churchill_VII",
+        "name": "Churchill VII",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 900000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 751,
+                "identifier": "N19Mk1",
+                "name": "WS No. 19 Mk. I",
+                "not_in_shop": false,
+                "price": 15000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "GB09_Churchill_VII",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 752,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB09_Churchill_VII",
+                "tier": 7,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 753,
+                "identifier": "N19Mk3",
+                "name": "WS No. 19 Mk. III",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "GB09_Churchill_VII",
+                "tier": 8,
+                "weight": 40
+            }
+        ],
+        "repair_price": 6.5,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1063,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 95,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 892,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1063,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1115,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1063,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 892,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 94,
+                "damage": 370,
+                "explosion_radius": 1.58,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1064,
+                "icon": "he",
+                "id": "_3.7inch_HE_Mk3",
+                "min_penetration": 47,
+                "module_damage": 130,
+                "name": "HE Mk. 3",
+                "penetration": 47,
+                "penetration_loss": 0,
+                "price": 156,
+                "range": 720,
+                "speed": 243,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 94,
+                "damage": 280,
+                "explosion_radius": 0,
+                "gold_price": 14,
+                "gravity": 9.81,
+                "gun_id": 1064,
+                "icon": "hc",
+                "id": "_3.7inch_HEAT_Mk1",
+                "min_penetration": 110,
+                "module_damage": 130,
+                "name": "HEAT Mk. 1",
+                "penetration": 110,
+                "penetration_loss": 0.05,
+                "price": 5600,
+                "range": 720,
+                "speed": 243,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1065,
+                "icon": "ap",
+                "id": "_75mm_AP_Mk1",
+                "min_penetration": 79,
+                "module_damage": 100,
+                "name": "AP Mk. 1",
+                "penetration": 91,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1065,
+                "icon": "ap_cr",
+                "id": "_75mm_APCR_Mk3",
+                "min_penetration": 119,
+                "module_damage": 100,
+                "name": "APCR Mk. 3",
+                "penetration": 144,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 774,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1065,
+                "icon": "he",
+                "id": "_75mm_HE_Mk2",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE Mk. 2",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1066,
+                "icon": "ap",
+                "id": "_75mm_AP_HV_Mk1",
+                "min_penetration": 135,
+                "module_damage": 100,
+                "name": "AP HV Mk. 1",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 100,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1066,
+                "icon": "ap_cr",
+                "id": "_75mm_APCR_HV_Mk3",
+                "min_penetration": 181,
+                "module_damage": 100,
+                "name": "APCR HV Mk. 3",
+                "penetration": 202,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 981,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1066,
+                "icon": "he",
+                "id": "_75mm_HE_HV_Mk2",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE HV Mk. 2",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 785,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1067,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 95,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 892,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1067,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1115,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1067,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 892,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 94,
+                "damage": 370,
+                "explosion_radius": 1.58,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1068,
+                "icon": "he",
+                "id": "_3.7inch_HE_Mk3",
+                "min_penetration": 47,
+                "module_damage": 130,
+                "name": "HE Mk. 3",
+                "penetration": 47,
+                "penetration_loss": 0,
+                "price": 156,
+                "range": 720,
+                "speed": 243,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 94,
+                "damage": 280,
+                "explosion_radius": 0,
+                "gold_price": 14,
+                "gravity": 9.81,
+                "gun_id": 1068,
+                "icon": "hc",
+                "id": "_3.7inch_HEAT_Mk1",
+                "min_penetration": 110,
+                "module_damage": 130,
+                "name": "HEAT Mk. 1",
+                "penetration": 110,
+                "penetration_loss": 0.05,
+                "price": 5600,
+                "range": 720,
+                "speed": 243,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1069,
+                "icon": "ap",
+                "id": "_75mm_AP_Mk1",
+                "min_penetration": 79,
+                "module_damage": 100,
+                "name": "AP Mk. 1",
+                "penetration": 91,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1069,
+                "icon": "ap_cr",
+                "id": "_75mm_APCR_Mk3",
+                "min_penetration": 119,
+                "module_damage": 100,
+                "name": "APCR Mk. 3",
+                "penetration": 144,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 774,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1069,
+                "icon": "he",
+                "id": "_75mm_HE_Mk2",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE Mk. 2",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 619,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1070,
+                "icon": "ap",
+                "id": "_75mm_AP_HV_Mk1",
+                "min_penetration": 135,
+                "module_damage": 100,
+                "name": "AP HV Mk. 1",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 100,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1070,
+                "icon": "ap_cr",
+                "id": "_75mm_APCR_HV_Mk3",
+                "min_penetration": 181,
+                "module_damage": 100,
+                "name": "APCR HV Mk. 3",
+                "penetration": 202,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 981,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1070,
+                "icon": "he",
+                "id": "_75mm_HE_HV_Mk2",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE HV Mk. 2",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 785,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 140,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1071,
+                "icon": "ap",
+                "id": "_77mm_APCBC_Mk8T",
+                "min_penetration": 138,
+                "module_damage": 105,
+                "name": "APCBC 77 mm Mk. 8T",
+                "penetration": 148,
+                "penetration_loss": 0,
+                "price": 150,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 140,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1071,
+                "icon": "ap_cr",
+                "id": "_77mm_APDS_Mk1T",
+                "min_penetration": 187,
+                "module_damage": 105,
+                "name": "APDS 77 mm Mk. 1T",
+                "penetration": 208,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 981,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76.2,
+                "damage": 190,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1071,
+                "icon": "he",
+                "id": "_77mm_HE_Mk1T",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE 77 mm Mk. 1T",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 75,
+                "range": 720,
+                "speed": 785,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Churchill VII",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "churchill-vii",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_class3_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.286228,
+        "turret_pos_z": 0.132,
+        "turret_slots": [
+            {
+                "id": 420,
+                "pos_x": 0,
+                "pos_y": 0.286228,
+                "pos_z": 0.132,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "GB09_Churchill_VII"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 88.9,
+                "armor_rear": 76.2,
+                "armor_side": 76.2,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 34.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 82.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 34.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 34.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 34.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 44.5
+                    }
+                ],
+                "gun_pos_x": -0.09783,
+                "gun_pos_y": 0.38214,
+                "gun_pos_z": 0.85253,
+                "health": 172,
+                "id": 539,
+                "identifier": "Turret_1_GB09_Churchill_VII",
+                "name": "Churchill IV",
+                "not_in_shop": false,
+                "price": 8350,
+                "rotation_speed": 30,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB09_Churchill_VII",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Turret_01.model",
+                "weight": 7500
+            },
+            {
+                "Guns": null,
+                "armor_front": 152.4,
+                "armor_rear": 95.3,
+                "armor_side": 95.3,
+                "collision_model": "vehicles/british/GB09_Churchill_VII/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 95.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 95.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 123.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 69.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 95.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 115.3
+                    }
+                ],
+                "gun_pos_x": -0.097831,
+                "gun_pos_y": 0.382141,
+                "gun_pos_z": 0.852526,
+                "health": 272,
+                "id": 540,
+                "identifier": "Turret_2_GB09_Churchill_VII",
+                "name": "Churchill VII",
+                "not_in_shop": false,
+                "price": 17000,
+                "rotation_speed": 30,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB09_Churchill_VII",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Turret_02.model",
+                "weight": 8000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB09_Churchill_VII_2",
+                "name": "Chassis_GB09_Churchill_VII_2",
+                "parent_key": "chassis-Chassis_GB09_Churchill_VII",
+                "price": 4900,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_GB09_Churchill_VII",
+                "name": "Turret_2_GB09_Churchill_VII",
+                "parent_key": "gun-QF_6_pounder_Mk_V",
+                "price": 3900,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_3.7inch_Howitzer",
+                "name": "_3.7inch_Howitzer",
+                "parent_key": "gun-QF_6_pounder_Mk_V",
+                "price": 2300,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_75mm_Gun_Mk_V",
+                "name": "_75mm_Gun_Mk_V",
+                "parent_key": "gun-QF_6_pounder_Mk_V",
+                "price": 4000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_75mm_Gun_Vickers_HV",
+                "name": "_75mm_Gun_Vickers_HV",
+                "parent_key": "gun-_75mm_Gun_Mk_V",
+                "price": 5000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-OQF_77mm_Gun_MkII",
+                "name": "OQF_77mm_Gun_MkII",
+                "parent_key": "turret-Turret_2_GB09_Churchill_VII",
+                "price": 14500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB10_Black_Prince",
+                "name": "GB10_Black_Prince",
+                "parent_key": "gun-OQF_77mm_Gun_MkII",
+                "price": 54000,
+                "tank_name": "Black Prince",
+                "tank_price": 1400000,
+                "tank_slug": "black-prince",
+                "tank_tier": 7,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Vauxhall_Bedford_Twin_Six",
+                "name": "Vauxhall_Bedford_Twin_Six",
+                "parent_key": "engine-Meadows_DAV",
+                "price": 850,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N19Mk2",
+                "name": "N19Mk2",
+                "parent_key": "radio-N19Mk1",
+                "price": 3600,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk3",
+                "name": "N19Mk3",
+                "parent_key": "radio-N19Mk2",
+                "price": 4000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0921ct",
+        "visual_model": "vehicles/british/GB09_Churchill_VII/normal/lod0/Hull.model",
+        "weight": 22050,
+        "xp_factor": 1
+    }
+}

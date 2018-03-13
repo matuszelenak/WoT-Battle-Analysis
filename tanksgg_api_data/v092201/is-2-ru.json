@@ -1,0 +1,560 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 60,
+        "armor_side": 90,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.209,
+        "camo_moving": 0.07,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.139,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 34500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R71_IS_2_Berlin/collision_client/Chassis.model",
+                "dispersion_movement": 0.23,
+                "dispersion_rotation": 0.23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 190,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.972175,
+                "hull_pos_z": 0,
+                "id": 862,
+                "identifier": "Chassis_R71_IS_2B",
+                "max_climb_angle": 25,
+                "max_load": 48400,
+                "name": "IS-2M",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 145,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "R71_IS_2B",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.2,
+                "tier": 7,
+                "visual_model": "vehicles/russian/R71_IS_2_Berlin/normal/lod0/Chassis.model",
+                "weight": 11500
+            }
+        ],
+        "collision_model": "vehicles/russian/R71_IS_2_Berlin/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Built in 1944, the IS-2 (IS-122) heavy tank was a modification of the IS-1. It featured a simple cast glacis plate. Elite Soviet Guards heavy tank regiments used the IS-2 extensively in the assaults on the fortress cities of Budapest, Breslau, and Berlin. These vehicles featured thick white stripes for quick identification by other Soviet tank crews. This vehicle, a tank of the 7th Guards Independent Heavy Tank Brigade, was made famous in a photo taken in front of the iconic Brandenburg Gate in the heart of Berlin.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 190,
+                "id": 950,
+                "identifier": "V-2IS_B",
+                "name": "V-2IS",
+                "not_in_shop": true,
+                "power": 600,
+                "price": 36000,
+                "repair_health": 95,
+                "repair_price": 7,
+                "tags": "diesel",
+                "tank_id": "R71_IS_2B",
+                "tier": 7,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 34,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 5250,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R71_IS_2_Berlin/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 192,
+                "id": 1426,
+                "identifier": "_122-mm_D-25T_with_wedges_shutter_B",
+                "max_ammo": 28,
+                "name": "122 mm D-25T",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.366894,
+                            6
+                        ],
+                        [
+                            0.430556,
+                            2
+                        ],
+                        [
+                            0.569444,
+                            2
+                        ],
+                        [
+                            0.633106,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 125140,
+                "reload_time": 12.3,
+                "repair_health": 96,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 736,
+                "visual_model": "vehicles/russian/R71_IS_2_Berlin/normal/lod0/Gun_01.model",
+                "weight": 2590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1024,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R71_IS_2B",
+        "name": "IS-2",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 997,
+                "identifier": "_10RKM",
+                "name": "10RKM",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R71_IS_2B",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1426,
+                "icon": "ap",
+                "id": "_122mm_UBR-471",
+                "min_penetration": 152,
+                "module_damage": 165,
+                "name": "UBR-471",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 1025,
+                "range": 720,
+                "speed": 780,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1426,
+                "icon": "ap_cr",
+                "id": "_122mm_UBR-471P",
+                "min_penetration": 204,
+                "module_damage": 165,
+                "name": "BR-471D",
+                "penetration": 217,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 975,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1426,
+                "icon": "he",
+                "id": "_122mm_UOF-471",
+                "min_penetration": 61,
+                "module_damage": 165,
+                "name": "UOF-471",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 720,
+                "speed": 780,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "IS-2",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "is-2-ru",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.546021,
+        "turret_pos_z": 0.627803,
+        "turret_slots": [
+            {
+                "id": 577,
+                "pos_x": 0,
+                "pos_y": 0.546021,
+                "pos_z": 0.627803,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R71_IS_2B"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 100,
+                "armor_rear": 90,
+                "armor_side": 90,
+                "collision_model": "vehicles/russian/R71_IS_2_Berlin/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.002338,
+                "gun_pos_y": 0.474646,
+                "gun_pos_z": 1.3079,
+                "health": 256,
+                "id": 736,
+                "identifier": "Turret_1_R71_IS_2B",
+                "name": "IS-122",
+                "not_in_shop": true,
+                "price": 20000,
+                "rotation_speed": 28,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "R71_IS_2B",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/russian/R71_IS_2_Berlin/normal/lod0/Turret_01.model",
+                "weight": 7500
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v092201",
+        "visual_model": "vehicles/russian/R71_IS_2_Berlin/normal/lod0/Hull.model",
+        "weight": 23550,
+        "xp_factor": 1.5
+    }
+}

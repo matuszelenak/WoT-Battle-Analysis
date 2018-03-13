@@ -1,0 +1,919 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 25
+            }
+        ],
+        "armor_front": 60,
+        "armor_rear": 30,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.444,
+        "camo_moving": 0.222,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.296,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F18_Bat_Chatillon25t/collision_client/Chassis.model",
+                "dispersion_movement": 0.17,
+                "dispersion_rotation": 0.17,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.763199,
+                "hull_pos_z": 0,
+                "id": 148,
+                "identifier": "Chassis_Bat_Chatillon25t_2",
+                "max_climb_angle": 25,
+                "max_load": 28000,
+                "name": "Batignolles-Ch\u00e2tillon 25 t",
+                "not_in_shop": false,
+                "price": 68200,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "F18_Bat_Chatillon25t",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.6,
+                "tier": 10,
+                "visual_model": "vehicles/french/F18_Bat_Chatillon25t/normal/lod0/Chassis.model",
+                "weight": 4100
+            }
+        ],
+        "collision_model": "vehicles/french/F18_Bat_Chatillon25t/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "This experimental tank was a further development of the AMX 13. The tank underwent trials but never entered mass production nor saw service. Two vehicles were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 166,
+                "identifier": "Hispano-Suiza_HS110",
+                "name": "Hispano-Suiza HS 110",
+                "not_in_shop": true,
+                "power": 720,
+                "price": 94250,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "F18_Bat_Chatillon25t",
+                "tier": 10,
+                "weight": 1426
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 65,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2.22222,
+                "clip_size": 6,
+                "collision_model": "vehicles/french/F18_Bat_Chatillon25t/collision_client/Gun_02.model",
+                "depression": 6,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 11,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 160,
+                "id": 273,
+                "identifier": "_90mm_F3",
+                "max_ammo": 36,
+                "name": "90 mm F3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -11
+                        ],
+                        [
+                            0.269671,
+                            -11
+                        ],
+                        [
+                            0.333333,
+                            -8
+                        ],
+                        [
+                            0.666667,
+                            -8
+                        ],
+                        [
+                            0.730329,
+                            -11
+                        ],
+                        [
+                            1,
+                            -11
+                        ]
+                    ]
+                },
+                "price": 87000,
+                "reload_time": 24,
+                "repair_health": 80,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 128,
+                "visual_model": "vehicles/french/F18_Bat_Chatillon25t/normal/lod0/Gun_02.model",
+                "weight": 2200,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2.72727,
+                "clip_size": 6,
+                "collision_model": "vehicles/french/F18_Bat_Chatillon25t/collision_client/Gun_04.model",
+                "depression": 6,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 11,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 190,
+                "id": 274,
+                "identifier": "_100mm_SA_47",
+                "max_ammo": 30,
+                "name": "100 mm SA47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -11
+                        ],
+                        [
+                            0.269671,
+                            -11
+                        ],
+                        [
+                            0.333333,
+                            -8
+                        ],
+                        [
+                            0.666667,
+                            -8
+                        ],
+                        [
+                            0.730329,
+                            -11
+                        ],
+                        [
+                            1,
+                            -11
+                        ]
+                    ]
+                },
+                "price": 127550,
+                "reload_time": 36,
+                "repair_health": 95,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 128,
+                "visual_model": "vehicles/french/F18_Bat_Chatillon25t/normal/lod0/Gun_04.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2.72727,
+                "clip_size": 5,
+                "collision_model": "vehicles/french/F18_Bat_Chatillon25t/collision_client/Gun_05.model",
+                "depression": 6,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 11,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 208,
+                "id": 275,
+                "identifier": "_105mm_CN_105_57",
+                "max_ammo": 30,
+                "name": "105 mm mle. 57 (D. 1504)",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -11
+                        ],
+                        [
+                            0.269671,
+                            -11
+                        ],
+                        [
+                            0.333333,
+                            -8
+                        ],
+                        [
+                            0.666667,
+                            -8
+                        ],
+                        [
+                            0.730329,
+                            -11
+                        ],
+                        [
+                            1,
+                            -11
+                        ]
+                    ]
+                },
+                "price": 325000,
+                "reload_time": 40,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 10,
+                "turret_id": 128,
+                "visual_model": "vehicles/french/F18_Bat_Chatillon25t/normal/lod0/Gun_05.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1440,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F18_Bat_Chatillon25t",
+        "name": "Bat.-Ch\u00e2tillon 25 t",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 158,
+                "identifier": "SCR_528",
+                "name": "SCR 528F",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F18_Bat_Chatillon25t",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 13.072,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 273,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 145,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 273,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 224,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1163,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 273,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 274,
+                "icon": "ap",
+                "id": "_100mm_Prf1940",
+                "min_penetration": 205,
+                "module_damage": 135,
+                "name": "Prf. mle. 1940",
+                "penetration": 232,
+                "penetration_loss": 0,
+                "price": 1030,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 274,
+                "icon": "ap_cr",
+                "id": "_100mm_FrtPrf1945",
+                "min_penetration": 253,
+                "module_damage": 135,
+                "name": "Frt.Prf. mle. 1945",
+                "penetration": 263,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 400,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 274,
+                "icon": "he",
+                "id": "_100mm_OE_mle_1930",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "OE mle. 1930",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 275,
+                "icon": "ap_cr",
+                "id": "_105mm_APCR_OFL_E1",
+                "min_penetration": 249,
+                "module_damage": 150,
+                "name": "OFL-105-57",
+                "penetration": 259,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 1460,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 275,
+                "icon": "hc",
+                "id": "_105mm_HEAT_OCC_F1",
+                "min_penetration": 330,
+                "module_damage": 150,
+                "name": "OCC-105-57",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 800,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 275,
+                "icon": "he",
+                "id": "_105mm_HE_OE_F1",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "OE-105-57",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "B-C 25 t",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "b-c-25-t",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.641886,
+        "turret_pos_z": -0.486852,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 50,
+                "armor_rear": 15,
+                "armor_side": 30,
+                "collision_model": "vehicles/french/F18_Bat_Chatillon25t/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 15
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.461964,
+                "gun_pos_z": 0.02317,
+                "health": 360,
+                "id": 128,
+                "identifier": "Turret_1_Bat_Chatillon25t",
+                "name": "Batignolles-Ch\u00e2tillon 25 t",
+                "not_in_shop": true,
+                "price": 37000,
+                "rotation_speed": 38,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "F18_Bat_Chatillon25t",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/french/F18_Bat_Chatillon25t/normal/lod0/Turret_01.model",
+                "weight": 5700
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "gun-_100mm_SA_47",
+                "name": "_100mm_SA_47",
+                "parent_key": "gun-_90mm_F3",
+                "price": 34500,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_105mm_CN_105_57",
+                "name": "_105mm_CN_105_57",
+                "parent_key": "gun-_100mm_SA_47",
+                "price": 45000,
+                "type": "gun"
+            }
+        ],
+        "version": "v09171ct",
+        "visual_model": "vehicles/french/F18_Bat_Chatillon25t/normal/lod0/Hull.model",
+        "weight": 10674,
+        "xp_factor": 1
+    }
+}

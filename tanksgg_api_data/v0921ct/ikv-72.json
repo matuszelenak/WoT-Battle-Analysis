@@ -1,0 +1,681 @@
+{
+    "tank": {
+        "ammo_rack_health": 90,
+        "ammo_rack_repair_health": 60,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 18.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 18.5,
+        "armor_rear": 12,
+        "armor_side": 7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.726,
+        "camo_moving": 0.29,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.484,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 8000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S20_Ikv_72/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.743207,
+                "hull_pos_z": 0,
+                "id": 487,
+                "identifier": "Chassis_S20_Ikv_72",
+                "max_climb_angle": 25,
+                "max_load": 8000,
+                "name": "Tk fm/49",
+                "not_in_shop": false,
+                "price": 560,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "S20_Ikv_72",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/sweden/S20_Ikv_72/normal/lod0/Chassis.model",
+                "weight": 2500
+            },
+            {
+                "armor": 5,
+                "brake_force": 8000,
+                "center_rotation": true,
+                "collision_model": "vehicles/sweden/S20_Ikv_72/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.743207,
+                "hull_pos_z": 0,
+                "id": 488,
+                "identifier": "Chassis_S20_Ikv_72_2",
+                "max_climb_angle": 25,
+                "max_load": 10000,
+                "name": "Ikv 72",
+                "not_in_shop": false,
+                "price": 2080,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "S20_Ikv_72",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 3,
+                "visual_model": "vehicles/sweden/S20_Ikv_72/normal/lod0/Chassis.model",
+                "weight": 2500
+            }
+        ],
+        "collision_model": "vehicles/sweden/S20_Ikv_72/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "After World War II, Sweden experienced an acute need for lightly armored vehicles that would provide fire support to the infantry. The Ikv 72 infantry artillery vehicle was created by Landsverk to fill a need. A total of 36 vehicles entered service before 1954. In 1956\u20131958, the vehicles were re-equipped with a more powerful 105-mm gun and remained in service until the mid-70s designated Ikv 102.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 55,
+                "id": 533,
+                "identifier": "Volvo_FE",
+                "name": "Volvo FE",
+                "not_in_shop": false,
+                "power": 105,
+                "price": 2300,
+                "repair_health": 27,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "S20_Ikv_72",
+                "tier": 3,
+                "weight": 500
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 534,
+                "identifier": "Ford_ENN",
+                "name": "Ford ENN",
+                "not_in_shop": false,
+                "power": 145,
+                "price": 4850,
+                "repair_health": 39,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "S20_Ikv_72",
+                "tier": 3,
+                "weight": 500
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 57,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S20_Ikv_72/collision_client/Gun_01.model",
+                "depression": 12,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 18.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 100,
+                "id": 809,
+                "identifier": "_75mm_kan_m_41_ikv",
+                "max_ammo": 42,
+                "name": "7,5 cm kan m/41 ikv",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 17000,
+                "reload_time": 5,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tier": 4,
+                "turret_id": 414,
+                "visual_model": "vehicles/sweden/S20_Ikv_72/normal/lod0/Gun_01.model",
+                "weight": 575,
+                "yaw_left": -10,
+                "yaw_right": 10
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/sweden/S20_Ikv_72/collision_client/Gun_02.model",
+                "depression": 12,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 18.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 100,
+                "id": 810,
+                "identifier": "_75mm_kan_m_41_ikv_L_50",
+                "max_ammo": 42,
+                "name": "7,5 cm kan m/41 ikv L/50",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 24600,
+                "reload_time": 4.8,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 4,
+                "turret_id": 414,
+                "visual_model": "vehicles/sweden/S20_Ikv_72/normal/lod0/Gun_02.model",
+                "weight": 750,
+                "yaw_left": -10,
+                "yaw_right": 10
+            }
+        ],
+        "health": 120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "S20_Ikv_72",
+        "name": "Ikv 72",
+        "nation": "sweden",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 40800,
+        "radios": [
+            {
+                "health": 100,
+                "id": 556,
+                "identifier": "_25_W_Sv_1_m_39",
+                "name": "25 W Sv/1 m/39",
+                "not_in_shop": false,
+                "price": 180,
+                "range": 290,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "S20_Ikv_72",
+                "tier": 2,
+                "weight": 34
+            },
+            {
+                "health": 100,
+                "id": 557,
+                "identifier": "_25_W_Sv_1_m_39_42",
+                "name": "25 W Sv/1 m/39-42",
+                "not_in_shop": false,
+                "price": 2200,
+                "range": 345,
+                "repair_health": 60,
+                "repair_price": 1,
+                "tank_id": "S20_Ikv_72",
+                "tier": 4,
+                "weight": 34
+            },
+            {
+                "health": 150,
+                "id": 558,
+                "identifier": "Ra_100",
+                "name": "Ra 100",
+                "not_in_shop": false,
+                "price": 23500,
+                "range": 455,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "S20_Ikv_72",
+                "tier": 7,
+                "weight": 14
+            }
+        ],
+        "repair_price": 5.1,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 809,
+                "icon": "ap",
+                "id": "_75mm_slpprj_m_40_B",
+                "min_penetration": 76,
+                "module_damage": 100,
+                "name": "slpprj m/40 B",
+                "penetration": 88,
+                "penetration_loss": 0,
+                "price": 50,
+                "range": 720,
+                "speed": 590,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 809,
+                "icon": "hc",
+                "id": "_75mm_slpsgr_fm_45",
+                "min_penetration": 115,
+                "module_damage": 100,
+                "name": "slpsgr fm/45",
+                "penetration": 115,
+                "penetration_loss": 0.05,
+                "price": 2400,
+                "range": 720,
+                "speed": 570,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 809,
+                "icon": "he",
+                "id": "_75mm_sgr_m_40",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "sgr m/40",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 75,
+                "range": 720,
+                "speed": 570,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 810,
+                "icon": "ap",
+                "id": "_75mm_slpprj_m_40_C",
+                "min_penetration": 83,
+                "module_damage": 100,
+                "name": "slpprj m/40 C",
+                "penetration": 97,
+                "penetration_loss": 0,
+                "price": 66,
+                "range": 720,
+                "speed": 655,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 810,
+                "icon": "ap",
+                "id": "_75mm_slpprj_m_40_N",
+                "min_penetration": 114,
+                "module_damage": 100,
+                "name": "slpprj m/40 N",
+                "penetration": 120,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 705,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 810,
+                "icon": "he",
+                "id": "_75mm_sgr_m_40",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "sgr m/40",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 75,
+                "range": 720,
+                "speed": 615,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Ikv 72",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ikv-72",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.195703,
+        "turret_pos_z": 1.59301,
+        "turret_slots": [
+            {
+                "id": 326,
+                "pos_x": 0,
+                "pos_y": 0.195703,
+                "pos_z": 1.59301,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "S20_Ikv_72"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/sweden/S20_Ikv_72/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -1e-05,
+                "gun_pos_y": 0.310343,
+                "gun_pos_z": 1.9e-05,
+                "health": 30,
+                "id": 414,
+                "identifier": "Turret_1_S20_Ikv_72",
+                "name": "Ikv 72",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 36,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "S20_Ikv_72",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/sweden/S20_Ikv_72/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_S20_Ikv_72_2",
+                "name": "Chassis_S20_Ikv_72_2",
+                "parent_key": "chassis-Chassis_S20_Ikv_72",
+                "price": 340,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_kan_m_41_ikv_L_50",
+                "name": "_75mm_kan_m_41_ikv_L_50",
+                "parent_key": "gun-_75mm_kan_m_41_ikv",
+                "price": 2100,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-S19_Sav_M43",
+                "name": "S19_Sav_M43",
+                "parent_key": "gun-_75mm_kan_m_41_ikv_L_50",
+                "price": 3170,
+                "tank_name": "Sav m/43",
+                "tank_price": 135500,
+                "tank_slug": "sav-m43",
+                "tank_tier": 4,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Ford_ENN",
+                "name": "Ford_ENN",
+                "parent_key": "engine-Volvo_FE",
+                "price": 410,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_25_W_Sv_1_m_39_42",
+                "name": "_25_W_Sv_1_m_39_42",
+                "parent_key": "radio-_25_W_Sv_1_m_39",
+                "price": 350,
+                "type": "radio"
+            },
+            {
+                "key": "radio-Ra_100",
+                "name": "Ra_100",
+                "parent_key": "radio-_25_W_Sv_1_m_39_42",
+                "price": 3200,
+                "type": "radio"
+            }
+        ],
+        "version": "v0921ct",
+        "visual_model": "vehicles/sweden/S20_Ikv_72/normal/lod0/Hull.model",
+        "weight": 3961,
+        "xp_factor": 1
+    }
+}

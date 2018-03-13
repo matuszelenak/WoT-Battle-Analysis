@@ -1,0 +1,768 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 28.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 28.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 22.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 22.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 28.6,
+        "armor_rear": 22.2,
+        "armor_side": 25.4,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.402,
+        "camo_moving": 0.268,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.268,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 25000,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A71_T21/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.957393,
+                "hull_pos_z": 0,
+                "id": 774,
+                "identifier": "Chassis_T21",
+                "max_climb_angle": 25,
+                "max_load": 23200,
+                "name": "VVSS T48M1A1",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 58,
+                "tank_id": "A71_T21",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.9,
+                "tier": 5,
+                "visual_model": "vehicles/american/A71_T21/normal/lod0/Chassis.model",
+                "weight": 5300
+            },
+            {
+                "armor": 20,
+                "brake_force": 27500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A71_T21/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.957393,
+                "hull_pos_z": 0,
+                "id": 775,
+                "identifier": "Chassis_T21_2",
+                "max_climb_angle": 25,
+                "max_load": 26000,
+                "name": "VVSS T48M1A2",
+                "not_in_shop": false,
+                "price": 16000,
+                "repair_health": 90,
+                "repair_price": 5,
+                "rotation_speed": 60,
+                "tank_id": "A71_T21",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.5,
+                "tier": 6,
+                "visual_model": "vehicles/american/A71_T21/normal/lod0/Chassis.model",
+                "weight": 5300
+            }
+        ],
+        "collision_model": "vehicles/american/A71_T21/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A lightweight version of the T20 medium tank with the M7 elongated chassis. The vehicle was developed in the first half of 1943. Unlike the T20 tank, the T21 featured reduced armor and lighter armament. The vehicle never entered mass production nor saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 136,
+                "id": 855,
+                "identifier": "Ford_GAA_A",
+                "name": "Ford GAA A",
+                "not_in_shop": false,
+                "power": 550,
+                "price": 36000,
+                "repair_health": 67,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A71_T21",
+                "tier": 6,
+                "weight": 569
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 856,
+                "identifier": "Ford_GAN_A",
+                "name": "Ford GAN A",
+                "not_in_shop": false,
+                "power": 600,
+                "price": 39400,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A71_T21",
+                "tier": 7,
+                "weight": 569
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 57,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A71_T21/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 1285,
+                "identifier": "_76mm_Gun_M1A1L",
+                "max_ammo": 70,
+                "name": "76 mm Gun M1A1L",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.394671,
+                            10
+                        ],
+                        [
+                            0.458333,
+                            6
+                        ],
+                        [
+                            0.541667,
+                            6
+                        ],
+                        [
+                            0.605329,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 50100,
+                "reload_time": 4.5,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 657,
+                "visual_model": "vehicles/american/A71_T21/normal/lod0/Gun_03.model",
+                "weight": 1567,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A71_T21/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1286,
+                "identifier": "_76mm_Gun_M1A2L",
+                "max_ammo": 70,
+                "name": "76 mm Gun M1A2L",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.394671,
+                            10
+                        ],
+                        [
+                            0.458333,
+                            6
+                        ],
+                        [
+                            0.541667,
+                            6
+                        ],
+                        [
+                            0.605329,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 61500,
+                "reload_time": 4.2,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 657,
+                "visual_model": "vehicles/american/A71_T21/normal/lod0/Gun_04.model",
+                "weight": 1590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 480,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A71_T21",
+        "name": "T21",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 900000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 903,
+                "identifier": "AN-GRC-3",
+                "name": "AN/GRC-3",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 410,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A71_T21",
+                "tier": 6,
+                "weight": 120
+            },
+            {
+                "health": 200,
+                "id": 904,
+                "identifier": "SCR_528",
+                "name": "SCR 528",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A71_T21",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 7.04,
+        "reverse_speed": 21,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1285,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 103,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 120,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1285,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1285,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1286,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 111,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 130,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1286,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1286,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T21",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t21",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.426507,
+        "turret_pos_z": 0.5217,
+        "turret_slots": [
+            {
+                "id": 512,
+                "pos_x": 0,
+                "pos_y": 0.426507,
+                "pos_z": 0.5217,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A71_T21"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 28.6,
+                "armor_rear": 25.4,
+                "armor_side": 25.4,
+                "collision_model": "vehicles/american/A71_T21/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 22.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 12.7
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.4761,
+                "gun_pos_z": 0.90345,
+                "health": 120,
+                "id": 657,
+                "identifier": "Turret_2_T21",
+                "name": "T21",
+                "not_in_shop": false,
+                "price": 17050,
+                "rotation_speed": 42,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "A71_T21",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/american/A71_T21/normal/lod0/Turret_01.model",
+                "weight": 4500
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_T21_2",
+                "name": "Chassis_T21_2",
+                "parent_key": "chassis-Chassis_T21",
+                "price": 4800,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_76mm_Gun_M1A2L",
+                "name": "_76mm_Gun_M1A2L",
+                "parent_key": "gun-_76mm_Gun_M1A1L",
+                "price": 5750,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A103_T71E1",
+                "name": "A103_T71E1",
+                "parent_key": "gun-_76mm_Gun_M1A2L",
+                "price": 68950,
+                "tank_name": "T71 DA",
+                "tank_price": 1400000,
+                "tank_slug": "t71-da",
+                "tank_tier": 7,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Ford_GAN_A",
+                "name": "Ford_GAN_A",
+                "parent_key": "engine-Ford_GAA_A",
+                "price": 12300,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-AN-GRC-3",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922",
+        "visual_model": "vehicles/american/A71_T21/normal/lod0/Hull.model",
+        "weight": 10847,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,478 @@
+{
+    "tank": {
+        "ammo_rack_health": 90,
+        "ammo_rack_repair_health": 60,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_17",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_18",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_19",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 60,
+        "armor_rear": 50,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.543,
+        "camo_moving": 0.217,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.362,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 22800,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R50_SU76I/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.03233,
+                "hull_pos_z": 0,
+                "id": 920,
+                "identifier": "Chassis_SU76I",
+                "max_climb_angle": 25,
+                "max_load": 24800,
+                "name": "SU-76I",
+                "not_in_shop": true,
+                "price": 2000,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "R50_SU76I",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 3,
+                "visual_model": "vehicles/russian/R50_SU76I/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/russian/R50_SU76I/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "The first prototype of the SU-76I (\"I\" stands for \"foreign\" in Russian) was created in March of 1943 on the basis of the captured German StuG III and Pz.Kpfw. III vehicles, and featured the U.S.S.R. 76-mm F-43 gun. A total of 200 vehicles were manufactured. The SU-76I participated in combat actions until the summer of 1944 and was used for training purposes until the end of the war. The SU-85I was supposed to become the next stage of vehicle development.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 86,
+                "id": 1013,
+                "identifier": "Maybach_HL_120_TRM_A",
+                "name": "Maybach HL 120 TRM",
+                "not_in_shop": true,
+                "power": 300,
+                "price": 10000,
+                "repair_health": 42,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R50_SU76I",
+                "tier": 4,
+                "weight": 920
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 50,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1000,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R50_SU76I/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.44,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 1532,
+                "identifier": "_76mm_F-34S_A",
+                "max_ammo": 98,
+                "name": "76 mm S-1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 30550,
+                "reload_time": 4.3,
+                "repair_health": 53,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 784,
+                "visual_model": "vehicles/russian/R50_SU76I/normal/lod0/Gun_01.model",
+                "weight": 1155,
+                "yaw_left": -10,
+                "yaw_right": 10
+            }
+        ],
+        "health": 128,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R50_SU76I",
+        "name": "SU-76I",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 110,
+                "id": 1061,
+                "identifier": "_9R_O",
+                "name": "9R",
+                "not_in_shop": true,
+                "price": 2000,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "R50_SU76I",
+                "tier": 4,
+                "weight": 30
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1532,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1532,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 92,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1532,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-76I",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-76i",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "grousers_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0.090003,
+        "turret_pos_y": 0.749439,
+        "turret_pos_z": 1.29411,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R50_SU76I/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -3.3e-05,
+                "gun_pos_y": -5e-06,
+                "gun_pos_z": -6.8e-05,
+                "health": 32,
+                "id": 784,
+                "identifier": "Turret_1_SU76I",
+                "name": "SU-76I",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 42,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "R50_SU76I",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/russian/R50_SU76I/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v092011",
+        "visual_model": "vehicles/russian/R50_SU76I/normal/lod0/Hull.model",
+        "weight": 13325,
+        "xp_factor": 1.5
+    }
+}

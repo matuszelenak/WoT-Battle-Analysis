@@ -1,0 +1,509 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 15,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.479,
+        "camo_moving": 0.319,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.319,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 16000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F88_AMX_13_105/collision_client/Chassis.model",
+                "dispersion_movement": 0.15,
+                "dispersion_rotation": 0.15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.921952,
+                "hull_pos_z": 0,
+                "id": 89,
+                "identifier": "Chassis_F88_AMX_13_105",
+                "max_climb_angle": 25,
+                "max_load": 18000,
+                "name": "AMX 13 105",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "F88_AMX_13_105",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.6,
+                "tier": 10,
+                "visual_model": "vehicles/french/F88_AMX_13_105/normal/lod0/Chassis.model",
+                "weight": 1400
+            }
+        ],
+        "collision_model": "vehicles/french/F88_AMX_13_105/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            }
+        ],
+        "description": "A variant of the AMX 13 developed in the late 1950s. The\u00a0FL\u00a012\u00a0turret adjusted for a 105-mm gun was mounted on the vehicle. The new variant of the AMX 13 did not see service in the French army, but was exported to other countries; the vehicle was produced in Argentina under a license. Despite the firepower was improved, the new design had several disadvantages. For example, a greater recoil saw turrets crack sometimes.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 100,
+                "identifier": "SOFAM_8Gxb_B",
+                "name": "SOFAM 8 Gxb",
+                "not_in_shop": true,
+                "power": 600,
+                "price": 100000,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "F88_AMX_13_105",
+                "tier": 10,
+                "weight": 400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 68,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2.72727,
+                "clip_size": 3,
+                "collision_model": "vehicles/french/F88_AMX_13_105/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 208,
+                "id": 156,
+                "identifier": "_105mm_D1504",
+                "max_ammo": 30,
+                "name": "105 mm D. 1504",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            0.25,
+                            -12
+                        ],
+                        [
+                            0.319444,
+                            -5.5
+                        ],
+                        [
+                            0.680556,
+                            -5.5
+                        ],
+                        [
+                            0.75,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 300000,
+                "reload_time": 27,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 80,
+                "visual_model": "vehicles/french/F88_AMX_13_105/normal/lod0/Gun_01.model",
+                "weight": 1210,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F88_AMX_13_105",
+        "name": "AMX 13 105",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 94,
+                "identifier": "SCR_528_Fr",
+                "name": "SCR-528 Fr",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F88_AMX_13_105",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 13.5,
+        "reverse_speed": 22,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 360,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 156,
+                "icon": "ap_cr",
+                "id": "_105mm_OFL_105_D1504",
+                "min_penetration": 187,
+                "module_damage": 150,
+                "name": "OFL-105 D. 1504",
+                "penetration": 234,
+                "penetration_loss": 0,
+                "price": 1095,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 360,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 156,
+                "icon": "hc",
+                "id": "_105mm_OCC_105_D1504",
+                "min_penetration": 280,
+                "module_damage": 150,
+                "name": "OCC-105 D. 1504",
+                "penetration": 280,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 800,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 440,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 156,
+                "icon": "he",
+                "id": "_105mm_OE_105_Mle_60_D1504",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "OE-105-Mle. 60 D. 1504",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 505,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AMX 13 105",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-13-105",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 4e-05,
+        "turret_pos_y": 0.327225,
+        "turret_pos_z": -0.44042,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 40,
+                "armor_rear": 20,
+                "armor_side": 20,
+                "collision_model": "vehicles/french/F88_AMX_13_105/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": -4e-05,
+                "gun_pos_y": 0.504824,
+                "gun_pos_z": 0.03252,
+                "health": 280,
+                "id": 80,
+                "identifier": "Turret_1_F88_AMX_13_105",
+                "name": "AMX 13 105",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 38,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "F88_AMX_13_105",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/french/F88_AMX_13_105/normal/lod0/Turret_01.model",
+                "weight": 2800
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0918ct",
+        "visual_model": "vehicles/french/F88_AMX_13_105/normal/lod0/Hull.model",
+        "weight": 9810,
+        "xp_factor": 1
+    }
+}

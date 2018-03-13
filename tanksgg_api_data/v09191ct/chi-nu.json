@@ -1,0 +1,1562 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 20,
+        "armor_side": 25,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.378,
+        "camo_moving": 0.189,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.252,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 18800,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.02816,
+                "hull_pos_z": 0,
+                "id": 412,
+                "identifier": "Chassis_Chi_Nu",
+                "max_climb_angle": 25,
+                "max_load": 18800,
+                "name": "New Medium Tank Hei (19)",
+                "not_in_shop": false,
+                "price": 4000,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "J08_Chi_Nu",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.1,
+                "tier": 4,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Chassis.model",
+                "weight": 6300
+            },
+            {
+                "armor": 20,
+                "brake_force": 21000,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.02816,
+                "hull_pos_z": 0,
+                "id": 413,
+                "identifier": "Chassis_Chi_Nu_2",
+                "max_climb_angle": 25,
+                "max_load": 21300,
+                "name": "Type 3 Chi-Nu",
+                "not_in_shop": false,
+                "price": 8800,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 34,
+                "tank_id": "J08_Chi_Nu",
+                "terrain_hard": 0.8,
+                "terrain_medium": 1,
+                "terrain_soft": 1.9,
+                "tier": 5,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Chassis.model",
+                "weight": 6300
+            }
+        ],
+        "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The Type 3 Chi-Nu medium tank is a modification of the \u0422ype 1 Chi-He with a new turret and gun. The tank was the most powerful among wartime Japanese mass-produced vehicles. However, only 60 vehicles were manufactured due to shortages of components and materials.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 104,
+                "id": 454,
+                "identifier": "_Type100_A",
+                "name": "Type 100 Kuurei V-12",
+                "not_in_shop": false,
+                "power": 240,
+                "price": 10500,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "diesel",
+                "tank_id": "J08_Chi_Nu",
+                "tier": 4,
+                "weight": 630
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 124,
+                "id": 455,
+                "identifier": "_Type100_V12_Kakyuu",
+                "name": "Type 100 Kakyuu V-12",
+                "not_in_shop": false,
+                "power": 300,
+                "price": 15200,
+                "repair_health": 62,
+                "repair_price": 3,
+                "tags": "diesel",
+                "tank_id": "J08_Chi_Nu",
+                "tier": 5,
+                "weight": 650
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 38.8,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Gun_01.model",
+                "depression": 15,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 94,
+                "id": 695,
+                "identifier": "_57mm_Gun_Shin",
+                "max_ammo": 80,
+                "name": "Experimental 57 mm Tank Gun Shin",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            0.075,
+                            9
+                        ],
+                        [
+                            0.088889,
+                            15
+                        ],
+                        [
+                            0.394445,
+                            15
+                        ],
+                        [
+                            0.408333,
+                            11
+                        ],
+                        [
+                            0.591667,
+                            11
+                        ],
+                        [
+                            0.605556,
+                            15
+                        ],
+                        [
+                            0.911111,
+                            15
+                        ],
+                        [
+                            0.925,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 27500,
+                "reload_time": 2.3,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 355,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Gun_01.model",
+                "weight": 543,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Gun_02.model",
+                "depression": 15,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "id": 696,
+                "identifier": "_75mm_Gun_Type_99",
+                "max_ammo": 63,
+                "name": "7.5 cm Tank Gun Type 99",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            0.075,
+                            9
+                        ],
+                        [
+                            0.088889,
+                            15
+                        ],
+                        [
+                            0.394445,
+                            15
+                        ],
+                        [
+                            0.408333,
+                            11
+                        ],
+                        [
+                            0.591667,
+                            11
+                        ],
+                        [
+                            0.605556,
+                            15
+                        ],
+                        [
+                            0.911111,
+                            15
+                        ],
+                        [
+                            0.925,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 29000,
+                "reload_time": 4,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 41.125,
+                "tier": 4,
+                "turret_id": 355,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Gun_02.model",
+                "weight": 543,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 94,
+                "id": 697,
+                "identifier": "_57mm_Gun_Shin",
+                "max_ammo": 90,
+                "name": "Experimental 57 mm Tank Gun Shin",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.058333,
+                            10
+                        ],
+                        [
+                            0.069444,
+                            9
+                        ],
+                        [
+                            0.072222,
+                            9
+                        ],
+                        [
+                            0.083333,
+                            10
+                        ],
+                        [
+                            0.916667,
+                            10
+                        ],
+                        [
+                            0.927778,
+                            9
+                        ],
+                        [
+                            0.930556,
+                            9
+                        ],
+                        [
+                            0.941667,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 27500,
+                "reload_time": 2.3,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 356,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Gun_04.model",
+                "weight": 543,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "id": 698,
+                "identifier": "_75mm_Gun_Type_99",
+                "max_ammo": 70,
+                "name": "7.5 cm Tank Gun Type 99",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.058333,
+                            10
+                        ],
+                        [
+                            0.069444,
+                            9
+                        ],
+                        [
+                            0.072222,
+                            9
+                        ],
+                        [
+                            0.083333,
+                            10
+                        ],
+                        [
+                            0.916667,
+                            10
+                        ],
+                        [
+                            0.927778,
+                            9
+                        ],
+                        [
+                            0.930556,
+                            9
+                        ],
+                        [
+                            0.941667,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 29000,
+                "reload_time": 4,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 41.125,
+                "tier": 4,
+                "turret_id": 356,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Gun_05.model",
+                "weight": 543,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Gun_06.model",
+                "depression": 10,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 110,
+                "id": 699,
+                "identifier": "_75mm_Gun_Type3",
+                "max_ammo": 70,
+                "name": "7.5 cm Tank Gun Type 3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 30500,
+                "reload_time": 4.2,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 356,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Gun_06.model",
+                "weight": 1400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Gun_07.model",
+                "depression": 10,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 700,
+                "identifier": "_75mm_Gun_Type5",
+                "max_ammo": 52,
+                "name": "7.5 cm Tank Gun Type 5",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 42500,
+                "reload_time": 5,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 356,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Gun_07.model",
+                "weight": 1489,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 352,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J08_Chi_Nu",
+        "name": "Type 3 Chi-Nu",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 410000,
+        "radios": [
+            {
+                "health": 70,
+                "id": 469,
+                "identifier": "_Type94_Hei",
+                "name": "Type 94 Mk. 4 Hei",
+                "not_in_shop": false,
+                "price": 2350,
+                "range": 350,
+                "repair_health": 42,
+                "repair_price": 0.5,
+                "tank_id": "J08_Chi_Nu",
+                "tier": 4,
+                "weight": 90
+            },
+            {
+                "health": 80,
+                "id": 470,
+                "identifier": "_Hei",
+                "name": "Hei",
+                "not_in_shop": false,
+                "price": 3800,
+                "range": 400,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "J08_Chi_Nu",
+                "tier": 5,
+                "weight": 130
+            },
+            {
+                "health": 100,
+                "id": 471,
+                "identifier": "_Type96_Bo",
+                "name": "Type 96 Mk. 4 Bo",
+                "not_in_shop": false,
+                "price": 14000,
+                "range": 425,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "J08_Chi_Nu",
+                "tier": 6,
+                "weight": 50
+            },
+            {
+                "health": 140,
+                "id": 472,
+                "identifier": "_Type3_Otsu",
+                "name": "Type 3 Otsu",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 0.5,
+                "tank_id": "J08_Chi_Nu",
+                "tier": 8,
+                "weight": 240
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 16,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 695,
+                "icon": "ap",
+                "id": "_57mm_APHE_Type1",
+                "min_penetration": 75,
+                "module_damage": 76,
+                "name": "Type 1",
+                "penetration": 87,
+                "penetration_loss": 0,
+                "price": 40,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 695,
+                "icon": "ap",
+                "id": "_57mm_APHE_Type1_TK",
+                "min_penetration": 113,
+                "module_damage": 76,
+                "name": "Type 1 Toku Kou",
+                "penetration": 131,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 695,
+                "icon": "he",
+                "id": "_57mm_HE_Type2",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "Type 2",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 26,
+                "range": 720,
+                "speed": 810,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 696,
+                "icon": "ap",
+                "id": "_75mm_APHE_Type1_185",
+                "min_penetration": 64,
+                "module_damage": 100,
+                "name": "Type 1 185R",
+                "penetration": 70.4,
+                "penetration_loss": 0,
+                "price": 52,
+                "range": 720,
+                "speed": 453,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 696,
+                "icon": "hc",
+                "id": "_75mm_HEAT_Type2_185",
+                "min_penetration": 100,
+                "module_damage": 100,
+                "name": "Type 2",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2400,
+                "range": 720,
+                "speed": 362,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 696,
+                "icon": "he",
+                "id": "_75mm_HE_Type94_185",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 94 185R",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 60,
+                "range": 720,
+                "speed": 453,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 697,
+                "icon": "ap",
+                "id": "_57mm_APHE_Type1",
+                "min_penetration": 75,
+                "module_damage": 76,
+                "name": "Type 1",
+                "penetration": 87,
+                "penetration_loss": 0,
+                "price": 40,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 697,
+                "icon": "ap",
+                "id": "_57mm_APHE_Type1_TK",
+                "min_penetration": 113,
+                "module_damage": 76,
+                "name": "Type 1 Toku Kou",
+                "penetration": 131,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 697,
+                "icon": "he",
+                "id": "_57mm_HE_Type2",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "Type 2",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 26,
+                "range": 720,
+                "speed": 810,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 698,
+                "icon": "ap",
+                "id": "_75mm_APHE_Type1_185",
+                "min_penetration": 64,
+                "module_damage": 100,
+                "name": "Type 1 185R",
+                "penetration": 70.4,
+                "penetration_loss": 0,
+                "price": 52,
+                "range": 720,
+                "speed": 453,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 698,
+                "icon": "hc",
+                "id": "_75mm_HEAT_Type2_185",
+                "min_penetration": 100,
+                "module_damage": 100,
+                "name": "Type 2",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2400,
+                "range": 720,
+                "speed": 362,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 698,
+                "icon": "he",
+                "id": "_75mm_HE_Type94_185",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 94 185R",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 60,
+                "range": 720,
+                "speed": 453,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 699,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_424",
+                "min_penetration": 80,
+                "module_damage": 100,
+                "name": "Type 1 424R",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 64,
+                "range": 720,
+                "speed": 683,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 699,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_TK_424",
+                "min_penetration": 100,
+                "module_damage": 100,
+                "name": "Type 1 Toku Kou 424R",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 683,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 699,
+                "icon": "he",
+                "id": "_75mm_HE_Type_94_424",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 94 424R",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 60,
+                "range": 720,
+                "speed": 683,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 125,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 700,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_604",
+                "min_penetration": 112,
+                "module_damage": 100,
+                "name": "Type 1 604R",
+                "penetration": 124,
+                "penetration_loss": 0,
+                "price": 82,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 125,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 700,
+                "icon": "ap",
+                "id": "_75mm_AP_Type_1_SK_604",
+                "min_penetration": 140,
+                "module_damage": 100,
+                "name": "Type 1 Toku Kou 604R",
+                "penetration": 155,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 821,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 700,
+                "icon": "he",
+                "id": "_75mm_HE_Type_4_604",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Type 4 604R",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 60,
+                "range": 720,
+                "speed": 821,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Chi-Nu",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "chi-nu",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedSprings_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.595843,
+        "turret_pos_z": 0.24971,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 50,
+                "armor_rear": 25,
+                "armor_side": 35,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 30
+                    }
+                ],
+                "gun_pos_x": 0.04135,
+                "gun_pos_y": 0.33929,
+                "gun_pos_z": 0.673241,
+                "health": 88,
+                "id": 355,
+                "identifier": "Turret_1_Chi_Nu",
+                "name": "Type 4 Chi-To I-Go",
+                "not_in_shop": false,
+                "price": 4500,
+                "rotation_speed": 36,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "J08_Chi_Nu",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Turret_01.model",
+                "weight": 4700
+            },
+            {
+                "Guns": null,
+                "armor_front": 50,
+                "armor_rear": 25,
+                "armor_side": 35,
+                "collision_model": "vehicles/japan/J08_Chi_Nu/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0.020625,
+                "gun_pos_y": 0.350262,
+                "gun_pos_z": 0.652038,
+                "health": 128,
+                "id": 356,
+                "identifier": "Turret_2_Chi_Nu",
+                "name": "Type 3 Chi-Nu",
+                "not_in_shop": false,
+                "price": 10200,
+                "rotation_speed": 36,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "J08_Chi_Nu",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Turret_02.model",
+                "weight": 5000
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Chi_Nu_2",
+                "name": "Chassis_Chi_Nu_2",
+                "parent_key": "chassis-Chassis_Chi_Nu",
+                "price": 2200,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_Gun_Type_99",
+                "name": "_75mm_Gun_Type_99",
+                "parent_key": "turret-Turret_1_Chi_Nu",
+                "price": 2200,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_Chi_Nu",
+                "name": "Turret_2_Chi_Nu",
+                "parent_key": "gun-_75mm_Gun_Type_99",
+                "price": 2500,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_75mm_Gun_Type3",
+                "name": "_75mm_Gun_Type3",
+                "parent_key": "turret-Turret_2_Chi_Nu",
+                "price": 2350,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_75mm_Gun_Type5",
+                "name": "_75mm_Gun_Type5",
+                "parent_key": "gun-_75mm_Gun_Type3",
+                "price": 3800,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-J10_Chi_To",
+                "name": "J10_Chi_To",
+                "parent_key": "gun-_75mm_Gun_Type5",
+                "price": 31150,
+                "tank_name": "Chi-To",
+                "tank_price": 940000,
+                "tank_slug": "chi-to",
+                "tank_tier": 6,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-_Type100_V12_Kakyuu",
+                "name": "_Type100_V12_Kakyuu",
+                "parent_key": "engine-_Type100_A",
+                "price": 1200,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_Hei",
+                "name": "_Hei",
+                "parent_key": "radio-_Type94_Hei",
+                "price": 640,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type96_Bo",
+                "name": "_Type96_Bo",
+                "parent_key": "radio-_Hei",
+                "price": 1400,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type3_Otsu",
+                "name": "_Type3_Otsu",
+                "parent_key": "radio-_Type96_Bo",
+                "price": 4000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191ct",
+        "visual_model": "vehicles/japan/J08_Chi_Nu/normal/lod0/Hull.model",
+        "weight": 5130,
+        "xp_factor": 1
+    }
+}

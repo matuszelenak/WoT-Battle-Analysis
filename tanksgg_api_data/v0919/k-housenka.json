@@ -1,0 +1,720 @@
+{
+    "tank": {
+        "ammo_rack_health": 65,
+        "ammo_rack_repair_health": 45,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 6
+            }
+        ],
+        "armor_front": 14,
+        "armor_rear": 6,
+        "armor_side": 8,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.315,
+        "camo_moving": 0.158,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.2,
+        "camo_still": 0.21,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 8000,
+                "center_rotation": false,
+                "collision_model": "vehicles/czech/Cz06_Kolohousenka/collision_client/Chassis.model",
+                "dispersion_movement": 0.36,
+                "dispersion_rotation": 0.36,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.748318,
+                "hull_pos_z": 0,
+                "id": 53,
+                "identifier": "Chassis_Cz06_Kolohousenka",
+                "max_climb_angle": 25,
+                "max_load": 10000,
+                "name": "Kolohousenka KH-50",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tank_id": "Cz06_Kolohousenka",
+                "terrain_hard": 0.8,
+                "terrain_medium": 1,
+                "terrain_soft": 1.5,
+                "tier": 1,
+                "visual_model": "vehicles/czech/Cz06_Kolohousenka/normal/lod0/Chassis.model",
+                "weight": 2500
+            }
+        ],
+        "collision_model": "vehicles/czech/Cz06_Kolohousenka/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "The light wheeled caterpillar tank developed on the chassis of the Hanomag WD-50 tractor. The vehicle never saw service because it was deemed obsolete after the results of trials. Several vehicles, in three variations, were manufactured; three of them were supplied to Italy and the U.S.S.R. As of the time of the German occupation, the only vehicle left in Czechoslovakia was used as a monument.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 60,
+                "identifier": "Hanomag_WD_50PS",
+                "name": "Hanomag WD-50PS",
+                "not_in_shop": true,
+                "power": 50,
+                "price": 0,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "Cz06_Kolohousenka",
+                "tier": 1,
+                "weight": 300
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 25,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz06_Kolohousenka/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.44,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 91,
+                "identifier": "_37mm_Pechotni_delo_Skoda_L_27",
+                "max_ammo": 100,
+                "name": "37 mm P\u011bchotn\u00ed d\u011blo \u0160koda L/27",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.413889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            9.4
+                        ],
+                        [
+                            0.419444,
+                            9
+                        ],
+                        [
+                            0.422222,
+                            8.6
+                        ],
+                        [
+                            0.425,
+                            8.2
+                        ],
+                        [
+                            0.427778,
+                            7.8
+                        ],
+                        [
+                            0.430556,
+                            7.4
+                        ],
+                        [
+                            0.433333,
+                            7
+                        ],
+                        [
+                            0.566667,
+                            7
+                        ],
+                        [
+                            0.569444,
+                            7.4
+                        ],
+                        [
+                            0.572222,
+                            7.8
+                        ],
+                        [
+                            0.575,
+                            8.2
+                        ],
+                        [
+                            0.577778,
+                            8.6
+                        ],
+                        [
+                            0.580556,
+                            9
+                        ],
+                        [
+                            0.583333,
+                            9.4
+                        ],
+                        [
+                            0.586111,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 3.3,
+                "repair_health": 27,
+                "repair_price": 2,
+                "rotation_speed": 40,
+                "tier": 1,
+                "turret_id": 52,
+                "visual_model": "vehicles/czech/Cz06_Kolohousenka/normal/lod0/Gun_02.model",
+                "weight": 175,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz06_Kolohousenka/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 92,
+                "identifier": "_47mm_Rychlopalne_delo_Vickers_L_20",
+                "max_ammo": 80,
+                "name": "47 mm Rychlopaln\u00e9 d\u011blo Vickers L/20",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.413889,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            9.4
+                        ],
+                        [
+                            0.419444,
+                            9
+                        ],
+                        [
+                            0.422222,
+                            8.6
+                        ],
+                        [
+                            0.425,
+                            8.2
+                        ],
+                        [
+                            0.427778,
+                            7.8
+                        ],
+                        [
+                            0.430556,
+                            7.4
+                        ],
+                        [
+                            0.433333,
+                            7
+                        ],
+                        [
+                            0.566667,
+                            7
+                        ],
+                        [
+                            0.569444,
+                            7.4
+                        ],
+                        [
+                            0.572222,
+                            7.8
+                        ],
+                        [
+                            0.575,
+                            8.2
+                        ],
+                        [
+                            0.577778,
+                            8.6
+                        ],
+                        [
+                            0.580556,
+                            9
+                        ],
+                        [
+                            0.583333,
+                            9.4
+                        ],
+                        [
+                            0.586111,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2400,
+                "reload_time": 3.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 52,
+                "visual_model": "vehicles/czech/Cz06_Kolohousenka/normal/lod0/Gun_03.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 88,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Cz06_Kolohousenka",
+        "name": "Kolohousenka",
+        "nation": "czech",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 55,
+                "identifier": "Radiostanice_vz_29",
+                "name": "Radiostanice vz. 29",
+                "not_in_shop": true,
+                "price": 0,
+                "range": 265,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "Cz06_Kolohousenka",
+                "tier": 2,
+                "weight": 40
+            }
+        ],
+        "repair_price": 0,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 91,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_18",
+                "min_penetration": 22,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 18",
+                "penetration": 33,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 460,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 91,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_28",
+                "min_penetration": 33,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 28",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 460,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 91,
+                "icon": "he",
+                "id": "_37mm_Narazovy_vz_28",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "N\u00e1razov\u00fd vz. 28",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 720,
+                "speed": 460,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 92,
+                "icon": "ap",
+                "id": "_47mm_Prurazny",
+                "min_penetration": 23,
+                "module_damage": 64,
+                "name": "Pr\u016frazn\u00fd",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 488,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 92,
+                "icon": "ap_cr",
+                "id": "_47mm_Prurazny_s_oc_jadrem",
+                "min_penetration": 45,
+                "module_damage": 64,
+                "name": "Pr\u016frazn\u00fd (s oc. j\u00e1drem)",
+                "penetration": 70,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 610,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 65,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 92,
+                "icon": "he",
+                "id": "_47mm_Narazovy",
+                "min_penetration": 23,
+                "module_damage": 64,
+                "name": "N\u00e1razov\u00fd",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 12,
+                "range": 720,
+                "speed": 230,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "K-housenka",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "k-housenka",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 1,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.955805,
+        "turret_pos_z": 0.432193,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 14,
+                "armor_side": 0,
+                "collision_model": "vehicles/czech/Cz06_Kolohousenka/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.007968,
+                "gun_pos_y": 0.202378,
+                "gun_pos_z": 0.436731,
+                "health": 22,
+                "id": 52,
+                "identifier": "Turret_1_Cz06_Kolohousenka",
+                "name": "Kolohousenka KH-70",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 28,
+                "rotator_health": 50,
+                "rotator_repair_health": 25,
+                "rotator_repair_price": 1,
+                "surveyor_health": 30,
+                "surveyor_repair_health": 15,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz06_Kolohousenka",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/czech/Cz06_Kolohousenka/normal/lod0/Turret_02.model",
+                "weight": 500
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "gun-_47mm_Rychlopalne_delo_Vickers_L_20",
+                "name": "_47mm_Rychlopalne_delo_Vickers_L_20",
+                "parent_key": "gun-_37mm_Pechotni_delo_Skoda_L_27",
+                "price": 80,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-Cz03_LT_vz35",
+                "name": "Cz03_LT_vz35",
+                "parent_key": "gun-_47mm_Rychlopalne_delo_Vickers_L_20",
+                "price": 230,
+                "tank_name": "LT vz. 35",
+                "tank_price": 3900,
+                "tank_slug": "lt-vz-35",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v0919",
+        "visual_model": "vehicles/czech/Cz06_Kolohousenka/normal/lod0/Hull.model",
+        "weight": 4285,
+        "xp_factor": 1
+    }
+}

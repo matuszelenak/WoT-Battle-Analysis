@@ -1,0 +1,554 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 140
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 155
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 80
+            }
+        ],
+        "armor_front": 140,
+        "armor_rear": 60,
+        "armor_side": 120,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.17,
+        "camo_moving": 0.057,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.113,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 50000,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch41_WZ_111_5A/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.957083,
+                "hull_pos_z": 0,
+                "id": 4,
+                "identifier": "Chassis_Ch41_WZ_111_5A",
+                "max_climb_angle": 25,
+                "max_load": 55000,
+                "name": "WZ-111 model 5A",
+                "not_in_shop": true,
+                "price": 61350,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 36,
+                "tank_id": "Ch41_WZ_111_5A",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.5,
+                "tier": 10,
+                "visual_model": "vehicles/chinese/Ch41_WZ_111_5A/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch41_WZ_111_5A/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A prototype of the heavy tank developed in the early 1960s. The 111 project was based on the design of the IS-2 and IS-3 Soviet tanks and was supposed to be similar to the T-10. Among all other variants of the 111 tank, this vehicle featured improved frontal armor. Development was discontinued in 1964.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 4,
+                "identifier": "_V-2-54SC",
+                "name": "V-2-54SC",
+                "not_in_shop": true,
+                "power": 750,
+                "price": 25000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "Ch41_WZ_111_5A",
+                "tier": 10,
+                "weight": 1045
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch41_WZ_111_5A/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 300
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 270
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 210
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 210,
+                "id": 6,
+                "identifier": "_130mm_59_130TA",
+                "max_ammo": 40,
+                "name": "130 mm 59-130TA",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.366894,
+                            7
+                        ],
+                        [
+                            0.430556,
+                            1
+                        ],
+                        [
+                            0.569444,
+                            1
+                        ],
+                        [
+                            0.633106,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -23
+                        ],
+                        [
+                            1,
+                            -23
+                        ]
+                    ]
+                },
+                "price": 330000,
+                "reload_time": 11.2,
+                "repair_health": 105,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 4,
+                "visual_model": "vehicles/chinese/Ch41_WZ_111_5A/normal/lod0/Gun_01.model",
+                "weight": 3090,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1760,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch41_WZ_111_5A",
+        "name": "WZ-111 model 5A",
+        "nation": "china",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 180,
+                "id": 5,
+                "identifier": "A-220B_1",
+                "name": "A-220B",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "Ch41_WZ_111_5A",
+                "tier": 10,
+                "weight": 40
+            }
+        ],
+        "repair_price": 11.2,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 130,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 6,
+                "icon": "ap",
+                "id": "_130mm_AP",
+                "min_penetration": 232,
+                "module_damage": 180,
+                "name": "Chuan bei-482",
+                "penetration": 250,
+                "penetration_loss": 0,
+                "price": 1118,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 130,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 6,
+                "icon": "hc",
+                "id": "_130mm_HEAT",
+                "min_penetration": 340,
+                "module_damage": 180,
+                "name": "Po-130",
+                "penetration": 340,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 930,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 130,
+                "damage": 640,
+                "explosion_radius": 2.78,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 6,
+                "icon": "he",
+                "id": "_130mm_HE",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Sha bao-482",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 978,
+                "range": 720,
+                "speed": 930,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "WZ-111 5A",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "wz-111-5a",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": -0.00492,
+        "turret_pos_y": 0.572297,
+        "turret_pos_z": 0.703463,
+        "turret_slots": [
+            {
+                "id": 3,
+                "pos_x": -0.00492,
+                "pos_y": 0.572297,
+                "pos_z": 0.703463,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "Ch41_WZ_111_5A"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 300,
+                "armor_rear": 60,
+                "armor_side": 180,
+                "collision_model": "vehicles/chinese/Ch41_WZ_111_5A/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 300
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 230
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 260
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 115
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 120
+                    }
+                ],
+                "gun_pos_x": -0.005454,
+                "gun_pos_y": 0.334779,
+                "gun_pos_z": 1.28907,
+                "health": 440,
+                "id": 4,
+                "identifier": "Turret_1_Ch41_WZ_111_5A",
+                "name": "WZ-111 model 5A",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 26,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch41_WZ_111_5A",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/chinese/Ch41_WZ_111_5A/normal/lod0/Turret_01.model",
+                "weight": 15000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v092012",
+        "visual_model": "vehicles/chinese/Ch41_WZ_111_5A/normal/lod0/Hull.model",
+        "weight": 20525,
+        "xp_factor": 1
+    }
+}

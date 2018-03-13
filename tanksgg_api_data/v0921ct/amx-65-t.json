@@ -1,0 +1,1549 @@
+{
+    "tank": {
+        "ammo_rack_health": 250,
+        "ammo_rack_repair_health": 200,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 110
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 90
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 60,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.102,
+        "camo_moving": 0.034,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.068,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 65000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.08456,
+                "hull_pos_z": 0,
+                "id": 133,
+                "identifier": "Chassis_F81_Char_de_65t",
+                "max_climb_angle": 25,
+                "max_load": 63000,
+                "name": "AMX 65 t",
+                "not_in_shop": false,
+                "price": 19000,
+                "repair_health": 165,
+                "repair_price": 5,
+                "rotation_speed": 25,
+                "tank_id": "F81_Char_de_65t",
+                "terrain_hard": 1.6,
+                "terrain_medium": 1.8,
+                "terrain_soft": 2.5,
+                "tier": 7,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Chassis.model",
+                "weight": 13000
+            },
+            {
+                "armor": 25,
+                "brake_force": 65000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.08456,
+                "hull_pos_z": 0,
+                "id": 134,
+                "identifier": "Chassis_F81_Char_de_65t_2",
+                "max_climb_angle": 25,
+                "max_load": 72000,
+                "name": "AMX 65 t bis",
+                "not_in_shop": false,
+                "price": 36000,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 25,
+                "tank_id": "F81_Char_de_65t",
+                "terrain_hard": 1.6,
+                "terrain_medium": 1.8,
+                "terrain_soft": 2.5,
+                "tier": 8,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Chassis.model",
+                "weight": 13000
+            }
+        ],
+        "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "A heavy tank design proposed by the AMX company in 1950. Developed alongside the \u0410\u041c\u0425 50 100 tank, it was supposed to feature reinforced armor with a \u00abpike nose\u00bb and sloped armor plates. Other components and hull configuration resembled the Royal Tiger. Existed only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 147,
+                "identifier": "Maybach_HL_230P45",
+                "name": "Maybach HL 230 P45F",
+                "not_in_shop": false,
+                "power": 750,
+                "price": 55000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F81_Char_de_65t",
+                "tier": 8,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 148,
+                "identifier": "Maybach_HL_295",
+                "name": "Maybach HL 295",
+                "not_in_shop": false,
+                "power": 850,
+                "price": 78000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F81_Char_de_65t",
+                "tier": 9,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 149,
+                "identifier": "Maybach_HL_295_a_injection_d_essence",
+                "name": "Maybach HL 295 \u00e0 injection d'essence",
+                "not_in_shop": false,
+                "power": 1100,
+                "price": 86000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F81_Char_de_65t",
+                "tier": 9,
+                "weight": 1200
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 40,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 224,
+                "identifier": "_90mm_canon_DCA_45",
+                "max_ammo": 72,
+                "name": "90 mm DCA 45",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            10
+                        ],
+                        [
+                            0.425,
+                            5.6
+                        ],
+                        [
+                            0.458333,
+                            5.6
+                        ],
+                        [
+                            0.463889,
+                            8
+                        ],
+                        [
+                            0.536111,
+                            8
+                        ],
+                        [
+                            0.541667,
+                            5.6
+                        ],
+                        [
+                            0.575,
+                            5.6
+                        ],
+                        [
+                            0.583333,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 121250,
+                "reload_time": 7.2,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 115,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Gun_01.model",
+                "weight": 2750,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 3.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.13,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 190,
+                "id": 225,
+                "identifier": "_100mm_SA_47",
+                "max_ammo": 60,
+                "name": "100 mm SA47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            10
+                        ],
+                        [
+                            0.425,
+                            5.6
+                        ],
+                        [
+                            0.458333,
+                            5.6
+                        ],
+                        [
+                            0.463889,
+                            8
+                        ],
+                        [
+                            0.536111,
+                            8
+                        ],
+                        [
+                            0.541667,
+                            5.6
+                        ],
+                        [
+                            0.575,
+                            5.6
+                        ],
+                        [
+                            0.583333,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 127550,
+                "reload_time": 9.8,
+                "repair_health": 95,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 115,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Gun_02.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Gun_03.model",
+                "depression": 8,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 226,
+                "identifier": "_90mm_canon_DCA_45",
+                "max_ammo": 72,
+                "name": "90 mm DCA 45",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.425,
+                            5.4
+                        ],
+                        [
+                            0.458333,
+                            5.4
+                        ],
+                        [
+                            0.466667,
+                            7
+                        ],
+                        [
+                            0.533333,
+                            7
+                        ],
+                        [
+                            0.541667,
+                            5.4
+                        ],
+                        [
+                            0.575,
+                            5.4
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 121250,
+                "reload_time": 6.8,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 116,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Gun_03.model",
+                "weight": 2750,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.13,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 190,
+                "id": 227,
+                "identifier": "_100mm_SA_47",
+                "max_ammo": 60,
+                "name": "100 mm SA47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.425,
+                            5.4
+                        ],
+                        [
+                            0.458333,
+                            5.4
+                        ],
+                        [
+                            0.466667,
+                            7
+                        ],
+                        [
+                            0.533333,
+                            7
+                        ],
+                        [
+                            0.541667,
+                            5.4
+                        ],
+                        [
+                            0.575,
+                            5.4
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 127550,
+                "reload_time": 9.3,
+                "repair_health": 95,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 116,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Gun_04.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.16,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 210,
+                "id": 228,
+                "identifier": "_120mm_D_1203",
+                "max_ammo": 40,
+                "name": "120 mm D. 1203",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.425,
+                            5.4
+                        ],
+                        [
+                            0.458333,
+                            5.4
+                        ],
+                        [
+                            0.466667,
+                            7
+                        ],
+                        [
+                            0.533333,
+                            7
+                        ],
+                        [
+                            0.541667,
+                            5.4
+                        ],
+                        [
+                            0.575,
+                            5.4
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 185000,
+                "reload_time": 13.8,
+                "repair_health": 105,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 9,
+                "turret_id": 116,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Gun_05.model",
+                "weight": 3580,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1160,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F81_Char_de_65t",
+        "name": "AMX 65 t",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 2500000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 137,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "F81_Char_de_65t",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 138,
+                "identifier": "SCR_528",
+                "name": "SCR 528F",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F81_Char_de_65t",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 7.5,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 224,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 193,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 224,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 228,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 259,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 224,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 225,
+                "icon": "ap",
+                "id": "_100mm_Prf1940",
+                "min_penetration": 205,
+                "module_damage": 135,
+                "name": "Prf. mle. 1940",
+                "penetration": 232,
+                "penetration_loss": 0,
+                "price": 1030,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 225,
+                "icon": "ap_cr",
+                "id": "_100mm_FrtPrf1945",
+                "min_penetration": 253,
+                "module_damage": 135,
+                "name": "Frt.Prf. mle. 1945",
+                "penetration": 263,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 400,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 225,
+                "icon": "he",
+                "id": "_100mm_OE_mle_1930",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "OE mle. 1930",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 226,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 193,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 226,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 228,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 259,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 226,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 227,
+                "icon": "ap",
+                "id": "_100mm_Prf1940",
+                "min_penetration": 205,
+                "module_damage": 135,
+                "name": "Prf. mle. 1940",
+                "penetration": 232,
+                "penetration_loss": 0,
+                "price": 1030,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 227,
+                "icon": "ap_cr",
+                "id": "_100mm_FrtPrf1945",
+                "min_penetration": 253,
+                "module_damage": 135,
+                "name": "Frt.Prf. mle. 1945",
+                "penetration": 263,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 400,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 227,
+                "icon": "he",
+                "id": "_100mm_OE_mle_1930",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "OE mle. 1930",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 228,
+                "icon": "ap",
+                "id": "_120mm_Prf1951",
+                "min_penetration": 195,
+                "module_damage": 165,
+                "name": "Prf. mle. 1951",
+                "penetration": 218,
+                "penetration_loss": 0,
+                "price": 1050,
+                "range": 720,
+                "speed": 1067,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 228,
+                "icon": "ap_cr",
+                "id": "_120mm_FrtPrf1951",
+                "min_penetration": 240,
+                "module_damage": 165,
+                "name": "Frt.Prf. mle. 1951",
+                "penetration": 252,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1334,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 120,
+                "damage": 515,
+                "explosion_radius": 2.42,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 228,
+                "icon": "he",
+                "id": "_120mm_OE_mle_1951",
+                "min_penetration": 65,
+                "module_damage": 165,
+                "name": "OE mle. 1951",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 810,
+                "range": 720,
+                "speed": 1067,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AMX 65 t",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-65-t",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.797187,
+        "turret_pos_z": 0.39069,
+        "turret_slots": [
+            {
+                "id": 87,
+                "pos_x": 0,
+                "pos_y": 0.797187,
+                "pos_z": 0.39069,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "F81_Char_de_65t"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 250,
+                "armor_rear": 60,
+                "armor_side": 120,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": -2.9e-05,
+                "gun_pos_y": 0.521988,
+                "gun_pos_z": 1.30077,
+                "health": 290,
+                "id": 115,
+                "identifier": "Turret_1_F81_Char_de_65t",
+                "name": "AMX M4 mle. 49 Modifi\u00e9",
+                "not_in_shop": false,
+                "price": 20000,
+                "rotation_speed": 23,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "F81_Char_de_65t",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Turret_01.model",
+                "weight": 16000
+            },
+            {
+                "Guns": null,
+                "armor_front": 250,
+                "armor_rear": 60,
+                "armor_side": 80,
+                "collision_model": "vehicles/french/F81_Char_de_65t/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 220
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 160
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": -2.9e-05,
+                "gun_pos_y": 0.646953,
+                "gun_pos_z": 0.181283,
+                "health": 390,
+                "id": 116,
+                "identifier": "Turret_2_F81_Char_de_65t",
+                "name": "AMX 65 t tourelle classique de 120",
+                "not_in_shop": false,
+                "price": 32000,
+                "rotation_speed": 26,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "F81_Char_de_65t",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Turret_02.model",
+                "weight": 18000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_F81_Char_de_65t_2",
+                "name": "Chassis_F81_Char_de_65t_2",
+                "parent_key": "chassis-Chassis_F81_Char_de_65t",
+                "price": 16600,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_100mm_SA_47",
+                "name": "_100mm_SA_47",
+                "parent_key": "gun-_90mm_canon_DCA_45",
+                "price": 34500,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_F81_Char_de_65t",
+                "name": "Turret_2_F81_Char_de_65t",
+                "parent_key": "gun-_100mm_SA_47",
+                "price": 15000,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_120mm_D_1203",
+                "name": "_120mm_D_1203",
+                "parent_key": "turret-Turret_2_F81_Char_de_65t",
+                "price": 46000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F83_AMX_M4_Mle1949_Bis",
+                "name": "F83_AMX_M4_Mle1949_Bis",
+                "parent_key": "turret-Turret_2_F81_Char_de_65t",
+                "price": 151700,
+                "tank_name": "AMX M4 51",
+                "tank_price": 3580000,
+                "tank_slug": "amx-m4-51",
+                "tank_tier": 9,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_HL_295",
+                "name": "Maybach_HL_295",
+                "parent_key": "engine-Maybach_HL_230P45",
+                "price": 24700,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Maybach_HL_295_a_injection_d_essence",
+                "name": "Maybach_HL_295_a_injection_d_essence",
+                "parent_key": "engine-Maybach_HL_295",
+                "price": 27000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0921ct",
+        "visual_model": "vehicles/french/F81_Char_de_65t/normal/lod0/Hull.model",
+        "weight": 28840,
+        "xp_factor": 1
+    }
+}

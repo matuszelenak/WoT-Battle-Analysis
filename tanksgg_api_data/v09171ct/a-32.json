@@ -1,0 +1,473 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 35,
+        "armor_rear": 16,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.42,
+        "camo_moving": 0.21,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.28,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 36500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R68_A-32/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.884026,
+                "hull_pos_z": 0,
+                "id": 878,
+                "identifier": "A-32",
+                "max_climb_angle": 25,
+                "max_load": 21300,
+                "name": "A-32",
+                "not_in_shop": true,
+                "price": 7960,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "R68_A-32",
+                "terrain_hard": 1.03,
+                "terrain_medium": 1.14,
+                "terrain_soft": 2.06,
+                "tier": 5,
+                "visual_model": "vehicles/russian/R68_A-32/normal/lod0/Chassis.model",
+                "weight": 5000
+            }
+        ],
+        "collision_model": "vehicles/russian/R68_A-32/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Experimental medium tank. The A-32 and A-20 were developed at the same time. Both prototypes were built in 1939 and passed trials, which resulted in the A-32 receiving thicker 45 mm armor. The A-32 was adopted for service and evolved into the T-34.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 105,
+                "id": 981,
+                "identifier": "BD-2",
+                "name": "BD-2",
+                "not_in_shop": true,
+                "power": 540,
+                "price": 18750,
+                "repair_health": 52,
+                "repair_price": 4,
+                "tags": "diesel",
+                "tank_id": "R68_A-32",
+                "tier": 5,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 70,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 2500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.28571,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R68_A-32/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.44,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 22,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 94,
+                "id": 1563,
+                "identifier": "_76mm_L-10U",
+                "max_ammo": 72,
+                "name": "76 mm L-10U",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.311338,
+                            7
+                        ],
+                        [
+                            0.375,
+                            4
+                        ],
+                        [
+                            0.625,
+                            4
+                        ],
+                        [
+                            0.688662,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -22
+                        ],
+                        [
+                            1,
+                            -22
+                        ]
+                    ]
+                },
+                "price": 10310,
+                "reload_time": 4.57143,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 750,
+                "visual_model": "vehicles/russian/R68_A-32/normal/lod0/Gun_01.model",
+                "weight": 641,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 288,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R68_A-32",
+        "name": "A-32",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 1024,
+                "identifier": "_71-TK-3U",
+                "name": "71-TK-3U",
+                "not_in_shop": true,
+                "price": 570,
+                "range": 440,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R68_A-32",
+                "tier": 4,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1563,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KA",
+                "min_penetration": 61,
+                "module_damage": 105,
+                "name": "UBR-354KA",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 558,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1563,
+                "icon": "ap",
+                "id": "_76mm_UBR-354KB",
+                "min_penetration": 80,
+                "module_damage": 105,
+                "name": "UBR-354KB",
+                "penetration": 98,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 558,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 164,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1563,
+                "icon": "he",
+                "id": "_76mm_UOF-354K",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354K",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 558,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "A-32",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "a-32",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "enhancedSuspension_Christie_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.677774,
+        "turret_pos_z": 0.56978,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 35,
+                "armor_rear": 35,
+                "armor_side": 35,
+                "collision_model": "vehicles/russian/R68_A-32/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.3382,
+                "gun_pos_z": 0.7088,
+                "health": 72,
+                "id": 750,
+                "identifier": "A-32_mod_1939",
+                "name": "A-32",
+                "not_in_shop": true,
+                "price": 3980,
+                "rotation_speed": 40.25,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "R68_A-32",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/russian/R68_A-32/normal/lod0/Turret_01.model",
+                "weight": 3200
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v09171ct",
+        "visual_model": "vehicles/russian/R68_A-32/normal/lod0/Hull.model",
+        "weight": 9600,
+        "xp_factor": 1.5
+    }
+}

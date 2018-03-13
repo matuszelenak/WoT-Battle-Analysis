@@ -1,0 +1,1253 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 17
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 15,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.458,
+        "camo_moving": 0.229,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.305,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 35000,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.932116,
+                "hull_pos_z": 0,
+                "id": 248,
+                "identifier": "Pz38t_Standardketten",
+                "max_climb_angle": 25,
+                "max_load": 9900,
+                "name": "Pz.Kpfw. 38 (t) Ausf. A",
+                "not_in_shop": false,
+                "price": 620,
+                "repair_health": 45,
+                "repair_price": 1,
+                "rotation_speed": 32,
+                "tank_id": "G08_Pz38t",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 2,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Chassis.model",
+                "weight": 3200
+            },
+            {
+                "armor": 10,
+                "brake_force": 35000,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Chassis.model",
+                "dispersion_movement": 0.21,
+                "dispersion_rotation": 0.21,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.932116,
+                "hull_pos_z": 0,
+                "id": 249,
+                "identifier": "Pz38t_Vetstaerktketten",
+                "max_climb_angle": 25,
+                "max_load": 12300,
+                "name": "Pz.Kpfw. 38 (t) Ausf. E",
+                "not_in_shop": false,
+                "price": 1620,
+                "repair_health": 55,
+                "repair_price": 1,
+                "rotation_speed": 35,
+                "tank_id": "G08_Pz38t",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Chassis.model",
+                "weight": 3200
+            }
+        ],
+        "collision_model": "vehicles/german/G08_Pz38t/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed by the \u010cKD company for the Czechoslovakian Army in 1938. During the German occupation, the vehicle saw service in the Wehrmacht and was used in the Polish and French Campaigns, as well as on the Eastern Front. The tank saw combat on the front line until the middle of 1942. Approximately 1,400 vehicles in eight modifications (Ausf. A/B/C/D/E/F/S/G) were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 270,
+                "identifier": "Praga_TNPS",
+                "name": "Praga TNPS",
+                "not_in_shop": false,
+                "power": 120,
+                "price": 1150,
+                "repair_health": 19,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "G08_Pz38t",
+                "tier": 2,
+                "weight": 350
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 100,
+                "id": 271,
+                "identifier": "Praga_EPA_2",
+                "name": "Praga EPA/2",
+                "not_in_shop": false,
+                "power": 140,
+                "price": 4220,
+                "repair_health": 49,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G08_Pz38t",
+                "tier": 3,
+                "weight": 470
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 100,
+                "id": 272,
+                "identifier": "Praga_EPA_3",
+                "name": "Praga EPA/3",
+                "not_in_shop": false,
+                "power": 200,
+                "price": 10810,
+                "repair_health": 49,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G08_Pz38t",
+                "tier": 4,
+                "weight": 470
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 42,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 426,
+                "identifier": "_37mm_KwK_38t_L47",
+                "max_ammo": 90,
+                "name": "3,7 cm Kw.K. 38 (t) L/47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2730,
+                "reload_time": 2.3,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 210,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Gun_01.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.13333334,
+                "clip_size": 10,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "id": 427,
+                "identifier": "_20mm_Flak_38_L112",
+                "max_ammo": 340,
+                "name": "2 cm Flak 38",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 3160,
+                "reload_time": 3.9,
+                "repair_health": 25,
+                "repair_price": 0.5,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 210,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Gun_02.model",
+                "weight": 110,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 428,
+                "identifier": "_37mm_KwK_38t_L47",
+                "max_ammo": 90,
+                "name": "3,7 cm Kw.K. 38 (t) L/47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2730,
+                "reload_time": 2.3,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 211,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Gun_03.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.13333334,
+                "clip_size": 10,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.3,
+                "dispersion_rotation": 0.07,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "id": 429,
+                "identifier": "_20mm_Flak_38_L112",
+                "max_ammo": 340,
+                "name": "2 cm Flak 38",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.380783,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            8
+                        ],
+                        [
+                            0.555556,
+                            8
+                        ],
+                        [
+                            0.619218,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 3160,
+                "reload_time": 3.4,
+                "repair_health": 25,
+                "repair_price": 0.5,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 211,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Gun_04.model",
+                "weight": 110,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 430,
+                "identifier": "_47mm_PaK_38t_L43",
+                "max_ammo": 56,
+                "name": "4,7 cm Kw.K. (t) L/43",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 3460,
+                "reload_time": 2.3,
+                "repair_health": 35,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 211,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Gun_05.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 160,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G08_Pz38t",
+        "name": "Pz.Kpfw. 38 (t)",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 33000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 267,
+                "identifier": "FuG37",
+                "name": "FuG 37",
+                "not_in_shop": false,
+                "price": 180,
+                "range": 290,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G08_Pz38t",
+                "tier": 2,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 268,
+                "identifier": "FuG5",
+                "name": "FuG 5",
+                "not_in_shop": false,
+                "price": 630,
+                "range": 310,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G08_Pz38t",
+                "tier": 3,
+                "weight": 50
+            },
+            {
+                "health": 140,
+                "id": 269,
+                "identifier": "FuG8",
+                "name": "FuG 8",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "G08_Pz38t",
+                "tier": 8,
+                "weight": 50
+            }
+        ],
+        "repair_price": 2.49,
+        "reverse_speed": 18,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 426,
+                "icon": "ap",
+                "id": "_37mm_Pzgr39t",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "Pzgr 39 (t)",
+                "penetration": 42,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 426,
+                "icon": "ap_cr",
+                "id": "_37cm_Pzgr40t",
+                "min_penetration": 38,
+                "module_damage": 50,
+                "name": "Pzgr 40 (t)",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 938,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 426,
+                "icon": "he",
+                "id": "_37mm_Sprg.18t",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Sprgr 18 (t)",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 427,
+                "icon": "ap",
+                "id": "_20mm_Pzgr39",
+                "min_penetration": 18,
+                "module_damage": 27,
+                "name": "Pzgr 39",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 3,
+                "range": 400,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 427,
+                "icon": "ap_cr",
+                "id": "_20cm_Pzgr40",
+                "min_penetration": 24,
+                "module_damage": 27,
+                "name": "Pzgr 40",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 428,
+                "icon": "ap",
+                "id": "_37mm_Pzgr39t",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "Pzgr 39 (t)",
+                "penetration": 42,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 428,
+                "icon": "ap_cr",
+                "id": "_37cm_Pzgr40t",
+                "min_penetration": 38,
+                "module_damage": 50,
+                "name": "Pzgr 40 (t)",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 938,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 428,
+                "icon": "he",
+                "id": "_37mm_Sprg.18t",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Sprgr 18 (t)",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 429,
+                "icon": "ap",
+                "id": "_20mm_Pzgr39",
+                "min_penetration": 18,
+                "module_damage": 27,
+                "name": "Pzgr 39",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 3,
+                "range": 400,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 429,
+                "icon": "ap_cr",
+                "id": "_20cm_Pzgr40",
+                "min_penetration": 24,
+                "module_damage": 27,
+                "name": "Pzgr 40",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 60,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 430,
+                "icon": "ap",
+                "id": "_47mm_Pzgr39t",
+                "min_penetration": 55,
+                "module_damage": 64,
+                "name": "Pzgr 39 (t)",
+                "penetration": 62,
+                "penetration_loss": 0,
+                "price": 16,
+                "range": 720,
+                "speed": 775,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 60,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 430,
+                "icon": "ap_cr",
+                "id": "_47cm_Pzgr40t",
+                "min_penetration": 68,
+                "module_damage": 64,
+                "name": "Pzgr 40 (t)",
+                "penetration": 115,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 969,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 75,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 430,
+                "icon": "he",
+                "id": "_47mm_Sprg.18t",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "Sprgr 18 (t)",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 775,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz. 38 (t)",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pz-38-t",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedSprings_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -1.8e-05,
+        "turret_pos_y": 0.509794,
+        "turret_pos_z": 0.239422,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25,
+                "armor_rear": 15,
+                "armor_side": 15,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25
+                    }
+                ],
+                "gun_pos_x": 0.001796,
+                "gun_pos_y": 0.273741,
+                "gun_pos_z": 0.519247,
+                "health": 40,
+                "id": 210,
+                "identifier": "LT-40_turm",
+                "name": "Pz.Kpfw. 38 (t) Ausf. A",
+                "not_in_shop": false,
+                "price": 1620,
+                "rotation_speed": 32,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "G08_Pz38t",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Turret_01.model",
+                "weight": 1200
+            },
+            {
+                "Guns": null,
+                "armor_front": 50,
+                "armor_rear": 25,
+                "armor_side": 30,
+                "collision_model": "vehicles/german/G08_Pz38t/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 15
+                    }
+                ],
+                "gun_pos_x": -1.3e-05,
+                "gun_pos_y": 0.273741,
+                "gun_pos_z": 0.571307,
+                "health": 90,
+                "id": 211,
+                "identifier": "Pz38t_Ausf_G_turm",
+                "name": "Pz.Kpfw. 38 (t) Ausf. E/F",
+                "not_in_shop": false,
+                "price": 4000,
+                "rotation_speed": 32,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "G08_Pz38t",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Turret_02.model",
+                "weight": 1800
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Pz38t_Vetstaerktketten",
+                "name": "Pz38t_Vetstaerktketten",
+                "parent_key": "chassis-Pz38t_Standardketten",
+                "price": 300,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Pz38t_Ausf_G_turm",
+                "name": "Pz38t_Ausf_G_turm",
+                "parent_key": "turret-LT-40_turm",
+                "price": 840,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_20mm_Flak_38_L112",
+                "name": "_20mm_Flak_38_L112",
+                "parent_key": "gun-_37mm_KwK_38t_L47",
+                "price": 160,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_47mm_PaK_38t_L43",
+                "name": "_47mm_PaK_38t_L43",
+                "parent_key": "turret-Pz38t_Ausf_G_turm",
+                "price": 130,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Praga_EPA_2",
+                "name": "Praga_EPA_2",
+                "parent_key": "engine-Praga_TNPS",
+                "price": 550,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Praga_EPA_3",
+                "name": "Praga_EPA_3",
+                "parent_key": "engine-Praga_EPA_2",
+                "price": 1000,
+                "type": "engine"
+            },
+            {
+                "key": "vehicle-G52_Pz38_NA",
+                "name": "G52_Pz38_NA",
+                "parent_key": "engine-Praga_EPA_3",
+                "price": 3800,
+                "tank_name": "Pz. 38 nA",
+                "tank_price": 145000,
+                "tank_slug": "pz-38-na",
+                "tank_tier": 4,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-FuG5",
+                "name": "FuG5",
+                "parent_key": "radio-FuG37",
+                "price": 0,
+                "type": "radio"
+            },
+            {
+                "key": "radio-FuG8",
+                "name": "FuG8",
+                "parent_key": "radio-FuG5",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v09201ct",
+        "visual_model": "vehicles/german/G08_Pz38t/normal/lod0/Hull.model",
+        "weight": 4200,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,2407 @@
+{
+    "tank": {
+        "ammo_rack_health": 2500,
+        "ammo_rack_repair_health": 500,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 220
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 250
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": true,
+                "value": 350
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 60
+            }
+        ],
+        "armor_front": 220,
+        "armor_rear": 350,
+        "armor_side": 120,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.395,
+        "camo_moving": 0.005,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.005,
+        "chassis": [
+            {
+                "armor": 800,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Chassis.model",
+                "dispersion_movement": 0.42,
+                "dispersion_rotation": 0.42,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 800
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 800
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 800
+                    }
+                ],
+                "health": 2500,
+                "hull_pos_x": 0,
+                "hull_pos_y": 4.50027,
+                "hull_pos_z": 0,
+                "id": 271,
+                "identifier": "Chassis_G150_Leviathan",
+                "max_climb_angle": 25,
+                "max_load": 800000,
+                "name": "Chassis_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 240,
+                "repair_health": 1000,
+                "repair_price": 1,
+                "rotation_speed": 34,
+                "tank_id": "G150_Leviathan",
+                "terrain_hard": 1,
+                "terrain_medium": 1.35,
+                "terrain_soft": 1.95,
+                "tier": 1,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Chassis.model",
+                "weight": 32000
+            }
+        ],
+        "collision_model": "vehicles/german/G150_Leviathan/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Lord of the Armored Afterlife, Leviathan passes judgement on the countless fallen vehicles who are doomed to eternal battles in its domain.",
+        "engines": [
+            {
+                "fire_chance": 0,
+                "health": 2000,
+                "id": 296,
+                "identifier": "Leviathan_Mk1_Engine",
+                "name": "The Uber Engine",
+                "not_in_shop": true,
+                "power": 1250,
+                "price": 35500,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G150_Leviathan",
+                "tier": 8,
+                "weight": 2850
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 20,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 0.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_01.model",
+                "depression": 14.5,
+                "dispersion": 0.35,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.01,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 455,
+                "identifier": "Gun_1_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "The Uber Gun",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            11.7
+                        ],
+                        [
+                            0.08,
+                            11.7
+                        ],
+                        [
+                            0.1,
+                            11.2
+                        ],
+                        [
+                            0.12,
+                            11.2
+                        ],
+                        [
+                            0.16,
+                            14.5
+                        ],
+                        [
+                            0.3,
+                            14.5
+                        ],
+                        [
+                            0.5,
+                            12
+                        ],
+                        [
+                            0.7,
+                            14.5
+                        ],
+                        [
+                            0.84,
+                            14.5
+                        ],
+                        [
+                            0.88,
+                            11.2
+                        ],
+                        [
+                            0.9,
+                            11.2
+                        ],
+                        [
+                            0.92,
+                            11.7
+                        ],
+                        [
+                            1,
+                            11.7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 6,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 231,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_01.model",
+                "weight": 3480,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 0.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_02.model",
+                "depression": 13,
+                "dispersion": 0.5,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.01,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 456,
+                "identifier": "Gun_2_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_9_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            13
+                        ],
+                        [
+                            1,
+                            13
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -23
+                        ],
+                        [
+                            1,
+                            -23
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 1,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 232,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_02.model",
+                "weight": 3480,
+                "yaw_left": -80.5,
+                "yaw_right": 4
+            },
+            {
+                "Shells": null,
+                "aim_time": 0.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_03.model",
+                "depression": 12,
+                "dispersion": 0.5,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.01,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 457,
+                "identifier": "Gun_3_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_9_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            0.15,
+                            9
+                        ],
+                        [
+                            0.16,
+                            12
+                        ],
+                        [
+                            0.92,
+                            12
+                        ],
+                        [
+                            0.93,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -23
+                        ],
+                        [
+                            1,
+                            -23
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 1,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 233,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_03.model",
+                "weight": 3480,
+                "yaw_left": -90,
+                "yaw_right": 4
+            },
+            {
+                "Shells": null,
+                "aim_time": 1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_04.model",
+                "depression": 13,
+                "dispersion": 0.15,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.01,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 458,
+                "identifier": "Gun_4_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_5_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9.8
+                        ],
+                        [
+                            0.66,
+                            9.8
+                        ],
+                        [
+                            0.67,
+                            13
+                        ],
+                        [
+                            0.83,
+                            13
+                        ],
+                        [
+                            0.84,
+                            9.8
+                        ],
+                        [
+                            1,
+                            9.8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -9.8
+                        ],
+                        [
+                            0.66,
+                            -9.8
+                        ],
+                        [
+                            0.67,
+                            -23
+                        ],
+                        [
+                            0.83,
+                            -23
+                        ],
+                        [
+                            0.84,
+                            -9.8
+                        ],
+                        [
+                            1,
+                            -9.8
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.5,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 234,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_04.model",
+                "weight": 3480,
+                "yaw_left": -145,
+                "yaw_right": -35
+            },
+            {
+                "Shells": null,
+                "aim_time": 0.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_05.model",
+                "depression": 13,
+                "dispersion": 0.5,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.03,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 459,
+                "identifier": "Gun_5_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_9_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            13
+                        ],
+                        [
+                            1,
+                            13
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -23
+                        ],
+                        [
+                            1,
+                            -23
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 1,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 235,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_05.model",
+                "weight": 3480,
+                "yaw_left": -170,
+                "yaw_right": -104.6
+            },
+            {
+                "Shells": null,
+                "aim_time": 0.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_06.model",
+                "depression": 12,
+                "dispersion": 0.5,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.03,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 460,
+                "identifier": "Gun_6_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_9_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            0.15,
+                            9
+                        ],
+                        [
+                            0.16,
+                            12
+                        ],
+                        [
+                            0.92,
+                            12
+                        ],
+                        [
+                            0.93,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -23
+                        ],
+                        [
+                            1,
+                            -23
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 1,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 236,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_06.model",
+                "weight": 3480,
+                "yaw_left": -4,
+                "yaw_right": 90
+            },
+            {
+                "Shells": null,
+                "aim_time": 0.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_07.model",
+                "depression": 13,
+                "dispersion": 0.5,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.03,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 461,
+                "identifier": "Gun_7_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_9_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            13
+                        ],
+                        [
+                            1,
+                            13
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -23
+                        ],
+                        [
+                            1,
+                            -23
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 1,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 237,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_07.model",
+                "weight": 3480,
+                "yaw_left": -4,
+                "yaw_right": 80.5
+            },
+            {
+                "Shells": null,
+                "aim_time": 1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_08.model",
+                "depression": 13,
+                "dispersion": 0.3,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.03,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 462,
+                "identifier": "Gun_8_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_5_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9.8
+                        ],
+                        [
+                            0.16,
+                            9.8
+                        ],
+                        [
+                            0.17,
+                            13
+                        ],
+                        [
+                            0.33,
+                            13
+                        ],
+                        [
+                            0.34,
+                            9.8
+                        ],
+                        [
+                            1,
+                            9.8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -9.8
+                        ],
+                        [
+                            0.16,
+                            -9.8
+                        ],
+                        [
+                            0.17,
+                            -23
+                        ],
+                        [
+                            0.33,
+                            -23
+                        ],
+                        [
+                            0.34,
+                            -9.8
+                        ],
+                        [
+                            1,
+                            -9.8
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.5,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 238,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_08.model",
+                "weight": 3480,
+                "yaw_left": 35,
+                "yaw_right": 145
+            },
+            {
+                "Shells": null,
+                "aim_time": 0.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_09.model",
+                "depression": 13,
+                "dispersion": 0.5,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.03,
+                "elevation": 23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 463,
+                "identifier": "Gun_9_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_9_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            13
+                        ],
+                        [
+                            1,
+                            13
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -23
+                        ],
+                        [
+                            1,
+                            -23
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 1,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 239,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_09.model",
+                "weight": 3480,
+                "yaw_left": 104.6,
+                "yaw_right": 170
+            },
+            {
+                "Shells": null,
+                "aim_time": 1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_10.model",
+                "depression": 90,
+                "dispersion": 0.37714285,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.03,
+                "elevation": 90,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 464,
+                "identifier": "Gun_10_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_10_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            -90
+                        ],
+                        [
+                            1,
+                            -90
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -90
+                        ],
+                        [
+                            1,
+                            -90
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 0.1,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 240,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_10.model",
+                "weight": 3480,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_11.model",
+                "depression": 90,
+                "dispersion": 0.37714285,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.03,
+                "elevation": 90,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 465,
+                "identifier": "Gun_11_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_11_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            -90
+                        ],
+                        [
+                            1,
+                            -90
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -90
+                        ],
+                        [
+                            1,
+                            -90
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 0.1,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 241,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_11.model",
+                "weight": 3480,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Gun_12.model",
+                "depression": 15,
+                "dispersion": 0.1,
+                "dispersion_damaged": 1,
+                "dispersion_firing": 1,
+                "dispersion_rotation": 0.03,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    }
+                ],
+                "health": 220,
+                "id": 466,
+                "identifier": "Gun_12_G150_Leviathan_Mk1",
+                "max_ammo": 300,
+                "name": "Gun_12_G150_Leviathan_Mk1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.5,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 242,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Gun_12.model",
+                "weight": 3480,
+                "yaw_left": -25,
+                "yaw_right": 25
+            }
+        ],
+        "health": 21500,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G150_Leviathan",
+        "name": "Leviathan",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 12,
+        "price": 100,
+        "radios": [
+            {
+                "health": 90,
+                "id": 296,
+                "identifier": "Development_Radio",
+                "name": "Development Radio",
+                "not_in_shop": true,
+                "price": 0,
+                "range": 90,
+                "repair_health": 75,
+                "repair_price": 0,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "weight": 1
+            }
+        ],
+        "repair_price": 0,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 150,
+                "damage": 900,
+                "explosion_radius": 12,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 455,
+                "icon": "he",
+                "id": "_128mm_LevMk1",
+                "min_penetration": 180,
+                "module_damage": 200,
+                "name": "Pzgr 39 K",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 600,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 230,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 456,
+                "icon": "ap",
+                "id": "_60mm_LevMk1_B",
+                "min_penetration": 190,
+                "module_damage": 15,
+                "name": "AP T 33",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 350,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 230,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 457,
+                "icon": "ap",
+                "id": "_60mm_LevMk1_B",
+                "min_penetration": 140,
+                "module_damage": 15,
+                "name": "AP T 33",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 350,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 230,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 458,
+                "icon": "ap",
+                "id": "_105mm_LevMk1_A",
+                "min_penetration": 180,
+                "module_damage": 50,
+                "name": "Pzgr 39 K",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 450,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 230,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 459,
+                "icon": "ap",
+                "id": "_60mm_LevMk1_B",
+                "min_penetration": 140,
+                "module_damage": 15,
+                "name": "AP T 33",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 350,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 230,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 460,
+                "icon": "ap",
+                "id": "_60mm_LevMk1_B",
+                "min_penetration": 140,
+                "module_damage": 15,
+                "name": "AP T 33",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 350,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 230,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 461,
+                "icon": "ap",
+                "id": "_60mm_LevMk1_B",
+                "min_penetration": 140,
+                "module_damage": 15,
+                "name": "AP T 33",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 350,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 230,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 462,
+                "icon": "ap",
+                "id": "_105mm_LevMk1_A",
+                "min_penetration": 180,
+                "module_damage": 50,
+                "name": "Pzgr 39 K",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 450,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 230,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 463,
+                "icon": "ap",
+                "id": "_60mm_LevMk1_B",
+                "min_penetration": 140,
+                "module_damage": 15,
+                "name": "AP T 33",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 350,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 250,
+                "damage": 540,
+                "explosion_radius": 6.5,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 464,
+                "icon": "he",
+                "id": "_150mm_LevMk1_Mortar",
+                "min_penetration": 110,
+                "module_damage": 1,
+                "name": "Sprgr 18",
+                "penetration": 150,
+                "penetration_loss": 0,
+                "price": 505,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 250,
+                "damage": 540,
+                "explosion_radius": 6.5,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 465,
+                "icon": "he",
+                "id": "_150mm_LevMk1_Mortar",
+                "min_penetration": 110,
+                "module_damage": 1,
+                "name": "Sprgr 18",
+                "penetration": 150,
+                "penetration_loss": 0,
+                "price": 505,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 230,
+                "damage": 350,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 466,
+                "icon": "ap",
+                "id": "_105mm_LevMk1_A",
+                "min_penetration": 180,
+                "module_damage": 50,
+                "name": "Pzgr 39 K",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 720,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Leviathan",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "leviathan",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "leviathan"
+            },
+            {
+                "name": "multi_turret"
+            },
+            {
+                "name": "event_battles"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0.049647,
+        "turret_pos_y": 4.514674,
+        "turret_pos_z": -1.729109,
+        "turret_slots": [
+            {
+                "id": 183,
+                "pos_x": 0.049647,
+                "pos_y": 4.514674,
+                "pos_z": -1.729109,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 184,
+                "pos_x": -7.867411,
+                "pos_y": -1.234765,
+                "pos_z": 3.868053,
+                "rot_x": 0,
+                "rot_y": -45,
+                "rot_z": 0,
+                "slot": 1,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 185,
+                "pos_x": -7.578469,
+                "pos_y": 0.046691,
+                "pos_z": 2.272056,
+                "rot_x": 0,
+                "rot_y": -45,
+                "rot_z": 0,
+                "slot": 2,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 186,
+                "pos_x": -8.91583,
+                "pos_y": -0.519326,
+                "pos_z": -1.648132,
+                "rot_x": 0,
+                "rot_y": -90,
+                "rot_z": 0,
+                "slot": 3,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 187,
+                "pos_x": -6.781894,
+                "pos_y": -1.231304,
+                "pos_z": -8.790144,
+                "rot_x": 0,
+                "rot_y": -135,
+                "rot_z": 0,
+                "slot": 4,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 188,
+                "pos_x": 7.577945,
+                "pos_y": 0.052731,
+                "pos_z": 2.273483,
+                "rot_x": 0,
+                "rot_y": 45,
+                "rot_z": 0,
+                "slot": 5,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 189,
+                "pos_x": 7.87056,
+                "pos_y": -1.248835,
+                "pos_z": 3.870625,
+                "rot_x": 0,
+                "rot_y": 45,
+                "rot_z": 0,
+                "slot": 6,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 190,
+                "pos_x": 8.909719,
+                "pos_y": -0.519323,
+                "pos_z": -1.647018,
+                "rot_x": 0,
+                "rot_y": 90,
+                "rot_z": 0,
+                "slot": 7,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 191,
+                "pos_x": 6.784113,
+                "pos_y": -1.235629,
+                "pos_z": -8.78822,
+                "rot_x": 0,
+                "rot_y": 135,
+                "rot_z": 0,
+                "slot": 8,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 192,
+                "pos_x": 2.889233,
+                "pos_y": 1.655934,
+                "pos_z": -10.611002,
+                "rot_x": -90,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 9,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 193,
+                "pos_x": -2.782234,
+                "pos_y": 1.654401,
+                "pos_z": -10.610994,
+                "rot_x": -90,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 10,
+                "tank_id": "G150_Leviathan"
+            },
+            {
+                "id": 194,
+                "pos_x": -2.52167,
+                "pos_y": 2.858448,
+                "pos_z": 5.351262,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 11,
+                "tank_id": "G150_Leviathan"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 200,
+                "armor_rear": 60,
+                "armor_side": 130,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0.75,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0.25,
+                        "name": "armor_10",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": -0.049647,
+                "gun_pos_y": 1.16453,
+                "gun_pos_z": 2.32898,
+                "health": 1000,
+                "id": 231,
+                "identifier": "Turret_1_G150_Leviathan",
+                "name": "Turret_1_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 25,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_01.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.004703,
+                "gun_pos_y": 0.021859,
+                "gun_pos_z": 0.265558,
+                "health": 500,
+                "id": 232,
+                "identifier": "Turret_2_G150_Leviathan",
+                "name": "Turret_2_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 30,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 1,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_02.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_03.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.001382,
+                "gun_pos_y": 0.040049,
+                "gun_pos_z": 0.286219,
+                "health": 500,
+                "id": 233,
+                "identifier": "Turret_3_G150_Leviathan",
+                "name": "Turret_3_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 30,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 2,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_03.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_04.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.092234,
+                "gun_pos_y": -0.001437,
+                "gun_pos_z": 0.519818,
+                "health": 500,
+                "id": 234,
+                "identifier": "Turret_4_G150_Leviathan",
+                "name": "Turret_4_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 25,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 3,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_04.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_05.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.003459,
+                "gun_pos_y": 0.021232,
+                "gun_pos_z": 0.265134,
+                "health": 500,
+                "id": 235,
+                "identifier": "Turret_5_G150_Leviathan",
+                "name": "Turret_5_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 30,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 4,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_05.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_06.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.003218,
+                "gun_pos_y": 0.020597,
+                "gun_pos_z": 0.263963,
+                "health": 500,
+                "id": 236,
+                "identifier": "Turret_6_G150_Leviathan",
+                "name": "Turret_6_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 30,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 5,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_06.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_07.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.003108,
+                "gun_pos_y": 0.020246,
+                "gun_pos_z": 0.265181,
+                "health": 500,
+                "id": 237,
+                "identifier": "Turret_7_G150_Leviathan",
+                "name": "Turret_7_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 30,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 6,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_07.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_08.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.006547,
+                "gun_pos_y": -0.001434,
+                "gun_pos_z": 0.522846,
+                "health": 500,
+                "id": 238,
+                "identifier": "Turret_8_G150_Leviathan",
+                "name": "Turret_8_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 30,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 7,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_08.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_09.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.003109,
+                "gun_pos_y": 0.021295,
+                "gun_pos_z": 0.264936,
+                "health": 500,
+                "id": 239,
+                "identifier": "Turret_9_G150_Leviathan",
+                "name": "Turret_9_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 30,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 8,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_09.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_10.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.005329,
+                "gun_pos_y": -0.063769,
+                "gun_pos_z": 0.848603,
+                "health": 500,
+                "id": 240,
+                "identifier": "Turret_10_G150_Leviathan",
+                "name": "Turret_10_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 20,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 9,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_10.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_11.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.031763,
+                "gun_pos_y": -0.053212,
+                "gun_pos_z": 0.849479,
+                "health": 500,
+                "id": 241,
+                "identifier": "Turret_11_G150_Leviathan",
+                "name": "Turret_11_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 20,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 10,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_11.model",
+                "weight": 12000
+            },
+            {
+                "Guns": null,
+                "armor_front": 180,
+                "armor_rear": 16,
+                "armor_side": 16,
+                "collision_model": "vehicles/german/G150_Leviathan/collision_client/Turret_12.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.137851,
+                "gun_pos_y": 0.209176,
+                "gun_pos_z": 1.023022,
+                "health": 500,
+                "id": 242,
+                "identifier": "Turret_12_G150_Leviathan",
+                "name": "Turret_12_G150_Leviathan",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 20,
+                "rotator_health": 1250,
+                "rotator_repair_health": 225,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 19,
+                "surveyor_repair_price": 1,
+                "tank_id": "G150_Leviathan",
+                "tier": 1,
+                "turret_slot": 11,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Turret_12.model",
+                "weight": 12000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "engine-Leviathan_Mk1_Engine",
+                "name": "Leviathan_Mk1_Engine",
+                "parent_key": "engine-Leviathan_Mk1_Engine",
+                "price": 0,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Development_Radio",
+                "name": "Development_Radio",
+                "parent_key": "radio-Development_Radio",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v092014",
+        "visual_model": "vehicles/german/G150_Leviathan/normal/lod0/Hull.model",
+        "weight": 298750,
+        "xp_factor": 1
+    }
+}

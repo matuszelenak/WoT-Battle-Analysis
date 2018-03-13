@@ -1,0 +1,675 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 40,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 11
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 16
+            }
+        ],
+        "armor_front": 15,
+        "armor_rear": 10,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.405,
+        "camo_moving": 0.135,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1,
+        "camo_still": 0.27,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 11000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G23_Grille/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.4,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.917627,
+                "hull_pos_z": 0,
+                "id": 270,
+                "identifier": "Grilleketten_ausf_A",
+                "max_climb_angle": 25,
+                "max_load": 11700,
+                "name": "Grille",
+                "not_in_shop": false,
+                "price": 3600,
+                "repair_health": 55,
+                "repair_price": 1,
+                "rotation_speed": 22,
+                "tank_id": "G23_Grille",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 4,
+                "visual_model": "vehicles/german/G23_Grille/normal/lod0/Chassis.model",
+                "weight": 5000
+            },
+            {
+                "armor": 10,
+                "brake_force": 12000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G23_Grille/collision_client/Chassis.model",
+                "dispersion_movement": 0.36,
+                "dispersion_rotation": 0.36,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.917627,
+                "hull_pos_z": 0,
+                "id": 271,
+                "identifier": "Grilleketten_ausf_B",
+                "max_climb_angle": 25,
+                "max_load": 14000,
+                "name": "Grille verst\u00e4rkteketten",
+                "not_in_shop": false,
+                "price": 8600,
+                "repair_health": 60,
+                "repair_price": 1,
+                "rotation_speed": 24,
+                "tank_id": "G23_Grille",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 5,
+                "visual_model": "vehicles/german/G23_Grille/normal/lod0/Chassis.model",
+                "weight": 5000
+            }
+        ],
+        "collision_model": "vehicles/german/G23_Grille/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "German WWII self-propelled gun. Developed on the Czechoslovakian Pz.Kpfw. 38(t) chassis from 1943 through 1944. A total of 282 vehicles were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 303,
+                "identifier": "Praga_EPA",
+                "name": "Praga EPA",
+                "not_in_shop": false,
+                "power": 130,
+                "price": 1250,
+                "repair_health": 19,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "G23_Grille",
+                "tier": 3,
+                "weight": 600
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 304,
+                "identifier": "Praga_EPA_AC",
+                "name": "Praga EPA AC",
+                "not_in_shop": false,
+                "power": 150,
+                "price": 9000,
+                "repair_health": 19,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "G23_Grille",
+                "tier": 4,
+                "weight": 600
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 42,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 6.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G23_Grille/collision_client/Gun_01.model",
+                "depression": 3,
+                "dispersion": 0.84,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.44,
+                "elevation": 72,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 100,
+                "id": 474,
+                "identifier": "_150mm_sIG33L11",
+                "max_ammo": 30,
+                "name": "15 cm s.I.G. 33 L/11",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -72
+                        ],
+                        [
+                            1,
+                            -72
+                        ]
+                    ]
+                },
+                "price": 8880,
+                "reload_time": 16,
+                "repair_health": 50,
+                "repair_price": 10,
+                "rotation_speed": 23.675,
+                "tier": 3,
+                "turret_id": 228,
+                "visual_model": "vehicles/german/G23_Grille/normal/lod0/Gun_01.model",
+                "weight": 760,
+                "yaw_left": -5,
+                "yaw_right": 5
+            },
+            {
+                "Shells": null,
+                "aim_time": 6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G23_Grille/collision_client/Gun_02.model",
+                "depression": 3,
+                "dispersion": 0.78,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.4,
+                "elevation": 72,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 160,
+                "id": 475,
+                "identifier": "_150mm_sFH13_L17",
+                "max_ammo": 30,
+                "name": "15 cm s.F.H. 13 L/17",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -72
+                        ],
+                        [
+                            1,
+                            -72
+                        ]
+                    ]
+                },
+                "price": 44920,
+                "reload_time": 23.5,
+                "repair_health": 80,
+                "repair_price": 10,
+                "rotation_speed": 23.675,
+                "tier": 5,
+                "turret_id": 228,
+                "visual_model": "vehicles/german/G23_Grille/normal/lod0/Gun_02.model",
+                "weight": 1200,
+                "yaw_left": -5,
+                "yaw_right": 5
+            }
+        ],
+        "health": 192,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G23_Grille",
+        "name": "Grille",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 400000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 301,
+                "identifier": "FuG37",
+                "name": "FuG 37",
+                "not_in_shop": false,
+                "price": 180,
+                "range": 290,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G23_Grille",
+                "tier": 2,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 302,
+                "identifier": "FuG7",
+                "name": "FuG 7",
+                "not_in_shop": false,
+                "price": 8160,
+                "range": 415,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G23_Grille",
+                "tier": 6,
+                "weight": 70
+            },
+            {
+                "health": 150,
+                "id": 303,
+                "identifier": "FuG12",
+                "name": "FuG 12",
+                "not_in_shop": false,
+                "price": 43200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "G23_Grille",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 6.55,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 150,
+                "damage": 350,
+                "explosion_radius": 3.57,
+                "gold_price": 0,
+                "gravity": 125,
+                "gun_id": 474,
+                "icon": "he",
+                "id": "_150mm_Sprg_L.erz.",
+                "min_penetration": 75,
+                "module_damage": 203,
+                "name": "Sprgr L erz.",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 200,
+                "range": 10000,
+                "speed": 275,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 150,
+                "damage": 450,
+                "explosion_radius": 3.57,
+                "gold_price": 0,
+                "gravity": 125,
+                "gun_id": 474,
+                "icon": "he",
+                "id": "_150mm_Sprg_L",
+                "min_penetration": 75,
+                "module_damage": 203,
+                "name": "Sprgr L",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 10000,
+                "speed": 275,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 150,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 125,
+                "gun_id": 474,
+                "icon": "hc",
+                "id": "_150mmGr_39H1A_L",
+                "min_penetration": 185,
+                "module_damage": 203,
+                "name": "Gr 39 H1A L",
+                "penetration": 185,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 10000,
+                "speed": 275,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 150,
+                "damage": 680,
+                "explosion_radius": 3.57,
+                "gold_price": 0,
+                "gravity": 150,
+                "gun_id": 475,
+                "icon": "he",
+                "id": "_150mm_Sprg",
+                "min_penetration": 75,
+                "module_damage": 203,
+                "name": "Sprgr 18",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 505,
+                "range": 10000,
+                "speed": 355,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 150,
+                "damage": 680,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 150,
+                "gun_id": 475,
+                "icon": "hc",
+                "id": "_150mmGr_39H1A",
+                "min_penetration": 185,
+                "module_damage": 203,
+                "name": "Gr 39 H1A",
+                "penetration": 185,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 10000,
+                "speed": 355,
+                "type": "HOLLOW_CHARGE"
+            }
+        ],
+        "short_name": "Grille",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "grille",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "enhancedSprings_user"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.587271,
+        "turret_pos_z": -1.06566,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G23_Grille/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.668724,
+                "gun_pos_z": 0.023913,
+                "health": 48,
+                "id": 228,
+                "identifier": "Grille_mod_1",
+                "name": "Grille",
+                "not_in_shop": true,
+                "price": 200,
+                "rotation_speed": 16,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "G23_Grille",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/german/G23_Grille/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Grilleketten_ausf_B",
+                "name": "Grilleketten_ausf_B",
+                "parent_key": "chassis-Grilleketten_ausf_A",
+                "price": 2150,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_150mm_sFH13_L17",
+                "name": "_150mm_sFH13_L17",
+                "parent_key": "gun-_150mm_sIG33L11",
+                "price": 5500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-G02_Hummel",
+                "name": "G02_Hummel",
+                "parent_key": "gun-_150mm_sFH13_L17",
+                "price": 28400,
+                "tank_name": "Hummel",
+                "tank_price": 930000,
+                "tank_slug": "hummel",
+                "tank_tier": 6,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Praga_EPA_AC",
+                "name": "Praga_EPA_AC",
+                "parent_key": "engine-Praga_EPA",
+                "price": 850,
+                "type": "engine"
+            },
+            {
+                "key": "radio-FuG7",
+                "name": "FuG7",
+                "parent_key": "radio-FuG37",
+                "price": 1360,
+                "type": "radio"
+            },
+            {
+                "key": "radio-FuG12",
+                "name": "FuG12",
+                "parent_key": "radio-FuG7",
+                "price": 7200,
+                "type": "radio"
+            }
+        ],
+        "version": "v09171ct",
+        "visual_model": "vehicles/german/G23_Grille/normal/lod0/Hull.model",
+        "weight": 4640,
+        "xp_factor": 1
+    }
+}

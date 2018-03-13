@@ -1,0 +1,535 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 102
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 76
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 51
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 51
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 38
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 19
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 38
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 122
+            }
+        ],
+        "armor_front": 102,
+        "armor_rear": 51,
+        "armor_side": 76,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.104,
+        "camo_moving": 0.034,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.069,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A13_T34_hvy/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.11556,
+                "hull_pos_z": 0,
+                "id": 712,
+                "identifier": "T80E3",
+                "max_climb_angle": 25,
+                "max_load": 71850,
+                "name": "T80E3",
+                "not_in_shop": true,
+                "price": 31500,
+                "repair_health": 165,
+                "repair_price": 5,
+                "rotation_speed": 22,
+                "tank_id": "A13_T34_hvy",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.7,
+                "terrain_soft": 3.4,
+                "tier": 8,
+                "visual_model": "vehicles/american/A13_T34_hvy/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/american/A13_T34_hvy/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed in 1945 as a modernization of the T30 heavy tank. The vehicle was equipped with the 120 mm T53 gun and the new Continental AV-1790 engine. Because of the decline in heavy tank development after the end of World War II, the T34 never entered service. The prototypes were used in field trials.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 782,
+                "identifier": "Continental_AV-1790-3A1",
+                "name": "Continental AV-1790-3A1",
+                "not_in_shop": true,
+                "power": 810,
+                "price": 67000,
+                "repair_health": 130,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A13_T34_hvy",
+                "tier": 9,
+                "weight": 1057
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 35,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 12000,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A13_T34_hvy/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.22,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 279
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 203
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 200,
+                "id": 1176,
+                "identifier": "_120mm_Gun_T53A1",
+                "max_ammo": 34,
+                "name": "120 mm Gun T53A1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.353005,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            0.646995,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 288000,
+                "reload_time": 15,
+                "repair_health": 100,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 9,
+                "turret_id": 607,
+                "visual_model": "vehicles/american/A13_T34_hvy/normal/lod0/Gun_01.model",
+                "weight": 2790,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1200,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A13_T34_hvy",
+        "name": "T34",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 836,
+                "identifier": "SCR_528A1",
+                "name": "SCR 528AM",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A13_T34_hvy",
+                "tier": 10,
+                "weight": 91
+            }
+        ],
+        "repair_price": 4.5,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1176,
+                "icon": "ap",
+                "id": "_120mm_AP_T42",
+                "min_penetration": 238,
+                "module_damage": 165,
+                "name": "AP T42",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 1060,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1176,
+                "icon": "ap_cr",
+                "id": "_120mm_APCR_T62",
+                "min_penetration": 255,
+                "module_damage": 165,
+                "name": "APCR T62",
+                "penetration": 297,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 120,
+                "damage": 515,
+                "explosion_radius": 2.42,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1176,
+                "icon": "he",
+                "id": "_120mm_HE-T67",
+                "min_penetration": 60,
+                "module_damage": 165,
+                "name": "HE T67",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 900,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T34",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t34",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.578733,
+        "turret_pos_z": 0.58255,
+        "turret_slots": [
+            {
+                "id": 473,
+                "pos_x": 0,
+                "pos_y": 0.578733,
+                "pos_z": 0.58255,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A13_T34_hvy"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 279.4,
+                "armor_rear": 203,
+                "armor_side": 127,
+                "collision_model": "vehicles/american/A13_T34_hvy/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 178
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 203
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 178
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 38
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 51
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 38
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 228.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 215.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 279.4
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.474,
+                "gun_pos_z": 1.07551,
+                "health": 300,
+                "id": 607,
+                "identifier": "T34T7",
+                "name": "T34T7",
+                "not_in_shop": true,
+                "price": 47700,
+                "rotation_speed": 18,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "A13_T34_hvy",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/american/A13_T34_hvy/normal/lod0/Turret_01.model",
+                "weight": 12800
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0921",
+        "visual_model": "vehicles/american/A13_T34_hvy/normal/lod0/Hull.model",
+        "weight": 38100,
+        "xp_factor": 1.5
+    }
+}

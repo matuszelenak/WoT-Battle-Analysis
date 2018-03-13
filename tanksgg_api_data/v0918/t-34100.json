@@ -1,0 +1,1351 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 45,
+        "armor_rear": 45,
+        "armor_side": 45,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.368,
+        "camo_moving": 0.184,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.245,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 34000,
+                "center_rotation": false,
+                "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.825291,
+                "hull_pos_z": 0,
+                "id": 62,
+                "identifier": "Chassis_Cz05_T34_100",
+                "max_climb_angle": 25,
+                "max_load": 33500,
+                "name": "T-34/85",
+                "not_in_shop": false,
+                "price": 12000,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 36,
+                "tank_id": "Cz05_T34_100",
+                "terrain_hard": 1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 1.9,
+                "tier": 6,
+                "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Chassis.model",
+                "weight": 7800
+            },
+            {
+                "armor": 20,
+                "brake_force": 34000,
+                "center_rotation": false,
+                "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.825291,
+                "hull_pos_z": 0,
+                "id": 63,
+                "identifier": "Chassis_Cz05_T34_100_2",
+                "max_climb_angle": 25,
+                "max_load": 37000,
+                "name": "Kon\u0161trukta T-34/100",
+                "not_in_shop": false,
+                "price": 19200,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "Cz05_T34_100",
+                "terrain_hard": 0.8,
+                "terrain_medium": 1,
+                "terrain_soft": 1.7,
+                "tier": 7,
+                "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Chassis.model",
+                "weight": 7800
+            }
+        ],
+        "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development project of the Soviet T-34-85 tank, proposed in April 1954. The Czechoslovakian variant of the vehicle was to receive a 100 mm gun and an enlarged turret. Production was planned to start in 1955; however, the work never started.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 145,
+                "id": 70,
+                "identifier": "V_2_34",
+                "name": "V-2-34",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 27860,
+                "repair_health": 72,
+                "repair_price": 6,
+                "tags": "diesel",
+                "tank_id": "Cz05_T34_100",
+                "tier": 6,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 190,
+                "id": 71,
+                "identifier": "V_2_34M",
+                "name": "V-2-34M",
+                "not_in_shop": false,
+                "power": 520,
+                "price": 29500,
+                "repair_health": 95,
+                "repair_price": 7,
+                "tags": "diesel",
+                "tank_id": "Cz05_T34_100",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 54,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 122,
+                "id": 112,
+                "identifier": "_85mm_vz_44S",
+                "max_ammo": 56,
+                "name": "85 mm vz. 44S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.427778,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            4.9
+                        ],
+                        [
+                            0.433333,
+                            4.8
+                        ],
+                        [
+                            0.436111,
+                            4.7
+                        ],
+                        [
+                            0.438889,
+                            4.6
+                        ],
+                        [
+                            0.441667,
+                            3.3
+                        ],
+                        [
+                            0.444444,
+                            2.7
+                        ],
+                        [
+                            0.447222,
+                            2.5
+                        ],
+                        [
+                            0.455556,
+                            2.4
+                        ],
+                        [
+                            0.544444,
+                            2.4
+                        ],
+                        [
+                            0.552778,
+                            2.5
+                        ],
+                        [
+                            0.555556,
+                            2.7
+                        ],
+                        [
+                            0.558333,
+                            3.3
+                        ],
+                        [
+                            0.561111,
+                            4.6
+                        ],
+                        [
+                            0.563889,
+                            4.7
+                        ],
+                        [
+                            0.566667,
+                            4.8
+                        ],
+                        [
+                            0.569444,
+                            4.9
+                        ],
+                        [
+                            0.572222,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 62500,
+                "reload_time": 6.5,
+                "repair_health": 61,
+                "repair_price": 6,
+                "rotation_speed": 40,
+                "tier": 6,
+                "turret_id": 61,
+                "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Gun_01.model",
+                "weight": 1550,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 148,
+                "id": 113,
+                "identifier": "_100mm_vz_44S",
+                "max_ammo": 30,
+                "name": "100 mm vz. 44S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.441667,
+                            5
+                        ],
+                        [
+                            0.444444,
+                            2.5
+                        ],
+                        [
+                            0.447222,
+                            2.4
+                        ],
+                        [
+                            0.452778,
+                            2.3
+                        ],
+                        [
+                            0.547222,
+                            2.3
+                        ],
+                        [
+                            0.552778,
+                            2.4
+                        ],
+                        [
+                            0.555556,
+                            2.5
+                        ],
+                        [
+                            0.558333,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 79200,
+                "reload_time": 9.2,
+                "repair_health": 74,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 61,
+                "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Gun_02.model",
+                "weight": 2257,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 122,
+                "id": 114,
+                "identifier": "_85mm_vz_44S",
+                "max_ammo": 56,
+                "name": "85 mm vz. 44S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.441667,
+                            5
+                        ],
+                        [
+                            0.444444,
+                            4.8
+                        ],
+                        [
+                            0.447222,
+                            4.2
+                        ],
+                        [
+                            0.552778,
+                            4.2
+                        ],
+                        [
+                            0.555556,
+                            4.8
+                        ],
+                        [
+                            0.558333,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 62500,
+                "reload_time": 6,
+                "repair_health": 61,
+                "repair_price": 6,
+                "rotation_speed": 40,
+                "tier": 6,
+                "turret_id": 62,
+                "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Gun_03.model",
+                "weight": 1550,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Gun_04.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 148,
+                "id": 115,
+                "identifier": "_100mm_vz_44S",
+                "max_ammo": 30,
+                "name": "100 mm vz. 44S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.441667,
+                            5
+                        ],
+                        [
+                            0.444444,
+                            4.8
+                        ],
+                        [
+                            0.447222,
+                            4.2
+                        ],
+                        [
+                            0.552778,
+                            4.2
+                        ],
+                        [
+                            0.555556,
+                            4.8
+                        ],
+                        [
+                            0.558333,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 79200,
+                "reload_time": 8.5,
+                "repair_health": 74,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 62,
+                "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Gun_04.model",
+                "weight": 2257,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 800,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Cz05_T34_100",
+        "name": "Kon\u0161trukta T-34/100",
+        "nation": "czech",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 1430000,
+        "radios": [
+            {
+                "health": 110,
+                "id": 65,
+                "identifier": "Radiostanice_9R",
+                "name": "Radiostanice 9R",
+                "not_in_shop": false,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "Cz05_T34_100",
+                "tier": 4,
+                "weight": 80
+            },
+            {
+                "health": 120,
+                "id": 66,
+                "identifier": "Radiostanice_9RM",
+                "name": "Radiostanice 9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "Cz05_T34_100",
+                "tier": 8,
+                "weight": 100
+            },
+            {
+                "health": 250,
+                "id": 67,
+                "identifier": "Radiostanice_RM_31T",
+                "name": "Radiostanice RM-31T",
+                "not_in_shop": false,
+                "price": 57500,
+                "range": 850,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "Cz05_T34_100",
+                "tier": 10,
+                "weight": 62
+            }
+        ],
+        "repair_price": 7.3,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 112,
+                "icon": "ap",
+                "id": "_85mm_vz_44_Protipancerovy",
+                "min_penetration": 110,
+                "module_damage": 115,
+                "name": "Vz. 44 Protipanc\u00e9\u0159ov\u00fd",
+                "penetration": 126,
+                "penetration_loss": 0,
+                "price": 130,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 112,
+                "icon": "ap_cr",
+                "id": "_85mm_vz_44_Protipancerovy_jadrovy",
+                "min_penetration": 140,
+                "module_damage": 115,
+                "name": "Vz. 44 Protipanc\u00e9\u0159ov\u00fd j\u00e1drov\u00fd",
+                "penetration": 167,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 280,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 112,
+                "icon": "he",
+                "id": "_85mm_vz_44_Narazovy",
+                "min_penetration": 43,
+                "module_damage": 115,
+                "name": "Vz. 44 N\u00e1razov\u00fd",
+                "penetration": 43,
+                "penetration_loss": 0,
+                "price": 120,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 113,
+                "icon": "ap",
+                "id": "_100mm_JPSv",
+                "min_penetration": 155,
+                "module_damage": 135,
+                "name": "JPSv",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 305,
+                "range": 720,
+                "speed": 925,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 113,
+                "icon": "hc",
+                "id": "_100mm_JPrSv",
+                "min_penetration": 250,
+                "module_damage": 135,
+                "name": "JPrSv",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 950,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 113,
+                "icon": "he",
+                "id": "_100mm_JOF",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "JOF",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 215,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 114,
+                "icon": "ap",
+                "id": "_85mm_vz_44_Protipancerovy",
+                "min_penetration": 110,
+                "module_damage": 115,
+                "name": "Vz. 44 Protipanc\u00e9\u0159ov\u00fd",
+                "penetration": 126,
+                "penetration_loss": 0,
+                "price": 130,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 114,
+                "icon": "ap_cr",
+                "id": "_85mm_vz_44_Protipancerovy_jadrovy",
+                "min_penetration": 140,
+                "module_damage": 115,
+                "name": "Vz. 44 Protipanc\u00e9\u0159ov\u00fd j\u00e1drov\u00fd",
+                "penetration": 167,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 280,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 114,
+                "icon": "he",
+                "id": "_85mm_vz_44_Narazovy",
+                "min_penetration": 43,
+                "module_damage": 115,
+                "name": "Vz. 44 N\u00e1razov\u00fd",
+                "penetration": 43,
+                "penetration_loss": 0,
+                "price": 120,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 115,
+                "icon": "ap",
+                "id": "_100mm_JPSv",
+                "min_penetration": 155,
+                "module_damage": 135,
+                "name": "JPSv",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 305,
+                "range": 720,
+                "speed": 925,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 115,
+                "icon": "hc",
+                "id": "_100mm_JPrSv",
+                "min_penetration": 250,
+                "module_damage": 135,
+                "name": "JPrSv",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 950,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 115,
+                "icon": "he",
+                "id": "_100mm_JOF",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "JOF",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 215,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-34/100",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-34100",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.73471,
+        "turret_pos_z": 0.615154,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 90,
+                "armor_rear": 52,
+                "armor_side": 75,
+                "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": -0.000346,
+                "gun_pos_y": 0.382899,
+                "gun_pos_z": 1.10963,
+                "health": 200,
+                "id": 61,
+                "identifier": "Turret_1_Cz05_T34_100",
+                "name": "Kon\u0161trukta T-34/100 varianta II",
+                "not_in_shop": false,
+                "price": 14000,
+                "rotation_speed": 36,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz05_T34_100",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Turret_01.model",
+                "weight": 7200
+            },
+            {
+                "Guns": null,
+                "armor_front": 90,
+                "armor_rear": 52,
+                "armor_side": 75,
+                "collision_model": "vehicles/czech/Cz05_T34_100/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 85
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": -0.072868,
+                "gun_pos_y": 0.522407,
+                "gun_pos_z": 1.09089,
+                "health": 300,
+                "id": 62,
+                "identifier": "Turret_2_Cz05_T34_100",
+                "name": "Kon\u0161trukta T-34/100 varianta I",
+                "not_in_shop": false,
+                "price": 16300,
+                "rotation_speed": 40,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz05_T34_100",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Turret_02.model",
+                "weight": 7800
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Cz05_T34_100_2",
+                "name": "Chassis_Cz05_T34_100_2",
+                "parent_key": "chassis-Chassis_Cz05_T34_100",
+                "price": 8100,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_100mm_vz_44S",
+                "name": "_100mm_vz_44S",
+                "parent_key": "gun-_85mm_vz_44S",
+                "price": 16550,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_Cz05_T34_100",
+                "name": "Turret_2_Cz05_T34_100",
+                "parent_key": "gun-_100mm_vz_44S",
+                "price": 7900,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-Cz07_TVP_46",
+                "name": "Cz07_TVP_46",
+                "parent_key": "gun-_100mm_vz_44S",
+                "price": 106300,
+                "tank_name": "TVP VTU",
+                "tank_price": 2410000,
+                "tank_slug": "tvp-vtu",
+                "tank_tier": 8,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-V_2_34M",
+                "name": "V_2_34M",
+                "parent_key": "engine-V_2_34",
+                "price": 6200,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Radiostanice_9RM",
+                "name": "Radiostanice_9RM",
+                "parent_key": "radio-Radiostanice_9R",
+                "price": 4040,
+                "type": "radio"
+            },
+            {
+                "key": "radio-Radiostanice_RM_31T",
+                "name": "Radiostanice_RM_31T",
+                "parent_key": "radio-Radiostanice_9RM",
+                "price": 9500,
+                "type": "radio"
+            }
+        ],
+        "version": "v0918",
+        "visual_model": "vehicles/czech/Cz05_T34_100/normal/lod0/Hull.model",
+        "weight": 15081,
+        "xp_factor": 1
+    }
+}

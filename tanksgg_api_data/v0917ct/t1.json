@@ -1,0 +1,599 @@
+{
+    "tank": {
+        "ammo_rack_health": 70,
+        "ammo_rack_repair_health": 48,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 6.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 6.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 6.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 6.3
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 9.5
+            }
+        ],
+        "armor_front": 9.5,
+        "armor_rear": 6.3,
+        "armor_side": 6.3,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.338,
+        "camo_moving": 0.169,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.2,
+        "camo_still": 0.225,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A01_T1_Cunningham/collision_client/Chassis.model",
+                "dispersion_movement": 0.38,
+                "dispersion_rotation": 0.38,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.862702,
+                "hull_pos_z": 0,
+                "id": 655,
+                "identifier": "Cunningham_E2",
+                "max_climb_angle": 25,
+                "max_load": 8300,
+                "name": "Cunningham E2",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 42,
+                "tank_id": "A01_T1_Cunningham",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.1,
+                "tier": 1,
+                "visual_model": "vehicles/american/A01_T1_Cunningham/normal/lod0/Chassis.model",
+                "weight": 2000
+            }
+        ],
+        "collision_model": "vehicles/american/A01_T1_Cunningham/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "The experimental T1E1 light tank designed by the Cunningham company was a further development of the T1 tank. By April 1928, four vehicles were produced. After the vehicle underwent trials in November 1928, a decision was made to enhance the armor, which led to creating the subsequent modification designated the T1E2.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 58,
+                "id": 734,
+                "identifier": "Cunningham_type_3",
+                "name": "Cunningham V8",
+                "not_in_shop": true,
+                "power": 132,
+                "price": 0,
+                "repair_health": 26,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "A01_T1_Cunningham",
+                "tier": 2,
+                "weight": 300
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 41,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A01_T1_Cunningham/collision_client/Gun_03.model",
+                "depression": 7,
+                "dispersion": 0.54,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 1159,
+                "identifier": "_37mm_Gun_M1916",
+                "max_ammo": 104,
+                "name": "37 mm Gun M1916",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 0,
+                "reload_time": 2.5,
+                "repair_health": 27,
+                "repair_price": 2,
+                "rotation_speed": 52.5,
+                "tier": 1,
+                "turret_id": 558,
+                "visual_model": "vehicles/american/A01_T1_Cunningham/normal/lod0/Gun_03.model",
+                "weight": 104,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.5,
+                "clip_size": 5,
+                "collision_model": "vehicles/american/A01_T1_Cunningham/collision_client/Gun_04.model",
+                "depression": 7,
+                "dispersion": 0.51,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 54,
+                "id": 1160,
+                "identifier": "_37mm_semiautomatic_gun_M1924",
+                "max_ammo": 100,
+                "name": "37 mm Semiautomatic Gun M1924",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 1900,
+                "reload_time": 8,
+                "repair_health": 27,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 558,
+                "visual_model": "vehicles/american/A01_T1_Cunningham/normal/lod0/Gun_04.model",
+                "weight": 65,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 92,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A01_T1_Cunningham",
+        "name": "T1 Cunningham",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 783,
+                "identifier": "SCR_200",
+                "name": "SCR 200",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 265,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "A01_T1_Cunningham",
+                "tier": 2,
+                "weight": 40
+            }
+        ],
+        "repair_price": 0,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1159,
+                "icon": "ap",
+                "id": "_37mm_AP1937",
+                "min_penetration": 21,
+                "module_damage": 50,
+                "name": "AP 1937",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 720,
+                "speed": 600,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1159,
+                "icon": "ap_cr",
+                "id": "_37mm_APCBC1935",
+                "min_penetration": 33,
+                "module_damage": 50,
+                "name": "APCBC 1935",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1159,
+                "icon": "he",
+                "id": "_37mm_HE1916",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "HE 1916",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 720,
+                "speed": 600,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1160,
+                "icon": "ap",
+                "id": "_37mm_AP1937",
+                "min_penetration": 23,
+                "module_damage": 50,
+                "name": "AP 1937",
+                "penetration": 33,
+                "penetration_loss": 0,
+                "price": 0,
+                "range": 400,
+                "speed": 600,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 30,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1160,
+                "icon": "ap_cr",
+                "id": "_37mm_APCBC1935",
+                "min_penetration": 33,
+                "module_damage": 50,
+                "name": "APCBC 1935",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 750,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 36,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1160,
+                "icon": "he",
+                "id": "_37mm_HE1916",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "HE 1916",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 400,
+                "speed": 600,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T1",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t1",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 1,
+        "turret_pos_x": -0.004522,
+        "turret_pos_y": 0.703017,
+        "turret_pos_z": -0.7504,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 9.5,
+                "armor_rear": 6.3,
+                "armor_side": 6.3,
+                "collision_model": "vehicles/american/A01_T1_Cunningham/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 9.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 9.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 6.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 6.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 6.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.10296,
+                "gun_pos_y": 0.222821,
+                "gun_pos_z": 0.553734,
+                "health": 23,
+                "id": 558,
+                "identifier": "Cunningham_D2",
+                "name": "Cunningham D2",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 35,
+                "rotator_health": 50,
+                "rotator_repair_health": 25,
+                "rotator_repair_price": 1,
+                "surveyor_health": 30,
+                "surveyor_repair_health": 15,
+                "surveyor_repair_price": 2,
+                "tank_id": "A01_T1_Cunningham",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/american/A01_T1_Cunningham/normal/lod0/Turret_02.model",
+                "weight": 950
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "gun-_37mm_semiautomatic_gun_M1924",
+                "name": "_37mm_semiautomatic_gun_M1924",
+                "parent_key": "gun-_37mm_Gun_M1916",
+                "price": 30,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A107_T1_HMC",
+                "name": "A107_T1_HMC",
+                "parent_key": "gun-_37mm_semiautomatic_gun_M1924",
+                "price": 280,
+                "tank_name": "T1 HMC",
+                "tank_price": 3300,
+                "tank_slug": "t1-hmc",
+                "tank_tier": 2,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-A02_M2_lt",
+                "name": "A02_M2_lt",
+                "parent_key": "gun-_37mm_semiautomatic_gun_M1924",
+                "price": 280,
+                "tank_name": "M2 Light",
+                "tank_price": 3400,
+                "tank_slug": "m2-light",
+                "tank_tier": 2,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-A46_T3",
+                "name": "A46_T3",
+                "parent_key": "gun-_37mm_semiautomatic_gun_M1924",
+                "price": 280,
+                "tank_name": "T3 HMC",
+                "tank_price": 3000,
+                "tank_slug": "t3-hmc",
+                "tank_tier": 2,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-A24_T2_med",
+                "name": "A24_T2_med",
+                "parent_key": "gun-_37mm_semiautomatic_gun_M1924",
+                "price": 280,
+                "tank_name": "T2 Medium",
+                "tank_price": 3500,
+                "tank_slug": "t2-medium",
+                "tank_tier": 2,
+                "tank_type": "medium",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v0917ct",
+        "visual_model": "vehicles/american/A01_T1_Cunningham/normal/lod0/Hull.model",
+        "weight": 4000,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,496 @@
+{
+    "tank": {
+        "ammo_rack_health": 150,
+        "ammo_rack_repair_health": 100,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 70
+            }
+        ],
+        "armor_front": 75,
+        "armor_rear": 70,
+        "armor_side": 75,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.3,
+        "camo_moving": 0.03,
+        "camo_net": 0.05,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.12,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 37500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.823819,
+                "hull_pos_z": 0,
+                "id": 1002,
+                "identifier": "KV_1",
+                "max_climb_angle": 25,
+                "max_load": 47800,
+                "name": "KV-1",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 17,
+                "tank_id": "R05_KV",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.7,
+                "terrain_soft": 3.1,
+                "tier": 4,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Chassis.model",
+                "weight": 10600
+            }
+        ],
+        "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed by the Special Design Bureau No. 2 at the Kirov Plant in Leningrad in 1939. Produced from February 1940 through September 1942, with a total production of 2,769 KV-1 vehicles and 334 KV-2 vehicles.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 145,
+                "id": 1098,
+                "identifier": "Engine_01_KV",
+                "name": "V-2K",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 23050,
+                "repair_health": 72,
+                "repair_price": 6,
+                "tags": "diesel",
+                "tank_id": "R05_KV",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 34,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 28,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 118,
+                "id": 1677,
+                "identifier": "Gun_01_KV",
+                "max_ammo": 111,
+                "name": "76 mm ZiS-5",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -28
+                        ],
+                        [
+                            1,
+                            -28
+                        ]
+                    ]
+                },
+                "price": 33400,
+                "reload_time": 4.3,
+                "repair_health": 59,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 5,
+                "turret_id": 858,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Gun_01.model",
+                "weight": 1155,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 448,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R05_KV",
+        "name": "KV",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 410000,
+        "radios": [
+            {
+                "health": 140,
+                "id": 1144,
+                "identifier": "Radio_01_KV",
+                "name": "10R",
+                "not_in_shop": true,
+                "price": 3660,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "R05_KV",
+                "tier": 5,
+                "weight": 100
+            }
+        ],
+        "repair_price": 3.17,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1677,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 680,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1677,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 92,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1677,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 680,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "KV",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "kv",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "unrecoverable"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.724581,
+        "turret_pos_z": 0.554402,
+        "turret_slots": [
+            {
+                "id": 676,
+                "pos_x": 0,
+                "pos_y": 0.724581,
+                "pos_z": 0.554402,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R05_KV"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 90,
+                "armor_rear": 75,
+                "armor_side": 75,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 95
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    }
+                ],
+                "gun_pos_x": 0.019607,
+                "gun_pos_y": 0.457312,
+                "gun_pos_z": 1.01427,
+                "health": 112,
+                "id": 858,
+                "identifier": "KV_1",
+                "name": "KV-1",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 22,
+                "rotator_health": 100,
+                "rotator_repair_health": 49,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 49,
+                "surveyor_repair_price": 1,
+                "tank_id": "R05_KV",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Turret_01.model",
+                "weight": 7020
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0922ct",
+        "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Hull.model",
+        "weight": 27670,
+        "xp_factor": 1
+    }
+}

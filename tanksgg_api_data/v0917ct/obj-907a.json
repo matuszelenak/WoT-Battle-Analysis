@@ -1,0 +1,533 @@
+{
+    "tank": {
+        "ammo_rack_health": 210,
+        "ammo_rack_repair_health": 140,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 190
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 85
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 110
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_8",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_14",
+                "primary": false,
+                "value": 110
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 45,
+        "armor_side": 85,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.453,
+        "camo_moving": 0.227,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.302,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 48000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R95_Object_907A/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.861295,
+                "hull_pos_z": 0,
+                "id": 887,
+                "identifier": "Chassis_Object_907A",
+                "max_climb_angle": 25,
+                "max_load": 39000,
+                "name": "Object 907A",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 54,
+                "tank_id": "R95_Object_907A",
+                "terrain_hard": 0.6,
+                "terrain_medium": 0.7,
+                "terrain_soft": 1.5,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R95_Object_907A/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/russian/R95_Object_907A/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The decision to start development of a next-generation medium tank was made on July 13th, 1953. Development was carried out by Research Institute No. 100. The project was submitted in March 1954, and at the beginning of 1955 the hull of the new vehicle was tested for shell resistance. However, later the project was canceled.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 991,
+                "identifier": "V-12-5U",
+                "name": "V-12-5U",
+                "not_in_shop": true,
+                "power": 610,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R95_Object_907A",
+                "tier": 10,
+                "weight": 700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 22500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R95_Object_907A/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 228
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 1572,
+                "identifier": "_100mm_D54_M",
+                "max_ammo": 45,
+                "name": "100 mm D-54TS",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.380783,
+                            5
+                        ],
+                        [
+                            0.444444,
+                            2
+                        ],
+                        [
+                            0.555556,
+                            2
+                        ],
+                        [
+                            0.619218,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 242700,
+                "reload_time": 6.5,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33.25,
+                "tier": 10,
+                "turret_id": 757,
+                "visual_model": "vehicles/russian/R95_Object_907A/normal/lod0/Gun_01.model",
+                "weight": 2557,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1600,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R95_Object_907A",
+        "name": "Object 907A",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 250,
+                "id": 1035,
+                "identifier": "R123A",
+                "name": "R-123",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 850,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "R95_Object_907A",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 13,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1572,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412PB",
+                "min_penetration": 254,
+                "module_damage": 135,
+                "name": "UBR-412PB",
+                "penetration": 264,
+                "penetration_loss": 0,
+                "price": 1100,
+                "range": 720,
+                "speed": 1535,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1572,
+                "icon": "hc",
+                "id": "_100mm_3UBK4M",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "ZUBK4M",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1572,
+                "icon": "he",
+                "id": "_100mm_3UOF10",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "ZUOF10",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 907A",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-907a",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "special"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": -8.7e-05,
+        "turret_pos_y": 0.594054,
+        "turret_pos_z": 0.386605,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 228,
+                "armor_rear": 46,
+                "armor_side": 180,
+                "collision_model": "vehicles/russian/R95_Object_907A/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 288
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 228
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 180
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 46
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 105
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 46
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 220
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.216947,
+                "gun_pos_z": 1.16691,
+                "health": 400,
+                "id": 757,
+                "identifier": "Turret_1_Object_907A",
+                "name": "Object 907A",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 48,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "R95_Object_907A",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/russian/R95_Object_907A/normal/lod0/Turret_01.model",
+                "weight": 8000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0917ct",
+        "visual_model": "vehicles/russian/R95_Object_907A/normal/lod0/Hull.model",
+        "weight": 17363,
+        "xp_factor": 1.5
+    }
+}

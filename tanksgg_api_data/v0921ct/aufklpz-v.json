@@ -1,0 +1,515 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 85
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 65
+            }
+        ],
+        "armor_front": 85,
+        "armor_rear": 40,
+        "armor_side": 50,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.254,
+        "camo_moving": 0.169,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.169,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 40000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G85_Auf_Panther/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.23974,
+                "hull_pos_z": 0,
+                "id": 393,
+                "identifier": "Chassis_G85_Aufklarungspanzer_V",
+                "max_climb_angle": 25,
+                "max_load": 45000,
+                "name": "Aufkl\u00e4rungspanzer\u00a0V",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 165,
+                "repair_price": 7.5,
+                "rotation_speed": 44,
+                "tank_id": "G85_Aufklarungspanzer_V",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 8,
+                "visual_model": "vehicles/german/G85_Auf_Panther/normal/lod0/Chassis.model",
+                "weight": 12500
+            }
+        ],
+        "collision_model": "vehicles/german/G85_Auf_Panther/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A project for a heavy reconnaissance vehicle based on the Panther tank. The use of the hull and chassis of the existing tank would have significantly facilitated the mass production of the new vehicles; a smaller turret would have decreased the weight and improved the maneuverability of the vehicle. However, the project was discontinued at a development stage.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 320,
+                "id": 435,
+                "identifier": "Maybach_HL_234_TRM_P45_Leicht",
+                "name": "Maybach HL 295 Ausf. A",
+                "not_in_shop": true,
+                "power": 1200,
+                "price": 88000,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "G85_Aufklarungspanzer_V",
+                "tier": 9,
+                "weight": 1300
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 100,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G85_Auf_Panther/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.3,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2,
+                "dispersion_rotation": 0.05,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "id": 656,
+                "identifier": "_75mm_Waffe0725_1944",
+                "max_ammo": 75,
+                "name": "7,5/5,5 cm Kw.K. 44 L/53",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.083333,
+                            7
+                        ],
+                        [
+                            0.166667,
+                            10
+                        ],
+                        [
+                            0.333333,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            4
+                        ],
+                        [
+                            0.583333,
+                            4
+                        ],
+                        [
+                            0.666667,
+                            10
+                        ],
+                        [
+                            0.833333,
+                            10
+                        ],
+                        [
+                            0.916667,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 120000,
+                "reload_time": 4.9,
+                "repair_health": 70,
+                "repair_price": 7.5,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 335,
+                "visual_model": "vehicles/german/G85_Auf_Panther/normal/lod0/Gun_01.model",
+                "weight": 720,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 880,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G85_Aufklarungspanzer_V",
+        "name": "Aufkl\u00e4rungspanzer\u00a0V",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 150,
+                "id": 438,
+                "identifier": "FuG12A",
+                "name": "FuG 12 A",
+                "not_in_shop": true,
+                "price": 7200,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "G85_Aufklarungspanzer_V",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 22,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 165,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 656,
+                "icon": "ap_cr",
+                "id": "APCNR1945",
+                "min_penetration": 197,
+                "module_damage": 100,
+                "name": "Pzgr. 43/44",
+                "penetration": 221,
+                "penetration_loss": 0,
+                "price": 270,
+                "range": 720,
+                "speed": 1260,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 280,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 656,
+                "icon": "he",
+                "id": "APCNRHE1945",
+                "min_penetration": 38,
+                "module_damage": 115,
+                "name": "Sgrgr. 43/44",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 160,
+                "range": 720,
+                "speed": 925,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Aufkl.Pz. V",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "aufklpz-v",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "beast"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "testTank"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0.003297,
+        "turret_pos_y": 0.704849,
+        "turret_pos_z": -0.334923,
+        "turret_slots": [
+            {
+                "id": 264,
+                "pos_x": 0.003297,
+                "pos_y": 0.704849,
+                "pos_z": -0.334923,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G85_Aufklarungspanzer_V"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 50,
+                "armor_rear": 30,
+                "armor_side": 30,
+                "collision_model": "vehicles/german/G85_Auf_Panther/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.363459,
+                "gun_pos_z": 0.873597,
+                "health": 220,
+                "id": 335,
+                "identifier": "Turret_1_G85_Aufklarungspanzer_V",
+                "name": "Aufkl\u00e4rungspanzer\u00a0V",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 44,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "G85_Aufklarungspanzer_V",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G85_Auf_Panther/normal/lod0/Turret_01.model",
+                "weight": 5500
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0921ct",
+        "visual_model": "vehicles/german/G85_Auf_Panther/normal/lod0/Hull.model",
+        "weight": 21275,
+        "xp_factor": 1.5
+    }
+}

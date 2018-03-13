@@ -1,0 +1,1646 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 31
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 14
+            }
+        ],
+        "armor_front": 40,
+        "armor_rear": 25,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.441,
+        "camo_moving": 0.294,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.294,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 18000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.907352,
+                "hull_pos_z": 0,
+                "id": 534,
+                "identifier": "Chassis_GB60_Covenanter",
+                "max_climb_angle": 25,
+                "max_load": 18200,
+                "name": "Covenanter Mk. I",
+                "not_in_shop": false,
+                "price": 1500,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "GB60_Covenanter",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2,
+                "tier": 3,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Chassis.model",
+                "weight": 4500
+            },
+            {
+                "armor": 15,
+                "brake_force": 20000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.907352,
+                "hull_pos_z": 0,
+                "id": 535,
+                "identifier": "Chassis_GB60_Covenanter_2",
+                "max_climb_angle": 25,
+                "max_load": 20500,
+                "name": "Covenanter Mk. III",
+                "not_in_shop": false,
+                "price": 4200,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "GB60_Covenanter",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.8,
+                "tier": 4,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Chassis.model",
+                "weight": 4500
+            }
+        ],
+        "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A new cruiser tank that featured such innovations as an opposed-piston engine, front placement of cooling radiators, and the wide use of welding. The vehicle was ordered for production on April 17, 1939. A total of 1,771 tanks in four base variants were mass-produced. The Covenanter tanks were used mostly for training purposes in the U.K. from 1940 through 1943.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 82,
+                "id": 599,
+                "identifier": "Meadows_DAV",
+                "name": "Meadows D.A.V.",
+                "not_in_shop": false,
+                "power": 300,
+                "price": 9000,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "GB60_Covenanter",
+                "tier": 4,
+                "weight": 724
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 82,
+                "id": 600,
+                "identifier": "Meadows_DAV_MkI",
+                "name": "Meadows D.A.V. O.C.",
+                "not_in_shop": false,
+                "power": 360,
+                "price": 11200,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "GB60_Covenanter",
+                "tier": 4,
+                "weight": 724
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Gun_01.model",
+                "depression": 15,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 931,
+                "identifier": "_2pdr_Gun_Mk_X",
+                "max_ammo": 130,
+                "name": "QF 2-pdr Mk. X",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            0.125,
+                            12
+                        ],
+                        [
+                            0.188662,
+                            15
+                        ],
+                        [
+                            0.339116,
+                            15
+                        ],
+                        [
+                            0.402778,
+                            10
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            0.660884,
+                            15
+                        ],
+                        [
+                            0.811338,
+                            15
+                        ],
+                        [
+                            0.875,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 6000,
+                "reload_time": 2.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 451,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Gun_01.model",
+                "weight": 130,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.5,
+                "clip_size": 4,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Gun_02.model",
+                "depression": 15,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2.2,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 932,
+                "identifier": "_40mm_Pom_Pom",
+                "max_ammo": 200,
+                "name": "40 mm Pom-Pom",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.125,
+                            10
+                        ],
+                        [
+                            0.188662,
+                            15
+                        ],
+                        [
+                            0.311338,
+                            15
+                        ],
+                        [
+                            0.375,
+                            8
+                        ],
+                        [
+                            0.625,
+                            8
+                        ],
+                        [
+                            0.688662,
+                            15
+                        ],
+                        [
+                            0.811338,
+                            15
+                        ],
+                        [
+                            0.875,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 20000,
+                "reload_time": 5,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 451,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Gun_02.model",
+                "weight": 160,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Gun_03.model",
+                "depression": 15,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 933,
+                "identifier": "_76mm_Howitzer_MkI",
+                "max_ammo": 74,
+                "name": "OQF 3-inch Howitzer Mk. I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            0.125,
+                            12
+                        ],
+                        [
+                            0.188662,
+                            15
+                        ],
+                        [
+                            0.325227,
+                            15
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.611111,
+                            10
+                        ],
+                        [
+                            0.674773,
+                            15
+                        ],
+                        [
+                            0.811338,
+                            15
+                        ],
+                        [
+                            0.875,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4.3,
+                "repair_health": 53,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 451,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Gun_03.model",
+                "weight": 116,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Gun_04.model",
+                "depression": 15,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.06,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 934,
+                "identifier": "_2pdr_Gun_Mk_X",
+                "max_ammo": 130,
+                "name": "QF 2-pdr Mk. X",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            13
+                        ],
+                        [
+                            0.125,
+                            13
+                        ],
+                        [
+                            0.188662,
+                            15
+                        ],
+                        [
+                            0.339116,
+                            15
+                        ],
+                        [
+                            0.402778,
+                            10
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            0.660884,
+                            15
+                        ],
+                        [
+                            0.811338,
+                            15
+                        ],
+                        [
+                            0.875,
+                            13
+                        ],
+                        [
+                            1,
+                            13
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 6000,
+                "reload_time": 2.1,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 452,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Gun_04.model",
+                "weight": 130,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.5,
+                "clip_size": 4,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Gun_05.model",
+                "depression": 15,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 935,
+                "identifier": "_40mm_Pom_Pom",
+                "max_ammo": 200,
+                "name": "40 mm Pom-Pom",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            11
+                        ],
+                        [
+                            0.125,
+                            11
+                        ],
+                        [
+                            0.188662,
+                            15
+                        ],
+                        [
+                            0.311338,
+                            15
+                        ],
+                        [
+                            0.375,
+                            8
+                        ],
+                        [
+                            0.625,
+                            8
+                        ],
+                        [
+                            0.688662,
+                            15
+                        ],
+                        [
+                            0.811338,
+                            15
+                        ],
+                        [
+                            0.875,
+                            11
+                        ],
+                        [
+                            1,
+                            11
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 20000,
+                "reload_time": 5,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 452,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Gun_05.model",
+                "weight": 160,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Gun_06.model",
+                "depression": 15,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 936,
+                "identifier": "_76mm_Howitzer_MkI",
+                "max_ammo": 74,
+                "name": "OQF 3-inch Howitzer Mk. I",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12
+                        ],
+                        [
+                            0.125,
+                            12
+                        ],
+                        [
+                            0.188662,
+                            15
+                        ],
+                        [
+                            0.325227,
+                            15
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.611111,
+                            10
+                        ],
+                        [
+                            0.674773,
+                            15
+                        ],
+                        [
+                            0.811338,
+                            15
+                        ],
+                        [
+                            0.875,
+                            12
+                        ],
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 30000,
+                "reload_time": 4.3,
+                "repair_health": 53,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 4,
+                "turret_id": 452,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Gun_06.model",
+                "weight": 116,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.4,
+                "clip_size": 4,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Gun_07.model",
+                "depression": 15,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 937,
+                "identifier": "_40mm_Bofors_MkI",
+                "max_ammo": 120,
+                "name": "QF 40 mm Mk. VI Bofors",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            13
+                        ],
+                        [
+                            0.125,
+                            13
+                        ],
+                        [
+                            0.188662,
+                            15
+                        ],
+                        [
+                            0.339116,
+                            15
+                        ],
+                        [
+                            0.402778,
+                            10
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            0.660884,
+                            15
+                        ],
+                        [
+                            0.811338,
+                            15
+                        ],
+                        [
+                            0.875,
+                            13
+                        ],
+                        [
+                            1,
+                            13
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 24000,
+                "reload_time": 5.5,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 452,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Gun_07.model",
+                "weight": 470,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 248,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB60_Covenanter",
+        "name": "Covenanter",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 110000,
+        "radios": [
+            {
+                "health": 80,
+                "id": 637,
+                "identifier": "N9",
+                "name": "WS No. 9",
+                "not_in_shop": false,
+                "price": 3600,
+                "range": 375,
+                "repair_health": 48,
+                "repair_price": 0.5,
+                "tank_id": "GB60_Covenanter",
+                "tier": 5,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 638,
+                "identifier": "N19Mk1",
+                "name": "WS No. 19 Mk. I",
+                "not_in_shop": false,
+                "price": 15000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "GB60_Covenanter",
+                "tier": 6,
+                "weight": 40
+            },
+            {
+                "health": 120,
+                "id": 639,
+                "identifier": "N19Mk2",
+                "name": "WS No. 19 Mk. II",
+                "not_in_shop": false,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB60_Covenanter",
+                "tier": 7,
+                "weight": 40
+            },
+            {
+                "health": 140,
+                "id": 640,
+                "identifier": "N19Mk3",
+                "name": "WS No. 19 Mk. III",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "GB60_Covenanter",
+                "tier": 8,
+                "weight": 40
+            }
+        ],
+        "repair_price": 4.17,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 931,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.IXBT",
+                "min_penetration": 66,
+                "module_damage": 54,
+                "name": "APCBC Mk. IXBT",
+                "penetration": 78,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 931,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.2",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 2",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 931,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 932,
+                "icon": "ap",
+                "id": "_40mm_AP",
+                "min_penetration": 38,
+                "module_damage": 54,
+                "name": "AP Mk. I",
+                "penetration": 49,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 400,
+                "speed": 732,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 932,
+                "icon": "ap_cr",
+                "id": "_40mm_APCR",
+                "min_penetration": 61,
+                "module_damage": 54,
+                "name": "APCR Mk. II",
+                "penetration": 71,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 915,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 932,
+                "icon": "he",
+                "id": "_40mm_HE",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. I",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 400,
+                "speed": 732,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 933,
+                "icon": "he",
+                "id": "_76mm_HE_MkI",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE Mk. I",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 182,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 933,
+                "icon": "hc",
+                "id": "_76mm_HEAT_MkI",
+                "min_penetration": 100,
+                "module_damage": 105,
+                "name": "HEAT Mk. I",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 182,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 934,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.IXBT",
+                "min_penetration": 66,
+                "module_damage": 54,
+                "name": "APCBC Mk. IXBT",
+                "penetration": 78,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 934,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.2",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 2",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 934,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 935,
+                "icon": "ap",
+                "id": "_40mm_AP",
+                "min_penetration": 38,
+                "module_damage": 54,
+                "name": "AP Mk. I",
+                "penetration": 49,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 400,
+                "speed": 732,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 935,
+                "icon": "ap_cr",
+                "id": "_40mm_APCR",
+                "min_penetration": 61,
+                "module_damage": 54,
+                "name": "APCR Mk. II",
+                "penetration": 71,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 915,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 935,
+                "icon": "he",
+                "id": "_40mm_HE",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. I",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 400,
+                "speed": 732,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 936,
+                "icon": "he",
+                "id": "_76mm_HE_MkI",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE Mk. I",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 182,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 936,
+                "icon": "hc",
+                "id": "_76mm_HEAT_MkI",
+                "min_penetration": 100,
+                "module_damage": 105,
+                "name": "HEAT Mk. I",
+                "penetration": 100,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 182,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 937,
+                "icon": "ap",
+                "id": "_40mm_SAP",
+                "min_penetration": 53,
+                "module_damage": 54,
+                "name": "SAP Mk. 1T",
+                "penetration": 63,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 400,
+                "speed": 829,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 937,
+                "icon": "ap_cr",
+                "id": "_40mm_APHV",
+                "min_penetration": 88,
+                "module_damage": 54,
+                "name": "APHV Mk. 1T",
+                "penetration": 101,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 400,
+                "speed": 1036,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 937,
+                "icon": "he",
+                "id": "_40mm_Mk2T",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2T",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 400,
+                "speed": 829,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Covenanter",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "covenanter",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedSuspension_Christie_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.458482,
+        "turret_pos_z": 0.313397,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 39,
+                "armor_rear": 25,
+                "armor_side": 19.5,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 48
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 19.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 9
+                    }
+                ],
+                "gun_pos_x": -0.015997,
+                "gun_pos_y": 0.313288,
+                "gun_pos_z": 0.654896,
+                "health": 62,
+                "id": 451,
+                "identifier": "Turret_1_GB60_Covenanter",
+                "name": "Covenanter Mk. I",
+                "not_in_shop": false,
+                "price": 0,
+                "rotation_speed": 48,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB60_Covenanter",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Turret_01.model",
+                "weight": 3000
+            },
+            {
+                "Guns": null,
+                "armor_front": 39,
+                "armor_rear": 25,
+                "armor_side": 19.5,
+                "collision_model": "vehicles/british/GB60_Covenanter/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 19.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 39
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 39
+                    }
+                ],
+                "gun_pos_x": -0.00968,
+                "gun_pos_y": 0.313288,
+                "gun_pos_z": 0.704896,
+                "health": 92,
+                "id": 452,
+                "identifier": "Turret_2_GB60_Covenanter",
+                "name": "Covenanter Mk. IV CS",
+                "not_in_shop": false,
+                "price": 5500,
+                "rotation_speed": 48,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB60_Covenanter",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 340,
+                "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Turret_02.model",
+                "weight": 3000
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_GB60_Covenanter_2",
+                "name": "Chassis_GB60_Covenanter_2",
+                "parent_key": "chassis-Chassis_GB60_Covenanter",
+                "price": 1200,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_GB60_Covenanter",
+                "name": "Turret_2_GB60_Covenanter",
+                "parent_key": "turret-Turret_1_GB60_Covenanter",
+                "price": 1100,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_40mm_Pom_Pom",
+                "name": "_40mm_Pom_Pom",
+                "parent_key": "gun-_2pdr_Gun_Mk_X",
+                "price": 1000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_Howitzer_MkI",
+                "name": "_76mm_Howitzer_MkI",
+                "parent_key": "gun-_2pdr_Gun_Mk_X",
+                "price": 2100,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_40mm_Bofors_MkI",
+                "name": "_40mm_Bofors_MkI",
+                "parent_key": "turret-Turret_2_GB60_Covenanter",
+                "price": 1200,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-GB20_Crusader",
+                "name": "GB20_Crusader",
+                "parent_key": "turret-Turret_2_GB60_Covenanter",
+                "price": 15000,
+                "tank_name": "Crusader",
+                "tank_price": 380000,
+                "tank_slug": "crusader",
+                "tank_tier": 5,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Meadows_DAV_MkI",
+                "name": "Meadows_DAV_MkI",
+                "parent_key": "engine-Meadows_DAV",
+                "price": 900,
+                "type": "engine"
+            },
+            {
+                "key": "radio-N19Mk1",
+                "name": "N19Mk1",
+                "parent_key": "radio-N9",
+                "price": 1480,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk2",
+                "name": "N19Mk2",
+                "parent_key": "radio-N19Mk1",
+                "price": 3600,
+                "type": "radio"
+            },
+            {
+                "key": "radio-N19Mk3",
+                "name": "N19Mk3",
+                "parent_key": "radio-N19Mk2",
+                "price": 4000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09171ct",
+        "visual_model": "vehicles/british/GB60_Covenanter/normal/lod0/Hull.model",
+        "weight": 9510,
+        "xp_factor": 1
+    }
+}

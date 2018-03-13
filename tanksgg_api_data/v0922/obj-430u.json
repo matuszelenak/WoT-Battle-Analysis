@@ -1,0 +1,527 @@
+{
+    "tank": {
+        "ammo_rack_health": 210,
+        "ammo_rack_repair_health": 140,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 105
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 160,
+        "armor_rear": 45,
+        "armor_side": 90,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.459,
+        "camo_moving": 0.229,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.306,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 42000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R148_Object_430_U/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.775023,
+                "hull_pos_z": 0,
+                "id": 1011,
+                "identifier": "Chassis_R148_Object_430_U",
+                "max_climb_angle": 25,
+                "max_load": 45000,
+                "name": "Object 430U",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 52,
+                "tank_id": "R148_Object_430_U",
+                "terrain_hard": 0.6,
+                "terrain_medium": 0.7,
+                "terrain_soft": 1.6,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R148_Object_430_U/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/russian/R148_Object_430_U/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The Object 430U is a version of the Object 430 medium tank with a rear placement of the engine-transmission compartment. This version was to feature a transverse placement of the engine and two planetary transmissions. This technical solution allowed for extending the interior space and decreasing the vehicle's weight. This vehicle was developed from 1953 through 1957 to replace the T-54, but the work was discontinued in favor of the Object 432 in 1961.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 1108,
+                "identifier": "_4TPD",
+                "name": "4TPD",
+                "not_in_shop": true,
+                "power": 600,
+                "price": 115000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R148_Object_430_U",
+                "tier": 10,
+                "weight": 955
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R148_Object_430_U/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 300
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 260
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 220
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 180
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 210,
+                "id": 1698,
+                "identifier": "_122mm_M62_T2",
+                "max_ammo": 50,
+                "name": "122 mm M62-T2U",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 330000,
+                "reload_time": 10.2,
+                "repair_health": 105,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 868,
+                "visual_model": "vehicles/russian/R148_Object_430_U/normal/lod0/Gun_01.model",
+                "weight": 3397,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1600,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R148_Object_430_U",
+        "name": "Object 430U",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 1154,
+                "identifier": "R113M",
+                "name": "R-113",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R148_Object_430_U",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 12.7,
+        "reverse_speed": 18,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1698,
+                "icon": "ap",
+                "id": "_122mm_BR_472U",
+                "min_penetration": 238,
+                "module_damage": 165,
+                "name": "BR-472U",
+                "penetration": 252,
+                "penetration_loss": 0,
+                "price": 1080,
+                "range": 720,
+                "speed": 940,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 13,
+                "gravity": 9.81,
+                "gun_id": 1698,
+                "icon": "hc",
+                "id": "_122mm_BK_9U",
+                "min_penetration": 340,
+                "module_damage": 165,
+                "name": "BK-9U",
+                "penetration": 340,
+                "penetration_loss": 0.05,
+                "price": 5200,
+                "range": 720,
+                "speed": 920,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1698,
+                "icon": "he",
+                "id": "_122mm_UOF_472U",
+                "min_penetration": 68,
+                "module_damage": 165,
+                "name": "UOF-472U",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 870,
+                "range": 720,
+                "speed": 940,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 430U",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-430u",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.561578,
+        "turret_pos_z": 0.08506,
+        "turret_slots": [
+            {
+                "id": 682,
+                "pos_x": 0,
+                "pos_y": 0.561578,
+                "pos_z": 0.08506,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R148_Object_430_U"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 300,
+                "armor_rear": 65,
+                "armor_side": 195,
+                "collision_model": "vehicles/russian/R148_Object_430_U/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 300
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 283
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 195
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 257
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 123
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 177
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 220
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 50
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.215957,
+                "gun_pos_z": 1.07187,
+                "health": 400,
+                "id": 868,
+                "identifier": "Turret_1_R148_Object_430_U",
+                "name": "Object 430U",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 38,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "R148_Object_430_U",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/russian/R148_Object_430_U/normal/lod0/Turret_01.model",
+                "weight": 10000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0922",
+        "visual_model": "vehicles/russian/R148_Object_430_U/normal/lod0/Hull.model",
+        "weight": 15268,
+        "xp_factor": 1
+    }
+}

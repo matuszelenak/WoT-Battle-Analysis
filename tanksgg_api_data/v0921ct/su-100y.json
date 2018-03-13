@@ -1,0 +1,470 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 60,
+        "armor_rear": 60,
+        "armor_side": 60,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.176,
+        "camo_moving": 0.07,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.117,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 50000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R49_SU100Y/collision_client/Chassis.model",
+                "dispersion_movement": 0.23,
+                "dispersion_rotation": 0.23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.1711,
+                "hull_pos_z": 0,
+                "id": 944,
+                "identifier": "Chassis_SU100Y",
+                "max_climb_angle": 25,
+                "max_load": 67400,
+                "name": "SU-100Y",
+                "not_in_shop": true,
+                "price": 34100,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "R49_SU100Y",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.5,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R49_SU100Y/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/russian/R49_SU100Y/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed on the basis of the T-100 heavy tank. The vehicle was intended to neutralize fortified emplacements and enemy vehicles, and was equipped with the improved B-13-S2 naval gun. The only prototype was manufactured in March 1940. The vehicle never entered mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 1041,
+                "identifier": "GAZ-34-BT",
+                "name": "GAM-34-BT",
+                "not_in_shop": true,
+                "power": 890,
+                "price": 57270,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "R49_SU100Y",
+                "tier": 8,
+                "weight": 632
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 35,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 3250,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R49_SU100Y/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.2,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 190,
+                "id": 1595,
+                "identifier": "_130mm_B-13-S2",
+                "max_ammo": 30,
+                "name": "130 mm B-13-S2",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 147000,
+                "reload_time": 16,
+                "repair_health": 95,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 806,
+                "visual_model": "vehicles/russian/R49_SU100Y/normal/lod0/Gun_01.model",
+                "weight": 5290,
+                "yaw_left": -10,
+                "yaw_right": 10
+            }
+        ],
+        "health": 560,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R49_SU100Y",
+        "name": "SU-100Y",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 1085,
+                "identifier": "_71-TK-3U",
+                "name": "71-TK-3U",
+                "not_in_shop": true,
+                "price": 570,
+                "range": 440,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R49_SU100Y",
+                "tier": 4,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.8,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 130,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1595,
+                "icon": "ap",
+                "id": "_130mm_PB-46",
+                "min_penetration": 181,
+                "module_damage": 180,
+                "name": "PB-46",
+                "penetration": 196,
+                "penetration_loss": 0,
+                "price": 630,
+                "range": 720,
+                "speed": 870,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 130,
+                "damage": 510,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 1595,
+                "icon": "ap",
+                "id": "_130mm_PB-46A",
+                "min_penetration": 156,
+                "module_damage": 180,
+                "name": "PB-46A",
+                "penetration": 171,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 870,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 130,
+                "damage": 580,
+                "explosion_radius": 2.78,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1595,
+                "icon": "he",
+                "id": "_130mm_OF-46",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "OF-46",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 410,
+                "range": 720,
+                "speed": 870,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-100Y",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-100y",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": -4e-06,
+        "turret_pos_y": 1.35626,
+        "turret_pos_z": 1.45128,
+        "turret_slots": [
+            {
+                "id": 630,
+                "pos_x": -4e-06,
+                "pos_y": 1.35626,
+                "pos_z": 1.45128,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R49_SU100Y"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R49_SU100Y/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": -0.112641,
+                "gun_pos_z": -0.156791,
+                "health": 140,
+                "id": 806,
+                "identifier": "Turret_1_SU100Y",
+                "name": "SU-100Y",
+                "not_in_shop": true,
+                "price": 1200,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "R49_SU100Y",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/russian/R49_SU100Y/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v0921ct",
+        "visual_model": "vehicles/russian/R49_SU100Y/normal/lod0/Hull.model",
+        "weight": 42603,
+        "xp_factor": 1.5
+    }
+}

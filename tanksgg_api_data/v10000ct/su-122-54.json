@@ -1,0 +1,476 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 140
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 160
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 45,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.573,
+        "camo_moving": 0.229,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.382,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 38000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R75_SU122_54/collision_client/Chassis.model",
+                "dispersion_movement": 0.17,
+                "dispersion_rotation": 0.17,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9478,
+                "hull_pos_z": 0,
+                "id": 965,
+                "identifier": "Chassis_SU122_54_2",
+                "max_climb_angle": 25,
+                "max_load": 39300,
+                "name": "SU-122-54",
+                "not_in_shop": true,
+                "price": 63000,
+                "repair_health": 150,
+                "repair_price": 5,
+                "rotation_speed": 45,
+                "tank_id": "R75_SU122_54",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.2,
+                "tier": 9,
+                "visual_model": "vehicles/russian/R75_SU122_54/normal/lod0/Chassis.model",
+                "weight": 7700
+            }
+        ],
+        "collision_model": "vehicles/russian/R75_SU122_54/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development was started in the summer of 1948. The T-54 tank was used as a basis for this tank destroyer. The vehicle entered service in March 1954. Mass production was launched in 1955, with a total of 100 vehicles manufactured. The principal configuration of the vehicle is similar to the configuration of WWII assault guns.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 260,
+                "id": 1060,
+                "identifier": "V_54S",
+                "name": "B-54S",
+                "not_in_shop": true,
+                "power": 520,
+                "price": 50000,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "R75_SU122_54",
+                "tier": 8,
+                "weight": 700
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 55,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R75_SU122_54/collision_client/Gun_01.model",
+                "depression": 4,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 192,
+                "id": 1618,
+                "identifier": "_122-mm_D-49",
+                "max_ammo": 35,
+                "name": "122 mm D-49",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 135140,
+                "reload_time": 9.7,
+                "repair_health": 96,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 825,
+                "visual_model": "vehicles/russian/R75_SU122_54/normal/lod0/Gun_01.model",
+                "weight": 2590,
+                "yaw_left": -8,
+                "yaw_right": 8
+            }
+        ],
+        "health": 800,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R75_SU122_54",
+        "name": "SU-122-54",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 3510000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 1107,
+                "identifier": "_10RT_26E",
+                "name": "10RT-26E",
+                "not_in_shop": true,
+                "price": 56500,
+                "range": 760,
+                "repair_health": 150,
+                "repair_price": 4,
+                "tank_id": "R75_SU122_54",
+                "tier": 10,
+                "weight": 30
+            }
+        ],
+        "repair_price": 9.1,
+        "reverse_speed": 16,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1618,
+                "icon": "ap",
+                "id": "_122mm_UBR-471",
+                "min_penetration": 205,
+                "module_damage": 165,
+                "name": "UBR-471",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 1025,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1618,
+                "icon": "ap_cr",
+                "id": "_122mm_UBR-471P",
+                "min_penetration": 250,
+                "module_damage": 165,
+                "name": "BR-471D",
+                "penetration": 270,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1050,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1618,
+                "icon": "he",
+                "id": "_122mm_UOF-471",
+                "min_penetration": 61,
+                "module_damage": 165,
+                "name": "UOF-471",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-122-54",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-122-54",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "unrecoverable"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": -0.136547,
+        "turret_pos_y": 0.634148,
+        "turret_pos_z": 2.29004,
+        "turret_slots": [
+            {
+                "id": 647,
+                "pos_x": -0.136547,
+                "pos_y": 0.634148,
+                "pos_z": 2.29004,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R75_SU122_54"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R75_SU122_54/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 200,
+                "id": 825,
+                "identifier": "Turret_1_SU122_54",
+                "name": "SU-122-54",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "R75_SU122_54",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/russian/R75_SU122_54/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v10000ct",
+        "visual_model": "vehicles/russian/R75_SU122_54/normal/lod0/Hull.model",
+        "weight": 24965,
+        "xp_factor": 1
+    }
+}

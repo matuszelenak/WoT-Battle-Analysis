@@ -1,0 +1,520 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 60
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 80,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.135,
+        "camo_moving": 0.045,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.09,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 61000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G118_VK4503/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 190,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.17706,
+                "hull_pos_z": 0,
+                "id": 224,
+                "identifier": "Chassis_G118_VK4503",
+                "max_climb_angle": 25,
+                "max_load": 69700,
+                "name": "VK 45.03",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 145,
+                "repair_price": 5,
+                "rotation_speed": 28,
+                "tank_id": "G118_VK4503",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.9,
+                "tier": 7,
+                "visual_model": "vehicles/german/G118_VK4503/normal/lod0/Chassis.model",
+                "weight": 21350
+            }
+        ],
+        "collision_model": "vehicles/german/G118_VK4503/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Heavy tank developed at the end of WWII. The project was designated the Tiger III (VK 45.03) on October 12, 1942. Existed only in blueprints.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 244,
+                "identifier": "Maybach_HL_230P30A",
+                "name": "Maybach HL 230 P30",
+                "not_in_shop": true,
+                "power": 700,
+                "price": 55000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G118_VK4503",
+                "tier": 8,
+                "weight": 1400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 38,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 7700,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G118_VK4503/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.33,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 200,
+                "id": 369,
+                "identifier": "_88mm_KwK_43_L71B",
+                "max_ammo": 72,
+                "name": "8,8 cm Kw.K. 43 L/71",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.430469,
+                            8
+                        ],
+                        [
+                            0.433735,
+                            7.5
+                        ],
+                        [
+                            0.564004,
+                            7.5
+                        ],
+                        [
+                            0.565625,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 112180,
+                "reload_time": 8.4,
+                "repair_health": 100,
+                "repair_price": 7,
+                "rotation_speed": 30.625,
+                "tier": 8,
+                "turret_id": 188,
+                "visual_model": "vehicles/german/G118_VK4503/normal/lod0/Gun_01.model",
+                "weight": 2562,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G118_VK4503",
+        "name": "VK 45.03",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 238,
+                "identifier": "FuG5A",
+                "name": "FuG5 mit 20 WS.E.",
+                "not_in_shop": true,
+                "price": 630,
+                "range": 620,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G118_VK4503",
+                "tier": 6,
+                "weight": 50
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 369,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39_43",
+                "min_penetration": 185,
+                "module_damage": 119,
+                "name": "Pzgr 39/43",
+                "penetration": 203,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 369,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40_43",
+                "min_penetration": 217,
+                "module_damage": 119,
+                "name": "Pzgr 40/43",
+                "penetration": 237,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 369,
+                "icon": "he",
+                "id": "_88mm_Sprg.43",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 43",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "VK 45.03",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "vk-4503",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "beast"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.671004,
+        "turret_pos_z": -0.14628,
+        "turret_slots": [
+            {
+                "id": 147,
+                "pos_x": 0,
+                "pos_y": 0.671004,
+                "pos_z": -0.14628,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G118_VK4503"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 100,
+                "armor_rear": 80,
+                "armor_side": 80,
+                "collision_model": "vehicles/german/G118_VK4503/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 90
+                    }
+                ],
+                "gun_pos_x": 0.043723,
+                "gun_pos_y": 0.432764,
+                "gun_pos_z": 1.19198,
+                "health": 280,
+                "id": 188,
+                "identifier": "Turret_1_G118_VK4503",
+                "name": "VK 45.03",
+                "not_in_shop": true,
+                "price": 20000,
+                "rotation_speed": 22,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 2,
+                "tank_id": "G118_VK4503",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/german/G118_VK4503/normal/lod0/Turret_01.model",
+                "weight": 9538
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0922ct",
+        "visual_model": "vehicles/german/G118_VK4503/normal/lod0/Hull.model",
+        "weight": 29800,
+        "xp_factor": 1.5
+    }
+}

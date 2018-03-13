@@ -1,0 +1,364 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 1
+            }
+        ],
+        "armor_front": 0,
+        "armor_rear": 1,
+        "armor_side": 0,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.599,
+        "camo_moving": 0.239,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.399,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 8000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A101_M56/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.804397,
+                "hull_pos_z": 0,
+                "id": 711,
+                "identifier": "Chassis_A101_M56",
+                "max_climb_angle": 25,
+                "max_load": 9000,
+                "name": "M56 Scorpion",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "A101_M56",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 1.8,
+                "tier": 7,
+                "visual_model": "vehicles/american/A101_M56/normal/lod0/Chassis.model",
+                "weight": 1500
+            }
+        ],
+        "collision_model": "vehicles/american/A101_M56/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The M56 SPG was intended to support airborne units as a light tank destroyer that could be transported by cargo planes or inserted by parachute or glider. The vehicle was mass produced from 1953 through 1959, but it was not popular and was soon replaced by the Sheridan light tank. The Scorpion was occasionally used to provide artillery support in Vietnam.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 234,
+                "id": 797,
+                "identifier": "Continental_AOI-402-5",
+                "name": "Continental AOI-402-5",
+                "not_in_shop": true,
+                "power": 200,
+                "price": 34000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A101_M56",
+                "tier": 7,
+                "weight": 338
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 45,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 5150,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A101_M56/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.33,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 170,
+                "id": 1248,
+                "identifier": "_90mm_Gun_M54",
+                "max_ammo": 43,
+                "name": "90 mm Gun M54",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 95500,
+                "reload_time": 7.8,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 606,
+                "visual_model": "vehicles/american/A101_M56/normal/lod0/Gun_01.model",
+                "weight": 1107,
+                "yaw_left": -30,
+                "yaw_right": 30
+            }
+        ],
+        "health": 656,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A101_M56",
+        "name": "M56 Scorpion",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 140,
+                "id": 847,
+                "identifier": "AN_PRC_8",
+                "name": "AN/PRC-8",
+                "not_in_shop": true,
+                "price": 22000,
+                "range": 500,
+                "repair_health": 84,
+                "repair_price": 3.5,
+                "tank_id": "A101_M56",
+                "tier": 8,
+                "weight": 12
+            }
+        ],
+        "repair_price": 6,
+        "reverse_speed": 17,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1248,
+                "icon": "ap",
+                "id": "_90mm_AP_M318A1",
+                "min_penetration": 206,
+                "module_damage": 122,
+                "name": "M318A1",
+                "penetration": 219,
+                "penetration_loss": 0,
+                "price": 380,
+                "range": 720,
+                "speed": 914,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 1248,
+                "icon": "hc",
+                "id": "_90mm_HEAT_M431",
+                "min_penetration": 275,
+                "module_damage": 122,
+                "name": "HEAT M431",
+                "penetration": 275,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 1219,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1248,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 732,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Scorpion",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "scorpion",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": -5.9e-05,
+        "turret_pos_y": 0.236151,
+        "turret_pos_z": -0.098547,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 1,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A101_M56/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 1
+                    }
+                ],
+                "gun_pos_x": 5.8e-05,
+                "gun_pos_y": 0.649753,
+                "gun_pos_z": -0.00124,
+                "health": 164,
+                "id": 606,
+                "identifier": "Turret_1_A101_M56",
+                "name": "M56 Scorpion",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 12,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "A101_M56",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/american/A101_M56/normal/lod0/Turret_01.model",
+                "weight": 300
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v0917",
+        "visual_model": "vehicles/american/A101_M56/normal/lod0/Hull.model",
+        "weight": 3637,
+        "xp_factor": 1.5
+    }
+}

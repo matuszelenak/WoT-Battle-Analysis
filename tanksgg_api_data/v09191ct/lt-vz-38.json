@@ -1,0 +1,1675 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 15,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.479,
+        "camo_moving": 0.24,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.319,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 10000,
+                "center_rotation": false,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Chassis.model",
+                "dispersion_movement": 0.34,
+                "dispersion_rotation": 0.34,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.934288,
+                "hull_pos_z": 0,
+                "id": 74,
+                "identifier": "Chassis_Cz10_LT_vz38",
+                "max_climb_angle": 25,
+                "max_load": 10000,
+                "name": "LT vz. 38",
+                "not_in_shop": false,
+                "price": 620,
+                "repair_health": 45,
+                "repair_price": 1,
+                "rotation_speed": 34,
+                "tank_id": "Cz10_LT_vz38",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2,
+                "tier": 2,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Chassis.model",
+                "weight": 3200
+            },
+            {
+                "armor": 10,
+                "brake_force": 10000,
+                "center_rotation": false,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Chassis.model",
+                "dispersion_movement": 0.32,
+                "dispersion_rotation": 0.32,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.934288,
+                "hull_pos_z": 0,
+                "id": 75,
+                "identifier": "Chassis_Cz10_LT_vz38_2",
+                "max_climb_angle": 25,
+                "max_load": 13000,
+                "name": "Pz.Kpfw. 38 (t) Ausf. G",
+                "not_in_shop": false,
+                "price": 1620,
+                "repair_health": 55,
+                "repair_price": 1,
+                "rotation_speed": 38,
+                "tank_id": "Cz10_LT_vz38",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 1.8,
+                "tier": 3,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Chassis.model",
+                "weight": 3200
+            }
+        ],
+        "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed by the \u010cKD design group in 1938, this light tank saw service in the Wehrmacht under the designation Pz.Kpfw. 38 (t). It is considered to be the best Czechoslovakian vehicle: a total of 1,400 tanks of eight modifications were produced.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 82,
+                "identifier": "Praga_TNHPS",
+                "name": "Praga TNHPS",
+                "not_in_shop": false,
+                "power": 120,
+                "price": 1150,
+                "repair_health": 19,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "Cz10_LT_vz38",
+                "tier": 2,
+                "weight": 500
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 83,
+                "identifier": "Praga_TNHPS_II",
+                "name": "Praga TNHPS/II",
+                "not_in_shop": false,
+                "power": 125,
+                "price": 1250,
+                "repair_health": 19,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "Cz10_LT_vz38",
+                "tier": 2,
+                "weight": 500
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 55,
+                "id": 84,
+                "identifier": "Praga_TNHPS_dvojkarb",
+                "name": "Praga TNHPS (dvojkarb.)",
+                "not_in_shop": false,
+                "power": 140,
+                "price": 3750,
+                "repair_health": 27,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "Cz10_LT_vz38",
+                "tier": 3,
+                "weight": 520
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 42,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 5
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 120,
+                "identifier": "_37mm_Skoda_A3",
+                "max_ammo": 90,
+                "name": "37 mm \u0160koda A3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.529043,
+                            10
+                        ],
+                        [
+                            0.530462,
+                            8.5
+                        ],
+                        [
+                            0.542823,
+                            8
+                        ],
+                        [
+                            0.573774,
+                            9.5
+                        ],
+                        [
+                            0.575396,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2500,
+                "reload_time": 3.2,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 73,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Gun_01.model",
+                "weight": 235,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 121,
+                "identifier": "_37mm_Skoda_A8",
+                "max_ammo": 90,
+                "name": "37 mm \u0160koda A8",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.529043,
+                            10
+                        ],
+                        [
+                            0.530462,
+                            8.5
+                        ],
+                        [
+                            0.542823,
+                            8
+                        ],
+                        [
+                            0.573774,
+                            9.5
+                        ],
+                        [
+                            0.575396,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2730,
+                "reload_time": 2.6,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 73,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Gun_02.model",
+                "weight": 235,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 122,
+                "identifier": "_37mm_Skoda_A7",
+                "max_ammo": 90,
+                "name": "37 mm \u0160koda A7",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.529043,
+                            10
+                        ],
+                        [
+                            0.530462,
+                            8.5
+                        ],
+                        [
+                            0.542823,
+                            8
+                        ],
+                        [
+                            0.573774,
+                            9.5
+                        ],
+                        [
+                            0.575396,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 3460,
+                "reload_time": 2.6,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 73,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Gun_03.model",
+                "weight": 275,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 5
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 123,
+                "identifier": "_37mm_Skoda_A3",
+                "max_ammo": 90,
+                "name": "37 mm \u0160koda A3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.529043,
+                            10
+                        ],
+                        [
+                            0.530462,
+                            8.5
+                        ],
+                        [
+                            0.542823,
+                            8
+                        ],
+                        [
+                            0.573774,
+                            9.5
+                        ],
+                        [
+                            0.575396,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2500,
+                "reload_time": 3,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 74,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Gun_04.model",
+                "weight": 235,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 124,
+                "identifier": "_37mm_Skoda_A8",
+                "max_ammo": 90,
+                "name": "37 mm \u0160koda A8",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.529043,
+                            10
+                        ],
+                        [
+                            0.530462,
+                            8.5
+                        ],
+                        [
+                            0.542823,
+                            8
+                        ],
+                        [
+                            0.573774,
+                            9.5
+                        ],
+                        [
+                            0.575396,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2730,
+                "reload_time": 2.5,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 74,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Gun_05.model",
+                "weight": 235,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Gun_06.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 125,
+                "identifier": "_37mm_Skoda_A7",
+                "max_ammo": 90,
+                "name": "37 mm \u0160koda A7",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.529043,
+                            10
+                        ],
+                        [
+                            0.530462,
+                            8.5
+                        ],
+                        [
+                            0.542823,
+                            8
+                        ],
+                        [
+                            0.573774,
+                            9.5
+                        ],
+                        [
+                            0.575396,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 3460,
+                "reload_time": 2.5,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 40,
+                "tier": 2,
+                "turret_id": 74,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Gun_06.model",
+                "weight": 275,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 1,
+                "clip_size": 3,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Gun_07.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 126,
+                "identifier": "_37mm_Skoda_A23",
+                "max_ammo": 90,
+                "name": "37 mm \u0160koda A23",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 16500,
+                "reload_time": 5,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 40,
+                "tier": 4,
+                "turret_id": 74,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Gun_07.model",
+                "weight": 380,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 144,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Cz10_LT_vz38",
+        "name": "LT vz. 38",
+        "nation": "czech",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 43500,
+        "radios": [
+            {
+                "health": 100,
+                "id": 76,
+                "identifier": "Radiostanice_vz_35",
+                "name": "Radiostanice vz. 35",
+                "not_in_shop": false,
+                "price": 630,
+                "range": 310,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "Cz10_LT_vz38",
+                "tier": 3,
+                "weight": 30
+            },
+            {
+                "health": 100,
+                "id": 77,
+                "identifier": "Radiostanice_vz_37",
+                "name": "Radiostanice vz. 37",
+                "not_in_shop": false,
+                "price": 2250,
+                "range": 345,
+                "repair_health": 60,
+                "repair_price": 1,
+                "tank_id": "Cz10_LT_vz38",
+                "tier": 4,
+                "weight": 150
+            }
+        ],
+        "repair_price": 3.5,
+        "reverse_speed": 18,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 120,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_34",
+                "min_penetration": 45,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 34",
+                "penetration": 52,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 675,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 120,
+                "icon": "ap_cr",
+                "id": "_37mm_Prurazny_vz_40_s_oc_jadrem",
+                "min_penetration": 60,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 40 (s oc. j\u00e1drem)",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 830,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 120,
+                "icon": "he",
+                "id": "_37mm_Narazovy_vz_34",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "N\u00e1razov\u00fd vz. 34",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 9,
+                "range": 720,
+                "speed": 687,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 121,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_34",
+                "min_penetration": 45,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 34",
+                "penetration": 52,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 675,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 121,
+                "icon": "ap_cr",
+                "id": "_37mm_Prurazny_vz_40_s_oc_jadrem",
+                "min_penetration": 60,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 40 (s oc. j\u00e1drem)",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 830,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 121,
+                "icon": "he",
+                "id": "_37mm_Narazovy_vz_34",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "N\u00e1razov\u00fd vz. 34",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 9,
+                "range": 720,
+                "speed": 687,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 122,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_37",
+                "min_penetration": 50,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 37",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 16,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 122,
+                "icon": "ap_cr",
+                "id": "_37mm_Prurazny_vz_40_s_wolf_jadrem",
+                "min_penetration": 46,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 40 (s wolf. j\u00e1drem)",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 1020,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 122,
+                "icon": "he",
+                "id": "_37mm_Narazovy_vz_34",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "N\u00e1razov\u00fd vz. 34",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 9,
+                "range": 720,
+                "speed": 730,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 123,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_34",
+                "min_penetration": 45,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 34",
+                "penetration": 52,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 675,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 123,
+                "icon": "ap_cr",
+                "id": "_37mm_Prurazny_vz_40_s_oc_jadrem",
+                "min_penetration": 60,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 40 (s oc. j\u00e1drem)",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 830,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 123,
+                "icon": "he",
+                "id": "_37mm_Narazovy_vz_34",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "N\u00e1razov\u00fd vz. 34",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 9,
+                "range": 720,
+                "speed": 687,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 124,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_34",
+                "min_penetration": 45,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 34",
+                "penetration": 52,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 675,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 124,
+                "icon": "ap_cr",
+                "id": "_37mm_Prurazny_vz_40_s_oc_jadrem",
+                "min_penetration": 60,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 40 (s oc. j\u00e1drem)",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 830,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 124,
+                "icon": "he",
+                "id": "_37mm_Narazovy_vz_34",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "N\u00e1razov\u00fd vz. 34",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 9,
+                "range": 720,
+                "speed": 687,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 125,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_37",
+                "min_penetration": 50,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 37",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 16,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 125,
+                "icon": "ap_cr",
+                "id": "_37mm_Prurazny_vz_40_s_wolf_jadrem",
+                "min_penetration": 46,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 40 (s wolf. j\u00e1drem)",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 1020,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 125,
+                "icon": "he",
+                "id": "_37mm_Narazovy_vz_34",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "N\u00e1razov\u00fd vz. 34",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 9,
+                "range": 720,
+                "speed": 730,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 126,
+                "icon": "ap",
+                "id": "_37mm_Prurazny_vz_47",
+                "min_penetration": 66,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 47",
+                "penetration": 82,
+                "penetration_loss": 0,
+                "price": 26,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 126,
+                "icon": "ap_cr",
+                "id": "_37mm_Prurazny_vz_47_s_wolf_jadrem",
+                "min_penetration": 61,
+                "module_damage": 50,
+                "name": "Pr\u016frazn\u00fd vz. 47 (s wolf. j\u00e1drem)",
+                "penetration": 115,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 1224,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 126,
+                "icon": "he",
+                "id": "_37mm_Narazovy_vz_47",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "N\u00e1razov\u00fd vz. 47",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 915,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "LT vz. 38",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "lt-vz-38",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedSprings_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -1.8e-05,
+        "turret_pos_y": 0.507622,
+        "turret_pos_z": 0.250942,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25,
+                "armor_rear": 15,
+                "armor_side": 15,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25
+                    }
+                ],
+                "gun_pos_x": 1.8e-05,
+                "gun_pos_y": 0.296262,
+                "gun_pos_z": 0.515307,
+                "health": 36,
+                "id": 73,
+                "identifier": "Turret_1_Cz10_LT_vz38",
+                "name": "LT vz. 38",
+                "not_in_shop": false,
+                "price": 850,
+                "rotation_speed": 30,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz10_LT_vz38",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Turret_01.model",
+                "weight": 1200
+            },
+            {
+                "Guns": null,
+                "armor_front": 50,
+                "armor_rear": 25,
+                "armor_side": 30,
+                "collision_model": "vehicles/czech/Cz10_LT_vz38/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 15
+                    }
+                ],
+                "gun_pos_x": 1.8e-05,
+                "gun_pos_y": 0.300631,
+                "gun_pos_z": 0.558388,
+                "health": 76,
+                "id": 74,
+                "identifier": "Turret_2_Cz10_LT_vz38",
+                "name": "Pz.Kpfw. 38 (t) Ausf. G",
+                "not_in_shop": false,
+                "price": 1950,
+                "rotation_speed": 32,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz10_LT_vz38",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Turret_02.model",
+                "weight": 1800
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Cz10_LT_vz38_2",
+                "name": "Chassis_Cz10_LT_vz38_2",
+                "parent_key": "chassis-Chassis_Cz10_LT_vz38",
+                "price": 300,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_37mm_Skoda_A8",
+                "name": "_37mm_Skoda_A8",
+                "parent_key": "gun-_37mm_Skoda_A3",
+                "price": 120,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_37mm_Skoda_A7",
+                "name": "_37mm_Skoda_A7",
+                "parent_key": "gun-_37mm_Skoda_A8",
+                "price": 130,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_Cz10_LT_vz38",
+                "name": "Turret_2_Cz10_LT_vz38",
+                "parent_key": "gun-_37mm_Skoda_A7",
+                "price": 390,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-Cz11_V_8_H",
+                "name": "Cz11_V_8_H",
+                "parent_key": "gun-_37mm_Skoda_A7",
+                "price": 4660,
+                "tank_name": "ST vz. 39",
+                "tank_price": 151000,
+                "tank_slug": "st-vz-39",
+                "tank_tier": 4,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-_37mm_Skoda_A23",
+                "name": "_37mm_Skoda_A23",
+                "parent_key": "turret-Turret_2_Cz10_LT_vz38",
+                "price": 980,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Praga_TNHPS_II",
+                "name": "Praga_TNHPS_II",
+                "parent_key": "engine-Praga_TNHPS",
+                "price": 130,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Praga_TNHPS_dvojkarb",
+                "name": "Praga_TNHPS_dvojkarb",
+                "parent_key": "engine-Praga_TNHPS_II",
+                "price": 270,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Radiostanice_vz_37",
+                "name": "Radiostanice_vz_37",
+                "parent_key": "radio-Radiostanice_vz_35",
+                "price": 370,
+                "type": "radio"
+            }
+        ],
+        "version": "v09191ct",
+        "visual_model": "vehicles/czech/Cz10_LT_vz38/normal/lod0/Hull.model",
+        "weight": 4295,
+        "xp_factor": 1
+    }
+}

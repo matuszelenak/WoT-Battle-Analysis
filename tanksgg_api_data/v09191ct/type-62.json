@@ -1,0 +1,480 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 12.5
+            }
+        ],
+        "armor_front": 35,
+        "armor_rear": 20,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.432,
+        "camo_moving": 0.288,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.288,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 36500,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch02_Type62/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.874922,
+                "hull_pos_z": 0,
+                "id": 38,
+                "identifier": "Chassis_Ch02_Type62",
+                "max_climb_angle": 25,
+                "max_load": 24000,
+                "name": "Type 62",
+                "not_in_shop": true,
+                "price": 25500,
+                "repair_health": 105,
+                "repair_price": 7.5,
+                "rotation_speed": 54,
+                "tank_id": "Ch02_Type62",
+                "terrain_hard": 0.5,
+                "terrain_medium": 0.6,
+                "terrain_soft": 1.3,
+                "tier": 7,
+                "visual_model": "vehicles/chinese/Ch02_Type62/normal/lod0/Chassis.model",
+                "weight": 5500
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch02_Type62/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "The development of a lightweight version of the Type 59 tank was started in 1957. The new tank was designed to fight in the mountainous and boggy terrain of South China. The first prototype was built in 1962. Later the vehicle underwent several modernizations.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 105,
+                "id": 40,
+                "identifier": "_12150L-3_V-12",
+                "name": "NORINCO 12150L3",
+                "not_in_shop": true,
+                "power": 430,
+                "price": 17000,
+                "repair_health": 52,
+                "repair_price": 4,
+                "tags": "diesel",
+                "tank_id": "Ch02_Type62",
+                "tier": 5,
+                "weight": 700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 4800,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch02_Type62/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 134,
+                "id": 61,
+                "identifier": "_85mm_Tip_62-85TS",
+                "max_ammo": 47,
+                "name": "85 mm Type 62",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.394672,
+                            5
+                        ],
+                        [
+                            0.458334,
+                            1
+                        ],
+                        [
+                            0.541666,
+                            1
+                        ],
+                        [
+                            0.605328,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 61530,
+                "reload_time": 5.5,
+                "repair_health": 67,
+                "repair_price": 6,
+                "rotation_speed": 39.375,
+                "tier": 7,
+                "turret_id": 37,
+                "visual_model": "vehicles/chinese/Ch02_Type62/normal/lod0/Gun_01.model",
+                "weight": 1650,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 704,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch02_Type62",
+        "name": "Type 62",
+        "nation": "china",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 39,
+                "identifier": "A-220",
+                "name": "A-220",
+                "not_in_shop": true,
+                "price": 38000,
+                "range": 600,
+                "repair_health": 96,
+                "repair_price": 3.5,
+                "tank_id": "Ch02_Type62",
+                "tier": 9,
+                "weight": 40
+            }
+        ],
+        "repair_price": 4.5,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 61,
+                "icon": "ap",
+                "id": "_85mm_UBR",
+                "min_penetration": 135,
+                "module_damage": 115,
+                "name": "Chuan bei-367",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 170,
+                "range": 720,
+                "speed": 793,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 61,
+                "icon": "hc",
+                "id": "_85mm_HEAT",
+                "min_penetration": 220,
+                "module_damage": 115,
+                "name": "Po-365",
+                "penetration": 220,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 793,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 85,
+                "damage": 300,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 61,
+                "icon": "he",
+                "id": "_85mm_UOF",
+                "min_penetration": 43,
+                "module_damage": 115,
+                "name": "Sha bao-367",
+                "penetration": 43,
+                "penetration_loss": 0,
+                "price": 130,
+                "range": 720,
+                "speed": 793,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Type 62",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "type-62",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0.011619,
+        "turret_pos_y": 0.53719,
+        "turret_pos_z": 0.068084,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 45,
+                "armor_rear": 20,
+                "armor_side": 30,
+                "collision_model": "vehicles/chinese/Ch02_Type62/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 12.5
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_14",
+                        "value": 12.5
+                    }
+                ],
+                "gun_pos_x": -0.011827,
+                "gun_pos_y": 0.295211,
+                "gun_pos_z": 1.08244,
+                "health": 176,
+                "id": 37,
+                "identifier": "Turret_1_Ch02_Type62",
+                "name": "Type 62",
+                "not_in_shop": true,
+                "price": 18000,
+                "rotation_speed": 48,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch02_Type62",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/chinese/Ch02_Type62/normal/lod0/Turret_01.model",
+                "weight": 5000
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09191ct",
+        "visual_model": "vehicles/chinese/Ch02_Type62/normal/lod0/Hull.model",
+        "weight": 7860,
+        "xp_factor": 1.5
+    }
+}

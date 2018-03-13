@@ -1,0 +1,1771 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 60
+            }
+        ],
+        "armor_front": 80,
+        "armor_rear": 30,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.39,
+        "camo_moving": 0.195,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.26,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 33000,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.968981,
+                "hull_pos_z": 0,
+                "id": 180,
+                "identifier": "Chassis_AMX_30_prototype",
+                "max_climb_angle": 25,
+                "max_load": 32700,
+                "name": "AMX 30 1er prototype",
+                "not_in_shop": false,
+                "price": 32000,
+                "repair_health": 175,
+                "repair_price": 7.5,
+                "rotation_speed": 34,
+                "tank_id": "F71_AMX_30_prototype",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2,
+                "tier": 8,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Chassis.model",
+                "weight": 8500
+            },
+            {
+                "armor": 20,
+                "brake_force": 37800,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.968981,
+                "hull_pos_z": 0,
+                "id": 181,
+                "identifier": "Chassis_AMX_30_prototype_2",
+                "max_climb_angle": 25,
+                "max_load": 37800,
+                "name": "AMX 30 A pr\u00e9-s\u00e9rie",
+                "not_in_shop": false,
+                "price": 63000,
+                "repair_health": 180,
+                "repair_price": 7.5,
+                "rotation_speed": 36,
+                "tank_id": "F71_AMX_30_prototype",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.8,
+                "tier": 9,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Chassis.model",
+                "weight": 8500
+            }
+        ],
+        "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Developed as part of a competitive search for a unified European tank. The vehicle turned out to have maneuverability, engine power, and effective anti-tank engagement distance superior to all other vehicles except the Leopard 1. The armor of the vehicle was quite thin, but it was decided that technological advances in anti-tank shells had essentially rendered armor obsolete: survivability would depend on mobility and firepower.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 320,
+                "id": 197,
+                "identifier": "SOFAM_12GSds_A",
+                "name": "SOFAM 12 GSds",
+                "not_in_shop": false,
+                "power": 720,
+                "price": 86050,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "F71_AMX_30_prototype",
+                "tier": 9,
+                "weight": 2100
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 198,
+                "identifier": "Hispano-Suiza_HS110_A",
+                "name": "Hispano-Suiza HS 110 pr\u00e9-s\u00e9rie",
+                "not_in_shop": false,
+                "power": 720,
+                "price": 94250,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "F71_AMX_30_prototype",
+                "tier": 10,
+                "weight": 1426
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 65,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 245
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 160,
+                "id": 291,
+                "identifier": "_90mm_F3",
+                "max_ammo": 73,
+                "name": "90 mm F3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.430556,
+                            6
+                        ],
+                        [
+                            0.458333,
+                            6
+                        ],
+                        [
+                            0.472222,
+                            8
+                        ],
+                        [
+                            0.527778,
+                            8
+                        ],
+                        [
+                            0.541667,
+                            6
+                        ],
+                        [
+                            0.569445,
+                            6
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 87000,
+                "reload_time": 7.9,
+                "repair_health": 80,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 151,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Gun_01.model",
+                "weight": 2200,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Gun_02.model",
+                "depression": 8,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 245
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 190,
+                "id": 292,
+                "identifier": "_100mm_SA_47",
+                "max_ammo": 50,
+                "name": "100 mm SA47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.430556,
+                            6
+                        ],
+                        [
+                            0.458333,
+                            6
+                        ],
+                        [
+                            0.472222,
+                            8
+                        ],
+                        [
+                            0.527778,
+                            8
+                        ],
+                        [
+                            0.541667,
+                            6
+                        ],
+                        [
+                            0.569445,
+                            6
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 127550,
+                "reload_time": 9.1,
+                "repair_health": 95,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 151,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Gun_02.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Gun_03.model",
+                "depression": 8,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.14,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 245
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 208,
+                "id": 293,
+                "identifier": "_105mm_mle_F1",
+                "max_ammo": 47,
+                "name": "105 mm mle. F1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            8
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.458333,
+                            5
+                        ],
+                        [
+                            0.472222,
+                            8
+                        ],
+                        [
+                            0.527778,
+                            8
+                        ],
+                        [
+                            0.541667,
+                            5
+                        ],
+                        [
+                            0.569445,
+                            5
+                        ],
+                        [
+                            0.583333,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 290000,
+                "reload_time": 9,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 10,
+                "turret_id": 151,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Gun_03.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.33,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 170
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 260
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 160,
+                "id": 294,
+                "identifier": "_90mm_F3",
+                "max_ammo": 73,
+                "name": "90 mm F3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.402778,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.458333,
+                            5
+                        ],
+                        [
+                            0.472222,
+                            8
+                        ],
+                        [
+                            0.527778,
+                            8
+                        ],
+                        [
+                            0.541667,
+                            5
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            0.597222,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 87000,
+                "reload_time": 7.6,
+                "repair_health": 80,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 152,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Gun_04.model",
+                "weight": 2200,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 170
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 260
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 190,
+                "id": 295,
+                "identifier": "_100mm_SA_47",
+                "max_ammo": 50,
+                "name": "100 mm SA47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.402778,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.458333,
+                            5
+                        ],
+                        [
+                            0.472222,
+                            8
+                        ],
+                        [
+                            0.527778,
+                            8
+                        ],
+                        [
+                            0.541667,
+                            5
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            0.597222,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 127550,
+                "reload_time": 8.9,
+                "repair_health": 95,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 152,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Gun_05.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Gun_06.model",
+                "depression": 8,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 170
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 260
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 208,
+                "id": 296,
+                "identifier": "_105mm_mle_F1",
+                "max_ammo": 47,
+                "name": "105 mm mle. F1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.402778,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            4
+                        ],
+                        [
+                            0.458333,
+                            4
+                        ],
+                        [
+                            0.472222,
+                            8
+                        ],
+                        [
+                            0.527778,
+                            8
+                        ],
+                        [
+                            0.541667,
+                            4
+                        ],
+                        [
+                            0.583333,
+                            4
+                        ],
+                        [
+                            0.597222,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 290000,
+                "reload_time": 8.7,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 10,
+                "turret_id": 152,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Gun_06.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1240,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F71_AMX_30_prototype",
+        "name": "AMX 30 1er prototype",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 3550000,
+        "radios": [
+            {
+                "health": 160,
+                "id": 184,
+                "identifier": "TRVP_11_Banane",
+                "name": "TRVP-11 (Banane)",
+                "not_in_shop": false,
+                "price": 45500,
+                "range": 720,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "F71_AMX_30_prototype",
+                "tier": 9,
+                "weight": 80
+            },
+            {
+                "health": 200,
+                "id": 185,
+                "identifier": "TRVP_13",
+                "name": "TRVP-13",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F71_AMX_30_prototype",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 9.2,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 291,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 145,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 291,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 224,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1163,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 291,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 292,
+                "icon": "ap",
+                "id": "_100mm_Prf1940",
+                "min_penetration": 205,
+                "module_damage": 135,
+                "name": "Prf. mle. 1940",
+                "penetration": 232,
+                "penetration_loss": 0,
+                "price": 1030,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 292,
+                "icon": "ap_cr",
+                "id": "_100mm_FrtPrf1945",
+                "min_penetration": 253,
+                "module_damage": 135,
+                "name": "Frt.Prf. mle. 1945",
+                "penetration": 263,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 400,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 292,
+                "icon": "he",
+                "id": "_100mm_OE_mle_1930",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "OE mle. 1930",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 293,
+                "icon": "ap_cr",
+                "id": "_105mm_OFL_105_F1",
+                "min_penetration": 232,
+                "module_damage": 150,
+                "name": "OFL-105-F1",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 1210,
+                "range": 720,
+                "speed": 1100,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 293,
+                "icon": "hc",
+                "id": "_105mm_OCC_105_F1",
+                "min_penetration": 300,
+                "module_damage": 150,
+                "name": "OCC-105-F1",
+                "penetration": 300,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 800,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 293,
+                "icon": "he",
+                "id": "_105mm_OE_105_Mle_60",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "OE-105-Mle. 60",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 294,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 145,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 294,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 224,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1163,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 294,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 295,
+                "icon": "ap",
+                "id": "_100mm_Prf1940",
+                "min_penetration": 205,
+                "module_damage": 135,
+                "name": "Prf. mle. 1940",
+                "penetration": 232,
+                "penetration_loss": 0,
+                "price": 1030,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 295,
+                "icon": "ap_cr",
+                "id": "_100mm_FrtPrf1945",
+                "min_penetration": 253,
+                "module_damage": 135,
+                "name": "Frt.Prf. mle. 1945",
+                "penetration": 263,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 400,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 295,
+                "icon": "he",
+                "id": "_100mm_OE_mle_1930",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "OE mle. 1930",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 296,
+                "icon": "ap_cr",
+                "id": "_105mm_OFL_105_F1",
+                "min_penetration": 232,
+                "module_damage": 150,
+                "name": "OFL-105-F1",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 1210,
+                "range": 720,
+                "speed": 1100,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 296,
+                "icon": "hc",
+                "id": "_105mm_OCC_105_F1",
+                "min_penetration": 300,
+                "module_damage": 150,
+                "name": "OCC-105-F1",
+                "penetration": 300,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 800,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 296,
+                "icon": "he",
+                "id": "_105mm_OE_105_Mle_60",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "OE-105-Mle. 60",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AMX 30",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-30",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumTank1"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0.001042,
+        "turret_pos_y": 0.591171,
+        "turret_pos_z": 0.043599,
+        "turret_slots": [
+            {
+                "id": 118,
+                "pos_x": 0.001042,
+                "pos_y": 0.591171,
+                "pos_z": 0.043599,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "F71_AMX_30_prototype"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 80,
+                "armor_rear": 30,
+                "armor_side": 40,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 30
+                    }
+                ],
+                "gun_pos_x": -0.009135,
+                "gun_pos_y": 0.365393,
+                "gun_pos_z": 1.16675,
+                "health": 310,
+                "id": 151,
+                "identifier": "Turret_1_AMX_30_prototype",
+                "name": "AMX 30 1er prototype",
+                "not_in_shop": false,
+                "price": 32500,
+                "rotation_speed": 40,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "F71_AMX_30_prototype",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Turret_01.model",
+                "weight": 7000
+            },
+            {
+                "Guns": null,
+                "armor_front": 150,
+                "armor_rear": 30,
+                "armor_side": 40,
+                "collision_model": "vehicles/french/F71_AMX_30_prototype/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 30
+                    }
+                ],
+                "gun_pos_x": -0.000843,
+                "gun_pos_y": 0.303971,
+                "gun_pos_z": 1.20495,
+                "health": 410,
+                "id": 152,
+                "identifier": "Turret_2_AMX_30_prototype",
+                "name": "AMX 30 A pr\u00e9-s\u00e9rie",
+                "not_in_shop": false,
+                "price": 64000,
+                "rotation_speed": 44,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "F71_AMX_30_prototype",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Turret_02.model",
+                "weight": 7000
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_AMX_30_prototype_2",
+                "name": "Chassis_AMX_30_prototype_2",
+                "parent_key": "chassis-Chassis_AMX_30_prototype",
+                "price": 24000,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_100mm_SA_47",
+                "name": "_100mm_SA_47",
+                "parent_key": "gun-_90mm_F3",
+                "price": 34500,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_105mm_mle_F1",
+                "name": "_105mm_mle_F1",
+                "parent_key": "gun-_100mm_SA_47",
+                "price": 55000,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_AMX_30_prototype",
+                "name": "Turret_2_AMX_30_prototype",
+                "parent_key": "gun-_105mm_mle_F1",
+                "price": 25000,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-F72_AMX_30",
+                "name": "F72_AMX_30",
+                "parent_key": "turret-Turret_2_AMX_30_prototype",
+                "price": 180100,
+                "tank_name": "AMX 30 B",
+                "tank_price": 6100000,
+                "tank_slug": "amx-30-b",
+                "tank_tier": 10,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Hispano-Suiza_HS110_A",
+                "name": "Hispano-Suiza_HS110_A",
+                "parent_key": "engine-SOFAM_12GSds_A",
+                "price": 32000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-TRVP_13",
+                "name": "TRVP_13",
+                "parent_key": "radio-TRVP_11_Banane",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0921ct",
+        "visual_model": "vehicles/french/F71_AMX_30_prototype/normal/lod0/Hull.model",
+        "weight": 12194,
+        "xp_factor": 1
+    }
+}

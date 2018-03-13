@@ -1,0 +1,579 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 220
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 130
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 180
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 170
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 200
+            }
+        ],
+        "armor_front": 220,
+        "armor_rear": 80,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.09,
+        "camo_moving": 0.03,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.06,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 34000,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J29_Nameless/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.51735,
+                "hull_pos_z": 0,
+                "id": 445,
+                "identifier": "Chassis_J29_Nameless",
+                "max_climb_angle": 25,
+                "max_load": 37000,
+                "name": "Nameless",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 26,
+                "tank_id": "J29_Nameless",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.3,
+                "tier": 8,
+                "visual_model": "vehicles/japan/J29_Nameless/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/japan/J29_Nameless/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The main combat vehicle of Squad 422 of the Gallian Army also known as \"the Nameless\". Like the Edelweiss, this vehicle featured well-sloped armor plates. According to various sources, the tank of Squad 422 was one of combat prototypes that never entered mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 260,
+                "id": 487,
+                "identifier": "Nameless_Engine",
+                "name": "Nameless",
+                "not_in_shop": true,
+                "power": 570,
+                "price": 40000,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "J29_Nameless",
+                "tier": 8,
+                "weight": 1600
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 10700,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J29_Nameless/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 220,
+                "id": 758,
+                "identifier": "_88mm_Nameless_Gun",
+                "max_ammo": 68,
+                "name": "88 mm Breda L/48 (Trial Production)",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.111111,
+                            5
+                        ],
+                        [
+                            0.125,
+                            8
+                        ],
+                        [
+                            0.375,
+                            8
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.486111,
+                            2
+                        ],
+                        [
+                            0.513889,
+                            2.00005
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.625,
+                            8
+                        ],
+                        [
+                            0.875,
+                            8
+                        ],
+                        [
+                            0.888889,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 220000,
+                "reload_time": 9,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 25,
+                "tier": 8,
+                "turret_id": 393,
+                "visual_model": "vehicles/japan/J29_Nameless/normal/lod0/Gun_01.model",
+                "weight": 1600,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J29_Nameless",
+        "name": "Nameless",
+        "nation": "japan",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 180,
+                "id": 504,
+                "identifier": "Nameless_Radio",
+                "name": "Nameless",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 0.5,
+                "tank_id": "J29_Nameless",
+                "tier": 10,
+                "weight": 40
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 88,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 758,
+                "icon": "ap",
+                "id": "_88mm_Nameless_AP",
+                "min_penetration": 185,
+                "module_damage": 119,
+                "name": "AP/N",
+                "penetration": 220,
+                "penetration_loss": 0,
+                "price": 475,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 758,
+                "icon": "ap_cr",
+                "id": "_88mm_Nameless_APCR",
+                "min_penetration": 219,
+                "module_damage": 119,
+                "name": "APCR/N",
+                "penetration": 260,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1100,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 360,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 758,
+                "icon": "he",
+                "id": "_88mm_Nameless_ENH",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "ENH/N",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 345,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Nameless",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "nameless",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "heavyTank1"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "unrecoverable"
+            },
+            {
+                "name": "lockCrew"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.678647,
+        "turret_pos_z": -0.35367,
+        "turret_slots": [
+            {
+                "id": 313,
+                "pos_x": 0,
+                "pos_y": 0.678647,
+                "pos_z": -0.35367,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "J29_Nameless"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 240,
+                "armor_rear": 80,
+                "armor_side": 150,
+                "collision_model": "vehicles/japan/J29_Nameless/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 240
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 170
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 200
+                    }
+                ],
+                "gun_pos_x": -0.0092,
+                "gun_pos_y": 0.302969,
+                "gun_pos_z": 1.32267,
+                "health": 320,
+                "id": 393,
+                "identifier": "Turret_1_J29_Nameless",
+                "name": "Nameless",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 26,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 2,
+                "tank_id": "J29_Nameless",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/japan/J29_Nameless/normal/lod0/Turret_01.model",
+                "weight": 9500
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v092014",
+        "visual_model": "vehicles/japan/J29_Nameless/normal/lod0/Hull.model",
+        "weight": 13960,
+        "xp_factor": 1
+    }
+}

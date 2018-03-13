@@ -1,0 +1,526 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 203.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 177.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 101.6
+            }
+        ],
+        "armor_front": 203.2,
+        "armor_rear": 50.8,
+        "armor_side": 101.6,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.389,
+        "camo_moving": 0.155,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.259,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A102_T28_concept/collision_client/Chassis.model",
+                "dispersion_movement": 0.21,
+                "dispersion_rotation": 0.21,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 190,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.0812,
+                "hull_pos_z": 0,
+                "id": 680,
+                "identifier": "Chassis_A102_T28_concept",
+                "max_climb_angle": 25,
+                "max_load": 73000,
+                "name": "T28 Concept",
+                "not_in_shop": true,
+                "price": 16000,
+                "repair_health": 145,
+                "repair_price": 5,
+                "rotation_speed": 18,
+                "tank_id": "A102_T28_concept",
+                "terrain_hard": 1.5,
+                "terrain_medium": 2.1,
+                "terrain_soft": 2.6,
+                "tier": 7,
+                "visual_model": "vehicles/american/A102_T28_concept/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/american/A102_T28_concept/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The development of this heavy breakthrough tank began in September 1943. It was planned to utilize certain components of the M6 tank as well as the electromechanical transmission and 105-mm T5 gun, mounted in a turret of limited traverse with 203-mm armor protection. The vehicle was intended to assault the fortifications of the German \"Siegfried Line\" (known as the \"Westwall\" to the Germans). The U.S. land forces rejected the project during the design phase. The vehicle was later modified into the T95 heavy breakthrough tank.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 747,
+                "identifier": "Wright_G200_m_781C9GC5",
+                "name": "Wright G200 M781C9GC5",
+                "not_in_shop": true,
+                "power": 960,
+                "price": 100000,
+                "repair_health": 130,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A102_T28_concept",
+                "tier": 10,
+                "weight": 612
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 29,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 7000,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A102_T28_concept/collision_client/Gun_01.model",
+                "depression": 4.4,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 1126,
+                "identifier": "_105mm_AT_Gun_T5A",
+                "max_ammo": 60,
+                "name": "105 mm Gun T5",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4.4
+                        ],
+                        [
+                            1,
+                            4.4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 70000,
+                "reload_time": 10,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 574,
+                "visual_model": "vehicles/american/A102_T28_concept/normal/lod0/Gun_01.model",
+                "weight": 3032,
+                "yaw_left": -30,
+                "yaw_right": 30
+            }
+        ],
+        "health": 704,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A102_T28_concept",
+        "name": "T28 Concept",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 800,
+                "identifier": "SCR_508_1",
+                "name": "SCR 508/1",
+                "not_in_shop": true,
+                "price": 21600,
+                "range": 570,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A102_T28_concept",
+                "tier": 8,
+                "weight": 100
+            }
+        ],
+        "repair_price": 7,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1126,
+                "icon": "ap",
+                "id": "_105mm_AP_T32",
+                "min_penetration": 158,
+                "module_damage": 150,
+                "name": "AP T32",
+                "penetration": 181,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 720,
+                "speed": 872,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1126,
+                "icon": "ap_cr",
+                "id": "_105mm_APCR_T29E3",
+                "min_penetration": 200,
+                "module_damage": 150,
+                "name": "APCR T29E3",
+                "penetration": 224,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1075,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 420,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1126,
+                "icon": "he",
+                "id": "_105mm_HE_M11",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "HE M11",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 901,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T28 HTC",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t28-htc",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "special"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedVertical_springs_class3_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.566384,
+        "turret_pos_z": 0.883766,
+        "turret_slots": [
+            {
+                "id": 451,
+                "pos_x": 0,
+                "pos_y": 0.566384,
+                "pos_z": 0.883766,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A102_T28_concept"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 101.6,
+                "collision_model": "vehicles/american/A102_T28_concept/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_10",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_12",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_13",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 203.2
+                    }
+                ],
+                "gun_pos_x": 1e-06,
+                "gun_pos_y": 0.257568,
+                "gun_pos_z": 0.933283,
+                "health": 176,
+                "id": 574,
+                "identifier": "Turret_1_A102_T28_concept",
+                "name": "T28 Concept",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 18,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "A102_T28_concept",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/american/A102_T28_concept/normal/lod0/Turret_01.model",
+                "weight": 7000
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v0922",
+        "visual_model": "vehicles/american/A102_T28_concept/normal/lod0/Hull.model",
+        "weight": 43981,
+        "xp_factor": 1.5
+    }
+}

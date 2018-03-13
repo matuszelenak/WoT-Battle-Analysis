@@ -1,0 +1,682 @@
+{
+    "tank": {
+        "ammo_rack_health": 280,
+        "ammo_rack_repair_health": 190,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_13",
+                "primary": false,
+                "value": 200
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 200,
+        "armor_rear": 150,
+        "armor_side": 120,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.077,
+        "camo_moving": 0.026,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.051,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 50200,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G56_E-100/collision_client/Chassis.model",
+                "dispersion_movement": 0.21,
+                "dispersion_rotation": 0.21,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 300,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.1326,
+                "hull_pos_z": 0,
+                "id": 314,
+                "identifier": "Chassis_E-100",
+                "max_climb_angle": 25,
+                "max_load": 150000,
+                "name": "E 100",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 225,
+                "repair_price": 5,
+                "rotation_speed": 22,
+                "tank_id": "G56_E-100",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 10,
+                "visual_model": "vehicles/german/G56_E-100/normal/lod0/Chassis.model",
+                "weight": 30000
+            }
+        ],
+        "collision_model": "vehicles/german/G56_E-100/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In June 1943, the Adlerwerke company received an order for development of the E 100. However, in 1944, heavy tank development was discontinued. By the end of the war, only the chassis was completed, which was later captured by the British Army.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 360,
+                "id": 344,
+                "identifier": "Maybach_HL_234P60",
+                "name": "Maybach Neues Projekt",
+                "not_in_shop": true,
+                "power": 1200,
+                "price": 135000,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "G56_E-100",
+                "tier": 10,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 30,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G56_E-100/collision_client/Gun_04.model",
+                "depression": 7,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.07,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 220,
+                "id": 528,
+                "identifier": "_128mm_KwK44_L55",
+                "max_ammo": 72,
+                "name": "12,8 cm Kw.K. 44 L/55",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 310000,
+                "reload_time": 13.3,
+                "repair_health": 110,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 265,
+                "visual_model": "vehicles/german/G56_E-100/normal/lod0/Gun_04.model",
+                "weight": 3480,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G56_E-100/collision_client/Gun_06.model",
+                "depression": 7,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 200
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 230,
+                "id": 529,
+                "identifier": "_150mm_KwK44_L38",
+                "max_ammo": 50,
+                "name": "15 cm Kw.K. L/38",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 340000,
+                "reload_time": 20,
+                "repair_health": 115,
+                "repair_price": 10,
+                "rotation_speed": 23.625,
+                "tier": 10,
+                "turret_id": 265,
+                "visual_model": "vehicles/german/G56_E-100/normal/lod0/Gun_06.model",
+                "weight": 3650,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 2160,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G56_E-100",
+        "name": "E 100",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 351,
+                "identifier": "_10WSc",
+                "name": "10WSc",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 720,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "G56_E-100",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 10.45,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 528,
+                "icon": "ap",
+                "id": "_128mm_PzGr39",
+                "min_penetration": 241,
+                "module_damage": 180,
+                "name": "Pzgr 39",
+                "penetration": 246,
+                "penetration_loss": 0,
+                "price": 1070,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 528,
+                "icon": "ap_cr",
+                "id": "_128mm_PzGr40",
+                "min_penetration": 263,
+                "module_damage": 180,
+                "name": "Pzgr 40",
+                "penetration": 311,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 128,
+                "damage": 630,
+                "explosion_radius": 2.71,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 528,
+                "icon": "he",
+                "id": "_128mm_SprG18",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Sprgr 18",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 935,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 150,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 529,
+                "icon": "ap",
+                "id": "_150mm_PzGr42",
+                "min_penetration": 241,
+                "module_damage": 203,
+                "name": "Pzgr 42",
+                "penetration": 246,
+                "penetration_loss": 0,
+                "price": 1260,
+                "range": 720,
+                "speed": 757,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 150,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 15,
+                "gravity": 9.81,
+                "gun_id": 529,
+                "icon": "hc",
+                "id": "_150mmGr_39H3A_G",
+                "min_penetration": 334,
+                "module_damage": 203,
+                "name": "Gr 39 H3A G",
+                "penetration": 334,
+                "penetration_loss": 0.05,
+                "price": 6000,
+                "range": 720,
+                "speed": 606,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 150,
+                "damage": 950,
+                "explosion_radius": 3.57,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 529,
+                "icon": "he",
+                "id": "_150mm_SprgG_ausf_45",
+                "min_penetration": 85,
+                "module_damage": 203,
+                "name": "Sprgr G 45",
+                "penetration": 85,
+                "penetration_loss": 0,
+                "price": 1120,
+                "range": 720,
+                "speed": 757,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "E 100",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "e-100",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "antifragmentationLining_superheavy_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "enhancedBelwillWashers_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0.03062,
+        "turret_pos_y": 0.703274,
+        "turret_pos_z": 0.071394,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 250,
+                "armor_rear": 150,
+                "armor_side": 150,
+                "collision_model": "vehicles/german/G56_E-100/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 150
+                    }
+                ],
+                "gun_pos_x": -0.03062,
+                "gun_pos_y": 0.613262,
+                "gun_pos_z": 1.50983,
+                "health": 540,
+                "id": 265,
+                "identifier": "Turret_2_E-100",
+                "name": "E 100",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 20,
+                "rotator_health": 180,
+                "rotator_repair_health": 90,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 2,
+                "tank_id": "G56_E-100",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/german/G56_E-100/normal/lod0/Turret_02.model",
+                "weight": 58000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "gun-_150mm_KwK44_L38",
+                "name": "_150mm_KwK44_L38",
+                "parent_key": "turret-Turret_2_E-100",
+                "price": 64800,
+                "type": "gun"
+            }
+        ],
+        "version": "v0918ct",
+        "visual_model": "vehicles/german/G56_E-100/normal/lod0/Hull.model",
+        "weight": 37000,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,493 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 80,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 25
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 12,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.507,
+        "camo_moving": 0.338,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.338,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G50_T-15/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.917936,
+                "hull_pos_z": 0,
+                "id": 310,
+                "identifier": "Chassis_T-15",
+                "max_climb_angle": 25,
+                "max_load": 12200,
+                "name": "Pz.Kpfw. T 15",
+                "not_in_shop": true,
+                "price": 3600,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 46,
+                "tank_id": "G50_T-15",
+                "terrain_hard": 1.03,
+                "terrain_medium": 1.14,
+                "terrain_soft": 2.06,
+                "tier": 3,
+                "visual_model": "vehicles/german/G50_T-15/normal/lod0/Chassis.model",
+                "weight": 1200
+            }
+        ],
+        "collision_model": "vehicles/german/G50_T-15/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "This experimental light tank was developed at the \u0160koda factory in 1941\u20131943, with a total of five prototypes manufactured. The vehicle was never mass-produced, nor saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 100,
+                "id": 336,
+                "identifier": "Praga_NRi",
+                "name": "Praga NRi",
+                "not_in_shop": true,
+                "power": 274,
+                "price": 12000,
+                "repair_health": 49,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G50_T-15",
+                "tier": 4,
+                "weight": 470
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 900,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7142857,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G50_T-15/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.41142857,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 514,
+                "identifier": "_37mm_KwK_38t_L47_A",
+                "max_ammo": 78,
+                "name": "3,7 cm Kw.K. 38 (t) L/47",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            0.002778,
+                            7
+                        ],
+                        [
+                            0.016667,
+                            10
+                        ],
+                        [
+                            0.402778,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            7
+                        ],
+                        [
+                            0.583333,
+                            7
+                        ],
+                        [
+                            0.597222,
+                            10
+                        ],
+                        [
+                            0.983333,
+                            10
+                        ],
+                        [
+                            0.997222,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2730,
+                "reload_time": 2.2857144,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 263,
+                "visual_model": "vehicles/german/G50_T-15/normal/lod0/Gun_01.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 208,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G50_T-15",
+        "name": "Pz.Kpfw. T 15",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 339,
+                "identifier": "FuG7A",
+                "name": "FuG 7 Ausf. F",
+                "not_in_shop": true,
+                "price": 8160,
+                "range": 710,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "G50_T-15",
+                "tier": 6,
+                "weight": 70
+            }
+        ],
+        "repair_price": 3.17,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 514,
+                "icon": "ap",
+                "id": "_37mm_Pzgr39t",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "Pzgr 39 (t)",
+                "penetration": 42,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 750,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 514,
+                "icon": "ap_cr",
+                "id": "_37cm_Pzgr40t",
+                "min_penetration": 38,
+                "module_damage": 50,
+                "name": "Pzgr 40 (t)",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 938,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 514,
+                "icon": "he",
+                "id": "_37mm_Sprg.18t",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Sprgr 18 (t)",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 8,
+                "range": 720,
+                "speed": 750,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz. T 15",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pz-t-15",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedSprings_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.501154,
+        "turret_pos_z": 0.3631,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 30,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/german/G50_T-15/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 15
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.291568,
+                "gun_pos_z": 0.515976,
+                "health": 52,
+                "id": 263,
+                "identifier": "Turret_1_T-15",
+                "name": "Pz.Kpfw. T 15",
+                "not_in_shop": true,
+                "price": 3500,
+                "rotation_speed": 44,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "G50_T-15",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/german/G50_T-15/normal/lod0/Turret_01.model",
+                "weight": 1200
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09201ct",
+        "visual_model": "vehicles/german/G50_T-15/normal/lod0/Hull.model",
+        "weight": 7200,
+        "xp_factor": 1.5
+    }
+}

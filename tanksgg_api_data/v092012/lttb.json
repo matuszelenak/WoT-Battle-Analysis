@@ -1,0 +1,780 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 90
+            }
+        ],
+        "armor_front": 90,
+        "armor_rear": 40,
+        "armor_side": 45,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.405,
+        "camo_moving": 0.27,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.27,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 22500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R107_LTB/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.902296,
+                "hull_pos_z": 0,
+                "id": 829,
+                "identifier": "Chassis_R107_LTB",
+                "max_climb_angle": 25,
+                "max_load": 22500,
+                "name": "LTTB",
+                "not_in_shop": false,
+                "price": 17600,
+                "repair_health": 135,
+                "repair_price": 7.5,
+                "rotation_speed": 46,
+                "tank_id": "R107_LTB",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.7,
+                "tier": 7,
+                "visual_model": "vehicles/russian/R107_LTB/normal/lod0/Chassis.model",
+                "weight": 5500
+            },
+            {
+                "armor": 15,
+                "brake_force": 24000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R107_LTB/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.902296,
+                "hull_pos_z": 0,
+                "id": 830,
+                "identifier": "Chassis_R107_LTB_2",
+                "max_climb_angle": 25,
+                "max_load": 24000,
+                "name": "LTTB enhanced",
+                "not_in_shop": false,
+                "price": 30600,
+                "repair_health": 150,
+                "repair_price": 7.5,
+                "rotation_speed": 48,
+                "tank_id": "R107_LTB",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.6,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R107_LTB/normal/lod0/Chassis.model",
+                "weight": 5500
+            }
+        ],
+        "collision_model": "vehicles/russian/R107_LTB/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Development of the light tank project was started in early 1944 at Factory No. 174. The project was canceled during the design phase and the phase of setting tactical and technical requirements.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 260,
+                "id": 913,
+                "identifier": "KZ-V8",
+                "name": "KZ V8",
+                "not_in_shop": false,
+                "power": 600,
+                "price": 26000,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "R107_LTB",
+                "tier": 7,
+                "weight": 600
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 370,
+                "id": 914,
+                "identifier": "KZ-V16",
+                "name": "KZ V16",
+                "not_in_shop": false,
+                "power": 770,
+                "price": 54000,
+                "repair_health": 185,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "R107_LTB",
+                "tier": 8,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 68,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R107_LTB/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 134,
+                "id": 1385,
+                "identifier": "_85mm_D5T-85BMU",
+                "max_ammo": 48,
+                "name": "85 mm D-5T-85BMU",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 72300,
+                "reload_time": 5.5,
+                "repair_health": 67,
+                "repair_price": 6,
+                "rotation_speed": 39.375,
+                "tier": 7,
+                "turret_id": 718,
+                "visual_model": "vehicles/russian/R107_LTB/normal/lod0/Gun_01.model",
+                "weight": 1850,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R107_LTB/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 134,
+                "id": 1386,
+                "identifier": "_85mm_D10_85",
+                "max_ammo": 42,
+                "name": "85 mm D-10-85",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 94400,
+                "reload_time": 5.4,
+                "repair_health": 67,
+                "repair_price": 6,
+                "rotation_speed": 39.375,
+                "tier": 8,
+                "turret_id": 718,
+                "visual_model": "vehicles/russian/R107_LTB/normal/lod0/Gun_03.model",
+                "weight": 2100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 840,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R107_LTB",
+        "name": "LTTB",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 2410000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 962,
+                "identifier": "_9RM",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R107_LTB",
+                "tier": 8,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 963,
+                "identifier": "R113",
+                "name": "R-113",
+                "not_in_shop": false,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R107_LTB",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 9,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1385,
+                "icon": "ap",
+                "id": "_85mm_UBR-365KBM",
+                "min_penetration": 125,
+                "module_damage": 115,
+                "name": "UBR-365KBM",
+                "penetration": 144,
+                "penetration_loss": 0,
+                "price": 175,
+                "range": 720,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 1385,
+                "icon": "ap_cr",
+                "id": "_85mm_UBR-365PBM",
+                "min_penetration": 168,
+                "module_damage": 115,
+                "name": "UBR-365PBM",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 300,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1385,
+                "icon": "he",
+                "id": "_85mm_UOF-365BM",
+                "min_penetration": 44,
+                "module_damage": 115,
+                "name": "UOF-365BM",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 139,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1386,
+                "icon": "ap",
+                "id": "_85mm_UBR-365KBM100",
+                "min_penetration": 162,
+                "module_damage": 115,
+                "name": "UBR-365KBM100",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 220,
+                "range": 720,
+                "speed": 1050,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 1386,
+                "icon": "ap_cr",
+                "id": "_85mm_UBR-365PBM100",
+                "min_penetration": 187,
+                "module_damage": 115,
+                "name": "UBR-365PBM100",
+                "penetration": 216,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1313,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 300,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1386,
+                "icon": "he",
+                "id": "_85mm_UOF-365BM100",
+                "min_penetration": 44,
+                "module_damage": 115,
+                "name": "UOF-365BM100",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 145,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "LTTB",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "lttb",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.617273,
+        "turret_pos_z": 0.424607,
+        "turret_slots": [
+            {
+                "id": 565,
+                "pos_x": 0,
+                "pos_y": 0.617273,
+                "pos_z": 0.424607,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R107_LTB"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 90,
+                "armor_rear": 52,
+                "armor_side": 75,
+                "collision_model": "vehicles/russian/R107_LTB/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": -0.0004,
+                "gun_pos_y": 0.310835,
+                "gun_pos_z": 0.870815,
+                "health": 210,
+                "id": 718,
+                "identifier": "Turret_1_R107_LTB",
+                "name": "LTTB",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 48,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "R107_LTB",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/russian/R107_LTB/normal/lod0/Turret_01.model",
+                "weight": 5450
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_R107_LTB_2",
+                "name": "Chassis_R107_LTB_2",
+                "parent_key": "chassis-Chassis_R107_LTB",
+                "price": 14800,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_85mm_D10_85",
+                "name": "_85mm_D10_85",
+                "parent_key": "gun-_85mm_D5T-85BMU",
+                "price": 17200,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R40_T-54",
+                "name": "R40_T-54",
+                "parent_key": "gun-_85mm_D10_85",
+                "price": 225300,
+                "tank_name": "T-54",
+                "tank_price": 3450000,
+                "tank_slug": "t-54",
+                "tank_tier": 9,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-KZ-V16",
+                "name": "KZ-V16",
+                "parent_key": "engine-KZ-V8",
+                "price": 17300,
+                "type": "engine"
+            },
+            {
+                "key": "radio-R113",
+                "name": "R113",
+                "parent_key": "radio-_9RM",
+                "price": 8700,
+                "type": "radio"
+            },
+            {
+                "key": "vehicle-R109_T54S",
+                "name": "R109_T54S",
+                "parent_key": "radio-R113",
+                "price": 193200,
+                "tank_name": "T-54 ltwt.",
+                "tank_price": 3500000,
+                "tank_slug": "t-54-ltwt",
+                "tank_tier": 9,
+                "tank_type": "light",
+                "type": "vehicle"
+            }
+        ],
+        "version": "v092012",
+        "visual_model": "vehicles/russian/R107_LTB/normal/lod0/Hull.model",
+        "weight": 8525,
+        "xp_factor": 1
+    }
+}

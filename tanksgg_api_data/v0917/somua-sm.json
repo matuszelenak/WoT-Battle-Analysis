@@ -1,0 +1,525 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 40
+            }
+        ],
+        "armor_front": 120,
+        "armor_rear": 70,
+        "armor_side": 50,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.123,
+        "camo_moving": 0.041,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.082,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F84_Somua_SM/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.06174,
+                "hull_pos_z": 0,
+                "id": 94,
+                "identifier": "Chassis_F84_Somua_SM",
+                "max_climb_angle": 25,
+                "max_load": 60000,
+                "name": "Somua SM",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "F84_Somua_SM",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 8,
+                "visual_model": "vehicles/french/F84_Somua_SM/normal/lod0/Chassis.model",
+                "weight": 13000
+            }
+        ],
+        "collision_model": "vehicles/french/F84_Somua_SM/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "loader"
+            }
+        ],
+        "description": "A French heavy tank, presented as an alternative for the AMX 50 at a design competition. Development started in 1946; however, the prototype was not ready until October 1951. German tank-building technologies were applied in the development of the vehicle: it was equipped with a 100-mm gun with a magazine-system autoloader installed in an oscillating turret. The tank underwent trials from January through July 1953, during which it did not show any promising results. Consequently, the project was discontinued in favor of the AMX 50.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 105,
+                "identifier": "Maybach_HL_295_003_Somua",
+                "name": "Maybach HL 295.003 \"Somua\"",
+                "not_in_shop": true,
+                "power": 960,
+                "price": 96000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F84_Somua_SM",
+                "tier": 9,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 100,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 3.75,
+                "clip_size": 5,
+                "collision_model": "vehicles/french/F84_Somua_SM/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 85
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 190,
+                "id": 177,
+                "identifier": "_100mm_SA_47_A",
+                "max_ammo": 60,
+                "name": "100 mm SA47",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            10
+                        ],
+                        [
+                            0.444444,
+                            3.5
+                        ],
+                        [
+                            0.555556,
+                            3.5
+                        ],
+                        [
+                            0.611111,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 127550,
+                "reload_time": 43,
+                "repair_health": 95,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 87,
+                "visual_model": "vehicles/french/F84_Somua_SM/normal/lod0/Gun_01.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F84_Somua_SM",
+        "name": "Somua SM",
+        "nation": "france",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 97,
+                "identifier": "SCR_508_1",
+                "name": "SCR 508/1",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F84_Somua_SM",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 177,
+                "icon": "ap",
+                "id": "_100mm_Prf1940",
+                "min_penetration": 205,
+                "module_damage": 135,
+                "name": "Prf. mle. 1940",
+                "penetration": 232,
+                "penetration_loss": 0,
+                "price": 1030,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 177,
+                "icon": "ap_cr",
+                "id": "_100mm_FrtPrf1945",
+                "min_penetration": 253,
+                "module_damage": 135,
+                "name": "Frt.Prf. mle. 1945",
+                "penetration": 263,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 400,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 177,
+                "icon": "he",
+                "id": "_100mm_OE_mle_1930",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "OE mle. 1930",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Somua SM",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "somua-sm",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "testTank"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0.007886,
+        "turret_pos_y": 0.791574,
+        "turret_pos_z": 0.055407,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 70,
+                "armor_rear": 60,
+                "armor_side": 60,
+                "collision_model": "vehicles/french/F84_Somua_SM/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 150
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 70
+                    }
+                ],
+                "gun_pos_x": -0.007886,
+                "gun_pos_y": 0.51066,
+                "gun_pos_z": 0.077105,
+                "health": 280,
+                "id": 87,
+                "identifier": "Turret_1_F84_Somua_SM",
+                "name": "Somua SM",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 32,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 2,
+                "tank_id": "F84_Somua_SM",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/french/F84_Somua_SM/normal/lod0/Turret_01.model",
+                "weight": 12400
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0917",
+        "visual_model": "vehicles/french/F84_Somua_SM/normal/lod0/Hull.model",
+        "weight": 26450,
+        "xp_factor": 1.5
+    }
+}

@@ -1,0 +1,476 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_14",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 90
+            }
+        ],
+        "armor_front": 80,
+        "armor_rear": 20,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.341,
+        "camo_moving": 0.171,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.227,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 32000,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G77_PzIV_Schmalturm/collision_client/Chassis.model",
+                "dispersion_movement": 0.15,
+                "dispersion_rotation": 0.15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.00642,
+                "hull_pos_z": 0,
+                "id": 224,
+                "identifier": "PzIV_ausf43",
+                "max_climb_angle": 25,
+                "max_load": 32000,
+                "name": "Pz.Kpfw. IV Schmalturm",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 36,
+                "tank_id": "G77_PzIV_Schmalturm",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 2.3,
+                "tier": 5,
+                "visual_model": "vehicles/german/G77_PzIV_Schmalturm/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/german/G77_PzIV_Schmalturm/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In November 1944, the Krupp company presented several avant-projects aimed at upgrading the armament of tanks and tank destroyers in service. Among them there was a project for mounting the Panther's Schmalturm turret on the Pz IV Ausf. J. The project was not considered as it would overload the suspension and production of the Pz IV was being phased out.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 86,
+                "id": 244,
+                "identifier": "Maybach_HL_120_TRM_C",
+                "name": "Maybach HL 120 TRM V12",
+                "not_in_shop": true,
+                "power": 300,
+                "price": 19900,
+                "repair_health": 42,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G77_PzIV_Schmalturm",
+                "tier": 4,
+                "weight": 920
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 48,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 3750,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G77_PzIV_Schmalturm/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.32,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2,
+                "dispersion_rotation": 0.11,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 377,
+                "identifier": "_75mm_KwK_441_A",
+                "max_ammo": 60,
+                "name": "7,5 cm Kw.K. 44/1 L/70",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 53000,
+                "reload_time": 4.2,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 190,
+                "visual_model": "vehicles/german/G77_PzIV_Schmalturm/normal/lod0/Gun_01.model",
+                "weight": 955,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 584,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G77_PzIV_Schmalturm",
+        "name": "Pz.Kpfw. IV Schmalturm",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 247,
+                "identifier": "FuG5A",
+                "name": "FuG5 mit 20 WS.E.",
+                "not_in_shop": true,
+                "price": 630,
+                "range": 620,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "G77_PzIV_Schmalturm",
+                "tier": 6,
+                "weight": 50
+            }
+        ],
+        "repair_price": 3,
+        "reverse_speed": 18,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 377,
+                "icon": "ap",
+                "id": "_75mm_Pzgr39L",
+                "min_penetration": 132,
+                "module_damage": 100,
+                "name": "Pzgr 39 L",
+                "penetration": 150,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 925,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 135,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 377,
+                "icon": "ap_cr",
+                "id": "_75mm_Pzgr.40L",
+                "min_penetration": 174,
+                "module_damage": 100,
+                "name": "Pzgr 40 L",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1156,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 377,
+                "icon": "he",
+                "id": "_75mm_Sprg.18L",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "Sprgr 18 L",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 925,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz. IV S.",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pz-iv-s",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "enhancedLevers_user"
+            },
+            {
+                "name": "grousers_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": -0.067394,
+        "turret_pos_y": 0.639057,
+        "turret_pos_z": -0.294979,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 60,
+                "armor_side": 60,
+                "collision_model": "vehicles/german/G77_PzIV_Schmalturm/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": 0.067394,
+                "gun_pos_y": 0.464888,
+                "gun_pos_z": 1.05083,
+                "health": 146,
+                "id": 190,
+                "identifier": "PzIV_Schmalturm_A",
+                "name": "Pz.Kpfw. IV Schmalturm",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 24,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "G77_PzIV_Schmalturm",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/german/G77_PzIV_Schmalturm/normal/lod0/Turret_01.model",
+                "weight": 8530
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0918",
+        "visual_model": "vehicles/german/G77_PzIV_Schmalturm/normal/lod0/Hull.model",
+        "weight": 11160,
+        "xp_factor": 1.5
+    }
+}

@@ -1,0 +1,479 @@
+{
+    "tank": {
+        "ammo_rack_health": 130,
+        "ammo_rack_repair_health": 65,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 65
+            }
+        ],
+        "armor_front": 75,
+        "armor_rear": 30,
+        "armor_side": 50,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.162,
+        "camo_moving": 0.054,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.108,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 65000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R52_Object_261/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.92589,
+                "hull_pos_z": 0,
+                "id": 908,
+                "identifier": "Chassis_Object_261",
+                "max_climb_angle": 25,
+                "max_load": 62200,
+                "name": "Object 261",
+                "not_in_shop": true,
+                "price": 36000,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 20,
+                "tank_id": "R52_Object_261",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R52_Object_261/normal/lod0/Chassis.model",
+                "weight": 22000
+            }
+        ],
+        "collision_model": "vehicles/russian/R52_Object_261/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed on the basis of the IS-7 in 1947. The vehicle was supposed to feature a 180-mm naval gun. However, the project was discontinued.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 360,
+                "id": 998,
+                "identifier": "M-50T",
+                "name": "M-50T",
+                "not_in_shop": true,
+                "power": 1050,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R52_Object_261",
+                "tier": 10,
+                "weight": 700
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 50,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 4.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R52_Object_261/collision_client/Gun_01.model",
+                "depression": 3,
+                "dispersion": 0.59,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.275,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 280,
+                "id": 1520,
+                "identifier": "_180mm_B-1-P",
+                "max_ammo": 18,
+                "name": "180 mm B-1-P",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 235000,
+                "reload_time": 32,
+                "repair_health": 140,
+                "repair_price": 12,
+                "rotation_speed": 20,
+                "tier": 9,
+                "turret_id": 777,
+                "visual_model": "vehicles/russian/R52_Object_261/normal/lod0/Gun_01.model",
+                "weight": 17225,
+                "yaw_left": -5,
+                "yaw_right": 5
+            }
+        ],
+        "health": 408,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R52_Object_261",
+        "name": "Object 261",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 1047,
+                "identifier": "_10RK-26",
+                "name": "10RK-26",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 720,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "R52_Object_261",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 53.21,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 180,
+                "damage": 900,
+                "explosion_radius": 10,
+                "gold_price": 0,
+                "gravity": 177,
+                "gun_id": 1520,
+                "icon": "he",
+                "id": "_180mm_F-600D",
+                "min_penetration": 45,
+                "module_damage": 120,
+                "name": "F-600D",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 1980,
+                "range": 10000,
+                "speed": 510,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 180,
+                "damage": 900,
+                "explosion_radius": 11,
+                "gold_price": 18,
+                "gravity": 177,
+                "gun_id": 1520,
+                "icon": "he_premium",
+                "id": "_180mm_F-600BM",
+                "min_penetration": 45,
+                "module_damage": 120,
+                "name": "F-600BM",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 7200,
+                "range": 10000,
+                "speed": 510,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 261",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-261",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "heavySPG"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 9.9e-05,
+        "turret_pos_y": 0.23479,
+        "turret_pos_z": -0.369152,
+        "turret_slots": [
+            {
+                "id": 606,
+                "pos_x": 9.9e-05,
+                "pos_y": 0.23479,
+                "pos_z": -0.369152,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R52_Object_261"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R52_Object_261/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -9.9e-05,
+                "gun_pos_y": 0.99512,
+                "gun_pos_z": -1.38735,
+                "health": 102,
+                "id": 777,
+                "identifier": "Turret_1_Object_261",
+                "name": "Object 261",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 12,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "R52_Object_261",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/russian/R52_Object_261/normal/lod0/Turret_01.model",
+                "weight": 170
+            }
+        ],
+        "type": "spg",
+        "unlocks": null,
+        "version": "v0922ct2",
+        "visual_model": "vehicles/russian/R52_Object_261/normal/lod0/Hull.model",
+        "weight": 18570,
+        "xp_factor": 1
+    }
+}

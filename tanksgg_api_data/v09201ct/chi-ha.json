@@ -1,0 +1,1628 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 20,
+        "armor_side": 25,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.449,
+        "camo_moving": 0.224,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.299,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 16000,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.00582,
+                "hull_pos_z": 0,
+                "id": 435,
+                "identifier": "Chassis_Chi_Ha",
+                "max_climb_angle": 25,
+                "max_load": 15900,
+                "name": "Type 97 Chi-Ha",
+                "not_in_shop": false,
+                "price": 900,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "J07_Chi_Ha",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 2,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Chassis.model",
+                "weight": 5000
+            },
+            {
+                "armor": 15,
+                "brake_force": 18500,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.00582,
+                "hull_pos_z": 0,
+                "id": 436,
+                "identifier": "Chassis_Chi_Ha_2",
+                "max_climb_angle": 25,
+                "max_load": 18000,
+                "name": "Type 97 Chi-Ha Kai",
+                "not_in_shop": false,
+                "price": 1750,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "J07_Chi_Ha",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.9,
+                "tier": 3,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Chassis.model",
+                "weight": 5000
+            }
+        ],
+        "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "Developed by Mitsubishi from 1935 through 1937. The vehicle was mass-produced from 1938 through 1942, alongside an upgraded Shinhoto Chi-Ha from 1941 through 1942. A total of 1,220 vehicles of both types were manufactured. The Chi-Ha and the Shinhoto Chi-Ha tanks were widely used by Japanese forces in China, the Pacific Theater, and the Kuril Islands. After the surrender of Japan, these vehicles were used by both PLA and Kuomintang forces in the Chinese Civil War from 1946 through 1949.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 65,
+                "id": 478,
+                "identifier": "_Type97",
+                "name": "Mitsubishi SA12200VD",
+                "not_in_shop": false,
+                "power": 170,
+                "price": 5000,
+                "repair_health": 32,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "J07_Chi_Ha",
+                "tier": 3,
+                "weight": 650
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 104,
+                "id": 479,
+                "identifier": "_Type100_W",
+                "name": "Type 100 Suirei V-12",
+                "not_in_shop": false,
+                "power": 200,
+                "price": 8600,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "diesel",
+                "tank_id": "J07_Chi_Ha",
+                "tier": 4,
+                "weight": 630
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 104,
+                "id": 480,
+                "identifier": "_Type100_A",
+                "name": "Type 100 Kuurei V-12",
+                "not_in_shop": false,
+                "power": 240,
+                "price": 10500,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "diesel",
+                "tank_id": "J07_Chi_Ha",
+                "tier": 4,
+                "weight": 630
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 40,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Gun_01.model",
+                "depression": 9,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 84,
+                "id": 731,
+                "identifier": "_57mm_Gun_Type97",
+                "max_ammo": 114,
+                "name": "5.7 cm Gun Type 97",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2800,
+                "reload_time": 3,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 370,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Gun_01.model",
+                "weight": 150,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Gun_02.model",
+                "depression": 9,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 732,
+                "identifier": "_37mm_Type_100",
+                "max_ammo": 150,
+                "name": "37 mm Gun Type 100",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 4400,
+                "reload_time": 2.3,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 40,
+                "tier": 3,
+                "turret_id": 370,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Gun_02.model",
+                "weight": 206,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Gun_03.model",
+                "depression": 9,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 733,
+                "identifier": "_37mm_Type1",
+                "max_ammo": 150,
+                "name": "37 mm Gun Type 1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 8400,
+                "reload_time": 2.3,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 40,
+                "tier": 3,
+                "turret_id": 370,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Gun_03.model",
+                "weight": 223,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Gun_04.model",
+                "depression": 15,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 84,
+                "id": 734,
+                "identifier": "_57mm_Gun_Type97",
+                "max_ammo": 114,
+                "name": "5.7 cm Gun Type 97",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            0.611111,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2800,
+                "reload_time": 3,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 371,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Gun_04.model",
+                "weight": 150,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Gun_05.model",
+                "depression": 15,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 735,
+                "identifier": "_37mm_Type_100",
+                "max_ammo": 150,
+                "name": "37 mm Gun Type 100",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            0.611111,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 4400,
+                "reload_time": 2.3,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 40,
+                "tier": 3,
+                "turret_id": 371,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Gun_05.model",
+                "weight": 206,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Gun_06.model",
+                "depression": 15,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 736,
+                "identifier": "_37mm_Type1",
+                "max_ammo": 150,
+                "name": "37 mm Gun Type 1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            0.541667,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 8400,
+                "reload_time": 2.3,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 40,
+                "tier": 3,
+                "turret_id": 371,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Gun_06.model",
+                "weight": 223,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Gun_07.model",
+                "depression": 15,
+                "dispersion": 0.44,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 76,
+                "id": 737,
+                "identifier": "_47mm_Gun_Type1",
+                "max_ammo": 100,
+                "name": "47 mm Gun Type 1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            0.388889,
+                            15
+                        ],
+                        [
+                            0.402778,
+                            13
+                        ],
+                        [
+                            0.444444,
+                            13
+                        ],
+                        [
+                            0.458333,
+                            13
+                        ],
+                        [
+                            0.541667,
+                            13
+                        ],
+                        [
+                            0.555556,
+                            13
+                        ],
+                        [
+                            0.597222,
+                            13
+                        ],
+                        [
+                            0.611111,
+                            13
+                        ],
+                        [
+                            0.629198,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 21000,
+                "reload_time": 3,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 371,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Gun_07.model",
+                "weight": 411,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 176,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J07_Chi_Ha",
+        "name": "Type 97 Chi-Ha",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 45000,
+        "radios": [
+            {
+                "health": 70,
+                "id": 492,
+                "identifier": "_Type94_Hei",
+                "name": "Type 94 Mk. 4 Hei",
+                "not_in_shop": false,
+                "price": 2350,
+                "range": 350,
+                "repair_health": 42,
+                "repair_price": 0.5,
+                "tank_id": "J07_Chi_Ha",
+                "tier": 4,
+                "weight": 90
+            },
+            {
+                "health": 100,
+                "id": 493,
+                "identifier": "_Type96_Bo",
+                "name": "Type 96 Mk. 4 Bo",
+                "not_in_shop": false,
+                "price": 14000,
+                "range": 425,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "J07_Chi_Ha",
+                "tier": 6,
+                "weight": 50
+            },
+            {
+                "health": 140,
+                "id": 494,
+                "identifier": "_Type3_Otsu",
+                "name": "Type 3 Otsu",
+                "not_in_shop": false,
+                "price": 22000,
+                "range": 550,
+                "repair_health": 84,
+                "repair_price": 0.5,
+                "tank_id": "J07_Chi_Ha",
+                "tier": 8,
+                "weight": 240
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 731,
+                "icon": "ap",
+                "id": "_57mm_AP_Type97",
+                "min_penetration": 25,
+                "module_damage": 76,
+                "name": "Type 92",
+                "penetration": 29.6,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 355,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 731,
+                "icon": "hc",
+                "id": "_57mm_HEAT_Type97",
+                "min_penetration": 55,
+                "module_damage": 76,
+                "name": "Type 3",
+                "penetration": 55,
+                "penetration_loss": 0.05,
+                "price": 1200,
+                "range": 720,
+                "speed": 355,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 731,
+                "icon": "he",
+                "id": "_57mm_HE_Type97",
+                "min_penetration": 28,
+                "module_damage": 76,
+                "name": "Type 90",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 355,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 732,
+                "icon": "ap",
+                "id": "_37mm_APHE_Type94",
+                "min_penetration": 38.2,
+                "module_damage": 50,
+                "name": "Type 94",
+                "penetration": 48.1,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 580,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 732,
+                "icon": "ap",
+                "id": "_37mm_APHE_Type1",
+                "min_penetration": 54.5,
+                "module_damage": 50,
+                "name": "Type 1",
+                "penetration": 68.7,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 580,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 60,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 732,
+                "icon": "he",
+                "id": "_37mm_HE_Type4",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Type 4",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 580,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 733,
+                "icon": "ap",
+                "id": "_37mm_APHE_Type1_Kai",
+                "min_penetration": 46,
+                "module_damage": 50,
+                "name": "Type 1 Kai",
+                "penetration": 58,
+                "penetration_loss": 0,
+                "price": 16,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 733,
+                "icon": "ap",
+                "id": "_37mm_AP_Type4",
+                "min_penetration": 58,
+                "module_damage": 50,
+                "name": "Type 4",
+                "penetration": 73,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 65,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 733,
+                "icon": "he",
+                "id": "_37mm_HE_Type4_Kai",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "Type 4 Kai",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 785,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 734,
+                "icon": "ap",
+                "id": "_57mm_AP_Type97",
+                "min_penetration": 25,
+                "module_damage": 76,
+                "name": "Type 92",
+                "penetration": 29.6,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 355,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 734,
+                "icon": "hc",
+                "id": "_57mm_HEAT_Type97",
+                "min_penetration": 55,
+                "module_damage": 76,
+                "name": "Type 3",
+                "penetration": 55,
+                "penetration_loss": 0.05,
+                "price": 1200,
+                "range": 720,
+                "speed": 355,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 734,
+                "icon": "he",
+                "id": "_57mm_HE_Type97",
+                "min_penetration": 28,
+                "module_damage": 76,
+                "name": "Type 90",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 355,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 735,
+                "icon": "ap",
+                "id": "_37mm_APHE_Type94",
+                "min_penetration": 38.2,
+                "module_damage": 50,
+                "name": "Type 94",
+                "penetration": 48.1,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 580,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 735,
+                "icon": "ap",
+                "id": "_37mm_APHE_Type1",
+                "min_penetration": 54.5,
+                "module_damage": 50,
+                "name": "Type 1",
+                "penetration": 68.7,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 580,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 60,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 735,
+                "icon": "he",
+                "id": "_37mm_HE_Type4",
+                "min_penetration": 18,
+                "module_damage": 50,
+                "name": "Type 4",
+                "penetration": 18,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 580,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 736,
+                "icon": "ap",
+                "id": "_37mm_APHE_Type1_Kai",
+                "min_penetration": 46,
+                "module_damage": 50,
+                "name": "Type 1 Kai",
+                "penetration": 58,
+                "penetration_loss": 0,
+                "price": 16,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 736,
+                "icon": "ap",
+                "id": "_37mm_AP_Type4",
+                "min_penetration": 58,
+                "module_damage": 50,
+                "name": "Type 4",
+                "penetration": 73,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 785,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 65,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 736,
+                "icon": "he",
+                "id": "_37mm_HE_Type4_Kai",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "Type 4 Kai",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 785,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "ap",
+                "id": "_47mm_APHE_Type1",
+                "min_penetration": 69,
+                "module_damage": 64,
+                "name": "Type 1",
+                "penetration": 81,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 4,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "ap",
+                "id": "_47mm_APHE_Type1_TK",
+                "min_penetration": 80.9,
+                "module_damage": 64,
+                "name": "Type 1 Toku Kou",
+                "penetration": 122,
+                "penetration_loss": 0,
+                "price": 1600,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 90,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 737,
+                "icon": "he",
+                "id": "_47mm_HE_Type94",
+                "min_penetration": 25,
+                "module_damage": 64,
+                "name": "Type 94",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 810,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Chi-Ha",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "chi-ha",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0.27656,
+        "turret_pos_y": 0.637193,
+        "turret_pos_z": 0.37702,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 35,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 15
+                    }
+                ],
+                "gun_pos_x": 0.100861,
+                "gun_pos_y": 0.215863,
+                "gun_pos_z": 0.580604,
+                "health": 44,
+                "id": 370,
+                "identifier": "Turret_1_Chi_Ha",
+                "name": "Type 97 Chi-Ha",
+                "not_in_shop": false,
+                "price": 1000,
+                "rotation_speed": 30,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "J07_Chi_Ha",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Turret_01.model",
+                "weight": 1300
+            },
+            {
+                "Guns": null,
+                "armor_front": 35,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/japan/J07_Chi_Ha/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 25
+                    }
+                ],
+                "gun_pos_x": -0.101766,
+                "gun_pos_y": 0.232358,
+                "gun_pos_z": 0.65655,
+                "health": 64,
+                "id": 371,
+                "identifier": "Turret_2_Chi_Ha",
+                "name": "Type 97 Chi-Ha Shinhoto",
+                "not_in_shop": false,
+                "price": 2100,
+                "rotation_speed": 30,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "J07_Chi_Ha",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Turret_02.model",
+                "weight": 1839
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Chi_Ha_2",
+                "name": "Chassis_Chi_Ha_2",
+                "parent_key": "chassis-Chassis_Chi_Ha",
+                "price": 340,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_Chi_Ha",
+                "name": "Turret_2_Chi_Ha",
+                "parent_key": "turret-Turret_1_Chi_Ha",
+                "price": 340,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_37mm_Type_100",
+                "name": "_37mm_Type_100",
+                "parent_key": "gun-_57mm_Gun_Type97",
+                "price": 230,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_37mm_Type1",
+                "name": "_37mm_Type1",
+                "parent_key": "gun-_37mm_Type_100",
+                "price": 550,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_47mm_Gun_Type1",
+                "name": "_47mm_Gun_Type1",
+                "parent_key": "turret-Turret_2_Chi_Ha",
+                "price": 1200,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-J09_Chi_He",
+                "name": "J09_Chi_He",
+                "parent_key": "gun-_47mm_Gun_Type1",
+                "price": 3730,
+                "tank_name": "Chi-He",
+                "tank_price": 136000,
+                "tank_slug": "chi-he",
+                "tank_tier": 4,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-_Type100_W",
+                "name": "_Type100_W",
+                "parent_key": "engine-_Type97",
+                "price": 700,
+                "type": "engine"
+            },
+            {
+                "key": "engine-_Type100_A",
+                "name": "_Type100_A",
+                "parent_key": "engine-_Type100_W",
+                "price": 850,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_Type96_Bo",
+                "name": "_Type96_Bo",
+                "parent_key": "radio-_Type94_Hei",
+                "price": 1400,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type3_Otsu",
+                "name": "_Type3_Otsu",
+                "parent_key": "radio-_Type96_Bo",
+                "price": 4000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09201ct",
+        "visual_model": "vehicles/japan/J07_Chi_Ha/normal/lod0/Hull.model",
+        "weight": 7600,
+        "xp_factor": 1
+    }
+}

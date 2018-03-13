@@ -1,0 +1,1506 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 83
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 102
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 44
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 41
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 44
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 26
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 102,
+        "armor_rear": 41,
+        "armor_side": 44,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.117,
+        "camo_moving": 0.039,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.078,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 45500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Chassis.model",
+                "dispersion_movement": 0.23,
+                "dispersion_rotation": 0.23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.36958,
+                "hull_pos_z": 0,
+                "id": 643,
+                "identifier": "HVS1",
+                "max_climb_angle": 25,
+                "max_load": 57600,
+                "name": "HVS1",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 21,
+                "tank_id": "A10_M6",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.7,
+                "terrain_soft": 2.9,
+                "tier": 5,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Chassis.model",
+                "weight": 15000
+            },
+            {
+                "armor": 20,
+                "brake_force": 43500,
+                "center_rotation": false,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Chassis.model",
+                "dispersion_movement": 0.21,
+                "dispersion_rotation": 0.21,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.36958,
+                "hull_pos_z": 0,
+                "id": 644,
+                "identifier": "HVS2",
+                "max_climb_angle": 25,
+                "max_load": 61000,
+                "name": "HVS2",
+                "not_in_shop": false,
+                "price": 15900,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 25,
+                "tank_id": "A10_M6",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 6,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Chassis.model",
+                "weight": 15000
+            }
+        ],
+        "collision_model": "vehicles/american/A10_M6/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed from 1940 through 1942, with a total of 40 vehicles manufactured from November 1942 through February 1944. It never saw action.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 247,
+                "id": 712,
+                "identifier": "Wright_G2X_m_781C9GC1",
+                "name": "Wright G2X M781C9GC1",
+                "not_in_shop": false,
+                "power": 825,
+                "price": 30000,
+                "repair_health": 123,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A10_M6",
+                "tier": 6,
+                "weight": 612
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 247,
+                "id": 713,
+                "identifier": "Wright_G200_m_781C9GC1",
+                "name": "Wright G200 M781C9GC1",
+                "not_in_shop": false,
+                "power": 960,
+                "price": 47600,
+                "repair_health": 123,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A10_M6",
+                "tier": 7,
+                "weight": 612
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 35,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 1101,
+                "identifier": "_75mm_Gun_M7_L50",
+                "max_ammo": 75,
+                "name": "3-inch Gun M7",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 33500,
+                "reload_time": 4.3,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 5,
+                "turret_id": 543,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Gun_02.model",
+                "weight": 1450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 1102,
+                "identifier": "_76mm_Gun_M1A1",
+                "max_ammo": 75,
+                "name": "76 mm Gun M1A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 50330,
+                "reload_time": 3.6,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 543,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Gun_04.model",
+                "weight": 1567,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Gun_08.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1103,
+                "identifier": "_76mm_Gun_M1A2",
+                "max_ammo": 75,
+                "name": "76 mm Gun M1A2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 3.6,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 543,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Gun_08.model",
+                "weight": 1590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Gun_02.model",
+                "depression": 10,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 1104,
+                "identifier": "_75mm_Gun_M7_L50",
+                "max_ammo": 75,
+                "name": "3-inch Gun M7",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 33500,
+                "reload_time": 4.3,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 5,
+                "turret_id": 544,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Gun_02.model",
+                "weight": 1450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Gun_04.model",
+                "depression": 10,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 1105,
+                "identifier": "_76mm_Gun_M1A1",
+                "max_ammo": 75,
+                "name": "76 mm Gun M1A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 50330,
+                "reload_time": 3.6,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 544,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Gun_04.model",
+                "weight": 1567,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Gun_08.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "id": 1106,
+                "identifier": "_76mm_Gun_M1A2",
+                "max_ammo": 75,
+                "name": "76 mm Gun M1A2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 3.6,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 40.25,
+                "tier": 6,
+                "turret_id": 544,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Gun_08.model",
+                "weight": 1590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Gun_10.model",
+                "depression": 10,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 30,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 150,
+                "id": 1107,
+                "identifier": "_90mm_Gun_M3",
+                "max_ammo": 52,
+                "name": "90 mm Gun M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.366894,
+                            10
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            0.633106,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -30
+                        ],
+                        [
+                            1,
+                            -30
+                        ]
+                    ]
+                },
+                "price": 81000,
+                "reload_time": 7.6,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 544,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Gun_10.model",
+                "weight": 2050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 672,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A10_M6",
+        "name": "M6",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 885000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 766,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 395,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A10_M6",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 150,
+                "id": 767,
+                "identifier": "SCR_538",
+                "name": "SCR 538",
+                "not_in_shop": false,
+                "price": 22800,
+                "range": 480,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "A10_M6",
+                "tier": 7,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5.16,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1101,
+                "icon": "ap",
+                "id": "_76mm_M62",
+                "min_penetration": 93,
+                "module_damage": 100,
+                "name": "AP M62(M7)",
+                "penetration": 101,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1101,
+                "icon": "ap_cr",
+                "id": "_76mm_M79",
+                "min_penetration": 101,
+                "module_damage": 100,
+                "name": "HVAP M93(M7)",
+                "penetration": 157,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1101,
+                "icon": "he",
+                "id": "_76mm_M42A1",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE M42A1(M7)",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1102,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1102,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1102,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1103,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1103,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1103,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1104,
+                "icon": "ap",
+                "id": "_76mm_M62",
+                "min_penetration": 93,
+                "module_damage": 100,
+                "name": "AP M62(M7)",
+                "penetration": 101,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1104,
+                "icon": "ap_cr",
+                "id": "_76mm_M79",
+                "min_penetration": 101,
+                "module_damage": 100,
+                "name": "HVAP M93(M7)",
+                "penetration": 157,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 175,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1104,
+                "icon": "he",
+                "id": "_76mm_M42A1",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "HE M42A1(M7)",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1105,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1105,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1105,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1106,
+                "icon": "ap",
+                "id": "_76mm_AP_M79",
+                "min_penetration": 110,
+                "module_damage": 105,
+                "name": "AP M62",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 96,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1106,
+                "icon": "ap_cr",
+                "id": "_76mm_HVAP_M93",
+                "min_penetration": 158,
+                "module_damage": 105,
+                "name": "HVAP M93",
+                "penetration": 177,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 185,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1106,
+                "icon": "he",
+                "id": "_76mm_HE_M42A1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "HE M42A1",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 68,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1107,
+                "icon": "ap",
+                "id": "_90mm_AP_M77",
+                "min_penetration": 135,
+                "module_damage": 122,
+                "name": "AP M77",
+                "penetration": 160,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1107,
+                "icon": "ap_cr",
+                "id": "_90mm_HVAP_M304",
+                "min_penetration": 221,
+                "module_damage": 122,
+                "name": "HVAP M304",
+                "penetration": 243,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1066,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1107,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 853,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M6",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m6",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_class3_user"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": -0.031772,
+        "turret_pos_y": 0.782596,
+        "turret_pos_z": 0.840679,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 102,
+                "armor_rear": 83,
+                "armor_side": 83,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 102
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 83
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 83
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 83
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 83
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 102
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 50
+                    }
+                ],
+                "gun_pos_x": 0.14005,
+                "gun_pos_y": 0.361855,
+                "gun_pos_z": 0.966905,
+                "health": 168,
+                "id": 543,
+                "identifier": "M6D1",
+                "name": "M6D1",
+                "not_in_shop": false,
+                "price": 10000,
+                "rotation_speed": 25,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "A10_M6",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Turret_01.model",
+                "weight": 8000
+            },
+            {
+                "Guns": null,
+                "armor_front": 102,
+                "armor_rear": 83,
+                "armor_side": 83,
+                "collision_model": "vehicles/american/A10_M6/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 102
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 83
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 83
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 83
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 83
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 102
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 50
+                    }
+                ],
+                "gun_pos_x": 0.14005,
+                "gun_pos_y": 0.361855,
+                "gun_pos_z": 0.966905,
+                "health": 198,
+                "id": 544,
+                "identifier": "M6D2",
+                "name": "M6D2",
+                "not_in_shop": false,
+                "price": 18250,
+                "rotation_speed": 28,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "A10_M6",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/american/A10_M6/normal/lod0/Turret_01.model",
+                "weight": 8400
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "chassis-HVS2",
+                "name": "HVS2",
+                "parent_key": "chassis-HVS1",
+                "price": 5050,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_76mm_Gun_M1A1",
+                "name": "_76mm_Gun_M1A1",
+                "parent_key": "gun-_75mm_Gun_M7_L50",
+                "price": 4600,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_Gun_M1A2",
+                "name": "_76mm_Gun_M1A2",
+                "parent_key": "gun-_76mm_Gun_M1A1",
+                "price": 5800,
+                "type": "gun"
+            },
+            {
+                "key": "turret-M6D2",
+                "name": "M6D2",
+                "parent_key": "gun-_76mm_Gun_M1A2",
+                "price": 5380,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-A11_T29",
+                "name": "A11_T29",
+                "parent_key": "gun-_76mm_Gun_M1A2",
+                "price": 42070,
+                "tank_name": "T29",
+                "tank_price": 1450300,
+                "tank_slug": "t29",
+                "tank_tier": 7,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-_90mm_Gun_M3",
+                "name": "_90mm_Gun_M3",
+                "parent_key": "turret-M6D2",
+                "price": 14000,
+                "type": "gun"
+            },
+            {
+                "key": "engine-Wright_G200_m_781C9GC1",
+                "name": "Wright_G200_m_781C9GC1",
+                "parent_key": "engine-Wright_G2X_m_781C9GC1",
+                "price": 15100,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_538",
+                "name": "SCR_538",
+                "parent_key": "radio-SCR_508",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919ct",
+        "visual_model": "vehicles/american/A10_M6/normal/lod0/Hull.model",
+        "weight": 32000,
+        "xp_factor": 1
+    }
+}

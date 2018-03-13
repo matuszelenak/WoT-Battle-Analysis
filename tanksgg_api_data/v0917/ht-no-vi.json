@@ -1,0 +1,531 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 25
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 80,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.171,
+        "camo_moving": 0.057,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.2,
+        "camo_still": 0.114,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 51000,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J19_Tiger_I_Jpn/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 170,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.0476,
+                "hull_pos_z": 0,
+                "id": 390,
+                "identifier": "Chassis_Tiger_I_Jpn",
+                "max_climb_angle": 25,
+                "max_load": 61000,
+                "name": "Heavy Tank No. VI",
+                "not_in_shop": true,
+                "price": 12000,
+                "repair_health": 125,
+                "repair_price": 5,
+                "rotation_speed": 26,
+                "tank_id": "J19_Tiger_I_Jpn",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.9,
+                "tier": 6,
+                "visual_model": "vehicles/japan/J19_Tiger_I_Jpn/normal/lod0/Chassis.model",
+                "weight": 19000
+            }
+        ],
+        "collision_model": "vehicles/japan/J19_Tiger_I_Jpn/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In 1943, the Japanese ambassador to Germany attended Henschel's field trials of the Tiger. After that, the company was ordered to transfer all tank documentation to Japan. One disassembled Tiger was sent to Bordeaux on October 14, 1943, to be delivered to Japan by submarine. However, the vehicle was never delivered, and the Japanese were never able to establish their own production of Tigers. This enterprise cost 645,000 Reichsmarks to Japan, while the original cost was 300,000 Reichsmarks.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 200,
+                "id": 438,
+                "identifier": "Maybach_HL_210_TRM_P45",
+                "name": "Maybach HL 210 TRM P45",
+                "not_in_shop": true,
+                "power": 650,
+                "price": 35500,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "J19_Tiger_I_Jpn",
+                "tier": 7,
+                "weight": 850
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 40,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 3750,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J19_Tiger_I_Jpn/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.2,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 135
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 135
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 150,
+                "id": 697,
+                "identifier": "_88mm_KwK_36_L56A",
+                "max_ammo": 92,
+                "name": "8,8 cm Kw.K. 36 L/56",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.391667,
+                            8
+                        ],
+                        [
+                            0.425,
+                            1
+                        ],
+                        [
+                            0.575,
+                            1
+                        ],
+                        [
+                            0.608333,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 66000,
+                "reload_time": 7,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 332,
+                "visual_model": "vehicles/japan/J19_Tiger_I_Jpn/normal/lod0/Gun_01.model",
+                "weight": 2050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 760,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J19_Tiger_I_Jpn",
+        "name": "Heavy Tank No. VI",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 453,
+                "identifier": "FuG5A",
+                "name": "Fu 5 mit 20 WS.E.",
+                "not_in_shop": true,
+                "price": 15000,
+                "range": 620,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "J19_Tiger_I_Jpn",
+                "tier": 6,
+                "weight": 50
+            }
+        ],
+        "repair_price": 4,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 88,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 697,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39",
+                "min_penetration": 129,
+                "module_damage": 119,
+                "name": "Pzgr. 39",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 240,
+                "range": 720,
+                "speed": 773,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 697,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40",
+                "min_penetration": 156,
+                "module_damage": 119,
+                "name": "Pzgr. 40",
+                "penetration": 171,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 270,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 697,
+                "icon": "he",
+                "id": "_88mm_Sprg.18",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr.",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 180,
+                "range": 720,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "HT No. VI",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ht-no-vi",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 6,
+        "turret_pos_x": -0.0079,
+        "turret_pos_y": 0.748803,
+        "turret_pos_z": -0.14193,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 100,
+                "armor_rear": 80,
+                "armor_side": 80,
+                "collision_model": "vehicles/japan/J19_Tiger_I_Jpn/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 50
+                    }
+                ],
+                "gun_pos_x": -0.035515,
+                "gun_pos_y": 0.426292,
+                "gun_pos_z": 1.25961,
+                "health": 190,
+                "id": 332,
+                "identifier": "Turret_1_Tiger_I_Jpn",
+                "name": "Heavy Tank No. VI",
+                "not_in_shop": true,
+                "price": 12000,
+                "rotation_speed": 20,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "J19_Tiger_I_Jpn",
+                "tier": 6,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/japan/J19_Tiger_I_Jpn/normal/lod0/Turret_01.model",
+                "weight": 8950
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0917",
+        "visual_model": "vehicles/japan/J19_Tiger_I_Jpn/normal/lod0/Hull.model",
+        "weight": 25825,
+        "xp_factor": 1.5
+    }
+}

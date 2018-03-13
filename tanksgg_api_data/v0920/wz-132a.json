@@ -1,0 +1,745 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 12.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 20,
+        "armor_side": 25,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.423,
+        "camo_moving": 0.282,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.282,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 24000,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch28_WZ_132A/collision_client/Chassis.model",
+                "dispersion_movement": 0.15,
+                "dispersion_rotation": 0.15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.895776,
+                "hull_pos_z": 0,
+                "id": 8,
+                "identifier": "Chassis_Ch28_WZ_132A",
+                "max_climb_angle": 25,
+                "max_load": 24000,
+                "name": "WZ-132A",
+                "not_in_shop": false,
+                "price": 31000,
+                "repair_health": 175,
+                "repair_price": 7.5,
+                "rotation_speed": 44,
+                "tank_id": "Ch28_WZ_132A",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 2,
+                "tier": 8,
+                "visual_model": "vehicles/chinese/Ch28_WZ_132A/normal/lod0/Chassis.model",
+                "weight": 5250
+            },
+            {
+                "armor": 15,
+                "brake_force": 24000,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch28_WZ_132A/collision_client/Chassis.model",
+                "dispersion_movement": 0.13,
+                "dispersion_rotation": 0.13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.895776,
+                "hull_pos_z": 0,
+                "id": 9,
+                "identifier": "Chassis_Ch28_WZ_132A_2",
+                "max_climb_angle": 25,
+                "max_load": 27000,
+                "name": "WZ-132B",
+                "not_in_shop": false,
+                "price": 61500,
+                "repair_health": 180,
+                "repair_price": 7.5,
+                "rotation_speed": 46,
+                "tank_id": "Ch28_WZ_132A",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 9,
+                "visual_model": "vehicles/chinese/Ch28_WZ_132A/normal/lod0/Chassis.model",
+                "weight": 5250
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch28_WZ_132A/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Further development of the WZ-132 project. The main difference was supposed to lie in a shorter vehicle chassis. Engineers wanted to combine high mobility and firepower. A\u00a0prototype passed trials in the late 1960s, but the project was discontinued. The vehicle never saw mass production; the prototype did not survive to the present day.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 260,
+                "id": 9,
+                "identifier": "_8V135",
+                "name": "8V135",
+                "not_in_shop": false,
+                "power": 700,
+                "price": 55000,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "Ch28_WZ_132A",
+                "tier": 8,
+                "weight": 740
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 10,
+                "identifier": "_12150LT2",
+                "name": "12150LT2",
+                "not_in_shop": false,
+                "power": 770,
+                "price": 99700,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "Ch28_WZ_132A",
+                "tier": 9,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 64,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch28_WZ_132A/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 12,
+                "identifier": "_100mm_60-100TA",
+                "max_ammo": 43,
+                "name": "100 mm 60-100TA",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.444444,
+                            4
+                        ],
+                        [
+                            0.555556,
+                            4
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 166000,
+                "reload_time": 7.7,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 8,
+                "visual_model": "vehicles/chinese/Ch28_WZ_132A/normal/lod0/Gun_01.model",
+                "weight": 2257,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch28_WZ_132A/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 13,
+                "identifier": "_100mm_62-100TA",
+                "max_ammo": 40,
+                "name": "100 mm 62-100TA",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.430556,
+                            5
+                        ],
+                        [
+                            0.444444,
+                            4
+                        ],
+                        [
+                            0.555556,
+                            4
+                        ],
+                        [
+                            0.569444,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 218000,
+                "reload_time": 9.2,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 8,
+                "visual_model": "vehicles/chinese/Ch28_WZ_132A/normal/lod0/Gun_02.model",
+                "weight": 2557,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1000,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch28_WZ_132A",
+        "name": "WZ-132A",
+        "nation": "china",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3400000,
+        "radios": [
+            {
+                "health": 160,
+                "id": 8,
+                "identifier": "A-220_1",
+                "name": "A-220",
+                "not_in_shop": false,
+                "price": 38000,
+                "range": 600,
+                "repair_health": 96,
+                "repair_price": 3.5,
+                "tank_id": "Ch28_WZ_132A",
+                "tier": 9,
+                "weight": 40
+            },
+            {
+                "health": 180,
+                "id": 9,
+                "identifier": "A-220B",
+                "name": "A-220A",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "Ch28_WZ_132A",
+                "tier": 10,
+                "weight": 40
+            }
+        ],
+        "repair_price": 10.5,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 12,
+                "icon": "ap",
+                "id": "_100mm_UBR-412",
+                "min_penetration": 167,
+                "module_damage": 135,
+                "name": "Chuan bei-412",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 250,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 12,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412P",
+                "min_penetration": 200,
+                "module_damage": 135,
+                "name": "Chuan chao-412",
+                "penetration": 225,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1150,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 330,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 12,
+                "icon": "he",
+                "id": "_100mm_UOF-412",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "Sha bao-412",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 13,
+                "icon": "ap",
+                "id": "_100mm_CJ-412G",
+                "min_penetration": 189,
+                "module_damage": 135,
+                "name": "Chuan jian-412G",
+                "penetration": 220,
+                "penetration_loss": 0,
+                "price": 1050,
+                "range": 720,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 13,
+                "icon": "ap_cr",
+                "id": "_100mm_TC-412G",
+                "min_penetration": 239,
+                "module_damage": 135,
+                "name": "Tuo chuan-412G",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 13,
+                "icon": "he",
+                "id": "_100mm_SB-412G",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "Sha bao-412G",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 750,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "WZ-132A",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "wz-132a",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0.01118,
+        "turret_pos_y": 0.539568,
+        "turret_pos_z": 0.21172,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 55,
+                "armor_rear": 20,
+                "armor_side": 35,
+                "collision_model": "vehicles/chinese/Ch28_WZ_132A/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 45
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_14",
+                        "value": 12.5
+                    }
+                ],
+                "gun_pos_x": -0.01118,
+                "gun_pos_y": 0.291069,
+                "gun_pos_z": 1.10364,
+                "health": 250,
+                "id": 8,
+                "identifier": "Turret_1_Ch28_WZ_132A",
+                "name": "WZ-132A",
+                "not_in_shop": true,
+                "price": 55000,
+                "rotation_speed": 40,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch28_WZ_132A",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/chinese/Ch28_WZ_132A/normal/lod0/Turret_01.model",
+                "weight": 5500
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Ch28_WZ_132A_2",
+                "name": "Chassis_Ch28_WZ_132A_2",
+                "parent_key": "chassis-Chassis_Ch28_WZ_132A",
+                "price": 22300,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_100mm_62-100TA",
+                "name": "_100mm_62-100TA",
+                "parent_key": "gun-_100mm_60-100TA",
+                "price": 57900,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-Ch29_Type_62C_prot",
+                "name": "Ch29_Type_62C_prot",
+                "parent_key": "gun-_100mm_62-100TA",
+                "price": 244000,
+                "tank_name": "WZ-132-1",
+                "tank_price": 6100000,
+                "tank_slug": "wz-132-1",
+                "tank_tier": 10,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-_12150LT2",
+                "name": "_12150LT2",
+                "parent_key": "engine-_8V135",
+                "price": 34400,
+                "type": "engine"
+            },
+            {
+                "key": "radio-A-220B",
+                "name": "A-220B",
+                "parent_key": "radio-A-220_1",
+                "price": 9500,
+                "type": "radio"
+            }
+        ],
+        "version": "v0920",
+        "visual_model": "vehicles/chinese/Ch28_WZ_132A/normal/lod0/Hull.model",
+        "weight": 9603,
+        "xp_factor": 1
+    }
+}

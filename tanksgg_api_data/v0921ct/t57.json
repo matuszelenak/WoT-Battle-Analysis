@@ -1,0 +1,403 @@
+{
+    "tank": {
+        "ammo_rack_health": 60,
+        "ammo_rack_repair_health": 30,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 28.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 44.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 28.6,
+        "armor_rear": 25.4,
+        "armor_side": 25.4,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.417,
+        "camo_moving": 0.139,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.278,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A15_T57/collision_client/Chassis.model",
+                "dispersion_movement": 0.6,
+                "dispersion_rotation": 0.6,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 40,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.701636,
+                "hull_pos_z": 0,
+                "id": 647,
+                "identifier": "VVSS_T36E6",
+                "max_climb_angle": 25,
+                "max_load": 15200,
+                "name": "VVSS T36E6",
+                "not_in_shop": true,
+                "price": 270,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 18,
+                "tank_id": "A15_T57",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 1,
+                "visual_model": "vehicles/american/A15_T57/normal/lod0/Chassis.model",
+                "weight": 3500
+            }
+        ],
+        "collision_model": "vehicles/american/A15_T57/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Experimental SPG designed on the basis of the M3A3. The T57 was developed and tested in the fall of 1942, but was never mass-produced.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 713,
+                "identifier": "Ford_GAN_T23",
+                "name": "Ford_GAN_T23",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 37200,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A15_T57",
+                "tier": 7,
+                "weight": 569
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 49.9,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 5.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.10909091,
+                "clip_size": 40,
+                "collision_model": "vehicles/american/A15_T57/collision_client/Gun_01.model",
+                "depression": 2,
+                "dispersion": 0.8,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.52,
+                "elevation": 35,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 30,
+                "id": 1086,
+                "identifier": "_12.7mm_T23",
+                "max_ammo": 1800,
+                "name": "Browning MG caliber .50 HB, M2",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -35
+                        ],
+                        [
+                            1,
+                            -35
+                        ]
+                    ]
+                },
+                "price": 2000,
+                "reload_time": 9.4,
+                "repair_health": 15,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 547,
+                "visual_model": "vehicles/american/A15_T57/normal/lod0/Gun_01.model",
+                "weight": 70,
+                "yaw_left": -15,
+                "yaw_right": 15
+            }
+        ],
+        "health": 64,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A15_T57",
+        "name": "T57",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 3300,
+        "radios": [
+            {
+                "health": 120,
+                "id": 766,
+                "identifier": "T23radio",
+                "name": "SCR_508A",
+                "not_in_shop": true,
+                "price": 21600,
+                "range": 395,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A15_T57",
+                "tier": 6,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.74,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 12.7,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1086,
+                "icon": "ap",
+                "id": "_12.7mm_AP_M2",
+                "min_penetration": 18,
+                "module_damage": 17,
+                "name": "AP M2",
+                "penetration": 27,
+                "penetration_loss": 0,
+                "price": 1,
+                "range": 400,
+                "speed": 887,
+                "type": "ARMOR_PIERCING"
+            }
+        ],
+        "short_name": "T57",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t57",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "unrecoverable"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.917767,
+        "turret_pos_z": -0.804314,
+        "turret_slots": [
+            {
+                "id": 426,
+                "pos_x": 0,
+                "pos_y": 0.917767,
+                "pos_z": -0.804314,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A15_T57"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A15_T57/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 28.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.278832,
+                "gun_pos_z": -0.011801,
+                "health": 16,
+                "id": 547,
+                "identifier": "T51D1",
+                "name": "T51D1",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 14,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "A15_T57",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/american/A15_T57/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": null,
+        "version": "v0921ct",
+        "visual_model": "vehicles/american/A15_T57/normal/lod0/Hull.model",
+        "weight": 9670,
+        "xp_factor": 1
+    }
+}

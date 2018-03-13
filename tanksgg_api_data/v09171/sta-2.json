@@ -1,0 +1,545 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 50
+            }
+        ],
+        "armor_front": 45,
+        "armor_rear": 25,
+        "armor_side": 35,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.36,
+        "camo_moving": 0.18,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.24,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 37500,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J18_STA_2_3/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.963481,
+                "hull_pos_z": 0,
+                "id": 392,
+                "identifier": "Chassis_STA_2_3",
+                "max_climb_angle": 25,
+                "max_load": 37000,
+                "name": "STA-2",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 150,
+                "repair_price": 7.5,
+                "rotation_speed": 44,
+                "tank_id": "J18_STA_2_3",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 8,
+                "visual_model": "vehicles/japan/J18_STA_2_3/normal/lod0/Chassis.model",
+                "weight": 11300
+            }
+        ],
+        "collision_model": "vehicles/japan/J18_STA_2_3/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "One of the first Japanese post-war tanks was developed on the basis of U.S. vehicles, taking into consideration Japanese terrain, rail network specifications, and the smaller stature of Japanese tankers. This variant prototype featured a shortened suspension and a larger hull height. A total of two prototypes were built.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 260,
+                "id": 440,
+                "identifier": "_Mitsubishi_DL10TA",
+                "name": "Mitsubishi 12HM20WT",
+                "not_in_shop": true,
+                "power": 570,
+                "price": 48500,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "J18_STA_2_3",
+                "tier": 8,
+                "weight": 2400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 7400,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J18_STA_2_3/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 124
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 703,
+                "identifier": "_90mm_Rifled_Gun_1",
+                "max_ammo": 50,
+                "name": "90 mm Rifled Gun",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.416667,
+                            10
+                        ],
+                        [
+                            0.438889,
+                            3
+                        ],
+                        [
+                            0.561111,
+                            3
+                        ],
+                        [
+                            0.583333,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 95500,
+                "reload_time": 7.5,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 335,
+                "visual_model": "vehicles/japan/J18_STA_2_3/normal/lod0/Gun_01.model",
+                "weight": 1150,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1136,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J18_STA_2_3",
+        "name": "STA-2",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 456,
+                "identifier": "JAN-GRC-3Z_1",
+                "name": "JAN/GRC-3Z",
+                "not_in_shop": true,
+                "price": 45500,
+                "range": 720,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "J18_STA_2_3",
+                "tier": 9,
+                "weight": 70
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 703,
+                "icon": "ap",
+                "id": "_90mm_AP_M318A1",
+                "min_penetration": 190,
+                "module_damage": 122,
+                "name": "M318A1",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 380,
+                "range": 720,
+                "speed": 853,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 703,
+                "icon": "hc",
+                "id": "_90mm_HEAT_Type70",
+                "min_penetration": 275,
+                "module_damage": 122,
+                "name": "Type 70",
+                "penetration": 275,
+                "penetration_loss": 0.05,
+                "price": 4400,
+                "range": 720,
+                "speed": 853,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 703,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 240,
+                "range": 720,
+                "speed": 853,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "STA-2",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "sta-2",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.637904,
+        "turret_pos_z": 0.517864,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 70,
+                "armor_rear": 35,
+                "armor_side": 60,
+                "collision_model": "vehicles/japan/J18_STA_2_3/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.338085,
+                "gun_pos_z": 0.939433,
+                "health": 284,
+                "id": 335,
+                "identifier": "Turret_1_STA_2_3",
+                "name": "STA-2",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 44,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "J18_STA_2_3",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/japan/J18_STA_2_3/normal/lod0/Turret_01.model",
+                "weight": 7850
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v09171",
+        "visual_model": "vehicles/japan/J18_STA_2_3/normal/lod0/Hull.model",
+        "weight": 10955,
+        "xp_factor": 1.5
+    }
+}

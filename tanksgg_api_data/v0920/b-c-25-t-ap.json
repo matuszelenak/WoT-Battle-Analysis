@@ -1,0 +1,968 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 30,
+        "armor_rear": 20,
+        "armor_side": 25,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.428,
+        "camo_moving": 0.213,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.285,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F75_Char_de_25t/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.912656,
+                "hull_pos_z": 0,
+                "id": 155,
+                "identifier": "Chassis_Char_de_25t",
+                "max_climb_angle": 25,
+                "max_load": 28000,
+                "name": "Batignolles-Ch\u00e2tillon 25 t AP",
+                "not_in_shop": false,
+                "price": 30000,
+                "repair_health": 175,
+                "repair_price": 7.5,
+                "rotation_speed": 40,
+                "tank_id": "F75_Char_de_25t",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2,
+                "tier": 8,
+                "visual_model": "vehicles/french/F75_Char_de_25t/normal/lod0/Chassis.model",
+                "weight": 5750
+            },
+            {
+                "armor": 15,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F75_Char_de_25t/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.912656,
+                "hull_pos_z": 0,
+                "id": 156,
+                "identifier": "Chassis_Char_de_25t_2",
+                "max_climb_angle": 25,
+                "max_load": 32000,
+                "name": "Batignolles-Ch\u00e2tillon 25 t AP bis",
+                "not_in_shop": false,
+                "price": 68000,
+                "repair_health": 180,
+                "repair_price": 7.5,
+                "rotation_speed": 44,
+                "tank_id": "F75_Char_de_25t",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 9,
+                "visual_model": "vehicles/french/F75_Char_de_25t/normal/lod0/Chassis.model",
+                "weight": 5750
+            }
+        ],
+        "collision_model": "vehicles/french/F75_Char_de_25t/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "In 1950\u20131951, engineers of the FAMH company (Compagnie des forges et aci\u00e9ries de la marine et d'Hom\u00e9court) worked on the development of a medium tank with a 90-mm gun and a rotating turret. Work was discontinued at the preliminary design stage. Later, all elements of the vehicle were incorporated in the Batignolles-Ch\u00e2tillon 25 t tank.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 160,
+                "id": 168,
+                "identifier": "Moteur_moderne_3M_27_1_01",
+                "name": "Moteur moderne 3M.27.1.01",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 24600,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F75_Char_de_25t",
+                "tier": 6,
+                "weight": 635
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 160,
+                "id": 169,
+                "identifier": "Maybach_HL_230_F",
+                "name": "Maybach HL 230 F",
+                "not_in_shop": false,
+                "power": 575,
+                "price": 26800,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F75_Char_de_25t",
+                "tier": 6,
+                "weight": 700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 65,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2.7272727,
+                "clip_size": 6,
+                "collision_model": "vehicles/french/F75_Char_de_25t/collision_client/Gun_02.model",
+                "depression": 6,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.14,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 160,
+                "id": 259,
+                "identifier": "_90mm_F3",
+                "max_ammo": 42,
+                "name": "90 mm F3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            0.355556,
+                            -13
+                        ],
+                        [
+                            0.372222,
+                            -8
+                        ],
+                        [
+                            0.627778,
+                            -8
+                        ],
+                        [
+                            0.644444,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 87000,
+                "reload_time": 31,
+                "repair_health": 80,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 131,
+                "visual_model": "vehicles/french/F75_Char_de_25t/normal/lod0/Gun_02.model",
+                "weight": 2200,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2.7272727,
+                "clip_size": 6,
+                "collision_model": "vehicles/french/F75_Char_de_25t/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.14,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 260,
+                "identifier": "Canon_de_90mm_Vo_930_m_s",
+                "max_ammo": 42,
+                "name": "Canon de 90 mm Vo 930 m/s",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            0.355556,
+                            -13
+                        ],
+                        [
+                            0.372222,
+                            -8
+                        ],
+                        [
+                            0.627778,
+                            -8
+                        ],
+                        [
+                            0.644444,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 95500,
+                "reload_time": 31,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 131,
+                "visual_model": "vehicles/french/F75_Char_de_25t/normal/lod0/Gun_01.model",
+                "weight": 1220,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2.7272727,
+                "clip_size": 6,
+                "collision_model": "vehicles/french/F75_Char_de_25t/collision_client/Gun_03.model",
+                "depression": 6,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.14,
+                "elevation": 13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 190,
+                "id": 261,
+                "identifier": "_100mm_SA_47",
+                "max_ammo": 42,
+                "name": "100 mm SA47",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -13
+                        ],
+                        [
+                            0.355556,
+                            -13
+                        ],
+                        [
+                            0.372222,
+                            -8
+                        ],
+                        [
+                            0.627778,
+                            -8
+                        ],
+                        [
+                            0.644444,
+                            -13
+                        ],
+                        [
+                            1,
+                            -13
+                        ]
+                    ]
+                },
+                "price": 127550,
+                "reload_time": 45,
+                "repair_health": 95,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 131,
+                "visual_model": "vehicles/french/F75_Char_de_25t/normal/lod0/Gun_03.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F75_Char_de_25t",
+        "name": "Bat.-Ch\u00e2tillon 25 t AP",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3450000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 164,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "F75_Char_de_25t",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 165,
+                "identifier": "SCR_528",
+                "name": "SCR 528F",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F75_Char_de_25t",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 9.2,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 259,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 145,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 259,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 224,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1163,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 259,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 930,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 260,
+                "icon": "ap",
+                "id": "_90mm_AP_americaine",
+                "min_penetration": 170,
+                "module_damage": 122,
+                "name": "AP am\u00e9ricain",
+                "penetration": 200,
+                "penetration_loss": 0,
+                "price": 350,
+                "range": 720,
+                "speed": 930,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 260,
+                "icon": "hc",
+                "id": "_90mm_HEAT_americaine",
+                "min_penetration": 250,
+                "module_damage": 122,
+                "name": "HEAT am\u00e9ricain",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 930,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 260,
+                "icon": "he",
+                "id": "_90mm_HE_americaine",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE am\u00e9ricain",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 210,
+                "range": 720,
+                "speed": 745,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 261,
+                "icon": "ap",
+                "id": "_100mm_Prf1940",
+                "min_penetration": 205,
+                "module_damage": 135,
+                "name": "Prf. mle. 1940",
+                "penetration": 232,
+                "penetration_loss": 0,
+                "price": 1030,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 261,
+                "icon": "ap_cr",
+                "id": "_100mm_FrtPrf1945",
+                "min_penetration": 253,
+                "module_damage": 135,
+                "name": "Frt.Prf. mle. 1945",
+                "penetration": 263,
+                "penetration_loss": 0,
+                "price": 4000,
+                "range": 720,
+                "speed": 1250,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 400,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 261,
+                "icon": "he",
+                "id": "_100mm_OE_mle_1930",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "OE mle. 1930",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "B-C 25 t AP",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "b-c-25-t-ap",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": -0.000761,
+        "turret_pos_y": 0.48631,
+        "turret_pos_z": -0.794421,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25,
+                "armor_rear": 20,
+                "armor_side": 25,
+                "collision_model": "vehicles/french/F75_Char_de_25t/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.000761,
+                "gun_pos_y": 0.487834,
+                "gun_pos_z": 0.080131,
+                "health": 320,
+                "id": 131,
+                "identifier": "Turret_1_Char_de_25t",
+                "name": "Batignolles-Ch\u00e2tillon 25 t AP",
+                "not_in_shop": true,
+                "price": 50000,
+                "rotation_speed": 32,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "F75_Char_de_25t",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/french/F75_Char_de_25t/normal/lod0/Turret_01.model",
+                "weight": 7000
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Char_de_25t_2",
+                "name": "Chassis_Char_de_25t_2",
+                "parent_key": "chassis-Chassis_Char_de_25t",
+                "price": 24000,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-Canon_de_90mm_Vo_930_m_s",
+                "name": "Canon_de_90mm_Vo_930_m_s",
+                "parent_key": "gun-_90mm_F3",
+                "price": 26800,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_100mm_SA_47",
+                "name": "_100mm_SA_47",
+                "parent_key": "gun-Canon_de_90mm_Vo_930_m_s",
+                "price": 34500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F18_Bat_Chatillon25t",
+                "name": "F18_Bat_Chatillon25t",
+                "parent_key": "gun-_100mm_SA_47",
+                "price": 200000,
+                "tank_name": "B-C 25 t",
+                "tank_price": 6100000,
+                "tank_slug": "b-c-25-t",
+                "tank_tier": 10,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_HL_230_F",
+                "name": "Maybach_HL_230_F",
+                "parent_key": "engine-Moteur_moderne_3M_27_1_01",
+                "price": 9200,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0920",
+        "visual_model": "vehicles/french/F75_Char_de_25t/normal/lod0/Hull.model",
+        "weight": 9695,
+        "xp_factor": 1
+    }
+}

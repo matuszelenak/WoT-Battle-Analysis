@@ -1,0 +1,482 @@
+{
+    "tank": {
+        "ammo_rack_health": 140,
+        "ammo_rack_repair_health": 90,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 70
+            }
+        ],
+        "armor_front": 60,
+        "armor_rear": 55,
+        "armor_side": 60,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.198,
+        "camo_moving": 0.066,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.132,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 38000,
+                "center_rotation": false,
+                "collision_model": "vehicles/german/G35_B-1bis_captured/collision_client/Chassis.model",
+                "dispersion_movement": 0.23,
+                "dispersion_rotation": 0.23,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.50029,
+                "hull_pos_z": 0,
+                "id": 297,
+                "identifier": "B2ketten",
+                "max_climb_angle": 25,
+                "max_load": 33300,
+                "name": "Pz.Kpfw. B2 740 (f)",
+                "not_in_shop": true,
+                "price": 1730,
+                "repair_health": 100,
+                "repair_price": 1,
+                "rotation_speed": 45,
+                "tank_id": "G35_B-1bis_captured",
+                "terrain_hard": 1.14,
+                "terrain_medium": 1.26,
+                "terrain_soft": 1.71,
+                "tier": 4,
+                "visual_model": "vehicles/german/G35_B-1bis_captured/normal/lod0/Chassis.model",
+                "weight": 8050
+            }
+        ],
+        "collision_model": "vehicles/german/G35_B-1bis_captured/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "During the European campaign, German troops captured 161 heavy B1 bis tanks that later received the Pz.Kpfw. B2 740 (f) designation. All vehicles were upgraded and received German radio equipment and twofold hatches on commander's cupolas. Some vehicles with dismantled armament were used for training purposes, and 16 vehicles were transformed into self-propelled howitzers. Most vehicles were converted into flame throwing tanks.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 326,
+                "identifier": "Renault",
+                "name": "Renault",
+                "not_in_shop": true,
+                "power": 340,
+                "price": 19370,
+                "repair_health": 39,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "G35_B-1bis_captured",
+                "tier": 5,
+                "weight": 400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 30,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1250,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.1428572,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G35_B-1bis_captured/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.38857144,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2.5,
+                "dispersion_rotation": 0.06,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "id": 499,
+                "identifier": "_47mm_SA35_L34",
+                "max_ammo": 112,
+                "name": "4,7 cm SA 35 L/34",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.394444,
+                            10
+                        ],
+                        [
+                            0.42753,
+                            6
+                        ],
+                        [
+                            0.458333,
+                            6
+                        ],
+                        [
+                            0.541667,
+                            6
+                        ],
+                        [
+                            0.605556,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 4100,
+                "reload_time": 2.1714287,
+                "repair_health": 35,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 252,
+                "visual_model": "vehicles/german/G35_B-1bis_captured/normal/lod0/Gun_01.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 320,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G35_B-1bis_captured",
+        "name": "Pz.Kpfw. B2 740 (f)",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 327,
+                "identifier": "FuG8f",
+                "name": "FuG 8 (f)",
+                "not_in_shop": true,
+                "price": 20300,
+                "range": 525,
+                "repair_health": 50,
+                "repair_price": 2.5,
+                "tank_id": "G35_B-1bis_captured",
+                "tier": 8,
+                "weight": 50
+            }
+        ],
+        "repair_price": 5,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 47,
+                "damage": 52,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 499,
+                "icon": "ap",
+                "id": "_47mm_Pzgr39f",
+                "min_penetration": 49,
+                "module_damage": 64,
+                "name": "Pzgr 39 (f)",
+                "penetration": 55,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 660,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 52,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 499,
+                "icon": "ap_cr",
+                "id": "_47cm_Pzgr40f",
+                "min_penetration": 51,
+                "module_damage": 64,
+                "name": "Pzgr 40 (f)",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 825,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 62,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 499,
+                "icon": "he",
+                "id": "_47mm_Sprg.18f",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "Sprgr 18 (f)",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Pz. B2",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pz-b2",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedSprings_class3_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": -0.019593,
+        "turret_pos_y": 0.446047,
+        "turret_pos_z": 0.739016,
+        "turret_slots": [
+            {
+                "id": 199,
+                "pos_x": -0.019593,
+                "pos_y": 0.446047,
+                "pos_z": 0.739016,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G35_B-1bis_captured"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 46,
+                "armor_rear": 46,
+                "armor_side": 46,
+                "collision_model": "vehicles/german/G35_B-1bis_captured/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 46
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 46
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 46
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 46
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.379124,
+                "gun_pos_y": 0.213611,
+                "gun_pos_z": 0.580474,
+                "health": 80,
+                "id": 252,
+                "identifier": "B2_740Fturm",
+                "name": "Pz.Kpfw. B2 740 (f)",
+                "not_in_shop": true,
+                "price": 2350,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "G35_B-1bis_captured",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/german/G35_B-1bis_captured/normal/lod0/Turret_01.model",
+                "weight": 2000
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0922ct",
+        "visual_model": "vehicles/german/G35_B-1bis_captured/normal/lod0/Hull.model",
+        "weight": 18500,
+        "xp_factor": 1.5
+    }
+}

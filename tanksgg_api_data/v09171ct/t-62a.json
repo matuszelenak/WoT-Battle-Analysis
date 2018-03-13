@@ -1,0 +1,540 @@
+{
+    "tank": {
+        "ammo_rack_health": 210,
+        "ammo_rack_repair_health": 140,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 16
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 45,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.402,
+        "camo_moving": 0.201,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.268,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 50000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R87_T62A/collision_client/Chassis.model",
+                "dispersion_movement": 0.1,
+                "dispersion_rotation": 0.1,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.994263,
+                "hull_pos_z": 0,
+                "id": 834,
+                "identifier": "Chassis_T62A",
+                "max_climb_angle": 25,
+                "max_load": 39800,
+                "name": "T-62A",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 56,
+                "tank_id": "R87_T62A",
+                "terrain_hard": 0.5,
+                "terrain_medium": 0.6,
+                "terrain_soft": 1.4,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R87_T62A/normal/lod0/Chassis.model",
+                "weight": 7800
+            }
+        ],
+        "collision_model": "vehicles/russian/R87_T62A/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development of the first Soviet post-war medium tank started in 1951. In 1961, the T-62 tank with a smoothbore gun was deployed. At the same time a variant, the T-62A, with a rifled gun was also deployed. In March 1962, mass production of the T-62A was discontinued. The T-62 tank was mass-produced from 1961 through 1975, with a total of twenty thousand vehicles manufactured. Later modifications of the vehicle are still in service.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 930,
+                "identifier": "V-55",
+                "name": "V-55",
+                "not_in_shop": true,
+                "power": 580,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R87_T62A",
+                "tier": 10,
+                "weight": 700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R87_T62A/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 214
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 95
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 214
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 200,
+                "id": 1483,
+                "identifier": "_100mm_D54_TS",
+                "max_ammo": 50,
+                "name": "100 mm U-8TS",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.472222,
+                            5
+                        ],
+                        [
+                            0.486111,
+                            4
+                        ],
+                        [
+                            0.513889,
+                            4
+                        ],
+                        [
+                            0.527778,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 242700,
+                "reload_time": 6.6,
+                "repair_health": 100,
+                "repair_price": 10,
+                "rotation_speed": 33.25,
+                "tier": 10,
+                "turret_id": 712,
+                "visual_model": "vehicles/russian/R87_T62A/normal/lod0/Gun_01.model",
+                "weight": 2800,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1560,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R87_T62A",
+        "name": "T-62A",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 981,
+                "identifier": "R123",
+                "name": "R-123",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 850,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "R87_T62A",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 12.309,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1483,
+                "icon": "ap_cr",
+                "id": "_100mm_UBR-412PB",
+                "min_penetration": 254,
+                "module_damage": 135,
+                "name": "UBR-412PB",
+                "penetration": 264,
+                "penetration_loss": 0,
+                "price": 1100,
+                "range": 720,
+                "speed": 1535,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1483,
+                "icon": "hc",
+                "id": "_100mm_3UBK4M",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "ZUBK4M",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1483,
+                "icon": "he",
+                "id": "_100mm_3UOF10",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "ZUOF10",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-62A",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-62a",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.522737,
+        "turret_pos_z": 0.215821,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 240,
+                "armor_rear": 65,
+                "armor_side": 161,
+                "collision_model": "vehicles/russian/R87_T62A/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 240
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 214
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 161
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 153
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 48
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 95
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 58
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_13",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 200
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 58
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.223044,
+                "gun_pos_z": 1.07662,
+                "health": 390,
+                "id": 712,
+                "identifier": "Turret_1_T62A",
+                "name": "T-62A",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 48,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "R87_T62A",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/russian/R87_T62A/normal/lod0/Turret_01.model",
+                "weight": 8000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v09171ct",
+        "visual_model": "vehicles/russian/R87_T62A/normal/lod0/Hull.model",
+        "weight": 17320,
+        "xp_factor": 1
+    }
+}

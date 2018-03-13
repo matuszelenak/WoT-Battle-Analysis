@@ -1,0 +1,484 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 120,
+        "armor_rear": 60,
+        "armor_side": 60,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.333,
+        "camo_moving": 0.167,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.222,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 32000,
+                "center_rotation": true,
+                "collision_model": "vehicles/japan/J30_Edelweiss/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 210,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.37587,
+                "hull_pos_z": 0,
+                "id": 431,
+                "identifier": "Chassis_J30_Edelweiss",
+                "max_climb_angle": 25,
+                "max_load": 35000,
+                "name": "Edelweiss",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 160,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "J30_Edelweiss",
+                "terrain_hard": 0.6,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.5,
+                "tier": 8,
+                "visual_model": "vehicles/japan/J30_Edelweiss/normal/lod0/Chassis.model",
+                "weight": 6000
+            }
+        ],
+        "collision_model": "vehicles/japan/J30_Edelweiss/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "An experimental medium tank developed by engineer Theimer under the direction of General Belgen Gunther. The vehicle was shaped by knowledge gained in the First European War. At the beginning of the Second European War, the tank was used by Squad 7 of the Gallian Militia's 3rd Regiment. It never entered mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 260,
+                "id": 473,
+                "identifier": "Edelweiss_Engine",
+                "name": "Edelweiss",
+                "not_in_shop": true,
+                "power": 800,
+                "price": 50000,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "J30_Edelweiss",
+                "tier": 8,
+                "weight": 1400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 7700,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J30_Edelweiss/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 200,
+                "id": 724,
+                "identifier": "_88mm_Edelweiss_Gun",
+                "max_ammo": 60,
+                "name": "88 mm Theimer L/40",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 112000,
+                "reload_time": 7.5,
+                "repair_health": 100,
+                "repair_price": 7,
+                "rotation_speed": 30,
+                "tier": 8,
+                "turret_id": 364,
+                "visual_model": "vehicles/japan/J30_Edelweiss/normal/lod0/Gun_01.model",
+                "weight": 1400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J30_Edelweiss",
+        "name": "Edelweiss",
+        "nation": "japan",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 180,
+                "id": 490,
+                "identifier": "Edelweiss_Radio",
+                "name": "Edelweiss",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 0.5,
+                "tank_id": "J30_Edelweiss",
+                "tier": 10,
+                "weight": 40
+            }
+        ],
+        "repair_price": 5.7,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 724,
+                "icon": "ap",
+                "id": "_88mm_Edelweiss_AP",
+                "min_penetration": 172,
+                "module_damage": 119,
+                "name": "AP/E",
+                "penetration": 195,
+                "penetration_loss": 0,
+                "price": 335,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 724,
+                "icon": "ap_cr",
+                "id": "_88mm_Edelweiss_APCR",
+                "min_penetration": 210,
+                "module_damage": 119,
+                "name": "APCR/E",
+                "penetration": 245,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1050,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 295,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 724,
+                "icon": "he",
+                "id": "_88mm_Edelweiss_ENH",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "ENH/E",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 280,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Edelweiss",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "edelweiss",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "unrecoverable"
+            },
+            {
+                "name": "lockCrew"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.395127,
+        "turret_pos_z": -0.246877,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 60,
+                "armor_side": 80,
+                "collision_model": "vehicles/japan/J30_Edelweiss/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.49754,
+                "gun_pos_z": 0.716675,
+                "health": 280,
+                "id": 364,
+                "identifier": "Turret_1_J30_Edelweiss",
+                "name": "Edelweiss",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 38,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "J30_Edelweiss",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/japan/J30_Edelweiss/normal/lod0/Turret_01.model",
+                "weight": 7000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0920ct",
+        "visual_model": "vehicles/japan/J30_Edelweiss/normal/lod0/Hull.model",
+        "weight": 15885,
+        "xp_factor": 1
+    }
+}

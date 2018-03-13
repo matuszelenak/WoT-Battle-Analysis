@@ -1,0 +1,499 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 121
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 76
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 51
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 32
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 32
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 197
+            }
+        ],
+        "armor_front": 121,
+        "armor_rear": 32,
+        "armor_side": 51,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.362,
+        "camo_moving": 0.181,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.241,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 50000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.823819,
+                "hull_pos_z": 0,
+                "id": 577,
+                "identifier": "Chassis_GB70_FV4202_105",
+                "max_climb_angle": 25,
+                "max_load": 42500,
+                "name": "FV4202",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 50,
+                "tank_id": "GB70_FV4202_105",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.6,
+                "tier": 10,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Chassis.model",
+                "weight": 8500
+            }
+        ],
+        "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Experimental tank on the basis of the Centurion medium tank. The vehicle was in development from 1956 through 1959, but never saw mass production. Technical decisions and innovations implemented in the FV4202 became the basis for the FV4201 Chieftain.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 320,
+                "id": 634,
+                "identifier": "Engine_FV4202",
+                "name": "Engine_FV4202",
+                "not_in_shop": true,
+                "power": 810,
+                "price": 50000,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "gasoline",
+                "tank_id": "GB70_FV4202_105",
+                "tier": 10,
+                "weight": 744
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 40,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.32,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    }
+                ],
+                "health": 208,
+                "id": 955,
+                "identifier": "Gun_FV4202",
+                "max_ammo": 72,
+                "name": "105 mm Royal Ordnance L7A1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.297449,
+                            10
+                        ],
+                        [
+                            0.361111,
+                            0
+                        ],
+                        [
+                            0.638889,
+                            0
+                        ],
+                        [
+                            0.702551,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 290000,
+                "reload_time": 8.6,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 10,
+                "turret_id": 488,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Gun_01.model",
+                "weight": 1282,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1560,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB70_FV4202_105",
+        "name": "FV4202",
+        "nation": "uk",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 180,
+                "id": 673,
+                "identifier": "Radio_FV4202",
+                "name": "Radio_FV4202",
+                "not_in_shop": true,
+                "price": 45600,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "GB70_FV4202_105",
+                "tier": 10,
+                "weight": 40
+            }
+        ],
+        "repair_price": 12.3,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 955,
+                "icon": "ap_cr",
+                "id": "_105mm_APCR_L7",
+                "min_penetration": 258,
+                "module_damage": 150,
+                "name": "APDS L-28",
+                "penetration": 268,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 1478,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 13,
+                "gravity": 9.81,
+                "gun_id": 955,
+                "icon": "he",
+                "id": "_105mm_HESH_L7",
+                "min_penetration": 210,
+                "module_damage": 150,
+                "name": "HESH-T L-37",
+                "penetration": 210,
+                "penetration_loss": 0,
+                "price": 5200,
+                "range": 720,
+                "speed": 1173,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 955,
+                "icon": "he",
+                "id": "_105mm_HE_L7",
+                "min_penetration": 105,
+                "module_damage": 150,
+                "name": "HESH-T L-35",
+                "penetration": 105,
+                "penetration_loss": 0,
+                "price": 950,
+                "range": 720,
+                "speed": 1173,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "FV4202",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "fv4202",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedHorizontal_springs_class2_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "unrecoverable"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.724581,
+        "turret_pos_z": 0.554402,
+        "turret_slots": [
+            {
+                "id": 383,
+                "pos_x": 0,
+                "pos_y": 0.724581,
+                "pos_z": 0.554402,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "GB70_FV4202_105"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 196,
+                "armor_rear": 35,
+                "armor_side": 196,
+                "collision_model": "vehicles/russian/R00_Placeholder/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 125
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 196
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 196
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 170
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 140
+                    }
+                ],
+                "gun_pos_x": 0.019607,
+                "gun_pos_y": 0.457312,
+                "gun_pos_z": 1.01427,
+                "health": 390,
+                "id": 488,
+                "identifier": "Turret_1_GB70_FV4202_105",
+                "name": "FV4202",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 40,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB70_FV4202_105",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 410,
+                "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Turret_01.model",
+                "weight": 8500
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0922ct",
+        "visual_model": "vehicles/russian/R00_Placeholder/normal/lod0/Hull.model",
+        "weight": 20634,
+        "xp_factor": 1
+    }
+}

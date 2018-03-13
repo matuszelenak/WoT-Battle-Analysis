@@ -1,0 +1,967 @@
+{
+    "tank": {
+        "ammo_rack_health": 85,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 17
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 3
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_10",
+                "primary": false,
+                "value": 3
+            }
+        ],
+        "armor_front": 17,
+        "armor_rear": 15,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.332,
+        "camo_moving": 0.166,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.221,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 12000,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J26_Type_89/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.04662,
+                "hull_pos_z": 0,
+                "id": 411,
+                "identifier": "Chassis_J26_Type_89",
+                "max_climb_angle": 25,
+                "max_load": 13000,
+                "name": "Type 89 Kou",
+                "not_in_shop": false,
+                "price": 400,
+                "repair_health": 40,
+                "repair_price": 5,
+                "rotation_speed": 36,
+                "tank_id": "J26_Type_89",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2,
+                "tier": 1,
+                "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Chassis.model",
+                "weight": 3500
+            },
+            {
+                "armor": 10,
+                "brake_force": 13000,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J26_Type_89/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.04662,
+                "hull_pos_z": 0,
+                "id": 412,
+                "identifier": "Chassis_J26_Type_89_2",
+                "max_climb_angle": 25,
+                "max_load": 14700,
+                "name": "Type 89 Otsu",
+                "not_in_shop": false,
+                "price": 950,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "J26_Type_89",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 2,
+                "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Chassis.model",
+                "weight": 3500
+            }
+        ],
+        "collision_model": "vehicles/japan/J26_Type_89/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "Developed in 1929. The first Japanese tank with a diesel engine, which served as the main tank in the early 1930s. By the beginning of World War II, the design of the vehicle was already obsolete; however, it was widely used until the end of the war. Vehicles of this type last saw action in 1944 in the Philippines.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 454,
+                "identifier": "_Type_Da_100_HP",
+                "name": "Type Da 100 HP",
+                "not_in_shop": false,
+                "power": 118,
+                "price": 350,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "J26_Type_89",
+                "tier": 1,
+                "weight": 500
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 66,
+                "id": 455,
+                "identifier": "_A6120VD",
+                "name": "Mitsubishi A6120VD",
+                "not_in_shop": false,
+                "power": 120,
+                "price": 2350,
+                "repair_health": 33,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "J26_Type_89",
+                "tier": 3,
+                "weight": 650
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 25,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J26_Type_89/collision_client/Gun_01.model",
+                "depression": 15,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 17
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 84,
+                "id": 715,
+                "identifier": "_57mm_Gun_Type90",
+                "max_ammo": 100,
+                "name": "5.7 cm Gun Type 90",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2600,
+                "reload_time": 2.5,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 349,
+                "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Gun_01.model",
+                "weight": 135,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J26_Type_89/collision_client/Gun_02.model",
+                "depression": 15,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 17
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 84,
+                "id": 716,
+                "identifier": "_57mm_Gun_Type97",
+                "max_ammo": 100,
+                "name": "5.7 cm Gun Type 97",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2800,
+                "reload_time": 2.5,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 349,
+                "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Gun_02.model",
+                "weight": 150,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J26_Type_89/collision_client/Gun_03.model",
+                "depression": 15,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 17
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 84,
+                "id": 717,
+                "identifier": "_57mm_Gun_Type90",
+                "max_ammo": 100,
+                "name": "5.7 cm Gun Type 90",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2600,
+                "reload_time": 2.4,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 350,
+                "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Gun_03.model",
+                "weight": 135,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J26_Type_89/collision_client/Gun_04.model",
+                "depression": 15,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 17
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 84,
+                "id": 718,
+                "identifier": "_57mm_Gun_Type97",
+                "max_ammo": 100,
+                "name": "5.7 cm Gun Type 97",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2800,
+                "reload_time": 2.3,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 350,
+                "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Gun_04.model",
+                "weight": 150,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 140,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J26_Type_89",
+        "name": "Type 89 I-Go/Chi-Ro",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3400,
+        "radios": [
+            {
+                "health": 60,
+                "id": 476,
+                "identifier": "_Type94_Otsu",
+                "name": "Type 94 Mk. 4 Otsu",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "J26_Type_89",
+                "tier": 2,
+                "weight": 40
+            }
+        ],
+        "repair_price": 3,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 715,
+                "icon": "ap",
+                "id": "_57mm_AP_Type97",
+                "min_penetration": 25,
+                "module_damage": 76,
+                "name": "Type 92",
+                "penetration": 29.6,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 355,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 715,
+                "icon": "hc",
+                "id": "_57mm_HEAT_Type97",
+                "min_penetration": 55,
+                "module_damage": 76,
+                "name": "Type 3",
+                "penetration": 55,
+                "penetration_loss": 0.05,
+                "price": 1200,
+                "range": 720,
+                "speed": 355,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 715,
+                "icon": "he",
+                "id": "_57mm_HE_Type97",
+                "min_penetration": 28,
+                "module_damage": 76,
+                "name": "Type 90",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 355,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 716,
+                "icon": "ap",
+                "id": "_57mm_AP_Type97",
+                "min_penetration": 25,
+                "module_damage": 76,
+                "name": "Type 92",
+                "penetration": 29.6,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 355,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 716,
+                "icon": "hc",
+                "id": "_57mm_HEAT_Type97",
+                "min_penetration": 55,
+                "module_damage": 76,
+                "name": "Type 3",
+                "penetration": 55,
+                "penetration_loss": 0.05,
+                "price": 1200,
+                "range": 720,
+                "speed": 355,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 716,
+                "icon": "he",
+                "id": "_57mm_HE_Type97",
+                "min_penetration": 28,
+                "module_damage": 76,
+                "name": "Type 90",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 355,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 717,
+                "icon": "ap",
+                "id": "_57mm_AP_Type97",
+                "min_penetration": 25,
+                "module_damage": 76,
+                "name": "Type 92",
+                "penetration": 29.6,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 355,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 717,
+                "icon": "hc",
+                "id": "_57mm_HEAT_Type97",
+                "min_penetration": 55,
+                "module_damage": 76,
+                "name": "Type 3",
+                "penetration": 55,
+                "penetration_loss": 0.05,
+                "price": 1200,
+                "range": 720,
+                "speed": 355,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 717,
+                "icon": "he",
+                "id": "_57mm_HE_Type97",
+                "min_penetration": 28,
+                "module_damage": 76,
+                "name": "Type 90",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 355,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 718,
+                "icon": "ap",
+                "id": "_57mm_AP_Type97",
+                "min_penetration": 25,
+                "module_damage": 76,
+                "name": "Type 92",
+                "penetration": 29.6,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 355,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 718,
+                "icon": "hc",
+                "id": "_57mm_HEAT_Type97",
+                "min_penetration": 55,
+                "module_damage": 76,
+                "name": "Type 3",
+                "penetration": 55,
+                "penetration_loss": 0.05,
+                "price": 1200,
+                "range": 720,
+                "speed": 355,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 718,
+                "icon": "he",
+                "id": "_57mm_HE_Type97",
+                "min_penetration": 28,
+                "module_damage": 76,
+                "name": "Type 90",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 355,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "I-Go/Chi-Ro",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "i-gochi-ro",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": -0.007201,
+        "turret_pos_y": 0.788392,
+        "turret_pos_z": 0.816939,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 15,
+                "armor_side": 0,
+                "collision_model": "vehicles/japan/J26_Type_89/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.007841,
+                "gun_pos_y": 0.245639,
+                "gun_pos_z": 0.602918,
+                "health": 35,
+                "id": 349,
+                "identifier": "Turret_1_J26_Type_89",
+                "name": "Type 89 Kou",
+                "not_in_shop": false,
+                "price": 300,
+                "rotation_speed": 32,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 2,
+                "tank_id": "J26_Type_89",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Turret_01.model",
+                "weight": 750
+            },
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 15,
+                "armor_side": 0,
+                "collision_model": "vehicles/japan/J26_Type_89/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.04832,
+                "gun_pos_y": 0.242378,
+                "gun_pos_z": 0.728579,
+                "health": 60,
+                "id": 350,
+                "identifier": "Turret_2_J26_Type_89",
+                "name": "Type 89 Otsu",
+                "not_in_shop": false,
+                "price": 680,
+                "rotation_speed": 36,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 2,
+                "tank_id": "J26_Type_89",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Turret_02.model",
+                "weight": 900
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_J26_Type_89_2",
+                "name": "Chassis_J26_Type_89_2",
+                "parent_key": "chassis-Chassis_J26_Type_89",
+                "price": 115,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_57mm_Gun_Type97",
+                "name": "_57mm_Gun_Type97",
+                "parent_key": "gun-_57mm_Gun_Type90",
+                "price": 140,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_J26_Type_89",
+                "name": "Turret_2_J26_Type_89",
+                "parent_key": "gun-_57mm_Gun_Type97",
+                "price": 120,
+                "type": "turret"
+            },
+            {
+                "key": "vehicle-J21_Type_91",
+                "name": "J21_Type_91",
+                "parent_key": "turret-Turret_2_J26_Type_89",
+                "price": 1240,
+                "tank_name": "Type 91",
+                "tank_price": 46500,
+                "tank_slug": "type-91",
+                "tank_tier": 3,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-_A6120VD",
+                "name": "_A6120VD",
+                "parent_key": "engine-_Type_Da_100_HP",
+                "price": 170,
+                "type": "engine"
+            }
+        ],
+        "version": "v0919",
+        "visual_model": "vehicles/japan/J26_Type_89/normal/lod0/Hull.model",
+        "weight": 7614,
+        "xp_factor": 1
+    }
+}

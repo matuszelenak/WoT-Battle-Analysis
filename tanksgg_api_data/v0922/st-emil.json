@@ -1,0 +1,706 @@
+{
+    "tank": {
+        "ammo_rack_health": 190,
+        "ammo_rack_repair_health": 130,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 65
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 30,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.297,
+        "camo_moving": 0.119,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.198,
+        "chassis": [
+            {
+                "armor": 25,
+                "brake_force": 36500,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G43_Sturer_Emil/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 160,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.17763,
+                "hull_pos_z": 0,
+                "id": 327,
+                "identifier": "Chassis_Sturer_Emil",
+                "max_climb_angle": 25,
+                "max_load": 36500,
+                "name": "Schwere Betonknacker",
+                "not_in_shop": false,
+                "price": 15000,
+                "repair_health": 120,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "G43_Sturer_Emil",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.3,
+                "tier": 6,
+                "visual_model": "vehicles/german/G43_Sturer_Emil/normal/lod0/Chassis.model",
+                "weight": 17000
+            },
+            {
+                "armor": 25,
+                "brake_force": 40000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G43_Sturer_Emil/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 25
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.17763,
+                "hull_pos_z": 0,
+                "id": 328,
+                "identifier": "Chassis_Sturer_Emil_2",
+                "max_climb_angle": 25,
+                "max_load": 38500,
+                "name": "Pz.Sfl. f\u00fcr 12.8 cm K. 40",
+                "not_in_shop": false,
+                "price": 18500,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 36,
+                "tank_id": "G43_Sturer_Emil",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.1,
+                "tier": 7,
+                "visual_model": "vehicles/german/G43_Sturer_Emil/normal/lod0/Chassis.model",
+                "weight": 17000
+            }
+        ],
+        "collision_model": "vehicles/german/G43_Sturer_Emil/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "An experimental tank destroyer. Based on the extended chassis of the\nVK 30.01 (H) tank, this vehicle featured a prototype 128-mm anti-tank gun. Only two vehicles were manufactured. They fought on the Southern Front from the summer through autumn of 1942. The trials demonstrated a number of problems, and the vehicle never saw mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 82,
+                "id": 358,
+                "identifier": "Maybach_HL_116",
+                "name": "Maybach HL 116",
+                "not_in_shop": false,
+                "power": 300,
+                "price": 9300,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G43_Sturer_Emil",
+                "tier": 4,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 120,
+                "id": 359,
+                "identifier": "Maybach_HL_116_S",
+                "name": "Maybach HL 116 S",
+                "not_in_shop": false,
+                "power": 310,
+                "price": 15200,
+                "repair_health": 60,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G43_Sturer_Emil",
+                "tier": 5,
+                "weight": 750
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 25,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G43_Sturer_Emil/collision_client/Gun_01.model",
+                "depression": 15,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 10,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 170,
+                "id": 543,
+                "identifier": "_105mm_K18_L52_R",
+                "max_ammo": 60,
+                "name": "10,5 cm Kanone 18",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -10
+                        ],
+                        [
+                            1,
+                            -10
+                        ]
+                    ]
+                },
+                "price": 116490,
+                "reload_time": 7.8,
+                "repair_health": 85,
+                "repair_price": 8,
+                "rotation_speed": 21.875,
+                "tier": 8,
+                "turret_id": 277,
+                "visual_model": "vehicles/german/G43_Sturer_Emil/normal/lod0/Gun_01.model",
+                "weight": 1890,
+                "yaw_left": -5,
+                "yaw_right": 7
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G43_Sturer_Emil/collision_client/Gun_02.model",
+                "depression": 15,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 10,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 200,
+                "id": 544,
+                "identifier": "_128mm_SF_L61",
+                "max_ammo": 15,
+                "name": "12,8 cm Kanone 40",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -10
+                        ],
+                        [
+                            1,
+                            -10
+                        ]
+                    ]
+                },
+                "price": 235000,
+                "reload_time": 13.8,
+                "repair_health": 100,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 9,
+                "turret_id": 277,
+                "visual_model": "vehicles/german/G43_Sturer_Emil/normal/lod0/Gun_02.model",
+                "weight": 4800,
+                "yaw_left": -5,
+                "yaw_right": 7
+            }
+        ],
+        "health": 680,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G43_Sturer_Emil",
+        "name": "Sturer Emil",
+        "nation": "germany",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 1300000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 360,
+                "identifier": "FuG2",
+                "name": "FuG 2",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 265,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G43_Sturer_Emil",
+                "tier": 2,
+                "weight": 40
+            },
+            {
+                "health": 100,
+                "id": 361,
+                "identifier": "FuG5",
+                "name": "FuG 5",
+                "not_in_shop": false,
+                "price": 630,
+                "range": 310,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "G43_Sturer_Emil",
+                "tier": 3,
+                "weight": 50
+            },
+            {
+                "health": 150,
+                "id": 362,
+                "identifier": "FuG_Spr.A",
+                "name": "Fu.Spr.Ger. \"a\"",
+                "not_in_shop": false,
+                "price": 27000,
+                "range": 700,
+                "repair_health": 75,
+                "repair_price": 2.5,
+                "tank_id": "G43_Sturer_Emil",
+                "tier": 8,
+                "weight": 150
+            }
+        ],
+        "repair_price": 7,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 543,
+                "icon": "ap",
+                "id": "_105mm_PzGrRot",
+                "min_penetration": 154,
+                "module_damage": 150,
+                "name": "PzGr rot",
+                "penetration": 169,
+                "penetration_loss": 0,
+                "price": 600,
+                "range": 720,
+                "speed": 805,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 300,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 543,
+                "icon": "ap_cr",
+                "id": "_105mm_PzGr.40Rot",
+                "min_penetration": 207,
+                "module_damage": 150,
+                "name": "PzGr 40 rot",
+                "penetration": 227,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1006,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 380,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 543,
+                "icon": "he",
+                "id": "_105mm_Gr19",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "Gr 19",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 650,
+                "range": 720,
+                "speed": 805,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 128,
+                "damage": 490,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 544,
+                "icon": "ap",
+                "id": "_128mm_Pzgr_N4",
+                "min_penetration": 202,
+                "module_damage": 180,
+                "name": "Pzgr. Nr. 4",
+                "penetration": 231,
+                "penetration_loss": 0,
+                "price": 920,
+                "range": 720,
+                "speed": 880,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 128,
+                "damage": 630,
+                "explosion_radius": 2.71,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 544,
+                "icon": "he",
+                "id": "_128mm_Sprgr_N9",
+                "min_penetration": 65,
+                "module_damage": 180,
+                "name": "Sprgr. Nr. 9",
+                "penetration": 65,
+                "penetration_loss": 0,
+                "price": 760,
+                "range": 720,
+                "speed": 880,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "St. Emil",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "st-emil",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": -0.00246,
+        "turret_pos_y": 0.253202,
+        "turret_pos_z": -0.313118,
+        "turret_slots": [
+            {
+                "id": 218,
+                "pos_x": -0.00246,
+                "pos_y": 0.253202,
+                "pos_z": -0.313118,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G43_Sturer_Emil"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/german/G43_Sturer_Emil/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0.00246,
+                "gun_pos_y": 0.777634,
+                "gun_pos_z": 0.095418,
+                "health": 170,
+                "id": 277,
+                "identifier": "Turret_1_Sturer_Emil",
+                "name": "Pz.Sfl. V",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 28,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "G43_Sturer_Emil",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/german/G43_Sturer_Emil/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Sturer_Emil_2",
+                "name": "Chassis_Sturer_Emil_2",
+                "parent_key": "chassis-Chassis_Sturer_Emil",
+                "price": 8200,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_128mm_SF_L61",
+                "name": "_128mm_SF_L61",
+                "parent_key": "gun-_105mm_K18_L52_R",
+                "price": 58500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-G99_RhB_Waffentrager",
+                "name": "G99_RhB_Waffentrager",
+                "parent_key": "gun-_128mm_SF_L61",
+                "price": 71000,
+                "tank_name": "Rhm.-B. WT",
+                "tank_price": 2400000,
+                "tank_slug": "rhm-b-wt",
+                "tank_tier": 8,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_HL_116_S",
+                "name": "Maybach_HL_116_S",
+                "parent_key": "engine-Maybach_HL_116",
+                "price": 1200,
+                "type": "engine"
+            },
+            {
+                "key": "radio-FuG5",
+                "name": "FuG5",
+                "parent_key": "radio-FuG2",
+                "price": 105,
+                "type": "radio"
+            },
+            {
+                "key": "radio-FuG_Spr.A",
+                "name": "FuG_Spr.A",
+                "parent_key": "radio-FuG5",
+                "price": 4500,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922",
+        "visual_model": "vehicles/german/G43_Sturer_Emil/normal/lod0/Hull.model",
+        "weight": 13425,
+        "xp_factor": 1
+    }
+}

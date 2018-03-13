@@ -1,0 +1,586 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 50,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 40,
+        "armor_rear": 20,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.224,
+        "camo_moving": 0.074,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.149,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 27000,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F24_Lorraine155_50/collision_client/Chassis.model",
+                "dispersion_movement": 0.4,
+                "dispersion_rotation": 0.4,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.978713,
+                "hull_pos_z": 0,
+                "id": 181,
+                "identifier": "Chassis_Lorraine155_50",
+                "max_climb_angle": 25,
+                "max_load": 30000,
+                "name": "Lorraine 155 mle. 50",
+                "not_in_shop": false,
+                "price": 14600,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 27,
+                "tank_id": "F24_Lorraine155_50",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 6,
+                "visual_model": "vehicles/french/F24_Lorraine155_50/normal/lod0/Chassis.model",
+                "weight": 14000
+            },
+            {
+                "armor": 20,
+                "brake_force": 30000,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F24_Lorraine155_50/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.978713,
+                "hull_pos_z": 0,
+                "id": 182,
+                "identifier": "Chassis_Lorraine155_50_2",
+                "max_climb_angle": 25,
+                "max_load": 32000,
+                "name": "Lorraine 155 mle. 50 bis",
+                "not_in_shop": false,
+                "price": 21000,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "F24_Lorraine155_50",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 7,
+                "visual_model": "vehicles/french/F24_Lorraine155_50/normal/lod0/Chassis.model",
+                "weight": 14000
+            }
+        ],
+        "collision_model": "vehicles/french/F24_Lorraine155_50/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed in France after the war on the basis of the experimental Lorraine 40 t. The vehicle passed trials in 1950, but never entered mass production or saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 160,
+                "id": 197,
+                "identifier": "Maybach_HL_210_TRM_P30",
+                "name": "Maybach HL 210 TRM P30",
+                "not_in_shop": false,
+                "power": 650,
+                "price": 35500,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F24_Lorraine155_50",
+                "tier": 7,
+                "weight": 850
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 198,
+                "identifier": "Maybach_HL_230_TRM_P30",
+                "name": "Maybach HL 230 TRM P30",
+                "not_in_shop": false,
+                "power": 700,
+                "price": 54000,
+                "repair_health": 129,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F24_Lorraine155_50",
+                "tier": 8,
+                "weight": 1200
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 60,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 5.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F24_Lorraine155_50/collision_client/Gun_01.model",
+                "depression": 0,
+                "dispersion": 0.71,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.46,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 188,
+                "id": 299,
+                "identifier": "Canon_de_155mm_de_33_calibres",
+                "max_ammo": 28,
+                "name": "Canon de 155 mm de 33 calibres",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 65000,
+                "reload_time": 27.4,
+                "repair_health": 94,
+                "repair_price": 10,
+                "rotation_speed": 22.75,
+                "tier": 6,
+                "turret_id": 154,
+                "visual_model": "vehicles/french/F24_Lorraine155_50/normal/lod0/Gun_01.model",
+                "weight": 2675,
+                "yaw_left": -12,
+                "yaw_right": 12
+            },
+            {
+                "Shells": null,
+                "aim_time": 5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F24_Lorraine155_50/collision_client/Gun_02.model",
+                "depression": 0,
+                "dispersion": 0.69,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.44,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 188,
+                "id": 300,
+                "identifier": "Obusier_de_155mm_mle.1950",
+                "max_ammo": 28,
+                "name": "Obusier de 155 mm mle. 1950",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 96000,
+                "reload_time": 29.8,
+                "repair_health": 94,
+                "repair_price": 10,
+                "rotation_speed": 22.75,
+                "tier": 7,
+                "turret_id": 154,
+                "visual_model": "vehicles/french/F24_Lorraine155_50/normal/lod0/Gun_02.model",
+                "weight": 2675,
+                "yaw_left": -12,
+                "yaw_right": 12
+            }
+        ],
+        "health": 272,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F24_Lorraine155_50",
+        "name": "Lorraine 155 mle. 50",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 1420000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 189,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "F24_Lorraine155_50",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 190,
+                "identifier": "SCR_528",
+                "name": "SCR 528F",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F24_Lorraine155_50",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 10.3,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 155,
+                "damage": 700,
+                "explosion_radius": 8,
+                "gold_price": 0,
+                "gravity": 160,
+                "gun_id": 299,
+                "icon": "he",
+                "id": "_155_OE_mle_1956",
+                "min_penetration": 39,
+                "module_damage": 105,
+                "name": "OE mle. 1956",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 10000,
+                "speed": 470,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 155,
+                "damage": 700,
+                "explosion_radius": 8,
+                "gold_price": 0,
+                "gravity": 150,
+                "gun_id": 300,
+                "icon": "he",
+                "id": "_155_OE_mle_1956",
+                "min_penetration": 40,
+                "module_damage": 105,
+                "name": "OE mle. 1956",
+                "penetration": 40,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 10000,
+                "speed": 450,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 155,
+                "damage": 700,
+                "explosion_radius": 9,
+                "gold_price": 13,
+                "gravity": 150,
+                "gun_id": 300,
+                "icon": "he_premium",
+                "id": "_M_107",
+                "min_penetration": 40,
+                "module_damage": 105,
+                "name": "HE M107",
+                "penetration": 40,
+                "penetration_loss": 0,
+                "price": 5200,
+                "range": 10000,
+                "speed": 450,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Lorr. 155 50",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "lorr-155-50",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "mediumSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.212063,
+        "turret_pos_z": 0.860427,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/french/F24_Lorraine155_50/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.946777,
+                "gun_pos_z": -0.740234,
+                "health": 68,
+                "id": 154,
+                "identifier": "Turret_1_Lorraine155_50",
+                "name": "Lorraine 155 mle. 50",
+                "not_in_shop": true,
+                "price": 120,
+                "rotation_speed": 14,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "F24_Lorraine155_50",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 270,
+                "visual_model": "vehicles/french/F24_Lorraine155_50/normal/lod0/Turret_01.model",
+                "weight": 300
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Lorraine155_50_2",
+                "name": "Chassis_Lorraine155_50_2",
+                "parent_key": "chassis-Chassis_Lorraine155_50",
+                "price": 7000,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-Obusier_de_155mm_mle.1950",
+                "name": "Obusier_de_155mm_mle.1950",
+                "parent_key": "gun-Canon_de_155mm_de_33_calibres",
+                "price": 14350,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F25_Lorraine155_51",
+                "name": "F25_Lorraine155_51",
+                "parent_key": "gun-Obusier_de_155mm_mle.1950",
+                "price": 92100,
+                "tank_name": "Lorr. 155 51",
+                "tank_price": 2550000,
+                "tank_slug": "lorr-155-51",
+                "tank_tier": 8,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Maybach_HL_230_TRM_P30",
+                "name": "Maybach_HL_230_TRM_P30",
+                "parent_key": "engine-Maybach_HL_210_TRM_P30",
+                "price": 18800,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v092011",
+        "visual_model": "vehicles/french/F24_Lorraine155_50/normal/lod0/Hull.model",
+        "weight": 11475,
+        "xp_factor": 1
+    }
+}

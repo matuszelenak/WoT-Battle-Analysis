@@ -1,0 +1,596 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 190.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 114.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 44.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 44.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 57.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 27.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 31.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 139.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 31.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": true,
+                "value": 228.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 59.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 127
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 94
+            }
+        ],
+        "armor_front": 228.6,
+        "armor_rear": 44.5,
+        "armor_side": 44.5,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.129,
+        "camo_moving": 0.043,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.086,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 54000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A67_T57_58/collision_client/Chassis.model",
+                "dispersion_movement": 0.25,
+                "dispersion_rotation": 0.25,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.27052,
+                "hull_pos_z": 0,
+                "id": 630,
+                "identifier": "Chassis_T57_58",
+                "max_climb_angle": 25,
+                "max_load": 58000,
+                "name": "T97",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "A67_T57_58",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.4,
+                "tier": 10,
+                "visual_model": "vehicles/american/A67_T57_58/normal/lod0/Chassis.model",
+                "weight": 11000
+            }
+        ],
+        "collision_model": "vehicles/american/A67_T57_58/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A project for a heavy tank with an oscillating turret and automatic loader, developed from 1951. Experimental turrets for 120 mm and 155 mm guns were manufactured by 1957. However, the project was deemed unsuccessful and development was discontinued.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 695,
+                "identifier": "Continental_AV_1790_5C",
+                "name": "Continental AV-1790-5C",
+                "not_in_shop": true,
+                "power": 810,
+                "price": 99000,
+                "repair_health": 130,
+                "repair_price": 6,
+                "tags": "gasoline",
+                "tank_id": "A67_T57_58",
+                "tier": 10,
+                "weight": 1159
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 35.4,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 2,
+                "clip_size": 4,
+                "collision_model": "vehicles/american/A67_T57_58/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.18,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 190.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_16",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 210,
+                "id": 1068,
+                "identifier": "_120mm_Gun_T179",
+                "max_ammo": 36,
+                "name": "120 mm Gun T179",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.353005,
+                            8
+                        ],
+                        [
+                            0.416667,
+                            7
+                        ],
+                        [
+                            0.583333,
+                            7
+                        ],
+                        [
+                            0.646995,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            0.353005,
+                            -12
+                        ],
+                        [
+                            0.416667,
+                            -10
+                        ],
+                        [
+                            0.583333,
+                            -10
+                        ],
+                        [
+                            0.646995,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 310000,
+                "reload_time": 25,
+                "repair_health": 105,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 535,
+                "visual_model": "vehicles/american/A67_T57_58/normal/lod0/Gun_01.model",
+                "weight": 2849,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1800,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A67_T57_58",
+        "name": "T57 Heavy Tank",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 250,
+                "id": 751,
+                "identifier": "AN_VRC-3",
+                "name": "AN/VRC-3",
+                "not_in_shop": true,
+                "price": 51600,
+                "range": 745,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "A67_T57_58",
+                "tier": 10,
+                "weight": 160
+            }
+        ],
+        "repair_price": 11.71,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1068,
+                "icon": "ap",
+                "id": "_120mm_AP-T_M358",
+                "min_penetration": 238,
+                "module_damage": 165,
+                "name": "AP-T M358",
+                "penetration": 258,
+                "penetration_loss": 0,
+                "price": 1060,
+                "range": 720,
+                "speed": 1067,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1068,
+                "icon": "hc",
+                "id": "_120mm_HEAT-T_M469",
+                "min_penetration": 340,
+                "module_damage": 165,
+                "name": "HEAT-T M469",
+                "penetration": 340,
+                "penetration_loss": 0.05,
+                "price": 4400,
+                "range": 720,
+                "speed": 1067,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 120,
+                "damage": 515,
+                "explosion_radius": 2.42,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1068,
+                "icon": "he",
+                "id": "_120mm_HE_Shot",
+                "min_penetration": 60,
+                "module_damage": 165,
+                "name": "HE Shell",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 900,
+                "range": 720,
+                "speed": 1067,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T57 Heavy",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t57-heavy",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.475975,
+        "turret_pos_z": 0.630216,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 152.4,
+                "armor_rear": 50.8,
+                "armor_side": 127,
+                "collision_model": "vehicles/american/A67_T57_58/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 152.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 63.5
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.501587,
+                "gun_pos_z": -0.139127,
+                "health": 450,
+                "id": 535,
+                "identifier": "Turret_1_T57_58",
+                "name": "T169",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 36,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "A67_T57_58",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/american/A67_T57_58/normal/lod0/Turret_01.model",
+                "weight": 14500
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v09191ct",
+        "visual_model": "vehicles/american/A67_T57_58/normal/lod0/Hull.model",
+        "weight": 24463,
+        "xp_factor": 1
+    }
+}

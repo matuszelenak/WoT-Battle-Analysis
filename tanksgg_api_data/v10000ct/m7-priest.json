@@ -1,0 +1,651 @@
+{
+    "tank": {
+        "ammo_rack_health": 70,
+        "ammo_rack_repair_health": 35,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 19.05
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 17.7
+            }
+        ],
+        "armor_front": 101.6,
+        "armor_rear": 12.7,
+        "armor_side": 38.1,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.33,
+        "camo_moving": 0.11,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.22,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 21000,
+                "center_rotation": true,
+                "collision_model": "vehicles//american/A16_M7_Priest/collision_client/Chassis.model",
+                "dispersion_movement": 0.48,
+                "dispersion_rotation": 0.48,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.993734,
+                "hull_pos_z": 0,
+                "id": 750,
+                "identifier": "VVSST49",
+                "max_climb_angle": 25,
+                "max_load": 23100,
+                "name": "VVSS T49",
+                "not_in_shop": false,
+                "price": 590,
+                "repair_health": 45,
+                "repair_price": 1,
+                "rotation_speed": 18,
+                "tank_id": "A16_M7_Priest",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.7,
+                "tier": 2,
+                "visual_model": "vehicles/american/A16_M7_Priest/normal/lod0/Chassis.model",
+                "weight": 11000
+            },
+            {
+                "armor": 20,
+                "brake_force": 23000,
+                "center_rotation": true,
+                "collision_model": "vehicles//american/A16_M7_Priest/collision_client/Chassis.model",
+                "dispersion_movement": 0.44,
+                "dispersion_rotation": 0.44,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.993734,
+                "hull_pos_z": 0,
+                "id": 751,
+                "identifier": "VVSST51",
+                "max_climb_angle": 25,
+                "max_load": 25500,
+                "name": "VVSS T51",
+                "not_in_shop": false,
+                "price": 1650,
+                "repair_health": 50,
+                "repair_price": 1,
+                "rotation_speed": 20,
+                "tank_id": "A16_M7_Priest",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 3,
+                "visual_model": "vehicles/american/A16_M7_Priest/normal/lod0/Chassis.model",
+                "weight": 11000
+            }
+        ],
+        "collision_model": "vehicles/american/A16_M7_Priest/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Manufactured on the suspension of the M3 and M4 tanks from April 1942 through March 1945, with a total of 4,316 vehicles produced. The M7 Priest first saw combat at El Alamein.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 826,
+                "identifier": "Wright_Continental_R-975C1",
+                "name": "Wright Continental R-975C1",
+                "not_in_shop": false,
+                "power": 400,
+                "price": 11000,
+                "repair_health": 52,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "A16_M7_Priest",
+                "tier": 4,
+                "weight": 516
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 136,
+                "id": 827,
+                "identifier": "Wright_Continental_R-975C4",
+                "name": "Wright Continental R-975C4",
+                "not_in_shop": false,
+                "power": 460,
+                "price": 13900,
+                "repair_health": 67,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "A16_M7_Priest",
+                "tier": 5,
+                "weight": 550
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 828,
+                "identifier": "Ford_GAA_R",
+                "name": "Ford GAA early",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 29000,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A16_M7_Priest",
+                "tier": 6,
+                "weight": 708
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 38.6,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 5.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A16_M7_Priest/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.84,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.56,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 120,
+                "id": 1241,
+                "identifier": "_105mm_Howitzer_M3",
+                "max_ammo": 69,
+                "name": "105 mm Howitzer M3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 12850,
+                "reload_time": 20,
+                "repair_health": 60,
+                "repair_price": 8,
+                "rotation_speed": 30.625,
+                "tier": 3,
+                "turret_id": 638,
+                "visual_model": "vehicles/american/A16_M7_Priest/normal/lod0/Gun_01.model",
+                "weight": 433,
+                "yaw_left": -12,
+                "yaw_right": 26
+            },
+            {
+                "Shells": null,
+                "aim_time": 5.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A16_M7_Priest/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.82,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.52,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 150,
+                "id": 1242,
+                "identifier": "_105mm_Howitzer_M2A1",
+                "max_ammo": 69,
+                "name": "105 mm Howitzer M2A1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 32200,
+                "reload_time": 20,
+                "repair_health": 75,
+                "repair_price": 8,
+                "rotation_speed": 30.625,
+                "tier": 4,
+                "turret_id": 638,
+                "visual_model": "vehicles/american/A16_M7_Priest/normal/lod0/Gun_02.model",
+                "weight": 490,
+                "yaw_left": -12,
+                "yaw_right": 26
+            }
+        ],
+        "health": 112,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A16_M7_Priest",
+        "name": "M7 Priest",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 47000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 877,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 395,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A16_M7_Priest",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 878,
+                "identifier": "SCR_506",
+                "name": "SCR 506",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 615,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A16_M7_Priest",
+                "tier": 9,
+                "weight": 110
+            },
+            {
+                "health": 200,
+                "id": 879,
+                "identifier": "SCR_528",
+                "name": "SCR 528",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A16_M7_Priest",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 6.86,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 410,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 155,
+                "gun_id": 1241,
+                "icon": "he",
+                "id": "_105mm_HE_M1",
+                "min_penetration": 27,
+                "module_damage": 150,
+                "name": "HE M1",
+                "penetration": 27,
+                "penetration_loss": 0,
+                "price": 166,
+                "range": 10000,
+                "speed": 315,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 410,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 170,
+                "gun_id": 1242,
+                "icon": "he",
+                "id": "_105mm_HE_M1",
+                "min_penetration": 27,
+                "module_damage": 150,
+                "name": "HE M1",
+                "penetration": 27,
+                "penetration_loss": 0,
+                "price": 166,
+                "range": 10000,
+                "speed": 410,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M7 Priest",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m7-priest",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "mediumSPG"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0.2521,
+        "turret_pos_y": 0.647966,
+        "turret_pos_z": 0.77389,
+        "turret_slots": [
+            {
+                "id": 497,
+                "pos_x": 0.2521,
+                "pos_y": 0.647966,
+                "pos_z": 0.77389,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A16_M7_Priest"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A16_M7_Priest/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.2521,
+                "gun_pos_y": 0.197,
+                "gun_pos_z": -0.30291,
+                "health": 28,
+                "id": 638,
+                "identifier": "M7D1",
+                "name": "M7D1",
+                "not_in_shop": true,
+                "price": 200,
+                "rotation_speed": 16,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 45,
+                "surveyor_repair_health": 22,
+                "surveyor_repair_price": 1,
+                "tank_id": "A16_M7_Priest",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 260,
+                "visual_model": "vehicles/american/A16_M7_Priest/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-VVSST51",
+                "name": "VVSST51",
+                "parent_key": "chassis-VVSST49",
+                "price": 330,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_105mm_Howitzer_M2A1",
+                "name": "_105mm_Howitzer_M2A1",
+                "parent_key": "gun-_105mm_Howitzer_M3",
+                "price": 2550,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A17_M37",
+                "name": "A17_M37",
+                "parent_key": "gun-_105mm_Howitzer_M2A1",
+                "price": 3150,
+                "tank_name": "M37",
+                "tank_price": 130000,
+                "tank_slug": "m37",
+                "tank_tier": 4,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Wright_Continental_R-975C4",
+                "name": "Wright_Continental_R-975C4",
+                "parent_key": "engine-Wright_Continental_R-975C1",
+                "price": 1500,
+                "type": "engine"
+            },
+            {
+                "key": "engine-Ford_GAA_R",
+                "name": "Ford_GAA_R",
+                "parent_key": "engine-Wright_Continental_R-975C4",
+                "price": 5100,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_506",
+                "name": "SCR_506",
+                "parent_key": "radio-SCR_508",
+                "price": 5600,
+                "type": "radio"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_506",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v10000ct",
+        "visual_model": "vehicles/american/A16_M7_Priest/normal/lod0/Hull.model",
+        "weight": 10646,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,542 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 50,
+        "armor_rear": 15,
+        "armor_side": 20,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.449,
+        "camo_moving": 0.299,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.299,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 16000,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F69_AMX13_57_100/collision_client/Chassis.model",
+                "dispersion_movement": 0.13,
+                "dispersion_rotation": 0.13,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 155,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.901016,
+                "hull_pos_z": 0,
+                "id": 131,
+                "identifier": "Chassis_AMX13_57_100",
+                "max_climb_angle": 25,
+                "max_load": 16450,
+                "name": "AMX 13 57",
+                "not_in_shop": true,
+                "price": 20000,
+                "repair_health": 115,
+                "repair_price": 5,
+                "rotation_speed": 48,
+                "tank_id": "F69_AMX13_57_100",
+                "terrain_hard": 0.6,
+                "terrain_medium": 0.7,
+                "terrain_soft": 1.4,
+                "tier": 7,
+                "visual_model": "vehicles/french/F69_AMX13_57_100/normal/lod0/Chassis.model",
+                "weight": 1400
+            }
+        ],
+        "collision_model": "vehicles/french/F69_AMX13_57_100/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "The AMX company conceived this light tank, which was to mount the 57-mm L/100 gun. Problems in development slowed the project, and by the 1950s the vehicle was still not ready for presentation. By that time, the production of a modified chassis with the turret mounting a 75-mm gun had taken precedence, and the 57-mm version was discontinued.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 160,
+                "id": 145,
+                "identifier": "SOFAM_8Gxb_A",
+                "name": "SOFAM 8 Gxb",
+                "not_in_shop": true,
+                "power": 250,
+                "price": 16000,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "F69_AMX13_57_100",
+                "tier": 5,
+                "weight": 400
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 61,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 5000,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 1,
+                "clip_size": 8,
+                "collision_model": "vehicles/french/F69_AMX13_57_100/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 130,
+                "id": 225,
+                "identifier": "_57mm_AC_canon_L100",
+                "max_ammo": 56,
+                "name": "57 mm L/100",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -12
+                        ],
+                        [
+                            0.277778,
+                            -12
+                        ],
+                        [
+                            0.291667,
+                            -10
+                        ],
+                        [
+                            0.361111,
+                            -10
+                        ],
+                        [
+                            0.375,
+                            -8
+                        ],
+                        [
+                            0.625,
+                            -8
+                        ],
+                        [
+                            0.638889,
+                            -10
+                        ],
+                        [
+                            0.708333,
+                            -10
+                        ],
+                        [
+                            0.722222,
+                            -12
+                        ],
+                        [
+                            1,
+                            -12
+                        ]
+                    ]
+                },
+                "price": 60000,
+                "reload_time": 16,
+                "repair_health": 65,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 6,
+                "turret_id": 116,
+                "visual_model": "vehicles/french/F69_AMX13_57_100/normal/lod0/Gun_01.model",
+                "weight": 1500,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 712,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F69_AMX13_57_100",
+        "name": "AMX 13 57",
+        "nation": "france",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 137,
+                "identifier": "SCR_528A",
+                "name": "SCR 528F",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "F69_AMX13_57_100",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 4.5,
+        "reverse_speed": 23,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 90,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 225,
+                "icon": "ap",
+                "id": "_57mm_L100_AP",
+                "min_penetration": 129,
+                "module_damage": 76,
+                "name": "AP",
+                "penetration": 143,
+                "penetration_loss": 0,
+                "price": 85,
+                "range": 720,
+                "speed": 1141,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 90,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 225,
+                "icon": "ap_cr",
+                "id": "_57mm_L100_APCR",
+                "min_penetration": 151,
+                "module_damage": 76,
+                "name": "APCR",
+                "penetration": 195,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1463,
+                "type": "ARMOR_PIERCING_CR"
+            }
+        ],
+        "short_name": "AMX 13 57",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-13-57",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "inGame"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 3e-05,
+        "turret_pos_y": 0.375302,
+        "turret_pos_z": -0.507704,
+        "turret_slots": [
+            {
+                "id": 87,
+                "pos_x": 3e-05,
+                "pos_y": 0.375302,
+                "pos_z": -0.507704,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "F69_AMX13_57_100"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 40,
+                "armor_rear": 20,
+                "armor_side": 20,
+                "collision_model": "vehicles/french/F69_AMX13_57_100/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 40
+                    }
+                ],
+                "gun_pos_x": 0.0245,
+                "gun_pos_y": 0.576803,
+                "gun_pos_z": -0.004636,
+                "health": 178,
+                "id": 116,
+                "identifier": "Turret_1_AMX13_57_100",
+                "name": "AMX 13 57",
+                "not_in_shop": true,
+                "price": 20000,
+                "rotation_speed": 45,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "F69_AMX13_57_100",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/french/F69_AMX13_57_100/normal/lod0/Turret_01.model",
+                "weight": 2800
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09212",
+        "visual_model": "vehicles/french/F69_AMX13_57_100/normal/lod0/Hull.model",
+        "weight": 8245,
+        "xp_factor": 1.5
+    }
+}

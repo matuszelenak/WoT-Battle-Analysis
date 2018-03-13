@@ -1,0 +1,1706 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_13",
+                "primary": false,
+                "value": 3
+            }
+        ],
+        "armor_front": 65,
+        "armor_rear": 40,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.284,
+        "camo_moving": 0.142,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.189,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 38000,
+                "center_rotation": true,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.15749,
+                "hull_pos_z": 0,
+                "id": 90,
+                "identifier": "Chassis_Cz02_TVP_T50",
+                "max_climb_angle": 25,
+                "max_load": 38500,
+                "name": "\u0160koda T 50 (1949)",
+                "not_in_shop": false,
+                "price": 32000,
+                "repair_health": 175,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "Cz02_TVP_T50",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.1,
+                "tier": 8,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Chassis.model",
+                "weight": 12000
+            },
+            {
+                "armor": 20,
+                "brake_force": 38000,
+                "center_rotation": true,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.15749,
+                "hull_pos_z": 0,
+                "id": 91,
+                "identifier": "Chassis_Cz02_TVP_T50_2",
+                "max_climb_angle": 25,
+                "max_load": 43000,
+                "name": "\u0160koda T 50 (1950)",
+                "not_in_shop": false,
+                "price": 62700,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "Cz02_TVP_T50",
+                "terrain_hard": 1,
+                "terrain_medium": 1.35,
+                "terrain_soft": 1.95,
+                "tier": 9,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A further development of the post-war concept for the Czechoslovakian general purpose tank. The project was developed by \u0160koda in 1947. In 1948, significant changes were introduced to the project. There were plans to mount a 100 mm gun. The project was discontinued after one full-size wooden prototype had been built.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 320,
+                "id": 100,
+                "identifier": "Skoda_16_AH_145",
+                "name": "\u0160koda 16 AH 145",
+                "not_in_shop": false,
+                "power": 750,
+                "price": 82000,
+                "repair_health": 160,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "Cz02_TVP_T50",
+                "tier": 9,
+                "weight": 1400
+            },
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 101,
+                "identifier": "Skoda_AHK",
+                "name": "\u0160koda AHK",
+                "not_in_shop": false,
+                "power": 1000,
+                "price": 110000,
+                "repair_health": 170,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "Cz02_TVP_T50",
+                "tier": 10,
+                "weight": 1700
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 50,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Gun_01.model",
+                "depression": 8,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 154,
+                "identifier": "_100mm_A20",
+                "max_ammo": 50,
+                "name": "100 mm A20",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.430556,
+                            8
+                        ],
+                        [
+                            0.433333,
+                            7.6
+                        ],
+                        [
+                            0.436111,
+                            7.2
+                        ],
+                        [
+                            0.438889,
+                            6.8
+                        ],
+                        [
+                            0.441667,
+                            6.4
+                        ],
+                        [
+                            0.444444,
+                            6
+                        ],
+                        [
+                            0.455556,
+                            5.6
+                        ],
+                        [
+                            0.544444,
+                            5.6
+                        ],
+                        [
+                            0.555556,
+                            6
+                        ],
+                        [
+                            0.558333,
+                            6.4
+                        ],
+                        [
+                            0.561111,
+                            6.8
+                        ],
+                        [
+                            0.563889,
+                            7.2
+                        ],
+                        [
+                            0.566667,
+                            7.6
+                        ],
+                        [
+                            0.569444,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 205000,
+                "reload_time": 7.8,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33,
+                "tier": 9,
+                "turret_id": 82,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Gun_01.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Gun_02.model",
+                "depression": 8,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 140
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 155,
+                "identifier": "_100mm_R11",
+                "max_ammo": 50,
+                "name": "100 mm R11",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.430556,
+                            8
+                        ],
+                        [
+                            0.433333,
+                            7.6
+                        ],
+                        [
+                            0.436111,
+                            7.2
+                        ],
+                        [
+                            0.438889,
+                            6.8
+                        ],
+                        [
+                            0.441667,
+                            6.4
+                        ],
+                        [
+                            0.444444,
+                            6
+                        ],
+                        [
+                            0.455556,
+                            5.6
+                        ],
+                        [
+                            0.544444,
+                            5.6
+                        ],
+                        [
+                            0.555556,
+                            6
+                        ],
+                        [
+                            0.558333,
+                            6.4
+                        ],
+                        [
+                            0.561111,
+                            6.8
+                        ],
+                        [
+                            0.563889,
+                            7.2
+                        ],
+                        [
+                            0.566667,
+                            7.6
+                        ],
+                        [
+                            0.569444,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 224000,
+                "reload_time": 8.2,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33,
+                "tier": 9,
+                "turret_id": 82,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Gun_02.model",
+                "weight": 3800,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 156,
+                "identifier": "_100mm_A20",
+                "max_ammo": 45,
+                "name": "100 mm A20",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.422222,
+                            8
+                        ],
+                        [
+                            0.425,
+                            7.6
+                        ],
+                        [
+                            0.427778,
+                            7.2
+                        ],
+                        [
+                            0.430556,
+                            6.8
+                        ],
+                        [
+                            0.433333,
+                            6.4
+                        ],
+                        [
+                            0.436111,
+                            6
+                        ],
+                        [
+                            0.438889,
+                            5.6
+                        ],
+                        [
+                            0.441667,
+                            5.2
+                        ],
+                        [
+                            0.452778,
+                            5
+                        ],
+                        [
+                            0.455556,
+                            4.6
+                        ],
+                        [
+                            0.458333,
+                            4.4
+                        ],
+                        [
+                            0.541667,
+                            4.4
+                        ],
+                        [
+                            0.544444,
+                            4.6
+                        ],
+                        [
+                            0.547222,
+                            5
+                        ],
+                        [
+                            0.558333,
+                            5.2
+                        ],
+                        [
+                            0.561111,
+                            5.6
+                        ],
+                        [
+                            0.563889,
+                            6
+                        ],
+                        [
+                            0.566667,
+                            6.4
+                        ],
+                        [
+                            0.569444,
+                            6.8
+                        ],
+                        [
+                            0.572222,
+                            7.2
+                        ],
+                        [
+                            0.575,
+                            7.6
+                        ],
+                        [
+                            0.577778,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 205000,
+                "reload_time": 7.5,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33,
+                "tier": 9,
+                "turret_id": 83,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Gun_04.model",
+                "weight": 3000,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 157,
+                "identifier": "_100mm_R11",
+                "max_ammo": 45,
+                "name": "100 mm R11",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.422222,
+                            8
+                        ],
+                        [
+                            0.425,
+                            7.6
+                        ],
+                        [
+                            0.427778,
+                            7.2
+                        ],
+                        [
+                            0.430556,
+                            6.8
+                        ],
+                        [
+                            0.433333,
+                            6.4
+                        ],
+                        [
+                            0.436111,
+                            6
+                        ],
+                        [
+                            0.438889,
+                            5.6
+                        ],
+                        [
+                            0.441667,
+                            5.2
+                        ],
+                        [
+                            0.452778,
+                            5
+                        ],
+                        [
+                            0.455556,
+                            4.6
+                        ],
+                        [
+                            0.458333,
+                            4.4
+                        ],
+                        [
+                            0.541667,
+                            4.4
+                        ],
+                        [
+                            0.544444,
+                            4.6
+                        ],
+                        [
+                            0.547222,
+                            5
+                        ],
+                        [
+                            0.558333,
+                            5.2
+                        ],
+                        [
+                            0.561111,
+                            5.6
+                        ],
+                        [
+                            0.563889,
+                            6
+                        ],
+                        [
+                            0.566667,
+                            6.4
+                        ],
+                        [
+                            0.569444,
+                            6.8
+                        ],
+                        [
+                            0.572222,
+                            7.2
+                        ],
+                        [
+                            0.575,
+                            7.6
+                        ],
+                        [
+                            0.577778,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 224000,
+                "reload_time": 8,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33,
+                "tier": 9,
+                "turret_id": 83,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Gun_05.model",
+                "weight": 3800,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 1.7964072,
+                "clip_size": 3,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Gun_06.model",
+                "depression": 8,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 150
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 200,
+                "id": 158,
+                "identifier": "_100mm_AK1",
+                "max_ammo": 45,
+                "name": "100 mm AK1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.422222,
+                            8
+                        ],
+                        [
+                            0.425,
+                            7.6
+                        ],
+                        [
+                            0.427778,
+                            7.2
+                        ],
+                        [
+                            0.430556,
+                            6.8
+                        ],
+                        [
+                            0.433333,
+                            6.4
+                        ],
+                        [
+                            0.436111,
+                            6
+                        ],
+                        [
+                            0.438889,
+                            5.6
+                        ],
+                        [
+                            0.441667,
+                            5.2
+                        ],
+                        [
+                            0.452778,
+                            5
+                        ],
+                        [
+                            0.455556,
+                            4.6
+                        ],
+                        [
+                            0.458333,
+                            4.4
+                        ],
+                        [
+                            0.541667,
+                            4.4
+                        ],
+                        [
+                            0.544444,
+                            4.6
+                        ],
+                        [
+                            0.547222,
+                            5
+                        ],
+                        [
+                            0.558333,
+                            5.2
+                        ],
+                        [
+                            0.561111,
+                            5.6
+                        ],
+                        [
+                            0.563889,
+                            6
+                        ],
+                        [
+                            0.566667,
+                            6.4
+                        ],
+                        [
+                            0.569444,
+                            6.8
+                        ],
+                        [
+                            0.572222,
+                            7.2
+                        ],
+                        [
+                            0.575,
+                            7.6
+                        ],
+                        [
+                            0.577778,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 275000,
+                "reload_time": 22,
+                "repair_health": 100,
+                "repair_price": 10,
+                "rotation_speed": 33,
+                "tier": 10,
+                "turret_id": 83,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Gun_06.model",
+                "weight": 2600,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1240,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Cz02_TVP_T50",
+        "name": "\u0160koda T 50",
+        "nation": "czech",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 3460000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 93,
+                "identifier": "Radiostanice_R_113",
+                "name": "Radiostanice R-113",
+                "not_in_shop": false,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "Cz02_TVP_T50",
+                "tier": 10,
+                "weight": 80
+            },
+            {
+                "health": 250,
+                "id": 94,
+                "identifier": "Radiostanice_RM_31T",
+                "name": "Radiostanice RM-31T",
+                "not_in_shop": false,
+                "price": 57500,
+                "range": 850,
+                "repair_health": 75,
+                "repair_price": 3.5,
+                "tank_id": "Cz02_TVP_T50",
+                "tier": 10,
+                "weight": 62
+            }
+        ],
+        "repair_price": 9.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 154,
+                "icon": "ap",
+                "id": "_100mm_Prurazny_vz_49",
+                "min_penetration": 185,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 49",
+                "penetration": 205,
+                "penetration_loss": 0,
+                "price": 890,
+                "range": 720,
+                "speed": 940,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 154,
+                "icon": "ap_cr",
+                "id": "_100mm_Prurazny_vz_49_s_oc_jadrem",
+                "min_penetration": 216,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 49 (s j\u00e1drem)",
+                "penetration": 240,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1062,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 154,
+                "icon": "he",
+                "id": "_100mm_Narazovy_vz_49",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "N\u00e1razov\u00fd vz. 49",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 455,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 155,
+                "icon": "ap",
+                "id": "_100mm_Prurazny_vz_49",
+                "min_penetration": 201,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 49",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 890,
+                "range": 720,
+                "speed": 1050,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 155,
+                "icon": "ap_cr",
+                "id": "_100mm_Prurazny_vz_49_s_oc_jadrem",
+                "min_penetration": 235,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 49 (s j\u00e1drem)",
+                "penetration": 269,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1187,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 155,
+                "icon": "he",
+                "id": "_100mm_Narazovy_vz_49",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "N\u00e1razov\u00fd vz. 49",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 455,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 156,
+                "icon": "ap",
+                "id": "_100mm_Prurazny_vz_49",
+                "min_penetration": 185,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 49",
+                "penetration": 205,
+                "penetration_loss": 0,
+                "price": 890,
+                "range": 720,
+                "speed": 940,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 156,
+                "icon": "ap_cr",
+                "id": "_100mm_Prurazny_vz_49_s_oc_jadrem",
+                "min_penetration": 216,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 49 (s j\u00e1drem)",
+                "penetration": 240,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1062,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 156,
+                "icon": "he",
+                "id": "_100mm_Narazovy_vz_49",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "N\u00e1razov\u00fd vz. 49",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 455,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 157,
+                "icon": "ap",
+                "id": "_100mm_Prurazny_vz_49",
+                "min_penetration": 201,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 49",
+                "penetration": 230,
+                "penetration_loss": 0,
+                "price": 890,
+                "range": 720,
+                "speed": 1050,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 157,
+                "icon": "ap_cr",
+                "id": "_100mm_Prurazny_vz_49_s_oc_jadrem",
+                "min_penetration": 235,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 49 (s j\u00e1drem)",
+                "penetration": 269,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1187,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 157,
+                "icon": "he",
+                "id": "_100mm_Narazovy_vz_49",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "N\u00e1razov\u00fd vz. 49",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 455,
+                "range": 720,
+                "speed": 1000,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 158,
+                "icon": "ap_cr",
+                "id": "_100mm_Prurazny_vz_50",
+                "min_penetration": 225,
+                "module_damage": 135,
+                "name": "Pr\u016frazn\u00fd vz. 50",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 1110,
+                "range": 720,
+                "speed": 1400,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 158,
+                "icon": "hc",
+                "id": "_100mm_Prupalny_vz_50",
+                "min_penetration": 310,
+                "module_damage": 135,
+                "name": "Pr\u016fpaln\u00fd vz. 50",
+                "penetration": 310,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 158,
+                "icon": "he",
+                "id": "_100mm_Narazovy_vz_50",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "N\u00e1razov\u00fd vz. 50",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 620,
+                "range": 720,
+                "speed": 900,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "\u0160koda T 50",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "skoda-t-50",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumTank2"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": -9e-05,
+        "turret_pos_y": 0.677491,
+        "turret_pos_z": 0.683762,
+        "turret_slots": [
+            {
+                "id": 60,
+                "pos_x": -9e-05,
+                "pos_y": 0.677491,
+                "pos_z": 0.683762,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "Cz02_TVP_T50"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 100,
+                "armor_side": 0,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 75
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 70
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.393773,
+                "gun_pos_z": 1.2777,
+                "health": 310,
+                "id": 82,
+                "identifier": "Turret_1_Cz02_TVP_T50",
+                "name": "\u0160koda T 50 (1949)",
+                "not_in_shop": false,
+                "price": 32700,
+                "rotation_speed": 38,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz02_TVP_T50",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Turret_01.model",
+                "weight": 8600
+            },
+            {
+                "Guns": null,
+                "armor_front": 120,
+                "armor_rear": 60,
+                "armor_side": 80,
+                "collision_model": "vehicles/czech/Cz02_TVP_T50/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 30
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.346468,
+                "gun_pos_z": 1.19234,
+                "health": 410,
+                "id": 83,
+                "identifier": "Turret_2_Cz02_TVP_T50",
+                "name": "\u0160koda T 50 (1950)",
+                "not_in_shop": false,
+                "price": 58000,
+                "rotation_speed": 42,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "Cz02_TVP_T50",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Turret_02.model",
+                "weight": 9000
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Cz02_TVP_T50_2",
+                "name": "Chassis_Cz02_TVP_T50_2",
+                "parent_key": "chassis-Chassis_Cz02_TVP_T50",
+                "price": 23500,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_100mm_R11",
+                "name": "_100mm_R11",
+                "parent_key": "gun-_100mm_A20",
+                "price": 48500,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_Cz02_TVP_T50",
+                "name": "Turret_2_Cz02_TVP_T50",
+                "parent_key": "gun-_100mm_A20",
+                "price": 24400,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_100mm_AK1",
+                "name": "_100mm_AK1",
+                "parent_key": "turret-Turret_2_Cz02_TVP_T50",
+                "price": 61100,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-Cz04_T50_51",
+                "name": "Cz04_T50_51",
+                "parent_key": "gun-_100mm_AK1",
+                "price": 208000,
+                "tank_name": "TVP T 50/51",
+                "tank_price": 6100000,
+                "tank_slug": "tvp-t-5051",
+                "tank_tier": 10,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Skoda_AHK",
+                "name": "Skoda_AHK",
+                "parent_key": "engine-Skoda_16_AH_145",
+                "price": 41500,
+                "type": "engine"
+            },
+            {
+                "key": "radio-Radiostanice_RM_31T",
+                "name": "Radiostanice_RM_31T",
+                "parent_key": "radio-Radiostanice_R_113",
+                "price": 9500,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922ct2",
+        "visual_model": "vehicles/czech/Cz02_TVP_T50/normal/lod0/Hull.model",
+        "weight": 12738,
+        "xp_factor": 1
+    }
+}

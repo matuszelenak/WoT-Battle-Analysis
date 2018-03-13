@@ -1,0 +1,1061 @@
+{
+    "tank": {
+        "ammo_rack_health": 75,
+        "ammo_rack_repair_health": 50,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 35,
+        "armor_rear": 25,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.459,
+        "camo_moving": 0.229,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.306,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 6300,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.815027,
+                "hull_pos_z": 0,
+                "id": 950,
+                "identifier": "Chassis_T-60",
+                "max_climb_angle": 25,
+                "max_load": 6300,
+                "name": "T-60",
+                "not_in_shop": false,
+                "price": 290,
+                "repair_health": 40,
+                "repair_price": 5,
+                "rotation_speed": 48,
+                "tank_id": "R42_T-60",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 1,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Chassis.model",
+                "weight": 2000
+            },
+            {
+                "armor": 5,
+                "brake_force": 7000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.815027,
+                "hull_pos_z": 0,
+                "id": 951,
+                "identifier": "Chassis_T-60_2",
+                "max_climb_angle": 25,
+                "max_load": 8600,
+                "name": "T-60 enhanced",
+                "not_in_shop": false,
+                "price": 550,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 52,
+                "tank_id": "R42_T-60",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 2,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Chassis.model",
+                "weight": 2000
+            }
+        ],
+        "collision_model": "vehicles/russian/R42_T-60/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Developed in August 1941 at the Construction Bureau of Plant No. 37 under the supervision of N. A. Astrov. The vehicle came into service in September 1941. The vehicle was mass-produced until February 1943. A total of 5,920 vehicles were manufactured. The vehicle saw service before the end of the war.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 1045,
+                "identifier": "GAZ-202",
+                "name": "GAZ 202",
+                "not_in_shop": false,
+                "power": 70,
+                "price": 330,
+                "repair_health": 21,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "R42_T-60",
+                "tier": 1,
+                "weight": 275
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 1046,
+                "identifier": "ZiS-16",
+                "name": "ZiS-16",
+                "not_in_shop": false,
+                "power": 85,
+                "price": 1040,
+                "repair_health": 21,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R42_T-60",
+                "tier": 2,
+                "weight": 360
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 45,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.1,
+                "clip_size": 50,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Gun_02.model",
+                "depression": 7,
+                "dispersion": 0.57,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.1,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 6
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 30,
+                "id": 1609,
+                "identifier": "_12.7mm_DSHK",
+                "max_ammo": 1000,
+                "name": "12.7 mm DShK",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2000,
+                "reload_time": 33,
+                "repair_health": 15,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 816,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Gun_02.model",
+                "weight": 34,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.1,
+                "clip_size": 20,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Gun_01.model",
+                "depression": 7,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.3,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 40,
+                "id": 1610,
+                "identifier": "_20mm_TNSH",
+                "max_ammo": 740,
+                "name": "20 mm TNSh",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2380,
+                "reload_time": 9.4,
+                "repair_health": 20,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 816,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Gun_01.model",
+                "weight": 68,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.1,
+                "clip_size": 50,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Gun_05.model",
+                "depression": 7,
+                "dispersion": 0.57,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.1,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 30,
+                "id": 1611,
+                "identifier": "_12.7mm_DSHK",
+                "max_ammo": 1000,
+                "name": "12.7 mm DShK",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2000,
+                "reload_time": 30,
+                "repair_health": 15,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 817,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Gun_05.model",
+                "weight": 34,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.1,
+                "clip_size": 20,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Gun_03.model",
+                "depression": 7,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.3,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 40,
+                "id": 1612,
+                "identifier": "_20mm_TNSH",
+                "max_ammo": 740,
+                "name": "20 mm TNSh",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2380,
+                "reload_time": 8.6,
+                "repair_health": 20,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 817,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Gun_03.model",
+                "weight": 68,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Gun_07.model",
+                "depression": 5,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 1613,
+                "identifier": "_37mm_ZiS-19",
+                "max_ammo": 125,
+                "name": "37 mm ZiS-19",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 4250,
+                "reload_time": 2.7,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 3,
+                "turret_id": 817,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Gun_07.model",
+                "weight": 200,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R42_T-60",
+        "name": "T-60",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3300,
+        "radios": [
+            {
+                "health": 100,
+                "id": 1094,
+                "identifier": "_71-TK-3",
+                "name": "71-TK-3",
+                "not_in_shop": false,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R42_T-60",
+                "tier": 3,
+                "weight": 100
+            }
+        ],
+        "repair_price": 3,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 12.7,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1609,
+                "icon": "ap",
+                "id": "_12.7mm_AP_B32",
+                "min_penetration": 18,
+                "module_damage": 17,
+                "name": "B-32",
+                "penetration": 22,
+                "penetration_loss": 0,
+                "price": 1,
+                "range": 400,
+                "speed": 825,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 10,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1610,
+                "icon": "ap",
+                "id": "_20mm_BC-20",
+                "min_penetration": 15,
+                "module_damage": 27,
+                "name": "BC-20",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 2,
+                "range": 400,
+                "speed": 817,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 10,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 1610,
+                "icon": "ap_cr",
+                "id": "_20mm_UBR-20",
+                "min_penetration": 15,
+                "module_damage": 27,
+                "name": "UBR-20",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1021,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 12.7,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1611,
+                "icon": "ap",
+                "id": "_12.7mm_AP_B32",
+                "min_penetration": 18,
+                "module_damage": 17,
+                "name": "B-32",
+                "penetration": 22,
+                "penetration_loss": 0,
+                "price": 1,
+                "range": 400,
+                "speed": 825,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 10,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1612,
+                "icon": "ap",
+                "id": "_20mm_BC-20",
+                "min_penetration": 15,
+                "module_damage": 27,
+                "name": "BC-20",
+                "penetration": 28,
+                "penetration_loss": 0,
+                "price": 2,
+                "range": 400,
+                "speed": 817,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 10,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 1612,
+                "icon": "ap_cr",
+                "id": "_20mm_UBR-20",
+                "min_penetration": 15,
+                "module_damage": 27,
+                "name": "UBR-20",
+                "penetration": 39,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 1021,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1613,
+                "icon": "ap",
+                "id": "_37mm_UBR160bis",
+                "min_penetration": 41,
+                "module_damage": 50,
+                "name": "UBR-160 bis",
+                "penetration": 58,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 915,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1613,
+                "icon": "ap_cr",
+                "id": "_37mm_UBR160PA",
+                "min_penetration": 40,
+                "module_damage": 50,
+                "name": "UBR-160PA",
+                "penetration": 92,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 1144,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 50,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1613,
+                "icon": "he",
+                "id": "_37mm_UO160A",
+                "min_penetration": 19,
+                "module_damage": 50,
+                "name": "UO-160A",
+                "penetration": 19,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 915,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-60",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-60",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": -0.3025,
+        "turret_pos_y": 0.489873,
+        "turret_pos_z": -0.23679,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 15,
+                "armor_rear": 15,
+                "armor_side": 15,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.2374,
+                "gun_pos_z": 0.5569,
+                "health": 30,
+                "id": 816,
+                "identifier": "Turret_1_T-60",
+                "name": "T-40",
+                "not_in_shop": false,
+                "price": 400,
+                "rotation_speed": 32,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "R42_T-60",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 280,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Turret_01.model",
+                "weight": 450
+            },
+            {
+                "Guns": null,
+                "armor_front": 25,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/russian/R42_T-60/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.2374,
+                "gun_pos_z": 0.5569,
+                "health": 50,
+                "id": 817,
+                "identifier": "Turret_2_T-60",
+                "name": "T-60",
+                "not_in_shop": false,
+                "price": 570,
+                "rotation_speed": 34,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "R42_T-60",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Turret_02.model",
+                "weight": 550
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_T-60_2",
+                "name": "Chassis_T-60_2",
+                "parent_key": "chassis-Chassis_T-60",
+                "price": 100,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_T-60",
+                "name": "Turret_2_T-60",
+                "parent_key": "turret-Turret_1_T-60",
+                "price": 85,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_20mm_TNSH",
+                "name": "_20mm_TNSH",
+                "parent_key": "gun-_12.7mm_DSHK",
+                "price": 35,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R43_T-70",
+                "name": "R43_T-70",
+                "parent_key": "turret-Turret_2_T-60",
+                "price": 1150,
+                "tank_name": "T-70",
+                "tank_price": 39300,
+                "tank_slug": "t-70",
+                "tank_tier": 3,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "gun-_37mm_ZiS-19",
+                "name": "_37mm_ZiS-19",
+                "parent_key": "turret-Turret_2_T-60",
+                "price": 160,
+                "type": "gun"
+            },
+            {
+                "key": "engine-ZiS-16",
+                "name": "ZiS-16",
+                "parent_key": "engine-GAZ-202",
+                "price": 90,
+                "type": "engine"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/russian/R42_T-60/normal/lod0/Hull.model",
+        "weight": 3107,
+        "xp_factor": 1
+    }
+}

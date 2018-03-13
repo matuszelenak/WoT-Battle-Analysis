@@ -1,0 +1,824 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 12
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_5",
+                "primary": false,
+                "value": 3
+            }
+        ],
+        "armor_front": 20,
+        "armor_rear": 15,
+        "armor_side": 0,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.167,
+        "camo_moving": 0.055,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.111,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 17200,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J21_Type_91/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.16959,
+                "hull_pos_z": 0,
+                "id": 386,
+                "identifier": "Chassis_J21_Type_91",
+                "max_climb_angle": 25,
+                "max_load": 20300,
+                "name": "Dai-chi Osaka Sensha",
+                "not_in_shop": false,
+                "price": 800,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "J21_Type_91",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 2,
+                "visual_model": "vehicles/japan/J21_Type_91/normal/lod0/Chassis.model",
+                "weight": 5000
+            },
+            {
+                "armor": 10,
+                "brake_force": 18500,
+                "center_rotation": false,
+                "collision_model": "vehicles/japan/J21_Type_91/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.16959,
+                "hull_pos_z": 0,
+                "id": 387,
+                "identifier": "Chassis_J21_Type_91_2",
+                "max_climb_angle": 25,
+                "max_load": 23000,
+                "name": "Type 91 Heavy",
+                "not_in_shop": false,
+                "price": 2200,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "J21_Type_91",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.9,
+                "tier": 3,
+                "visual_model": "vehicles/japan/J21_Type_91/normal/lod0/Chassis.model",
+                "weight": 5000
+            }
+        ],
+        "collision_model": "vehicles/japan/J21_Type_91/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            }
+        ],
+        "description": "Development of the Type 91, the three-turret 18-ton Japanese tank, started in 1927 and was completed in 1932. The vehicle never entered mass production. Only one prototype was built.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 434,
+                "identifier": "BMW_IV",
+                "name": "BMW IV",
+                "not_in_shop": false,
+                "power": 224,
+                "price": 4900,
+                "repair_health": 39,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "J21_Type_91",
+                "tier": 3,
+                "weight": 290
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 80,
+                "id": 435,
+                "identifier": "BMW_IV_Kai",
+                "name": "BMW IV Kai",
+                "not_in_shop": false,
+                "power": 250,
+                "price": 7800,
+                "repair_health": 39,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "J21_Type_91",
+                "tier": 3,
+                "weight": 290
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 25,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J21_Type_91/collision_client/Gun_01.model",
+                "depression": 12,
+                "dispersion": 0.48,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "id": 692,
+                "identifier": "_70mm_Gun_Type_94",
+                "max_ammo": 100,
+                "name": "7 cm Gun Type 94",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.00277778,
+                            12
+                        ],
+                        [
+                            0.469444,
+                            12
+                        ],
+                        [
+                            0.472222,
+                            11
+                        ],
+                        [
+                            0.525,
+                            11
+                        ],
+                        [
+                            0.527778,
+                            12
+                        ],
+                        [
+                            0.888889,
+                            12
+                        ],
+                        [
+                            0.891667,
+                            8
+                        ],
+                        [
+                            0.894444,
+                            6
+                        ],
+                        [
+                            0.913889,
+                            6
+                        ],
+                        [
+                            0.916667,
+                            5
+                        ],
+                        [
+                            0.944444,
+                            5
+                        ],
+                        [
+                            0.947222,
+                            6
+                        ],
+                        [
+                            0.997222,
+                            6
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 9500,
+                "reload_time": 4,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 41.125,
+                "tier": 3,
+                "turret_id": 330,
+                "visual_model": "vehicles/japan/J21_Type_91/normal/lod0/Gun_01.model",
+                "weight": 325,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/japan/J21_Type_91/collision_client/Gun_02.model",
+                "depression": 12,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 12
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 76,
+                "id": 693,
+                "identifier": "_47mm_Gun_Type1",
+                "max_ammo": 150,
+                "name": "47 mm Gun Type 1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.00277778,
+                            12
+                        ],
+                        [
+                            0.469444,
+                            12
+                        ],
+                        [
+                            0.472222,
+                            11
+                        ],
+                        [
+                            0.525,
+                            11
+                        ],
+                        [
+                            0.527778,
+                            12
+                        ],
+                        [
+                            0.886111,
+                            12
+                        ],
+                        [
+                            0.888889,
+                            10
+                        ],
+                        [
+                            0.891667,
+                            7
+                        ],
+                        [
+                            0.894444,
+                            4
+                        ],
+                        [
+                            0.897222,
+                            3
+                        ],
+                        [
+                            0.9,
+                            3
+                        ],
+                        [
+                            0.902778,
+                            1
+                        ],
+                        [
+                            0.925,
+                            -1
+                        ],
+                        [
+                            0.927778,
+                            -2
+                        ],
+                        [
+                            0.952778,
+                            -2
+                        ],
+                        [
+                            0.955556,
+                            1
+                        ],
+                        [
+                            0.980556,
+                            1
+                        ],
+                        [
+                            0.983333,
+                            3
+                        ],
+                        [
+                            0.994444,
+                            3
+                        ],
+                        [
+                            0.997222,
+                            5
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 21000,
+                "reload_time": 2.1,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 330,
+                "visual_model": "vehicles/japan/J21_Type_91/normal/lod0/Gun_02.model",
+                "weight": 411,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 200,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "J21_Type_91",
+        "name": "Type 91 Heavy",
+        "nation": "japan",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 46500,
+        "radios": [
+            {
+                "health": 60,
+                "id": 447,
+                "identifier": "_Type94_Otsu",
+                "name": "Type 94 Mk. 4 Otsu",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 36,
+                "repair_price": 0.5,
+                "tank_id": "J21_Type_91",
+                "tier": 2,
+                "weight": 40
+            },
+            {
+                "health": 70,
+                "id": 448,
+                "identifier": "_Type94_Hei",
+                "name": "Type 94 Mk. 4 Hei",
+                "not_in_shop": false,
+                "price": 2350,
+                "range": 350,
+                "repair_health": 42,
+                "repair_price": 0.5,
+                "tank_id": "J21_Type_91",
+                "tier": 4,
+                "weight": 90
+            },
+            {
+                "health": 100,
+                "id": 449,
+                "identifier": "_Type96_Bo",
+                "name": "Type 96 Mk. 4 Bo",
+                "not_in_shop": false,
+                "price": 14000,
+                "range": 425,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "J21_Type_91",
+                "tier": 6,
+                "weight": 50
+            }
+        ],
+        "repair_price": 3.2,
+        "reverse_speed": 13,
+        "shells": [
+            {
+                "caliber": 70,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 692,
+                "icon": "ap",
+                "id": "_70mm_APHE_Type95",
+                "min_penetration": 28,
+                "module_damage": 90,
+                "name": "APHE Type 95",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 25,
+                "range": 720,
+                "speed": 300,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 70,
+                "damage": 100,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 692,
+                "icon": "hc",
+                "id": "_70mm_HEAT_Type3",
+                "min_penetration": 90,
+                "module_damage": 90,
+                "name": "HEAT Type 3",
+                "penetration": 90,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 400,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 70,
+                "damage": 160,
+                "explosion_radius": 0.94,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 692,
+                "icon": "he",
+                "id": "_70mm_HE_Type92",
+                "min_penetration": 35,
+                "module_damage": 90,
+                "name": "HE Type 92",
+                "penetration": 35,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 350,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 693,
+                "icon": "ap",
+                "id": "_47mm_APHE_Type1",
+                "min_penetration": 69,
+                "module_damage": 64,
+                "name": "Type 1",
+                "penetration": 81,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0,
+                "gold_price": 4,
+                "gravity": 9.81,
+                "gun_id": 693,
+                "icon": "ap",
+                "id": "_47mm_APHE_Type1_TK",
+                "min_penetration": 80.9,
+                "module_damage": 64,
+                "name": "Type 1 Toku Kou",
+                "penetration": 122,
+                "penetration_loss": 0,
+                "price": 1600,
+                "range": 720,
+                "speed": 810,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 90,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 693,
+                "icon": "he",
+                "id": "_47mm_HE_Type94",
+                "min_penetration": 25,
+                "module_damage": 64,
+                "name": "Type 94",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 810,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Type 91",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "type-91",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "enhancedSprings_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -0.01039,
+        "turret_pos_y": 0.92965,
+        "turret_pos_z": 0.582433,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 20,
+                "armor_side": 0,
+                "collision_model": "vehicles/japan/J21_Type_91/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 12
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.051882,
+                "gun_pos_y": 0.230414,
+                "gun_pos_z": 0.791049,
+                "health": 50,
+                "id": 330,
+                "identifier": "Turret_1_J21_Type_91",
+                "name": "Type 91 Heavy",
+                "not_in_shop": true,
+                "price": 2000,
+                "rotation_speed": 30,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "J21_Type_91",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/japan/J21_Type_91/normal/lod0/Turret_01.model",
+                "weight": 1500
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_J21_Type_91_2",
+                "name": "Chassis_J21_Type_91_2",
+                "parent_key": "chassis-Chassis_J21_Type_91",
+                "price": 380,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_47mm_Gun_Type1",
+                "name": "_47mm_Gun_Type1",
+                "parent_key": "gun-_70mm_Gun_Type_94",
+                "price": 1200,
+                "type": "gun"
+            },
+            {
+                "key": "engine-BMW_IV_Kai",
+                "name": "BMW_IV_Kai",
+                "parent_key": "engine-BMW_IV",
+                "price": 280,
+                "type": "engine"
+            },
+            {
+                "key": "vehicle-J22_Type_95",
+                "name": "J22_Type_95",
+                "parent_key": "engine-BMW_IV_Kai",
+                "price": 3850,
+                "tank_name": "Type 95",
+                "tank_price": 166000,
+                "tank_slug": "type-95",
+                "tank_tier": 4,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-_Type94_Hei",
+                "name": "_Type94_Hei",
+                "parent_key": "radio-_Type94_Otsu",
+                "price": 430,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_Type96_Bo",
+                "name": "_Type96_Bo",
+                "parent_key": "radio-_Type94_Hei",
+                "price": 1400,
+                "type": "radio"
+            }
+        ],
+        "version": "v0917",
+        "visual_model": "vehicles/japan/J21_Type_91/normal/lod0/Hull.model",
+        "weight": 12595,
+        "xp_factor": 1
+    }
+}

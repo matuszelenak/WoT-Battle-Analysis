@@ -1,0 +1,721 @@
+{
+    "tank": {
+        "ammo_rack_health": 50,
+        "ammo_rack_repair_health": 25,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 15,
+        "armor_rear": 15,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.35,
+        "camo_moving": 0.117,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.233,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 8000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R66_SU-26/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.973021,
+                "hull_pos_z": 0,
+                "id": 904,
+                "identifier": "Su-26A",
+                "max_climb_angle": 25,
+                "max_load": 8200,
+                "name": "SU-26",
+                "not_in_shop": false,
+                "price": 680,
+                "repair_health": 40,
+                "repair_price": 2.5,
+                "rotation_speed": 24,
+                "tank_id": "R66_SU-26",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.5,
+                "tier": 2,
+                "visual_model": "vehicles/russian/R66_SU-26/normal/lod0/Chassis.model",
+                "weight": 1880
+            },
+            {
+                "armor": 10,
+                "brake_force": 9000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R66_SU-26/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.973021,
+                "hull_pos_z": 0,
+                "id": 905,
+                "identifier": "Su-26B",
+                "max_climb_angle": 25,
+                "max_load": 10500,
+                "name": "SU-26 Bis",
+                "not_in_shop": false,
+                "price": 1800,
+                "repair_health": 45,
+                "repair_price": 2.5,
+                "rotation_speed": 26,
+                "tank_id": "R66_SU-26",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/russian/R66_SU-26/normal/lod0/Chassis.model",
+                "weight": 1880
+            }
+        ],
+        "collision_model": "vehicles/russian/R66_SU-26/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The self-propelled gun on the basis of the T-26 was developed in sieged Leningrad in the autumn of 1941. The production was deployed at the Kirov Lifting and Conveying Equipment Plant. About 12 chassis were equipped with 76.2-mm guns (presumably, 76.2-mm infantry support guns mod. 1927). The vehicles saw service in Red Army armored brigades that fought on the Leningrad Front until 1944.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 997,
+                "identifier": "T-26",
+                "name": "T-26",
+                "not_in_shop": false,
+                "power": 90,
+                "price": 770,
+                "repair_health": 20,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "R66_SU-26",
+                "tier": 1,
+                "weight": 545
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 42,
+                "id": 998,
+                "identifier": "T-26M",
+                "name": "T-26M",
+                "not_in_shop": false,
+                "power": 100,
+                "price": 1230,
+                "repair_health": 21,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "R66_SU-26",
+                "tier": 2,
+                "weight": 545
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 50,
+                "id": 999,
+                "identifier": "T-26F",
+                "name": "T-26F",
+                "not_in_shop": false,
+                "power": 130,
+                "price": 1500,
+                "repair_health": 25,
+                "repair_price": 2,
+                "tags": "gasoline",
+                "tank_id": "R66_SU-26",
+                "tier": 2,
+                "weight": 545
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 30,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 4.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R66_SU-26/collision_client/Gun_01.model",
+                "depression": 2,
+                "dispersion": 0.75,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.3,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 84,
+                "id": 1528,
+                "identifier": "_76mm_cannon_mod_1927",
+                "max_ammo": 48,
+                "name": "76 mm Regimental Gun mod. 1927",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 2830,
+                "reload_time": 7.2,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 35,
+                "tier": 2,
+                "turret_id": 771,
+                "visual_model": "vehicles/russian/R66_SU-26/normal/lod0/Gun_01.model",
+                "weight": 230,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 4.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R66_SU-26/collision_client/Gun_02.model",
+                "depression": 2,
+                "dispersion": 0.73,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.28,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 84,
+                "id": 1529,
+                "identifier": "_76mm_cannon_mod_1905_30",
+                "max_ammo": 48,
+                "name": "76 mm Gun mod. 1902/30 30 clb",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 4090,
+                "reload_time": 6.6,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 35,
+                "tier": 2,
+                "turret_id": 771,
+                "visual_model": "vehicles/russian/R66_SU-26/normal/lod0/Gun_02.model",
+                "weight": 389,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R66_SU-26/collision_client/Gun_03.model",
+                "depression": 2,
+                "dispersion": 0.66,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.22,
+                "elevation": 45,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 84,
+                "id": 1530,
+                "identifier": "_76mm_cannon_mod_1905_40",
+                "max_ammo": 48,
+                "name": "76 mm Gun mod. 1902/30 40 clb",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -45
+                        ],
+                        [
+                            1,
+                            -45
+                        ]
+                    ]
+                },
+                "price": 8050,
+                "reload_time": 7,
+                "repair_health": 42,
+                "repair_price": 4,
+                "rotation_speed": 35,
+                "tier": 3,
+                "turret_id": 771,
+                "visual_model": "vehicles/russian/R66_SU-26/normal/lod0/Gun_03.model",
+                "weight": 389,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 88,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R66_SU-26",
+        "name": "SU-26",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 53000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 1042,
+                "identifier": "_71-TK-3",
+                "name": "71-TK-3",
+                "not_in_shop": false,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R66_SU-26",
+                "tier": 3,
+                "weight": 100
+            },
+            {
+                "health": 110,
+                "id": 1043,
+                "identifier": "_9RK",
+                "name": "9RK",
+                "not_in_shop": false,
+                "price": 3240,
+                "range": 350,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "R66_SU-26",
+                "tier": 5,
+                "weight": 80
+            },
+            {
+                "health": 200,
+                "id": 1044,
+                "identifier": "_12LL",
+                "name": "12LL",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 615,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R66_SU-26",
+                "tier": 9,
+                "weight": 110
+            }
+        ],
+        "repair_price": 8.36,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 180,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 168,
+                "gun_id": 1528,
+                "icon": "he",
+                "id": "_76mm_UOF-354KA",
+                "min_penetration": 21,
+                "module_damage": 105,
+                "name": "UOF-354KA",
+                "penetration": 21,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 10000,
+                "speed": 290,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 180,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 170,
+                "gun_id": 1529,
+                "icon": "he",
+                "id": "_76mm_UOF-354KA",
+                "min_penetration": 21,
+                "module_damage": 105,
+                "name": "UOF-354KA",
+                "penetration": 21,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 10000,
+                "speed": 445,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 180,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 170,
+                "gun_id": 1530,
+                "icon": "he",
+                "id": "_76mm_UOF-354KA",
+                "min_penetration": 21,
+                "module_damage": 105,
+                "name": "UOF-354KA",
+                "penetration": 21,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 10000,
+                "speed": 455,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-26",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-26",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "lightSPG"
+            },
+            {
+                "name": "enhancedSuspension_Vikkers_user"
+            },
+            {
+                "name": "mediumCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0.00167,
+        "turret_pos_y": 0.26605,
+        "turret_pos_z": -0.777614,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R66_SU-26/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.000442,
+                "gun_pos_y": 0.551803,
+                "gun_pos_z": -0.101492,
+                "health": 22,
+                "id": 771,
+                "identifier": "SU-26",
+                "name": "SU-26",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 16,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "R66_SU-26",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 260,
+                "visual_model": "vehicles/russian/R66_SU-26/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "spg",
+        "unlocks": [
+            {
+                "key": "chassis-Su-26B",
+                "name": "Su-26B",
+                "parent_key": "chassis-Su-26A",
+                "price": 300,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_76mm_cannon_mod_1905_30",
+                "name": "_76mm_cannon_mod_1905_30",
+                "parent_key": "gun-_76mm_cannon_mod_1927",
+                "price": 1000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_cannon_mod_1905_40",
+                "name": "_76mm_cannon_mod_1905_40",
+                "parent_key": "gun-_76mm_cannon_mod_1905_30",
+                "price": 1200,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R14_SU-5",
+                "name": "R14_SU-5",
+                "parent_key": "gun-_76mm_cannon_mod_1905_30",
+                "price": 3600,
+                "tank_name": "SU-5",
+                "tank_price": 147000,
+                "tank_slug": "su-5",
+                "tank_tier": 4,
+                "tank_type": "spg",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-T-26M",
+                "name": "T-26M",
+                "parent_key": "engine-T-26",
+                "price": 95,
+                "type": "engine"
+            },
+            {
+                "key": "engine-T-26F",
+                "name": "T-26F",
+                "parent_key": "engine-T-26M",
+                "price": 130,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_9RK",
+                "name": "_9RK",
+                "parent_key": "radio-_71-TK-3",
+                "price": 540,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_12LL",
+                "name": "_12LL",
+                "parent_key": "radio-_9RK",
+                "price": 5600,
+                "type": "radio"
+            }
+        ],
+        "version": "v09201ct",
+        "visual_model": "vehicles/russian/R66_SU-26/normal/lod0/Hull.model",
+        "weight": 5045,
+        "xp_factor": 1
+    }
+}

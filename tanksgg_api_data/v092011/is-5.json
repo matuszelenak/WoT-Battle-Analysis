@@ -1,0 +1,547 @@
+{
+    "tank": {
+        "ammo_rack_health": 220,
+        "ammo_rack_repair_health": 150,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 120,
+        "armor_rear": 60,
+        "armor_side": 120,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.183,
+        "camo_moving": 0.061,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.122,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 55000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R113_Object_730/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.906806,
+                "hull_pos_z": 0,
+                "id": 864,
+                "identifier": "Chassis_R113_Object_730",
+                "max_climb_angle": 25,
+                "max_load": 54900,
+                "name": "IS-5 (Object 730)",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 165,
+                "repair_price": 5,
+                "rotation_speed": 26,
+                "tank_id": "R113_Object_730",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.3,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R113_Object_730/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/russian/R113_Object_730/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The development of the vehicle was started in 1949 by the Design Bureau of the Chelyabinsk Kirov Plant under the supervision of Joseph Kotin. In 1950 a preproduction batch of 10 vehicles was launched. After the vehicle underwent all trials and received upgrades, it was adopted for service in 1953 under the designation IS-8.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 370,
+                "id": 952,
+                "identifier": "V-12-5A",
+                "name": "V-12-5",
+                "not_in_shop": true,
+                "power": 700,
+                "price": 84000,
+                "repair_health": 185,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "R113_Object_730",
+                "tier": 9,
+                "weight": 1024
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 42,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 12000,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3.2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R113_Object_730/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 201
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 102
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 192,
+                "id": 1433,
+                "identifier": "_122-mm_D-25TA",
+                "max_ammo": 30,
+                "name": "122 mm D-25TA",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 125140,
+                "reload_time": 12.6,
+                "repair_health": 96,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 734,
+                "visual_model": "vehicles/russian/R113_Object_730/normal/lod0/Gun_01.model",
+                "weight": 2590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1240,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R113_Object_730",
+        "name": "IS-5 (Object 730)",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 1004,
+                "identifier": "_10RKM",
+                "name": "10RKM",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R113_Object_730",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.5,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1433,
+                "icon": "ap_cr",
+                "id": "_122mm_3BM14",
+                "min_penetration": 193,
+                "module_damage": 165,
+                "name": "ZBM14",
+                "penetration": 221,
+                "penetration_loss": 0,
+                "price": 1180,
+                "range": 720,
+                "speed": 1400,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 13,
+                "gravity": 9.81,
+                "gun_id": 1433,
+                "icon": "hc",
+                "id": "_122mm_3VBK6",
+                "min_penetration": 270,
+                "module_damage": 165,
+                "name": "ZVBK6",
+                "penetration": 270,
+                "penetration_loss": 0.05,
+                "price": 5200,
+                "range": 720,
+                "speed": 820,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1433,
+                "icon": "he",
+                "id": "_122mm_UOF-471",
+                "min_penetration": 61,
+                "module_damage": 165,
+                "name": "UOF-471",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 720,
+                "speed": 790,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "IS-5",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "is-5",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "inGame"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.677985,
+        "turret_pos_z": 0.5585,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 201,
+                "armor_rear": 90,
+                "armor_side": 129,
+                "collision_model": "vehicles/russian/R113_Object_730/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 201
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 170
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 129
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 148
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 102
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 96
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 148
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 122
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 102
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.238887,
+                "gun_pos_z": 1.22691,
+                "health": 310,
+                "id": 734,
+                "identifier": "Turret_1_R113_Object_730",
+                "name": "IS-5 (Object 730)",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 24,
+                "rotator_health": 160,
+                "rotator_repair_health": 80,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "R113_Object_730",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/russian/R113_Object_730/normal/lod0/Turret_01.model",
+                "weight": 10500
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v092011",
+        "visual_model": "vehicles/russian/R113_Object_730/normal/lod0/Hull.model",
+        "weight": 24556,
+        "xp_factor": 1.5
+    }
+}

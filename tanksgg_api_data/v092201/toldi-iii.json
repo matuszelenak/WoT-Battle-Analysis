@@ -1,0 +1,485 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 80,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 35
+            }
+        ],
+        "armor_front": 35,
+        "armor_rear": 10,
+        "armor_side": 13,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.507,
+        "camo_moving": 0.338,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.338,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 9500,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G117_Toldi_III/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0.003332,
+                "hull_pos_y": 0.868484,
+                "hull_pos_z": -0.090205,
+                "id": 371,
+                "identifier": "Chassis_G117_Toldi_III",
+                "max_climb_angle": 25,
+                "max_load": 12000,
+                "name": "43 M. Toldi III",
+                "not_in_shop": true,
+                "price": 2000,
+                "repair_health": 55,
+                "repair_price": 1,
+                "rotation_speed": 45,
+                "tank_id": "G117_Toldi_III",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.7,
+                "tier": 3,
+                "visual_model": "vehicles/german/G117_Toldi_III/normal/lod0/Chassis.model",
+                "weight": 2500
+            }
+        ],
+        "collision_model": "vehicles/german/G117_Toldi_III/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Modification of the 38M Toldi I light tank. The vehicle was named after the Hungarian knight Miklos Toldi. The tank featured improved armor and increased ammunition capacity compared to previous versions. Approximately 12 vehicles were manufactured during WWII.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 55,
+                "id": 410,
+                "identifier": "Ganz_VIII_VGT_107",
+                "name": "Ganz VIII. VGT. 107",
+                "not_in_shop": true,
+                "power": 155,
+                "price": 4220,
+                "repair_health": 27,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "G117_Toldi_III",
+                "tier": 3,
+                "weight": 600
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 45,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G117_Toldi_III/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 35
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 632,
+                "identifier": "_40mm_37_42_M_L45_A",
+                "max_ammo": 87,
+                "name": "40 mm 37/42 M. L/45",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 6000,
+                "reload_time": 4,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 3,
+                "turret_id": 319,
+                "visual_model": "vehicles/german/G117_Toldi_III/normal/lod0/Gun_01.model",
+                "weight": 136,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 184,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G117_Toldi_III",
+        "name": "43 M. Toldi III",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 412,
+                "identifier": "R_5a",
+                "name": "R/5a",
+                "not_in_shop": true,
+                "price": 4000,
+                "range": 400,
+                "repair_health": 60,
+                "repair_price": 0.5,
+                "tank_id": "G117_Toldi_III",
+                "tier": 5,
+                "weight": 26
+            }
+        ],
+        "repair_price": 2.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 632,
+                "icon": "ap",
+                "id": "_40mm_36_M_Pancelgranat",
+                "min_penetration": 52,
+                "module_damage": 54,
+                "name": "36 M. p\u00e1nc\u00e9lgr\u00e1n\u00e1t",
+                "penetration": 64,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 632,
+                "icon": "ap",
+                "id": "_40mm_43_M_Magvas_Panceltoro_Granat",
+                "min_penetration": 65,
+                "module_damage": 54,
+                "name": "43 M. magvas p\u00e1nc\u00e9lt\u00f6r\u0151 gr\u00e1n\u00e1t",
+                "penetration": 80,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 632,
+                "icon": "he",
+                "id": "_40mm_39_M_Repeszgranat",
+                "min_penetration": 20,
+                "module_damage": 54,
+                "name": "39 M. repeszgr\u00e1n\u00e1t",
+                "penetration": 20,
+                "penetration_loss": 0,
+                "price": 12,
+                "range": 720,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Toldi III",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "toldi-iii",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -0.000691,
+        "turret_pos_y": 0.451489,
+        "turret_pos_z": 0.297647,
+        "turret_slots": [
+            {
+                "id": 249,
+                "pos_x": -0.000691,
+                "pos_y": 0.451489,
+                "pos_z": 0.297647,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G117_Toldi_III"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 35,
+                "armor_rear": 25,
+                "armor_side": 25,
+                "collision_model": "vehicles/german/G117_Toldi_III/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 13
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 35
+                    }
+                ],
+                "gun_pos_x": -0.086596,
+                "gun_pos_y": 0.322202,
+                "gun_pos_z": 0.576575,
+                "health": 46,
+                "id": 319,
+                "identifier": "Turret_1_G117_Toldi_III",
+                "name": "43 M. Toldi III",
+                "not_in_shop": true,
+                "price": 2000,
+                "rotation_speed": 30,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "G117_Toldi_III",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 270,
+                "visual_model": "vehicles/german/G117_Toldi_III/normal/lod0/Turret_01.model",
+                "weight": 2000
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v092201",
+        "visual_model": "vehicles/german/G117_Toldi_III/normal/lod0/Hull.model",
+        "weight": 3938,
+        "xp_factor": 1.5
+    }
+}

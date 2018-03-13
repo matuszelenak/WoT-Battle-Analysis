@@ -1,0 +1,566 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 93.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 73.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 63.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 105
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 143
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 85.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 35.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 35.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 40.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 76.2
+            }
+        ],
+        "armor_front": 93.2,
+        "armor_rear": 25.4,
+        "armor_side": 73.7,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.183,
+        "camo_moving": 0.091,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.122,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 46500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A92_M60/collision_client/Chassis.model",
+                "dispersion_movement": 0.1,
+                "dispersion_rotation": 0.1,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.30344,
+                "hull_pos_z": 0,
+                "id": 633,
+                "identifier": "Chassis_M60",
+                "max_climb_angle": 25,
+                "max_load": 49500,
+                "name": "M60",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 52,
+                "tank_id": "A92_M60",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.7,
+                "tier": 10,
+                "visual_model": "vehicles/american/A92_M60/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/american/A92_M60/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "A deep modernization of the M48 tank. Development of the prototype was started in 1957, and in 1959 the order for production of the first tank was placed with Chrysler. A total of 15,000 vehicles of four modifications were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.1,
+                "health": 285,
+                "id": 711,
+                "identifier": "Continental_AVDS-1790-2",
+                "name": "Continental AVDS-1790-2",
+                "not_in_shop": true,
+                "power": 750,
+                "price": 100000,
+                "repair_health": 142,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "A92_M60",
+                "tier": 10,
+                "weight": 2053
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 48.3,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 22500,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.8,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A92_M60/collision_client/Gun_01.model",
+                "depression": 9,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 19,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    }
+                ],
+                "health": 208,
+                "id": 1126,
+                "identifier": "_105mm_Gun_M68_1",
+                "max_ammo": 57,
+                "name": "105 mm Gun M68",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            0.353005,
+                            9
+                        ],
+                        [
+                            0.416667,
+                            5
+                        ],
+                        [
+                            0.450721,
+                            1
+                        ],
+                        [
+                            0.552374,
+                            1
+                        ],
+                        [
+                            0.583333,
+                            5
+                        ],
+                        [
+                            0.646995,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -19
+                        ],
+                        [
+                            1,
+                            -19
+                        ]
+                    ]
+                },
+                "price": 325000,
+                "reload_time": 8.8,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 10,
+                "turret_id": 537,
+                "visual_model": "vehicles/american/A92_M60/normal/lod0/Gun_01.model",
+                "weight": 2850,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1600,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A92_M60",
+        "name": "M60",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 180,
+                "id": 761,
+                "identifier": "AN-VRC-12",
+                "name": "AN/VRC-12",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 750,
+                "repair_health": 108,
+                "repair_price": 3.5,
+                "tank_id": "A92_M60",
+                "tier": 10,
+                "weight": 70
+            }
+        ],
+        "repair_price": 13,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1126,
+                "icon": "ap_cr",
+                "id": "_105mm_APCR_M68M2",
+                "min_penetration": 258,
+                "module_damage": 150,
+                "name": "APDS-T M392",
+                "penetration": 268,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 720,
+                "speed": 1478,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1126,
+                "icon": "hc",
+                "id": "_105mm_HEAT-T_T384E4",
+                "min_penetration": 330,
+                "module_damage": 150,
+                "name": "HEAT-T T384E4",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 1173,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1126,
+                "icon": "he",
+                "id": "_105mm_HE_M68M2",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "HEP-T M393",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 1173,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M60",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m60",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "special"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "patton"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0.007496,
+        "turret_pos_y": 0.466641,
+        "turret_pos_z": 0.583172,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 177.8,
+                "armor_rear": 50.8,
+                "armor_side": 76.2,
+                "collision_model": "vehicles/american/A92_M60/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 177.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_12",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 50.8
+                    }
+                ],
+                "gun_pos_x": -0.012153,
+                "gun_pos_y": 0.345746,
+                "gun_pos_z": 1.05718,
+                "health": 400,
+                "id": 537,
+                "identifier": "Turret_1_M60",
+                "name": "M60",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 42,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "A92_M60",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 420,
+                "visual_model": "vehicles/american/A92_M60/normal/lod0/Turret_01.model",
+                "weight": 8400
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v0917ct",
+        "visual_model": "vehicles/american/A92_M60/normal/lod0/Hull.model",
+        "weight": 24593,
+        "xp_factor": 1.5
+    }
+}

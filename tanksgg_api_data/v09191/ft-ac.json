@@ -1,0 +1,747 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 15
+            }
+        ],
+        "armor_front": 16,
+        "armor_rear": 16,
+        "armor_side": 16,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.387,
+        "camo_moving": 0.155,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.258,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F30_RenaultFT_AC/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.996806,
+                "hull_pos_z": 0,
+                "id": 99,
+                "identifier": "Chassis_RenaultFT_AC",
+                "max_climb_angle": 25,
+                "max_load": 4890,
+                "name": "Renault FT AC",
+                "not_in_shop": false,
+                "price": 240,
+                "repair_health": 40,
+                "repair_price": 1,
+                "rotation_speed": 27,
+                "tank_id": "F30_RenaultFT_AC",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.5,
+                "tier": 1,
+                "visual_model": "vehicles/french/F30_RenaultFT_AC/normal/lod0/Chassis.model",
+                "weight": 1200
+            },
+            {
+                "armor": 5,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F30_RenaultFT_AC/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.996806,
+                "hull_pos_z": 0,
+                "id": 100,
+                "identifier": "Chassis_RenaultFT_AC_2",
+                "max_climb_angle": 25,
+                "max_load": 6890,
+                "name": "Renault FT AC bis",
+                "not_in_shop": false,
+                "price": 560,
+                "repair_health": 45,
+                "repair_price": 2.5,
+                "rotation_speed": 30,
+                "tank_id": "F30_RenaultFT_AC",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/french/F30_RenaultFT_AC/normal/lod0/Chassis.model",
+                "weight": 1200
+            }
+        ],
+        "collision_model": "vehicles/french/F30_RenaultFT_AC/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "As the French Army's vast fleet of Renault FT tanks passed into obsolescence after WWI, some efforts were made to upgrade the vehicles. One proposal was to convert them into tank destroyers, but the plan was never implemented.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 110,
+                "identifier": "Renault",
+                "name": "Renault",
+                "not_in_shop": false,
+                "power": 39,
+                "price": 0,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F30_RenaultFT_AC",
+                "tier": 1,
+                "weight": 266
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 111,
+                "identifier": "Renault_M26_27",
+                "name": "Renault M26/27",
+                "not_in_shop": false,
+                "power": 45,
+                "price": 300,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F30_RenaultFT_AC",
+                "tier": 1,
+                "weight": 266
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 21,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F30_RenaultFT_AC/collision_client/Gun_02.model",
+                "depression": 7,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2.5,
+                "dispersion_rotation": 0.08,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 56,
+                "id": 169,
+                "identifier": "_25mm_antichar_SA-L_mle_1937",
+                "max_ammo": 400,
+                "name": "25 mm AC SA-L mle. 1937",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 3000,
+                "reload_time": 1.7,
+                "repair_health": 28,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 96,
+                "visual_model": "vehicles/french/F30_RenaultFT_AC/normal/lod0/Gun_02.model",
+                "weight": 70,
+                "yaw_left": -6,
+                "yaw_right": 6
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F30_RenaultFT_AC/collision_client/Gun_03.model",
+                "depression": 15,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 76,
+                "id": 170,
+                "identifier": "_47mm_SA-L_Mle.37",
+                "max_ammo": 150,
+                "name": "47 mm SA-L mle. 1937",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 8400,
+                "reload_time": 2.3,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 96,
+                "visual_model": "vehicles/french/F30_RenaultFT_AC/normal/lod0/Gun_03.model",
+                "weight": 100,
+                "yaw_left": -6,
+                "yaw_right": 6
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.34285715,
+                "clip_size": 10,
+                "collision_model": "vehicles/french/F30_RenaultFT_AC/collision_client/Gun_04.model",
+                "depression": 7,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 2,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 56,
+                "id": 171,
+                "identifier": "_25mm_automatique_mle_1936",
+                "max_ammo": 400,
+                "name": "25 mm automatique mle. 1936",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            7
+                        ],
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 6500,
+                "reload_time": 6.5,
+                "repair_health": 28,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 96,
+                "visual_model": "vehicles/french/F30_RenaultFT_AC/normal/lod0/Gun_04.model",
+                "weight": 70,
+                "yaw_left": -6,
+                "yaw_right": 6
+            }
+        ],
+        "health": 96,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F30_RenaultFT_AC",
+        "name": "Renault FT AC",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3600,
+        "radios": [
+            {
+                "health": 100,
+                "id": 104,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F30_RenaultFT_AC",
+                "tier": 2,
+                "weight": 100
+            }
+        ],
+        "repair_price": 2.5,
+        "reverse_speed": 8,
+        "shells": [
+            {
+                "caliber": 25,
+                "damage": 20,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 169,
+                "icon": "ap",
+                "id": "_25mm_Balle_T.P._mle._1934",
+                "min_penetration": 44,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1934",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 5,
+                "range": 720,
+                "speed": 900,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 25,
+                "damage": 20,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 169,
+                "icon": "ap_cr",
+                "id": "_25mm_Balle_T.P._mle._1939P",
+                "min_penetration": 45,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1939P",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 1125,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 170,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1932",
+                "min_penetration": 58,
+                "module_damage": 64,
+                "name": "ODR mle. 1932",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 855,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 170,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle._1935",
+                "min_penetration": 68,
+                "module_damage": 64,
+                "name": "ODR mle. 1935",
+                "penetration": 98,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 1069,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 170,
+                "icon": "he",
+                "id": "_47mm_Oe_mle._1932",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE mle. 1932",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 855,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 25,
+                "damage": 20,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 171,
+                "icon": "ap",
+                "id": "_25mm_Balle_T.P._mle._1934",
+                "min_penetration": 44,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1934",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 5,
+                "range": 400,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 25,
+                "damage": 20,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 171,
+                "icon": "ap_cr",
+                "id": "_25mm_Balle_T.P._mle._1939P",
+                "min_penetration": 45,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1939P",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            }
+        ],
+        "short_name": "FT AC",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ft-ac",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.802294,
+        "turret_pos_z": 0.28337,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/french/F30_RenaultFT_AC/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.228641,
+                "gun_pos_z": 0,
+                "health": 24,
+                "id": 96,
+                "identifier": "Turret_1_RenaultFT_AC",
+                "name": "Renault FT AC",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 24,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "F30_RenaultFT_AC",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/french/F30_RenaultFT_AC/normal/lod0/Turret_01.model",
+                "weight": 70
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_RenaultFT_AC_2",
+                "name": "Chassis_RenaultFT_AC_2",
+                "parent_key": "chassis-Chassis_RenaultFT_AC",
+                "price": 80,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_47mm_SA-L_Mle.37",
+                "name": "_47mm_SA-L_Mle.37",
+                "parent_key": "gun-_25mm_antichar_SA-L_mle_1937",
+                "price": 0,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_25mm_automatique_mle_1936",
+                "name": "_25mm_automatique_mle_1936",
+                "parent_key": "gun-_25mm_antichar_SA-L_mle_1937",
+                "price": 300,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F52_RenaultUE57",
+                "name": "F52_RenaultUE57",
+                "parent_key": "gun-_47mm_SA-L_Mle.37",
+                "price": 1750,
+                "tank_name": "UE 57",
+                "tank_price": 42500,
+                "tank_slug": "ue-57",
+                "tank_tier": 3,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Renault_M26_27",
+                "name": "Renault_M26_27",
+                "parent_key": "engine-Renault",
+                "price": 30,
+                "type": "engine"
+            }
+        ],
+        "version": "v09191",
+        "visual_model": "vehicles/french/F30_RenaultFT_AC/normal/lod0/Hull.model",
+        "weight": 2750,
+        "xp_factor": 1
+    }
+}

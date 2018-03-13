@@ -1,0 +1,432 @@
+{
+    "tank": {
+        "ammo_rack_health": 85,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 51
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 44
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": true,
+                "value": 32
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 32
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 20
+            }
+        ],
+        "armor_front": 51,
+        "armor_rear": 25,
+        "armor_side": 32,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.51,
+        "camo_moving": 0.24,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.34,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A26_T18/collision_client/Chassis.model",
+                "dispersion_movement": 0.34,
+                "dispersion_rotation": 0.34,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 50,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 651,
+                "identifier": "Chassis_T18",
+                "max_climb_angle": 25,
+                "max_load": 14000,
+                "name": "T18E1",
+                "not_in_shop": true,
+                "price": 270,
+                "repair_health": 40,
+                "repair_price": 2.5,
+                "rotation_speed": 18,
+                "tank_id": "A26_T18",
+                "terrain_hard": 2,
+                "terrain_medium": 2.2,
+                "terrain_soft": 2.9,
+                "tier": 1,
+                "visual_model": "vehicles/american/A26_T18/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/american/A26_T18/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development of this self-propelled gun on the basis of the M3 light tank started in October 1941. The first prototype passed trials in the spring of 1942, but the vehicle never saw mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 721,
+                "identifier": "Ford_GAN_T23",
+                "name": "Ford_GAN_T23",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 37200,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A26_T18",
+                "tier": 7,
+                "weight": 569
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 48,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.109091,
+                "clip_size": 40,
+                "collision_model": "vehicles/american/A26_T18/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.571429,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 44
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 30,
+                "id": 1125,
+                "identifier": "_12.7mm_T23",
+                "max_ammo": 110,
+                "name": "Browning MG caliber .50 HB, M2",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2000,
+                "reload_time": 2.1,
+                "repair_health": 15,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 551,
+                "visual_model": "vehicles/american/A26_T18/normal/lod0/Gun_01.model",
+                "weight": 70,
+                "yaw_left": -15,
+                "yaw_right": 15
+            }
+        ],
+        "health": 96,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A26_T18",
+        "name": "T18",
+        "nation": "usa",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 3000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 774,
+                "identifier": "T23radio",
+                "name": "SCR_508A",
+                "not_in_shop": true,
+                "price": 21600,
+                "range": 395,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A26_T18",
+                "tier": 6,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5.2,
+        "reverse_speed": 6,
+        "shells": [
+            {
+                "caliber": 12.7,
+                "damage": 8,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1125,
+                "icon": "ap",
+                "id": "_12.7mm_AP_M2",
+                "min_penetration": 18,
+                "module_damage": 17,
+                "name": "AP M2",
+                "penetration": 27,
+                "penetration_loss": 0,
+                "price": 1,
+                "range": 400,
+                "speed": 887,
+                "type": "ARMOR_PIERCING"
+            }
+        ],
+        "short_name": "T18",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t18",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "unrecoverable"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0.254884,
+        "turret_pos_y": 0.46078,
+        "turret_pos_z": 0.458904,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A26_T18/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 51
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 44
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.00141,
+                "gun_pos_y": 0.313708,
+                "gun_pos_z": 0.375253,
+                "health": 24,
+                "id": 551,
+                "identifier": "T18T47",
+                "name": "T18T47",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "A26_T18",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 240,
+                "visual_model": "vehicles/american/A26_T18/normal/lod0/Turret_01.model",
+                "weight": 10
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v0919",
+        "visual_model": "vehicles/american/A26_T18/normal/lod0/Hull.model",
+        "weight": 9550,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,1239 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 60,
+        "armor_rear": 60,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.15,
+        "camo_moving": 0.05,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1,
+        "camo_still": 0.1,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 37500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Chassis.model",
+                "dispersion_movement": 0.32,
+                "dispersion_rotation": 0.32,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.07793,
+                "hull_pos_z": 0,
+                "id": 86,
+                "identifier": "Chassis_BDR_G1B",
+                "max_climb_angle": 25,
+                "max_load": 34000,
+                "name": "Baudet-Donon-Roussel G1",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 22,
+                "tank_id": "F05_BDR_G1B",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.7,
+                "tier": 4,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Chassis.model",
+                "weight": 8000
+            },
+            {
+                "armor": 20,
+                "brake_force": 37500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.07793,
+                "hull_pos_z": 0,
+                "id": 87,
+                "identifier": "Chassis_BDR_G1B_2",
+                "max_climb_angle": 25,
+                "max_load": 40000,
+                "name": "Baudet-Donon-Roussel G1 bis",
+                "not_in_shop": false,
+                "price": 10550,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 24,
+                "tank_id": "F05_BDR_G1B",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 5,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The project of a new vehicle was suggested by engineers of the Baudet-Donon-Rousell company in June 1938. However, the design was never developed.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 95,
+                "id": 97,
+                "identifier": "Renault_T12",
+                "name": "Renault T12",
+                "not_in_shop": false,
+                "power": 350,
+                "price": 13000,
+                "repair_health": 45,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "F05_BDR_G1B",
+                "tier": 4,
+                "weight": 540
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 105,
+                "id": 98,
+                "identifier": "Renault_T14",
+                "name": "Renault T14",
+                "not_in_shop": false,
+                "power": 450,
+                "price": 22300,
+                "repair_health": 52,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "F05_BDR_G1B",
+                "tier": 5,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 30,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 14,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "id": 161,
+                "identifier": "_75mm_SA32",
+                "max_ammo": 74,
+                "name": "75 mm SA32",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -14
+                        ],
+                        [
+                            1,
+                            -14
+                        ]
+                    ]
+                },
+                "price": 10360,
+                "reload_time": 4.2,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 4,
+                "turret_id": 80,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Gun_01.model",
+                "weight": 1520,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 14,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 162,
+                "identifier": "_75mm_Long_44",
+                "max_ammo": 74,
+                "name": "75 mm SA44",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -14
+                        ],
+                        [
+                            1,
+                            -14
+                        ]
+                    ]
+                },
+                "price": 27000,
+                "reload_time": 4.2,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 80,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Gun_02.model",
+                "weight": 1400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Gun_03.model",
+                "depression": 8,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "id": 163,
+                "identifier": "_75mm_SA32",
+                "max_ammo": 74,
+                "name": "75 mm SA32",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 10360,
+                "reload_time": 3.8,
+                "repair_health": 50,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 4,
+                "turret_id": 81,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Gun_03.model",
+                "weight": 1520,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Gun_04.model",
+                "depression": 8,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 120,
+                "id": 164,
+                "identifier": "_75mm_Long_44",
+                "max_ammo": 74,
+                "name": "75 mm SA44",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 27000,
+                "reload_time": 3.8,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tier": 5,
+                "turret_id": 81,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Gun_04.model",
+                "weight": 1400,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 150,
+                "id": 165,
+                "identifier": "_90mm_canon_DCA_30",
+                "max_ammo": 48,
+                "name": "90 mm DCA 30",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 64000,
+                "reload_time": 9.5,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 81,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Gun_05.model",
+                "weight": 2050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 480,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F05_BDR_G1B",
+        "name": "BDR G1 B",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 400000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 88,
+                "identifier": "ER_51",
+                "name": "ER 51",
+                "not_in_shop": false,
+                "price": 500,
+                "range": 290,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F05_BDR_G1B",
+                "tier": 3,
+                "weight": 100
+            },
+            {
+                "health": 140,
+                "id": 89,
+                "identifier": "ER_53",
+                "name": "ER 53",
+                "not_in_shop": false,
+                "price": 3650,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "F05_BDR_G1B",
+                "tier": 5,
+                "weight": 100
+            },
+            {
+                "health": 150,
+                "id": 90,
+                "identifier": "ER_55",
+                "name": "ER 55",
+                "not_in_shop": false,
+                "price": 44100,
+                "range": 710,
+                "repair_health": 75,
+                "repair_price": 3,
+                "tank_id": "F05_BDR_G1B",
+                "tier": 9,
+                "weight": 150
+            }
+        ],
+        "repair_price": 4.562,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 161,
+                "icon": "ap",
+                "id": "_75mm_Odr_mle.1910",
+                "min_penetration": 64,
+                "module_damage": 100,
+                "name": "ODR mle. 1910",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 46,
+                "range": 720,
+                "speed": 600,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 161,
+                "icon": "hc",
+                "id": "_75mm_OCO_mle._1926",
+                "min_penetration": 91.4,
+                "module_damage": 100,
+                "name": "OCO mle. 1926",
+                "penetration": 91.4,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 480,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 161,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1915",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1915",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 600,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 162,
+                "icon": "ap",
+                "id": "_75mm_Prf1926",
+                "min_penetration": 93,
+                "module_damage": 100,
+                "name": "Prf. mle. 1926",
+                "penetration": 100,
+                "penetration_loss": 0,
+                "price": 70,
+                "range": 720,
+                "speed": 735,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 162,
+                "icon": "ap_cr",
+                "id": "_75mm_FrtPrf1940",
+                "min_penetration": 110,
+                "module_damage": 100,
+                "name": "Frt.Prf. mle. 1940",
+                "penetration": 129,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 919,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 162,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1915",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1915",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 735,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 163,
+                "icon": "ap",
+                "id": "_75mm_Odr_mle.1910",
+                "min_penetration": 64,
+                "module_damage": 100,
+                "name": "ODR mle. 1910",
+                "penetration": 74,
+                "penetration_loss": 0,
+                "price": 46,
+                "range": 720,
+                "speed": 600,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 163,
+                "icon": "hc",
+                "id": "_75mm_OCO_mle._1926",
+                "min_penetration": 91.4,
+                "module_damage": 100,
+                "name": "OCO mle. 1926",
+                "penetration": 91.4,
+                "penetration_loss": 0.05,
+                "price": 2800,
+                "range": 720,
+                "speed": 480,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 163,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1915",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1915",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 600,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 164,
+                "icon": "ap",
+                "id": "_75mm_Prf1926",
+                "min_penetration": 93,
+                "module_damage": 100,
+                "name": "Prf. mle. 1926",
+                "penetration": 100,
+                "penetration_loss": 0,
+                "price": 70,
+                "range": 720,
+                "speed": 735,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 75,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 164,
+                "icon": "ap_cr",
+                "id": "_75mm_FrtPrf1940",
+                "min_penetration": 110,
+                "module_damage": 100,
+                "name": "Frt.Prf. mle. 1940",
+                "penetration": 129,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 919,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 75,
+                "damage": 175,
+                "explosion_radius": 1.06,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 164,
+                "icon": "he",
+                "id": "_75mm_OE_mle_1915",
+                "min_penetration": 38,
+                "module_damage": 100,
+                "name": "OE mle. 1915",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 38,
+                "range": 720,
+                "speed": 735,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 165,
+                "icon": "ap",
+                "id": "_90mm_Prf1941",
+                "min_penetration": 122,
+                "module_damage": 122,
+                "name": "Prf. mle. 1941",
+                "penetration": 135,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 165,
+                "icon": "ap_cr",
+                "id": "_90mm_FrtPrf1944",
+                "min_penetration": 160,
+                "module_damage": 122,
+                "name": "Frt.Prf. mle. 1944",
+                "penetration": 175,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 165,
+                "icon": "he",
+                "id": "_90mm_OE_mle_1924",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "OE mle. 1924",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "BDR G1 B",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "bdr-g1-b",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedSprings_class3_user"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.788865,
+        "turret_pos_z": 0.1422,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 60,
+                "armor_rear": 60,
+                "armor_side": 60,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.47954,
+                "gun_pos_z": 0.77978,
+                "health": 120,
+                "id": 80,
+                "identifier": "Turret_1_BDR_G1B",
+                "name": "FCM F4",
+                "not_in_shop": false,
+                "price": 0,
+                "rotation_speed": 28,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "F05_BDR_G1B",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Turret_01.model",
+                "weight": 3500
+            },
+            {
+                "Guns": null,
+                "armor_front": 80,
+                "armor_rear": 60,
+                "armor_side": 70,
+                "collision_model": "vehicles/french/F05_BDR_G1B/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_11",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_12",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": -0.0805,
+                "gun_pos_y": 0.41141,
+                "gun_pos_z": 0.88808,
+                "health": 170,
+                "id": 81,
+                "identifier": "Turret_2_BDR_G1B",
+                "name": "FCM F1",
+                "not_in_shop": false,
+                "price": 0,
+                "rotation_speed": 26,
+                "rotator_health": 120,
+                "rotator_repair_health": 60,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "F05_BDR_G1B",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Turret_02.model",
+                "weight": 6500
+            }
+        ],
+        "type": "heavy",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_BDR_G1B_2",
+                "name": "Chassis_BDR_G1B_2",
+                "parent_key": "chassis-Chassis_BDR_G1B",
+                "price": 2620,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_75mm_Long_44",
+                "name": "_75mm_Long_44",
+                "parent_key": "gun-_75mm_SA32",
+                "price": 2700,
+                "type": "gun"
+            },
+            {
+                "key": "turret-Turret_2_BDR_G1B",
+                "name": "Turret_2_BDR_G1B",
+                "parent_key": "gun-_75mm_Long_44",
+                "price": 2430,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_90mm_canon_DCA_30",
+                "name": "_90mm_canon_DCA_30",
+                "parent_key": "turret-Turret_2_BDR_G1B",
+                "price": 9300,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F06_ARL_44",
+                "name": "F06_ARL_44",
+                "parent_key": "turret-Turret_2_BDR_G1B",
+                "price": 33000,
+                "tank_name": "ARL 44",
+                "tank_price": 925000,
+                "tank_slug": "arl-44",
+                "tank_tier": 6,
+                "tank_type": "heavy",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Renault_T14",
+                "name": "Renault_T14",
+                "parent_key": "engine-Renault_T12",
+                "price": 1950,
+                "type": "engine"
+            },
+            {
+                "key": "radio-ER_53",
+                "name": "ER_53",
+                "parent_key": "radio-ER_51",
+                "price": 0,
+                "type": "radio"
+            },
+            {
+                "key": "radio-ER_55",
+                "name": "ER_55",
+                "parent_key": "radio-ER_53",
+                "price": 7300,
+                "type": "radio"
+            }
+        ],
+        "version": "v0917",
+        "visual_model": "vehicles/french/F05_BDR_G1B/normal/lod0/Hull.model",
+        "weight": 20000,
+        "xp_factor": 1
+    }
+}

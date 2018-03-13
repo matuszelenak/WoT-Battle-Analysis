@@ -1,0 +1,892 @@
+{
+    "tank": {
+        "ammo_rack_health": 210,
+        "ammo_rack_repair_health": 140,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 160
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 170
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 320
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 130
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 120,
+        "armor_rear": 60,
+        "armor_side": 90,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.464,
+        "camo_moving": 0.185,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.309,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R53_Object_704/collision_client/Chassis.model",
+                "dispersion_movement": 0.21,
+                "dispersion_rotation": 0.21,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.953338,
+                "hull_pos_z": 0,
+                "id": 938,
+                "identifier": "Chassis_Object_704",
+                "max_climb_angle": 25,
+                "max_load": 48860,
+                "name": "Object 704",
+                "not_in_shop": false,
+                "price": 28150,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 19,
+                "tank_id": "R53_Object_704",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.8,
+                "terrain_soft": 2.9,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R53_Object_704/normal/lod0/Chassis.model",
+                "weight": 10000
+            },
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R53_Object_704/collision_client/Chassis.model",
+                "dispersion_movement": 0.19,
+                "dispersion_rotation": 0.19,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.953338,
+                "hull_pos_z": 0,
+                "id": 939,
+                "identifier": "Chassis_Object_704_2",
+                "max_climb_angle": 25,
+                "max_load": 50900,
+                "name": "Object 704M",
+                "not_in_shop": false,
+                "price": 62000,
+                "repair_health": 175,
+                "repair_price": 5,
+                "rotation_speed": 22,
+                "tank_id": "R53_Object_704",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 9,
+                "visual_model": "vehicles/russian/R53_Object_704/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/russian/R53_Object_704/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed in 1945 on the basis of the IS-2 and IS-3 vehicles, under the supervision of Joseph Kotin. One of the distinctive features was the slope angle of armor plates. Passed trials successfully, but never entered service.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 260,
+                "id": 1031,
+                "identifier": "V-11",
+                "name": "V-11",
+                "not_in_shop": false,
+                "power": 650,
+                "price": 55270,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "R53_Object_704",
+                "tier": 8,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 370,
+                "id": 1032,
+                "identifier": "V-2-54IS",
+                "name": "V-2-54IS",
+                "not_in_shop": false,
+                "power": 700,
+                "price": 79290,
+                "repair_health": 185,
+                "repair_price": 9,
+                "tags": "diesel",
+                "tank_id": "R53_Object_704",
+                "tier": 9,
+                "weight": 700
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 37,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R53_Object_704/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 130
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 206,
+                "id": 1581,
+                "identifier": "_152mm_ML-20CM_obr1944",
+                "max_ammo": 34,
+                "name": "152 mm ML-20SM mod. 1944",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 78200,
+                "reload_time": 17.1,
+                "repair_health": 103,
+                "repair_price": 10,
+                "rotation_speed": 23.625,
+                "tier": 7,
+                "turret_id": 803,
+                "visual_model": "vehicles/russian/R53_Object_704/normal/lod0/Gun_01.model",
+                "weight": 2500,
+                "yaw_left": -11,
+                "yaw_right": 11
+            },
+            {
+                "Shells": null,
+                "aim_time": 3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R53_Object_704/collision_client/Gun_02.model",
+                "depression": 6,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 130
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 230,
+                "id": 1582,
+                "identifier": "_152mm_D_4S",
+                "max_ammo": 30,
+                "name": "152 mm D-4S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 305000,
+                "reload_time": 17.4,
+                "repair_health": 115,
+                "repair_price": 10,
+                "rotation_speed": 23.625,
+                "tier": 10,
+                "turret_id": 803,
+                "visual_model": "vehicles/russian/R53_Object_704/normal/lod0/Gun_02.model",
+                "weight": 6000,
+                "yaw_left": -11,
+                "yaw_right": 11
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R53_Object_704/collision_client/Gun_03.model",
+                "depression": 6,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 130
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 100
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 70
+                    }
+                ],
+                "health": 230,
+                "id": 1583,
+                "identifier": "_152mm_BL-10",
+                "max_ammo": 30,
+                "name": "152 mm BL-10",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 320000,
+                "reload_time": 17.1,
+                "repair_health": 115,
+                "repair_price": 10,
+                "rotation_speed": 23.625,
+                "tier": 10,
+                "turret_id": 803,
+                "visual_model": "vehicles/russian/R53_Object_704/normal/lod0/Gun_03.model",
+                "weight": 6500,
+                "yaw_left": -11,
+                "yaw_right": 11
+            }
+        ],
+        "health": 1280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R53_Object_704",
+        "name": "Object 704",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 3660000,
+        "radios": [
+            {
+                "health": 150,
+                "id": 1076,
+                "identifier": "_10RK",
+                "name": "10RK",
+                "not_in_shop": false,
+                "price": 18600,
+                "range": 440,
+                "repair_health": 125,
+                "repair_price": 1.5,
+                "tank_id": "R53_Object_704",
+                "tier": 7,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 1077,
+                "identifier": "_12RT",
+                "name": "12RT",
+                "not_in_shop": false,
+                "price": 33600,
+                "range": 625,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R53_Object_704",
+                "tier": 9,
+                "weight": 110
+            },
+            {
+                "health": 200,
+                "id": 1078,
+                "identifier": "R113",
+                "name": "R-113",
+                "not_in_shop": false,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R53_Object_704",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 8.7,
+        "reverse_speed": 13,
+        "shells": [
+            {
+                "caliber": 152,
+                "damage": 700,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1581,
+                "icon": "ap",
+                "id": "_152mm_53-G-530",
+                "min_penetration": 125,
+                "module_damage": 203,
+                "name": "53-G-530",
+                "penetration": 135,
+                "penetration_loss": 0,
+                "price": 725,
+                "range": 720,
+                "speed": 655,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 152,
+                "damage": 700,
+                "explosion_radius": 0,
+                "gold_price": 15,
+                "gravity": 9.81,
+                "gun_id": 1581,
+                "icon": "hc",
+                "id": "_152mm_53BP540",
+                "min_penetration": 250,
+                "module_damage": 203,
+                "name": "53-BP-540",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 6000,
+                "range": 720,
+                "speed": 819,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 152,
+                "damage": 910,
+                "explosion_radius": 3.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1581,
+                "icon": "he",
+                "id": "_152mm_53-OF-530",
+                "min_penetration": 86,
+                "module_damage": 203,
+                "name": "53-OF-530",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 810,
+                "range": 720,
+                "speed": 655,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1582,
+                "icon": "ap",
+                "id": "_152mm_UBR551",
+                "min_penetration": 242,
+                "module_damage": 203,
+                "name": "UBR-551",
+                "penetration": 260,
+                "penetration_loss": 0,
+                "price": 1650,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 152,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1582,
+                "icon": "ap_cr",
+                "id": "_152mm_UBR551P",
+                "min_penetration": 242,
+                "module_damage": 203,
+                "name": "UBR-551P",
+                "penetration": 292,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1050,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 152,
+                "damage": 950,
+                "explosion_radius": 3.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1582,
+                "icon": "he",
+                "id": "_152mm_53-OF-551",
+                "min_penetration": 90,
+                "module_damage": 203,
+                "name": "53-OF-551",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 1120,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1583,
+                "icon": "ap",
+                "id": "_152mm_UBR551",
+                "min_penetration": 276,
+                "module_damage": 203,
+                "name": "UBR-551",
+                "penetration": 286,
+                "penetration_loss": 0,
+                "price": 1650,
+                "range": 720,
+                "speed": 880,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 152,
+                "damage": 750,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1583,
+                "icon": "ap_cr",
+                "id": "_152mm_UBR551P",
+                "min_penetration": 289,
+                "module_damage": 203,
+                "name": "UBR-551P",
+                "penetration": 329,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1100,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 152,
+                "damage": 950,
+                "explosion_radius": 3.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1583,
+                "icon": "he",
+                "id": "_152mm_53-OF-551",
+                "min_penetration": 90,
+                "module_damage": 203,
+                "name": "53-OF-551",
+                "penetration": 90,
+                "penetration_loss": 0,
+                "price": 1120,
+                "range": 720,
+                "speed": 880,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 704",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-704",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0.153044,
+        "turret_pos_y": 0.707748,
+        "turret_pos_z": 2.17238,
+        "turret_slots": [
+            {
+                "id": 628,
+                "pos_x": 0.153044,
+                "pos_y": 0.707748,
+                "pos_z": 2.17238,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R53_Object_704"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R53_Object_704/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 320,
+                "id": 803,
+                "identifier": "Turret_1_Object_704",
+                "name": "Object 704",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "R53_Object_704",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/russian/R53_Object_704/normal/lod0/Turret_01.model",
+                "weight": 170
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Object_704_2",
+                "name": "Chassis_Object_704_2",
+                "parent_key": "chassis-Chassis_Object_704",
+                "price": 23340,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_152mm_D_4S",
+                "name": "_152mm_D_4S",
+                "parent_key": "gun-_152mm_ML-20CM_obr1944",
+                "price": 62000,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_152mm_BL-10",
+                "name": "_152mm_BL-10",
+                "parent_key": "gun-_152mm_D_4S",
+                "price": 63500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R88_Object268",
+                "name": "R88_Object268",
+                "parent_key": "gun-_152mm_BL-10",
+                "price": 239000,
+                "tank_name": "Obj. 268",
+                "tank_price": 6100000,
+                "tank_slug": "obj-268",
+                "tank_tier": 10,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-V-2-54IS",
+                "name": "V-2-54IS",
+                "parent_key": "engine-V-11",
+                "price": 26000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_12RT",
+                "name": "_12RT",
+                "parent_key": "radio-_10RK",
+                "price": 0,
+                "type": "radio"
+            },
+            {
+                "key": "radio-R113",
+                "name": "R113",
+                "parent_key": "radio-_12RT",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v092201",
+        "visual_model": "vehicles/russian/R53_Object_704/normal/lod0/Hull.model",
+        "weight": 30950,
+        "xp_factor": 1
+    }
+}

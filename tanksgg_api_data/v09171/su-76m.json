@@ -1,0 +1,848 @@
+{
+    "tank": {
+        "ammo_rack_health": 90,
+        "ammo_rack_repair_health": 60,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_17",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 15,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.593,
+        "camo_moving": 0.237,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.395,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 10800,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R24_SU-76/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.815126,
+                "hull_pos_z": 0,
+                "id": 819,
+                "identifier": "SU-76",
+                "max_climb_angle": 25,
+                "max_load": 10800,
+                "name": "SU-76",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "R24_SU-76",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 2,
+                "visual_model": "vehicles/russian/R24_SU-76/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 15,
+                "brake_force": 12000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R24_SU-76/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.815126,
+                "hull_pos_z": 0,
+                "id": 820,
+                "identifier": "SU-76bis",
+                "max_climb_angle": 25,
+                "max_load": 13500,
+                "name": "SU-76M",
+                "not_in_shop": false,
+                "price": 0,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "R24_SU-76",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 3,
+                "visual_model": "vehicles/russian/R24_SU-76/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/russian/R24_SU-76/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Light vehicle with a 76-mm gun, the most widely produced Soviet SPG. Despite its weak armor and armament, the vehicle was used to support infantry and cavalry.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 60,
+                "id": 919,
+                "identifier": "GAZ-203",
+                "name": "GAZ-203",
+                "not_in_shop": false,
+                "power": 140,
+                "price": 3830,
+                "repair_health": 30,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "R24_SU-76",
+                "tier": 3,
+                "weight": 550
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 60,
+                "id": 920,
+                "identifier": "M-80",
+                "name": "M-80",
+                "not_in_shop": false,
+                "power": 170,
+                "price": 4130,
+                "repair_health": 30,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "R24_SU-76",
+                "tier": 3,
+                "weight": 550
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 48,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R24_SU-76/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 94,
+                "id": 1459,
+                "identifier": "_57mm_ZiS-8_S",
+                "max_ammo": 80,
+                "name": "57 mm ZiS-8S",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 22910,
+                "reload_time": 2.6,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 697,
+                "visual_model": "vehicles/russian/R24_SU-76/normal/lod0/Gun_01.model",
+                "weight": 400,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R24_SU-76/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 118,
+                "id": 1460,
+                "identifier": "_76mm_ZiS-3_mod_42",
+                "max_ammo": 60,
+                "name": "76 mm ZiS-3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 34840,
+                "reload_time": 4.1,
+                "repair_health": 59,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 5,
+                "turret_id": 697,
+                "visual_model": "vehicles/russian/R24_SU-76/normal/lod0/Gun_03.model",
+                "weight": 1255,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R24_SU-76/collision_client/Gun_04.model",
+                "depression": 5,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.16,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 114,
+                "id": 1461,
+                "identifier": "_57mm_ZiS-2",
+                "max_ammo": 72,
+                "name": "57 mm ZiS-2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 62210,
+                "reload_time": 3.2,
+                "repair_health": 57,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 6,
+                "turret_id": 697,
+                "visual_model": "vehicles/russian/R24_SU-76/normal/lod0/Gun_04.model",
+                "weight": 850,
+                "yaw_left": -15,
+                "yaw_right": 15
+            }
+        ],
+        "health": 124,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R24_SU-76",
+        "name": "SU-76M",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 35500,
+        "radios": [
+            {
+                "health": 110,
+                "id": 962,
+                "identifier": "_9R",
+                "name": "9R",
+                "not_in_shop": false,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "R24_SU-76",
+                "tier": 4,
+                "weight": 80
+            },
+            {
+                "health": 120,
+                "id": 963,
+                "identifier": "_9RM",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R24_SU-76",
+                "tier": 8,
+                "weight": 100
+            }
+        ],
+        "repair_price": 6.9,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1459,
+                "icon": "ap",
+                "id": "_57mm_UBR-271KO",
+                "min_penetration": 67,
+                "module_damage": 76,
+                "name": "UBR-271KO",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 35,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 5,
+                "gravity": 9.81,
+                "gun_id": 1459,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271NO",
+                "min_penetration": 70,
+                "module_damage": 76,
+                "name": "UBR-271NO",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 2000,
+                "range": 720,
+                "speed": 1063,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1459,
+                "icon": "he",
+                "id": "_57mm_UO-271UO",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271UO",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 24,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1460,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 68,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 78,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 662,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 1460,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 89,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 120,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 828,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1460,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 662,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1461,
+                "icon": "ap",
+                "id": "_57mm_UBR-271K",
+                "min_penetration": 98,
+                "module_damage": 76,
+                "name": "UBR-271K",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1461,
+                "icon": "ap_cr",
+                "id": "_57mm_UBR-271N",
+                "min_penetration": 147,
+                "module_damage": 76,
+                "name": "UBR-271N",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1238,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1461,
+                "icon": "he",
+                "id": "_57mm_UO-271U",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "UO-271U",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 1090,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-76M",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-76m",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -0.166979,
+        "turret_pos_y": 0.510393,
+        "turret_pos_z": -0.495718,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R24_SU-76/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": -0.054735,
+                "gun_pos_y": 0.212697,
+                "gun_pos_z": -0.113199,
+                "health": 31,
+                "id": 697,
+                "identifier": "SU-76",
+                "name": "SU-76M",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "R24_SU-76",
+                "tier": 3,
+                "turret_slot": 0,
+                "view_range": 290,
+                "visual_model": "vehicles/russian/R24_SU-76/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-SU-76bis",
+                "name": "SU-76bis",
+                "parent_key": "chassis-SU-76",
+                "price": 320,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_57mm_ZiS-2",
+                "name": "_57mm_ZiS-2",
+                "parent_key": "gun-_57mm_ZiS-8_S",
+                "price": 0,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_76mm_ZiS-3_mod_42",
+                "name": "_76mm_ZiS-3_mod_42",
+                "parent_key": "gun-_57mm_ZiS-8_S",
+                "price": 0,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R25_GAZ-74b",
+                "name": "R25_GAZ-74b",
+                "parent_key": "gun-_76mm_ZiS-3_mod_42",
+                "price": 3100,
+                "tank_name": "SU-85B",
+                "tank_price": 124000,
+                "tank_slug": "su-85b",
+                "tank_tier": 4,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-M-80",
+                "name": "M-80",
+                "parent_key": "engine-GAZ-203",
+                "price": 0,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_9RM",
+                "name": "_9RM",
+                "parent_key": "radio-_9R",
+                "price": 0,
+                "type": "radio"
+            }
+        ],
+        "version": "v09171",
+        "visual_model": "vehicles/russian/R24_SU-76/normal/lod0/Hull.model",
+        "weight": 5565,
+        "xp_factor": 1
+    }
+}

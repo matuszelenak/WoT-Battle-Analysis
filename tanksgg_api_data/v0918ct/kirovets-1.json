@@ -1,0 +1,540 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 85
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 85
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 60
+            }
+        ],
+        "armor_front": 120,
+        "armor_rear": 60,
+        "armor_side": 100,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.168,
+        "camo_moving": 0.056,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.112,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 47000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R123_Kirovets_1/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 220,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9251,
+                "hull_pos_z": 0,
+                "id": 755,
+                "identifier": "Chassis_R123_Kirovets_1",
+                "max_climb_angle": 25,
+                "max_load": 51000,
+                "name": "Kirovets-1",
+                "not_in_shop": true,
+                "price": 30000,
+                "repair_health": 165,
+                "repair_price": 5,
+                "rotation_speed": 26,
+                "tank_id": "R123_Kirovets_1",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R123_Kirovets_1/normal/lod0/Chassis.model",
+                "weight": 10000
+            }
+        ],
+        "collision_model": "vehicles/russian/R123_Kirovets_1/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The Kirovets-1 project (IS-3, prototype No. 1) was developed from July through November 1944. The prototype was built at the Chelyabinsk Kirov Plant in September\u2013October 1944. From December 18 through December 24, 1944, the vehicle underwent trials at the NIBT proving grounds in Kubinka. After it was decided to manufacture a pilot series of the modified IS-2 with a hull proposed by engineers of Plant No. 100 and \u0421entral Research Institute-48, the work on the Kirovets-1 was discontinued.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 260,
+                "id": 838,
+                "identifier": "V-11-IS-3",
+                "name": "V-11-IS-3",
+                "not_in_shop": true,
+                "power": 520,
+                "price": 55000,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "R123_Kirovets_1",
+                "tier": 8,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 42,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 10700,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 3.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R123_Kirovets_1/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 175
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 120
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 75
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 90
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 192,
+                "id": 1292,
+                "identifier": "_122-mm_D-25TA",
+                "max_ammo": 30,
+                "name": "122 mm D-25TA",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.425,
+                            5
+                        ],
+                        [
+                            0.433333,
+                            3.5
+                        ],
+                        [
+                            0.486111,
+                            1
+                        ],
+                        [
+                            0.513889,
+                            1
+                        ],
+                        [
+                            0.566667,
+                            3.5
+                        ],
+                        [
+                            0.575,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 125140,
+                "reload_time": 13,
+                "repair_health": 96,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 8,
+                "turret_id": 640,
+                "visual_model": "vehicles/russian/R123_Kirovets_1/normal/lod0/Gun_01.model",
+                "weight": 2590,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1240,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R123_Kirovets_1",
+        "name": "Kirovets-1",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 200,
+                "id": 887,
+                "identifier": "_10RKM",
+                "name": "10RKM",
+                "not_in_shop": true,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R123_Kirovets_1",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 7.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1292,
+                "icon": "ap_cr",
+                "id": "_122mm_3BM14",
+                "min_penetration": 193,
+                "module_damage": 165,
+                "name": "ZBM14",
+                "penetration": 221,
+                "penetration_loss": 0,
+                "price": 1180,
+                "range": 720,
+                "speed": 1400,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 122,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 13,
+                "gravity": 9.81,
+                "gun_id": 1292,
+                "icon": "hc",
+                "id": "_122mm_3VBK6",
+                "min_penetration": 270,
+                "module_damage": 165,
+                "name": "ZVBK6",
+                "penetration": 270,
+                "penetration_loss": 0.05,
+                "price": 5200,
+                "range": 720,
+                "speed": 820,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1292,
+                "icon": "he",
+                "id": "_122mm_UOF-471",
+                "min_penetration": 61,
+                "module_damage": 165,
+                "name": "UOF-471",
+                "penetration": 61,
+                "penetration_loss": 0,
+                "price": 608,
+                "range": 720,
+                "speed": 790,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Kirovets-1",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "kirovets-1",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk2_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "secret"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0.002458,
+        "turret_pos_y": 0.654683,
+        "turret_pos_z": 0.991546,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 175,
+                "armor_rear": 100,
+                "armor_side": 120,
+                "collision_model": "vehicles/russian/R123_Kirovets_1/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 175
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 170
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 70
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 175
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 110
+                    }
+                ],
+                "gun_pos_x": -0.010415,
+                "gun_pos_y": 0.315972,
+                "gun_pos_z": 1.31239,
+                "health": 310,
+                "id": 640,
+                "identifier": "Turret_1_R123_Kirovets_1",
+                "name": "Kirovets-1",
+                "not_in_shop": true,
+                "price": 30000,
+                "rotation_speed": 24,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "R123_Kirovets_1",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/russian/R123_Kirovets_1/normal/lod0/Turret_01.model",
+                "weight": 11200
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0918ct",
+        "visual_model": "vehicles/russian/R123_Kirovets_1/normal/lod0/Hull.model",
+        "weight": 22585,
+        "xp_factor": 1.5
+    }
+}

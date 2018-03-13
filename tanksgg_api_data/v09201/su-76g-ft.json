@@ -1,0 +1,844 @@
+{
+    "tank": {
+        "ammo_rack_health": 110,
+        "ammo_rack_repair_health": 75,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 42
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 10,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.53,
+        "camo_moving": 0.212,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.353,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 12000,
+                "center_rotation": true,
+                "collision_model": "vehicles/chinese/Ch32_SU-76G_FT/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.811462,
+                "hull_pos_z": 0,
+                "id": 11,
+                "identifier": "Chassis_Ch32_SU-76G_FT",
+                "max_climb_angle": 25,
+                "max_load": 12000,
+                "name": "SU-76G FT",
+                "not_in_shop": false,
+                "price": 1700,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "Ch32_SU-76G_FT",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/chinese/Ch32_SU-76G_FT/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 15,
+                "brake_force": 12000,
+                "center_rotation": true,
+                "collision_model": "vehicles/chinese/Ch32_SU-76G_FT/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.811462,
+                "hull_pos_z": 0,
+                "id": 12,
+                "identifier": "Chassis_Ch32_SU-76G_FT_2",
+                "max_climb_angle": 25,
+                "max_load": 14000,
+                "name": "SU-76G FT model 4",
+                "not_in_shop": false,
+                "price": 4280,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "Ch32_SU-76G_FT",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 4,
+                "visual_model": "vehicles/chinese/Ch32_SU-76G_FT/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch32_SU-76G_FT/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A proposed modification of the Soviet SU-76M tank destroyer. In the early 1950s, about 90 SU-76M vehicles were exported to the Democratic People's Republic of China and studied by military experts. No prototypes were built.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 11,
+                "identifier": "_2x_GAZ_203",
+                "name": "2x GAZ-203",
+                "not_in_shop": false,
+                "power": 270,
+                "price": 9000,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "Ch32_SU-76G_FT",
+                "tier": 4,
+                "weight": 550
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 145,
+                "id": 12,
+                "identifier": "_12150L3G",
+                "name": "12150L3G",
+                "not_in_shop": false,
+                "power": 300,
+                "price": 17200,
+                "repair_health": 72,
+                "repair_price": 6,
+                "tags": "diesel",
+                "tank_id": "Ch32_SU-76G_FT",
+                "tier": 5,
+                "weight": 700
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 45,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch32_SU-76G_FT/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 104,
+                "id": 13,
+                "identifier": "_57mm_ZiS_2",
+                "max_ammo": 80,
+                "name": "57 mm ZiS-2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 36000,
+                "reload_time": 3,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 40,
+                "tier": 5,
+                "turret_id": 10,
+                "visual_model": "vehicles/chinese/Ch32_SU-76G_FT/normal/lod0/Gun_01.model",
+                "weight": 850,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch32_SU-76G_FT/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 118,
+                "id": 14,
+                "identifier": "_76mm_ZiS_3",
+                "max_ammo": 60,
+                "name": "76 mm ZiS-3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 38500,
+                "reload_time": 4.4,
+                "repair_health": 59,
+                "repair_price": 4,
+                "rotation_speed": 40,
+                "tier": 5,
+                "turret_id": 10,
+                "visual_model": "vehicles/chinese/Ch32_SU-76G_FT/normal/lod0/Gun_02.model",
+                "weight": 1255,
+                "yaw_left": -15,
+                "yaw_right": 15
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch32_SU-76G_FT/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.1,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 122,
+                "id": 15,
+                "identifier": "_85mm_56_85TG_FT",
+                "max_ammo": 42,
+                "name": "85 mm 56-85TG FT",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 62800,
+                "reload_time": 4.8,
+                "repair_health": 61,
+                "repair_price": 6,
+                "rotation_speed": 40,
+                "tier": 6,
+                "turret_id": 10,
+                "visual_model": "vehicles/chinese/Ch32_SU-76G_FT/normal/lod0/Gun_03.model",
+                "weight": 1750,
+                "yaw_left": -15,
+                "yaw_right": 15
+            }
+        ],
+        "health": 224,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch32_SU-76G_FT",
+        "name": "SU-76G FT",
+        "nation": "china",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 135000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 11,
+                "identifier": "_9RM_shop",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "Ch32_SU-76G_FT",
+                "tier": 8,
+                "weight": 100
+            },
+            {
+                "health": 160,
+                "id": 12,
+                "identifier": "A-220_1",
+                "name": "A-220",
+                "not_in_shop": false,
+                "price": 38000,
+                "range": 600,
+                "repair_health": 96,
+                "repair_price": 3.5,
+                "tank_id": "Ch32_SU-76G_FT",
+                "tier": 9,
+                "weight": 40
+            }
+        ],
+        "repair_price": 5.5,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 13,
+                "icon": "ap",
+                "id": "_57mm_AP_Type_55_57",
+                "min_penetration": 98,
+                "module_damage": 76,
+                "name": "Chuan dun-271",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 13,
+                "icon": "ap_cr",
+                "id": "_57mm_APCR_Type_55_57",
+                "min_penetration": 147,
+                "module_damage": 76,
+                "name": "Chuan chao-271",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1238,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 13,
+                "icon": "he",
+                "id": "_57mm_HE_Type_55_57",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "Sha bao-271",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 990,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 14,
+                "icon": "ap",
+                "id": "_76mm_AP_type1",
+                "min_penetration": 69,
+                "module_damage": 105,
+                "name": "Chuan dun-350",
+                "penetration": 85,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 700,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 115,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 14,
+                "icon": "ap_cr",
+                "id": "_76mm_APCR_type1",
+                "min_penetration": 90,
+                "module_damage": 105,
+                "name": "Chuan jian-350",
+                "penetration": 106,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 875,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 165,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 14,
+                "icon": "he",
+                "id": "_76mm_HE_type1",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "Sha bao-350",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 48,
+                "range": 720,
+                "speed": 700,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 15,
+                "icon": "ap",
+                "id": "_85mm_CJ_365",
+                "min_penetration": 111,
+                "module_damage": 115,
+                "name": "Chuan jian-365",
+                "penetration": 128,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 15,
+                "icon": "ap_cr",
+                "id": "_85mm_367",
+                "min_penetration": 139,
+                "module_damage": 115,
+                "name": "Chuan chao-367",
+                "penetration": 172,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 280,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 15,
+                "icon": "he",
+                "id": "_85mm_SB_365",
+                "min_penetration": 43,
+                "module_damage": 115,
+                "name": "Sha bao-365",
+                "penetration": 43,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-76G FT",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-76g-ft",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": -0.050916,
+        "turret_pos_y": 1.05131,
+        "turret_pos_z": -0.678466,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 15,
+                "armor_rear": 10,
+                "armor_side": 0,
+                "collision_model": "vehicles/chinese/Ch32_SU-76G_FT/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0.050916,
+                "gun_pos_y": -0.224076,
+                "gun_pos_z": -0.139434,
+                "health": 56,
+                "id": 10,
+                "identifier": "Turret_1_Ch32_SU-76G_FT",
+                "name": "SU-76G FT",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 40,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch32_SU-76G_FT",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/chinese/Ch32_SU-76G_FT/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Ch32_SU-76G_FT_2",
+                "name": "Chassis_Ch32_SU-76G_FT_2",
+                "parent_key": "chassis-Chassis_Ch32_SU-76G_FT",
+                "price": 1030,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_76mm_ZiS_3",
+                "name": "_76mm_ZiS_3",
+                "parent_key": "gun-_57mm_ZiS_2",
+                "price": 2850,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_85mm_56_85TG_FT",
+                "name": "_85mm_56_85TG_FT",
+                "parent_key": "gun-_76mm_ZiS_3",
+                "price": 5200,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-Ch33_60G_FT",
+                "name": "Ch33_60G_FT",
+                "parent_key": "gun-_85mm_56_85TG_FT",
+                "price": 10300,
+                "tank_name": "60G FT",
+                "tank_price": 365000,
+                "tank_slug": "60g-ft",
+                "tank_tier": 5,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-_12150L3G",
+                "name": "_12150L3G",
+                "parent_key": "engine-_2x_GAZ_203",
+                "price": 1550,
+                "type": "engine"
+            },
+            {
+                "key": "radio-A-220_1",
+                "name": "A-220_1",
+                "parent_key": "radio-_9RM_shop",
+                "price": 7000,
+                "type": "radio"
+            }
+        ],
+        "version": "v09201",
+        "visual_model": "vehicles/chinese/Ch32_SU-76G_FT/normal/lod0/Hull.model",
+        "weight": 6060,
+        "xp_factor": 1
+    }
+}

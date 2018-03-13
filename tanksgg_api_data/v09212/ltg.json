@@ -1,0 +1,747 @@
+{
+    "tank": {
+        "ammo_rack_health": 160,
+        "ammo_rack_repair_health": 110,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50
+            }
+        ],
+        "armor_front": 40,
+        "armor_rear": 40,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.519,
+        "camo_moving": 0.346,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.346,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 25000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R131_Tank_Gavalov/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 130,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.685398,
+                "hull_pos_z": 0,
+                "id": 816,
+                "identifier": "Chassis_R131_Tank_Gavalov",
+                "max_climb_angle": 25,
+                "max_load": 25000,
+                "name": "LTG",
+                "not_in_shop": false,
+                "price": 8800,
+                "repair_health": 100,
+                "repair_price": 5,
+                "rotation_speed": 46,
+                "tank_id": "R131_Tank_Gavalov",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.7,
+                "tier": 6,
+                "visual_model": "vehicles/russian/R131_Tank_Gavalov/normal/lod0/Chassis.model",
+                "weight": 4000
+            },
+            {
+                "armor": 15,
+                "brake_force": 25000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R131_Tank_Gavalov/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 140,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.685398,
+                "hull_pos_z": 0,
+                "id": 817,
+                "identifier": "Chassis_R131_Tank_Gavalov_2",
+                "max_climb_angle": 25,
+                "max_load": 30000,
+                "name": "LTG improved",
+                "not_in_shop": false,
+                "price": 18500,
+                "repair_health": 105,
+                "repair_price": 5,
+                "rotation_speed": 48,
+                "tank_id": "R131_Tank_Gavalov",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1,
+                "terrain_soft": 1.6,
+                "tier": 7,
+                "visual_model": "vehicles/russian/R131_Tank_Gavalov/normal/lod0/Chassis.model",
+                "weight": 4000
+            }
+        ],
+        "collision_model": "vehicles/russian/R131_Tank_Gavalov/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "A project for a light tank developed by Gavalov at the Gorky Automobile Plant in 1944. Several extremely unusual design solutions were used for the vehicle: a driver sat in the fighting compartment, and his observation device was installed in the hatch at the turret top. The device was synchronized with the driver's station and rotated with the seat against the turret. The project was discontinued at the development stage.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 190,
+                "id": 902,
+                "identifier": "GAZ_O",
+                "name": "GAZ-O",
+                "not_in_shop": false,
+                "power": 530,
+                "price": 27000,
+                "repair_health": 95,
+                "repair_price": 7,
+                "tags": "diesel",
+                "tank_id": "R131_Tank_Gavalov",
+                "tier": 6,
+                "weight": 1100
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 260,
+                "id": 903,
+                "identifier": "GAZ_OU",
+                "name": "GAZ-OU",
+                "not_in_shop": false,
+                "power": 650,
+                "price": 37500,
+                "repair_health": 130,
+                "repair_price": 8,
+                "tags": "diesel",
+                "tank_id": "R131_Tank_Gavalov",
+                "tier": 7,
+                "weight": 1100
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 63,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R131_Tank_Gavalov/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 122,
+                "id": 1368,
+                "identifier": "_85mm_ZiS_S-53M",
+                "max_ammo": 38,
+                "name": "85 mm ZiS-S-53M",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.402778,
+                            5
+                        ],
+                        [
+                            0.416667,
+                            2.8
+                        ],
+                        [
+                            0.583333,
+                            2.8
+                        ],
+                        [
+                            0.597222,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 62000,
+                "reload_time": 4.8,
+                "repair_health": 61,
+                "repair_price": 6,
+                "rotation_speed": 39.375,
+                "tier": 6,
+                "turret_id": 696,
+                "visual_model": "vehicles/russian/R131_Tank_Gavalov/normal/lod0/Gun_02.model",
+                "weight": 1550,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R131_Tank_Gavalov/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.12,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 110
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    }
+                ],
+                "health": 134,
+                "id": 1369,
+                "identifier": "_85mm_D5T-85BMU",
+                "max_ammo": 38,
+                "name": "85 mm D-5T-85BMU",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            0.402778,
+                            5
+                        ],
+                        [
+                            0.416667,
+                            2.8
+                        ],
+                        [
+                            0.583333,
+                            2.8
+                        ],
+                        [
+                            0.597222,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 72300,
+                "reload_time": 6,
+                "repair_health": 67,
+                "repair_price": 6,
+                "rotation_speed": 39.375,
+                "tier": 7,
+                "turret_id": 696,
+                "visual_model": "vehicles/russian/R131_Tank_Gavalov/normal/lod0/Gun_03.model",
+                "weight": 1850,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 704,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R131_Tank_Gavalov",
+        "name": "LTG",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 1380000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 948,
+                "identifier": "_9RM",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R131_Tank_Gavalov",
+                "tier": 8,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 949,
+                "identifier": "R113",
+                "name": "R-113",
+                "not_in_shop": false,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R131_Tank_Gavalov",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 8,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1368,
+                "icon": "ap",
+                "id": "_85mm_UBR-365K",
+                "min_penetration": 110,
+                "module_damage": 115,
+                "name": "UBR-365K",
+                "penetration": 126,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1368,
+                "icon": "ap_cr",
+                "id": "_85mm_UBR-365P",
+                "min_penetration": 140,
+                "module_damage": 115,
+                "name": "UBR-365P",
+                "penetration": 167,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 280,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1368,
+                "icon": "he",
+                "id": "_85mm_UOF-365K",
+                "min_penetration": 43,
+                "module_damage": 115,
+                "name": "UOF-365K",
+                "penetration": 43,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1369,
+                "icon": "ap",
+                "id": "_85mm_UBR-365KBM",
+                "min_penetration": 125,
+                "module_damage": 115,
+                "name": "UBR-365KBM",
+                "penetration": 144,
+                "penetration_loss": 0,
+                "price": 175,
+                "range": 720,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 180,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 1369,
+                "icon": "ap_cr",
+                "id": "_85mm_UBR-365PBM",
+                "min_penetration": 168,
+                "module_damage": 115,
+                "name": "UBR-365PBM",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 300,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1369,
+                "icon": "he",
+                "id": "_85mm_UOF-365BM",
+                "min_penetration": 44,
+                "module_damage": 115,
+                "name": "UOF-365BM",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 139,
+                "range": 720,
+                "speed": 950,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "LTG",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ltg",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.169958,
+        "turret_pos_z": 0.368463,
+        "turret_slots": [
+            {
+                "id": 540,
+                "pos_x": 0,
+                "pos_y": 0.169958,
+                "pos_z": 0.368463,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R131_Tank_Gavalov"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 110,
+                "armor_rear": 80,
+                "armor_side": 80,
+                "collision_model": "vehicles/russian/R131_Tank_Gavalov/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 110
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 60
+                    }
+                ],
+                "gun_pos_x": -0.162299,
+                "gun_pos_y": 0.404723,
+                "gun_pos_z": 0.828297,
+                "health": 176,
+                "id": 696,
+                "identifier": "Turret_1_R131_Tank_Gavalov",
+                "name": "LTG",
+                "not_in_shop": true,
+                "price": 20000,
+                "rotation_speed": 48,
+                "rotator_health": 130,
+                "rotator_repair_health": 65,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 1,
+                "tank_id": "R131_Tank_Gavalov",
+                "tier": 7,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/russian/R131_Tank_Gavalov/normal/lod0/Turret_01.model",
+                "weight": 6000
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_R131_Tank_Gavalov_2",
+                "name": "Chassis_R131_Tank_Gavalov_2",
+                "parent_key": "chassis-Chassis_R131_Tank_Gavalov",
+                "price": 9500,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_85mm_D5T-85BMU",
+                "name": "_85mm_D5T-85BMU",
+                "parent_key": "gun-_85mm_ZiS_S-53M",
+                "price": 15200,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R107_LTB",
+                "name": "R107_LTB",
+                "parent_key": "gun-_85mm_D5T-85BMU",
+                "price": 96700,
+                "tank_name": "LTTB",
+                "tank_price": 2410000,
+                "tank_slug": "lttb",
+                "tank_tier": 8,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-GAZ_OU",
+                "name": "GAZ_OU",
+                "parent_key": "engine-GAZ_O",
+                "price": 11100,
+                "type": "engine"
+            },
+            {
+                "key": "radio-R113",
+                "name": "R113",
+                "parent_key": "radio-_9RM",
+                "price": 8700,
+                "type": "radio"
+            }
+        ],
+        "version": "v09212",
+        "visual_model": "vehicles/russian/R131_Tank_Gavalov/normal/lod0/Hull.model",
+        "weight": 12000,
+        "xp_factor": 1
+    }
+}

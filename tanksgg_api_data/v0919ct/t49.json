@@ -1,0 +1,952 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 31.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 9.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 19.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 38.1
+            }
+        ],
+        "armor_front": 25.4,
+        "armor_rear": 19.1,
+        "armor_side": 25.4,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.33,
+        "camo_moving": 0.22,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.22,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 24000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A100_T49/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.991937,
+                "hull_pos_z": 0,
+                "id": 739,
+                "identifier": "Chassis_A100_T49",
+                "max_climb_angle": 25,
+                "max_load": 24400,
+                "name": "T49",
+                "not_in_shop": false,
+                "price": 32600,
+                "repair_health": 175,
+                "repair_price": 5,
+                "rotation_speed": 38,
+                "tank_id": "A100_T49",
+                "terrain_hard": 0.9,
+                "terrain_medium": 1.1,
+                "terrain_soft": 1.8,
+                "tier": 8,
+                "visual_model": "vehicles/american/A100_T49/normal/lod0/Chassis.model",
+                "weight": 6000
+            },
+            {
+                "armor": 20,
+                "brake_force": 25000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A100_T49/collision_client/Chassis.model",
+                "dispersion_movement": 0.1,
+                "dispersion_rotation": 0.1,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.991937,
+                "hull_pos_z": 0,
+                "id": 740,
+                "identifier": "Chassis_A100_T49_2",
+                "max_climb_angle": 25,
+                "max_load": 25700,
+                "name": "XM551 test bed",
+                "not_in_shop": false,
+                "price": 63400,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 44,
+                "tank_id": "A100_T49",
+                "terrain_hard": 0.8,
+                "terrain_medium": 1,
+                "terrain_soft": 1.7,
+                "tier": 9,
+                "visual_model": "vehicles/american/A100_T49/normal/lod0/Chassis.model",
+                "weight": 6000
+            }
+        ],
+        "collision_model": "vehicles/american/A100_T49/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A variant of the M41 light tank with an enlarged turret and 90-mm gun. Trials started on May 5, 1954. The trials were a success, but the tank never saw mass production due to lack of interest from the military authorities.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 820,
+                "identifier": "Continental_AOSI-895-5A",
+                "name": "Continental AOSI-895-5A",
+                "not_in_shop": false,
+                "power": 800,
+                "price": 58000,
+                "repair_health": 130,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A100_T49",
+                "tier": 8,
+                "weight": 771
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 260,
+                "id": 821,
+                "identifier": "Continental_AOSI-895-5B",
+                "name": "Continental AOSI-895-5B",
+                "not_in_shop": false,
+                "power": 840,
+                "price": 93000,
+                "repair_health": 130,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A100_T49",
+                "tier": 9,
+                "weight": 771
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 65,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A100_T49/collision_client/Gun_01.model",
+                "depression": 9.5,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.06,
+                "elevation": 19.5,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 1264,
+                "identifier": "_90mm_Gun_T132E3",
+                "max_ammo": 46,
+                "name": "90 mm Gun T132E3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9.5
+                        ],
+                        [
+                            1,
+                            9.5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -19.5
+                        ],
+                        [
+                            1,
+                            -19.5
+                        ]
+                    ]
+                },
+                "price": 130000,
+                "reload_time": 6.4,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 9,
+                "turret_id": 625,
+                "visual_model": "vehicles/american/A100_T49/normal/lod0/Gun_01.model",
+                "weight": 653,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A100_T49/collision_client/Gun_03.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.06,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 1265,
+                "identifier": "_90mm_Gun_T132E3",
+                "max_ammo": 46,
+                "name": "90 mm Gun T132E3",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.375,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            7.8
+                        ],
+                        [
+                            0.611111,
+                            7.8
+                        ],
+                        [
+                            0.625,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 130000,
+                "reload_time": 6,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 9,
+                "turret_id": 626,
+                "visual_model": "vehicles/american/A100_T49/normal/lod0/Gun_03.model",
+                "weight": 653,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 3.6,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A100_T49/collision_client/Gun_05.model",
+                "depression": 10,
+                "dispersion": 0.6,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.38,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    }
+                ],
+                "health": 230,
+                "id": 1266,
+                "identifier": "_152mm_Gun_Launcher_M81",
+                "max_ammo": 22,
+                "name": "152 mm Gun-Launcher XM81 (conventional)",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0.375,
+                            10
+                        ],
+                        [
+                            0.388889,
+                            6
+                        ],
+                        [
+                            0.611111,
+                            6
+                        ],
+                        [
+                            0.625,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 230000,
+                "reload_time": 23,
+                "repair_health": 115,
+                "repair_price": 11,
+                "rotation_speed": 20,
+                "tier": 10,
+                "turret_id": 626,
+                "visual_model": "vehicles/american/A100_T49/normal/lod0/Gun_05.model",
+                "weight": 510,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1040,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A100_T49",
+        "name": "T49",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 3550000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 872,
+                "identifier": "AN-GRC-3",
+                "name": "AN/GRC-3",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 410,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A100_T49",
+                "tier": 6,
+                "weight": 120
+            },
+            {
+                "health": 200,
+                "id": 873,
+                "identifier": "AN-ARC-27",
+                "name": "AN/GRC-7",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A100_T49",
+                "tier": 10,
+                "weight": 120
+            }
+        ],
+        "repair_price": 10.5,
+        "reverse_speed": 24,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1264,
+                "icon": "ap_cr",
+                "id": "_90mm_APCR_Experimental",
+                "min_penetration": 193,
+                "module_damage": 122,
+                "name": "APCR Experimental",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 390,
+                "range": 720,
+                "speed": 1080,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 1264,
+                "icon": "hc",
+                "id": "_90mm_HEAT_T108E45",
+                "min_penetration": 250,
+                "module_damage": 122,
+                "name": "HEAT T108E45",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 853,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1264,
+                "icon": "he",
+                "id": "_90mm_HE_T91E3",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE T91E3",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 732,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1265,
+                "icon": "ap_cr",
+                "id": "_90mm_APCR_Experimental",
+                "min_penetration": 193,
+                "module_damage": 122,
+                "name": "APCR Experimental",
+                "penetration": 212,
+                "penetration_loss": 0,
+                "price": 390,
+                "range": 720,
+                "speed": 1080,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 10,
+                "gravity": 9.81,
+                "gun_id": 1265,
+                "icon": "hc",
+                "id": "_90mm_HEAT_T108E45",
+                "min_penetration": 250,
+                "module_damage": 122,
+                "name": "HEAT T108E45",
+                "penetration": 250,
+                "penetration_loss": 0.05,
+                "price": 4000,
+                "range": 720,
+                "speed": 853,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1265,
+                "icon": "he",
+                "id": "_90mm_HE_T91E3",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE T91E3",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 732,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 910,
+                "explosion_radius": 3.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1266,
+                "icon": "he",
+                "id": "_152mm_HE_XM657E2",
+                "min_penetration": 76,
+                "module_damage": 203,
+                "name": "HE XM657E2",
+                "penetration": 76,
+                "penetration_loss": 0,
+                "price": 750,
+                "range": 720,
+                "speed": 683,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 152,
+                "damage": 700,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1266,
+                "icon": "hc",
+                "id": "_152mm_HEAT_XM409",
+                "min_penetration": 152,
+                "module_damage": 203,
+                "name": "HEAT XM409",
+                "penetration": 152,
+                "penetration_loss": 0.05,
+                "price": 770,
+                "range": 720,
+                "speed": 683,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 152,
+                "damage": 910,
+                "explosion_radius": 5.11,
+                "gold_price": 13,
+                "gravity": 9.81,
+                "gun_id": 1266,
+                "icon": "he_premium",
+                "id": "_152mm_HE_XM657E3",
+                "min_penetration": 85,
+                "module_damage": 203,
+                "name": "HE XM657E3",
+                "penetration": 85,
+                "penetration_loss": 0,
+                "price": 5200,
+                "range": 720,
+                "speed": 683,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T49",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t49",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "scout"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.636141,
+        "turret_pos_z": 0.289599,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 25.4,
+                "armor_rear": 25.4,
+                "armor_side": 25.4,
+                "collision_model": "vehicles/american/A100_T49/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 19.1
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.295998,
+                "gun_pos_z": 1.19232,
+                "health": 260,
+                "id": 625,
+                "identifier": "Turret_1_A100_T49",
+                "name": "T49",
+                "not_in_shop": false,
+                "price": 32000,
+                "rotation_speed": 40,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "A100_T49",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 400,
+                "visual_model": "vehicles/american/A100_T49/normal/lod0/Turret_01.model",
+                "weight": 5360
+            },
+            {
+                "Guns": null,
+                "armor_front": 38.1,
+                "armor_rear": 15.9,
+                "armor_side": 15.9,
+                "collision_model": "vehicles/american/A100_T49/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 15.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 15.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 15.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25.4
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.284607,
+                "gun_pos_z": 0.992409,
+                "health": 360,
+                "id": 626,
+                "identifier": "Turret_2_A100_T49",
+                "name": "XM551 test bed",
+                "not_in_shop": false,
+                "price": 64000,
+                "rotation_speed": 44,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "A100_T49",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 410,
+                "visual_model": "vehicles/american/A100_T49/normal/lod0/Turret_02.model",
+                "weight": 4000
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_A100_T49_2",
+                "name": "Chassis_A100_T49_2",
+                "parent_key": "chassis-Chassis_A100_T49",
+                "price": 23600,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_A100_T49",
+                "name": "Turret_2_A100_T49",
+                "parent_key": "turret-Turret_1_A100_T49",
+                "price": 25200,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_152mm_Gun_Launcher_M81",
+                "name": "_152mm_Gun_Launcher_M81",
+                "parent_key": "turret-Turret_2_A100_T49",
+                "price": 52000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A116_XM551",
+                "name": "A116_XM551",
+                "parent_key": "gun-_152mm_Gun_Launcher_M81",
+                "price": 229000,
+                "tank_name": "Sheridan",
+                "tank_price": 6100000,
+                "tank_slug": "sheridan",
+                "tank_tier": 10,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Continental_AOSI-895-5B",
+                "name": "Continental_AOSI-895-5B",
+                "parent_key": "engine-Continental_AOSI-895-5A",
+                "price": 28750,
+                "type": "engine"
+            },
+            {
+                "key": "radio-AN-ARC-27",
+                "name": "AN-ARC-27",
+                "parent_key": "radio-AN-GRC-3",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0919ct",
+        "visual_model": "vehicles/american/A100_T49/normal/lod0/Hull.model",
+        "weight": 10952,
+        "xp_factor": 1
+    }
+}

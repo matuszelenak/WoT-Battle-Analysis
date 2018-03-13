@@ -1,0 +1,486 @@
+{
+    "tank": {
+        "ammo_rack_health": 180,
+        "ammo_rack_repair_health": 120,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 75
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 78
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 47
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 13
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 47
+            }
+        ],
+        "armor_front": 75,
+        "armor_rear": 55,
+        "armor_side": 70,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.372,
+        "camo_moving": 0.186,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.248,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 34500,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB68_Matilda_Black_Prince/collision_client/Chassis.model",
+                "dispersion_movement": 0.18,
+                "dispersion_rotation": 0.18,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 110,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.932506,
+                "hull_pos_z": 0,
+                "id": 523,
+                "identifier": "Chassis_GB68_Matilda_Black_Prince",
+                "max_climb_angle": 25,
+                "max_load": 31950,
+                "name": "Matilda Black Prince",
+                "not_in_shop": true,
+                "price": 9800,
+                "repair_health": 85,
+                "repair_price": 5,
+                "rotation_speed": 35,
+                "tank_id": "GB68_Matilda_Black_Prince",
+                "terrain_hard": 1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 5,
+                "visual_model": "vehicles/british/GB68_Matilda_Black_Prince/normal/lod0/Chassis.model",
+                "weight": 7200
+            }
+        ],
+        "collision_model": "vehicles/british/GB68_Matilda_Black_Prince/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "This vehicle features a 6-pounder gun fitted in the A27 turret. Only one prototype was produced, after which development was discontinued due to complications with the turret mounting. The vehicle never entered service.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 65,
+                "id": 573,
+                "identifier": "Leyland_V6",
+                "name": "2x Leyland E165",
+                "not_in_shop": true,
+                "power": 190,
+                "price": 4550,
+                "repair_health": 32,
+                "repair_price": 1,
+                "tags": "diesel",
+                "tank_id": "GB68_Matilda_Black_Prince",
+                "tier": 3,
+                "weight": 331
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 22,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1750,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB68_Matilda_Black_Prince/collision_client/Gun_01.model",
+                "depression": 12.5,
+                "dispersion": 0.41,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    }
+                ],
+                "health": 104,
+                "id": 878,
+                "identifier": "QF_6_pounder_Mk_VA",
+                "max_ammo": 55,
+                "name": "QF 6-pdr Mk. V A",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            12.5
+                        ],
+                        [
+                            0.366894,
+                            12.5
+                        ],
+                        [
+                            0.430556,
+                            8
+                        ],
+                        [
+                            0.569444,
+                            8
+                        ],
+                        [
+                            0.633106,
+                            12.5
+                        ],
+                        [
+                            1,
+                            12.5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 35000,
+                "reload_time": 2.3,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 444,
+                "visual_model": "vehicles/british/GB68_Matilda_Black_Prince/normal/lod0/Gun_01.model",
+                "weight": 450,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 488,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB68_Matilda_Black_Prince",
+        "name": "Matilda Black Prince",
+        "nation": "uk",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 607,
+                "identifier": "British_Wireless_set_N19",
+                "name": "WS No. 19 Special",
+                "not_in_shop": true,
+                "price": 29400,
+                "range": 570,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "GB68_Matilda_Black_Prince",
+                "tier": 9,
+                "weight": 40
+            }
+        ],
+        "repair_price": 3,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 878,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_1T",
+                "min_penetration": 95,
+                "module_damage": 76,
+                "name": "AP Mk. 1T",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 892,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 878,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1115,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 100,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 878,
+                "icon": "he",
+                "id": "_6pdr_HE_MK_10T",
+                "min_penetration": 30,
+                "module_damage": 76,
+                "name": "HE Mk. 10T",
+                "penetration": 30,
+                "penetration_loss": 0,
+                "price": 32,
+                "range": 720,
+                "speed": 892,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Matilda BP",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "matilda-bp",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedHorizontal_elastic_elements_user"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.697081,
+        "turret_pos_z": 0.586117,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 76.2,
+                "armor_rear": 57.2,
+                "armor_side": 63.5,
+                "collision_model": "vehicles/british/GB68_Matilda_Black_Prince/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 57.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 19.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": -0.102857,
+                "gun_pos_y": 0.326654,
+                "gun_pos_z": 0.660666,
+                "health": 122,
+                "id": 444,
+                "identifier": "Turret_1_GB68_Matilda_Black_Prince",
+                "name": "Matilda Black Prince",
+                "not_in_shop": true,
+                "price": 11100,
+                "rotation_speed": 34,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 80,
+                "surveyor_repair_health": 40,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB68_Matilda_Black_Prince",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/british/GB68_Matilda_Black_Prince/normal/lod0/Turret_01.model",
+                "weight": 5000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v09191",
+        "visual_model": "vehicles/british/GB68_Matilda_Black_Prince/normal/lod0/Hull.model",
+        "weight": 16770,
+        "xp_factor": 1.5
+    }
+}

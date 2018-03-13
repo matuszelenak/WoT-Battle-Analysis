@@ -1,0 +1,1166 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 120
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 40
+            }
+        ],
+        "armor_front": 120,
+        "armor_rear": 40,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.447,
+        "camo_moving": 0.223,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.298,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 36000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Chassis.model",
+                "dispersion_movement": 0.16,
+                "dispersion_rotation": 0.16,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.918663,
+                "hull_pos_z": 0,
+                "id": 977,
+                "identifier": "Chassis_R104_Object_430_II",
+                "max_climb_angle": 25,
+                "max_load": 36500,
+                "name": "Object 430 Version II",
+                "not_in_shop": false,
+                "price": 30000,
+                "repair_health": 175,
+                "repair_price": 7.5,
+                "rotation_speed": 44,
+                "tank_id": "R104_Object_430_II",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Chassis.model",
+                "weight": 12000
+            },
+            {
+                "armor": 20,
+                "brake_force": 40000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.918663,
+                "hull_pos_z": 0,
+                "id": 978,
+                "identifier": "Chassis_R104_Object_430_II_2",
+                "max_climb_angle": 25,
+                "max_load": 40000,
+                "name": "Object 430 Version II enhanced",
+                "not_in_shop": false,
+                "price": 62000,
+                "repair_health": 180,
+                "repair_price": 7.5,
+                "rotation_speed": 48,
+                "tank_id": "R104_Object_430_II",
+                "terrain_hard": 0.7,
+                "terrain_medium": 0.8,
+                "terrain_soft": 1.6,
+                "tier": 9,
+                "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed at the Construction Bureau of Factory No. 73 in early 1953. From March 8 through March 10, 1953, the Ministry of Transport and Heavy Engineering considered the project, along with an alternate version of the tank with a more conventional configuration. However, the development was eventually discontinued.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 320,
+                "id": 1072,
+                "identifier": "_4TD",
+                "name": "4TD",
+                "not_in_shop": false,
+                "power": 550,
+                "price": 80000,
+                "repair_health": 160,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R104_Object_430_II",
+                "tier": 9,
+                "weight": 1050
+            },
+            {
+                "fire_chance": 0.1,
+                "health": 360,
+                "id": 1073,
+                "identifier": "_5TD",
+                "name": "5TD",
+                "not_in_shop": false,
+                "power": 580,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R104_Object_430_II",
+                "tier": 10,
+                "weight": 1050
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Gun_02.model",
+                "depression": 4,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 223
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 223
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 115
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 1657,
+                "identifier": "_100mm_M-63",
+                "max_ammo": 50,
+                "name": "100 mm M-63",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 210000,
+                "reload_time": 7.6,
+                "repair_health": 97,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 850,
+                "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Gun_02.model",
+                "weight": 2000,
+                "yaw_left": -90,
+                "yaw_right": 90
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Gun_04.model",
+                "depression": 4,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 223
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 223
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 115
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 1658,
+                "identifier": "_100mm_D54_obr_45",
+                "max_ammo": 50,
+                "name": "100 mm D-54",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 221000,
+                "reload_time": 8,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 850,
+                "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Gun_04.model",
+                "weight": 2557,
+                "yaw_left": -90,
+                "yaw_right": 90
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Gun_06.model",
+                "depression": 4,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.12,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 248
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 248
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 128
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 1659,
+                "identifier": "_100mm_M-63",
+                "max_ammo": 50,
+                "name": "100 mm M-63",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 210000,
+                "reload_time": 7.6,
+                "repair_health": 97,
+                "repair_price": 8,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 851,
+                "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Gun_06.model",
+                "weight": 2000,
+                "yaw_left": -90,
+                "yaw_right": 90
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Gun_08.model",
+                "depression": 4,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 16,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 248
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 248
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 128
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 194,
+                "id": 1660,
+                "identifier": "_100mm_D54_obr_45",
+                "max_ammo": 50,
+                "name": "100 mm D-54",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -16
+                        ],
+                        [
+                            1,
+                            -16
+                        ]
+                    ]
+                },
+                "price": 221000,
+                "reload_time": 8,
+                "repair_health": 97,
+                "repair_price": 10,
+                "rotation_speed": 33.25,
+                "tier": 9,
+                "turret_id": 851,
+                "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Gun_08.model",
+                "weight": 2557,
+                "yaw_left": -90,
+                "yaw_right": 90
+            }
+        ],
+        "health": 1280,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R104_Object_430_II",
+        "name": "Object 430 Version II",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 3450000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 1118,
+                "identifier": "_9RM",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R104_Object_430_II",
+                "tier": 8,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 1119,
+                "identifier": "R113",
+                "name": "R-113",
+                "not_in_shop": false,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R104_Object_430_II",
+                "tier": 10,
+                "weight": 80
+            },
+            {
+                "health": 200,
+                "id": 1120,
+                "identifier": "_10RT-26E",
+                "name": "10RT-26",
+                "not_in_shop": false,
+                "price": 56500,
+                "range": 760,
+                "repair_health": 150,
+                "repair_price": 4,
+                "tank_id": "R104_Object_430_II",
+                "tier": 10,
+                "weight": 30
+            }
+        ],
+        "repair_price": 9.5,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1657,
+                "icon": "ap",
+                "id": "_100mm_BR-412D",
+                "min_penetration": 181,
+                "module_damage": 135,
+                "name": "UBR-412D",
+                "penetration": 201,
+                "penetration_loss": 0,
+                "price": 1230,
+                "range": 720,
+                "speed": 895,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1657,
+                "icon": "hc",
+                "id": "_100mm_3UBK4",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "ZUBK4",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 895,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1657,
+                "icon": "he",
+                "id": "_100mm_UOF-412B",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "UOF-412B",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 895,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1658,
+                "icon": "ap",
+                "id": "_100mm_UBR-412B",
+                "min_penetration": 194,
+                "module_damage": 135,
+                "name": "UBR-412B",
+                "penetration": 219,
+                "penetration_loss": 0,
+                "price": 1230,
+                "range": 720,
+                "speed": 1015,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1658,
+                "icon": "hc",
+                "id": "_100mm_3UBK4",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "ZUBK4",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1658,
+                "icon": "he",
+                "id": "_100mm_UOF-412B",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "UOF-412B",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 1015,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1659,
+                "icon": "ap",
+                "id": "_100mm_BR-412D",
+                "min_penetration": 181,
+                "module_damage": 135,
+                "name": "UBR-412D",
+                "penetration": 201,
+                "penetration_loss": 0,
+                "price": 1230,
+                "range": 720,
+                "speed": 895,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1659,
+                "icon": "hc",
+                "id": "_100mm_3UBK4",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "ZUBK4",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 895,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1659,
+                "icon": "he",
+                "id": "_100mm_UOF-412B",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "UOF-412B",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 895,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1660,
+                "icon": "ap",
+                "id": "_100mm_UBR-412B",
+                "min_penetration": 194,
+                "module_damage": 135,
+                "name": "UBR-412B",
+                "penetration": 219,
+                "penetration_loss": 0,
+                "price": 1230,
+                "range": 720,
+                "speed": 1015,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 100,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1660,
+                "icon": "hc",
+                "id": "_100mm_3UBK4",
+                "min_penetration": 330,
+                "module_damage": 135,
+                "name": "ZUBK4",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 900,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 100,
+                "damage": 420,
+                "explosion_radius": 1.76,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1660,
+                "icon": "he",
+                "id": "_100mm_UOF-412B",
+                "min_penetration": 50,
+                "module_damage": 135,
+                "name": "UOF-412B",
+                "penetration": 50,
+                "penetration_loss": 0,
+                "price": 1170,
+                "range": 720,
+                "speed": 1015,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 430 II",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-430-ii",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumTank3"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": -0.002089,
+        "turret_pos_y": 0.515198,
+        "turret_pos_z": -1.42107,
+        "turret_slots": [
+            {
+                "id": 672,
+                "pos_x": -0.002089,
+                "pos_y": 0.515198,
+                "pos_z": -1.42107,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R104_Object_430_II"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 223,
+                "armor_rear": 63,
+                "armor_side": 166,
+                "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 223
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 189
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 117
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 63
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 58
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 166
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 223
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 223
+                    }
+                ],
+                "gun_pos_x": -1.1e-05,
+                "gun_pos_y": 0.250239,
+                "gun_pos_z": 0.987074,
+                "health": 320,
+                "id": 850,
+                "identifier": "Turret_1_R104_Object_430_II",
+                "name": "Object 430 Version II",
+                "not_in_shop": false,
+                "price": 30000,
+                "rotation_speed": 40,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "R104_Object_430_II",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Turret_01.model",
+                "weight": 7200
+            },
+            {
+                "Guns": null,
+                "armor_front": 248,
+                "armor_rear": 63,
+                "armor_side": 185,
+                "collision_model": "vehicles/russian/R104_Object_430_II/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 248
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 210
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 63
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 64
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 185
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 248
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 90
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 130
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 248
+                    }
+                ],
+                "gun_pos_x": -1e-05,
+                "gun_pos_y": 0.25024,
+                "gun_pos_z": 0.98707,
+                "health": 420,
+                "id": 851,
+                "identifier": "Turret_2_R104_Object_430_II",
+                "name": "Object 430 Version II enhanced",
+                "not_in_shop": false,
+                "price": 61000,
+                "rotation_speed": 40,
+                "rotator_health": 150,
+                "rotator_repair_health": 75,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "R104_Object_430_II",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 390,
+                "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Turret_02.model",
+                "weight": 7700
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_R104_Object_430_II_2",
+                "name": "Chassis_R104_Object_430_II_2",
+                "parent_key": "chassis-Chassis_R104_Object_430_II",
+                "price": 24000,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_R104_Object_430_II",
+                "name": "Turret_2_R104_Object_430_II",
+                "parent_key": "turret-Turret_1_R104_Object_430_II",
+                "price": 23500,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_100mm_D54_obr_45",
+                "name": "_100mm_D54_obr_45",
+                "parent_key": "gun-_100mm_M-63",
+                "price": 59300,
+                "type": "gun"
+            },
+            {
+                "key": "engine-_5TD",
+                "name": "_5TD",
+                "parent_key": "engine-_4TD",
+                "price": 52000,
+                "type": "engine"
+            },
+            {
+                "key": "vehicle-R96_Object_430",
+                "name": "R96_Object_430",
+                "parent_key": "engine-_5TD",
+                "price": 260000,
+                "tank_name": "Obj. 430",
+                "tank_price": 6100000,
+                "tank_slug": "obj-430",
+                "tank_tier": 10,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "radio-R113",
+                "name": "R113",
+                "parent_key": "radio-_9RM",
+                "price": 8700,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_10RT-26E",
+                "name": "_10RT-26E",
+                "parent_key": "radio-R113",
+                "price": 9200,
+                "type": "radio"
+            }
+        ],
+        "version": "v092012",
+        "visual_model": "vehicles/russian/R104_Object_430_II/normal/lod0/Hull.model",
+        "weight": 12813,
+        "xp_factor": 1
+    }
+}

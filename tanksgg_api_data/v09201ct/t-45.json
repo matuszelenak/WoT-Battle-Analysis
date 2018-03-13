@@ -1,0 +1,439 @@
+{
+    "tank": {
+        "ammo_rack_health": 75,
+        "ammo_rack_repair_health": 50,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 30
+            }
+        ],
+        "armor_front": 25,
+        "armor_rear": 25,
+        "armor_side": 15,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.444,
+        "camo_moving": 0.222,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.296,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 7000,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R125_T_45/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.825482,
+                "hull_pos_z": 0,
+                "id": 923,
+                "identifier": "Chassis_R125_T_45",
+                "max_climb_angle": 25,
+                "max_load": 8600,
+                "name": "T-45",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 52,
+                "tank_id": "R125_T_45",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.1,
+                "tier": 2,
+                "visual_model": "vehicles/russian/R125_T_45/normal/lod0/Chassis.model",
+                "weight": 2000
+            }
+        ],
+        "collision_model": "vehicles/russian/R125_T_45/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "The upgraded version of the T-60 tank. Unlike the original vehicle, the T-45 featured enhanced armor and a turret with a 45-mm gun of 1938, as well as a coaxial DT machinegun. The vehicle was deemed obsolete by June 1942 as compared to the T-70. The vehicle never saw mass production. However, one manufactured prototype was sent to the front.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 40,
+                "id": 1017,
+                "identifier": "ZiS-16_A",
+                "name": "ZiS-16",
+                "not_in_shop": true,
+                "power": 85,
+                "price": 1040,
+                "repair_health": 21,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R125_T_45",
+                "tier": 2,
+                "weight": 360
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 41,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 750,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R125_T_45/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 15
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 25
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 68,
+                "id": 1557,
+                "identifier": "_45mm_20KL",
+                "max_ammo": 66,
+                "name": "45 mm 20KL",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2530,
+                "reload_time": 3.6,
+                "repair_health": 34,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 784,
+                "visual_model": "vehicles/russian/R125_T_45/normal/lod0/Gun_01.model",
+                "weight": 250,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 112,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R125_T_45",
+        "name": "T-45",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 1062,
+                "identifier": "_71-TK-3A",
+                "name": "71-TK-3",
+                "not_in_shop": true,
+                "price": 570,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "R125_T_45",
+                "tier": 3,
+                "weight": 100
+            }
+        ],
+        "repair_price": 2,
+        "reverse_speed": 15,
+        "shells": [
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1557,
+                "icon": "ap",
+                "id": "_45mm_UBR-240A",
+                "min_penetration": 38,
+                "module_damage": 61,
+                "name": "UBR-240A",
+                "penetration": 51,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 45,
+                "damage": 47,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 1557,
+                "icon": "ap_cr",
+                "id": "_45mm_UBR-240PA",
+                "min_penetration": 45,
+                "module_damage": 61,
+                "name": "UBR-240PA",
+                "penetration": 84,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 956,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 45,
+                "damage": 62,
+                "explosion_radius": 0.43,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1557,
+                "icon": "he",
+                "id": "_45mm_UOF-240A",
+                "min_penetration": 23,
+                "module_damage": 61,
+                "name": "UOF-240A",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 757,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T-45",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t-45",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": -0.3034,
+        "turret_pos_y": 0.493718,
+        "turret_pos_z": -0.28742,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 35,
+                "armor_rear": 35,
+                "armor_side": 35,
+                "collision_model": "vehicles/russian/R125_T_45/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 35
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.00314,
+                "gun_pos_y": 0.2878,
+                "gun_pos_z": 0.57443,
+                "health": 28,
+                "id": 784,
+                "identifier": "Turret_1_R125_T_45",
+                "name": "T-45",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 34,
+                "rotator_health": 60,
+                "rotator_repair_health": 30,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 20,
+                "surveyor_repair_price": 1,
+                "tank_id": "R125_T_45",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 300,
+                "visual_model": "vehicles/russian/R125_T_45/normal/lod0/Turret_01.model",
+                "weight": 1000
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09201ct",
+        "visual_model": "vehicles/russian/R125_T_45/normal/lod0/Hull.model",
+        "weight": 2890,
+        "xp_factor": 1.5
+    }
+}

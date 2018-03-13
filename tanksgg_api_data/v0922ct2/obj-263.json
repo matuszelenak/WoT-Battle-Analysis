@@ -1,0 +1,756 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 2,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 250
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 250
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 150
+            },
+            {
+                "damage_factor": 1,
+                "name": "commander",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "gunner_1",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "driver",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "loader_1",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "loader_2",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 250,
+        "armor_rear": 50,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.372,
+        "camo_moving": 0.149,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.8,
+        "camo_still": 0.248,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 60000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R93_Object263/collision_client/Chassis.model",
+                "dispersion_movement": 0.14,
+                "dispersion_rotation": 0.14,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 230,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.918758,
+                "hull_pos_z": 0,
+                "id": 974,
+                "identifier": "Chassis_R93_Object263",
+                "max_climb_angle": 25,
+                "max_load": 62000,
+                "name": "Object 263",
+                "not_in_shop": false,
+                "price": 28150,
+                "repair_health": 175,
+                "repair_price": 5,
+                "rotation_speed": 22,
+                "tank_id": "R93_Object263",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 8,
+                "visual_model": "vehicles/russian/R93_Object263/normal/lod0/Chassis.model",
+                "weight": 11000
+            },
+            {
+                "armor": 20,
+                "brake_force": 60000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R93_Object263/collision_client/Chassis.model",
+                "dispersion_movement": 0.12,
+                "dispersion_rotation": 0.12,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 240,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.918758,
+                "hull_pos_z": 0,
+                "id": 975,
+                "identifier": "Chassis_R93_Object263_2",
+                "max_climb_angle": 25,
+                "max_load": 65000,
+                "name": "Object 263 improved",
+                "not_in_shop": false,
+                "price": 63000,
+                "repair_health": 180,
+                "repair_price": 5,
+                "rotation_speed": 25,
+                "tank_id": "R93_Object263",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.3,
+                "tier": 9,
+                "visual_model": "vehicles/russian/R93_Object263/normal/lod0/Chassis.model",
+                "weight": 11000
+            }
+        ],
+        "collision_model": "vehicles/russian/R93_Object263/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "The development of a heavy tank destroyer on the basis of the IS-7 heavy tank was started in 1950. Three design projects were developed, one of which resulted in a full-size wooden prototype. However, further development was discontinued due to phasing out mass-production of the IS-7.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 1068,
+                "identifier": "_2xV_16_1000_A",
+                "name": "2x V-16 (1000)",
+                "not_in_shop": false,
+                "power": 850,
+                "price": 125000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R93_Object263",
+                "tier": 10,
+                "weight": 2900
+            },
+            {
+                "fire_chance": 0.12,
+                "health": 360,
+                "id": 1069,
+                "identifier": "M_50TS",
+                "name": "M-50TS",
+                "not_in_shop": false,
+                "power": 1100,
+                "price": 132000,
+                "repair_health": 180,
+                "repair_price": 10,
+                "tags": "diesel",
+                "tank_id": "R93_Object263",
+                "tier": 10,
+                "weight": 2900
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 55,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 80,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R93_Object263/collision_client/Gun_02.model",
+                "depression": 4,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 210,
+                "id": 1634,
+                "identifier": "_122mm_M62-T2S",
+                "max_ammo": 50,
+                "name": "122 mm M62-C2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 295500,
+                "reload_time": 12.3,
+                "repair_health": 105,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 835,
+                "visual_model": "vehicles/russian/R93_Object263/normal/lod0/Gun_02.model",
+                "weight": 3397,
+                "yaw_left": -12,
+                "yaw_right": 12
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R93_Object263/collision_client/Gun_01.model",
+                "depression": 4,
+                "dispersion": 0.43,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.5,
+                "dispersion_rotation": 0.1,
+                "elevation": 18,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 250
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 210,
+                "id": 1635,
+                "identifier": "_130mm_S-70A",
+                "max_ammo": 42,
+                "name": "130 mm S-70A",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            4
+                        ],
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -18
+                        ],
+                        [
+                            1,
+                            -18
+                        ]
+                    ]
+                },
+                "price": 340000,
+                "reload_time": 15.3,
+                "repair_health": 105,
+                "repair_price": 10,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 835,
+                "visual_model": "vehicles/russian/R93_Object263/normal/lod0/Gun_01.model",
+                "weight": 2980,
+                "yaw_left": -12,
+                "yaw_right": 12
+            }
+        ],
+        "health": 1440,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R93_Object263",
+        "name": "Object 263",
+        "nation": "ussr",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 3510000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 1115,
+                "identifier": "_9RM",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R93_Object263",
+                "tier": 8,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 1116,
+                "identifier": "R113",
+                "name": "R-113",
+                "not_in_shop": false,
+                "price": 52200,
+                "range": 730,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "R93_Object263",
+                "tier": 10,
+                "weight": 80
+            },
+            {
+                "health": 200,
+                "id": 1117,
+                "identifier": "_10RT-26E",
+                "name": "10RT-26",
+                "not_in_shop": false,
+                "price": 56500,
+                "range": 760,
+                "repair_health": 150,
+                "repair_price": 4,
+                "tank_id": "R93_Object263",
+                "tier": 10,
+                "weight": 30
+            }
+        ],
+        "repair_price": 9,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1634,
+                "icon": "ap",
+                "id": "_122mm_BR-471D",
+                "min_penetration": 250,
+                "module_damage": 165,
+                "name": "BR-472",
+                "penetration": 258,
+                "penetration_loss": 0,
+                "price": 1065,
+                "range": 720,
+                "speed": 850,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 122,
+                "damage": 440,
+                "explosion_radius": 0,
+                "gold_price": 13,
+                "gravity": 9.81,
+                "gun_id": 1634,
+                "icon": "hc",
+                "id": "_122mm_BM11",
+                "min_penetration": 340,
+                "module_damage": 165,
+                "name": "BK-9",
+                "penetration": 340,
+                "penetration_loss": 0.05,
+                "price": 5200,
+                "range": 720,
+                "speed": 850,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 122,
+                "damage": 530,
+                "explosion_radius": 2.49,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1634,
+                "icon": "he",
+                "id": "_122mm_UOF-472",
+                "min_penetration": 68,
+                "module_damage": 165,
+                "name": "UOF-472",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 630,
+                "range": 720,
+                "speed": 850,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 130,
+                "damage": 550,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1635,
+                "icon": "ap",
+                "id": "_130mm_UBR-482M",
+                "min_penetration": 260,
+                "module_damage": 180,
+                "name": "UBR-482M",
+                "penetration": 270,
+                "penetration_loss": 0,
+                "price": 1118,
+                "range": 720,
+                "speed": 920,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 130,
+                "damage": 550,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1635,
+                "icon": "ap_cr",
+                "id": "_130mm_UBR-482PM",
+                "min_penetration": 290,
+                "module_damage": 180,
+                "name": "UBR-482PM",
+                "penetration": 300,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1100,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 130,
+                "damage": 750,
+                "explosion_radius": 2.78,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1635,
+                "icon": "he",
+                "id": "_130mm_UOF-482M",
+                "min_penetration": 75,
+                "module_damage": 180,
+                "name": "UOF-482M",
+                "penetration": 75,
+                "penetration_loss": 0,
+                "price": 978,
+                "range": 720,
+                "speed": 920,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Obj. 263",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "obj-263",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "sinai"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 9,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.299812,
+        "turret_pos_z": -1.18644,
+        "turret_slots": [
+            {
+                "id": 654,
+                "pos_x": 0,
+                "pos_y": 0.299812,
+                "pos_z": -1.18644,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "R93_Object263"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R93_Object263/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 10
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.84803,
+                "gun_pos_z": -0.300762,
+                "health": 360,
+                "id": 835,
+                "identifier": "Turret_1_R93_Object263",
+                "name": "Object 263",
+                "not_in_shop": true,
+                "price": 100,
+                "rotation_speed": 28,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 110,
+                "surveyor_repair_health": 55,
+                "surveyor_repair_price": 1,
+                "tank_id": "R93_Object263",
+                "tier": 9,
+                "turret_slot": 0,
+                "view_range": 360,
+                "visual_model": "vehicles/russian/R93_Object263/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_R93_Object263_2",
+                "name": "Chassis_R93_Object263_2",
+                "parent_key": "chassis-Chassis_R93_Object263",
+                "price": 27300,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_130mm_S-70A",
+                "name": "_130mm_S-70A",
+                "parent_key": "gun-_122mm_M62-T2S",
+                "price": 64500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-R149_Object_268_4",
+                "name": "R149_Object_268_4",
+                "parent_key": "gun-_130mm_S-70A",
+                "price": 215300,
+                "tank_name": "Obj. 268 4",
+                "tank_price": 6100000,
+                "tank_slug": "obj-268-4",
+                "tank_tier": 10,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-M_50TS",
+                "name": "M_50TS",
+                "parent_key": "engine-_2xV_16_1000_A",
+                "price": 51500,
+                "type": "engine"
+            },
+            {
+                "key": "radio-R113",
+                "name": "R113",
+                "parent_key": "radio-_9RM",
+                "price": 8700,
+                "type": "radio"
+            },
+            {
+                "key": "radio-_10RT-26E",
+                "name": "_10RT-26E",
+                "parent_key": "radio-R113",
+                "price": 9200,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922ct2",
+        "visual_model": "vehicles/russian/R93_Object263/normal/lod0/Hull.model",
+        "weight": 42690,
+        "xp_factor": 1
+    }
+}

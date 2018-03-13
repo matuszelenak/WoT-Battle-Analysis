@@ -1,0 +1,574 @@
+{
+    "tank": {
+        "ammo_rack_health": 200,
+        "ammo_rack_repair_health": 135,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 100
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "transmission",
+                "primary": false,
+                "value": 0
+            }
+        ],
+        "armor_front": 100,
+        "armor_rear": 80,
+        "armor_side": 80,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.164,
+        "camo_moving": 0.075,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 1.4,
+        "camo_still": 0.129,
+        "chassis": [
+            {
+                "armor": 40,
+                "brake_force": 57000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G04_PzVI_Tiger_I/collision_client/Chassis.model",
+                "dispersion_movement": 0.15,
+                "dispersion_rotation": 0.15,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 40
+                    }
+                ],
+                "health": 210,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.08405,
+                "hull_pos_z": 0,
+                "id": 340,
+                "identifier": "Chassis_G04_PzVI_Tiger_IA",
+                "max_climb_angle": 25,
+                "max_load": 61000,
+                "name": "Pz.Kpfw. Tiger Ausf. E",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 160,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "G04_PzVI_Tiger_IA",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.5,
+                "tier": 7,
+                "visual_model": "vehicles/german/G04_PzVI_Tiger_I/normal/lod0/Chassis.model",
+                "weight": 19000
+            }
+        ],
+        "collision_model": "vehicles/german/G04_PzVI_Tiger_I/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Development of the Tiger I was started in 1937 by the Henschel company. Mass production began in 1942, with a total of 1,354 vehicles manufactured. The tank first saw combat near Leningrad, and Tigers were at the forefront of battles from Tunisia to Kursk. Although production was discontinued in the summer of 1944, the Tiger I continued to see action until the end of the war.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 200,
+                "id": 375,
+                "identifier": "Maybach_HL_210_TRM_P45A",
+                "name": "Maybach HL 210 TRM P45",
+                "not_in_shop": true,
+                "power": 600,
+                "price": 35500,
+                "repair_health": 100,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "G04_PzVI_Tiger_IA",
+                "tier": 7,
+                "weight": 850
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 40,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/german/G04_PzVI_Tiger_I/collision_client/Gun_05.model",
+                "depression": 8,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 15,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 135
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 40
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 70
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_8",
+                        "value": 160
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_9",
+                        "value": 120
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 150,
+                "id": 573,
+                "identifier": "_88mm_KwK_36_L56A",
+                "max_ammo": 92,
+                "name": "8,8 cm Kw.K. 36 L/56",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            8
+                        ],
+                        [
+                            0.394671,
+                            8
+                        ],
+                        [
+                            0.458333,
+                            3
+                        ],
+                        [
+                            0.541667,
+                            3
+                        ],
+                        [
+                            0.605329,
+                            8
+                        ],
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -15
+                        ],
+                        [
+                            1,
+                            -15
+                        ]
+                    ]
+                },
+                "price": 66000,
+                "reload_time": 4.7,
+                "repair_health": 75,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 7,
+                "turret_id": 288,
+                "visual_model": "vehicles/german/G04_PzVI_Tiger_I/normal/lod0/Gun_05.model",
+                "weight": 2050,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1360,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G04_PzVI_Tiger_IA",
+        "name": "Tiger I L/56",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 160,
+                "id": 381,
+                "identifier": "FuG7A",
+                "name": "FuG 7 Ausf. F",
+                "not_in_shop": true,
+                "price": 8160,
+                "range": 710,
+                "repair_health": 96,
+                "repair_price": 3,
+                "tank_id": "G04_PzVI_Tiger_IA",
+                "tier": 6,
+                "weight": 70
+            }
+        ],
+        "repair_price": 3.5,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 88,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 573,
+                "icon": "ap",
+                "id": "_88mm_Pzgr39",
+                "min_penetration": 129,
+                "module_damage": 119,
+                "name": "Pzgr 39",
+                "penetration": 145,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 773,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 88,
+                "damage": 220,
+                "explosion_radius": 0,
+                "gold_price": 8,
+                "gravity": 9.81,
+                "gun_id": 573,
+                "icon": "ap_cr",
+                "id": "_88mm_Pzgr.40",
+                "min_penetration": 168,
+                "module_damage": 119,
+                "name": "Pzgr 40",
+                "penetration": 194,
+                "penetration_loss": 0,
+                "price": 3200,
+                "range": 720,
+                "speed": 966,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 88,
+                "damage": 270,
+                "explosion_radius": 1.4,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 573,
+                "icon": "he",
+                "id": "_88mm_Sprg.18",
+                "min_penetration": 44,
+                "module_damage": 119,
+                "name": "Sprgr 18",
+                "penetration": 44,
+                "penetration_loss": 0,
+                "price": 252,
+                "range": 720,
+                "speed": 773,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Tiger I L/56",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "tiger-i-l56",
+        "tags": [
+            {
+                "name": "heavyTank"
+            },
+            {
+                "name": "improvedVentilation_class3_user"
+            },
+            {
+                "name": "secret"
+            },
+            {
+                "name": "beast"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "lockOutfit"
+            },
+            {
+                "name": "HD"
+            },
+            {
+                "name": "unrecoverable"
+            }
+        ],
+        "tier": 7,
+        "turret_pos_x": 0.001037,
+        "turret_pos_y": 0.772058,
+        "turret_pos_z": -0.166712,
+        "turret_slots": [
+            {
+                "id": 227,
+                "pos_x": 0.001037,
+                "pos_y": 0.772058,
+                "pos_z": -0.166712,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "G04_PzVI_Tiger_IA"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 100,
+                "armor_rear": 80,
+                "armor_side": 80,
+                "collision_model": "vehicles/german/G04_PzVI_Tiger_I/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 100
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 80
+                    }
+                ],
+                "gun_pos_x": 0.008789,
+                "gun_pos_y": 0.397614,
+                "gun_pos_z": 1.18568,
+                "health": 340,
+                "id": 288,
+                "identifier": "Turret_1_G04_PzVI_Tiger_IA",
+                "name": "Pz.Kpfw. Tiger Ausf. E",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 18,
+                "rotator_health": 140,
+                "rotator_repair_health": 70,
+                "rotator_repair_price": 1,
+                "surveyor_health": 90,
+                "surveyor_repair_health": 45,
+                "surveyor_repair_price": 2,
+                "tank_id": "G04_PzVI_Tiger_IA",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 380,
+                "visual_model": "vehicles/german/G04_PzVI_Tiger_I/normal/lod0/Turret_02.model",
+                "weight": 8950
+            }
+        ],
+        "type": "heavy",
+        "unlocks": null,
+        "version": "v0922ct",
+        "visual_model": "vehicles/german/G04_PzVI_Tiger_I/normal/lod0/Hull.model",
+        "weight": 25350,
+        "xp_factor": 1.5
+    }
+}

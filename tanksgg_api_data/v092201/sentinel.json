@@ -1,0 +1,526 @@
+{
+    "tank": {
+        "ammo_rack_health": 120,
+        "ammo_rack_repair_health": 69,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 22.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 50
+            }
+        ],
+        "armor_front": 65,
+        "armor_rear": 45,
+        "armor_side": 45,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.362,
+        "camo_moving": 0.18,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.8,
+        "camo_still": 0.241,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 28000,
+                "center_rotation": false,
+                "collision_model": "vehicles/british/GB33_Sentinel_AC_I/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.00221,
+                "hull_pos_z": 0,
+                "id": 583,
+                "identifier": "Chassis_GB33_Sentinel_AC_I",
+                "max_climb_angle": 25,
+                "max_load": 31000,
+                "name": "AC 1 Sentinel",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "GB33_Sentinel_AC_I",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 2.2,
+                "tier": 4,
+                "visual_model": "vehicles/british/GB33_Sentinel_AC_I/normal/lod0/Chassis.model",
+                "weight": 5000
+            }
+        ],
+        "collision_model": "vehicles/british/GB33_Sentinel_AC_I/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed in 1941 under the program for Australian cruiser tanks. There were plans to produce 2,000 vehicles, but from 1942 through 1943, only 65 vehicles, with serial numbers from 8001 to 8065, were manufactured. In July 1943, it was decided to stop development and cancel the program. The vehicles never saw combat and were used only for training purposes. In 1946, the tanks were removed from service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 104,
+                "id": 636,
+                "identifier": "Cadillac_75_x_3",
+                "name": "Cadillac \"75\" x3",
+                "not_in_shop": true,
+                "power": 330,
+                "price": 10350,
+                "repair_health": 52,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "GB33_Sentinel_AC_I",
+                "tier": 4,
+                "weight": 1000
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 60.4,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1200,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/british/GB33_Sentinel_AC_I/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.37,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 55
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_7",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 66,
+                "id": 966,
+                "identifier": "_2pdr_Gun_Mk_X_A",
+                "max_ammo": 130,
+                "name": "QF 2-pdr Mk. X-A",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 20150,
+                "reload_time": 2.3,
+                "repair_health": 33,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 495,
+                "visual_model": "vehicles/british/GB33_Sentinel_AC_I/normal/lod0/Gun_01.model",
+                "weight": 130,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 296,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "GB33_Sentinel_AC_I",
+        "name": "AC 1 Sentinel",
+        "nation": "uk",
+        "not_in_shop": true,
+        "num_turret_slots": 1,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 676,
+                "identifier": "N19Mk2_Aust",
+                "name": "WS No. 19 Mk. II (Aust.)",
+                "not_in_shop": true,
+                "price": 21000,
+                "range": 450,
+                "repair_health": 72,
+                "repair_price": 3.5,
+                "tank_id": "GB33_Sentinel_AC_I",
+                "tier": 7,
+                "weight": 40
+            }
+        ],
+        "repair_price": 3,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 966,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.X",
+                "min_penetration": 77,
+                "module_damage": 54,
+                "name": "APCBC Mk. X",
+                "penetration": 88,
+                "penetration_loss": 0,
+                "price": 30,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 966,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.1",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 1",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 966,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 15,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Sentinel",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "sentinel",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "enhancedHorizontal_springs_class2_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 4,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.644289,
+        "turret_pos_z": 0.021,
+        "turret_slots": [
+            {
+                "id": 386,
+                "pos_x": 0,
+                "pos_y": 0.644289,
+                "pos_z": 0.021,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "GB33_Sentinel_AC_I"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 65,
+                "armor_side": 65,
+                "collision_model": "vehicles/british/GB33_Sentinel_AC_I/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 31.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 65
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 38.1
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 55
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 50
+                    }
+                ],
+                "gun_pos_x": 1.7e-05,
+                "gun_pos_y": 0.452513,
+                "gun_pos_z": 0.727547,
+                "health": 74,
+                "id": 495,
+                "identifier": "Turret_1_GB33_Sentinel_AC_I",
+                "name": "AC 1 Sentinel",
+                "not_in_shop": true,
+                "price": 8160,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 49,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 49,
+                "surveyor_repair_price": 1,
+                "tank_id": "GB33_Sentinel_AC_I",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/british/GB33_Sentinel_AC_I/normal/lod0/Turret_01.model",
+                "weight": 4000
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v092201",
+        "visual_model": "vehicles/british/GB33_Sentinel_AC_I/normal/lod0/Hull.model",
+        "weight": 17521,
+        "xp_factor": 1.5
+    }
+}

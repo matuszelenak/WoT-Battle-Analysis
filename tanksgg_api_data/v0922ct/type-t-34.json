@@ -1,0 +1,977 @@
+{
+    "tank": {
+        "ammo_rack_health": 130,
+        "ammo_rack_repair_health": 85,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 45
+            }
+        ],
+        "armor_front": 45,
+        "armor_rear": 40,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.38,
+        "camo_moving": 0.19,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 1,
+        "camo_still": 0.253,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 33000,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch21_T34/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 90,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.811766,
+                "hull_pos_z": 0,
+                "id": 63,
+                "identifier": "Chassis_Ch21_T34",
+                "max_climb_angle": 25,
+                "max_load": 29000,
+                "name": "Type T-34",
+                "not_in_shop": false,
+                "price": 2680,
+                "repair_health": 70,
+                "repair_price": 5,
+                "rotation_speed": 40,
+                "tank_id": "Ch21_T34",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.3,
+                "tier": 4,
+                "visual_model": "vehicles/chinese/Ch21_T34/normal/lod0/Chassis.model",
+                "weight": 7800
+            },
+            {
+                "armor": 20,
+                "brake_force": 36500,
+                "center_rotation": false,
+                "collision_model": "vehicles/chinese/Ch21_T34/collision_client/Chassis.model",
+                "dispersion_movement": 0.24,
+                "dispersion_rotation": 0.24,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.811766,
+                "hull_pos_z": 0,
+                "id": 64,
+                "identifier": "Chassis_Ch21_T34_2",
+                "max_climb_angle": 25,
+                "max_load": 32000,
+                "name": "Type T-34M",
+                "not_in_shop": false,
+                "price": 9800,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 42,
+                "tank_id": "Ch21_T34",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.1,
+                "tier": 5,
+                "visual_model": "vehicles/chinese/Ch21_T34/normal/lod0/Chassis.model",
+                "weight": 7800
+            }
+        ],
+        "collision_model": "vehicles/chinese/Ch21_T34/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Among the 1,800 T-34 tanks supplied by the U.S.S.R. to China in the early 1950s, there was a number of T-34-76s. After the tanks saw service in the PLA, almost all of them were sent to North Korea. The usefulness of these tanks was extended by Chinese-designed upgrades, including a new engine and modernized suspension.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 105,
+                "id": 70,
+                "identifier": "V-2",
+                "name": "V-2",
+                "not_in_shop": false,
+                "power": 480,
+                "price": 18750,
+                "repair_health": 52,
+                "repair_price": 4,
+                "tags": "diesel",
+                "tank_id": "Ch21_T34",
+                "tier": 5,
+                "weight": 750
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 145,
+                "id": 71,
+                "identifier": "V-2-34",
+                "name": "V-2-34",
+                "not_in_shop": false,
+                "power": 500,
+                "price": 27860,
+                "repair_health": 72,
+                "repair_price": 6,
+                "tags": "diesel",
+                "tank_id": "Ch21_T34",
+                "tier": 6,
+                "weight": 750
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 55,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch21_T34/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 52
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 100,
+                "identifier": "_76mm_F-34",
+                "max_ammo": 100,
+                "name": "76 mm F-34",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 30550,
+                "reload_time": 3.8,
+                "repair_health": 53,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 57,
+                "visual_model": "vehicles/chinese/Ch21_T34/normal/lod0/Gun_01.model",
+                "weight": 538,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch21_T34/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.46,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 52
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 20
+                    }
+                ],
+                "health": 106,
+                "id": 101,
+                "identifier": "_76mm_F-34",
+                "max_ammo": 100,
+                "name": "76 mm F-34",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 30550,
+                "reload_time": 3.8,
+                "repair_health": 53,
+                "repair_price": 4,
+                "rotation_speed": 39.375,
+                "tier": 4,
+                "turret_id": 58,
+                "visual_model": "vehicles/chinese/Ch21_T34/normal/lod0/Gun_02.model",
+                "weight": 538,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/chinese/Ch21_T34/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.34,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.14,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 52
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 104,
+                "id": 102,
+                "identifier": "_57mm_55-57FG",
+                "max_ammo": 100,
+                "name": "57 mm 55-57FG",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 48000,
+                "reload_time": 2.3,
+                "repair_health": 52,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 5,
+                "turret_id": 58,
+                "visual_model": "vehicles/chinese/Ch21_T34/normal/lod0/Gun_03.model",
+                "weight": 448,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 328,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "Ch21_T34",
+        "name": "Type T-34",
+        "nation": "china",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 430000,
+        "radios": [
+            {
+                "health": 110,
+                "id": 64,
+                "identifier": "_9R",
+                "name": "9R",
+                "not_in_shop": false,
+                "price": 1980,
+                "range": 325,
+                "repair_health": 55,
+                "repair_price": 1,
+                "tank_id": "Ch21_T34",
+                "tier": 4,
+                "weight": 80
+            },
+            {
+                "health": 120,
+                "id": 65,
+                "identifier": "_9RM_shop",
+                "name": "9RM",
+                "not_in_shop": false,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "Ch21_T34",
+                "tier": 8,
+                "weight": 100
+            }
+        ],
+        "repair_price": 5.34,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 100,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 100,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 92,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 100,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 101,
+                "icon": "ap",
+                "id": "_76mm_UBR-354A",
+                "min_penetration": 75,
+                "module_damage": 105,
+                "name": "UBR-354A",
+                "penetration": 86,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 76,
+                "damage": 110,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 101,
+                "icon": "ap_cr",
+                "id": "_76mm_UBR-354MP",
+                "min_penetration": 92,
+                "module_damage": 105,
+                "name": "UBR-354MP",
+                "penetration": 102,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 76,
+                "damage": 156,
+                "explosion_radius": 1.09,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 101,
+                "icon": "he",
+                "id": "_76mm_UOF-354",
+                "min_penetration": 38,
+                "module_damage": 105,
+                "name": "UOF-354",
+                "penetration": 38,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 640,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 102,
+                "icon": "ap",
+                "id": "_57mm_AP_Type_55_57",
+                "min_penetration": 98,
+                "module_damage": 76,
+                "name": "Chuan dun-271",
+                "penetration": 112,
+                "penetration_loss": 0,
+                "price": 56,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 85,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 102,
+                "icon": "ap_cr",
+                "id": "_57mm_APCR_Type_55_57",
+                "min_penetration": 147,
+                "module_damage": 76,
+                "name": "Chuan chao-271",
+                "penetration": 189,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1238,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 57,
+                "damage": 95,
+                "explosion_radius": 0.66,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 102,
+                "icon": "he",
+                "id": "_57mm_HE_Type_55_57",
+                "min_penetration": 29,
+                "module_damage": 76,
+                "name": "Sha bao-271",
+                "penetration": 29,
+                "penetration_loss": 0,
+                "price": 28,
+                "range": 720,
+                "speed": 990,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Type T-34",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "type-t-34",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "enhancedSuspension_Christie_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": 0.0042,
+        "turret_pos_y": 0.744781,
+        "turret_pos_z": 0.556469,
+        "turret_slots": [
+            {
+                "id": 44,
+                "pos_x": 0.0042,
+                "pos_y": 0.744781,
+                "pos_z": 0.556469,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "Ch21_T34"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 52,
+                "armor_rear": 45,
+                "armor_side": 52,
+                "collision_model": "vehicles/chinese/Ch21_T34/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    }
+                ],
+                "gun_pos_x": 0.004926,
+                "gun_pos_y": 0.446011,
+                "gun_pos_z": 0.706587,
+                "health": 82,
+                "id": 57,
+                "identifier": "Turret_1_Ch21_T34",
+                "name": "Type T-34",
+                "not_in_shop": false,
+                "price": 3980,
+                "rotation_speed": 46,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch21_T34",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/chinese/Ch21_T34/normal/lod0/Turret_01.model",
+                "weight": 4300
+            },
+            {
+                "Guns": null,
+                "armor_front": 52,
+                "armor_rear": 45,
+                "armor_side": 52,
+                "collision_model": "vehicles/chinese/Ch21_T34/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 45
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 52
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_12",
+                        "value": 15
+                    }
+                ],
+                "gun_pos_x": 0.004926,
+                "gun_pos_y": 0.446011,
+                "gun_pos_z": 0.706587,
+                "health": 122,
+                "id": 58,
+                "identifier": "Turret_2_Ch21_T34",
+                "name": "Type T-34M",
+                "not_in_shop": false,
+                "price": 10000,
+                "rotation_speed": 48,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "Ch21_T34",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 350,
+                "visual_model": "vehicles/chinese/Ch21_T34/normal/lod0/Turret_02.model",
+                "weight": 4500
+            }
+        ],
+        "type": "medium",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_Ch21_T34_2",
+                "name": "Chassis_Ch21_T34_2",
+                "parent_key": "chassis-Chassis_Ch21_T34",
+                "price": 2000,
+                "type": "chassis"
+            },
+            {
+                "key": "turret-Turret_2_Ch21_T34",
+                "name": "Turret_2_Ch21_T34",
+                "parent_key": "turret-Turret_1_Ch21_T34",
+                "price": 1800,
+                "type": "turret"
+            },
+            {
+                "key": "gun-_57mm_55-57FG",
+                "name": "_57mm_55-57FG",
+                "parent_key": "turret-Turret_2_Ch21_T34",
+                "price": 2400,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-Ch20_Type58",
+                "name": "Ch20_Type58",
+                "parent_key": "turret-Turret_2_Ch21_T34",
+                "price": 33000,
+                "tank_name": "Type 58",
+                "tank_price": 920000,
+                "tank_slug": "type-58",
+                "tank_tier": 6,
+                "tank_type": "medium",
+                "type": "vehicle"
+            },
+            {
+                "key": "vehicle-Ch15_59_16",
+                "name": "Ch15_59_16",
+                "parent_key": "gun-_57mm_55-57FG",
+                "price": 31000,
+                "tank_name": "59-16",
+                "tank_price": 900000,
+                "tank_slug": "59-16",
+                "tank_tier": 6,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-V-2-34",
+                "name": "V-2-34",
+                "parent_key": "engine-V-2",
+                "price": 5000,
+                "type": "engine"
+            },
+            {
+                "key": "radio-_9RM_shop",
+                "name": "_9RM_shop",
+                "parent_key": "radio-_9R",
+                "price": 4040,
+                "type": "radio"
+            }
+        ],
+        "version": "v0922ct",
+        "visual_model": "vehicles/chinese/Ch21_T34/normal/lod0/Hull.model",
+        "weight": 15000,
+        "xp_factor": 1
+    }
+}

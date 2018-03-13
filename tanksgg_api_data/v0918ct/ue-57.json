@@ -1,0 +1,680 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 9
+            }
+        ],
+        "armor_front": 9,
+        "armor_rear": 6,
+        "armor_side": 6,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.707,
+        "camo_moving": 0.283,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.471,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F52_RenaultUE57/collision_client/Chassis.model",
+                "dispersion_movement": 0.28,
+                "dispersion_rotation": 0.28,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.547369,
+                "hull_pos_z": 0,
+                "id": 74,
+                "identifier": "Chassis_RenaultUE57",
+                "max_climb_angle": 25,
+                "max_load": 7800,
+                "name": "Renault UE",
+                "not_in_shop": false,
+                "price": 440,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 28,
+                "tank_id": "F52_RenaultUE57",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.5,
+                "terrain_soft": 2.7,
+                "tier": 2,
+                "visual_model": "vehicles/french/F52_RenaultUE57/normal/lod0/Chassis.model",
+                "weight": 500
+            },
+            {
+                "armor": 5,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/french/F52_RenaultUE57/collision_client/Chassis.model",
+                "dispersion_movement": 0.26,
+                "dispersion_rotation": 0.26,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.547369,
+                "hull_pos_z": 0,
+                "id": 75,
+                "identifier": "Chassis_RenaultUE57_2",
+                "max_climb_angle": 25,
+                "max_load": 7800,
+                "name": "Renault UE bis",
+                "not_in_shop": false,
+                "price": 1800,
+                "repair_health": 55,
+                "repair_price": 5,
+                "rotation_speed": 30,
+                "tank_id": "F52_RenaultUE57",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.3,
+                "terrain_soft": 2.3,
+                "tier": 3,
+                "visual_model": "vehicles/french/F52_RenaultUE57/normal/lod0/Chassis.model",
+                "weight": 500
+            }
+        ],
+        "collision_model": "vehicles/french/F52_RenaultUE57/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "Developed in 1943 in Great Britain by mounting the British 6-pounder gun on the chassis of the French tankette UE2. One prototype was manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 100,
+                "id": 84,
+                "identifier": "Renault_EU",
+                "name": "Renault 85",
+                "not_in_shop": false,
+                "power": 38,
+                "price": 1500,
+                "repair_health": 50,
+                "repair_price": 3,
+                "tags": "diesel",
+                "tank_id": "F52_RenaultUE57",
+                "tier": 1,
+                "weight": 300
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 25,
+                "id": 85,
+                "identifier": "Renault_ACL",
+                "name": "Renault ACL",
+                "not_in_shop": false,
+                "power": 48,
+                "price": 5000,
+                "repair_health": 17,
+                "repair_price": 1,
+                "tags": "gasoline",
+                "tank_id": "F52_RenaultUE57",
+                "tier": 2,
+                "weight": 400
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 36,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F52_RenaultUE57/collision_client/Gun_01.model",
+                "depression": 2,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 76,
+                "id": 141,
+                "identifier": "_47mm_SA-L_Mle.37",
+                "max_ammo": 110,
+                "name": "47 mm SA-L mle. 1937",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 8400,
+                "reload_time": 2.2,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 71,
+                "visual_model": "vehicles/french/F52_RenaultUE57/normal/lod0/Gun_01.model",
+                "weight": 100,
+                "yaw_left": -7,
+                "yaw_right": 7
+            },
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F52_RenaultUE57/collision_client/Gun_02.model",
+                "depression": 2,
+                "dispersion": 0.39,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 94,
+                "id": 142,
+                "identifier": "_57mm_6_pdr_AT_Gun_Mk_IV",
+                "max_ammo": 70,
+                "name": "6-pdr AT Gun Mk. IV",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 25000,
+                "reload_time": 2.8,
+                "repair_health": 47,
+                "repair_price": 4,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 71,
+                "visual_model": "vehicles/french/F52_RenaultUE57/normal/lod0/Gun_02.model",
+                "weight": 450,
+                "yaw_left": -7,
+                "yaw_right": 7
+            }
+        ],
+        "health": 120,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F52_RenaultUE57",
+        "name": "Renault UE 57",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 42500,
+        "radios": [
+            {
+                "health": 100,
+                "id": 77,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F52_RenaultUE57",
+                "tier": 2,
+                "weight": 100
+            },
+            {
+                "health": 140,
+                "id": 78,
+                "identifier": "ER_53",
+                "name": "ER 53",
+                "not_in_shop": false,
+                "price": 3650,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "F52_RenaultUE57",
+                "tier": 5,
+                "weight": 100
+            },
+            {
+                "health": 150,
+                "id": 79,
+                "identifier": "ER_56",
+                "name": "ER 56",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 455,
+                "repair_health": 75,
+                "repair_price": 1.5,
+                "tank_id": "F52_RenaultUE57",
+                "tier": 7,
+                "weight": 150
+            }
+        ],
+        "repair_price": 6.9,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 141,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1932",
+                "min_penetration": 58,
+                "module_damage": 64,
+                "name": "ODR mle. 1932",
+                "penetration": 66,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 855,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 141,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle._1935",
+                "min_penetration": 68,
+                "module_damage": 64,
+                "name": "ODR mle. 1935",
+                "penetration": 98,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 1069,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 141,
+                "icon": "he",
+                "id": "_47mm_Oe_mle._1932",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE mle. 1932",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 855,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 142,
+                "icon": "ap",
+                "id": "_6pdr_AP_MK_8T",
+                "min_penetration": 95,
+                "module_damage": 76,
+                "name": "AP Mk. 8T",
+                "penetration": 110,
+                "penetration_loss": 0,
+                "price": 45,
+                "range": 720,
+                "speed": 892,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 57,
+                "damage": 75,
+                "explosion_radius": 0,
+                "gold_price": 6,
+                "gravity": 9.81,
+                "gun_id": 142,
+                "icon": "ap_cr",
+                "id": "_6pdr_APCR_MK_1T",
+                "min_penetration": 126,
+                "module_damage": 76,
+                "name": "APCR Mk. 1T",
+                "penetration": 180,
+                "penetration_loss": 0,
+                "price": 2400,
+                "range": 720,
+                "speed": 1115,
+                "type": "ARMOR_PIERCING_CR"
+            }
+        ],
+        "short_name": "UE 57",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "ue-57",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "lightAT-SPG"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedSprings_user"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -1.4e-05,
+        "turret_pos_y": 0.333163,
+        "turret_pos_z": -0.856779,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/french/F52_RenaultUE57/collision_client/Turret_02.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 6
+                    }
+                ],
+                "gun_pos_x": 1.4e-05,
+                "gun_pos_y": 0.49722,
+                "gun_pos_z": 0.020961,
+                "health": 30,
+                "id": 71,
+                "identifier": "Turret_1_RenaultUE57",
+                "name": "UE 57",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "F52_RenaultUE57",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/french/F52_RenaultUE57/normal/lod0/Turret_02.model",
+                "weight": 40
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_RenaultUE57_2",
+                "name": "Chassis_RenaultUE57_2",
+                "parent_key": "chassis-Chassis_RenaultUE57",
+                "price": 300,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_57mm_6_pdr_AT_Gun_Mk_IV",
+                "name": "_57mm_6_pdr_AT_Gun_Mk_IV",
+                "parent_key": "gun-_47mm_SA-L_Mle.37",
+                "price": 3500,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F32_Somua_Sau_40",
+                "name": "F32_Somua_Sau_40",
+                "parent_key": "gun-_57mm_6_pdr_AT_Gun_Mk_IV",
+                "price": 3100,
+                "tank_name": "SAu 40",
+                "tank_price": 110000,
+                "tank_slug": "sau-40",
+                "tank_tier": 4,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Renault_ACL",
+                "name": "Renault_ACL",
+                "parent_key": "engine-Renault_EU",
+                "price": 320,
+                "type": "engine"
+            },
+            {
+                "key": "radio-ER_53",
+                "name": "ER_53",
+                "parent_key": "radio-ER_52",
+                "price": 610,
+                "type": "radio"
+            },
+            {
+                "key": "radio-ER_56",
+                "name": "ER_56",
+                "parent_key": "radio-ER_53",
+                "price": 650,
+                "type": "radio"
+            }
+        ],
+        "version": "v0918ct",
+        "visual_model": "vehicles/french/F52_RenaultUE57/normal/lod0/Hull.model",
+        "weight": 1000,
+        "xp_factor": 1
+    }
+}

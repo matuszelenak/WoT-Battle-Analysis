@@ -1,0 +1,1023 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_15",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_16",
+                "primary": false,
+                "value": 10
+            }
+        ],
+        "armor_front": 60,
+        "armor_rear": 40,
+        "armor_side": 40,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.42,
+        "camo_moving": 0.21,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.28,
+        "chassis": [
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F13_AMX38/collision_client/Chassis.model",
+                "dispersion_movement": 0.38,
+                "dispersion_rotation": 0.38,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.908466,
+                "hull_pos_z": 0,
+                "id": 119,
+                "identifier": "Chassis_AMX38",
+                "max_climb_angle": 25,
+                "max_load": 16000,
+                "name": "AMX 38 1er prototype",
+                "not_in_shop": false,
+                "price": 500,
+                "repair_health": 55,
+                "repair_price": 1,
+                "rotation_speed": 30,
+                "tank_id": "F13_AMX38",
+                "terrain_hard": 1.4,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.7,
+                "tier": 2,
+                "visual_model": "vehicles/french/F13_AMX38/normal/lod0/Chassis.model",
+                "weight": 3000
+            },
+            {
+                "armor": 10,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/french/F13_AMX38/collision_client/Chassis.model",
+                "dispersion_movement": 0.36,
+                "dispersion_rotation": 0.36,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 10
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.908466,
+                "hull_pos_z": 0,
+                "id": 120,
+                "identifier": "Chassis_AMX38_2",
+                "max_climb_angle": 25,
+                "max_load": 18000,
+                "name": "AMX 38 s\u00e9rie",
+                "not_in_shop": false,
+                "price": 1850,
+                "repair_health": 60,
+                "repair_price": 1,
+                "rotation_speed": 32,
+                "tank_id": "F13_AMX38",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.5,
+                "tier": 3,
+                "visual_model": "vehicles/french/F13_AMX38/normal/lod0/Chassis.model",
+                "weight": 3000
+            }
+        ],
+        "collision_model": "vehicles/french/F13_AMX38/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "commander",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Developed in 1937\u20131938 under the \"20-ton vehicle\" project and was intended to replace the D2. The project included two turret variants: with a 37-mm or a 47-mm gun. By 1938, two vehicles were built for trials. Never saw mass production.",
+        "engines": [
+            {
+                "fire_chance": 0.15,
+                "health": 50,
+                "id": 131,
+                "identifier": "Aster",
+                "name": "Aster",
+                "not_in_shop": false,
+                "power": 150,
+                "price": 750,
+                "repair_health": 25,
+                "repair_price": 2,
+                "tags": "diesel",
+                "tank_id": "F13_AMX38",
+                "tier": 2,
+                "weight": 540
+            },
+            {
+                "fire_chance": 0.15,
+                "health": 50,
+                "id": 132,
+                "identifier": "Aster_M",
+                "name": "Aster M",
+                "not_in_shop": false,
+                "power": 160,
+                "price": 4500,
+                "repair_health": 25,
+                "repair_price": 2,
+                "tags": "diesel",
+                "tank_id": "F13_AMX38",
+                "tier": 3,
+                "weight": 600
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 25,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F13_AMX38/collision_client/Gun_01.model",
+                "depression": 6,
+                "dispersion": 0.48,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 17,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 60,
+                "id": 195,
+                "identifier": "_37mm_SA38",
+                "max_ammo": 162,
+                "name": "37 mm SA38",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.353005,
+                            6
+                        ],
+                        [
+                            0.416667,
+                            2
+                        ],
+                        [
+                            0.583333,
+                            2
+                        ],
+                        [
+                            0.646995,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -17
+                        ],
+                        [
+                            1,
+                            -17
+                        ]
+                    ]
+                },
+                "price": 1890,
+                "reload_time": 2.4,
+                "repair_health": 30,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 102,
+                "visual_model": "vehicles/french/F13_AMX38/normal/lod0/Gun_01.model",
+                "weight": 70,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F13_AMX38/collision_client/Gun_02.model",
+                "depression": 2,
+                "dispersion": 0.45,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.1,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 56,
+                "id": 196,
+                "identifier": "_25mm_Canon_Raccourci_Mle.1934",
+                "max_ammo": 258,
+                "name": "25 mm Canon Raccourci mle. 1934",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 2320,
+                "reload_time": 1.8,
+                "repair_health": 28,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 2,
+                "turret_id": 102,
+                "visual_model": "vehicles/french/F13_AMX38/normal/lod0/Gun_02.model",
+                "weight": 71,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F13_AMX38/collision_client/Gun_03.model",
+                "depression": 6,
+                "dispersion": 0.53,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.18,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 197,
+                "identifier": "_47mm_SA34",
+                "max_ammo": 148,
+                "name": "47 mm SA34",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.353005,
+                            6
+                        ],
+                        [
+                            0.416667,
+                            2
+                        ],
+                        [
+                            0.583333,
+                            2
+                        ],
+                        [
+                            0.646995,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2400,
+                "reload_time": 3.2,
+                "repair_health": 35,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 2,
+                "turret_id": 102,
+                "visual_model": "vehicles/french/F13_AMX38/normal/lod0/Gun_03.model",
+                "weight": 90,
+                "yaw_left": -180,
+                "yaw_right": 180
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.5,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/french/F13_AMX38/collision_client/Gun_04.model",
+                "depression": 6,
+                "dispersion": 0.47,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.2,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 30
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 76,
+                "id": 198,
+                "identifier": "_47mm_SA35",
+                "max_ammo": 120,
+                "name": "47 mm SA35",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            6
+                        ],
+                        [
+                            0.353005,
+                            6
+                        ],
+                        [
+                            0.416667,
+                            2
+                        ],
+                        [
+                            0.583333,
+                            2
+                        ],
+                        [
+                            0.646995,
+                            6
+                        ],
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 3250,
+                "reload_time": 3.2,
+                "repair_health": 38,
+                "repair_price": 1,
+                "rotation_speed": 39.375,
+                "tier": 3,
+                "turret_id": 102,
+                "visual_model": "vehicles/french/F13_AMX38/normal/lod0/Gun_04.model",
+                "weight": 100,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 176,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "F13_AMX38",
+        "name": "AMX 38",
+        "nation": "france",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 41000,
+        "radios": [
+            {
+                "health": 100,
+                "id": 125,
+                "identifier": "ER_52",
+                "name": "ER 52",
+                "not_in_shop": false,
+                "price": 0,
+                "range": 300,
+                "repair_health": 49,
+                "repair_price": 0.5,
+                "tank_id": "F13_AMX38",
+                "tier": 2,
+                "weight": 100
+            },
+            {
+                "health": 140,
+                "id": 126,
+                "identifier": "ER_53",
+                "name": "ER 53",
+                "not_in_shop": false,
+                "price": 3650,
+                "range": 360,
+                "repair_health": 100,
+                "repair_price": 1,
+                "tank_id": "F13_AMX38",
+                "tier": 5,
+                "weight": 100
+            }
+        ],
+        "repair_price": 4.2,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 195,
+                "icon": "ap",
+                "id": "_37mm_Odr_mle._1932",
+                "min_penetration": 27,
+                "module_damage": 50,
+                "name": "ODR mle. 1932",
+                "penetration": 34,
+                "penetration_loss": 0,
+                "price": 14,
+                "range": 720,
+                "speed": 705,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 37,
+                "damage": 40,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 195,
+                "icon": "ap_cr",
+                "id": "_37mm_Odr_mle._1939",
+                "min_penetration": 36,
+                "module_damage": 50,
+                "name": "ODR mle. 1939",
+                "penetration": 67,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 881,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 37,
+                "damage": 45,
+                "explosion_radius": 0.31,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 195,
+                "icon": "he",
+                "id": "_37mm_Oe_mle._1932",
+                "min_penetration": 24,
+                "module_damage": 50,
+                "name": "OE mle. 1932",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 705,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 25,
+                "damage": 27,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 196,
+                "icon": "ap",
+                "id": "_25mm_Balle_T.P._mle._1928",
+                "min_penetration": 34,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1928",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 5,
+                "range": 400,
+                "speed": 950,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 25,
+                "damage": 27,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 196,
+                "icon": "ap_cr",
+                "id": "_25mm_Balle_T.P._mle._1934P",
+                "min_penetration": 35,
+                "module_damage": 34,
+                "name": "Balle T.P. mle. 1934P",
+                "penetration": 68,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 400,
+                "speed": 1188,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 197,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1892",
+                "min_penetration": 15,
+                "module_damage": 64,
+                "name": "ODR mle. 1892",
+                "penetration": 25,
+                "penetration_loss": 0,
+                "price": 10,
+                "range": 720,
+                "speed": 450,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 50,
+                "explosion_radius": 0,
+                "gold_price": 2,
+                "gravity": 9.81,
+                "gun_id": 197,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle_1935_b",
+                "min_penetration": 34,
+                "module_damage": 64,
+                "name": "ODR mle. 1935 Bref",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 800,
+                "range": 720,
+                "speed": 563,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 62,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 197,
+                "icon": "he",
+                "id": "_47mm_Oe_type_D",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE type D",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 450,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 198,
+                "icon": "ap",
+                "id": "_47mm_Odr_mle._1932",
+                "min_penetration": 38,
+                "module_damage": 64,
+                "name": "ODR mle. 1932",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 20,
+                "range": 720,
+                "speed": 660,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 47,
+                "damage": 55,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 198,
+                "icon": "ap_cr",
+                "id": "_47mm_Odr_mle._1935",
+                "min_penetration": 44,
+                "module_damage": 64,
+                "name": "ODR mle. 1935",
+                "penetration": 79,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 825,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 47,
+                "damage": 70,
+                "explosion_radius": 0.47,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 198,
+                "icon": "he",
+                "id": "_47mm_Oe_mle._1932",
+                "min_penetration": 24,
+                "module_damage": 64,
+                "name": "OE mle. 1932",
+                "penetration": 24,
+                "penetration_loss": 0,
+                "price": 13,
+                "range": 720,
+                "speed": 660,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "AMX 38",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "amx-38",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "improvedVentilation_class1_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedVertical_springs_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": -0.000131,
+        "turret_pos_y": 0.519139,
+        "turret_pos_z": 0.469758,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 60,
+                "armor_rear": 40,
+                "armor_side": 40,
+                "collision_model": "vehicles/french/F13_AMX38/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 40
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0.079365,
+                "gun_pos_y": 0.330134,
+                "gun_pos_z": 0.642622,
+                "health": 44,
+                "id": 102,
+                "identifier": "Turret_1_AMX38",
+                "name": "AMX 38",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 28,
+                "rotator_health": 70,
+                "rotator_repair_health": 35,
+                "rotator_repair_price": 1,
+                "surveyor_health": 50,
+                "surveyor_repair_health": 25,
+                "surveyor_repair_price": 1,
+                "tank_id": "F13_AMX38",
+                "tier": 2,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/french/F13_AMX38/normal/lod0/Turret_01.model",
+                "weight": 2500
+            }
+        ],
+        "type": "light",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_AMX38_2",
+                "name": "Chassis_AMX38_2",
+                "parent_key": "chassis-Chassis_AMX38",
+                "price": 315,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_25mm_Canon_Raccourci_Mle.1934",
+                "name": "_25mm_Canon_Raccourci_Mle.1934",
+                "parent_key": "gun-_37mm_SA38",
+                "price": 150,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_47mm_SA34",
+                "name": "_47mm_SA34",
+                "parent_key": "gun-_37mm_SA38",
+                "price": 95,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_47mm_SA35",
+                "name": "_47mm_SA35",
+                "parent_key": "gun-_47mm_SA34",
+                "price": 265,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-F14_AMX40",
+                "name": "F14_AMX40",
+                "parent_key": "gun-_47mm_SA34",
+                "price": 4610,
+                "tank_name": "AMX 40",
+                "tank_price": 147500,
+                "tank_slug": "amx-40",
+                "tank_tier": 4,
+                "tank_type": "light",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Aster_M",
+                "name": "Aster_M",
+                "parent_key": "engine-Aster",
+                "price": 340,
+                "type": "engine"
+            },
+            {
+                "key": "radio-ER_53",
+                "name": "ER_53",
+                "parent_key": "radio-ER_52",
+                "price": 610,
+                "type": "radio"
+            }
+        ],
+        "version": "v09201",
+        "visual_model": "vehicles/french/F13_AMX38/normal/lod0/Hull.model",
+        "weight": 9500,
+        "xp_factor": 1
+    }
+}

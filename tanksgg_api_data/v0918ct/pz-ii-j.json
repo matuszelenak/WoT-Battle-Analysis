@@ -1,0 +1,437 @@
+{
+    "tank": {
+        "ammo_rack_health": 100,
+        "ammo_rack_repair_health": 70,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 80
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_11",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 80
+            }
+        ],
+        "armor_front": 80,
+        "armor_rear": 50,
+        "armor_side": 50,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.458,
+        "camo_moving": 0.229,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.6,
+        "camo_still": 0.305,
+        "chassis": [
+            {
+                "armor": 24,
+                "brake_force": 36000,
+                "center_rotation": true,
+                "collision_model": "vehicles/german/G36_PzII_J/collision_client/Chassis.model",
+                "dispersion_movement": 0.2,
+                "dispersion_rotation": 0.2,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 24
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 24
+                    }
+                ],
+                "health": 80,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.861908,
+                "hull_pos_z": 0,
+                "id": 181,
+                "identifier": "PzII_ausf_J",
+                "max_climb_angle": 25,
+                "max_load": 18850,
+                "name": "Pz.Kpfw. II Ausf. J",
+                "not_in_shop": true,
+                "price": 0,
+                "repair_health": 60,
+                "repair_price": 5,
+                "rotation_speed": 32,
+                "tank_id": "G36_PzII_J",
+                "terrain_hard": 1.2,
+                "terrain_medium": 1.6,
+                "terrain_soft": 2.5,
+                "tier": 6,
+                "visual_model": "vehicles/german/G36_PzII_J/normal/lod0/Chassis.model",
+                "weight": 4200
+            }
+        ],
+        "collision_model": "vehicles/german/G36_PzII_J/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Reconnaissance tank with reinforced armor. The vehicle was a further development of the Pz.Kpfw. II. In October 1939, a preproduction batch was ordered, and the first prototype was built in July 1940. From 1943 through 1944, seven vehicles were used by the 12th Panzer Division on the Eastern Front. A total of 22 tanks were manufactured.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 70,
+                "id": 198,
+                "identifier": "Maybach_HL45P",
+                "name": "Maybach HL 45 P",
+                "not_in_shop": true,
+                "power": 160,
+                "price": 10000,
+                "repair_health": 40,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "G36_PzII_J",
+                "tier": 4,
+                "weight": 500
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 31,
+        "fuel_tank_health": 125,
+        "fuel_tank_repair_health": 50,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 1000,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.4,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0.133333,
+                "clip_size": 10,
+                "collision_model": "vehicles/german/G36_PzII_J/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.57,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 1.2,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 20
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 40,
+                "id": 311,
+                "identifier": "_20mm_KwK_38_L55A",
+                "max_ammo": 400,
+                "name": "2 cm Kw.K. 38",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 2390,
+                "reload_time": 3,
+                "repair_health": 20,
+                "repair_price": 1,
+                "rotation_speed": 43.75,
+                "tier": 1,
+                "turret_id": 154,
+                "visual_model": "vehicles/german/G36_PzII_J/normal/lod0/Gun_01.model",
+                "weight": 70,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 208,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "G36_PzII_J",
+        "name": "Pz.Kpfw. II Ausf. J",
+        "nation": "germany",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 100,
+                "id": 193,
+                "identifier": "FuG6",
+                "name": "FuG 6",
+                "not_in_shop": true,
+                "price": 2220,
+                "range": 345,
+                "repair_health": 60,
+                "repair_price": 1,
+                "tank_id": "G36_PzII_J",
+                "tier": 4,
+                "weight": 70
+            }
+        ],
+        "repair_price": 2.6,
+        "reverse_speed": 12,
+        "shells": [
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 311,
+                "icon": "ap",
+                "id": "_20mm_Pzgr39",
+                "min_penetration": 16,
+                "module_damage": 27,
+                "name": "Pzgr 39",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 3,
+                "range": 400,
+                "speed": 780,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 20,
+                "damage": 11,
+                "explosion_radius": 0,
+                "gold_price": 1,
+                "gravity": 9.81,
+                "gun_id": 311,
+                "icon": "ap_cr",
+                "id": "_20cm_Pzgr40",
+                "min_penetration": 23,
+                "module_damage": 27,
+                "name": "Pzgr 40",
+                "penetration": 46,
+                "penetration_loss": 0,
+                "price": 400,
+                "range": 400,
+                "speed": 975,
+                "type": "ARMOR_PIERCING_CR"
+            }
+        ],
+        "short_name": "Pz. II J",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "pz-ii-j",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "enhancedTorsions1t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 3,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.710468,
+        "turret_pos_z": 0.001022,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 80,
+                "armor_rear": 50,
+                "armor_side": 50,
+                "collision_model": "vehicles/german/G36_PzII_J/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 80
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 25
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 25
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0.203255,
+                "gun_pos_z": 0.716321,
+                "health": 52,
+                "id": 154,
+                "identifier": "PzIIturm_ausf_J",
+                "name": "Pz.Kpfw. II Ausf. J",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 40,
+                "rotator_health": 80,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 60,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "G36_PzII_J",
+                "tier": 4,
+                "turret_slot": 0,
+                "view_range": 320,
+                "visual_model": "vehicles/german/G36_PzII_J/normal/lod0/Turret_01.model",
+                "weight": 2000
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v0918ct",
+        "visual_model": "vehicles/german/G36_PzII_J/normal/lod0/Hull.model",
+        "weight": 10800,
+        "xp_factor": 1.5
+    }
+}

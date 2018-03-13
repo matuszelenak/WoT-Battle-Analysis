@@ -1,0 +1,461 @@
+{
+    "tank": {
+        "ammo_rack_health": 80,
+        "ammo_rack_repair_health": 55,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 16
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 14
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 7
+            }
+        ],
+        "armor_front": 16,
+        "armor_rear": 10,
+        "armor_side": 14,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.413,
+        "camo_moving": 0.206,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 0.4,
+        "camo_still": 0.275,
+        "chassis": [
+            {
+                "armor": 5,
+                "brake_force": 35500,
+                "center_rotation": false,
+                "collision_model": "vehicles/russian/R84_Tetrarch_LL/collision_client/Chassis.model",
+                "dispersion_movement": 0.29,
+                "dispersion_rotation": 0.29,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 5
+                    }
+                ],
+                "health": 60,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.640557,
+                "hull_pos_z": 0,
+                "id": 895,
+                "identifier": "Chassis_Tetrarch_LL",
+                "max_climb_angle": 25,
+                "max_load": 7900,
+                "name": "Tetrarch",
+                "not_in_shop": true,
+                "price": 600,
+                "repair_health": 45,
+                "repair_price": 5,
+                "rotation_speed": 47,
+                "tank_id": "R84_Tetrarch_LL",
+                "terrain_hard": 1.03,
+                "terrain_medium": 1.37,
+                "terrain_soft": 2.51,
+                "tier": 2,
+                "visual_model": "vehicles/russian/R84_Tetrarch_LL/normal/lod0/Chassis.model",
+                "weight": 1000
+            }
+        ],
+        "collision_model": "vehicles/russian/R84_Tetrarch_LL/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "loader"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            }
+        ],
+        "description": "Developed in 1936 by the Vickers-Armstrong company. A total of 177 vehicles in two basic modifications (Mk I and Mk ICS) were manufactured from 1941 through 1942. In 1942, 20 vehicles were delivered to the U.S.S.R. under Lend-Lease, of which 19 fought on the Eastern Front until October 1943.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 60,
+                "id": 997,
+                "identifier": "Medous_MAT",
+                "name": "Meadows MAT",
+                "not_in_shop": true,
+                "power": 180,
+                "price": 4130,
+                "repair_health": 30,
+                "repair_price": 3,
+                "tags": "gasoline",
+                "tank_id": "R84_Tetrarch_LL",
+                "tier": 3,
+                "weight": 362
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 64,
+        "fuel_tank_health": 100,
+        "fuel_tank_repair_health": 40,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 200,
+        "gold_price": 750,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.28571,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R84_Tetrarch_LL/collision_client/Gun_01.model",
+                "depression": 10,
+                "dispersion": 0.4,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.16,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 16
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 10
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 7
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 70,
+                "id": 1588,
+                "identifier": "_2pdr_QFSA",
+                "max_ammo": 50,
+                "name": "QF 2-pdr Mk. IX-A",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 20150,
+                "reload_time": 2.85714,
+                "repair_health": 35,
+                "repair_price": 2,
+                "rotation_speed": 43.75,
+                "tier": 4,
+                "turret_id": 765,
+                "visual_model": "vehicles/russian/R84_Tetrarch_LL/normal/lod0/Gun_01.model",
+                "weight": 130,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 112,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R84_Tetrarch_LL",
+        "name": "Tetrarch",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 150,
+                "id": 1043,
+                "identifier": "Tip_9",
+                "name": "Type 9",
+                "not_in_shop": true,
+                "price": 18700,
+                "range": 545,
+                "repair_health": 125,
+                "repair_price": 1.5,
+                "tank_id": "R84_Tetrarch_LL",
+                "tier": 7,
+                "weight": 100
+            }
+        ],
+        "repair_price": 2,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1588,
+                "icon": "ap",
+                "id": "_2pdr_AP_Mk.1T",
+                "min_penetration": 54,
+                "module_damage": 54,
+                "name": "AP Mk. 1T",
+                "penetration": 64,
+                "penetration_loss": 0,
+                "price": 25,
+                "range": 720,
+                "speed": 792,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 40,
+                "damage": 45,
+                "explosion_radius": 0,
+                "gold_price": 3,
+                "gravity": 9.81,
+                "gun_id": 1588,
+                "icon": "ap_cr",
+                "id": "_2pdr_APCNR_Mk.1",
+                "min_penetration": 104,
+                "module_damage": 54,
+                "name": "APCNR Mk. 1",
+                "penetration": 121,
+                "penetration_loss": 0,
+                "price": 1200,
+                "range": 720,
+                "speed": 990,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 40,
+                "damage": 60,
+                "explosion_radius": 0.35,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1588,
+                "icon": "he",
+                "id": "_2pdr_HE_Mk.2",
+                "min_penetration": 23,
+                "module_damage": 54,
+                "name": "HE Mk. 2",
+                "penetration": 23,
+                "penetration_loss": 0,
+                "price": 19,
+                "range": 720,
+                "speed": 792,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "Tetrarch",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "tetrarch",
+        "tags": [
+            {
+                "name": "lightTank"
+            },
+            {
+                "name": "lendLeaseVehicle"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 2,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.689273,
+        "turret_pos_z": 0.04966,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 16,
+                "armor_rear": 10,
+                "armor_side": 14,
+                "collision_model": "vehicles/russian/R84_Tetrarch_LL/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 16
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 14
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 10
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 7
+                    }
+                ],
+                "gun_pos_x": -4.7e-05,
+                "gun_pos_y": 0.354081,
+                "gun_pos_z": 0.397448,
+                "health": 28,
+                "id": 765,
+                "identifier": "Turret_1_Tetrarch_LL",
+                "name": "Tetrarch",
+                "not_in_shop": true,
+                "price": 650,
+                "rotation_speed": 41.13,
+                "rotator_health": 60,
+                "rotator_repair_health": 40,
+                "rotator_repair_price": 1,
+                "surveyor_health": 40,
+                "surveyor_repair_health": 30,
+                "surveyor_repair_price": 1,
+                "tank_id": "R84_Tetrarch_LL",
+                "tier": 1,
+                "turret_slot": 0,
+                "view_range": 260,
+                "visual_model": "vehicles/russian/R84_Tetrarch_LL/normal/lod0/Turret_01.model",
+                "weight": 1000
+            }
+        ],
+        "type": "light",
+        "unlocks": null,
+        "version": "v09171ct",
+        "visual_model": "vehicles/russian/R84_Tetrarch_LL/normal/lod0/Hull.model",
+        "weight": 4453,
+        "xp_factor": 1.5
+    }
+}

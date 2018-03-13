@@ -1,0 +1,569 @@
+{
+    "tank": {
+        "ammo_rack_health": 260,
+        "ammo_rack_repair_health": 180,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 152.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 127
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 76.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": false,
+                "value": 30.5
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 38.1
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 57.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 114.3
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 110
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 88.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 60.9
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 177.8
+            }
+        ],
+        "armor_front": 152.4,
+        "armor_rear": 25.4,
+        "armor_side": 76.2,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.218,
+        "camo_moving": 0.109,
+        "camo_net": 0.1,
+        "camo_paint": 0.03,
+        "camo_price_factor": 2,
+        "camo_still": 0.145,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 39500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A120_M48A5/collision_client/Chassis.model",
+                "dispersion_movement": 0.1,
+                "dispersion_rotation": 0.1,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 250,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.17557,
+                "hull_pos_z": 0,
+                "id": 790,
+                "identifier": "Chassis_A120_M48A5",
+                "max_climb_angle": 25,
+                "max_load": 50350,
+                "name": "M48A5 Patton",
+                "not_in_shop": true,
+                "price": 82500,
+                "repair_health": 190,
+                "repair_price": 5,
+                "rotation_speed": 50,
+                "tank_id": "A120_M48A5",
+                "terrain_hard": 0.8,
+                "terrain_medium": 0.9,
+                "terrain_soft": 1.8,
+                "tier": 10,
+                "visual_model": "vehicles/american/A120_M48A5/normal/lod0/Chassis.model",
+                "weight": 8000
+            }
+        ],
+        "collision_model": "vehicles/american/A120_M48A5/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "A modification of the M48 tank of the 1970s, developed to modernize the remaining M48 tanks in service up to the M60 tank's level. The modification featured a new engine, armament, and fire control system. Apart from armor protection, the 2,570 upgraded vehicles were practically indistinguishable from the M60 that featured the same armament and engine.",
+        "engines": [
+            {
+                "fire_chance": 0.12,
+                "health": 285,
+                "id": 872,
+                "identifier": "Continental_AV-1790-7B",
+                "name": "Continental AV-1790-7B",
+                "not_in_shop": false,
+                "power": 810,
+                "price": 100000,
+                "repair_health": 142,
+                "repair_price": 8,
+                "tags": "gasoline",
+                "tank_id": "A120_M48A5",
+                "tier": 10,
+                "weight": 1171
+            }
+        ],
+        "fake_turret": false,
+        "forward_speed": 45,
+        "fuel_tank_health": 200,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 300,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A120_M48A5/collision_client/Gun_01.model",
+                "depression": 9,
+                "dispersion": 0.36,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 19,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 241.3
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 57.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 114.3
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 45
+                    }
+                ],
+                "health": 208,
+                "id": 1315,
+                "identifier": "_105mm_Gun_M68",
+                "max_ammo": 57,
+                "name": "105 mm Gun M68",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            9
+                        ],
+                        [
+                            0.333333,
+                            9
+                        ],
+                        [
+                            0.361111,
+                            4
+                        ],
+                        [
+                            0.402778,
+                            0
+                        ],
+                        [
+                            0.463889,
+                            -2
+                        ],
+                        [
+                            0.536111,
+                            -2
+                        ],
+                        [
+                            0.638889,
+                            5
+                        ],
+                        [
+                            0.666667,
+                            9
+                        ],
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -19
+                        ],
+                        [
+                            1,
+                            -19
+                        ]
+                    ]
+                },
+                "price": 325000,
+                "reload_time": 8.35,
+                "repair_health": 104,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 10,
+                "turret_id": 675,
+                "visual_model": "vehicles/american/A120_M48A5/normal/lod0/Gun_01.model",
+                "weight": 2850,
+                "yaw_left": -180,
+                "yaw_right": 180
+            }
+        ],
+        "health": 1600,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A120_M48A5",
+        "name": "M48A5 Patton",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 920,
+                "identifier": "AN-VRC-7",
+                "name": "AN/VRC-7",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A120_M48A5",
+                "tier": 10,
+                "weight": 100
+            }
+        ],
+        "repair_price": 12.94,
+        "reverse_speed": 20,
+        "shells": [
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1315,
+                "icon": "ap_cr",
+                "id": "_105mm_APCR_M68M2",
+                "min_penetration": 258,
+                "module_damage": 150,
+                "name": "APDS-T M392",
+                "penetration": 268,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 720,
+                "speed": 1478,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 390,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1315,
+                "icon": "hc",
+                "id": "_105mm_HEAT-T_T384E4",
+                "min_penetration": 330,
+                "module_damage": 150,
+                "name": "HEAT-T T384E4",
+                "penetration": 330,
+                "penetration_loss": 0.05,
+                "price": 4800,
+                "range": 720,
+                "speed": 1173,
+                "type": "HOLLOW_CHARGE"
+            },
+            {
+                "caliber": 105,
+                "damage": 480,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1315,
+                "icon": "he",
+                "id": "_105mm_HE_M68M2",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "HEP-T M393",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 1173,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "M48 Patton",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "m48-patton",
+        "tags": [
+            {
+                "name": "mediumTank"
+            },
+            {
+                "name": "mediumTank3"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "aimingStabilizer_Mk1_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "patton"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0.001963,
+        "turret_pos_y": 0.462757,
+        "turret_pos_z": 0.577502,
+        "turret_slots": [
+            {
+                "id": 523,
+                "pos_x": 0.001963,
+                "pos_y": 0.462757,
+                "pos_z": 0.577502,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A120_M48A5"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 254,
+                "armor_rear": 50.8,
+                "armor_side": 76.2,
+                "collision_model": "vehicles/american/A120_M48A5/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 254
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 139.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 127
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 101.6
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 88.9
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_9",
+                        "value": 63.5
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_10",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_11",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_12",
+                        "value": 25.4
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_13",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_14",
+                        "value": 50.8
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_15",
+                        "value": 76.2
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_16",
+                        "value": 50.8
+                    }
+                ],
+                "gun_pos_x": -0.001963,
+                "gun_pos_y": 0.394561,
+                "gun_pos_z": 1.18408,
+                "health": 400,
+                "id": 675,
+                "identifier": "Turret_1_A120_M48A5",
+                "name": "M48A5 Patton",
+                "not_in_shop": true,
+                "price": 66000,
+                "rotation_speed": 40,
+                "rotator_health": 170,
+                "rotator_repair_health": 85,
+                "rotator_repair_price": 1,
+                "surveyor_health": 120,
+                "surveyor_repair_health": 60,
+                "surveyor_repair_price": 1,
+                "tank_id": "A120_M48A5",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 420,
+                "visual_model": "vehicles/american/A120_M48A5/normal/lod0/Turret_01.model",
+                "weight": 8200
+            }
+        ],
+        "type": "medium",
+        "unlocks": null,
+        "version": "v092201",
+        "visual_model": "vehicles/american/A120_M48A5/normal/lod0/Hull.model",
+        "weight": 27098,
+        "xp_factor": 1
+    }
+}

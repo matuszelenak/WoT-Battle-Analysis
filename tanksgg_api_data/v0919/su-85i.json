@@ -1,0 +1,484 @@
+{
+    "tank": {
+        "ammo_rack_health": 130,
+        "ammo_rack_repair_health": 85,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 60
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 45
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 50
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 65
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 10
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 15
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_14",
+                "primary": false,
+                "value": 55
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 30
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 90
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_28",
+                "primary": false,
+                "value": 20
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_29",
+                "primary": false,
+                "value": 40
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_30",
+                "primary": false,
+                "value": 35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_31",
+                "primary": false,
+                "value": 70
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_32",
+                "primary": false,
+                "value": 55
+            }
+        ],
+        "armor_front": 60,
+        "armor_rear": 50,
+        "armor_side": 30,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.537,
+        "camo_moving": 0.215,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1,
+        "camo_still": 0.358,
+        "chassis": [
+            {
+                "armor": 15,
+                "brake_force": 22000,
+                "center_rotation": true,
+                "collision_model": "vehicles/russian/R78_SU_85I/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 15
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 15
+                    }
+                ],
+                "health": 100,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.03527,
+                "hull_pos_z": 0,
+                "id": 884,
+                "identifier": "Chassis_SU_85I",
+                "max_climb_angle": 25,
+                "max_load": 24380,
+                "name": "SU-85I",
+                "not_in_shop": true,
+                "price": 8740,
+                "repair_health": 75,
+                "repair_price": 5,
+                "rotation_speed": 48,
+                "tank_id": "R78_SU_85I",
+                "terrain_hard": 1,
+                "terrain_medium": 1.1,
+                "terrain_soft": 2.1,
+                "tier": 6,
+                "visual_model": "vehicles/russian/R78_SU_85I/normal/lod0/Chassis.model",
+                "weight": 7000
+            }
+        ],
+        "collision_model": "vehicles/russian/R78_SU_85I/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "radioman"
+            }
+        ],
+        "description": "Along with the creation of the SU-76I, there were attempts to mount a 85-mm gun on the captured German Pz.Kpfw. III tanks. The vehicle never entered mass production or saw service.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 86,
+                "id": 980,
+                "identifier": "Maybach_HL_120_TRM_A",
+                "name": "Maybach HL 120 TRM",
+                "not_in_shop": true,
+                "power": 300,
+                "price": 10000,
+                "repair_health": 42,
+                "repair_price": 4,
+                "tags": "gasoline",
+                "tank_id": "R78_SU_85I",
+                "tier": 4,
+                "weight": 920
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 50,
+        "fuel_tank_health": 150,
+        "fuel_tank_repair_health": 60,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 250,
+        "gold_price": 2300,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 2.3,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/russian/R78_SU_85I/collision_client/Gun_01.model",
+                "depression": 5,
+                "dispersion": 0.42,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3,
+                "dispersion_rotation": 0.08,
+                "elevation": 25,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_3",
+                        "value": 60
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_5",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 10
+                    }
+                ],
+                "health": 122,
+                "id": 1546,
+                "identifier": "_85mm_D-5S-85A_1",
+                "max_ammo": 58,
+                "name": "85 mm D-5S-85A",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -25
+                        ],
+                        [
+                            1,
+                            -25
+                        ]
+                    ]
+                },
+                "price": 81930,
+                "reload_time": 4.5,
+                "repair_health": 61,
+                "repair_price": 6,
+                "rotation_speed": 39.375,
+                "tier": 6,
+                "turret_id": 753,
+                "visual_model": "vehicles/russian/R78_SU_85I/normal/lod0/Gun_01.model",
+                "weight": 1215,
+                "yaw_left": -10,
+                "yaw_right": 10
+            }
+        ],
+        "health": 304,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "R78_SU_85I",
+        "name": "SU-85I",
+        "nation": "ussr",
+        "not_in_shop": true,
+        "num_turret_slots": 0,
+        "price": 0,
+        "radios": [
+            {
+                "health": 120,
+                "id": 1027,
+                "identifier": "_9RM_O",
+                "name": "9RM",
+                "not_in_shop": true,
+                "price": 24240,
+                "range": 525,
+                "repair_health": 60,
+                "repair_price": 1.5,
+                "tank_id": "R78_SU_85I",
+                "tier": 8,
+                "weight": 30
+            }
+        ],
+        "repair_price": 6,
+        "reverse_speed": 14,
+        "shells": [
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1546,
+                "icon": "ap",
+                "id": "_85mm_UBR-365K",
+                "min_penetration": 111,
+                "module_damage": 115,
+                "name": "UBR-365K",
+                "penetration": 119,
+                "penetration_loss": 0,
+                "price": 109,
+                "range": 720,
+                "speed": 800,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 85,
+                "damage": 160,
+                "explosion_radius": 0,
+                "gold_price": 7,
+                "gravity": 9.81,
+                "gun_id": 1546,
+                "icon": "ap_cr",
+                "id": "_85mm_UBR-365P",
+                "min_penetration": 140,
+                "module_damage": 115,
+                "name": "UBR-365P",
+                "penetration": 161,
+                "penetration_loss": 0,
+                "price": 2800,
+                "range": 720,
+                "speed": 1000,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 85,
+                "damage": 280,
+                "explosion_radius": 1.32,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1546,
+                "icon": "he",
+                "id": "_85mm_UOF-365K",
+                "min_penetration": 43,
+                "module_damage": 115,
+                "name": "UOF-365K",
+                "penetration": 43,
+                "penetration_loss": 0,
+                "price": 98,
+                "range": 720,
+                "speed": 800,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "SU-85I",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "su-85i",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "mediumAT-SPG"
+            },
+            {
+                "name": "improvedVentilation_class2_user"
+            },
+            {
+                "name": "mediumCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class1_user"
+            },
+            {
+                "name": "enhancedTorsions3t_user"
+            },
+            {
+                "name": "grousers_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 5,
+        "turret_pos_x": -0.007075,
+        "turret_pos_y": 0.745454,
+        "turret_pos_z": 1.42511,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/russian/R78_SU_85I/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 76,
+                "id": 753,
+                "identifier": "Turret_1_SU_85I",
+                "name": "SU-85I",
+                "not_in_shop": true,
+                "price": 120,
+                "rotation_speed": 44,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 70,
+                "surveyor_repair_health": 35,
+                "surveyor_repair_price": 1,
+                "tank_id": "R78_SU_85I",
+                "tier": 5,
+                "turret_slot": 0,
+                "view_range": 330,
+                "visual_model": "vehicles/russian/R78_SU_85I/normal/lod0/Turret_01.model",
+                "weight": 100
+            }
+        ],
+        "type": "td",
+        "unlocks": null,
+        "version": "v0919",
+        "visual_model": "vehicles/russian/R78_SU_85I/normal/lod0/Hull.model",
+        "weight": 12865,
+        "xp_factor": 1.5
+    }
+}

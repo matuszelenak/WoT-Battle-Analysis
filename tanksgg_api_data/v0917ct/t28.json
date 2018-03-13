@@ -1,0 +1,833 @@
+{
+    "tank": {
+        "ammo_rack_health": 240,
+        "ammo_rack_repair_health": 160,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 254
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 203.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 50.8
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 133.35
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_9",
+                "primary": false,
+                "value": 101.6
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_10",
+                "primary": false,
+                "value": 203.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_11",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_12",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_13",
+                "primary": false,
+                "value": 101.6
+            }
+        ],
+        "armor_front": 254,
+        "armor_rear": 50.8,
+        "armor_side": 50.8,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.479,
+        "camo_moving": 0.191,
+        "camo_net": 0.15,
+        "camo_paint": 0.04,
+        "camo_price_factor": 1.6,
+        "camo_still": 0.319,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A39_T28/collision_client/Chassis.model",
+                "dispersion_movement": 0.22,
+                "dispersion_rotation": 0.22,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 180,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 608,
+                "identifier": "Chassis_T28",
+                "max_climb_angle": 25,
+                "max_load": 59800,
+                "name": "T28VVSS T46",
+                "not_in_shop": false,
+                "price": 16500,
+                "repair_health": 135,
+                "repair_price": 5,
+                "rotation_speed": 18,
+                "tank_id": "A39_T28",
+                "terrain_hard": 1.3,
+                "terrain_medium": 1.7,
+                "terrain_soft": 3.4,
+                "tier": 7,
+                "visual_model": "vehicles/american/A39_T28/normal/lod0/Chassis.model",
+                "weight": 12000
+            },
+            {
+                "armor": 20,
+                "brake_force": 35500,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A39_T28/collision_client/Chassis.model",
+                "dispersion_movement": 0.19,
+                "dispersion_rotation": 0.19,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 200,
+                "hull_pos_x": 0,
+                "hull_pos_y": 0.9,
+                "hull_pos_z": 0,
+                "id": 609,
+                "identifier": "Chassis_T28_2",
+                "max_climb_angle": 25,
+                "max_load": 62450,
+                "name": "T28VVSS T56",
+                "not_in_shop": false,
+                "price": 33300,
+                "repair_health": 150,
+                "repair_price": 5,
+                "rotation_speed": 20,
+                "tank_id": "A39_T28",
+                "terrain_hard": 1.1,
+                "terrain_medium": 1.4,
+                "terrain_soft": 2.9,
+                "tier": 8,
+                "visual_model": "vehicles/american/A39_T28/normal/lod0/Chassis.model",
+                "weight": 12000
+            }
+        ],
+        "collision_model": "vehicles/american/A39_T28/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "commander",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "In March 1944, the U.S. Army placed an order for five prototypes of heavy vehicles designated T28. As a result, the T95 SPG was built.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 682,
+                "identifier": "Ford_GAF",
+                "name": "Ford GAF",
+                "not_in_shop": false,
+                "power": 440,
+                "price": 25300,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A39_T28",
+                "tier": 6,
+                "weight": 569
+            },
+            {
+                "fire_chance": 0.2,
+                "health": 0,
+                "id": 683,
+                "identifier": "Ford_GAFM2",
+                "name": "Ford GAFM2A1",
+                "not_in_shop": false,
+                "power": 510,
+                "price": 34600,
+                "repair_health": 0,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A39_T28",
+                "tier": 6,
+                "weight": 569
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 18,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A39_T28/collision_client/Gun_02.model",
+                "depression": 5,
+                "dispersion": 0.35,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 3.2,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 35
+                    }
+                ],
+                "health": 170,
+                "id": 1078,
+                "identifier": "_90mm_AT_Gun_T15E2",
+                "max_ammo": 72,
+                "name": "90 mm AT Gun T15E2",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 111900,
+                "reload_time": 6.9,
+                "repair_health": 85,
+                "repair_price": 7,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 514,
+                "visual_model": "vehicles/american/A39_T28/normal/lod0/Gun_02.model",
+                "weight": 2050,
+                "yaw_left": -10,
+                "yaw_right": 11
+            },
+            {
+                "Shells": null,
+                "aim_time": 1.7,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A39_T28/collision_client/Gun_03.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 40
+                    }
+                ],
+                "health": 180,
+                "id": 1079,
+                "identifier": "_105mm_AT_Gun_T5E1",
+                "max_ammo": 60,
+                "name": "105 mm AT Gun T5E1",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 118000,
+                "reload_time": 7.7,
+                "repair_health": 90,
+                "repair_price": 8,
+                "rotation_speed": 35,
+                "tier": 8,
+                "turret_id": 514,
+                "visual_model": "vehicles/american/A39_T28/normal/lod0/Gun_03.model",
+                "weight": 2400,
+                "yaw_left": -10,
+                "yaw_right": 11
+            },
+            {
+                "Shells": null,
+                "aim_time": 2.1,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A39_T28/collision_client/Gun_04.model",
+                "depression": 5,
+                "dispersion": 0.38,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 4,
+                "dispersion_rotation": 0.08,
+                "elevation": 20,
+                "full_armor": [
+                    {
+                        "factor": 0,
+                        "name": "armor_1",
+                        "value": 203.2
+                    },
+                    {
+                        "factor": 0,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 50
+                    }
+                ],
+                "health": 210,
+                "id": 1080,
+                "identifier": "_120mm_AT_Gun_T53",
+                "max_ammo": 40,
+                "name": "120 mm AT Gun T53",
+                "not_in_shop": false,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -20
+                        ],
+                        [
+                            1,
+                            -20
+                        ]
+                    ]
+                },
+                "price": 250000,
+                "reload_time": 9.1,
+                "repair_health": 105,
+                "repair_price": 8,
+                "rotation_speed": 26.25,
+                "tier": 10,
+                "turret_id": 514,
+                "visual_model": "vehicles/american/A39_T28/normal/lod0/Gun_04.model",
+                "weight": 2790,
+                "yaw_left": -10,
+                "yaw_right": 11
+            }
+        ],
+        "health": 1200,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A39_T28",
+        "name": "T28",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 0,
+        "price": 2580000,
+        "radios": [
+            {
+                "health": 120,
+                "id": 735,
+                "identifier": "SCR_508",
+                "name": "SCR 508",
+                "not_in_shop": false,
+                "price": 21600,
+                "range": 395,
+                "repair_health": 60,
+                "repair_price": 1.2,
+                "tank_id": "A39_T28",
+                "tier": 6,
+                "weight": 100
+            },
+            {
+                "health": 200,
+                "id": 736,
+                "identifier": "SCR_528",
+                "name": "SCR 528",
+                "not_in_shop": false,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A39_T28",
+                "tier": 10,
+                "weight": 80
+            }
+        ],
+        "repair_price": 8.91,
+        "reverse_speed": 7,
+        "shells": [
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1078,
+                "icon": "ap",
+                "id": "_90mm_AP_M77",
+                "min_penetration": 150,
+                "module_damage": 122,
+                "name": "AP M77",
+                "penetration": 170,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 975,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 90,
+                "damage": 240,
+                "explosion_radius": 0,
+                "gold_price": 11,
+                "gravity": 9.81,
+                "gun_id": 1078,
+                "icon": "ap_cr",
+                "id": "_90mm_HVAP_M304",
+                "min_penetration": 235,
+                "module_damage": 122,
+                "name": "HVAP M304",
+                "penetration": 258,
+                "penetration_loss": 0,
+                "price": 4400,
+                "range": 720,
+                "speed": 1219,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 90,
+                "damage": 320,
+                "explosion_radius": 1.46,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1078,
+                "icon": "he",
+                "id": "_90mm_HE_M71",
+                "min_penetration": 45,
+                "module_damage": 122,
+                "name": "HE M71",
+                "penetration": 45,
+                "penetration_loss": 0,
+                "price": 255,
+                "range": 720,
+                "speed": 975,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1079,
+                "icon": "ap",
+                "id": "_105mm_AP_T32",
+                "min_penetration": 175,
+                "module_damage": 150,
+                "name": "AP T32",
+                "penetration": 198,
+                "penetration_loss": 0,
+                "price": 1000,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 105,
+                "damage": 320,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1079,
+                "icon": "ap_cr",
+                "id": "_105mm_APCR_T29E3",
+                "min_penetration": 219,
+                "module_damage": 150,
+                "name": "APCR T29E3",
+                "penetration": 245,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 105,
+                "damage": 420,
+                "explosion_radius": 1.91,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1079,
+                "icon": "he",
+                "id": "_105mm_HE_M11",
+                "min_penetration": 53,
+                "module_damage": 150,
+                "name": "HE M11",
+                "penetration": 53,
+                "penetration_loss": 0,
+                "price": 680,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1080,
+                "icon": "ap",
+                "id": "_120mm_AP_T42",
+                "min_penetration": 238,
+                "module_damage": 165,
+                "name": "AP T42",
+                "penetration": 248,
+                "penetration_loss": 0,
+                "price": 1060,
+                "range": 720,
+                "speed": 945,
+                "type": "ARMOR_PIERCING"
+            },
+            {
+                "caliber": 120,
+                "damage": 400,
+                "explosion_radius": 0,
+                "gold_price": 12,
+                "gravity": 9.81,
+                "gun_id": 1080,
+                "icon": "ap_cr",
+                "id": "_120mm_APCR_T62",
+                "min_penetration": 255,
+                "module_damage": 165,
+                "name": "APCR T62",
+                "penetration": 297,
+                "penetration_loss": 0,
+                "price": 4800,
+                "range": 720,
+                "speed": 1181,
+                "type": "ARMOR_PIERCING_CR"
+            },
+            {
+                "caliber": 120,
+                "damage": 515,
+                "explosion_radius": 2.42,
+                "gold_price": 0,
+                "gravity": 9.81,
+                "gun_id": 1080,
+                "icon": "he",
+                "id": "_120mm_HE-T67",
+                "min_penetration": 60,
+                "module_damage": 165,
+                "name": "HE T67",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 900,
+                "range": 720,
+                "speed": 945,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T28",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t28",
+        "tags": [
+            {
+                "name": "AT-SPG"
+            },
+            {
+                "name": "heavyAT-SPG"
+            },
+            {
+                "name": "largeCaliberTankRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedVertical_springs_class3_user"
+            }
+        ],
+        "tier": 8,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.580625,
+        "turret_pos_z": 2.16574,
+        "turret_slots": null,
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A39_T28/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 18
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 0,
+                "gun_pos_y": 0,
+                "gun_pos_z": 0,
+                "health": 300,
+                "id": 514,
+                "identifier": "Turret_1_T28",
+                "name": "T28",
+                "not_in_shop": true,
+                "price": 1200,
+                "rotation_speed": 26,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "A39_T28",
+                "tier": 8,
+                "turret_slot": 0,
+                "view_range": 370,
+                "visual_model": "vehicles/american/A39_T28/normal/lod0/Turret_01.model",
+                "weight": 170
+            }
+        ],
+        "type": "td",
+        "unlocks": [
+            {
+                "key": "chassis-Chassis_T28_2",
+                "name": "Chassis_T28_2",
+                "parent_key": "chassis-Chassis_T28",
+                "price": 14600,
+                "type": "chassis"
+            },
+            {
+                "key": "gun-_105mm_AT_Gun_T5E1",
+                "name": "_105mm_AT_Gun_T5E1",
+                "parent_key": "gun-_90mm_AT_Gun_T15E2",
+                "price": 18100,
+                "type": "gun"
+            },
+            {
+                "key": "gun-_120mm_AT_Gun_T53",
+                "name": "_120mm_AT_Gun_T53",
+                "parent_key": "gun-_105mm_AT_Gun_T5E1",
+                "price": 51000,
+                "type": "gun"
+            },
+            {
+                "key": "vehicle-A40_T95",
+                "name": "A40_T95",
+                "parent_key": "gun-_105mm_AT_Gun_T5E1",
+                "price": 165000,
+                "tank_name": "T95",
+                "tank_price": 3500000,
+                "tank_slug": "t95",
+                "tank_tier": 9,
+                "tank_type": "td",
+                "type": "vehicle"
+            },
+            {
+                "key": "engine-Ford_GAFM2",
+                "name": "Ford_GAFM2",
+                "parent_key": "engine-Ford_GAF",
+                "price": 5250,
+                "type": "engine"
+            },
+            {
+                "key": "radio-SCR_528",
+                "name": "SCR_528",
+                "parent_key": "radio-SCR_508",
+                "price": 9000,
+                "type": "radio"
+            }
+        ],
+        "version": "v0917ct",
+        "visual_model": "vehicles/american/A39_T28/normal/lod0/Hull.model",
+        "weight": 44050,
+        "xp_factor": 1
+    }
+}

@@ -1,0 +1,441 @@
+{
+    "tank": {
+        "ammo_rack_health": 170,
+        "ammo_rack_repair_health": 85,
+        "ammo_rack_repair_price": 1,
+        "armor": [
+            {
+                "damage_factor": 1,
+                "name": "armor_1",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_2",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_3",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_4",
+                "primary": true,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_5",
+                "primary": true,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_6",
+                "primary": false,
+                "value": 22.2
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_7",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_8",
+                "primary": false,
+                "value": 0
+            },
+            {
+                "damage_factor": 0,
+                "name": "armor_9",
+                "primary": false,
+                "value": 12.7
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_15",
+                "primary": false,
+                "value": 25.4
+            },
+            {
+                "damage_factor": 1,
+                "name": "armor_16",
+                "primary": false,
+                "value": 30.4
+            }
+        ],
+        "armor_front": 25.4,
+        "armor_rear": 12.7,
+        "armor_side": 25.4,
+        "battle_tier": "",
+        "camo_fire_penalty": 0.204,
+        "camo_moving": 0.068,
+        "camo_net": 0.05,
+        "camo_paint": 0.02,
+        "camo_price_factor": 2,
+        "camo_still": 0.136,
+        "chassis": [
+            {
+                "armor": 20,
+                "brake_force": 58000,
+                "center_rotation": true,
+                "collision_model": "vehicles/american/A38_T92/collision_client/Chassis.model",
+                "dispersion_movement": 0.3,
+                "dispersion_rotation": 0.3,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "leftTrack",
+                        "value": 20
+                    },
+                    {
+                        "factor": 1,
+                        "name": "rightTrack",
+                        "value": 20
+                    }
+                ],
+                "health": 170,
+                "hull_pos_x": 0,
+                "hull_pos_y": 1.11409,
+                "hull_pos_z": 0,
+                "id": 768,
+                "identifier": "Chassis_T92",
+                "max_climb_angle": 25,
+                "max_load": 61000,
+                "name": "T92 HMC",
+                "not_in_shop": true,
+                "price": 32000,
+                "repair_health": 130,
+                "repair_price": 5,
+                "rotation_speed": 20,
+                "tank_id": "A38_T92",
+                "terrain_hard": 1,
+                "terrain_medium": 1.2,
+                "terrain_soft": 1.9,
+                "tier": 10,
+                "visual_model": "vehicles/american/A38_T92/normal/lod0/Chassis.model",
+                "weight": 24000
+            }
+        ],
+        "collision_model": "vehicles/american/A38_T92/collision_client/Hull.model",
+        "crew": [
+            {
+                "filled_by": "commander",
+                "role": "commander"
+            },
+            {
+                "filled_by": "gunner",
+                "role": "gunner"
+            },
+            {
+                "filled_by": "driver",
+                "role": "driver"
+            },
+            {
+                "filled_by": "radioman",
+                "role": "radioman"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            },
+            {
+                "filled_by": "loader",
+                "role": "loader"
+            }
+        ],
+        "description": "A U.S. SPG developed in 1945 on the basis of the T26E3 for destroying bunkers and underground hideouts on islands of the Pacific. Five vehicles were built, including the experimental one. The project was discontinued when the war ended.",
+        "engines": [
+            {
+                "fire_chance": 0.2,
+                "health": 234,
+                "id": 849,
+                "identifier": "Ford_GAF_R1",
+                "name": "Ford GAF (T92 HMC)",
+                "not_in_shop": true,
+                "power": 500,
+                "price": 38700,
+                "repair_health": 123,
+                "repair_price": 5,
+                "tags": "gasoline",
+                "tank_id": "A38_T92",
+                "tier": 6,
+                "weight": 641
+            }
+        ],
+        "fake_turret": true,
+        "forward_speed": 32.2,
+        "fuel_tank_health": 175,
+        "fuel_tank_repair_health": 70,
+        "fuel_tank_repair_price": 1,
+        "fuel_tank_weight": 275,
+        "gold_price": 0,
+        "guns": [
+            {
+                "Shells": null,
+                "aim_time": 5.9,
+                "burst_reload": 0,
+                "burst_size": 0,
+                "clip_reload": 0,
+                "clip_size": 0,
+                "collision_model": "vehicles/american/A38_T92/collision_client/Gun_01.model",
+                "depression": 0,
+                "dispersion": 0.83,
+                "dispersion_damaged": 2,
+                "dispersion_firing": 6,
+                "dispersion_rotation": 0.45,
+                "elevation": 65,
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "gun",
+                        "value": 30
+                    },
+                    {
+                        "factor": 1,
+                        "name": "gunBreech",
+                        "value": 0
+                    }
+                ],
+                "health": 288,
+                "id": 1278,
+                "identifier": "_240mm_Howitzer_M1",
+                "max_ammo": 16,
+                "name": "240 mm Howitzer M1",
+                "not_in_shop": true,
+                "pitch_limits": {
+                    "depression": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "elevation": [
+                        [
+                            0,
+                            -65
+                        ],
+                        [
+                            1,
+                            -65
+                        ]
+                    ]
+                },
+                "price": 350000,
+                "reload_time": 49,
+                "repair_health": 144,
+                "repair_price": 12,
+                "rotation_speed": 17.5,
+                "tier": 10,
+                "turret_id": 651,
+                "visual_model": "vehicles/american/A38_T92/normal/lod0/Gun_01.model",
+                "weight": 11385,
+                "yaw_left": -12,
+                "yaw_right": 12
+            }
+        ],
+        "health": 400,
+        "hidden": false,
+        "hull_aiming": false,
+        "hull_depression": 0,
+        "hull_elevation": 0,
+        "id": "A38_T92",
+        "name": "T92 HMC",
+        "nation": "usa",
+        "not_in_shop": false,
+        "num_turret_slots": 1,
+        "price": 6100000,
+        "radios": [
+            {
+                "health": 200,
+                "id": 898,
+                "identifier": "SCR_528R1",
+                "name": "SCR 528A",
+                "not_in_shop": true,
+                "price": 54000,
+                "range": 745,
+                "repair_health": 150,
+                "repair_price": 3,
+                "tank_id": "A38_T92",
+                "tier": 10,
+                "weight": 91
+            }
+        ],
+        "repair_price": 60.23,
+        "reverse_speed": 10,
+        "shells": [
+            {
+                "caliber": 240,
+                "damage": 1300,
+                "explosion_radius": 13,
+                "gold_price": 0,
+                "gravity": 150,
+                "gun_id": 1278,
+                "icon": "he",
+                "id": "_240mm_HE_M146",
+                "min_penetration": 60,
+                "module_damage": 160,
+                "name": "HE M146",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 2500,
+                "range": 10000,
+                "speed": 460,
+                "type": "HIGH_EXPLOSIVE"
+            },
+            {
+                "caliber": 240,
+                "damage": 1300,
+                "explosion_radius": 14.5,
+                "gold_price": 20,
+                "gravity": 150,
+                "gun_id": 1278,
+                "icon": "he_premium",
+                "id": "_240mm_HE_M160",
+                "min_penetration": 60,
+                "module_damage": 160,
+                "name": "HE M160",
+                "penetration": 60,
+                "penetration_loss": 0,
+                "price": 8000,
+                "range": 10000,
+                "speed": 460,
+                "type": "HIGH_EXPLOSIVE"
+            }
+        ],
+        "short_name": "T92 HMC",
+        "siege": false,
+        "siege_enter_time": 0,
+        "siege_id": "",
+        "siege_leave_time": 0,
+        "siege_slug": "",
+        "slug": "t92-hmc",
+        "tags": [
+            {
+                "name": "SPG"
+            },
+            {
+                "name": "heavySPG"
+            },
+            {
+                "name": "largeCaliberHowitzerRammer_user"
+            },
+            {
+                "name": "wetCombatPack_class2_user"
+            },
+            {
+                "name": "enhancedTorsions5t_user"
+            },
+            {
+                "name": "HD"
+            }
+        ],
+        "tier": 10,
+        "turret_pos_x": 0,
+        "turret_pos_y": 0.485909,
+        "turret_pos_z": -1.02359,
+        "turret_slots": [
+            {
+                "id": 508,
+                "pos_x": 0,
+                "pos_y": 0.485909,
+                "pos_z": -1.02359,
+                "rot_x": 0,
+                "rot_y": 0,
+                "rot_z": 0,
+                "slot": 0,
+                "tank_id": "A38_T92"
+            }
+        ],
+        "turrets": [
+            {
+                "Guns": null,
+                "armor_front": 0,
+                "armor_rear": 0,
+                "armor_side": 0,
+                "collision_model": "vehicles/american/A38_T92/collision_client/Turret_01.model",
+                "full_armor": [
+                    {
+                        "factor": 1,
+                        "name": "armor_1",
+                        "value": 12.7
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_2",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_3",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_4",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_5",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_6",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_7",
+                        "value": 0
+                    },
+                    {
+                        "factor": 1,
+                        "name": "armor_8",
+                        "value": 0
+                    }
+                ],
+                "gun_pos_x": 1e-06,
+                "gun_pos_y": 0.816002,
+                "gun_pos_z": -0.889977,
+                "health": 100,
+                "id": 651,
+                "identifier": "Turret_1_T92",
+                "name": "T92 HMC",
+                "not_in_shop": true,
+                "price": 0,
+                "rotation_speed": 8,
+                "rotator_health": 100,
+                "rotator_repair_health": 50,
+                "rotator_repair_price": 1,
+                "surveyor_health": 100,
+                "surveyor_repair_health": 50,
+                "surveyor_repair_price": 1,
+                "tank_id": "A38_T92",
+                "tier": 10,
+                "turret_slot": 0,
+                "view_range": 310,
+                "visual_model": "vehicles/american/A38_T92/normal/lod0/Turret_01.model",
+                "weight": 300
+            }
+        ],
+        "type": "spg",
+        "unlocks": null,
+        "version": "v0922",
+        "visual_model": "vehicles/american/A38_T92/normal/lod0/Hull.model",
+        "weight": 21152,
+        "xp_factor": 1
+    }
+}
